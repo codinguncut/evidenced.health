@@ -21,12 +21,15 @@ sources: [Alentorn-Geli - Running Hip Knee Osteoarthritis,
   Gomez-Redondo - Supervised Unsupervised Exercise,
   Haugen - Free Weight vs Machine Strength Training 2023,
   Khalafi - Exercise Type CRF Postmenopausal,
+  Kokkinos - FRIEND Cycle Ergometry Equation 2018,
   Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022,
   Kunutsor - Adverse Events Exercise Osteoporosis Osteopenia Systematic Review 2018,
   Lauersen - Exercise Interventions Prevent Sports Injuries Meta-Analysis 2013,
   Luan - Stationary Cycling Knee OA,
+  Marin-Jimenez - 2-km Walk Test Validity Reliability 2023,
   Niven - Affective Responses HIIT,
   ODonoghue - Exercise Prescription Body Composition,
+  Oja - 2-km Walking Test Fitness 1991,
   Paluch - Daily Steps Mortality 2022,
   Poon - HIIT Cardiorespiratory Fitness Umbrella 2024,
   Racey - Physical Activity Interventions Frailty Meta-Analysis 2021,
@@ -66,12 +69,30 @@ along the way; what you can do in daily life is the goal. -> [[Resistance Traini
 
 Plain numbers trace to the evidence; a † marks a practical choice the evidence leaves open.
 
-| Session | What | How long, how often | How hard, and how measured |
+| Session | What | How long, how often | How hard |
 |---|---|---|---|
-| **Strength A and B** | 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull, loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. | 2x/week on non-consecutive days†, about 30-40 min† | Weeks 1-8†: moderate loads. Then build toward **heavy**. **No maximum-lift test is needed†: set the load by reps.** Early on, aim for 12-15 reps per set; later, heavier loads for about 5-8 reps per set†. Stop 1-2 reps short of failure†. When you reach the top of the rep range with more than about 2 reps still in hand, add the smallest step next session†. Log the load. Trials label these loads as below and above 80% of a one-repetition maximum (1RM). A network meta-analysis of 178 strength trials converted rep maxima to %1RM as 100 minus 2.5 per rep, which puts an 8-rep maximum at 80% [@currier2023]. That is a coding rule, not a tested conversion; how much it varies by person or exercise is not known here |
-| **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve**: a brisk effort, breathing harder but still able to talk†. A heart-rate monitor using an age-estimated maximum is a rough check, not a requirement†. On a heart-rate-lowering drug such as a beta-blocker, go by perceived effort instead |
+| **Strength A and B** | 5-6 whole-body exercises†, **2-3 sets each** | 2x/week on non-consecutive days†, about 30-40 min† | Moderate loads for weeks 1-8†, then build toward **heavy**; set by reps |
+| **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve** |
 | **Everyday movement** | More steps, less sitting, any intensity | Daily | Step count on a phone or tracker |
 | *Optional: intervals* | Swap one aerobic session for intervals | After 8-12 weeks† | Hard effort; not part of the minimum |
+
+**Strength, in detail.** 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull,
+loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. Weeks 1-8†: moderate
+loads. Then build toward **heavy**. **No maximum-lift test is needed†: set the load by reps.** Early on,
+aim for 12-15 reps per set; later, heavier loads for about 5-8 reps per set†. Stop 1-2 reps short of
+failure†. When you reach the top of the rep range with more than about 2 reps still in hand, add the
+smallest step next session†. Log the load.
+
+Trials label these loads as below and above 80% of a one-repetition maximum (1RM). A network
+meta-analysis of 178 strength trials converted rep maxima to %1RM as 100 minus 2.5 per rep, which puts
+an 8-rep maximum at 80% [@currier2023]. That
+is a coding rule, not a tested conversion; how much it varies by person or exercise is not known here
+
+
+**Aerobic effort, in detail.** **About 50% of heart-rate reserve**: a brisk effort, breathing harder but
+still able to talk†. A heart-rate monitor using an age-estimated maximum is a rough check, not a
+requirement†. On a heart-rate-lowering drug such as a beta-blocker, go by perceived effort instead
+
 
 **How the first six months run**:
 
@@ -225,6 +246,21 @@ rises with weight loss alone; the pooled analysis in adults with obesity used li
 [@odonoghue2020]. These numbers predict outcomes;
 they are not the outcome. -> [[Surrogate Outcomes]], [[Sarcopenia Definition and Diagnosis]]
 
+**A fitness test gives a range, not a number.** Without a lab, a fast 2-km walk with a heart-rate
+strap estimates VO2max. Its authors found it relatively valid in medically screened healthy adults with
+and without obesity, though in their obese men the estimate ran below measured on average, and they advise a
+practice walk first [@oja1991walk]. In a later sample of
+410 adults aged 18-64, 95% of walk estimates landed within about 12-13 ml·kg-1·min-1 of measured VO2max
+(about ±3.6 METs), and 95% of repeat walks a week later agreed within about 8
+[@marinjimenez2023walk]. An 8-9% gain from a
+starting VO2max near 25 is about 2 ml·kg-1·min-1, well inside either band, so a before-and-after pair
+cannot show progress; for tracking, lean on the load and chair-stand log.
+
+In a lab or clinic, a supervised maximal bike test is the other option; read its peak watts through the FRIEND
+equation rather than the ACSM one, which read 15% high on average. That paper reports no per-person
+error [@kokkinos2018cycle].
+-> [[Measuring and Raising Cardiorespiratory Fitness]]
+
 **Some people need a different start.** With osteoporosis, be wary of moves that bend the spine forward,
 such as sit-ups and some yoga poses, which were linked to rare vertebral fractures
 [@kunutsor2018adverse].
@@ -288,9 +324,9 @@ injury, adherence and detraining detail sits in [[Tendon Adaptation to Mechanica
 > | | |
 > |---|---|
 > | **Question** | 'For a median obese, sedentary, untrained, inactive middle-aged adult in a developed country whose objectives are quality of life, functional capacity, and a function-held-then-rapid-decline trajectory (the centenary decathlon): what does the evidence show about aerobic AND resistance training, as co-led questions, for cardiorespiratory fitness, strength, and function together; what is the SIMPLEST weekly program that could plausibly be adequate — the minimum that could work — if a dose threshold is even the right framing, across acquisition and maintenance, accounting for modality, frequency / volume / intensity and measurement, adherence, connective-tissue conditioning, injury, impact, and compensation?' |
-> | **Evidence included** | 33 sources — 28 gold, 4 high, 1 moderate |
+> | **Evidence included** | 36 sources — 28 gold, 5 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Ross (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Marin-Jimenez (method, moderate); Oja (method, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
 
 ## References

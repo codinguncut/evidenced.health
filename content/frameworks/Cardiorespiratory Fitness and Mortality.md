@@ -114,6 +114,11 @@ There are two anchors the wiki holds:
 So a VO2max reading converts to METs (/3.5) and drops into a band — the practical *is my fitness good?*
 answer the activity-dose evidence cannot give. **Caveat: Mandsager's bands are from a referral population
 using *estimated* (treadmill) METs, so a directly-measured VO2max placed against them is approximate.**
+The estimate is a work-rate conversion: peak METs were «determined based on treadmill grade and speed at
+peak exercise», with no conversion equation named [@mandsager2018]. Why a cycle-test number may
+land low on this grid (the cycle-vs-treadmill modality gap, plus a treadmill conversion that would over-read
+if it resembles the ACSM steady-state equations; Mandsager names none) is worked through on
+[[Measuring and Raising Cardiorespiratory Fitness]].
 
 </div>
 

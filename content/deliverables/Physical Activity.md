@@ -16,6 +16,9 @@ sources:
   - Kodama - Cardiorespiratory Fitness and Mortality 2009
   - Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018
   - Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016
+  - Kokkinos - FRIEND Cycle Ergometry Equation 2018
+  - Oja - 2-km Walking Test Fitness 1991
+  - Marin-Jimenez - 2-km Walk Test Validity Reliability 2023
   - Knowler - Diabetes Prevention Program DPP 2002
   - Pan - Da Qing IGT Study 1997
   - Hamman - DPP Weight Loss Mediation 2006
@@ -318,6 +321,22 @@ equations estimate it from routine clinical data with no test at all. Two of the
 predicted long-term mortality about as well as measured fitness, but Ross warns that in «most clinical patient
 subsets, nonexercise estimated CRF should not be viewed as a replacement for objective assessment of
 CRF.» [@ross2016]
+
+**A bike or walk estimate is a band, not a point.** For peak watts from a maximal cycle test, the
+equation matters: in 5,100 adults with measured VO2max, the ACSM equation read 15.5% high on average
+(11% in men, 24% in women), the FRIEND equation 0.5%. The paper reports no standard error of the
+estimate or limits of agreement, so one person's error is not stated
+[@kokkinos2018cycle].
+
+Without a bike, a fast 2-km walk estimates VO2max from walk time, finishing heart rate, age and BMI
+[@oja1991walk]. In 410 Spanish adults aged 18-64, 95% of
+walk estimates fell within about ±12.5 ml·kg-1·min-1 of measured VO2max (limits −12.9 to +12.3), and in
+95% of people two walks a week apart agreed within about 8 ml·kg-1·min-1. The authors judge the test
+valid and reliable across sex, age and activity level, a group-level verdict
+[@marinjimenez2023walk]. For one person, the
+retest band is larger than the roughly 10% gain (about 3-4 ml·kg-1·min-1 at a VO2max of 35) that a
+previously sedentary adult meeting the guidelines can expect, so one before-and-after pair of walks
+cannot confirm a training gain. [[Measuring and Raising Cardiorespiratory Fitness]]
 
 **A fitness reading can change a risk estimate, not just correlate with risk.** Adding CRF to age,
 blood pressure, cholesterol, diabetes and smoking correctly reclassified 12.1% of men for
@@ -1154,9 +1173,9 @@ happened to the person who made it.
 > | | |
 > |---|---|
 > | **Question** | What is the effect of physical activity and structured exercise (by modality, dose, intensity) on each patient-important outcome, what is the dose-response shape for each, and how do the levers rank against each other for a given stratum? |
-> | **Evidence included** | 71 sources — 52 gold, 16 high, 2 moderate, 1 method |
+> | **Evidence included** | 74 sources — 52 gold, 17 high, 4 moderate, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Oja (method, moderate); Marin-Jimenez (method, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
 
 ## References

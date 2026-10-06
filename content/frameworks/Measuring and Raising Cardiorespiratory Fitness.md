@@ -1,9 +1,9 @@
 ---
 type: framework
 question: How do I measure my cardiorespiratory fitness, how much exercise raises it, and does raising it actually lower risk?
-aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, VO2max Measurement, CRF Vital Sign, Exercise Dose to Increase Fitness]
-authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.]
-sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT]
+aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, VO2max Measurement, CRF Vital Sign, Exercise Dose to Increase Fitness, 2-km Walk Test, UKK Walk Test]
+authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.; Khan, Sadiya S; Matsushita, Kunihiro; Sang, Yingying; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Kokkinos, Peter F.; Zhang, Jiajia; Mandsager, Kyle; Jaber, Wael; Oja, Pekka; Laukkanen, Raija; Pasanen, Matti; Tyry, Tuula; Vuori, Ilkka; Marín-Jiménez, Nuria; Sánchez-Parente, Sandra; Expósito-Carrillo, Pablo; Jiménez-Iglesias, José; Álvarez-Gallardo, Inmaculada C.; Cuenca-García, Magdalena; Castro-Piñero, José]
+sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Kokkinos - FRIEND Cycle Ergometry Equation 2018, Oja - 2-km Walking Test Fitness 1991, Marin-Jimenez - 2-km Walk Test Validity Reliability 2023, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT, SCORE2-Diabetes 2023, Khan - PREVENT Equations 2024]
 cluster: fitness
 confidence: medium
 relationships:
@@ -19,6 +19,7 @@ created: 2026-07-28
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
@@ -34,6 +35,19 @@ the exercise→CRF dose from a different body than the AHA and adds the HIIT-vs-
 consensus tier), and the **causal** leg (raising CRF → lower mortality) stays overwhelmingly
 observational. So two of three legs are well-supported and one (causality) is not — `medium`, not `high`.
 [inferred from @ross2016; @poon2024]
+The measure-it leg now also carries one measured-VO2 cohort for the cycle route (Kokkinos 2018, FRIEND
+registry), but it shares three authors with Ross, so it adds data, not independent backing; the grade
+stays `medium`. [inferred from @ross2016; @kokkinos2018cycle]
+A walk-test route now rests on Oja 1991 (UKK 2-km walk test derivation and cross-validation), a different
+group with no shared authors, but a single 1991 validation study (64 people in the derivation); it adds
+a route, not a grade change. [inferred from @oja1991walk]
+Marín-Jiménez 2023 (n=410, Spain) adds out-of-sample agreement and test-retest data for Oja's equation;
+it tests that equation rather than backing it independently, so it bounds the walk route's per-person
+error without changing the grade. [inferred from @marinjimenez2023walk]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -50,10 +64,265 @@ observational. So two of three legs are well-supported and one (causality) is no
   meta-analytic 13%/15% ([[Cardiorespiratory Fitness and Mortality]], Kodama). Hard caveat: eCRF
   «should not be viewed as a replacement for objective assessment of CRF» in at-risk patients.
 
+### Estimating VO2max from a maximal cycle test — the FRIEND equation vs the ACSM equation
+
+**The equation and where it comes from.** Kokkinos 2018 fitted a cycle equation to directly measured
+VO2max in the FRIEND registry: 5,100 adults (3,378 men, mean age 35.9; 1,722 women, mean age 47.5;
+range 18-87; 4,617 White; 57% overweight or obese), each on a graded maximal cycle test in one of eight
+US/European labs, with maximal effort required («a peak respiratory exchange ratio ≥1.0») and people
+with CVD, cancer, COPD, CKD or PAD excluded (but «subjects with particular conditions (e.g., diabetes and
+obesity), musculoskeletal concerns (e.g., back pain and osteoarthritis), and CVD risk factors» kept in).
+Result: «VO2 max in ml O2●kg-1●min-1= 1.74* [Watts*6.12/body
+weight (kg)] +3.5», with sex-specific slopes of 1.76 (men) and 1.65 (women).
+[@kokkinos2018cycle]
+
+**The ACSM equation over-reads by about 15% on average.** Bias was measured as (predicted - measured) /
+measured. «The ACSM equation overestimated VO2 max by over 15% for the entire cohort (average relative
+bias: 15.46 % ± 0.13)» — +11.23% in men, +23.77% in women — against +0.51% for the FRIEND equation.
+The single FRIEND equation still splits by sex (-0.78% men, +3.04% women); the sex-specific versions
+give +0.26% (men) and -1.37% (women). The 30% hold-out sample repeats the pattern (+15.78% vs +0.59%).
+All of these are cohort means inside FRIEND.
+The authors' explanation: the ACSM equations come from submaximal steady-state work in mostly young
+subjects, extrapolated to a maximum where «a steady-state is rarely achieved at high levels of
+exercise». [@kokkinos2018cycle]
+
+**What that means for a bike reading.** Since 1.74 x 6.12 ≈ 10.65, the equation is VO2max ≈ 10.65 x
+(peak watts / kg) + 3.5 ml·kg-1·min-1, or about 3.04 x W/kg + 1 in METs. A 250 W peak at 80 kg (3.1
+W/kg) gives about 36.8 ml·kg-1·min-1, about 10.5 METs. A readout built on the ACSM equation would put the
+same ride higher. In the cohort the ACSM equation read above measured VO2max by about 11% in men and 24%
+in women on average, and above the single FRIEND equation's mean estimate by about 12% (men) and 18%
+(women) (Table 3A means: 46.77 vs 41.94; 28.22 vs 24.01).
+[inferred from @kokkinos2018cycle]
+
+**What the paper does not give.**
+
+- **No usable individual error.** Table 3 is headed «Mean ± Standard Deviation», and each mean relative
+  bias carries an SD (FRIEND 0.11, ACSM 0.13), which would describe per-person spread. Its scale is
+  unclear: the text writes «0.51% ± 0.11%», and an SD of 0.11 percentage points is
+  implausibly small for single tests; read as a fraction it would mean roughly 11-13% spread for one
+  person, close to Ross's submaximal SEE. No standard error of the estimate or limits of agreement is
+  given [searched: standard error of the estimate / limits of agreement / Bland / correlation across
+  chunk 01, 0 hits; positive control `relative bias` 13 hits]. So a near-zero average bias does not say
+  how far one person's estimate may sit from their measured value.
+  [@kokkinos2018cycle]
+- **Maximal tests only.** The input is the work rate of a graded test to exhaustion. Watts from a
+  submaximal steady session (say 15 min at 75% HRmax) fall outside the data the equation was fitted
+  to; that case is the submaximal HR-extrapolation route above, with its own error.
+  [inferred from @kokkinos2018cycle]
+- **Protocol not specified.** Protocols were lab-specific, and the paper names no ramp rate or stage
+  length [searched: ramp / increment / stage / peak work across chunk 01, 0 hits]. Peak watts on a step
+  protocol depend on stage length, so a home ramp test may not match the labs' inputs.
+  [inferred from @kokkinos2018cycle]
+- **Validation inside one registry only.** The authors write: «Additional studies are needed in different populations to
+  further explore the portability of the FRIEND equation.» [@kokkinos2018cycle]. The held text is
+  the accepted manuscript, which contains internal slips (the hold-out is headed n=1,530, 30% of 5,100,
+  but its "All" row reads n=1,758; the Conclusion labels the single equation's -0.78% / +3.04% as the
+  sex-specific results). The women in the cohort were older and less fit than the men, so the larger ACSM error in
+  women cannot be pinned on sex.
+  [inferred from @kokkinos2018cycle]
+
+**Matched against Ross's error figures (NO CELL, NO CLAIM).**
+
+| Parameter | Ross 2016 | Kokkinos 2018 | Same quantity? |
+|---|---|---|---|
+| Test | submaximal: 2 steady-state work rates, HR line extrapolated to age-predicted HRmax | graded maximal cycle test, measured VO2max | NO |
+| Error figure | SEE «±10% to 15%» (spread for one person) | mean relative bias +0.51% FRIEND, +15.46% ACSM (average offset); SD 0.11 / 0.13, scale unclear | NO — spread vs offset; the SD's scale cannot be matched |
+| Cycle comparison | cycle 10-20% below treadmill, untrained (modality gap) | cycle equation vs cycle measurement (equation gap) | NO |
+| Authors | Ross, Blair, Arena, Kaminsky, Myers, et al. | Kokkinos, Kaminsky, Arena, Zhang, Myers | shared authors — not independent |
+
+[@ross2016]
+
+No row matches, so the two figures do not combine into one error band. Ross bounds the per-person
+error of the submaximal route. Inside the FRIEND cohort, Kokkinos removes the ACSM equation's average
++15% offset from the maximal route (the single equation still reads +3% in women), but its per-person
+error cannot be read from the paper. The individual error of a maximal cycle test read through the
+FRIEND equation is an open gap (type-G): no held source reports it in usable form. —
+an agreement study (SEE or limits of agreement) of FRIEND-estimated vs measured cycle VO2max.
+[inferred from @ross2016; @kokkinos2018cycle]
+
+**Placing a bike number on Mandsager's bands.** Mandsager's METs were «determined based on treadmill grade
+and speed at peak exercise», and the paper names no conversion equation [@mandsager2018]. Two offsets point the
+same way: cycle values run below treadmill values in the untrained (Ross), and if Mandsager's
+conversion behaves like the steady-state equations Kokkinos criticises, its METs run high. Kokkinos's
+own data are cycle. It prints its group's FRIEND treadmill equation and says the ACSM treadmill error is
+«>4 times» larger, without giving the sign; the one direction it states, about the ACSM equations generally, is age-bound: «VO2 max will likely be
+overestimated by the ACSM equations when applied to older populations» [@kokkinos2018cycle]. A
+FRIEND-estimated or measured cycle VO2max placed on that grid would then understate a person's band, by
+an amount no held source gives. What would settle it: one cohort with both measured cycle VO2max and
+treadmill-estimated METs in the same people.
+[inferred from @ross2016; @kokkinos2018cycle; @mandsager2018]
+
 **Where your number sits:** the FRIEND registry «published peak VO2 reference standards for adult men and
 women (20–79 years of age)» — the US normative percentiles (the sibling of Mandsager's percentile MET
 grid). About «half of the variance in CRF is considered to be attributable to heritable factors», so a
 fraction of your position is not trainable.
+
+### Estimating VO2max from a walk — the UKK 2-km walk test
+
+**Where walk tests sit.** Ross lists field tests beside the lab routes. Running tests need near-maximal
+effort; «A modification designed to limit the exercise inten- sity, and thus make it more widely
+applicable, is the 1-mile walk test.» Their advantage is that «they require minimal resources (measured
+course, timing device, and palpated pulse rate) and can be self-administered». For patients who are
+«markedly deconditioned» the 6-minute walk test is common, but it «may not necessarily provide an ac-
+curate estimation of CRF»; others found it «provided a reasonable estimate of CRF» in outpatients with
+stable coronary heart disease, so the evidence on it is mixed. [@ross2016]
+
+**The test and the equations.** Oja 1991 (UKK Institute, Tampere) compared 1, 1.5 and 2 km walks and kept
+2 km: most people preferred it, and walk time tracked VO2max at least as well as the shorter distances.
+The instruction was «Walk the distance as fast as you can, but do not risk your health»; heart rate is the
+mean over the last 30 s. Sex-specific equations, VO2max in ml·kg-1·min-1 (Table 7, BMI model; read from the
+page image of the 1991 scan):
+
+- men: 184.9 − 4.65 × time − 0.22 × HR − 0.26 × age − 1.05 × BMI (r² 0.75, SEE 5.1, n = 34)
+- women: 116.2 − 2.98 × time − 0.11 × HR − 0.14 × age − 0.39 × BMI (r² 0.73, SEE 3.3, n = 28)
+
+The paper puts the SEE at «12—14% for men and 9% for women» of the mean; the abstract gives «of the order of 9—15% of the
+mean». These are in-sample figures from the derivation group.
+Heart rate alone «correlated only weakly with VO2max»; it adds precision in combination with time and
+age (Table 5). A body-weight version exists too (Table 6; r² 0.66 men, 0.76 women).
+[@oja1991walk]
+The time unit is printed «msec». Entering the men's group means with time in decimal
+minutes (15.2 min, HR 153, age 43, BMI 25.1) gives about 43.0 against 43.1 measured, so minutes is the
+working reading. A regression evaluated at its own means returns about the mean by construction, so the
+check's force is only that seconds or milliseconds would give impossible values. [inferred from @oja1991walk]
+
+**Derived in whom.** 64 working adults from Tampere, Finland (35 men, 29 women), age 20-65 in four
+bands, with only 3 women and 7 men aged 60-65. All were medically screened and «considered fit for brisk
+walking». Their VO2max was measured on a treadmill walk to maximal effort: 34.8 ± 6.7 ml·kg-1·min-1 in
+women, 43.1 ± 9.9 in men. By heart rate the walk is vigorous (the wiki's label; finishing heart rate averaged about 85% in women and
+87% in men of measured HRmax), though on average subjects rated the effort moderate on Borg's 0-10 scale. The authors call the medical screening an «inevitably selected study group».
+[@oja1991walk]
+
+**In new groups it read low.** Five separate groups of healthy adults walked twice and had VO2max
+measured (Table 8, BMI model). «The estimated mean VO2max was sys- tematically smaller than the measured
+value in all cross-valida- tion groups», by about 3% (obese women, BMI 27-40) to 12% (obese men) of
+measured ml·kg-1·min-1. The measured-vs-estimated correlation was 0.75-0.79 in obese women, obese men and
+moderately active men, 0.55 in moderately active women, and 0.53 in highly active men (measured 57.6
+ml·kg-1·min-1). The authors' verdict: valid for «healthy obese and nonobese adult men and women but not
+that of very active and fit men». The paper prints no SEE for the cross-validation groups
+[searched: standard error / Bland / limits of agreement across chunk 01; Table 8 columns checked on the
+page image]. [@oja1991walk]
+(The % offsets are arithmetic on the printed group means,.)
+
+**Do one practice walk.** On a repeat walk people went about 9-10 s faster and predicted VO2max rose
+1.6-2.2%, a small but significant shift. «This ob- servation implies that for accurate V02 estimation the
+first test should be conducted for familiarization purposes.» Test-retest r was 0.98 (men) and 0.94
+(women). [@oja1991walk]
+
+**One person's walk estimate: about ±12.6 ml·kg-1·min-1 either way (Marín-Jiménez 2023).** A Cadiz group
+tested Oja's equation, unchanged, in 410 Spanish adults aged 18-64, balanced by sex, three age bands
+and self-reported activity (active = meeting WHO guidance), against treadmill VO2max measured by gas
+analysis (mean 36.1 ml·kg-1·min-1). On average the estimate was close: «The difference between measured and estimated VO2max by Oja's equation was −0.30 ml* kg−1 * min−1 (95% LoA = −12.86 to 12.26, p < 0.001)»;
+r 0.78; SEE 5.0 ml·kg-1·min-1 for the line refitted to this sample (measured = 12.24 + 0.66 × estimate).
+Finishing heart rate came from a Xiaomi Mi Band 4 wrist band, which the authors describe as «validated
+in adults», and no practice walk is described. [@marinjimenez2023walk]
+So for 95% of people the estimate sat within about 12.6 ml·kg-1·min-1 above or below their measured
+value — about ±35% of the sample mean, or roughly ±3.6 METs. Applied unchanged, the equation's per-person
+SD of the difference is about 6.4 ml·kg-1·min-1 (LoA half-width / 1.96), about 18% of the mean, sexes
+pooled: above Oja's in-sample 9-14%. The printed SEE of 5.0 (14%) holds only after refitting the line to
+this sample. The authors call these limits «narrow» and the test valid; ±35% of the mean is the wiki's
+reason to read one walk as a band, not a number.
+[inferred from @marinjimenez2023walk]
+
+**Worse agreement in the fit.** The gap grew with VO2max (heteroscedasticity: difference vs mean of measured and estimated, R² 0.117). In active participants the mean difference was
+−3.36 (95% LoA −15.31 to 8.59), in non-active −0.19 (−13.45 to 13.06); the authors read it as walking
+not stressing a fit person enough «(i.e., underprediction)». [@marinjimenez2023walk]
+The direction is not certain: neither text nor plot says which value is subtracted, and
+Table 1's means put the estimate slightly *above* measured in both groups (active 40.14 vs 39.67). The
+scatter line in Fig 1A, measured = 12.24 + 0.66 × estimate, says that at group level a high walk
+estimate tends to sit above measured and a low one below: an estimate of 50 matches about 45 measured on
+average, an estimate of 25 about 29. By activity group the active band was not wider (width 23.9 vs
+26.5) but shifted; the worse-in-the-fit reading rests on the heteroscedasticity regression. [inferred from @marinjimenez2023walk]
+
+**Oja's average under-read did not recur.** Oja's five groups read 3-12% low on average; here the
+group-mean estimate was about 1% above measured (36.58 vs 36.13). The two studies differ in criterion
+protocol, country and heart-rate device, so which of these explains the difference cannot be told from
+the two papers. [inferred from @oja1991walk; @marinjimenez2023walk]
+
+**Tracking change: two walk estimates are noisy.** Retested about a week later, walk time barely moved
+(T2-T1 −1.48 s, 95% LoA −21.07 to 18.10 s on a mean of about 998 s; ICC 0.99), and the mean estimate barely moved
+(−0.29; ICC 0.95; Table 3 prints p = 0.206, the Bland-Altman text p = 0.034 for the same difference). But the estimate's 95% LoA was −8.13 to 7.54 ml·kg-1·min-1.
+The paper gives no minimal detectable change [searched: minimal detectable / smallest / MDC, 0 hits;
+positive control Bland 14 hits]. [@marinjimenez2023walk]
+Read as a noise band, in 95% of people two estimates a week apart differed by less than about 8
+ml·kg-1·min-1 (about ±22%). Ross's «≈10% improvement in CRF in previously sedentary adults» from meeting
+activity guidance (see *Raise it*) is about 3.2 ml·kg-1·min-1 at this study's non-active mean (32.2), well
+inside that band, so one before-and-after pair of walks cannot confirm a typical training gain. By Oja's
+coefficients a 20-s time difference moves the estimate only about 1-1.8 ml·kg-1·min-1 (BMI or weight
+model), so, if the paper applied the equation as printed, most of the retest spread would have to come
+from finishing heart rate; the paper reports no heart-rate retest figure. The retest data cover a week's
+noise, not whether a change in the estimate follows a change in measured VO2max. [inferred from @marinjimenez2023walk; @oja1991walk; @ross2016]
+The authors suggest pacing may explain the walk's weaker reliability, a cause that would itself act partly through finishing heart rate: «starting too fast, so that
+the participants are unable to maintain their speed throughout the test; or too slow, increasing their
+speed at the end of the test (which may also mean an unexpected incremented heart rate at the end of the
+test).» Device noise and uneven pacing were not tested separately.
+[@marinjimenez2023walk]
+
+**No better walk equation; the shuttle run reads tighter.** Adding sex, age, activity level and %BF to
+time and heart rate raised in-sample R² to 0.70 (SEE 4.4), but the authors concluded «our results did not
+improve the prediction equation proposed by Oja et al.» and print no usable new equation. In the same
+people the 20-m shuttle run (Léger equation, not printed in the paper) agreed more closely (95% LoA −7.30
+to 9.02) and retested more tightly (−1.51 to 1.58); the authors favour it, with the walk «more suitable
+for adults who are unable to run». [@marinjimenez2023walk]
+
+**Oja and Marín-Jiménez matched (NO CELL, NO CLAIM).**
+
+| Parameter | Oja 1991 | Marín-Jiménez 2023 | Same quantity? |
+|---|---|---|---|
+| Equation | derived (sex-specific, BMI and weight models) | Oja's, model variant not stated | YES, variant |
+| Criterion | treadmill walk to max, gas analysis | treadmill CPET (walk or run protocol), gas analysis | similar, protocols differ |
+| Heart-rate device | Polar telemetric cardiometer (Sport Tester PE 3000) | Xiaomi Mi Band 4 wrist band | NO |
+| Per-person spread | SEE 3.3 / 5.1 (9%, 12-14%), fitted in the derivation sample, by sex | SD of difference ≈6.4 (≈18%), equation unchanged; SEE 5.0 (14%) after refitting; sexes pooled | SEE vs SEE: same kind (fitted residual), unmatched samples; SD of difference vs derivation SEE: comparable as prediction error (out-of-sample vs fitted; mean bias removed in both) |
+| Group-mean offset, new people | −3% to −12%, five groups | about +1% (Table 1 means) | YES (ratio of group means) |
+| Retest shift | +1.6-2.2% estimate, 9-10 s faster (4th vs 5th walk) | −0.29 estimate, −1.48 s (T1 vs T2; no earlier walk described) | mean T2-T1, but NOT the same walk history |
+| Retest agreement | r 0.94-0.98 | ICC 0.95; LoA −8.13 to 7.54 | NO (r vs ICC) |
+| Authors | Oja, Laukkanen, Pasanen, Tyry, Vuori | Marín-Jiménez, Castro-Piñero, Cuenca-García, et al. | no shared author |
+
+[@oja1991walk]
+
+Marín-Jiménez tests Oja's own equation, so its agreement with Oja is a refinement (it adds the
+out-of-sample per-person error and retest band Oja lacked), not independent corroboration. Matched on
+the rows that line up: the per-person error of the unchanged equation in a new population is larger than
+Oja's in-sample figures, and the average under-read did not recur. The retest shifts are not comparable:
+Oja's people had already walked several times; Marín-Jiménez describes no earlier walk, and still shifted only 1.5 s.
+[inferred from @oja1991walk; @marinjimenez2023walk]
+
+**Matched against the bike routes (NO CELL, NO CLAIM).**
+
+| Parameter | Ross 2016 | Kokkinos 2018 | Oja 1991 | Same quantity? |
+|---|---|---|---|---|
+| Test | submaximal, HR extrapolated | maximal cycle test | fast self-paced 2-km walk | NO |
+| Spread for one person | SEE «±10% to 15%», a general range | none usable (SD scale unclear) | SEE 9% (women), 12-14% (men), in-sample | Ross vs Oja: same kind (SEE as % of mean), not matched samples; Kokkinos: no cell |
+| Average offset, new people | — | +0.59% FRIEND, +15.78% ACSM (30% hold-out) | −3% to −12%, five external groups | NO — mean of per-person ratios vs ratio of group means; internal hold-out vs external groups |
+| Authors | Ross, Blair, Arena, Kaminsky, Myers, et al. | Kokkinos, Kaminsky, Arena, Zhang, Myers | Oja, Laukkanen, Pasanen, Tyry, Vuori | Oja shares no author with either |
+
+[@ross2016]
+
+Only the spread row lines up. The walk test's in-sample SEE (9% women, 12-14% men) is about the ±10-15%
+Ross gives for submaximal tests, so on spread a fast walk is the same class of estimate as a submaximal heart-rate test, not
+a sharper one. Its out-of-sample SEE is not reported, and Oja's own data suggest new-group error is larger: the
+measured-vs-estimated correlation fell from about 0.86 in the derivation group (r² 0.73-0.75) to
+0.53-0.79 in the five new groups. This is not type-E corroboration: Oja makes the same comparison itself (its results «compared
+favourably» with submaximal tests), and Ross's figure is a general range, not an independent
+measurement of this test. The offsets cannot be pooled across the two papers. Within Oja, the group-mean
+estimate ran low in all five groups, by up to about 12% in obese men; the paper gives no per-person
+direction or spread.
+[inferred from @ross2016; @kokkinos2018cycle; @oja1991walk]
+
+**Who it suits, on this evidence.** Healthy adults who can walk 2 km briskly and have no lab or bike. The
+external check covered ages 20-65 only in the obese groups (BMI 27-40); the non-obese groups were 35-45,
+and the derivation had few over-60s. Obese men, though called «reasonable» by the authors, carried the
+largest average under-read (12%). Outside the data: over-65s, people with
+heart or lung disease, people on heart-rate-modulating drugs (medication was an exclusion at the
+treadmill stage), and very fit men, where the paper says it fails.
+[inferred from @oja1991walk]
+Marín-Jiménez extends the tested range to 18-64 in a second country, both sexes and non-active as well
+as active adults; over-65s remain untested in both papers. On Mandsager's treadmill-based MET bands, the
+average offset of a walk estimate is not settled (low in Oja's groups, near zero in Marín-Jiménez's),
+and per person the 95% band is about ±3.6 METs, so a single walk can place someone in the wrong band.
+[inferred from @oja1991walk; @marinjimenez2023walk]
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-10-06">
 
@@ -364,9 +633,20 @@ be a novel risk marker, it must improve risk prediction beyond traditional marke
 what earns CRF the reclassification claim; the association alone would not. **CRF was nonetheless
 excluded from the 2013 ACC/AHA risk calculator** («it was excluded from the risk calcula- tor») — a gap
 the statement argues to close.
-[@ross2016] Whether later models (SCORE2, PREVENT) also omit CRF is the wiki's extension,
-not Ross's: a 2016 statement cannot name them [searched: SCORE2 across Ross chunks 01-03, 0 hits]. (corrected 2026-10-06: *absent from every current risk model (SCORE2, Framingham,
-PREVENT)* under a Ross tag -> the 2013 calculator exclusion Ross supports; self-critique)
+[@ross2016] Ross's 2016 statement
+cannot name the later models, but their own papers show the gap persists. SCORE2: «Original SCORE2
+algorithms: Predictors: age, sex, smoking, diabetes, SBP, total and HDL cholesterol» and its diabetes
+version «Added predictors: age at diabetes diagnosis, HbA1c and eGFR» [@score2diabetes2023]. PREVENT: «Predictors included traditional risk factors (smoking status, systolic blood
+pressure, cholesterol, anti-hypertensive or statin use, diabetes) and estimated glomerular filtration rate
+[eGFR].» [@khan2024]; its optional add-ons are UACR, HbA1c and a
+social-deprivation index (chunk 01 methods; chunk 02 Table 4), and BMI enters only the heart-failure-specific
+and death models (chunk 01 methods). Neither includes CRF or any physical-activity measure
+[searched: fitness/cardiorespiratory/physical activity/exercise across both sources' chunks, 0 hits;
+positive control smoking/systolic/eGFR/HbA1c fires in both]. This shows omission, not that adding CRF
+would improve these models' discrimination; that needs the NRI-type evidence above, model by model
+. (corrected 2026-10-06: *absent from every current risk model (SCORE2, Framingham,
+PREVENT)* under a Ross tag -> the 2013 calculator exclusion Ross supports; self-critique; SCORE2/PREVENT
+omission now verified against their own sources)
 
 
 [@ross2016]
@@ -391,6 +671,26 @@ symmetric standards apply to a body making the case for its own risk factor.
 - **You can know your CRF for free.** An eCRF equation from routine clinical numbers gives a first
   estimate good enough to identify low fitness; a CPX is only needed for a precise or clinical number.
   Put it on the FRIEND percentiles to see where you sit.
+- **From a bike: a test to exhaustion, read through the FRIEND equation.** Peak watts from a graded
+  maximal test, converted with the FRIEND equation, avoid the ACSM equation's average +15% over-read (a
+  cohort mean in the FRIEND registry; the single equation still reads about +3% in women); the per-person
+  error cannot be read from the paper, so treat the number as approximate. For tracking change, repeating the
+  same bike and protocol is likely more informative than the absolute value (constant errors cancel
+  within a person; no held source tests this).
+  [inferred from @kokkinos2018cycle]
+- **Without a bike or lab: a timed 2-km walk.** For a healthy adult aged 20-65, a fast 2-km walk with a
+  heart-rate strap, read through the sex-specific UKK equation, gives an estimate whose in-sample SEE (9% women, 12-14% men) is about the ±10-15% Ross
+  gives for submaximal tests. Out of sample, in 410 adults aged 18-64, 95% of estimates fell within
+  about ±12.6 ml·kg-1·min-1 (±35%, about ±3.6 METs) of measured VO2max, with agreement worse at higher
+  VO2max; so read it as a band, not a number. Its group mean ran low by 3-12% in Oja's five groups but
+  not in that sample. Do a practice walk first (Oja) and pace evenly (the authors suggest uneven pacing may explain
+  the walk's weaker reliability); Oja used telemetry heart rate, and whether a wrist band adds noise is
+  untested.
+  **For tracking change, two walk estimates a week apart differed by up to about ±8
+  ml·kg-1·min-1 in 95% of people**, more than the \~10% gain a previously sedentary adult can expect, so
+  one before-and-after pair cannot confirm it; walk time itself repeated within about ±20 s. If you can
+  run, the 20-m shuttle run read tighter on both counts.
+  [inferred from @oja1991walk; @marinjimenez2023walk]
 - **To raise it: intensity moves it more than duration**, and the low-fit gain most from modest activity
   (the biggest-bang-at-the-low-end rule, consistent across the fitness sources). Expect \~10% from meeting
   activity guidelines, more from adding intensity or intervals.

@@ -141,15 +141,20 @@ Prevention Hub is owed once the domain grows beyond these; catalogued here for n
   the one "nadir at \~150 g/d" is an Asia/Europe intake-range pooling artifact, and milk-alone/cheese-alone
   are null. Not a cognition lever. `confidence: low`
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Sugars, sweeteners, and seed oils
 
 - [[Free Sugars Intake]] — how much free sugar, and which outcome the limit is actually protecting
+- [[Whole Fruit Smoothies and Fruit Juice]] — whole, blended or juiced: does the form change the effect, and on which outcome?
 - [[Acute Carbohydrate Effects on Mood]] — does sugar acutely boost mood/energy (the "sugar rush")? No —
   it does not, and mildly worsens alertness/fatigue within the hour
 - [[Non-Sugar Sweeteners]] — whether artificial sweeteners should be used for weight or NCD risk, and
   against which comparator
 - [[Linoleic Acid and Cardiovascular Disease]] — whether omega-6 linoleic acid (the main fat in seed
   oils) raises or lowers cardiovascular risk
+
+</div>
 
 ## Is the compound-class scare real?
 

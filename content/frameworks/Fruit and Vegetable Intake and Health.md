@@ -8,7 +8,7 @@ cluster: plant-foods
 nucleus: true
 confidence: low
 created: 2026-08-13
-updated: 2026-09-04
+updated: 2026-10-06
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -23,6 +23,7 @@ relationships:
     - Potassium Intake and Blood Pressure
     - Vegetarian Dietary Patterns and Mortality
     - Free Sugars Intake
+    - Whole Fruit Smoothies and Fruit Juice
     - Dementia Prevention and Modifiable Risk Factors
 ---
 
@@ -82,6 +83,8 @@ at 800 g/day: CHD 24%, stroke 33%, CVD 28%, all-cause 31% (vs no intake); cancer
   -> [[Measurement Error in Dietary Assessment]], [[The U-Shaped Association Artifact]].
 
 [@aune2017fv]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Specific types — the pooled benefit is NOT uniform, and the "superfoods" are the thin cells
 
 Per 100 g/day dose-response (or high-vs-low where noted). The tight, steep inverse signals sit with
@@ -110,9 +113,12 @@ Per 100 g/day dose-response (or high-vs-low where noted). The tight, steep inver
   evidence, whereas **tinned fruit was positively associated with cardiovascular disease** (a harm
   signal) — so the whole-vs-processed axis, not a blanket fruit-vs-juice rule, is what these data mark.
   Note the outcome scope: this is CVD/stroke, not the metabolic/hepatic channel where free-sugar juice
-  concern lives -> [[Free Sugars Intake]].
+  concern lives -> [[Free Sugars Intake]]; the fruit-form decision as a whole -> [[Whole Fruit Smoothies and Fruit Juice]].
 
 [@aune2017fv]
+
+</div>
+
 ## Measurement error and regression dilution — the effect is if anything UNDER-stated
 
 Only three cohorts corrected for measurement error / regression-dilution, and each correction made the

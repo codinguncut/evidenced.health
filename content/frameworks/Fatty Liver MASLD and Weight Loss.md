@@ -351,7 +351,7 @@ hepatotoxic" claim** rather than confirming it:
 avoiding the fructose molecule per se, and not whole fruit at normal intakes** (a modest
 fructose dose in a fibre matrix, not a hepatic bolus — the low concern rests on the *achievable dose*
 being capped by fibre, water and satiety, not on demonstrated molecular safety at extreme chronic intake
-) -> [[Free Sugars Intake]]. The lever is the same
+) -> [[Free Sugars Intake]], [[Whole Fruit Smoothies and Fruit Juice]]. The lever is the same
 energy/weight lever EASL already ranks first; fructose-restriction adds no distinct mechanism beyond the
 calories it removes. This is the hepatic-tissue instance of the energy-balance-vs-nutrient-source finding
 -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]. **Guard:** Chung's

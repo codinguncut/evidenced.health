@@ -192,11 +192,19 @@ powered test of personalization by genotype and insulin.
 
 - **On weight it is a single-RCT instance, not a pooled component.** n=609 non-diabetic adults, healthy-low-fat
   −5.3 kg vs healthy-low-carb −6.0 kg, between-group **0.7 kg [95% CI −0.2 to 1.6], NS** — a single-RCT
-  instance of this page's pooled near-equivalence. [@gardner2018]
+  result consistent with this page's pooled near-equivalence. [@gardner2018]
   DIETFITS was screened and **excluded** by Naude («No defined carbohydrate prescription used by study
   authors for intervention and/or control diets»), so on weight it is a single-RCT instance *outside* the
   pooled estimate [@naude2022]
-  (corrected 2026-10-06: *inside Naude's search window ... pooled within the nucleus estimate*; self-critique)..
+  (corrected 2026-10-06: *inside Naude's search window ... pooled within the nucleus estimate*; self-critique).
+  It is outside the pool, but it is not an independent test of the *same* exposure: after 20 g/d for 8
+  weeks, participants «slowly added fats or carbohydrates back to their diets in increments of 5 to 15 g/d
+  per week until they reached the lowest level of intake they believed could be maintained indefinitely»
+  [@gardner2018], so there is no fixed carbohydrate
+  target (the reason for exclusion), and the comparator is a healthy low-fat diet, not Naude's balanced-carb
+  arm. Read it as agreement from a neighbouring contrast (self-titrated low-carb vs low-fat, 12 months), not
+  as `[E-independent]` backing of the pooled number. The two estimates are compatible: each point estimate
+  sits inside the other's interval (parameter table below).
 - **The distinct value is the interaction nulls.** Two candidate effect modifiers were pre-specified as
   primary hypotheses and powered \~90%: a 3-SNP genotype pattern (diet x genotype **P=.20**) and insulin
   secretion INS-30 (diet x INS-30 **P=.47**). Both null: «neither of the 2 hypothesized predisposing
@@ -214,6 +222,16 @@ powered test of personalization by genotype and insulin.
   significantly favoured low-fat (\~5%), while HDL rose more and triglycerides fell more on low-carb —
   matching the atherogenic-lipid signal this page already holds -> [[LDL ApoB and Cumulative Exposure]].
   [@gardner2018]
+
+| Parameter | Naude, without T2DM, >=12 mo | DIETFITS (Gardner) | Same quantity? |
+|---|---|---|---|
+| Outcome | weight, mean difference (kg) | weight change difference at 12 mo (kg) | yes |
+| Population | adults with overweight/obesity, no T2DM | non-diabetic adults with overweight/obesity, n=609 | yes, roughly |
+| Low-carb exposure | defined carbohydrate prescription | 20 g/d for 8 wk, then self-titrated, no fixed target | **no** (Naude's exclusion reason) |
+| Comparator | balanced carbohydrate | healthy low-fat | **no** |
+| Estimate (low-carb vs comparator) | 0.93 kg lower (1.81 to 0.04 lower) | 0.7 kg more loss on low-carb (95% CI −0.2 to 1.6, NS) | **no** (rows above); numerically compatible: each point inside the other's CI |
+
+[@naude2022]
 
 [inferred from @gardner2018]
 

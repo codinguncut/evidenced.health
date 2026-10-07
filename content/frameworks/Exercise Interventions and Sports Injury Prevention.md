@@ -143,8 +143,6 @@ strength arms are eccentric/sport-specific injury-prevention protocols in athlet
 hypertrophy-oriented general RT of the prescription page; reading one as the other is the
 transportability gap above.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## The tissue mechanism beneath the strength result
 
 [inferred from @lauersen2013injury] — Lauersen
@@ -158,10 +156,6 @@ muscle**, so loading ramped faster than the tendon can condition is itself an ov
 rate-mismatch that argues for gradual progression, especially in the deconditioned. So strength
 training's injury benefit and its tendon-conditioning mechanism are consistent, but the outcome link
 stays Lauersen's and the mechanism stays Bohm's.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-04">
 
 ## Decision relevance
 
@@ -189,7 +183,5 @@ stays Lauersen's and the mechanism stays Bohm's.
   (\~5x) and female sex (\~2.3x) are supported, and that lean/often-female host profile does **not**
   transport to the obese novice (whose binding constraint is soft-tissue/joint, where this page's
   strength lever applies).
-
-</div>
 
 ## References

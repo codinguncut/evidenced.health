@@ -1199,8 +1199,12 @@ trial measured it there (see
 
 PURE scored 147,642 people in 21 countries on six protective foods (fruit, vegetables, nuts, legumes,
 fish, mainly whole-fat dairy), one point per food eaten above the cohort median, range 0-6. Each
-one-quintile step up the score was associated with 8% lower mortality, HR 0.91 (0.89-0.93), and 6%
+one-quintile step up the score was associated with 9% lower mortality, HR 0.91 (0.89-0.93), and 6%
 lower major cardiovascular disease, HR 0.94 (0.92-0.97)
+[@mente2023pure] [@mente2023pure].
+The paper's headline «8% lower» mortality is a different number; it matches the pooled estimate across its four
+prospective cohorts, HR 0.92 (0.90-0.93). The headline's 244,597-person total also counts two
+case-control studies, which give no mortality estimate
 [@mente2023pure] [@mente2023pure].
 
 For the composite outcome, the curve was steeper below the global median. The results place the

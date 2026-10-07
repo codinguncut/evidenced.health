@@ -4,7 +4,7 @@ title: Dietary Supplements
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-02
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T; Sherrington, Catherine]
@@ -222,6 +222,8 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Correcting a documented deficiency is a different, real lever
 
 Where a person is genuinely short, repletion moves patient-important outcomes — and the benefit scales
@@ -238,9 +240,12 @@ now demonstrate it, sharing no trials, no group, and no lineage `[E-independent]
 Provenance: vitamin D ARI overall OR 0.88 (0.81-0.96), NNT 33, deficient/replete split (P for
 interaction 0.006) and the null of *bolus* dosing (OR 0.82, 0.51-1.33)
 [@martineau2017]; iron IQ
-[@falkingham2010]. The iodine 7.4 is
-the supplementation-trial effect; separately, deficient children score 6.9-10.2 IQ points *lower* than
-sufficient children in observational data -- a different quantity, not an interval on 7.4
+[@falkingham2010]. Bougma, a separate
+meta-analysis across trial and cohort designs, puts the IQ that iodine deficiency in utero or early
+infancy costs children aged 5 and under at 7.4 points as its best estimate, drawn from its intervention studies: an effect size «0.49,
+which translates into 7.4 IQ points lost due to iodine deficiency». The 6.9-10.2 range spans its four
+study designs (RCTs, non-randomised interventions, and two kinds of cohort), so it is a spread across
+designs, not a confidence interval on 7.4
 [@bougma2013]. Martineau states the
 mechanism as the principle itself: «Increased efficacy of vitamin D supplementation in those with lower
 baseline vitamin D status is more readily explicable, based on the principle that people who are the
@@ -311,6 +316,8 @@ TPO-antibody-positive individuals.
 [@katagiri2017iodine] For a replete person the lesson
 generalizes past pregnancy: iodine has no benefit arm left to climb, so more is not better.
 -> [[Excess Iodine Intake and Thyroid Disease]]
+
+</div>
 
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
@@ -519,7 +526,7 @@ These are named gaps — absence of held evidence, not evidence of absence
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Caveats
 
@@ -543,7 +550,7 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Evidence included** | 33 sources — 18 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kreider (consensus, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
 
 </div>
 

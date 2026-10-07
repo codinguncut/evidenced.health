@@ -126,8 +126,6 @@ healthy-young-adult reference, usually at **-2 SD** (-2.5 SD for a conservative 
 ease of use — «minor reduction in accuracy» accepted for usability. A threshold quoted here marks the
 edge of a reference distribution, not a knee in a dose-response curve.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Categories
 
 [@cruzjentoft2019]
@@ -154,8 +152,6 @@ edge of a reference distribution, not a knee in a dose-response curve.
     to support a unified definition», so the `type-G` gap narrows but stands. The intervention evidence in
     this stratum lives on [[Resistance Training for Sarcopenic Obesity]] (RT -> fat-weighted body-composition
     + function gains; muscle-mass gain not shown).
-
-</div>
 
 ## Decision relevance
 

@@ -3,10 +3,10 @@ type: deliverable
 title: Sodium
 aliases: [Sodium Intake, Salt, Dietary Sodium, Salt Reduction, Sodium and Potassium]
 question: 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).'
-sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, GRADE - Handbook, Willett - Nutritional Epidemiology 3e]
+sources: [WHO - Sodium Intake 2012, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Neal - SSaSS Salt Substitution Cardiovascular 2021, Aburto - Potassium Cardiovascular 2013, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, ESC - CVD Prevention Guidelines 2021, Afshin - Health Effects of Dietary Risks GBD 2019, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, GRADE - Handbook, Willett - Nutritional Epidemiology 3e, Sacks - DASH Diet Sodium Blood Pressure 2001]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-02
+updated: 2026-10-07
 self_critiqued: 2026-10-02
 concrete_subject_audited: 2026-10-02
 ---
@@ -29,6 +29,8 @@ The honest bottom line: cut sodium if your blood pressure or cardiovascular risk
 potassium from fruit, vegetables and pulses, and treat every published gram-target as the edge of
 the evidence rather than a proven cliff.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Cutting sodium lowers blood pressure, and that step is as settled as this field gets
 
 The surrogate is the strong part of the story. Pooling 34 randomised trials (3,230 participants,
@@ -50,6 +52,28 @@ difference does not predict that fall (P=0.67) — so the pattern carries the ef
 salt contrast [@siervo2015].
 The two effects act through the same channel and must not be added together.
 
+One feeding trial put a number on that. DASH-Sodium randomised 412 adults (systolic 120-159 mmHg, 41%
+with stage-1 hypertension, none taking blood-pressure drugs) to DASH or a typical-US control diet, then
+fed each person three sodium levels for 30 days apiece
+[@sacks2001dashsodium]. Against the
+high-sodium control diet, DASH alone lowered systolic pressure by 5.9 mmHg (3.7 to 8.0) and low
+sodium alone by 6.7 mmHg (5.4 to 8.0); the two together lowered it by **8.9 mmHg** (95% CI 6.7 to
+11.1) [@sacks2001dashsodium]. A simple sum
+would predict about 12.6 mmHg, and the authors tested the gap:
+
+> «The reductions in blood pressure caused by the combination of dietary interventions were smaller
+> than they would have been if the effects of each dietary intervention were strictly additive
+> (P<0.001 for the interaction).»
+> [@sacks2001dashsodium]
+
+So the trial's DASH-plus-low-sodium period (about 65 mmol of sodium a day, controlled feeding) is the
+better guide to the combined effect: 8.9 mmHg on average. Adding the two separate effects overstates
+it. It is one trial, with 30-day periods and blood pressure as the only endpoint.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The blood-pressure fall is biggest in people who already have high blood pressure
 
 The effect is real in everyone but not equal across strata. In He's pool the systolic fall was
@@ -65,6 +89,25 @@ even below 120 mmHg systolic [@huang2020].
 Older age and non-white ethnicity are further modifiers; baseline *sodium intake* is not. So the
 sodium lever pays across the pressure range and pays most where pressure is already high — a genuine
 effect-modification finding, not merely arithmetic.
+
+What else a person eats is a second modifier, and here the evidence is a randomised interaction inside
+one trial rather than a comparison between trials. In DASH-Sodium the same cut, from about 140 to about
+65 mmol of sodium a day, lowered systolic pressure by 6.7 mmHg on the control diet but by 3.0 mmHg (1.7
+to 4.3) on DASH [@sacks2001dashsodium]. This
+is the same interaction as the non-additivity above, seen from the sodium side:
+
+> «The level of dietary sodium had approximately twice as great an effect on blood pressure with the
+> control diet as it did with the DASH diet (P<0.001 for the interaction).»
+> [@sacks2001dashsodium]
+
+Seen from the other lever, DASH lowered systolic pressure by 5.9 mmHg at high sodium but by only 2.2
+mmHg (0.1 to 4.4) at low sodium
+[@sacks2001dashsodium]. In the trial, then,
+the same sodium cut lowered pressure about half as much on DASH as on the typical-US diet, though it
+still lowered it. Whether a free-living DASH-like diet blunts the sodium effect as much was not
+tested.
+
+</div>
 
 ## Whether less sodium prevents heart attacks and strokes is far less certain
 
@@ -121,6 +164,8 @@ effect or with the measured pressure fall understating the sustained one. And th
 to lower-risk people, but the absolute gain shrinks with them
 -> [[Baseline Risk and the Relative-Absolute Split]].
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Potassium is the coupled lever, but it only lowers blood pressure in people with hypertension
 
 The companion WHO review (22 trials, 1,606 participants; 11 cohorts, 127,038 people) sets the
@@ -149,9 +194,11 @@ when the higher potassium intake was 90-120 mmol/day, without any dose response�
 [@aburto2013]. The benefit concentrates at moderate
 repletion and does not keep climbing with intake.
 
-As with sodium, stroke is the one hard cohort outcome that reaches significance (RR 0.76, 0.66
-to 0.89, LOW certainty); cardiovascular disease, coronary disease and mortality stay null and
-underpowered.
+As with sodium, stroke is the one hard cohort outcome that reaches significance. The review's
+Results text gives RR 0.76 (0.66 to 0.89) for higher potassium intake; its evidence table gives the
+directly assessed stroke row as RR 0.79 (0.68 to 0.93, 97,152 people) and grades that row LOW
+certainty [@aburto2013].
+Cardiovascular disease, coronary disease and mortality stay null and underpowered.
 
 Potassium raising is safe for lipids, catecholamines and renal function (all null, HIGH certainty)
 in people with normal potassium handling — and **food is a sufficient vehicle**; supplements are not
@@ -162,6 +209,8 @@ The sodium-to-potassium *ratio* is asserted beneficial near 1:1 but never graded
 outcome — that figure traces to a 2003 expert consultation, not to this evidence
 [@aburto2013]. SSaSS moved the *joint lever* from
 asserted to partly-evidenced; the *optimal ratio* remains an open, ungraded question on both sides.
+
+</div>
 
 ## The claim that very low sodium is dangerous has never faced a decisive test
 
@@ -225,6 +274,8 @@ The blood-pressure-minimising intake (trials, <2.3 g) and the event-minimising i
 one would produce. **Named gap: the wiki holds no Mendelian-randomization or bias-corrected analysis
 that adjudicates the low-sodium arm.** It is unadjudicated, not settled either way.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## There is no proven floor: every realistic reduction still buys some blood-pressure fall
 
 Across the studied range the dose-response is monotone or not-estimable — no plateau or knee has been
@@ -237,6 +288,25 @@ shows the raw slope is *null*; the dose-response appears only after adjusting fo
 but the direction survives down to baseline pressures below
 120 mmHg [@huang2020].
 
+DASH-Sodium gives a within-person look at the shape: the same people ate three sodium levels, with
+achieved urinary sodium of about 141-144, 106-107 and 64-67 mmol/day
+[@sacks2001dashsodium]. The two steps are
+roughly 35 and 41 mmol, which the authors treat as similar
+[@sacks2001dashsodium]. On the control diet the lower step cut
+pressure more than the upper one:
+
+> «In the control diet, a reduction in the sodium intake of about 40 mmol per day from the
+> intermediate sodium level lowered blood pressure more than a similar reduction in the sodium intake
+> from the high level (P=0.03 for systolic blood pressure, P=0.045 for diastolic blood pressure).»
+> [@sacks2001dashsodium]
+
+Over roughly 64 to 144 mmol/day the three points show no flattening. On the control diet the lower
+step lowered pressure more (P=0.03). The authors' linearity test covered both diets but reports no
+result for DASH [@sacks2001dashsodium].
+Three points cannot rule out a knee between them. The trial tested nothing below about 64 mmol/day, so it says
+nothing about the disputed low-intake arm above, and it measured blood pressure over 30-day periods,
+not events.
+
 The measurement caveat cuts one way here. Short trials *underestimate* the effect:
 
 > «Our review identifies an approximate doubling of the effect of sodium reduction on blood pressure
@@ -248,6 +318,8 @@ Because a large share of the pooled trials ran two weeks or less, the pooled sur
 *lower bound* on the sustained one. Practically: measurement error can hide a plateau but cannot
 manufacture one, so over-shooting a hidden plateau merely fails to help — the operative default is
 that every realistic reduction still pays (the dose-response shape reasoning).
+
+</div>
 
 ## The people who gain most are those at high blood pressure and high cardiovascular risk
 
@@ -300,13 +372,18 @@ recovery biomarkers —
 number in a way a food-frequency-questionnaire nutrient cannot. (A single 24-hour urine still
 captures only one day, so calibration is fixed but day-to-day variation is not.)
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The bottom line
 
 - **If your blood pressure or overall cardiovascular risk is high, cut sodium.** This is where the
   proven blood-pressure fall (largest in hypertension) meets a high baseline risk, so the absolute
   benefit is real.
 - **Raise potassium from food** — fruit, vegetables, pulses — not supplements. It adds a
-  blood-pressure benefit if you are hypertensive and reinforces the sodium effect.
+  blood-pressure benefit if you are hypertensive. Combined with a sodium cut, the gains are smaller
+  than their sum: in DASH-Sodium the sodium cut lowered pressure about half as much on the DASH diet,
+  which is richer in potassium but also in calcium, magnesium, fibre and protein, so the trial cannot
+  single out potassium. Doing both still lowered pressure most.
 - **Consider a potassium-enriched salt substitute** if you are older or high-risk *and* have no
   kidney disease and take no potassium-sparing drugs. It is the one intervention here with a hard-
   outcome trial behind it — but that trial changed sodium and potassium together.
@@ -317,6 +394,10 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 - **Hold the low-sodium harm claim as unresolved, in both directions** — *very low sodium is
   dangerous* is neither established nor disproven, because the low-intake arm has never faced a
   confounder-immune test.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Read this as appraisal, not a prescription
 
@@ -338,9 +419,11 @@ captures only one day, so calibration is fixed but day-to-day variation is not.)
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).' |
-> | **Evidence included** | 12 sources — 5 gold, 5 high |
+> | **Evidence included** | 13 sources — 5 gold, 6 high, 2 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+
+</div>
 
 ## References

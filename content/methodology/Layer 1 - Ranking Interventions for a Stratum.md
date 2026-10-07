@@ -625,6 +625,8 @@ this section states it once instead of leaving it distributed.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
 The public bands (big rock / medium stone / small pebble) are this page's *effect x certainty* ranking made
@@ -656,7 +658,7 @@ tiers by the person's baseline risk and so is **stratum-conditional** (blood pre
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
-
+</div>
 
 ## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
 

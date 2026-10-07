@@ -482,8 +482,6 @@ inactive* -> very-low-certainty, PPO-only subgroup limits; type-F link retagged 
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## In the obesity stratum, the modality gains don't separate — and a measurement trap
 
 The dose numbers above come from mostly-fit or mixed populations. Inside the **obesity stratum
@@ -506,7 +504,6 @@ fitness expressed in relative terms, often without the desired underlying metabo
 in a weight-loss study can be arithmetic (smaller denominator), not a true cardiorespiratory gain — a
 specify-the-measurement-method point for any CRF target in this stratum.
 
-</div>
 
 <div class="recent-update" data-last-updated="2026-10-06">
 

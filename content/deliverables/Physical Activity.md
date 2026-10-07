@@ -5,7 +5,7 @@ question: What is the effect of physical activity and structured exercise (by mo
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
 confidence: medium
 created: 2026-08-17
-updated: 2026-10-06
+updated: 2026-10-07
 compiled: 2026-10-06
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-06
@@ -85,7 +85,7 @@ sources:
   - Recchia - Exercise Caloric Restriction Visceral Adiposity 2023
   - Jiang - Maximal Fat Oxidation Training
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
+<div class="recent-page" data-last-updated="2026-10-07"></div>
 
 
 People who move least gain the most from moving more, and almost any movement counts, light walking
@@ -99,8 +99,9 @@ Other outcomes follow other curves. **Fitness keeps paying, with shrinking retur
 ([[Diet Physical Activity and Cancer Prevention]]). **Older adults avoid falls through balance and
 functional training**, not just more activity ([[Exercise for Preventing Falls in Older Adults]]).
 Within a given goal, **the type of exercise matters less than doing it**, so pick the kind you will
-keep doing ([[Is the Exercise Modality Doing Any Work]]). Exercise trims belly fat but does little for
-the scale.
+keep doing ([[Is the Exercise Modality Doing Any Work]]). Blood pressure is a partial exception: in
+trials of people starting at 140 mmHg or higher, combined endurance and resistance training lowered it
+more than any single type, on indirect, provisional evidence. Exercise trims belly fat but does little for the scale.
 
 Most of this evidence comes from observational studies of people who chose how much to move, so it
 shows that activity goes with longer life more firmly than that it causes it. **Falls prevention is the outcome trials prove best.**
@@ -386,6 +387,29 @@ unblinded. The authors say the effects «appear similar to that of commonly used
 medications, but this is tempered by the observed differences in study population characteristics»
 [@naci2019exercise]
 -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+**In trials of people with high blood pressure, combining endurance and resistance training lowered
+it most among exercise types.** In Naci's network, endurance,
+dynamic resistance and isometric training lowered systolic pressure by similar amounts, but the
+combination beat dynamic resistance alone by 2.98 mmHg (95% CrI −5.04 to −0.93). In trials starting at
+140 mmHg or more, the combination beat every single type and lowered systolic pressure by 13.51 mmHg
+(95% CrI −16.55 to −10.45) against control
+[@naci2019exercise].
+
+The edge is provisional. Only 30 of the 197 exercise trials compared one type with another, so most
+type contrasts are network estimates. Combination trials started higher than resistance trials, at a
+mean 135 against 125 mmHg, and endurance trials at 134
+[@naci2019exercise]. A higher start leaves
+more to lower, so part of the all-populations edge over resistance may be baseline; the edge over
+endurance in the 140-plus trials is less exposed to that.
+
+Naci says «only a small subset of
+studies» tested the combination; these were «often effective, especially in hypertensive
+populations», but their frequency and duration were not consistently reported
+[@naci2019exercise]. So part of the edge may also be
+more total training. Among single types, the one a person will keep doing is a reasonable choice; for a
+hypertensive person who can do both, indirect evidence leans toward the combination.
+ -> [[Is the Exercise Modality Doing Any Work]]
 
 Blood pressure is a surrogate: Naci counted no heart attacks or strokes, and whether an exercise-driven
 drop prevents events at the rate a drug-driven one does is assumed, not shown -> [[Surrogate Outcomes]].
@@ -1176,6 +1200,6 @@ happened to the person who made it.
 > | **Evidence included** | 74 sources — 52 gold, 17 high, 4 moderate, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Oja (method, moderate); Marin-Jimenez (method, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
 
 ## References

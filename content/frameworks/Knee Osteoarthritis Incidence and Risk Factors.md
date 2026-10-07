@@ -148,8 +148,6 @@ not the positive-interaction bar. Duong: «the type of physical ac­tivity, and/
 of the individual may be im­portant considerations.» This is the caution that leisure PA is not
 uniformly safe for every knee — the substitution/stratum matters.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Running specifically — a dose-intensity-dependent exposure, not a flat risk factor
 
 A second gold MA takes the running sub-exposure that Duong's leisure-PA null lumps in, and splits it by
@@ -265,8 +263,6 @@ asserting how these three MAs relate, the matched-parameter check (op-weave step
   recreational, harmful at competitive) — the composite beats either alone, without laundering a shared
   estimate.
 
-</div>
-
 ## Additional moderate-certainty signals (mostly single-study, dietary factors measurement-limited)
 
 Moderate-certainty associations Duong reports without pooling: **higher** incident-KOA risk with parity
@@ -291,8 +287,6 @@ studies».
 - **Occupational PA absent from the PAF.** Its contribution «could not be accounted for in the PAF
   analysis» (no correlation matrix), so the 14% *understates* total modifiable risk — occupational load
   is a real but unquantified addition.
-
-<div class="recent-update" data-last-updated="2026-10-04">
 
 ## Self-critique `[run 2026-10-04, before commit — re-run on the Alentorn-Geli weave]`
 
@@ -323,7 +317,5 @@ studies».
 - **Coherence, not validity** (R1): the page reports associations and their certainty; it does not
   assert that reducing any factor, or taking up running, prevents OA — the loop (no realized prevention
   outcome) stays open.
-
-</div>
 
 ## References

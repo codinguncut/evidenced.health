@@ -3,7 +3,7 @@ type: deliverable
 title: Dietary Fat
 confidence: medium
 created: 2026-08-17
-updated: 2026-10-03
+updated: 2026-10-07
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
@@ -212,6 +212,8 @@ thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pa
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
 Linoleic acid is the main omega-6 fat in bottled seed oils, and the popular
@@ -227,11 +229,15 @@ cardiovascular events (RR 0.97), and may modestly cut myocardial infarction
 
 Crucially, the observational and trial evidence here **do not diverge into a
 tension** — the direction agrees. A mortality meta-analysis puts higher
-linoleic acid at **lower all-cause mortality via both its dietary arm (RR 0.87)
-and its biomarker arm (RR 0.91)**
-[@li2020],
-so the cohort and biomarker readings land together rather than at odds. And the
-proposed mechanism fails on its own endpoint: feeding linoleic acid **does not
+linoleic acid at **lower all-cause mortality via both its dietary arm (RR 0.87, 0.81-0.94)
+and its biomarker arm (RR 0.91, 0.87-0.95)**
+[@li2020].
+The two are different contrasts — the dietary figure compares the highest with the
+lowest intake category, the biomarker figure is per SD of tissue or blood linoleic
+acid — so they share a direction, not a size. The cohort and biomarker readings
+land together rather than at odds.
+
+And the proposed mechanism fails on its own endpoint: feeding linoleic acid **does not
 raise any commonly measured inflammatory marker** (CRP, IL-6, TNF-alpha,
 fibrinogen) across randomized trials
 [@johnson2012].
@@ -255,6 +261,8 @@ The louder seed-oil arguments — oxidation and aldehydes on heating, hexane
 extraction, the n-6:n-3 ratio, FADS genotype — are a separate question about a
 processed food, not about the fatty acid, and are appraised in [[Seed Oils]].
 This section holds only the class-level finding.
+
+</div>
 
 ## Split n-3 by form and hold the class evidence thin
 
@@ -326,6 +334,8 @@ the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plan
 genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
 **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -352,9 +362,11 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak |
+> | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Astrup (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+
+</div>
 
 ## References

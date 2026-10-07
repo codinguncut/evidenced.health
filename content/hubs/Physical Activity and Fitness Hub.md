@@ -60,8 +60,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## The economics of exertion
 
 - [[Exercise Energy Compensation]] — whether exercise expenditure is offset by reduced non-exercise
@@ -77,8 +75,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   individualised light-to-moderate aerobic, not a distinct modality; it beats no-exercise on body
   composition and glycaemia but has no active comparator to show it beats ordinary moderate aerobic, and
   its "optimal 2446 min" apex is an unreplicated observational U-curve, not a target
-
-</div>
 
 ## Physical activity and age-related eye disease
 

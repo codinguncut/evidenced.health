@@ -426,8 +426,6 @@ unblindable primaries, same design ceiling as Currier.
 [@roberts2020sex]
 
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## The surrogate → outcome boundary — the load-bearing honesty
 
 Strength and muscle size are **surrogates** ([[Surrogate Outcomes]]), and Currier is unusually explicit
@@ -469,8 +467,6 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   higher per-meal protein target ([[Protein Intake for Older Adults]]: \~1.2 g/kg/day for the active
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
-
-</div>
 
 <div class="recent-update" data-last-updated="2026-10-06">
 

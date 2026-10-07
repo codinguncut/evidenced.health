@@ -23,8 +23,6 @@ created: 2026-10-04
 updated: 2026-10-04
 self_critiqued: 2026-10-04
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 **The decision.** An obese older adult is going to lose weight by eating less. Caloric restriction (CR)
 removes fat, but it also removes muscle — and in an older adult, who is already losing lean mass with age,

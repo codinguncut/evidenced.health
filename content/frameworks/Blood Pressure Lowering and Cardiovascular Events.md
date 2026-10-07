@@ -34,7 +34,7 @@ relationships:
     - Non-Sugar Sweeteners
 created: 2026-07-29
 updated: 2026-10-07
-self_critiqued: 2026-09-25
+self_critiqued: 2026-10-07
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -233,7 +233,8 @@ beats dynamic resistance alone (−2.98, 95% CrI −5.04 to −0.93), and in the
 analysis it beats endurance, resistance and isometric training alike [@naci2019exercise], reaching −13.51 (−16.55 to −10.45) vs control
 [@naci2019exercise]. Naci
 notes that only a small subset of trials tested the combination and their frequency and duration were not
-consistently reported, so the edge may partly be more total training. The type groups
+consistently reported [@naci2019exercise], so the
+edge may partly be more total training. The type groups
 differ in baseline SBP (125 mmHg resistance, 135 combination; Table 1), so part of the all-populations
 edge may be baseline; the edge persisting at >=140 mmHg is the better test. The decision reading and its
 caveats are on [[Is the Exercise Modality Doing Any Work]].
@@ -252,6 +253,8 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
 </div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
@@ -305,6 +308,10 @@ a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), con
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
 Landry's 2024 umbrella adds a diet-pattern BP lever: pooling 16 observational studies (Benatar),
@@ -319,6 +326,8 @@ levers at once -> [[Vegetarian Dietary Patterns and Mortality]]. Read through th
 transmission transfers — and the vegan diet simultaneously moves LDL, BMI and CRP, so the BP channel is
 not separable as the cause. A dietary-pattern BP association, not a titratable lever; the SBP number is
 a surrogate here as for the sodium/alcohol routes above. [inferred from @landry2024vegetarian]
+
+</div>
 
 ## A fifth lifestyle BP route — yoga, the least-warranted of them `[2026-09-23, Geiger]`
 
@@ -381,8 +390,8 @@ with the biggest, cleanest office-SBP moves (garlic placebo-controlled; exercise
 the **weakest** endpoint warrant — none trialled, or observational only — while the one non-drug row
 validated on *measured* events (SSaSS) carries a **modest** surrogate move, -3.34. *Corrected 2026-10-07:*
 this sentence earlier counted the drug channel as a second modest-move row, but BPLTTC's per-5-mm-Hg is a
-standardising unit, not an achieved drop, and drugs lower SBP a lot (-8.80 vs control across Naci's drug
-trials, mean baseline about 157 mmHg); drugs are big on the surrogate *and* validated on events, so they sit outside the pattern, which
+standardising unit, not an achieved drop, and drugs lower SBP a lot (-8.80, -9.58 to -8.02, vs control
+across Naci's drug trials, whose class mean baselines were 156-160 mmHg; Table 1) [@naci2019exercise]; drugs are big on the surrogate *and* validated on events, so they sit outside the pattern, which
 rests on one measured-endpoint contrast. Big-and-clean on the surrogate and
 strong-on-the-endpoint are different levers. (Urate lowering is the one non-comparable cell: Qu reports
 SDM, so its \~3 mm Hg is a design-discounted proxy from Agarwal 2013, not the same quantity.) **Layer-1
@@ -396,6 +405,8 @@ endpoint.
 [inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @bplttc2021]
 
 </div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Held levers that barely move SBP — fibre, whole grains, sweeteners
 
@@ -421,21 +432,32 @@ So the comparison with the hypertensive rows in the table above is not stratum-m
 Fibre lowers SBP by a real but small amount, at moderate certainty. Read through BPLTTC's per-5-mm-Hg
 channel, a sustained -1.27 would predict roughly 2.5% fewer CV events in relative terms, and only if a
 diet-induced drop transmits like years of drug-induced lowering. SACN listed fibre and blood pressure under
-insufficient RCT evidence (Table 8.2), a category it uses where «two or fewer studies» met its inclusion
-criteria or the studies were too inconsistent (8.158) [@sacn2015]. The two reviews differ in which trials qualified, not in how they read the same trials.
- The diabetes-fibre estimate is too imprecise to call either way: its interval runs from
+insufficient RCT evidence (Table 8.2), a table kept separate from inconsistent evidence (Table 8.3)
+[@sacn2015]. Its methods annex defines the category:
+«A2.21 The evidence was normally considered as insufficient where there were fewer than three studies of
+the same type. Alternatively, if there were more studies but they were of poor quality, the evidence may
+have also been considered as insufficient.» [@sacn2015]
+So SACN's fibre-BP entry means too few or too weak qualifying trials, not conflicting ones.
+*Superseded 2026-10-07:* the earlier wording read 8.158's combined definition (two or fewer studies, or
+too inconsistent) as leaving open which applied; the separate tables settle it. It also graded fibre by type and found one effect: «8.79 An
+effect is demonstrated for higher oat bran and β-glucan consumption on reducing systolic blood pressure
+(-2.86 mmHg, 95% CI -4.87, -0.85; p<0.01).» [@sacn2015].
+So the gap with Reynolds may come from SACN splitting fibre by type under different inclusion rules,
+rather than from reading the same trials differently. The diabetes-fibre estimate is too imprecise to call either way: its interval runs from
 about -5 to +1. Whole grains and sweeteners show no clear effect. SACN's whole-grain pool rests mostly
 on one trial: «8.136 One trial, contributes 92% to the pooled estimate for systolic blood pressure and
 97% for diastolic blood pressure (Howard et al., 2006b). This trial elicited a very small increase in
 whole grains consumption (less than one serving per day) and also resulted in weight loss differences
 between experimental groups.» [@sacn2015]. Legume
-intake got no BP conclusion at all (evidence too limited or inconsistent)
+intake got no BP conclusion at all (insufficient RCT evidence, Table 8.2, beside fibre and breakfast
+cereals) [@sacn2015]
 -> [[Whole Grains Refined Grains and Pulses]]. None of these effects is large enough to rank as a BP
 lever; their value, where they have any, runs through other outcomes on their home pages.
 
 Sweeteners carry a cohort-trial split. WHO's cohorts link sweetener use to hypertension (HR 1.13,
-1.09-1.17, low certainty), while its trials show no SBP rise. WHO says «The majority of RCTs assessing NSS lasted 3 months or
-less» [@who2023nonsugar]; the 14 SBP trials' durations are not given
+1.09-1.17, low certainty), while its trials show no SBP rise. In its body-weight discussion WHO says «The majority of RCTs
+assessing NSS lasted 3 months or less, and the small number that lasted more than 3 months gave
+inconsistent results.» [@who2023nonsugar]; the 14 SBP trials' durations are not given
 separately, but if they follow that pattern they cannot test a harm that takes years to show as incident
 hypertension. WHO names reverse causation as a possible explanation: «Reverse
 causation suggests that those already at elevated risk of disease initiated or increased use of NSS
@@ -447,6 +469,10 @@ significant role in many of the studies.» [@who2023nonsugar]. So the
 short-term SBP question has a moderate-certainty null, and the long-term hypertension question stays
 open.
 [inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Decision relevance
 
@@ -472,6 +498,8 @@ open.
   [[Dietary Magnesium and Cardiometabolic Outcomes]], and, for whether sodium reduction should target the
   salt-sensitive or everyone, [[Should Sodium Reduction Be Population-Wide or Targeted]]. Weight loss as
   an events route -> [[Does Weight Loss Reduce Cardiovascular Events]].
+
+</div>
 
 ## Limits
 

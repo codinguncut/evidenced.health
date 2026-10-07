@@ -209,8 +209,6 @@ protocols showed positive signals; and no creatine trial measured **fracture**
 [@forbes2018creatine]. Full appraisal:
 [[Creatine Supplementation]] (Bone leg).
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Decision relevance
 
 - **The exposure is worth pulling, and the fracture case is now direct.** For a postmenopausal woman,
@@ -238,7 +236,5 @@ protocols showed positive signals; and no creatine trial measured **fracture**
   bone-stress risk — while a *high-mass* obese novice loads the skeleton heavily and plausibly has higher
   BMD, shifting their binding injury constraint to soft tissue/joint rather than bone. Same mechanism,
   opposite stratum conclusions.
-
-</div>
 
 ## References

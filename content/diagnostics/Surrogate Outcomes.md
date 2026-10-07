@@ -73,6 +73,8 @@ patient-important outcome.
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The second criterion — does the chain actually transmit?
 
 Proximity is not the only test the handbook supplies. Immediately after the proximity passage it adds
@@ -100,6 +102,8 @@ Blood pressure shows the second criterion applied per route. The transmission to
 for drug-induced lowering, but for the lifestyle and supplement routes it is assumed. The levers with
 the biggest office-SBP drops tend to be the ones never tested on events
 -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+</div>
 
 ## Tests / indicators
 

@@ -22,8 +22,7 @@ created: 2026-10-04
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **The decision this page serves:** an older adult who has been training will, at some point, stop —
 illness, a fall, a hospitalization, a holiday, lost motivation. How much of the function they built
@@ -40,6 +39,10 @@ a fall or a hospital stay adds bed rest, inflammation and catabolism — a harsh
 no data on, so the findings below do **not** transport to it; that is a named gap. (The MA's mentions of
 falls and hospitalization are motivating rationale, not studied exposures.)
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The headline: function does not evaporate when training stops — a medium residual advantage persists
 
 - After a completed program (resistance or multicomponent), older adults retained a **medium, significant
@@ -55,6 +58,8 @@ falls and hospitalization are motivating rationale, not studied exposures.)
   untrained peer — the gains have inertia. Whether this holds after an illness- or hospitalization-forced
   layoff is untested here (see *Scope* above).
 
+</div>
+
 ## What the effect size IS — and the trap of reading it as a retention percentage
 
 - The ES is a **between-group standardized mean difference of the change from before training to after
@@ -68,6 +73,8 @@ falls and hospitalization are motivating rationale, not studied exposures.)
 - This matters because the moderator that most raises the residual is simply *how much was gained in the
   first place* (next section): part of a *better retention* signal is really *trained harder, so more
   bank left after the same decay*.
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The two things that move the residual (study-level meta-regression — route-b hypotheses, not positive interaction evidence)
 
@@ -91,6 +98,10 @@ Only two of six meta-regression moderators reached significance:
   oldest-old, layoffs plausibly cost more and are plausibly worth shortening or bridging — a *hypothesis*
   for a route-(b) stratifier on age, not positive interaction evidence.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## No modifier detected: modality and intensity (wide CIs — uninformative nulls, route-b)
 
 - **No modality difference detected** (beta = -0.05, 95% CI -0.97 to 0.87, p = 0.660): multicomponent
@@ -107,6 +118,10 @@ Only two of six meta-regression moderators reached significance:
   over another. This parallels the acquisition side, where
   [[Resistance Training Prescription - Load Sets and Frequency]] also finds route-b mostly quiet (the
   relative ranking of prescriptions does not shift by stratum).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What this source cannot tell you — the decay time-course and the maintenance floor (G-gaps)
 
@@ -129,6 +144,10 @@ Only two of six meta-regression moderators reached significance:
   fall risk are exactly the ones the residual effect did not reach significance on.
   [@buendiaromero2025]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Decision relevance
 
 - **A planned layoff is not a reset.** Reassure and plan from a higher floor: a trained older adult who
@@ -148,6 +167,8 @@ Only two of six meta-regression moderators reached significance:
 - **Do not over-read the number.** ES = 0.88 is heterogeneous (I2 = 81%), GRADE very-low-to-moderate, and
   is a net-change SMD, not a retention fraction. It supports *gains persist*, not any specific *you can
   stop for N weeks* rule, and says nothing about a reduced maintenance dose.
+
+</div>
 
 ## Limits
 

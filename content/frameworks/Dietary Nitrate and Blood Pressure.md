@@ -343,6 +343,8 @@ not license summing DASH and nitrate as independent additive levers (overlapping
 
 [inferred from @siervo2013nitrate; @norouzzadeh2025nitrate]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Limits
 
 - **Short-duration surrogate evidence, ambulatory disconfirmation.** Written when Siervo was the only MA
@@ -366,5 +368,7 @@ not license summing DASH and nitrate as independent additive levers (overlapping
   The MAP knee (\~3 mmol, non-significant >5 mmol) is weak/single-outcome and not a located optimum.
 
 [inferred from @siervo2013nitrate; @norouzzadeh2025nitrate]
+
+</div>
 
 ## References

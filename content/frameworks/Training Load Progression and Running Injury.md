@@ -17,8 +17,6 @@ relationships:
 created: 2026-10-04
 updated: 2026-10-04
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important**: a running-related
 injury (RRI) ends the training attempt — route-(c) harm, and most consequential for the

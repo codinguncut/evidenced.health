@@ -18,8 +18,6 @@ relationships:
 created: 2026-10-04
 updated: 2026-10-04
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 **Peripheral scope** (exercise-programming), and — unlike the injury-prevention evidence it underlies —
 the measured outcomes here are **surrogates, not patient-important endpoints**: this is a meta-analysis

@@ -223,8 +223,6 @@ energy deficit, not by the exercise session itself**, yet the fabric stated neit
   the dual test.
 
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Reading "18% ± 93%" - it is a standard deviation, not a range (deliverable-critique, 2026-08-01)
 
 The «± 93%» is the **dispersion (SD), not a 7-34% interval** - and it is the actual finding. A mean of 18%
@@ -238,9 +236,6 @@ compensation rises with duration («approached 84%» at \~80 weeks), consistent 
 sustained deficit recruits a stronger compensatory (survival) response - so deficit-vs-maintenance-vs-
 surplus plausibly shifts it, and the pooled 18% hides that.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-04">
 
 ## Cross-reference: compensation as the descending arm of the FATmax dose-response (2026-10-04)
 
@@ -252,7 +247,5 @@ backing: Jiang's U-curve is observational, its extremes are driven by a few rese
 authors themselves flag it as needing independent replication. So it is a mechanistic echo of this
 page's held finding, not a second measurement of it.
 [inferred from @jiang2026]
-
-</div>
 
 ## References

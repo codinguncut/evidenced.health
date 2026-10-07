@@ -5,9 +5,10 @@ aliases: [Blood Pressure, Hypertension, High Blood Pressure, Lowering Blood Pres
 question: 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?'
 sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Neal - SSaSS Salt Substitution Cardiovascular 2021, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Geiger - Yoga Arterial Hypertension 2025, Chaddha - Slow Breathing Blood Pressure Meta-Analysis 2019, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, GRADE - Handbook, WHO - Sodium Intake 2012, SPRINT - Intensive vs Standard Blood Pressure 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, ESC - CVD Prevention Guidelines 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016,
   Peters - Blood Pressure Lowering Dementia 2022, Livingston - Dementia Prevention 2024, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Wilding - Semaglutide STEP-1 Weight Management 2021, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Wilding - Semaglutide STEP-1 Withdrawal 2022, Lean - DiRECT Durability 2 Years 2019, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Sacks - DASH Diet Sodium Blood Pressure 2001, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, He - Salt Reduction Blood Pressure 2013, Aburto - Potassium Cardiovascular 2013, Rees - Mediterranean Diet CVD Prevention Cochrane 2019,
-  Ge - Named Diets Weight Cardiovascular Network MA 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Poole - Coffee Consumption and Health 2017, Sutton - Early Time-Restricted Feeding eTRF 2018, Lowe - Time-Restricted Eating TREAT 2020, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Fang - Dietary Magnesium Cardiovascular Diabetes Mortality Meta-Analysis 2016, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Qu - Uric Acid Lowering Blood Pressure 2017, Ayoub-Charette - Fructose Sources Uric Acid 2021, GBD - 87 Risk Factors 204 Countries 2019, ESC-EAS - Dyslipidaemias Focused Update 2025, SCORE2-Diabetes 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016]
+  Ge - Named Diets Weight Cardiovascular Network MA 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Poole - Coffee Consumption and Health 2017, Sutton - Early Time-Restricted Feeding eTRF 2018, Lowe - Time-Restricted Eating TREAT 2020, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Fang - Dietary Magnesium Cardiovascular Diabetes Mortality Meta-Analysis 2016, Chen - Mindfulness Prehypertension Hypertension Meta-Analysis 2024, Qu - Uric Acid Lowering Blood Pressure 2017, Ayoub-Charette - Fructose Sources Uric Acid 2021, GBD - 87 Risk Factors 204 Countries 2019, ESC-EAS - Dyslipidaemias Focused Update 2025, SCORE2-Diabetes 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016,
+  Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023]
 authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Neal, Bruce; Roerecke, Michael; Naci, Huseyin; Ried, Karin; Ma, Xiao; Geiger, C; Chaddha, Ashish; Norouzzadeh, Mostafa; Schünemann, Holger; World Health Organization (org); SPRINT Research Group (org); Look AHEAD Research Group (org); Ma, Chenhan; European Society of Cardiology (org); Moll van Charante, Eric P; Peters, Ruth; Livingston, Gill; Millwood, Iona Y; Wilding, John P H; Lincoff, A Michael; Malhotra, Atul; Lean, Michael EJ; Yu, Jie; Sacks, Frank M.; Siervo, Mario; Filippou, Christina D; Chiavaroli, Laura; He, Feng J; Aburto, Nancy J; Rees, Karen; Ge, Long; Landry, Matthew J; Poole, Robin; Sutton, Elizabeth F; Lowe, Dylan A; Zhang, Xi; Dibaba, Daniel T; Fang, Xin; Chen, Qiongshan; Qu, Li-hui; Ayoub-Charette, Sabrina;
-  GBD 2019 Risk Factors Collaborators (org); Mach, François; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Mente, Andrew]
+  GBD 2019 Risk Factors Collaborators (org); Mach, François; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Mente, Andrew; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org)]
 confidence: medium
 created: 2026-08-10
 updated: 2026-10-07
@@ -278,6 +279,33 @@ The authors also note a bias running the other way: they may have underestimated
 excluded ineffective or suboptimal drug doses but no exercise trials on that basis
 [@naci2019exercise]. Exercise cannot be blinded,
 so that weakness is built in.
+
+**Single exercise types lowered pressure about equally; combining endurance and resistance training did
+best.** Naci also compared exercise types with one another: «Overall, different types of structured
+exercise interventions achieved similar reductions from baseline (table 2).» «One excep- tion was the
+combination of endurance and resistance training, which was more effective in reducing baseline SBP
+than dynamic resistance alone (−2.98, 95% CrI −5.04 to −0.93).»
+[@naci2019exercise] In trials of people starting at
+140 mmHg or higher, the combination beat endurance, resistance and isometric training alike, and lowered
+systolic pressure by 13.51 mmHg (95% CrI -16.55 to -10.45) against control.
+[@naci2019exercise]
+
+Three cautions keep that edge provisional. Only 30 of the 197 exercise trials compared one type with
+another, so most type contrasts are network estimates inferred across trials. The type groups started
+at different pressures, a mean 125 mmHg in resistance trials and 135 in combination trials
+[@naci2019exercise]. And Naci
+itself flags how thin the combination evidence is: «For example, only a small subset of studies
+identified in our review tested the effectiveness of the combi- nation of endurance and dynamic
+resistance training. Although these types of interventions were often effective, especially in
+hypertensive populations, their frequency and duration were not consistently reported to determine the
+optimal formulation and dose of physical activity to maximise its benefit.»
+[@naci2019exercise]
+
+Since a higher start brings a larger drop, part of the all-populations edge may be baseline; the edge
+held in the 140-plus trials, which partly controls for that. Part may also be more total training
+rather than the mix itself. Among single types, the one a person will keep doing is a reasonable choice;
+for a hypertensive person who can do both, indirect evidence leans toward the combination
+([[Is the Exercise Modality Doing Any Work]]).
 
 **The fair summary: a similar systolic drop in hypertensive trials, at low-to-moderate certainty, with
 no event data for exercise.** Naci measured no strokes or heart attacks. Exercise also improves
@@ -552,17 +580,90 @@ The figures, dose-response, and the kidney and drug contraindications live in th
   exposures,
   so neither result is a claim about eating windows in general ([[Time-Restricted Eating]]).
 
+### Fibre, whole grains and sweeteners barely move the reading
+
+**Extra fibre lowers systolic pressure by about 1 mmHg; whole grains and non-sugar sweeteners show no
+clear effect.** These come from general-population trials. Reynolds admitted people with mild to
+moderate hypertension but excluded those on medications affecting the outcomes, and gives no
+hypertensive-only estimate
+[@reynolds2019], so the figures are not
+directly comparable with the hypertensive figures for exercise or garlic.
+
+| Trial contrast | Systolic change (mmHg, 95% CI) | Certainty |
+|---|---|---|
+| More vs less dietary fibre, general population (15 trials) | -1.27 (-2.50 to -0.04) | Moderate |
+| More vs less fibre, people with diabetes or prediabetes (12 trials) | -1.86 (-4.85 to 1.12), not significant | -- |
+| More vs less whole grain (8 trials) | -1.01 (-2.46 to 0.44) | Moderate |
+| Whole-grain vs refined-grain diets (SACN) | 0.2 (-1.6 to 2.0), p=0.85 | Moderate (SACN: no effect) |
+| Non-sugar sweeteners (14 trials) | -1.33 (-2.71 to 0.06) | Moderate |
+
+[@reynolds2019]
+[@reynolds2020]
+[@sacn2015]
+[@who2023nonsugar]
+
+SACN, the UK's advisory committee, put fibre and blood pressure in its table of insufficient trial
+evidence, which it keeps separate from its table of inconsistent evidence
+[@sacn2015]. SACN normally files evidence
+as insufficient when fewer than three studies of the same type qualify, and sometimes when more exist but
+are of poor quality [@sacn2015]. So the fibre entry
+means too few or too weak qualifying trials, not conflicting ones. Its chapter summary states: «8.161 Randomised controlled trials
+indicate there is no effect of total or mixed dietary fibre intake on the cardiovascular or type 2
+diabetes mellitus risk factors considered here.»
+[@sacn2015] With blood pressure filed as insufficient,
+that null need not cover it.
+
+Splitting fibre by type, SACN found one
+effect: «8.79 An effect is demonstrated for higher oat bran and β-glucan consumption on reducing
+systolic blood pressure (-2.86 mmHg, 95% CI -4.87, -0.85; p<0.01).»
+[@sacn2015] The gap with Reynolds may come from that
+split and different inclusion rules rather than from reading the same trials differently.
+
+SACN's whole-grain null rests mostly on one trial, which contributed 92% of the systolic estimate,
+raised whole-grain intake by less than a serving a day, and also produced weight differences between
+groups [@sacn2015].
+
+Sweeteners split by study design. In WHO's review, cohorts linked sweetener use to hypertension (HR
+1.13, 95% CI 1.09 to 1.17, low certainty), while the trials showed no rise in systolic pressure
+[@who2023nonsugar]. WHO names one explanation: «Reverse
+causation suggests that those already at elevated risk of disease initiated or increased use of NSS
+because of their risk status, rather than NSS leading to increased risk in otherwise healthy or
+low-risk individuals.» [@who2023nonsugar] It then limits that
+reading: «However, efforts taken by the authors to address reverse causation and confounding in most
+studies suggest that these phenomena are not the sole causes of observed associations and may not even
+play a significant role in many of the studies.»
+[@who2023nonsugar]
+
+In its body-weight discussion WHO notes that most sweetener trials lasted 3 months or less
+[@who2023nonsugar]. If the blood-pressure trials were as short,
+they could not detect a harm that takes years to show up as hypertension, so the short-term question
+has a moderate-certainty null and the long-term one stays open. None of the three exposures moves
+pressure enough to rank as a blood-pressure lever. At the drug-trial rate, fibre's -1.27 mmHg would
+predict roughly 2.5% lower relative risk of cardiovascular events, and only if the drop is sustained and
+diet-lowered pressure transmits like drug-lowered pressure. Their value, where they have any, runs through other outcomes
+([[Dietary Fibre and Health]], [[Whole Grains Refined Grains and Pulses]], [[Non-Sugar Sweeteners]]).
+[inferred from @reynolds2019; @bplttc2021]
+
 ## Supplements and relaxation practices report big drops that shrink under stricter tests
 
 Beyond whole diets, several single foods, supplements and relaxation practices report systolic drops
-as large as a drug's, on much weaker evidence. **Across the non-drug levers, the size of the
-headline drop and the strength of the evidence run in opposite directions.** Garlic, mindfulness
+as large as a drug's, on much weaker evidence. **Among the non-drug levers, the biggest headline
+drops come from the least-tested levers.** Garlic, mindfulness
 courses and yoga post some of the biggest office-BP numbers, yet none has been tested on strokes or
 heart attacks. Each mind-body drop fails a stricter test somewhere: against an active control
-(yoga), in low-risk-of-bias trials (slow breathing) or in unmedicated patients (mindfulness). The
-levers proven to cut events show more modest pressure drops
-([[Blood Pressure Lowering and Cardiovascular Events]]).
-[inferred from @ried2008; @ma2025garlic; @geiger2025yoga; @chaddha2019; @neal2021; @bplttc2021]
+(yoga), in low-risk-of-bias trials (slow breathing) or in unmedicated patients (mindfulness).
+[inferred from @ried2008; @ma2025garlic; @geiger2025yoga; @chaddha2019]
+
+The only non-drug lever with a trial that counted fewer events alongside a measured blood-pressure
+drop, salt substitution, lowered systolic pressure by a modest 3.34 mmHg (95% CI -4.51 to -2.18) in SSaSS
+[@neal2021], so the pattern rests on
+that one contrast. (PREDIMED's Mediterranean diet cut events too, but its benefit is not tied to a
+blood-pressure drop.) Drugs sit outside the pattern: they lowered systolic pressure by 8.80 mmHg (95% CrI
+-9.58 to -8.02) against control across Naci's drug trials, which started from higher pressures (class
+means of roughly 156-160 mmHg, against 125-135 in its exercise trials)
+[@naci2019exercise], and their effect on events is
+proven ([[Blood Pressure Lowering and Cardiovascular Events]]).
+[inferred from @neal2021; @bplttc2021]
 
 So **rank these levers on certainty and event proof, not on the headline mmHg.** No trial of any lever
 in this section counted cardiovascular events; the event payoff is assumed, as set out in *The proof
@@ -1204,7 +1305,7 @@ a choice, and a specific study would settle it.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?' |
-> | **Evidence included** | 48 sources — 28 gold, 17 high, 1 moderate, 1 weak, 1 method |
+> | **Evidence included** | 52 sources — 31 gold, 18 high, 1 moderate, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Sutton (RCT, weak); Lowe (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |

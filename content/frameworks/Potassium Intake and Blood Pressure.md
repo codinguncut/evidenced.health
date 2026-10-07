@@ -15,7 +15,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-31
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-08-04
 ---
 
@@ -158,6 +158,8 @@ exposure, stroke RR held at 0.79). Full taxonomy and why this matters:
 [[Measurement Error in Dietary Assessment]].
 [inferred from @aburto2013]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Synthesis -- the electrolyte pair is one lever, not two independent witnesses
 
 **Nucleus link.** This page orbits [[Sodium Intake and Blood Pressure]] (nucleus of the
@@ -188,7 +190,7 @@ are **different exposures**, so no cell is a *same quantity* match; the object o
 |---|---|---|---|
 | SBP effect, **hypertensive** | **-5.32 mmHg** (3.43-7.20), 16 RCTs | -5.39 (He) / -4.06 (WHO) | **NO — opposite exposures**; magnitudes comparable |
 | SBP effect, **normotensive** | **+0.09 mmHg** (−0.77 to 0.95) -- **null** | -2.42 (He, sig) / -1.38 (WHO, sig) | **NO — and the pattern differs: potassium null, sodium NOT** |
-| The one significant hard outcome | stroke RR 0.76 | stroke (WHO cohort RR \~1.24 per higher intake) | parallel structure, opposite direction of intake |
+| The one significant hard outcome | stroke RR 0.76 (text; Table 2 direct row 0.79, LOW) | stroke (WHO cohort RR \~1.24 per higher intake) | parallel structure, opposite direction of intake |
 
 **The asymmetry is the finding:** sodium reduction lowers BP in **both** strata (larger in
 hypertensives); potassium raising lowers BP **only** in hypertensives (normotensive effect is a flat
@@ -247,18 +249,26 @@ biomarker». That assertion is bounded and upgraded by [[Blood Pressure Lowering
 CV events \~10% (stroke 13%), even in primary prevention**. Potassium lowers SBP \~5.3 mmHg *in
 hypertensives* -- so the composite chain **potassium -> BP (RCT) -> events (RCT)** is a stronger warrant
 than Aburto's proxy claim alone. **But the arithmetic does not fully close:** BPLTTC's stroke -13% per 5
-mmHg predicts only \~RR 0.87 from a 5.3 mmHg fall, whereas the direct cohort shows RR 0.76 (\~twice the
-BP-mediated effect). The two are not statistically inconsistent (0.87 sits inside the cohort CI
-0.66-0.89), but the exposures are unmatched -- a modest RCT supplement dose vs a highest-vs-lowest cohort
+mmHg predicts only \~RR 0.87 from a 5.3 mmHg fall, whereas the direct cohort shows RR 0.76 in Aburto's
+text, or 0.79 (0.68-0.93) in its LOW-graded Table 2 row
+[@aburto2013] (a reduction
+roughly 1.5-2 times the BP-mediated one). The two are not statistically inconsistent (0.87 sits inside
+both reported CIs, 0.66-0.89 in the text and 0.68-0.93 in Table 2; both count nine cohort studies, but
+the paper does not explain why the two estimates differ),
+but the exposures are unmatched -- a modest RCT supplement dose vs a highest-vs-lowest cohort
 *intake* contrast -- and the excess of the cohort effect over the BP-channel prediction is exactly what a
 **BP-independent effect OR residual confounding** would produce. So the chain corroborates *direction*,
 not magnitude. It is strongest **where potassium moves BP** (hypertensives); it does not license a
 hard-outcome benefit in normotensives, where the BP effect is null.
 [inferred from @aburto2013]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## What is absent -- the gaps that drive the next source
 
-- **No absolute risk, no NNT** for stroke -- the RR 0.76 cannot be ranked against another exposure in the
+- **No absolute risk, no NNT** for stroke -- the RR 0.76 (0.79 in Table 2's LOW-graded row) cannot be ranked against another exposure in the
   fabric (telos layer 1). Absolute benefit scales with baseline stroke risk (route-a); a high-baseline-
   risk person gains more. -> [[Baseline Risk and the Relative-Absolute Split]]
 - **Hard-outcome RCTs absent.** CVD/CHD/mortality rest on few underpowered cohorts (CVD 4, CHD 3,
@@ -276,6 +286,8 @@ hard-outcome benefit in normotensives, where the BP effect is null.
   BP (explicitly deferred).
 
 [inferred from @aburto2013]
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-10-06">
 

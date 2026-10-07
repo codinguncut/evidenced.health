@@ -20,8 +20,6 @@ created: 2026-10-04
 updated: 2026-10-04
 self_critiqued: 2026-10-04
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 The decision: an older adult **already has sarcopenic obesity** (SO — coexisting excess fat and
 age-related low muscle mass/strength/function) and is deciding whether resistance training (RT) alone,

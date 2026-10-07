@@ -184,8 +184,6 @@ follow-up, which the authors explicitly call for («a direct outcome measure of 
 (post-intervention fall history)»). [inferred from @elhadouchi2022; @jimenezlupion2023]
 
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Intersections — how this refines the held exercise pages
 
 - **It refines *resistance training alone does not reduce falls*.**
@@ -220,7 +218,6 @@ follow-up, which the authors explicitly call for («a direct outcome measure of 
   the nutritional side of defending function; power training is the non-nutritional side, and both act on
   the same fast-twitch-fibre / neuromuscular substrate.
 
-</div>
 
 ## Decision relevance
 

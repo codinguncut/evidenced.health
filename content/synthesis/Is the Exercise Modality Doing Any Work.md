@@ -5,7 +5,7 @@ aliases: [Does Exercise Modality Matter, Exercise Modality Equivalence, The Moda
 authors: [Luan, Lijiang; Deng, Ying; Gomez-Redondo, Paola; O'Donoghue, Grainne; Liu, Jing-xin; Blomstrand, Peter; Goh, Siew Li; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A]
 sources: [Luan - Stationary Cycling Knee OA, Deng - Aquatic Land Balance Older, Gomez-Redondo - Supervised Unsupervised Exercise, ODonoghue - Exercise Prescription Body Composition, Liu - HIIT Glycemic Control Type 2 Diabetes 2019, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Goh - Exercise Types NMA Knee Hip OA, Naci - Exercise vs Antihypertensive Drugs 2019]
 confidence: low
-self_critiqued: 2026-10-06
+self_critiqued: 2026-10-07
 updated: 2026-10-07
 relationships:
   related_to:
@@ -22,7 +22,8 @@ relationships:
   derived_from:
     - Is the Food Category Doing Any Work
 ---
-<div class="recent-update" data-last-updated="2026-10-04">
+<div class="recent-page" data-last-updated="2026-10-07"></div>
+
 
 This is [[Is the Food Category Doing Any Work]] applied to exercise programming. The food version asks
 whether a *category boundary* (meat, dairy, "processed") carries information or averages over a mix that
@@ -36,10 +37,6 @@ The frame already existed for one case: [[Mind-Body Exercise and Cognition]] is,
 diagnostic applied to a modality — the apparent Tai-Chi/yoga advantage for cognition dissolves into a
 comparator-plus-heterogeneity artifact rather than a mind-body ingredient effect. This page banks the
 generalization across the batch of modality/format comparisons the fabric now holds.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The pattern — within a goal, the modality axis is mostly flat
 
@@ -69,10 +66,6 @@ different in kind: Blomstrand's extracted datum is a pooled mind-body *advantage
 that the advantage does no work is the facet page's correction of it, not Blomstrand's own conclusion
  -> [[Mind-Body Exercise and Cognition]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## The decision-change — flip the question
 
 The ordinary framing ("which modality is best?") presumes the boundary carries a ranking. Across these
@@ -82,10 +75,6 @@ constraint / route-(c) harm logic made concrete — a sustained lesser-ranked mo
 injurious "better" one, and when the ranking is flat to begin with there is no benefit being traded away.
 It is also *attention-is-an-anti-signal*: the modality debate is loud precisely because the effect
 differences are small and contested.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Two boundaries that keep this honest
 
@@ -116,9 +105,13 @@ restricted to hypertensive trials (>=140 mmHg), the overall exercise effect grow
 the combination beats endurance (-4.81, -7.99 to -1.61), resistance (-6.26, -10.67 to -1.90) and
 isometric (-8.58, -14.68 to -2.45) [@naci2019exercise]; against control the combination reaches -13.51 (-16.55 to -10.45), while
 isometric's interval includes the null (-4.92, -10.28 to 0.38) [@naci2019exercise]. In the all-populations analysis
-the combination's edge over endurance and isometric is not significant; only resistance is beaten. The
-authors' text reports these per-type effects against control; the combined-vs-single contrasts in
-hypertensives are this page's reading of Table 2.
+the combination's edge over endurance (-1.61, -3.34 to 0.12) and isometric (-0.84, -3.85 to 2.13) is not
+significant; only resistance is beaten [@naci2019exercise].
+The authors' text reports the per-type effects against control; the combined-vs-single contrasts in
+hypertensives are printed only in Table 2's cells, which the text does not restate. *Superseded
+2026-10-07:* an earlier version closed this paragraph by calling the hypertensive contrasts this page's
+reading of Table 2; they are printed table values (tagged above), as on
+[[Blood Pressure Lowering and Cardiovascular Events]].
 
 Three cautions keep the edge provisional. The type contrasts are network estimates, mixing 30 head-to-head
 trials with indirect comparison, and the type groups differ in baseline SBP: 134 mmHg endurance, 125
@@ -150,7 +143,6 @@ thin aerobic and mind-body nodes, the only ones mixed separates from (mixed vs s
 other large node, 0.26, -0.04 to 0.57). The NMA's lone single-type edge, aerobic over strengthening on
 walking-type performance tests, is plausibly training-specificity rather than a modality effect.
 
-</div>
 
 ## Relation to the food diagnostic — same three-way cut
 

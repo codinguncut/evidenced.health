@@ -6,7 +6,7 @@ question: 'For an adult deciding how much added/free sugar and how many sugar-sw
 sources: [WHO - Sugars Intake 2015, SACN - Carbohydrates and Health 2015, Jenkins - Glycaemic Index Load Outcomes Series 2024, Moynihan - Effect of Sugars on Dental Caries 2014, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Te Morenga - Dietary Sugars and Body Weight 2013, Willett - Nutritional Epidemiology 3e, Hall - Obesity Energetics Diet Composition 2017, Ayoub-Charette - Fructose Sources Uric Acid 2021, EFSA - Dietary Sugars Upper Intake Level 2022, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, WHO - Non-Sugar Sweeteners 2023, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Qu - Uric Acid Lowering Blood Pressure 2017, AASLD - MASLD Practice Guidance 2023, NNR - Nordic Nutrition Recommendations 2023]
 confidence: moderate
 created: 2026-08-10
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 ---
@@ -260,7 +260,7 @@ the whole question.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Hold the calories equal, and watch what survives the swap
 
@@ -347,11 +347,12 @@ high certainty, is narrower and still worth acting on: cutting SSBs lowers urate
 Liver fat runs the same way and lands in the same place. Chung's controlled-feeding trials found
 fructose no worse than glucose for liver fat at equal energy — but as a single low-risk-of-bias study
 that verdict is **insufficient evidence, not proof of no effect**, and it does not license a
-sugar-specific isocaloric liver-fat magnitude. Longer-horizon observational sources (the AASLD reading)
-report molecule-specific liver harm, but over chronic disease *incidence* rather than short-term
-liver-fat *content*, so the two populate different regimes — a distinction, not a contradiction,
-carried into the Open cells below -> [[Fatty Liver MASLD and Weight Loss]].
-[inferred from @chung2014]
+sugar-specific isocaloric liver-fat magnitude. AASLD's guidance asserts molecule-specific liver harm
+independent of calories, but on three cited references, not a separate body of long-term evidence;
+Chung rated the observational fructose-liver studies it reviewed insufficient. The chronic regime is thinly and
+poorly evidenced — a design and quality gap, not a settled contradiction, carried into the Open cells
+below -> [[Fatty Liver MASLD and Weight Loss]].
+[inferred from @chung2014; @aasld2023]
 
 ### Why the big observational SSB signal is not a counterexample
 
@@ -509,7 +510,7 @@ and hard cardiovascular events.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Name the open cells — insufficient evidence is not proof of no effect
 
@@ -523,12 +524,15 @@ how far the marker carries the decision -> [[Surrogate Outcomes]].
 
 ### Sugar-specific liver fat at equal calories rests on a single study
 
-Only one low-risk-of-bias controlled-feeding study has swapped fructose for glucose
-calorie-for-calorie and measured liver fat, and it found essentially no difference — intrahepatic
-lipid moved +0.11%
+Only one low-risk-of-bias trial has swapped fructose for glucose
+calorie-for-calorie and measured liver fat. The two sugars did not differ, and neither diet changed
+intrahepatic lipid (+0.11%)
 [@chung2014]. Chung reads its
-own result as **insufficient, not as no effect**: the liver-fat associations «appear to be confounded
-by excessive energy intake», and the evidence is «not sufﬁciently robust to draw conclusions
+own result as **insufficient, not as no effect**, and frames its energy reading as an inference
+across studies: «On the basis of indirect comparisons across study ﬁndings, the apparent association
+between indexes of liver health (ie, liver fat, hepatic de novo lipogenesis, alanine aminotransferase,
+AST, and g-glutamyl transpeptase) and fructose or sucrose intake appear to be confounded by excessive
+energy intake.» The evidence, it concludes, is «not sufﬁciently robust to draw conclusions
 regarding effects of fructose, HFCS, or sucrose consumption on NAFLD»
 [@chung2014].
 
@@ -541,12 +545,24 @@ ratio did nothing (0.01, -0.36 to 0.37)
 arms is a sugar-for-starch exchange, so the **sugar-specific isocaloric liver-fat magnitude stays
 unmeasured** — there is no number to headline -> [[Fatty Liver MASLD and Weight Loss]].
 
-AASLD's guidance points the other way, holding that fructose harms the liver independent of calories
-— but it argues from **observational, long-term disease-incidence** data. That populates a different
-regime than Chung's short isocaloric trials, so the two are a **distinction, not a contradiction**:
-they answer different questions (chronic incidence versus liver fat net of energy), and for the
-net-of-energy question the stronger design is Chung's, whose verdict is insufficient. The lever stays
-*cut the liquid energy*, not *avoid the fructose molecule*.
+AASLD's guidance points the other way: «Excessive fructose consumption in particular increases the
+risk of NAFLD, NASH, and advanced fibrosis independent of calorie intake.»
+[@aasld2023] It cites three references for this. By
+their titles, two are fructose-association studies and one is a study of fructokinase-dependent
+diet-induced steatohepatitis [@aasld2023], which reads
+as an animal model. By title, the two human studies are
+associations in patients already ill (obese adults with type 2 diabetes; patients with NAFLD), so none reads as long-term incidence evidence
+.
+
+Chung appraised six observational fructose-liver studies (not AASLD's specific references). Four,
+all at high risk of bias, found higher fructose or sucrose intake associated with NAFLD; a
+medium-risk study in children and the one low-risk-of-bias adult cohort found no association. Chung
+rated the body insufficient for high risk of bias and inconsistent findings
+[@chung2014].
+So the chronic regime is thinly and poorly evidenced: the two are not cleanly joined, and the gap is
+one of design and quality, not a settled contradiction. For the net-of-energy question the stronger
+design is Chung's, whose verdict is insufficient. The lever stays *cut the liquid energy*, not *avoid
+the fructose molecule*.
 
 ### No held trial links sugar to hard cardiovascular events
 
@@ -702,7 +718,7 @@ the sugar molecule.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Caveats
 
@@ -725,7 +741,7 @@ the sugar molecule.
 > | **Evidence included** | 19 sources — 11 gold, 6 high, 1 moderate, 1 method |
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Sutton (cohort, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar.md) |
 
 </div>
 

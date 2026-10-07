@@ -4,7 +4,7 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-02
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
@@ -480,6 +480,8 @@ works on the *reversible* stages, not once bridging fibrosis or cirrhosis is est
 [@easl2024]
 
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
 Once a person is losing weight, *what* they eat at a given calorie level is a second-order lever on liver
@@ -497,18 +499,23 @@ percentages of liver fat removed.
 
 [@winterseekelen2020]
 
-**This resolves the "fructose and carbohydrates uniquely drive liver fat" claim.** At equal calories the
-carbohydrate story does not hold: the total-fat<->carbohydrate swap is null (SMD 0.01), and a separate gold
-SR-MA of controlled-feeding trials found isocaloric fructose vs glucose «did not alter IHCLs (+0.11% ±
-2.1%)» and «did not differ in any hepatic outcome measure».
-[@chung2014] The liver-fat rise
-Chung found sits in the *added-energy* arm — hypercaloric fructose raised intra-hepatic lipid 54% (95% CI
+**The evidence does not support the claim that *fructose and carbohydrates uniquely drive liver fat*,
+but it cannot rule it out.** At equal calories the carbohydrate story finds no support: the
+total-fat<->carbohydrate swap is null (SMD 0.01), and a separate gold SR-MA found only one trial that
+swapped fructose for glucose at equal energy and measured liver fat (2 weeks, 32 centrally overweight
+men). Neither diet changed liver fat (+0.11% ±
+2.1%), and the two «did not differ in any hepatic outcome measure»
+[@chung2014]. That isocaloric
+comparison rests on a single study, so it is insufficient evidence for a fructose-specific effect, not
+proof of none.
+
+The liver-fat rise Chung found sits in the *added-energy* arm — hypercaloric fructose raised intra-hepatic lipid 54% (95% CI
 29-79%) vs weight maintenance, but at equal excess energy fructose \~= glucose, so the effect «appear[s] to
 be confounded by excessive energy intake».
 [@chung2014]
 
-What survives is not a
-special carbohydrate mechanism but two composition moves — **replacing saturated with unsaturated fat**
+What the evidence does support is not a
+special carbohydrate mechanism, which stays unproven either way, but two composition moves — **replacing saturated with unsaturated fat**
 (large SMD) and cutting *excess liquid energy*: sugar-sweetened soda is the one dietary factor Peng's
 umbrella graded HIGH, RR **1.53 (1.34-1.75)**, where «the quality of evidence was only high for the
 association of sugar-sweetened soda with increased NAFLD risk».
@@ -520,6 +527,8 @@ association of sugar-sweetened soda with increased NAFLD risk».
 «Additional studies are needed to better understand the long-term association among changes in liver fat,
 histological response, and clinical outcomes.»
 [@aasld2023]
+
+</div>
 
 ## The risk MASLD carries is mostly extrahepatic — it feeds diabetes and cardiovascular disease
 
@@ -594,7 +603,7 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The decision: read the depot, target it, and know what losing it buys
 
@@ -629,7 +638,7 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | **Evidence included** | 30 sources — 15 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
 
 </div>
 

@@ -22,8 +22,7 @@ created: 2026-10-04
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
+<div class="recent-update" data-last-updated="2026-10-06">
 
 Orbiter of the `osteoarthritis` cluster. **This page characterizes ONE exercise MODE** — stationary
 cycling, a low-impact non-weight-bearing modality — where the nucleus
@@ -35,6 +34,8 @@ meta-analysis (sourced on [[Exercise Therapy for Osteoarthritis Pain and Functio
 discipline:** a modifiable-lever appraisal (mode of exercise -> OA pain/function), not disease
 management; patient-important QoL outcomes measured worst, so the register is honest uncertainty, not
 confident advice -> [[Surrogate Outcomes]].
+
+</div>
 
 ## Stationary cycling vs no exercise — real but modest; clinically meaningful only on pain and sport function
 
@@ -71,6 +72,8 @@ difference (MCID), not against Goh. The decision-legible readout is *does the ga
   contrasted intensities (HIIT vs moderate-continuous; high vs low) but were not pooled, so no knee or
   threshold is located; treat intensity as an open sub-question, not a settled target.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The mode-selection finding — no mode dominates on symptoms (the decision-change, type-C/F)
 
 [@luan2020] Across every WOMAC and KOOS sub-scale and the
@@ -90,6 +93,10 @@ P 0.61; WOMAC function -3.87, CI -11.52-3.78, P 0.32).
   does not supply the all-modes ranking, but it supplies the **null for one common mode vs the
   others**, and the NMA's single-type contrasts agree with it on pain and function.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Low-impact angle for the obese / deconditioned / previously-injured knee (type-B, decision-relevant)
 
 [inferred from @luan2020] Stationary cycling is non-weight-bearing and
@@ -104,6 +111,8 @@ route-(c) harm). This is the telos's exercise-programming taper for the untraine
 concrete: modality choice gates injury-dropout, not marginal gains, and here the safe choice has no
 shown efficacy deficit. (The *causation* side — loading and incident OA — is a separate U-shaped question
 -> [[Knee Osteoarthritis Incidence and Risk Factors]], [[The Physical Activity Paradox]].)
+
+</div>
 
 ## Mechanism — why cycling moves pain but not stiffness or global function
 
@@ -153,6 +162,8 @@ value is as a mode-specific facet, not a competing estimate:
   dissociation + the between-mode null that partially fills Goh's explicit mode gap), none of which a
   RAG over Goh reproduces.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The all-modes NMA — where cycling sits, and why it does not overturn Luan's mode null
 
 [@gohtypesnma] The companion Bayesian NMA (103 RCTs,
@@ -196,6 +207,10 @@ only Salacinski hits]
   agreement is about different units (a class vs one mode), so it is read as compatible structure,
   not convergent independent backing.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits and gaps (type-G)
 
 [inferred from @luan2020]
@@ -217,6 +232,10 @@ only Salacinski hits]
   it does not grade cycling against a realized long-term disability or joint-replacement trajectory —
   the loop stays open.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Self-critique `[run 2026-10-04, before commit]`
 
 - **Not laundered from Goh restated.** Beyond-summary moves: (1) the mode-specific effect-vs-MCID
@@ -234,6 +253,10 @@ only Salacinski hits]
   function account are the authors' proposed hypotheses, flagged as such, never dressed as outcome
   findings.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Self-critique `[run 2026-10-06, after the NMA addition]`
 
 - Blind re-critique: PASS-WITH-FIXES, all applied — the 6MWT distinction now compares matched
@@ -242,5 +265,7 @@ only Salacinski hits]
   to Table 1, not the class definition; *leads* -> *ties* on pain; the pairwise-MA deferral re-tagged to
   the pairwise MA; *costs nothing in efficacy* -> *no shown efficacy cost*. NMA-Luan relation is
   compatible structure, not type-E (1 shared trial, different units).
+
+</div>
 
 ## References

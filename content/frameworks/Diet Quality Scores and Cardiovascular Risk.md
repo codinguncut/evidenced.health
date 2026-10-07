@@ -64,10 +64,17 @@ median intake — an **unweighted sum with median cut-offs**.
 - **Per one quintile (20 percentile) increment:** «a 20% (1 quintile) higher PURE healthy diet score
   was associated with a 6% lower risk of major CVD, and 8% lower risk of mortality»
   [@mente2023pure]. Two analyses, two numbers: the «8%
-  lower» is the six-study pooled estimate (244,597 people), total mortality HR 0.92 (0.90-0.93);
-  PURE alone gives HR 0.91 (0.89-0.93), major CVD 0.94 (0.92-0.97)
-  [@mente2023pure]. They agree; neither contradicts the
-  prose.
+  lower» matches the pooled estimate across the «four prospective studies», total mortality HR 0.92
+  (0.90-0.93) [@mente2023pure]; PURE alone gives HR 0.91
+  (0.89-0.93), major CVD 0.94 (0.92-0.97) [@mente2023pure].
+  The headline's 244,597-person total also counts two case-control studies (INTERHEART, INTERSTROKE),
+  which report MI and stroke odds, not mortality [@mente2023pure].
+  The paper itself credits the 8% to the six-study combined analysis (244,597 people)
+  [@mente2023pure],
+  but the case-control studies give no mortality HR, so the figure can only be the four-cohort pool
+  (0.92). The two numbers agree; neither contradicts the prose. *Superseded 2026-10-07:* the
+  earlier wording followed the paper's six-study framing for the 0.92; the mortality HR can only come
+  from the four prospective cohorts.
 
 **Replication holds, same direction, similar size.** In three prospective vascular-patient cohorts
 (ONTARGET/TRANSCEND/ORIGIN): mortality HR 0.73 (0.66-0.81), CVD 0.79 (0.72-0.87); in two case-control

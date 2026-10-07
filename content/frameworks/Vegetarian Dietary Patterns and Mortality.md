@@ -7,7 +7,7 @@ sources: [Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian
 cluster: dietary-patterns
 confidence: low
 created: 2026-08-13
-updated: 2026-09-07
+updated: 2026-10-06
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -26,16 +26,21 @@ relationships:
     - Which Objective Moved This Recommendation
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 ---
+<div class="recent-update" data-last-updated="2026-10-06">
 
 **The vegetarian/vegan pattern leg**, anchored on two sources: Orlich 2013 (the Adventist Health Study
 2 [AHS-2] prospective cohort — 73,308 analytic Seventh-day Adventists, 2,570 deaths, mean follow-up
 5.79 y, Cox regression) for the single-cohort detail, and Landry 2024 (a gold-tier umbrella of 21 SRs,
 AMSTAR-2 + GRADE) for the pooled multi-cohort CV picture. The certainty ceiling on both is **confounding,
 not sampling** — the whole literature is observational, and the umbrella's breadth does not buy
-independence from that confound (it re-pools the same cohorts, Orlich's AHS-2 among the family). Orbits
+independence from that confound (it re-pools overlapping cohorts; whether Orlich's AHS-2 is among them is not enumerated in the held
+chunks, see below). Orbits
 the `dietary-patterns` nucleus [[Mediterranean Diet and Cardiovascular Events]].
 
 [@orlich2013]
+
+</div>
+
 ## The graded-pattern effect estimates (vs nonvegetarian reference)
 
 Diet was set at baseline by a >200-item FFQ and cut into 5 patterns by frequency of animal-food
@@ -157,6 +162,8 @@ missing). And **stroke is the outcome where the benefit fails to appear** — ve
 null (0.90, CI spans 1) and the vegan point estimate sits above 1 (1.17 [0.69, 1.99]) — consistent
 with the EPIC-Oxford higher-stroke signal below, not with a uniform vascular benefit.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Why 21 SRs is not 21 independent tests, and what the umbrella adds over AHS-2
 
 [inferred from @landry2024vegetarian]
@@ -168,11 +175,13 @@ The authors analyzed «study overlap according to primary studies» precisely be
 shared cohort base. So the 21-SR count is a coverage figure, not 21 replications (volume != independence).
 
 Relative to the AHS-2 detail this page already holds, the umbrella is **type-F refinement** (pooling,
-multi-cohort quantification, per-arm GRADE), **not type-E independent corroboration**: the Adventist
-and EPIC-Oxford cohorts that dominate this literature are among its constituent primary studies, so the
-umbrella cannot escape — and inherits — the same healthy-adherer confound Orlich flags. What it genuinely adds is a
+multi-cohort quantification, per-arm GRADE), **not type-E independent corroboration**: it re-pools
+overlapping cohorts from the same observational literature (EPIC-Oxford is named; the Adventist cohorts
+are not enumerated in the held chunks), so the umbrella cannot escape — and inherits — the same healthy-adherer confound Orlich flags. What it genuinely adds is a
 **pooled, GRADEd effect size** across many cohorts where the page previously had one — the incidence
 signal (RR 0.85, moderate COE) is more than any single cohort establishes.
+
+</div>
 
 ## The cardiometabolic risk-factor arms — surrogates, and no single channel carries the benefit
 
@@ -202,13 +211,15 @@ lever's \~10%-per-5-mmHg rate is only \~5% — so if the association is causal i
 small channels at once (BP, LDL, adiposity, inflammation), none decisive. A multi-channel,
 substitution-shaped story, not a single lever.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Symmetric-standards read — funding, authorship, and one GRADE decision to watch
 
 [@landry2024vegetarian]
 **COI, named not priced.** The review was «supported by the Academy of Nutrition and Dietetics, the
 Academy of Nutrition and Dietetics Foundation, and the Academy of Nutrition and Dietetics Vegetarian
-Nutrition Dietetic Practice Group», with vegetarian-nutrition advocates among the authors (Mangels,
-Pawlak) and the Academy's Evidence Analysis Center (Handu, Rozga). This is a stake in the exposure under
+Nutrition Dietetic Practice Group», and one author is affiliated with the Academy's Evidence Analysis
+Center (Handu). The funding by the Academy's vegetarian practice group is a stake in the exposure under
 study — the same axis a meat-industry-funded meat paper carries — and earns the same appraisal bar, no
 more, no less (name the axis, do not price it -> [[Which Objective Moved This Recommendation]]). The
 funder «had no role in the design and conduct of the study».
@@ -229,6 +240,8 @@ where an advocacy prior could bite, flagged for the reader:
   treats the health-conscious *bundle* as if it were the isolated vegetarian exposure — but the
   healthy-adherer confound (below) is exactly that these vegetarians also smoke/drink less and exercise
   more. Reasonable people can grade it either way; the choice ran toward the more favorable certainty.
+
+</div>
 
 ## Decision relevance
 

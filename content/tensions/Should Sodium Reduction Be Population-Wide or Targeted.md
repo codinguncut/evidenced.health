@@ -28,8 +28,6 @@ joined issue. It does **not** resolve — the deciding check exists on neither s
 seeing that the two literatures partly **measure different things over different ranges**, so the raw
 clash overstates the real disagreement while the policy conclusions genuinely conflict.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Both positions in their own terms
 
 - **Population-wide (WHO 2012 + He/MacGregor + Cochrane lineage).** Sodium -> BP is a **high-certainty,
@@ -48,8 +46,6 @@ clash overstates the real disagreement while the policy conclusions genuinely co
   intake — only \~10% of the studied population had **both** hypertension and >6 g/day intake — and
   argues against a population-wide approach except in very-high-intake regions.
   [@mente2016pure]
-
-</div>
 
 ## Parameter table — is this the same quantity? (op-weave 2a)
 

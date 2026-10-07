@@ -74,8 +74,6 @@ read *across* trials (severe-setting trials positive, mild-setting trial null), 
 subgroup contrast. Route-(a)/(b) caveat: this is suggestive effect-modification by baseline status,
 but it rests on between-trial comparison, not a powered interaction test.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## How this refines the held iodine evidence (Bougma 2013) — a type-F advance, NOT independent corroboration
 
 The wiki already holds Bougma 2013 (iodine -> child mental development; the held instance is on
@@ -112,8 +110,6 @@ discards. This is scope-mismatch (not-joined check (ii)), a **distinction, not a
 the RCT-grade, severe-deficiency benefit is real and \~+11 IQ, but the broad estimate is inflated by
 observational designs, and in **mild-moderate** deficiency the randomized evidence is null-to-thin.
 The composite is the deficiency-repletion shape, not a universal enhancement.
-
-</div>
 
 ## Supplementation is also a route to iodine EXCESS in pregnancy
 

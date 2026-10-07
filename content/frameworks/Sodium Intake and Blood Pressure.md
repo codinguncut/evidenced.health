@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline, Sea Salt, Himalayan Salt, Pink Salt, Is Sea Salt Healthier, Table Salt vs Sea Salt, Specialty Salt, Iodized Salt, Salt Type]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -17,8 +17,8 @@ relationships:
     - DASH Diet and Blood Pressure
     - Should Sodium Reduction Be Population-Wide or Targeted
 created: 2026-07-26
-updated: 2026-09-25
-self_critiqued: 2026-09-23
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -522,6 +522,8 @@ the structural, population-level iodine-deficiency lever).
 
 [inferred from @who2012]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Sodium is one BP lever among several — the DASH pattern lowers BP independently of it `[2026-08-07, Siervo]`
 
 Sodium reduction is not the only dietary BP lever. The DASH **pattern** lowers SBP by **-5.2 mmHg**
@@ -536,6 +538,139 @@ independent additive channels, so they cannot be summed. They *do* stack when de
 (the DASH-Sodium factorial shows salt restriction adds to DASH), but that is a stacking of two applied
 interventions, not an attribution of DASH's own effect to sodium.
 [inferred from @siervo2015]
+
+**Refinement (2026-10-06, Filippou): a possible DASH x background-sodium interaction — a between-trial
+hypothesis, not a stacking rule.** A 30-RCT DASH pooling (SBP -3.2 mmHg overall, on attained rather than
+change-from-baseline BP) splits trials by **sodium-intake level**: SBP fell **-4.5 mmHg** (-6.1, -3.0;
+9 trials) where intake exceeded 2400 mg/d and **-2.1 mmHg** (-2.5, -1.8; 14 trials) at or below it
+(P=0.003; DBP difference n.s., P=0.39). [@filippou2020dash]
+The authors point to DASH-Sodium:
+
+> «Indeed, Sacks et al. (46) suggested that the BP-lowering effect of the DASH diet compared with the
+> control diet was almost 3-fold higher for those at higher than for those at lower sodium intake.»
+[@filippou2020dash]
+
+That trial (ref 46) contributes arms to **both** sodium subgroups, so the Sacks figure is not separate
+support for the split; it is also reported second-hand through Filippou rather than read from the trial (read from the trial
+itself 2026-10-06, below).
+And the split is confounded with age: 7 of the 9 high-sodium trials are also in the mean-age <50
+subgroup, and the low-sodium, age >=50 and drug-treated subgroups all pool to about -2 mmHg with
+near-identical narrow intervals. [@filippou2020dash]
+That pattern suggests the same large trials (the largest, Naseem n=1492, is in all three) drive the
+low-effect subgroups. [inferred from @filippou2020dash]
+Filippou's own meta-regression on the change in 24-h urinary sodium was null, consistent with Siervo's
+null on the between-arm dietary sodium difference (related measures, not the same one).
+
+This is **not** the same variable as Siervo's null. Siervo tested the *between-arm sodium difference*
+(does DASH's own sodium contrast explain its effect? no); Filippou's split is by the trial's reported
+sodium-intake level (which arm the figure describes is not stated; read here as background intake).
+Both can hold. **Decision consequence: none yet.** The no-double-count and stacking statements above
+stand; whether DASH adds less once sodium is already low is an open hypothesis, owed a within-trial
+factorial reading (DASH-Sodium itself), not a number to quote. (Cashed 2026-10-06 in the next subsection.)
+[inferred from @filippou2020dash; @siervo2015]
+
+### The factorial itself: background diet halves the sodium effect, and the two levers stack sub-additively `[2026-10-06, Sacks 2001]`
+
+DASH-Sodium (NEJM 2001, n=412, SBP 120-159 / DBP 80-95, 41% stage-1 hypertensive, drug-treated excluded)
+randomized diet (DASH vs typical-US control) and fed each person three sodium levels for 30 days each in
+random order, with weight held constant. Achieved urinary sodium was \~141-144 / \~106-107 / \~64-67
+mmol/d against targets of 150 / 100 / 50. [@sacks2001dashsodium]
+The trial is inside He 2013's pool (its ref 37), Siervo's (its ref 28) and Filippou's (ref 46), so it is a
+primary trial refining the pooled estimates, not a new witness to them.
+[inferred from @sacks2001dashsodium; @he2013; @siervo2015; @filippou2020dash]
+
+| Sodium contrast (SBP, mmHg, 95% CI) | Control diet | DASH diet |
+|---|---|---|
+| high -> intermediate | -2.1 (-3.4, -0.8) | -1.3 (-2.6, 0.0) |
+| intermediate -> low | -4.6 (-5.9, -3.2) | -1.7 (-3.0, -0.4) |
+| high -> low | **-6.7** (-5.4, -8.0) | **-3.0** (-1.7, -4.3) |
+
+[@sacks2001dashsodium]
+
+**1. The sodium effect depends on what else is eaten (route b, positive within-trial evidence).**
+
+> «The level of dietary sodium had approximately twice as great an effect on blood pressure with the
+> control diet as it did with the DASH diet (P<0.001 for the interaction).»
+[@sacks2001dashsodium]
+
+This is a randomized interaction between two randomized exposures, which is the evidence route (b)
+asks for. It is one trial, 30-day periods, BP only. The authors' explanations (potassium/calcium in DASH
+blunting the low-sodium effect, or low sodium blunting potassium's) are offered with «perhaps» and not
+tested -> [[Potassium Intake and Blood Pressure]]. Decision consequence: a person already eating a
+DASH-like diet should expect roughly half the BP fall from the same sodium cut that a typical-US eater
+gets (in a 30-day fed trial, over \~140 -> \~65 mmol/d; free-living DASH-like diets untested); the sodium
+cut still lowered BP on DASH. The halved sodium step, the sub-additive combination (point 2) and DASH's
+smaller effect at low sodium are one diet x sodium interaction seen from each lever
+(6.7 - 3.0 = 12.6 - 8.9 = 5.9 - 2.2 = 3.7 mmHg SBP, using the point-2 figures below), not three findings. [inferred from @sacks2001dashsodium]
+
+**2. The *they stack* statement above, refined: they stack sub-additively.** DASH plus low sodium
+against control plus high sodium lowered SBP **-8.9 mmHg** (-6.7, -11.1), more than either alone, and
+«The reductions in blood pressure caused by the combination of dietary interventions were smaller than
+they would have been if the effects of each dietary intervention were strictly additive (P<0.001 for the
+interaction).» [@sacks2001dashsodium]
+The single effects from the same start (DASH -5.9, sodium -6.7) sum to about -12.6. So the
+no-double-count rule now has a number behind it: estimate a combined DASH + sodium effect from the
+factorial cell, not by adding the two. [inferred from @sacks2001dashsodium]
+This also answers the open question above in its within-trial form: DASH vs control SBP was -5.9 at high
+sodium and -2.2 (-4.4, -0.1) at low, so DASH adds less once sodium is already low. [@sacks2001dashsodium]
+Whether the low-effect subgroups in Filippou's pooling are explained by this or by age stays open:
+Sacks reports no age subgroup. [inferred from @sacks2001dashsodium; @filippou2020dash]
+
+**3. Shape over the studied range: no plateau; on the control diet, steeper at the lower step.**
+
+> «In the control diet, a reduction in the sodium intake of about 40 mmol per day from the intermediate
+> sodium level lowered blood pressure more than a similar reduction in the sodium intake from the high
+> level (P=0.03 for systolic blood pressure, P=0.045 for diastolic blood pressure).»
+[@sacks2001dashsodium]
+
+The achieved steps were 35 and 42 mmol/d, so the step sizes do not explain the difference. On DASH the
+two steps were -1.3 and -1.7 with no step comparison reported. Scoped claim: over achieved urinary
+sodium \~64-144 mmol/d, in 30-day feeding periods, three points show no knee or plateau, and on a
+typical-US diet the curve steepens toward the lower end. Nothing is shown below \~64 mmol/d.
+[inferred from @sacks2001dashsodium]
+
+**Parameter table** (op-weave 2a) — does this within-trial shape meet Huang's null baseline-intake modifier?
+
+| Parameter | Huang 2020 | Sacks 2001 | Same quantity? |
+|---|---|---|---|
+| What varies | trial's baseline sodium intake (crossover trials: the highest-sodium period) | the fed sodium level at which a \~40 mmol step starts, same people | **PARTLY — both ask whether the response depends on the starting level** |
+| Design | between trials, «no association for baseline sodium intake (P trend=0.20)» | within person, randomized order, P=0.03 SBP | **NO — between-trial association vs within-trial contrast** |
+| Response | SBP reduction by baseline-intake group | SBP fall per step on the control diet | **PARTLY** |
+
+Huang column: [@huang2020]. Sacks column: [@sacks2001dashsodium]
+
+Not joined (scope check ii): a non-significant between-trial association and a significant within-trial
+step contrast can both hold, and the Huang null has the power caveat this page already attaches to WHO's
+by-intake test. Recorded as a distinction, not a tension. Both are compatible with this page's
+every-reduction-pays default over the studied range. [inferred from @huang2020; @sacks2001dashsodium]
+
+**4. Subgroups — the hypertensive gradient again, from inside the pools.** The sodium effect was present
+in every prespecified subgroup and larger in hypertensives:
+
+> «The effects of sodium were greater in participants with hypertension than in those without
+> hypertension (interaction, P=0.01 on the control diet; P=0.003 on the DASH diet), in blacks on the
+> control diet than in participants of other races or ethnic groups on that diet (P=0.007), and in women
+> on the DASH diet than in men on that diet (P=0.04).»
+[@sacks2001dashsodium]
+
+Subgroup P values were not adjusted for multiple comparisons, by protocol. [@sacks2001dashsodium]
+The hypertensive > normotensive direction matches He, WHO and Huang, but this trial is in He's pool and
+referred to by Huang through DASH-Sodium secondary reports (e.g. Akita 2003) (WHO's study list is unpublished), so it is not corroboration; it does not independently
+strengthen the page's existing baseline-SBP modifier (route b, above). For race and sex, which are
+single-trial, unadjusted, and diet-specific (each reported for one diet only), route (a) stays the default.
+[inferred from @sacks2001dashsodium; @he2013; @huang2020]
+
+**Tolerability, and the limits.** Headache was reported by 47% on high-sodium control vs 39% on
+low-sodium control and 36% on low-sodium DASH; non-completion was 7 / 7 / 8 across sodium levels.
+[@sacks2001dashsodium]
+Controlled feeding measures efficacy; the authors' own words are that they «measured only true biologic
+effects» and that «long-term health benefits remain to be demonstrated». The periods were 30 days, the
+endpoint is BP, and people on BP drugs were excluded. [@sacks2001dashsodium]
+The authors' statement that the trial «should settle the controversy» over sodium in people without
+hypertension is their assertion about a BP surrogate; it does not reach the hard-outcome J-curve dispute
+-> [[Should Sodium Reduction Be Population-Wide or Targeted]]. [inferred from @sacks2001dashsodium]
+
+</div>
 
 ## Limits
 

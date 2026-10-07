@@ -15,7 +15,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
 created: 2026-07-31
-updated: 2026-09-03
+updated: 2026-10-06
 self_critiqued: 2026-08-04
 ---
 
@@ -51,6 +51,8 @@ smaller. Aburto's own hedge is that the three normotensive trials were short and
 potassium *prevents* a future BP rise, so *not effective in normotensives* is established for
 *lowering an already-normal BP*, not for long-run prevention.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The hard outcome -- stroke reaches significance, the rest do not
 
 The same split the sodium evidence shows: **stroke is the one hard cohort endpoint that reaches
@@ -59,7 +61,7 @@ significance; CVD, CHD and mortality do not.**
 | Outcome | Effect (95% CI) | Design | GRADE |
 |---|---|---|---|
 | Resting SBP | **3.49 mmHg lower** (1.82 to 5.15) | 21 RCTs, n=1892 | **HIGH** |
-| Incident **stroke** | **RR 0.76** (0.66 to 0.89) | 9 cohort comparisons | **LOW** (direct) |
+| Incident **stroke** | **RR 0.76** (0.66 to 0.89) in the Results text; Table 2 direct row RR 0.79 (0.68 to 0.93) | 9 cohort comparisons; Table 2 n=97 152 | **LOW** (direct, Table 2) |
 | Cardiovascular disease | RR 0.88 (0.70 to 1.11) -- NS | 4 cohorts, n=29 067 | VERY LOW |
 | Coronary heart disease | RR 0.97 (0.77 to 1.24) -- NS | 3 cohorts, n=31 162 | VERY LOW |
 | All-cause mortality | RR 1.08 (0.91 to 1.29) -- NS | 1 cohort, n=1766 | VERY LOW |
@@ -72,7 +74,7 @@ significance; CVD, CHD and mortality do not.**
 
 **The headline blends a direct magnitude with a surrogate-path certainty -- a [[Surrogate Outcomes]]
 tell.** The conclusion reads «a 24% lower risk of stroke (moderate quality evidence)». But 24% *is* the
-**direct** cohort estimate (RR 0.76), which Table 2 grades **LOW** (cohort floor, not downgraded); the
+**direct** cohort estimate (RR 0.76 in the text; Table 2's direct row, RR 0.79, is graded **LOW**) (cohort floor, not downgraded); the
 **moderate** rating belongs to a *different* row -- the BP-surrogate-transfer path (BP high, downgraded
 one level for indirectness). So a single sentence pairs the direct magnitude with the surrogate path's
 grade. The surrogate transfer is explicit, and it is the **same GRADE machinery the sodium review used**
@@ -88,9 +90,13 @@ concrete evidence the two WHO reviews share one methodological template (bears o
 question in the Synthesis).
 [inferred from @aburto2013]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Dose -- a plateau near 90-120 mmol/day, no monotone gradient
 
-> «high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
+> «...Moderate» [page break] «and high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
 > and was associated with a lower risk of incident stroke. Intake above 120 mmol/day did not seem to
 > have any additional benefit. However, the evidence... did not identify a precise optimal level.»
 [@aburto2013]
@@ -109,6 +115,8 @@ and even there it is monotone only *after multivariable adjustment* (Huang's raw
 author-flagged *exploratory*. So potassium-flat-by-intake and sodium-rising-by-reduction are **not
 opposed head-to-head**; both are consistent with the same decision default (raise toward \~90-120,
 reduce sodium, neither curve shows a knee that changes the action; the dose-response shape reasoning).
+
+</div>
 
 ## Safety -- null on lipids/catecholamines/renal (HIGH), with one contraindication
 
@@ -269,6 +277,8 @@ hard-outcome benefit in normotensives, where the BP effect is null.
 
 [inferred from @aburto2013]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits
 
 - **Single primary source** (Aburto/WHO 2013); gold-tier SR+MA design, but the hard-outcome arm is cohort
@@ -279,8 +289,10 @@ hard-outcome benefit in normotensives, where the BP effect is null.
   hard data taken at face value; the pro-intake framing (the *benefits most people in most countries*
   extrapolation, the 1:1-ratio target) is advocacy-shaped and caveated at point of use -- symmetric
   standards, the same discipline applied to the sodium lineage.
-- **Some small-study bias possible** (funnel plots not clear); overall SBP I2=96% before stratifying.
+- **Some small-study bias possible** (funnel plots not clear); SBP I2=96% across 21 trials; removing one study cut it to 65% (Results, *Effect estimates*).
 
 [@aburto2013]
+
+</div>
 
 ## References

@@ -2,8 +2,8 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V; Rees, Karen; Stranges, Saverio]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Rees - Mediterranean Diet CVD Prevention Cochrane 2019]
 cluster: cvd-risk-estimation
 confidence: high
 self_critiqued: 2026-10-06
@@ -146,6 +146,8 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.
@@ -167,7 +169,13 @@ and its authors say outright that generalization «to persons at lower risk requ
 Like BP-lowering, it **refines** the ceiling: an intervention *can* buy hard-outcome benefit where
 baseline risk is high; it says nothing about the low-risk person, where the absolute benefit of the same
 relative effect shrinks toward the mechanism-1 floor. (And PREDIMED's all-cause mortality was null over
-4.8 yr, so even at high risk the event benefit did not extend to death in-window.)
+4.8 yr, so even at high risk the event benefit did not extend to death in-window.) *(2026-10-06)* The
+Cochrane review's absolute numbers make the scale concrete: strokes 24 -> 14 per 1000 over 4.8 yr
+(MODERATE certainty), total deaths 47 -> 47 per 1000 (LOW), in this high-risk population
+[@rees2019medcochrane] — PREDIMED
+re-expressed by the review, not a second trial. About ten (5-13) strokes avoided per 1000 at high
+baseline risk, which the same relative effect would shrink at low risk.
+
 
 **REDUCE-IT is the third confirming test — and the only one that shows mechanism 1 INSIDE a single trial
 `[2026-08-04]`.** A lipid-lever drug (icosapent ethyl 4 g/day) cut the primary CV composite by 25% in a
@@ -231,5 +239,7 @@ single trial — all land in the same place by the same mechanism. Aspirin adds 
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
+
+</div>
 
 ## References

@@ -2,8 +2,8 @@
 type: framework
 question: Does the DASH dietary pattern lower blood pressure and cardiometabolic risk factors, by how much, and is the effect the pattern or one of its components?
 aliases: [DASH, DASH Diet, Dietary Approaches to Stop Hypertension, DASH and Blood Pressure, DASH Cardiovascular Risk Factors]
-authors: [Siervo, Mario; Lara, Jose; Chowdhury, Shakir; Ashor, Ammar; Oggioni, Carla; Mathers, John C; Chiavaroli, Laura; Blanco Mejia, Sonia; Salas-Salvado, Jordi; Kendall, Cyril WC; Sievenpiper, John L]
-sources: [Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Chiavaroli - DASH Cardiometabolic Umbrella Review]
+authors: [Siervo, Mario; Lara, Jose; Chowdhury, Shakir; Ashor, Ammar; Oggioni, Carla; Mathers, John C; Chiavaroli, Laura; Blanco Mejia, Sonia; Salas-Salvado, Jordi; Kendall, Cyril WC; Sievenpiper, John L; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.]
+sources: [Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Chiavaroli - DASH Cardiometabolic Umbrella Review, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001]
 cluster: sodium-bp
 confidence: medium
 relationships:
@@ -18,8 +18,8 @@ relationships:
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-08-07
-updated: 2026-09-09
-self_critiqued: 2026-09-09
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 Siervo 2015 (Br J Nutr) is a **systematic review and meta-analysis of 20 RCTs (1917 participants,
@@ -239,6 +239,175 @@ choice not to downgrade), **not positive route-(b) effect-modification evidence*
 [inferred from @chiavaroli2019] — the reasoned-judgment-not-subgroup-test
 framing is this page's; the no-downgrade decision and the component-RCT warrant are Chiavaroli's.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## A second pooling on a different metric — smaller effect, no baseline-BP modifier (Filippou 2020)
+
+Filippou 2020 (Adv Nutr) pools **30 RCTs (n=5545; mean age 51, BMI 29.2, baseline 134.3/84.9 mmHg,
+mean follow-up 15.3 wk)** of DASH vs a control diet, searched to Feb 2019, and grades certainty with
+GRADE. [@filippou2020dash]
+
+> «Compared with a control diet, the DASH diet reduced both SBP and DBP (diﬀerence in means: −3.2 mm Hg;
+&gt; 95% CI: −4.2, −2.3 mm Hg; P < 0.001, and −2.5 mm Hg; 95% CI: −3.5, −1.5 mm Hg; P < 0.001,
+> respectively). Hypertension status did not modify the eﬀect on BP reduction.»
+[@filippou2020dash]
+
+GRADE was **moderate for both SBP and DBP**, downgraded for blinding or incomplete outcome data; half the
+trials carried >2 unclear/high risk-of-bias items; no publication bias was detected; the estimate held in
+the high-quality (n=15) and ITT (n=18) subsets. [@filippou2020dash]
+
+**Parameter table** (op-weave 2a) — is Filippou's BP effect the same quantity as Siervo's?
+
+| Parameter | Filippou 2020 | Siervo 2015 (incumbent) | Same quantity? |
+|---|---|---|---|
+| Effect metric | between-arm difference in **attained** (post-intervention) BP | between-arm difference in **change from baseline** where appropriate; end-of-intervention values for crossover trials | **NO — different estimand for parallel trials** |
+| Trial pool | 30 RCTs, n=5545, to Feb 2019 | 20 RCTs, n=1917 | **PARTLY — 15 of Filippou's 30 trials are Siervo's** |
+| Pooled SBP | **-3.2 mmHg** (-4.2, -2.3) | **-5.2 mmHg** (-7.0, -3.4) | **NO — metric and pool differ** |
+| Pooled DBP | -2.5 mmHg (-3.5, -1.5) | -2.6 mmHg (-3.5, -1.7) | NO (same caveat; the point estimates happen to agree) |
+| Baseline-BP modifier | hypertension vs normotension SBP -3.9 vs -3.9 (P=0.96); SBP >=140 vs <140 P=0.70; baseline SBP n.s. in univariate meta-regression (the multivariate model lists baseline SBP and BMI as determinants of DBP reduction) | \~0.1 mmHg larger fall per mmHg higher baseline (meta-regression) | **NO — subgroup/regression on different metrics** |
+| Sodium moderator | trial **absolute sodium-intake level** >2400 vs <=2400 mg/d: SBP -4.5 vs -2.1 (P=0.003) | **between-arm sodium difference**: not associated with BP change | **NO — different variables** |
+
+Filippou column: [@filippou2020dash]. Siervo column: [@siervo2015]
+
+**What the comparison licenses, and what it does not.**
+
+**F, not E.** 15 of the 30 trials overlap, so Filippou is a refinement of the incumbent pooling, not
+independent corroboration. No author is shared with Siervo or Chiavaroli.
+
+**The SBP gap (-3.2 vs -5.2) is not attributable from the held material.** Filippou argues the
+change-from-baseline metric «introduces outcome-related bias and, therefore, is hardly comparable with
+our BP estimates» [@filippou2020dash],
+but the pools also differ (15 trials not in Siervo), and nothing held separates metric from pool
+composition. That is a `G (needs aggregation)` gap. Quote the two point estimates with their intervals,
+not a single number: SBP **-3.2 (-4.2, -2.3)** (Filippou, mean follow-up \~15 wk) and **-5.2 (-7.0,
+-3.4)** (Siervo, 2-24 wk); Filippou's pool averages 134/85 mmHg at baseline, Siervo reports no pooled
+baseline. Some other poolings Filippou lists sit higher still (Saneei -6.7; a network MA -7.4), so this pair is
+not the bounds of the literature.
+
+**The route-(b) baseline-BP signal from Siervo is not reproduced in Filippou's hypertension-status
+and >=140 splits** (hypertensive and normotensive trials both -3.9 mmHg SBP, P=0.96; >=140 vs <140
+P=0.70). Filippou raises regression to the mean as one possible reason. But one result and one caveat
+point the other way: untreated hypertensives had a larger point estimate (-5.9, CI -9.9 to -1.8, vs
+-3.9 in all hypertensives; vs treated P=0.07; never tested against normotensives), which the authors
+read as support for «a larger BP change in untreated individuals, who usually demonstrate higher
+baseline BP levels» [@filippou2020dash],
+and they caution that the >=140 split mixes in treated patients. Two between-trial analyses on different
+metrics cannot settle effect modification either way, so this is an **attenuation of the route-(b)
+claim, not a refutation**. The safe default is route (a): stratify by baseline CV risk, and do not
+promise a bigger relative mmHg fall to someone because their BP is higher. [inferred from @filippou2020dash; @siervo2015]
+
+**Age is a hypothesis, not a stratifier.** Trials with mean age <50 showed a larger SBP fall (-4.9 vs
+-2.0 mmHg, P<0.001), and age was the one significant univariate meta-regression covariate (P=0.002).
+The authors frame it as having «raised the hypothesis that age may be an inverse modulator», warn that
+meta-regressions are «cross-sectional tools without a prospective potential», and note it is
+«undetermined whether individual trial patients were above or below» each threshold. [@filippou2020dash]
+A between-trial age gradient is the false-positive generator route (b) warns about; it does not
+license telling an older person DASH works less for them.
+
+**On top of drug therapy: a non-zero fall, size uncertain.** In 7 trials of treated hypertensives,
+SBP fell -2.1 mmHg (-2.5, -1.8) versus -5.9 (-9.9, -1.8) in 8 trials of untreated hypertensives; the
+difference was not significant (P=0.07 SBP, P=0.23 DBP), and the authors conclude the effect holds
+«irrespective of baseline BP levels or ongoing antihypertensive treatment, although the extent of BP-
+lowering is greater in those with higher sodium intake and younger individuals» (their stated modifiers
+are sodium and age, not treatment). [@filippou2020dash]
+So the *stacks on drugs* claim below holds; whether the add-on is smaller than the first-line effect is
+suggested by the point estimates, not shown. [inferred from @filippou2020dash]
+
+**Three \~2 mmHg subgroups are probably one finding.** The <=2400 mg/d sodium subgroup (-2.1; -2.5,
+-1.8), the age >=50 subgroup (-2.0; -2.4, -1.8) and the treated-hypertension subgroup (-2.1; -2.5,
+-1.8) carry near-identical narrow intervals with I2 near 0%, and Table 2's trial lists overlap heavily
+(7 of the 9 high-sodium trials are also in the age <50 group), and the largest trial, Naseem (ref 40,
+n=1492), sits in all three low-effect subgroups. [@filippou2020dash]
+The likeliest reading is that a few large, heavily weighted trials drive all three low-effect
+subgroups, so sodium level, age and drug treatment are confounded with each other between trials and
+none of them is established as the modifier. [inferred from @filippou2020dash]
+
+**Sodium level: a between-trial interaction, held at the same status as age** (SBP -4.5 vs -2.1 mmHg
+above vs at/below 2400 mg/d, P=0.003), confounded with age as above. Filippou cites DASH-Sodium (Sacks)
+for an effect «almost 3-fold higher» at higher sodium, but that trial contributes arms to both sodium
+subgroups, so it is not separate support. The stacking consequence is on
+[[Sodium Intake and Blood Pressure]].
+[@filippou2020dash]
+
+**The pooled contrast is not pure DASH.** Eligibility admitted DASH combined with sodium restriction,
+weight loss or exercise «whether or not the control group underwent equal lifestyle changes»
+[@filippou2020dash], so some of the
+-3.2 mmHg can be co-intervention. Energy restriction did not modify the effect (P=0.48), which limits
+but does not exclude that.
+
+**Durability unknown.** «The mean follow-up time was relatively small (almost 15 wk), thus it cannot
+be suggested that the BP-lowering effect of the DASH diet is extended to longer periods.» [@filippou2020dash]
+
+[inferred from @filippou2020dash; @siervo2015] — the F-not-E call, the two-estimates statement, the confounded-subgroups reading and the route-(a)-not-(b) reading are this page's; the estimates, subgroup results and the authors' caveats are Filippou's.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## The within-trial test: DASH adds less at low sodium, and the two stack sub-additively (Sacks 2001)
+
+DASH-Sodium (NEJM 2001; n=412, SBP 120-159 / DBP 80-95 mmHg, 41% stage-1 hypertensive, 56-57% black by arm,
+antihypertensive users excluded) randomized people to DASH or a typical-US control diet and then fed each
+person high, intermediate and low sodium for 30 days each in random order. All food was provided and
+weight held constant. Achieved urinary sodium was about 142, 107 and 65 mmol/d.
+[@sacks2001dashsodium]
+The trial sits inside the Siervo and Filippou pools (Filippou ref 46), so it refines them; it is not a
+second witness to the pooled DASH effect. [inferred from @sacks2001dashsodium; @filippou2020dash; @siervo2015]
+
+DASH vs control SBP fell from **-5.9 mmHg** (-8.0, -3.7) at high sodium to **-5.0** (-7.6, -2.5) at
+intermediate and **-2.2** (-4.4, -0.1) at low; DBP from -2.9 (-4.3, -1.5) to -2.5 (-4.1, -0.8) and
+-1.0 (-2.5, 0.4). [@sacks2001dashsodium]
+
+> «It had a larger effect on both systolic and diastolic blood pressure at high sodium levels than it did
+> at low ones (P<0.001 for the interaction).»
+[@sacks2001dashsodium]
+
+**Parameter table** (op-weave 2a) — is Sacks's interaction the same quantity as Filippou's sodium subgroup?
+
+| Parameter | Filippou 2020 | Sacks 2001 | Same quantity? |
+|---|---|---|---|
+| What is compared | DASH-vs-control attained SBP, trials with sodium intake >2400 vs <=2400 mg/d | DASH-vs-control SBP at three sodium levels fed to the same people | **PARTLY — both are the DASH effect conditional on sodium; one between trials, one within a trial** |
+| Estimates | -4.5 (-6.1, -3.0) vs -2.1 (-2.5, -1.8), P=0.003 | -5.9 (-8.0, -3.7) / -5.0 (-7.6, -2.5) / -2.2 (-4.4, -0.1), interaction P<0.001 | **Direction yes; magnitudes NO** (different cut, metric and pool) |
+| Sodium contrast | one cut at 2400 mg/d (\~104 mmol) | randomized levels, urinary \~142 / \~107 / \~65 mmol/d | **NO — Filippou's cut sits near Sacks's middle level** |
+| Confounding by age / drug treatment | present: 7 of 9 high-sodium trials also in the age <50 group | sodium order randomized within person; drug users excluded | **NO — this is the difference that matters** |
+| Independence | Sacks (ref 46) contributes arms to both subgroups | — | **NOT independent** |
+
+Filippou column: [@filippou2020dash]. Sacks column: [@sacks2001dashsodium]
+
+**What this adds, and what it does not.** Within one randomized population, with age and drug use
+unable to vary with sodium level, DASH's BP effect was smaller at low sodium. So the direction of
+Filippou's sodium-level split is no longer only a between-trial hypothesis: the DASH x sodium interaction
+has positive within-trial evidence (route b), in a 30-day feeding trial on a surrogate. It does **not**
+show that Filippou's \~-2 mmHg low-effect subgroups are explained by sodium rather than age or drug
+treatment; Sacks reports no age subgroup and enrolled no drug-treated people.
+[inferred from @sacks2001dashsodium; @filippou2020dash]
+
+**The combination is the largest effect, but smaller than the sum.** DASH plus low sodium vs control plus
+high sodium lowered SBP **-8.9 mmHg** (-6.7, -11.1) and DBP -4.5 (-3.1, -5.9); in hypertensives SBP fell
+-11.5, in non-hypertensives -7.1. [@sacks2001dashsodium]
+
+> «The reductions in blood pressure caused by the combination of dietary interventions were smaller than
+> they would have been if the effects of each dietary intervention were strictly additive (P<0.001 for
+> the interaction).»
+[@sacks2001dashsodium]
+
+Adding the two single effects measured from the same high-sodium control start (DASH -5.9, sodium cut
+-6.7 on the control diet) would predict about -12.6 mmHg; the trial observed -8.9. Siervo's phrase that
+feeding trials showed «additive effects of salt restriction» (quoted above) is right in its evident sense
+(salt restriction adds further reduction on DASH); it should not be read as strict additivity, which the
+trial rejects. The halved sodium step, the smaller DASH effect at low sodium and the shortfall from the sum
+are one diet x sodium interaction seen from each lever (12.6 - 8.9 = 6.7 - 3.0 = 5.9 - 2.2 = 3.7 mmHg SBP).
+[inferred from @sacks2001dashsodium; @siervo2015]
+
+**Scope.** 30-day periods, controlled feeding (efficacy, not what people achieve on their own; the
+authors write «long-term health benefits remain to be demonstrated»), BP only, US adults with above-optimal BP,
+low-sodium target 50 mmol/d not reached (achieved \~65).
+[@sacks2001dashsodium]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits
 
 - **Surrogate-only, 2-24 weeks.** No hard endpoint; the CVD-prevention claim is a modelled projection.
@@ -254,8 +423,21 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
   move confidence up is the RCT hard-outcome trial the umbrella itself still calls for, or a
   genuinely independent BP pooling — neither is held. The DASH -> hard-events question is now
   *partially* answered (observationally), no longer a bare type-G gap.
+- **Second pooling held, confidence still `medium` (2026-10-06).** Filippou 2020 is a larger, newer,
+  GRADE-moderate pooling, but it shares 15 of 30 trials with Siervo and uses a different metric, so it
+  adds a second, lower SBP estimate (-3.2 vs -5.2 mmHg) rather than independent support. It also
+  weakens the baseline-BP modification claim. No hard-outcome RCT, and follow-up stays about 15 wk.
+  [inferred from @filippou2020dash]
+- **A primary trial added, confidence still `medium` (2026-10-06).** Sacks 2001 (DASH-Sodium) is one of
+  the pooled trials, so it adds no independent support for the pooled DASH effect. What it adds is
+  within-trial structure: the DASH x sodium interaction and the sub-additive combination, from 30-day
+  feeding periods on a BP surrogate. [inferred from @sacks2001dashsodium]
 
 [inferred from @siervo2015; @chiavaroli2019]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -281,5 +463,35 @@ framing is this page's; the no-downgrade decision and the component-RCT warrant 
   *surrogate* (here), Mediterranean on hard *events* (PREDIMED); where the two meet on the same BP endpoint
   they are near-equivalent, and DASH's own hard-event RCT is the gap the umbrella still calls for. The
   head-to-head reading -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
+
+**Updates 2026-10-06 (Filippou) to the list above.**
+
+*Magnitude and the higher-BP clause:* a second, larger pooling on attained BP gives **-3.2/-2.5 mmHg**
+(GRADE moderate), so quote SBP as two estimates, -3.2 (-4.2, -2.3) and -5.2 (-7.0, -3.4), not one. The
+same pooling finds **no** hypertensive-vs-normotensive difference and no significant BMI difference
+(>=30 vs <30: -3.9 vs -2.6, P=0.12), so the *larger in higher-BP / higher-BMI people* clause is now
+contested, not established; stratify by baseline CV risk (route a) instead. [@filippou2020dash]
+
+*First-line vs add-on:* trials in treated hypertensives pooled SBP -2.1 mmHg (-2.5, -1.8; 7 trials) vs
+-5.9 in untreated; the gap was not significant (P=0.07). [@filippou2020dash]
+
+*DASH with sodium reduction:* between trials, the DASH effect was smaller where sodium intake was lower
+(SBP -2.1 at <=2400 mg/d vs -4.5 above). [@filippou2020dash] This hints at an interaction, but it is confounded with age, so it is a
+hypothesis, not a reason to expect less from DASH after cutting salt.
+
+**Update 2026-10-06 (Sacks DASH-Sodium) to the item above and to the do-not-double-count bullet.**
+
+*DASH after a sodium cut:* within one randomized feeding trial, DASH lowered SBP -5.9 mmHg at \~142 mmol/d
+sodium but only -2.2 (-4.4, -0.1) at \~65 mmol/d (interaction P<0.001). [@sacks2001dashsodium]
+So someone who has already cut sodium to that level should expect a smaller extra BP fall from DASH, on
+30-day feeding evidence; the age confound in Filippou's split is not resolved by this. [inferred from @sacks2001dashsodium; @filippou2020dash]
+
+*Stacking:* the two levers stack sub-additively: DASH plus low sodium gave -8.9 mmHg SBP against a
+predicted \~-12.6 if the single effects summed. Both together still beat either alone, so for maximal BP
+lowering do both, and estimate the combined effect from the factorial (-8.9 in this trial), not by adding two separate numbers. The trial's
+-11.5 hypertensive / -7.1 non-hypertensive split is a prespecified but unadjusted single-trial subgroup
+(P=0.004), not a stratum estimate; the page default stays route (a). [inferred from @sacks2001dashsodium]
+
+</div>
 
 ## References

@@ -20,7 +20,7 @@ relationships:
     - The Observational-Trial Discordance
     - Night Shift Work and Breast Cancer
 created: 2026-07-25
-updated: 2026-08-19
+updated: 2026-10-06
 self_critiqued: 2026-08-19
 ---
 
@@ -93,6 +93,8 @@ with each hour's delay of antibiotics in sepsis and hypotension.
   or plateau is a **decision** parameter.
   [inferred from @grade]
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## 3. Plausible residual confounding working against the effect
 
 The standard reason observational evidence sits at low certainty is residual confounding —
@@ -149,11 +151,21 @@ against it — the opposite of the §3 configuration.
 - **Effect sizes mostly inside the §1 bar.** Cycle-commuting all-cause mortality HR 0.59 (0.42-0.83) does
   not clear the <0.5 large-effect threshold; CVD mortality 0.48 (0.25-0.92) nominally does but on a wide
   interval that «overlaps substantially with effects smaller than the chosen threshold» — GRADE's own
-  caution against rating up on such a CI [@celismorales2017commuting].
-- **§3 runs the wrong way — self-selection inflates the benefit.** Cyclists are leaner, fitter, wealthier
-  and less comorbid at baseline (a healthy-user gradient), which the authors flag: «which may indicate a
-  healthy volunteer selection bias» and «residual confounding is always possible and associa- tions may
-  not imply causation» [@celismorales2017commuting].
+  caution against rating up on such a CI [@celismorales2017commuting] (HRs);
+  the quoted overlap caution is GRADE's text, not Celis-Morales's [@grade].
+- **§3 most plausibly runs the wrong way — self-selection would inflate the benefit.** The authors do not
+  characterize cyclist self-selection. Their healthy-volunteer remark is about UK Biobank versus the general
+  population («may indicate a healthy volunteer selection bias»), and they add that «it should be possible to
+  generalise the estimates of the magnitude of associa- tions». What they do state is «residual
+  confounding is always possible and associa- tions may not imply causation»
+  [@celismorales2017commuting]. The
+  direction (healthy-user confounding running *with* a protective association) is this page's inference
+  about active commuters in general, not an author-flagged finding. Its baseline leg is in
+  the source's Table 1: cyclists were leaner and fitter than non-active commuters (BMI 25.22 vs 27.51; body
+  fat 24.73% vs 30.84%; fitness 11.79 vs 9.32 METs), though not wealthier
+  [@celismorales2017commuting]
+  (corrected 2026-10-06, Gate 52 cold re-audit: the healthy-volunteer quote was earlier read as a cyclist
+  self-selection flag).
   So the plausible residual confounding would **manufacture or amplify** the protective association — the
   configuration in which §3 **cannot** rate up (it upgrades only when the bias should have *weakened* the
   finding).
@@ -178,6 +190,11 @@ read as a §3 argument — the GRADE §3 factor is about confounding specificall
 issued (adjudication is out of scope for an ingest); the section records the criteria configuration
 only. This complements, not duplicates, the Ding coffee-T2D case (there §1 magnitude fails with §3
 favourable; here §2 holds but §3 is unfavourable).
+*Superseded 2026-10-06 (Gate 52 cold re-audit):* the *checked against the source* line above does not
+hold as written. Celis-Morales's Table 1 does show cyclists leaner and fitter at baseline (not
+wealthier), but the authors never interpret that gradient as self-selection, and their healthy-volunteer
+remark concerns UK Biobank's representativeness. The §3 direction stands as
+this page's reading, not as an author-flagged one; the bullet above is corrected.
 
 - ***Observational, therefore weak* is not GRADE's position** — it is GRADE's *starting point*, with
   three named exits. Citing GRADE for a blanket dismissal of observational evidence misreads it.
@@ -198,6 +215,7 @@ favourable; here §2 holds but §3 is unfavourable).
   same doubt as a small harmful one (and measurement error usually attenuates toward the null, so a
   modest RR can understate a real effect too -> [[Measurement Error in Dietary Assessment]]).
 
+</div>
 
 ## Limits
 

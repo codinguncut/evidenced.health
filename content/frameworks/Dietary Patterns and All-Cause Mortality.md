@@ -2,8 +2,8 @@
 type: framework
 question: Does a healthy dietary PATTERN (the whole diet as the unit, not a single nutrient) lower all-cause mortality, how strong is the evidence, and does the specific pattern label matter?
 aliases: [NESR Dietary Patterns Mortality, DGAC 2020 Dietary Patterns, Healthy Dietary Pattern Mortality, Dietary Pattern Death Risk, Pattern as Unit of Analysis]
-authors: [Boushey, Carol J; Ard, Jamy D; Bazzano, Lydia; Heymsfield, Steven B; Mayer-Davis, Elizabeth J; Sabate, Joan; Snetselaar, Linda; Van Horn, Linda; Schneeman, Barbara O; Whalen, Kristine A; Judd, Suzanne; McCullough, Marjorie L; Flanders, W Dana; Hartman, Terryl J; Bostick, Roberd M]
-sources: [Boushey - Dietary Patterns All-Cause Mortality 2020, Whalen - Paleolithic Mediterranean Mortality 2017]
+authors: [Boushey, Carol J; Ard, Jamy D; Bazzano, Lydia; Heymsfield, Steven B; Mayer-Davis, Elizabeth J; Sabate, Joan; Snetselaar, Linda; Van Horn, Linda; Schneeman, Barbara O; Whalen, Kristine A; Judd, Suzanne; McCullough, Marjorie L; Flanders, W Dana; Hartman, Terryl J; Bostick, Roberd M; Rees, Karen; Stranges, Saverio]
+sources: [Boushey - Dietary Patterns All-Cause Mortality 2020, Whalen - Paleolithic Mediterranean Mortality 2017, Rees - Mediterranean Diet CVD Prevention Cochrane 2019]
 cluster: dietary-patterns
 confidence: medium
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Which Objective Moved This Recommendation
     - Inflammation as a Modifiable Lever
 created: 2026-09-07
-updated: 2026-09-24
-self_critiqued: 2026-09-24
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 The all-cause-mortality anchor for the `dietary-patterns` cluster, orbiting the nucleus
@@ -193,6 +193,8 @@ when the diets examined were of higher quality»
 that the **pattern/food-quality axis carries the mortality signal and the macronutrient-percentage axis
 does not** — a direct corroboration of the pattern-over-macros theme.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Appraisal — a Strong grade on a near-entirely observational body
 
 The load-bearing appraisal fact: 152 of the 153 included articles were **prospective cohort studies**;
@@ -211,9 +213,10 @@ upgrade factors. The reasons the grade is defensible, and the limitations that c
   randomization problem is acknowledged and judged non-fatal: «the republished results confirmed the
   initial findings even after accounting for participants that may not have been adequately randomized»
   [@boushey2020]. So the single experimental
-  anchor is a high-baseline-risk-secondary-prevention trial, not a general-population one — its
+  anchor is a ~~high-baseline-risk-secondary-prevention~~ high-baseline-risk primary-prevention trial, not a general-population one — its
   transport to the reasonably-healthy default reader is a route-(a) baseline-risk question, not settled
-  by the grade.
+  by the grade. *(Corrected 2026-10-06: high-risk **primary** prevention — PREDIMED enrolled people
+  without CVD; see the Gaps correction below. The route-(a) point is unchanged.)*
 - **Confounder control was broad but incomplete.** Most cohorts adjusted for key confounders except
   **race/ethnicity** (under-reported), and several failed to account for SES, physical activity,
   smoking, and/or BMI [@boushey2020] — so
@@ -229,6 +232,8 @@ upgrade factors. The reasons the grade is defensible, and the limitations that c
   ([[Measurement Error in Dietary Assessment]]).
 - **Stratum limit — younger adults.** Insufficient evidence below \~age 35; the grade is for adults and
   older adults [@boushey2020].
+
+</div>
 
 ## Independence check (VERIFY-E) — this is F, not E
 
@@ -266,6 +271,8 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
 - **Macronutrient percentages are the wrong axis to optimize** for mortality on this evidence — food
   quality, not carbohydrate/fat share, is where the signal sits.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Gaps
 
 
@@ -278,9 +285,16 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
   SR/MA pools a paleo-pattern -> mortality body, and the few paleo studies the paper cites are small
   short-term surrogate-biomarker/weight pilots, not hard-endpoint trials. The paleo facet stays
   `confidence: low` until an independent-cohort or SR replication lands.
-- **No general-population pattern RCT on mortality:** the one RCT is high-CV-risk secondary prevention
+- **No general-population pattern RCT on mortality:** the one RCT is high-CV-risk ~~secondary~~ primary prevention
   (PREDIMED); a decades-long whole-diet RCT in the reasonably-healthy is impractical, so this stays a
-  named structural absence, not a queue item.
+  named structural absence, not a queue item. *(Corrected 2026-10-06:)* PREDIMED is high-CV-risk
+  **primary** prevention (no CVD at baseline); the Cochrane review files it under primary prevention and
+  grades its total-mortality result HR 1.00 (0.81-1.24) LOW certainty, while the only Mediterranean-diet
+  secondary-prevention trial in that review with usable mortality estimates (the Singh trials excluded as
+  unreliable) is the Lyon Diet Heart Study (605 CHD patients, total mortality HR 0.44 (0.21-0.92), LOW)
+  [@rees2019medcochrane] ->
+  [[Mediterranean Diet and Cardiovascular Events]]. The structural absence (no reasonably-healthy,
+  general-population pattern RCT on mortality) stands.
 - **Younger adults (<\~35 y):** insufficient evidence — an open stratum.
 - **DASH on hard outcomes (named gap, not queue-closable):** every DASH result the wiki holds is a
   BP / cardiometabolic-*surrogate* feeding trial (Siervo's MA -> [[DASH Diet and Blood Pressure]]); no
@@ -299,5 +313,7 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
   all-cause mortality *events*, never the shape of the health curve a pattern buys — whether a protective
   pattern compresses morbidity or merely lengthens a declining tail is unmeasured across every pattern,
   so the outcome many people weight most heavily is the one this evidence is silent on.
+
+</div>
 
 ## References

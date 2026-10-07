@@ -379,11 +379,15 @@ new route, and its own power/linearity caveats keep it short of a confident "no 
   Ding 2014 has landed — it refines the monotone T2D gradient and the decaf/caffeine split (section
   below) [@ding2014]. Both attach to this nucleus.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The T2D dose-response, refined — Ding 2014 IS the MA under Poole's T2D headline `type-F`
 
 Poole's T2D row (high-vs-low **0.70 (0.65-0.75)**) is a compressed summary of Ding's gold-tier
 dose-response MA — **28 prospective cohorts, 1,109,272 participants, 45,335 incident cases**,
-median 11-year follow-up — and the 0.70 figure is Ding's own highest-category estimate. So this is
+median 11-year follow-up. Poole cites Ding as the source of that row (its ref 21), but the exact
+0.70 (0.65-0.75) does not print in Ding's own text, so the summary figure may be Poole's re-pooling of
+Ding's data `[INFERRED; corrected 2026-10-06, Gate 52 cold re-audit]`. So this is
 **F-refinement of the borrowed summary, not independent corroboration** (Ding is inside Poole's
 umbrella evidence base — shared cohorts, not a second route). Per the gold-gate rule, cite Ding, not the
 umbrella, for the T2D effect.
@@ -429,5 +433,7 @@ trigonelline) is in-vitro/animal only [inferred from @ding2014].
 **Brew method is uncontrolled here** — Ding did not assess filtered vs unfiltered («most coffee is
 likely to be ﬁltered»), so the T2D estimate pools brew methods, unlike the lipid outcome where the
 filtered/unfiltered split is load-bearing.
+
+</div>
 
 ## References

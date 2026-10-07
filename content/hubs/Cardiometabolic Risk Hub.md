@@ -18,6 +18,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] — when an extra test moves a risk
   estimate enough to change the decision, and why very few modifiers clear the bar
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Blood pressure levers
 
 - [[Blood Pressure Lowering and Cardiovascular Events]] — the one cardiometabolic lever whose
@@ -25,7 +27,8 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Sodium Intake and Blood Pressure]] — how much sodium, and what reducing it actually buys
 - [[Potassium Intake and Blood Pressure]] — how much potassium, what raising intake buys, and for whom
 - [[DASH Diet and Blood Pressure]] — the DASH pattern lowers BP/lipids (surrogates); a sodium-independent,
-  whole-pattern lever, not double-counted with sodium reduction; DASH->events unproven, rides BP transmission
+  whole-pattern lever, not double-counted with sodium reduction ; SBP
+  -5.2 and -3.2 mmHg in two overlapping poolings on different metrics; DASH->events unproven, rides BP transmission
 - [[Dietary Nitrate and Blood Pressure]] — inorganic nitrate/beetroot lowers resting SBP \~4.4 mmHg
   (surrogate, short-term, ambulatory-disconfirmed); a modest peripheral supplement-class lever
 - [[Garlic and Blood Pressure]] — garlic powder cuts SBP \~4.6 mmHg overall but \~8 mmHg in
@@ -41,6 +44,8 @@ The wider **psychosocial / HPA-channel exposures** that reach cardiometabolic ri
 social connection, sense of purpose, allostatic load, depression — plus **sun/UV** live in
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
+
+</div>
 
 ## Lipids, drugs, and dietary patterns for CV events
 

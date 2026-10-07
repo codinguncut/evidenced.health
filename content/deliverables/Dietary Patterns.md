@@ -1,17 +1,17 @@
 ---
 type: deliverable
 title: Dietary Patterns
-self_critiqued: 2026-10-06
+self_critiqued: 2026-10-07
 concrete_subject_audited: 2026-10-02
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K; Zhang, Yu]
+authors: [Astrup, Arne; Aune, Dagfinn; Bastide, Nadia M; Bougma, Karim; Boushey, Carol J.; Brown, Lisa; Churuangsuk, Chaitong; Estruch, Ramon; Ference, Brian A; Gardner, Christopher D; Ge, Long; Goldenberg, Joshua Z; Guasch-Ferre, Marta; Hall, Kevin D; He, Feng J; Hooper, Lee; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; Naude, Celeste E; National Institute for Health and Care Excellence (org); Orlich, Michael J; Pawlak, Roman; Reynolds, Andrew; Scientific Advisory Committee on Nutrition (org); Siervo, Mario; Simpson, Scot H; World Cancer Research Fund International (org); Howard, Barbara V; World Health Organization (org); Barnes, Lisa L.; Chiavaroli, Laura; Huang, Liyan; Parvizian, Michael K; Zhang, Yu; Rees, Karen; Filippou, Christina D; Sacks, Frank M.]
 sources: [Astrup - Saturated Fats Reassessment 2020, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Churuangsuk - Diabetes Diets Umbrella Review 2022, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019,
   Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, He - Salt Reduction Blood Pressure 2013, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, NICE - NG246 Evidence Review F, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Reynolds - Carbohydrate Quality and Human Health 2019, SACN - Carbohydrates and Health 2015,
-  Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, Zhang - Butter Plant Oils Mortality 2025]
+  Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Meat Fish and Dairy Products and Cancer 2018, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 2012, Barnes - MIND Diet Trial Cognitive Decline, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Huang - MIND Diet Cognitive Function Decline, Parvizian - Dietary Patterns COPD Meta-Analysis 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, Zhang - Butter Plant Oils Mortality 2025, Rees - Mediterranean Diet CVD Prevention Cochrane 2019, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001]
 confidence: low
 created: 2026-07-30
-updated: 2026-10-02
+updated: 2026-10-07
 ---
 
 ## Above a floor of adequacy, the diet label barely matters
@@ -164,6 +164,8 @@ alone, but it raises no independence-based confidence.
 A Strong grade resting on 152 of 153 observational cohort studies is worth appraising before you
 believe it — so how good is the evidence underneath?
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The Strong grade rests on confounded cohorts — discount it accordingly
 
 The design mix is the load-bearing appraisal fact. The committee identified «153 articles, including one
@@ -173,8 +175,8 @@ conclusion Strong. It could do so because it used the DGAC's own NESR scheme, wh
 observational body on consistency, directness and generalizability. **GRADE would start the same body at
 low certainty** and demand explicit upgrade factors ([[Rating Certainty of Evidence]]), so the Strong
 grade reflects the instrument as much as the evidence. The committee's one experimental anchor is
-PREDIMED — a high-CV-risk secondary-prevention trial whose transport to a healthier reader is itself a
-baseline-risk question ([[Baseline Risk and the Relative-Absolute Split]]).
+PREDIMED — a primary-prevention trial in people at high cardiovascular risk but without cardiovascular
+disease at entry, whose transport to a healthier reader is itself a baseline-risk question ([[Baseline Risk and the Relative-Absolute Split]]).
 
 **The committee names its own limits, and they all point one way.** Diet was measured once at baseline,
 over decades of follow-up; confounder control was broad but incomplete (race and ethnicity
@@ -211,6 +213,8 @@ graded against a realized outcome.
 With the grade discounted to a confounding-capped direction, the next question is magnitude: how large
 is any difference *between* patterns, set against the move from a poor pattern to a
 good one?
+
+</div>
 
 ## Each diet beats doing nothing; the choice between them barely moves the needle
 
@@ -254,7 +258,7 @@ in that stratum: «no one diet type is superior over others for weight managemen
 The near-null is not the end of the story. Three findings clear it -- and each separates on an energy
 deficit, a food component, or a risk stratum, never on the label itself.
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Three findings clear the near-null, and each is about energy or a component, not a name
 
@@ -272,7 +276,15 @@ the pattern, though: it is **carried by stroke (HR 0.58, 0.42 to 0.82)**, while 
 cardiovascular death (0.80) are each individually non-significant and **all-cause mortality is null
 (0.98, 0.77 to 1.24)** [@estruch2018]. The honest
 claim is that the pattern reduced mostly stroke events in high-risk primary prevention over about five
-years; it did not measurably move total mortality.
+years; it did not measurably move total mortality. The Cochrane review of Mediterranean-diet trials
+grades each PREDIMED endpoint and puts it per 1000 people over about five years: strokes fell from 24
+to 14 (HR 0.60, 0.45 to 0.80), at **moderate** certainty; myocardial infarction (16 to 12) and
+cardiovascular death (12 to 10) at **low** certainty; deaths unchanged, 47 to 47 (HR 1.00, 0.81 to 1.24),
+also low [@rees2019medcochrane]. (The hazard ratios
+differ slightly from the trial report's 0.58 and 0.98 because the review re-estimates them in its own
+model.) Apart from one small unadjusted stroke report, the review's primary-prevention event evidence is
+PREDIMED, so these grades refine the one trial rather than add a second [@rees2019medcochrane]. Rees reports
+the composite but gives it no GRADE rating, so the per-outcome grades are the certainty to quote.
 
 The absolute benefit is real because baseline risk was high -- roughly 49% of participants had type 2
 diabetes and 82% were hypertensive, and absolute benefit scales with baseline risk
@@ -379,7 +391,7 @@ the next question.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Trace the difference to a measurable axis, not the label
 
@@ -546,9 +558,19 @@ bundle, and no single nutrient can be pulled out of it as the cause.
 Two limits keep this honest. **Every DASH endpoint here is a SURROGATE** — blood pressure and lipids
 over weeks, no measured event or death. The often-quoted CVD-risk reduction is a Framingham projection,
 and DASH's effect on hard outcomes rides on the general blood-pressure-to-events chain, not on DASH
-trials -> [[Surrogate Outcomes]]. And a **named gap** bounds even the surrogate reading: the fabric
-holds no DASH-Sodium controlled-feeding RCT (Appel 1997 / Sacks 2001), so it cannot yet state DASH's
-blood-pressure effect *independent of* the weight and sodium changes that accompany the pattern. What
+trials -> [[Surrogate Outcomes]]. And the size of even the surrogate effect is uncertain. A larger, later
+pooling of 30 trials (about 15 weeks of follow-up) puts the systolic fall at **-3.2 mmHg (-4.2, -2.3)**,
+GRADE moderate, against Siervo's -5.2 [@filippou2020dash].
+The two used different effect measures and only partly overlapping trials, so quote both
+[inferred from @filippou2020dash; @siervo2015].
+The DASH-Sodium feeding trial (weight held constant, all food supplied; it sits inside both pools, so it
+sharpens them rather than confirming them) shows the pattern's effect is real with salt held fixed, and
+that it shrinks as background salt falls. Systolic BP was lower by -5.9 mmHg at high salt and -2.2
+(-4.4, -0.1) at low salt [@sacks2001dashsodium]. This does
+not contradict Siervo's null above: Siervo tested the sodium *difference* between the DASH and control
+arms, while this trial varied the background sodium *level* for both. In that one 30-day trial, then,
+DASH added less once salt was already low, and DASH plus low salt combined to less than the sum of the
+two -> [[DASH Diet and Blood Pressure]]. What
 is graded is that DASH lowers blood pressure and atherogenic lipids as a whole pattern — not that any
 one component, nor DASH over another protective pattern, is doing the work.
 
@@ -649,7 +671,7 @@ where the four axes point.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Get above the floor, then choose the pattern you will keep
 
@@ -702,10 +724,10 @@ less than whether a person keeps it.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 43 sources — 24 gold, 18 high, 1 weak |
+> | **Evidence included** | 46 sources — 26 gold, 19 high, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 </div>
 

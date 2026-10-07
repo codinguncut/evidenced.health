@@ -2,8 +2,8 @@
 type: framework
 question: Does a Mediterranean dietary PATTERN reduce hard cardiovascular events — in whom, by how much, and on which outcomes?
 aliases: [Mediterranean Diet, PREDIMED, MedDiet Cardiovascular, Dietary Pattern CVD, Whole Diet Pattern RCT, Olive Oil and Heart Disease, Does Olive Oil Reduce CHD, Extra Virgin Olive Oil, Olive Oil Cardiovascular]
-authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco; Aune, Dagfinn]
-sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017]
+authors: [Estruch, Ramon; Ros, Emilio; Martinez-Gonzalez, Miguel A; Hernan, Miguel A; Ge, Long; Dinu, Monica; Sofi, Francesco; Aune, Dagfinn; Rees, Karen; Stranges, Saverio]
+sources: [Estruch - PREDIMED Mediterranean Diet 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Rees - Mediterranean Diet CVD Prevention Cochrane 2019]
 cluster: dietary-patterns
 nucleus: true
 confidence: medium
@@ -16,8 +16,8 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-09-25
-self_critiqued: 2026-09-25
+updated: 2026-10-06
+self_critiqued: 2026-10-06
 ---
 
 **The wiki's first whole-dietary-PATTERN RCT with hard endpoints.** Everything else in the
@@ -184,6 +184,8 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
   [[Dementia Prevention and Modifiable Risk Factors]].
 
 [@dinu2018]
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## The breadth context — an umbrella review bounds the single trial (F, not independent E)
 
 PREDIMED is one landmark RCT. Dinu's 2018 umbrella review (13 meta-analyses of observational studies +
@@ -214,6 +216,10 @@ and `[E-independent]` is explicitly NOT claimed. [inferred from @dinu2018; @estr
   agreement may partly re-count the same trial family rather than being an independent RCT witness
   (uncheckable from the held chunk).
   [@dinu2018]
+  *(2026-10-06)* Rees's Cochrane review reports a PREDIMED T2D-incidence analysis on **n=3541**, HR 0.71
+  (0.52-0.96) [@rees2019medcochrane],
+  matching the size of Dinu's lone diabetes RCT. That makes the PREDIMED-substudy reading very likely,
+  so the cross-design diabetes agreement re-counts PREDIMED rather than adding an independent RCT.
 
 ### Parameter table — PREDIMED vs the umbrella's pooled RCT grade (BLOCKING cross-source check)
 
@@ -221,7 +227,7 @@ and `[E-independent]` is explicitly NOT claimed. [inferred from @dinu2018; @estr
 |---|---|---|---|
 | All-cause mortality | HR **0.98** (0.77-1.24), null | RR **0.93** (0.65-1.33), *No evidence* (Liyanage, 3 RCTs) | **Yes** — both null; PREDIMED is IN the pool |
 | CV events | composite **0.70** (0.55-0.89), stroke-driven | CVD mortality *No evidence* (Liyanage) / *Weak* (Grosso, M-Gonzalez) | Related, not identical (single composite vs pooled mortality) |
-| Diabetes | not a primary endpoint | RR **0.70** (0.54-0.91), *Weak* | Different comparator — umbrella only |
+| Diabetes | not a primary endpoint | RR **0.70** (0.54-0.91), *Weak* | Different comparator — umbrella only *(2026-10-06: very likely the same trial — a PREDIMED T2D substudy, n=3541, HR 0.71 in Rees; in-pool)* |
 
 **Defensible claim:** the umbrella *bounds* PREDIMED (its pooled RCT evidence is weak/null on hard
 endpoints except diabetes) and *agrees* with PREDIMED's own mortality-null; because PREDIMED is inside
@@ -254,6 +260,41 @@ other markers (total cholesterol lowered, HDL raised) also moved while triglycer
 among outcomes with «disagreements in terms of the significance of the effect» across its
 meta-analyses. Which marker *mediates* the event benefit is not established — Dinu runs no mediation
 analysis (corrected 2026-08-08). [@dinu2018]
+*(Superseded in part 2026-10-06:)* Rees 2019 adds an active-diet comparison absent from Rees 2013 and
+finds LDL -0.15 mmol/L (-0.27 to -0.02, MODERATE), close in size to the Nordmann 2011 null-crossing
+-0.09 vs low-fat diets that Dinu holds; the Rees 2013 lineage (vs no/minimal intervention) remains
+null. So "no *extra* LDL reduction" against an active control now reads "possibly a small one,
+measured more precisely"; see *Risk factors split by comparator* below.
+[@rees2019medcochrane] Also *(dated note
+2026-10-06)*: the join above is only partly right about Dinu's comparators — Dinu's LDL null is a
+mixed-comparator pool (Nordmann 2011 vs low-fat diets; Rees 2013 vs no/minimal intervention, per
+Rees 2019's statement that the update «broadened out the scope» to add another-diet comparators), so
+"vs active control/low-fat diets" describes only one of its legs (Huo 2014's comparator is not
+characterized here). [@rees2019medcochrane]
+**Join restated for a mixed-comparator Dinu pool (Weave 2026-10-06).** The comparator explanation above
+covers only one of Dinu's legs. Dinu's LDL null pools three meta-analyses, and each now has its own
+reading (Rees numbers from the parameter table in *Risk factors split by comparator* below):
+
+- **Vs low-fat / another diet (Nordmann; now also Rees C2):** the join holds. This is a differential
+  comparison against a comparator that itself lowers LDL. Rees now puts a possible small advantage on it,
+  -0.15 (-0.27 to -0.02) mmol/L at moderate certainty, against Nordmann's -0.09 (-0.19 to 0.02).
+- **Vs no/minimal intervention (Rees 2013):** the comparator is close to Ge's usual diet, so the
+  comparator argument does not explain this null. Imprecision does: Dinu's Rees 2013 leg is 6 trials,
+  about 3,200 people, -0.07 (-0.18 to 0.03), an interval that does not exclude a reduction of about
+  0.18 mmol/L. The 2019 update's C1 contrast is smaller and very low certainty, -0.08 (-0.26 to 0.09) in
+  4 RCTs and 389 people over 3-6 months. So this leg neither confirms nor contradicts Ge. Ge's usual-diet
+  magnitude is not held here, so the two cannot be compared numerically.
+- **Huo 2014:** comparator not characterized here, so this leg cannot be read either way.
+
+Net: Ge's finding (the pattern lowers LDL vs usual diet, moderate certainty) is the only moderate-certainty
+held estimate for that comparator. Dinu's pooled null is weak evidence against it at most: one leg is a
+differential contrast, one is imprecise, and one is uncharacterized. Both Ge and the Rees contrasts are
+surrogate results over months to a few years (Ge six months; Rees C1 3-6 months; C2 3 months to 4.8
+years). No tension: not-joined check (ii) fires for the low-fat leg (different
+comparator), and the minimal-intervention leg is too imprecise to clash.
+[@rees2019medcochrane]
+[@dinu2018]
+[@ge2020]
 
 ### The adherence-measurement caveat
 The umbrella flags «22 77 indexes quantifying the compliance to the Mediterranean diet have been
@@ -262,12 +303,176 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
 [@dinu2018] -> [[Is the Food Category Doing Any Work]],
 [[Measurement Error in Dietary Assessment]].
 
+[@rees2019medcochrane]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Per-outcome certainty — the Cochrane review grades each PREDIMED endpoint (F) `[2026-10-06]`
+
+Rees's Cochrane review (30 RCTs, 12,461 randomised, search to Sept 2018)
+puts a **GRADE certainty and an absolute risk per 1000 on each PREDIMED endpoint**. Its primary-prevention
+clinical-endpoint evidence *is* PREDIMED — «Only one trial reported clinical endpoints for primary
+prevention and this study experienced methodological issues regarding randomisation with the report
+subsequently being retracted and re-analysed (PREDIMED)» — so it refines the trial (type F) and is never
+a second witness to it. [@rees2019medcochrane]
+
+| Outcome (PREDIMED vs low-fat diet, 4.8 yr) | Per 1000, control -> MedDiet | HR (95% CI) | GRADE |
+|---|---|---|---|
+| Stroke | 24 -> 14 (11-19) | 0.60 (0.45-0.80) | **MODERATE** |
+| Peripheral arterial disease | 18 -> 8 | 0.42 (0.28-0.61) | MODERATE, but from un-re-analysed earlier reports |
+| Myocardial infarction | 16 -> 12 | 0.79 (0.57-1.10) | LOW |
+| CVD mortality | 12 -> 10 | 0.81 (0.50-1.32) | LOW |
+| Total mortality | 47 -> 47 | 1.00 (0.81-1.24) | LOW |
+
+[@rees2019medcochrane] The PAD caveat is
+the review's own: «these data are less certain as they were not re-analysed in the recent paper (Estruch
+2018), but come from earlier reports of the trial.» [@rees2019medcochrane]
+
+- **The decision-relevant read: about 10 fewer strokes per 1000 over \~5 years, at moderate certainty, in
+  a high-risk population; no measurable change in deaths.** The composite (HR 0.70, 0.58-0.85, Analysis
+  2.1) is reported but is not a Summary-of-findings row, so it carries no GRADE rating; the per-outcome
+  grades are the certainty statement to use. from the SoF 2 rows above.
+- **PREDIMED-derived T2D incidence: HR 0.71 (0.52-0.96), n=3541**, from a pre-re-analysis report; a later
+  correction «shows very similar estimates to the original analysis». [@rees2019medcochrane] Not GRADE-rated in the SoF table.
+
+### Parameter table — Rees's pooled re-estimate vs Estruch's trial report (BLOCKING cross-source check)
+
+| Parameter | Estruch 2018 (this page) | Rees 2019 | Same quantity? |
+|---|---|---|---|
+| Trial / population | PREDIMED, 7447, high-risk primary prevention | PREDIMED, 7447 (same trial) | **Yes — same trial and participants** |
+| Arm handling | both MedDiet arms combined vs control | two unlabelled PREDIMED rows (n=2543, n=2454; the EVOO and nuts arms by size) entered separately, each vs half the control (1225), random-effects IV | **No — same data, different model** |
+| Stroke | HR 0.58 (0.42-0.82) | HR 0.60 (0.45-0.80) | Same endpoint; the gap is the model |
+| Total mortality | HR 0.98 (0.77-1.24) | HR 1.00 (0.81-1.24) | Same endpoint; the gap is the model |
+| Composite | HR 0.70 (0.55-0.89) | HR 0.70 (0.58-0.85) | Same endpoint; the gap is the model |
+
+[@rees2019medcochrane] **Defensible claim:** the small numerical differences are arm-splitting
+artefacts of the meta-analytic model, not new information about the trial; the two sources agree.
+Rees's narrower composite CI comes from pooling arm-level estimates, not added precision.
+Per-row, CVD mortality diverges (n=2543 row 0.62, n=2454 row 1.02; I2 45%) while stroke points the same way
+in both (0.65 and 0.54) [@rees2019medcochrane]. Rees
+does not label the rows; matching them to the EVOO (2543) and nuts (2454) arms by size is the wiki's
+mapping. The trial
+was not powered for arm-level contrasts, so that split is noise-grade.
+
+### The secondary-prevention leg — Lyon, large effects at low certainty
+
+The Lyon-secondary-prevention consistency that PREDIMED cites (Limits below) is now held through Rees:
+«the Lyon Diet Heart Study (comparison 3) examined the eﬀect of advice to follow a Mediterranean diet and
+supplemental canola margarine compared to usual care in 605 CHD patients over 46 months and there was
+low-quality evidence of a reduction in adjusted estimates for CVD mortality (HR 0.35, 95% CI 0.15 to
+0.82) and total mortality (HR 0.44, 95% CI 0.21 to 0.92) with the intervention.»
+[@rees2019medcochrane] Per 1000: CVD deaths 63 ->
+22, total deaths 79 -> 35. [@rees2019medcochrane]
+
+- **Why LOW:** downgraded two levels for risk of bias — «The only included study had an unclear
+  randomisation method and the modified Zelen design may have introduced other biases, although the study
+  was at low risk of bias for allocation concealment and attrition.» The review calls
+  it «one older trial reporting very large eﬀect estimates using a modified Zelen design».
+  [@rees2019medcochrane]
+- **The review is internally inconsistent on one grade.** Its results text grades Lyon total
+  mortality «moderate-quality evidence», while SoF 3 and the abstract grade it low.
+  [@rees2019medcochrane] This page uses
+  LOW, the formal SoF output.
+- **The other secondary-prevention comparison is empty.** Versus another diet (C4), only one 101-patient
+  trial reports clinical endpoints (very low certainty) once the two Singh trials are excluded for
+  unreliable data. [@rees2019medcochrane]
+- **Read:** for someone with established CHD the MedDiet evidence is one 1990s trial with a very large
+  effect and a design that inflates bias risk. The direction matches PREDIMED's, but a 56-65% mortality
+  cut should not be carried over as a magnitude: one LOW-certainty trial with a very large effect and
+  early-1990s usual care (the trial stopped at an interim analysis in March 1993
+  [@rees2019medcochrane]); background
+  lipid-lowering drug use is not reported in the review, so whether a modern drug background attenuates
+  the effect is untested. Two ongoing trials, CORDIOPREV (Spain, 1002 CHD patients) and AUSMED
+  (Australia, 1032), are the evidence that would revise it.
+  [@rees2019medcochrane]
+
+### Risk factors split by comparator — and what it does to the LDL join above
+
+| Comparator | LDL (mmol/L) | SBP / DBP (mmHg) | Source |
+|---|---|---|---|
+| No/minimal intervention (C1, primary) | -0.08 (-0.26 to 0.09), VERY LOW | **-2.99 / -2.0**, MODERATE (2 RCTs, 269) | Rees SoF 1 |
+| Another diet (C2, primary) | **-0.15 (-0.27 to -0.02)**, MODERATE; TG -0.09, MODERATE | -1.5 / -0.26, LOW | Rees SoF 2 |
+| Usual care, secondary (C3: Lyon + one smaller trial for lipids) | little/no effect, LOW | VERY LOW | Rees SoF 3 |
+
+[@rees2019medcochrane] PREDIMED's lipid data in
+C2 come from 2 of 11 sites, «but these were not the 2 sites where methodological issues arose».
+[@rees2019medcochrane]
+
+**Parameter table — the three LDL legs (BLOCKING cross-source check).**
+
+| Parameter | Ge 2020 | Dinu 2018 | Rees 2019 C1 | Rees 2019 C2 |
+|---|---|---|---|---|
+| Comparator | usual diet (network MA) | «control diets» | no/minimal intervention | another diet (mostly low-fat advice) |
+| k / n, follow-up | network of 121 RCTs | 3 RCT MAs (Nordmann 2011, Rees 2013, Huo 2014) | 4 RCTs / 389, 3-6 months | 7 RCTs / 947, 3 months-4.8 yr |
+| LDL result | significant reduction, moderate certainty (magnitude not held here) | no association; Nordmann vs low-fat -0.09 (-0.19 to 0.02) | -0.08 (-0.26 to 0.09), VERY LOW | **-0.15 (-0.27 to -0.02), MODERATE** |
+| Same quantity as Dinu? | No — different comparator (the join) | — (mixed-comparator pool) | **Partly** — same comparator and review lineage as Rees 2013 (vs no/minimal intervention); still null | **Partly** — a new comparison absent from Rees 2013; closest to the Nordmann leg (vs low-fat) |
+
+[@rees2019medcochrane]
+[@dinu2018] Ge and Dinu
+cells repeat the extracted lines in the LDL section above.
+
+- **Rees attenuates the Dinu leg of the join (F, not a tension).** Against an active diet — the
+  comparator on which the join placed Dinu's null — Rees finds a possible small LDL advantage at moderate
+  certainty. This C2 comparison is new in the 2019 update (Rees 2013 compared only against no/minimal
+  intervention); its closest Dinu counterpart is Nordmann's -0.09 (-0.19 to 0.02) vs low-fat diets.
+  The two intervals overlap and the trial sets likely overlap in part, so the change reads as a
+  precision gain, not a clash. *No extra LDL reduction vs an active control* now reads *possibly a small
+  one, about 0.15 mmol/L*. The Rees 2013 lineage (C1, vs minimal intervention) stays null at very low
+  certainty over 3-6 months, which neither confirms nor refutes Ge's usual-diet benefit.
+- **What survives of the surrogate caveat is weaker.** An LDL advantage over an active comparator is
+  possible (moderate certainty) but small. Whether \~0.15 mmol/L is too small to account for the stroke reduction would need
+  per-mmol event scaling (-> [[LDL Lowering and Cardiovascular Events]]), which this page does not
+  carry out; leave it open.
+- **Blood pressure:** a \~3/2 mmHg reduction vs minimal intervention at moderate certainty rests on 2 RCTs
+  and 269 people; against another (healthy) diet it shrinks to an imprecise -1.5 mmHg.
+- **Secondary prevention:** «No eﬀects were seen on CVD risk factors in the limited number of trials
+  reporting these, but this may be due to optimal pharmacological treatment where further improvements in
+  lipid levels and blood pressure may be unlikely, particularly in more recent trials. We have not
+  explored the eﬀects of medication on outcomes in secondary prevention due to the low number of included
+  studies, or in those at high risk in primary prevention, but we will explore this in future updates.»
+  [@rees2019medcochrane] The drug explanation is
+  the authors' speculation and untested in the review; it is *consistent with* the Layer-1 substitution
+  point but is not evidence for it.
+
+### What the review says the trials cannot tell you
+
+- **Supplied food, not advice alone:** «both the PREDIMED trial and The Lyon Diet Heart Study supplied
+  supplemental foods as well as dietary advice to follow a Mediterranean-style diet so the policy
+  implications of the findings of these trials are unclear (Appel 2013).»
+  [@rees2019medcochrane] The intervention that
+  showed events is *free EVOO/nuts/margarine plus counselling*; advice alone is untested on events.
+
+- **Harms and quality of life:** «Two trials reported on adverse events where these were absent or minor
+  (low- to moderate-quality evidence). No trials reported on costs or health-related quality of life.»
+  [@rees2019medcochrane]
+- **The authors' bottom line:** «there is still some uncertainty regarding the eﬀects of a
+  Mediterranean-style diet on clinical endpoints and CVD risk factors for both primary and secondary
+  prevention» and «Further adequately powered primary prevention trials are needed to confirm findings on
+  clinical endpoints to date.» [@rees2019medcochrane]
+
+**Net effect on this page:** Rees agrees with the incumbent's read (stroke-driven, mortality-null,
+internal-validity discount) and puts formal numbers on it. It also attenuates the Dinu leg of the LDL
+join: there is now moderate-certainty evidence of a possible small LDL reduction (-0.15 mmol/L) over
+an active diet. No tension is filed:
+the incumbent never claimed more than moderate certainty on any endpoint, Rees's grades match its
+`medium` confidence, and the LDL change is a precision gain over an overlapping Nordmann estimate, not
+an opposed result.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
   discount (the reanalysis). The observational + Lyon-secondary-prevention consistency the paper cites
   is *within-source* and same-diet-hypothesis, so it is not independent (type-E) backing; a second
-  independent pattern-RCT would raise confidence.
+  independent pattern-RCT would raise confidence. *(2026-10-06, Rees:)* the Cochrane review confirms the
+  primary-prevention event evidence is still this one trial, graded MODERATE for stroke and LOW for MI,
+  CVD and total mortality; Lyon is now held at LOW certainty and does not lift primary-prevention
+  confidence (different stratum, Zelen design). `confidence: medium` stands.
 - **Stroke-specific, mortality-null over 4.8 yr** — do not read the composite as a mortality claim.
 - **High-risk, Mediterranean-baseline population** — transportability to low-risk or non-Mediterranean
   eaters is the open question the authors themselves flag.
@@ -278,7 +483,7 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
   two meet on the same endpoint (Ge's network) they are near-equivalent. So "Med is better" is an
   availability asymmetry (Med was tested on events; DASH was not), not a head-to-head result -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
 
-
+</div>
 
 ## Self-critique `[run 2026-07-29, before commit]`
 
@@ -316,6 +521,8 @@ illness -> depression), so it is plausibly not an independent MedDiet benefit bu
 the same cardiometabolic effect. Named here only as a cross-link; the caveats live on the depression page.
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Self-critique `[run 2026-08-05, after adding the Dinu umbrella section]`
 - **Independence NOT laundered — the load-bearing catch.** Dinu's RCT pool *contains* PREDIMED (Liyanage,
   Grosso, M-Gonzalez all pool it), so `[E-independent]` is explicitly refused and the relationship is
@@ -327,7 +534,11 @@ the same cardiometabolic effect. Named here only as a cross-link; the caveats li
   PREDIMED in-pool) and CV-events as related-not-identical.
 - **LDL-null is a distinct claim, not a restatement.** The whole-pattern-moves-events-without-moving-LDL
   point is genuinely new against the SFA single-nutrient LDL argument, so it earns its place (F), and is
-  routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate.
+  routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate. *(Superseded: already
+  narrowed 2026-08-08 to a differential null, and on 2026-10-06 Rees's update shows a small differential
+  LDL advantage too — see the Rees section.)*
+
+</div>
 
 ## The F&V component leg — the observational estimate PREDIMED cannot isolate `[2026-08-13]`
 
@@ -345,6 +556,8 @@ limit.
   the MedDiet's benefit. The RCT (Estruch) and the observational legs remain genuinely different routes;
   the two *observational* legs do not.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Self-critique `[run 2026-09-25, after the olive-oil-isolation section (WS-022)]`
 
 - **No overclaim toward or against olive oil.** The section neither asserts an isolated olive-oil CHD
@@ -358,5 +571,27 @@ limit.
 - **No laundered extraction.** synthesis over held pages; no new `[EXTRACTED]` minted and no
   `sources:` added — the WHO and Zhang figures are cross-referenced to [[Saturated Fat Intake and Replacement]],
   where they are extracted and audited. Every figure re-verified against that page before writing.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-06">
+
+## Self-critique `[run 2026-10-06, after the Rees Cochrane section]`
+
+- **Independence not laundered.** Rees's primary-prevention event evidence is PREDIMED, so it is F
+  throughout. On LDL, Rees C1 is the Rees 2013 lineage (Dinu pooled Rees 2013); Rees C2 is a new
+  comparison whose nearest Dinu leg (Nordmann) likely shares trials, so it is not independent either.
+- **Caught and fixed before commit:** per-row CVD-mortality labels were swapped and Rees never names the
+  arms (now unlabelled rows with the arm mapping marked); the LDL bullet first read Rees as
+  *strengthening* the surrogate caveat when, on the active-diet comparator, it attenuates Dinu's null
+  (rewritten, parameter table added, older lines given supersession notes); the drug-background quote
+  was cut before the authors' *we have not explored* sentence (widened, demoted to *consistent with*);
+  the Lyon transport line and an internal-holdings superlative were softened. A fix-audit then caught
+  the C2 comparison mis-described as the update of Rees 2013 (it is new; C1 is the lineage) and an
+  unsupported "pre-statin-era" phrase (now the March 1993 interim date, drug use not reported).
+- **No tension filed:** Rees C2's LDL estimate overlaps Nordmann's (a precision gain), and Rees C1 vs Ge fails not-joined
+  check (ii) (very-low-certainty 3-6-month trials vs a network MA). `confidence: medium` re-judged and kept.
+
+</div>
 
 ## References

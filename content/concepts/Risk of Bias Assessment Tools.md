@@ -19,7 +19,6 @@ relationships:
     - Which Objective Moved This Recommendation
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-update" data-last-updated="2026-10-04">
 
 The fabric invokes *risk of bias* everywhere — it is one of GRADE's five downgrade domains
 [@grade] ([[Rating Certainty of Evidence]]) — but GRADE leaves the
@@ -39,8 +38,6 @@ but «it is more appropriate to consider whether a result is at risk of bias rat
 certainty that it is biased». [@cochranehandbook2024]
 Modern tools deliberately isolate *bias* (internal validity) from precision, reporting quality, and
 external validity — the last is [[Indirectness of Evidence]], kept separate on purpose.
-
-</div>
 
 ## RoB 2 — the five domains for a randomized trial
 

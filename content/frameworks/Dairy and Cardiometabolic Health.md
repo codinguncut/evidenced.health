@@ -22,7 +22,7 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-09-15
+updated: 2026-10-06
 self_critiqued: 2026-09-15
 ---
 
@@ -122,6 +122,8 @@ and a statistical substitution model, not a feeding trial -> [[Saturated Fat Int
 
 
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Mishali 2019 — high-vs-low: modest inverse for T2D and CVD, concentrated in women
 
 16 cohorts (T2D, 545,677) + 13 cohorts (CVD, 460,798), highest-vs-lowest intake:
@@ -136,13 +138,13 @@ and a statistical substitution model, not a feeding trial -> [[Saturated Fat Int
   women T2D 0.868, women CVD 0.837; **men NS for both**; between-group heterogeneity I2 = 86%.
 
 **Two guards on Mishali (symmetric standards):** (1) it was **financed by the Israel Dairy Board and
-all four authors are its consultants** [@mishali2019], and it does **not** stratify by fat content while leaning on an
+all four authors are tied to it** (two consultants, one paid by the Board for her work, one its Chief Health Officer) [@mishali2019], and it does **not** stratify by fat content while leaning on an
 «exonerates fat» framing — a directional-bias tell, so the effect estimate is discounted, not the finding
 deleted. (2) The women-only effect is a **subgroup claim (route-b effect modification)** with no
 identified mechanism (menopause-age and region moderators all came back null) — plausible but the
 false-positive-prone route; hold it as hypothesis-generating, not established.
 
-
+</div>
 
 ## Guo (neutral) vs Mishali (inverse): a distinction, NOT a tension
 
@@ -350,12 +352,14 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
+<div class="recent-update" data-last-updated="2026-10-06">
+
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
 T2D (0.97, 0.94-0.99 per 200 g/d, MODERATE) and hypertension (0.95, 0.94-0.97, LOW), but **null for
 all-cause mortality** (0.98, 0.93-1.03), null for CHD/stroke, and **positive for heart failure**
-(1.08, 1.01-1.15). Low- vs high-fat dairy showed no significant difference for these endpoints. The
+(1.08, 1.01-1.15, but from a single study, n = 1). Low- vs high-fat dairy showed no significant difference for these endpoints. The
 T2D/HTN benefit not carrying through to mortality is the divergence to hold onto.
 [@schwingshackl2017t2d]
 [@schwingshackl2017htn]
@@ -363,7 +367,7 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-
+</div>
 
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 

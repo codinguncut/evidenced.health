@@ -25,8 +25,6 @@ true — they are different endpoints, so this is **not a contradiction but a tr
 (type-A). The honest answer is that the net is **genuinely uncertain and stratum-dependent**, and the
 two arms are known with very different confidence.
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## The net-effect ledger
 
 type-A — an emergent structure present in no single source:
@@ -53,8 +51,6 @@ Parameter table (BLOCKING — the arms are not the same quantity, so this is a t
 
 Fourth column NO on every row -> the two findings do not *contradict* (not-joined check ii:
 different outcome/scope); they must be **weighed**, not reconciled away.
-
-</div>
 
 ## Why the benefit arm is weak — run the artifact check hard
 

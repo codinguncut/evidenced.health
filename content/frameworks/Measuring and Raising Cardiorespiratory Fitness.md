@@ -13,10 +13,11 @@ relationships:
     - Risk Modifiers - When Extra Information Changes a Risk Estimate
     - Exercise Modality for Body Composition in Obesity
     - Menopause and the Shifting Levers
+    - Blood Pressure Lowering and Cardiovascular Events
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 <div class="recent-update" data-last-updated="2026-10-06">

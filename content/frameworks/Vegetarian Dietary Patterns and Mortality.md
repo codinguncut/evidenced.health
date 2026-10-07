@@ -7,7 +7,7 @@ sources: [Orlich - Vegetarian Patterns Mortality AHS-2 2013, Landry - Vegetarian
 cluster: dietary-patterns
 confidence: low
 created: 2026-08-13
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -134,6 +134,8 @@ the "does the food-category label do work over its components?" question -> [[Is
 name -> [[The Comparator Problem]] (the nonvegetarian reference is itself a relatively healthy
 Adventist, which attenuates every contrast here).
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The pooled multi-cohort picture — Landry 2024 umbrella (21 SRs)
 
 [@landry2024vegetarian]
@@ -159,18 +161,20 @@ CVD and CHD incidence had moderate certainty evidence» [@landry2024vegetarian] 
 Two arm-level notes matter for reading these. The 0.85 incidence figure is a «CVD incidence or
 mortality» pool (the constituent SR, Dybvik, substituted cause-specific mortality where incidence was
 missing). And **stroke is the outcome where the benefit fails to appear** — vegetarian total stroke is
-null (0.90, CI spans 1) and the vegan point estimate sits above 1 (1.17 [0.69, 1.99]) — consistent
+null (0.90, CI spans 1) and the vegan point estimate sits above 1 (1.17 [0.69, 1.99]) [@landry2024vegetarian] — consistent
 with the EPIC-Oxford higher-stroke signal below, not with a uniform vascular benefit.
 
-<div class="recent-update" data-last-updated="2026-10-06">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Why 21 SRs is not 21 independent tests, and what the umbrella adds over AHS-2
 
 [inferred from @landry2024vegetarian]
 Umbrella breadth is not independence. Landry's constituent SRs extensively **share primary studies** —
 e.g. of twelve cohort studies on stroke «All twelve primary studies were reported in Dybvik et al.
-[31], but only seven were reported in Lu et al. [41]»; for CRP «13 of these studies were reported in
-both SRs» [@landry2024vegetarian].
+[31], but only seven were reported in Lu et al. [41]» [@landry2024vegetarian]; for CRP «13 of these
+studies were reported in both SRs» [@landry2024vegetarian].
 The authors analyzed «study overlap according to primary studies» precisely because the SRs re-pool a
 shared cohort base. So the 21-SR count is a coverage figure, not 21 replications (volume != independence).
 

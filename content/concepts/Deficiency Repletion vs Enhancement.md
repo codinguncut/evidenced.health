@@ -8,7 +8,7 @@ authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (o
 sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Yao - Vitamin D Calcium Fracture 2019, Zhang - Vitamin D Mortality Meta-Analysis 2019, Katagiri - Excess Iodine Thyroid Diseases 2017, Harding - Iodine Supplementation Pregnancy 2017, Neufingerl - Plant-Based Nutrient Status 2021, Deane - Omega-3 Prevention Depression 2019, Musazadeh - Vitamin D Depression Umbrella 2023, Serra - Omega 3 Preterm Birth 2021, Okereke - VITAL-DEP Vitamin D Depression 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-09-28
+updated: 2026-10-07
 self_critiqued: 2026-09-28
 relationships:
   related_to:
@@ -345,6 +345,8 @@ not two witnesses of one effect [inferred from @martineau2017; @manson2019vitd].
   the deficient) — and the safe route needs **no subgroup-interaction claim**, though here a credible
   route-(b) interaction is *also* present [inferred from @martineau2017].
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Second instance — iron -> cognition, anaemia-stratified (Falkingham 2010)
 
 The lower arm now has a **second, independent** worked instance in a **different nutrient on a
@@ -419,8 +421,9 @@ well-nourished*:
   P-interaction 0.006. Both legs within-study.
 - **Iron -> IQ** (Falkingham MA, 14 RCTs): anaemic +2.5 IQ points vs a well-powered replete null.
   Both legs within-study.
-- **Iodine -> child IQ** (Bougma MA, 24 studies): repletion of the deficient +7.4 IQ points (range
-  6.9-10.2). **Deficient-benefit leg only** directly; replete-null leg indirect (see the iodine
+- **Iodine -> child IQ** (Bougma MA, 24 studies): iodine-deficient children score about 7.4 IQ
+  points lower than replete ones (best intervention-based estimate; 6.9-10.2 across study designs), the
+  IQ that repletion is expected to recover. **Deficient-benefit leg only** directly; replete-null leg indirect (see the iodine
   instance below for the leg asymmetry).
 
 These share **no trials, no research group, no lineage**, run on **different nutrients, different
@@ -445,6 +448,8 @@ iron raises IQ. What is independently corroborated is the **status-dependence st
 instantiate.
 Do not read the `[E-independent]` mark as evidence for either point estimate
 [inferred from @martineau2017; @falkingham2010].
+
+</div>
 
 ## Third instance — iodine -> child mental development (Bougma 2013)
 

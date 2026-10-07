@@ -21,8 +21,9 @@ relationships:
     - Exercise Snacks and Cardiometabolic Health
     - Supervised vs Unsupervised Exercise
     - Wearable Activity Trackers and Physical Activity
+    - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-27
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 

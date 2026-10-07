@@ -17,7 +17,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Dietary Nitrate and Exercise Performance
 created: 2026-08-28
-updated: 2026-09-24
+updated: 2026-10-07
 self_critiqued: 2026-08-28
 ---
 
@@ -345,9 +345,11 @@ not license summing DASH and nitrate as independent additive levers (overlapping
 
 ## Limits
 
-- **Single gold-tier MA, short-duration surrogate evidence, ambulatory disconfirmation** — held at
-  `confidence: low` despite the gold tier: the design (2 h-15 d, resting BP, healthy young men) is a
-  weak basis for a chronic-BP recommendation. Named gap: a long-term nitrate/beetroot RCT with
+- **Short-duration surrogate evidence, ambulatory disconfirmation.** Written when Siervo was the only MA
+  held, this bullet set `confidence: low` despite the gold tier: the design (2 h-15 d, resting BP,
+  healthy young men) is a weak basis for a chronic-BP recommendation. *Superseded 2026-08-31:*
+  Norouzzadeh's GRADE-rated pool (Moderate for acute/short-term SBP) moved the page to `confidence:
+  medium` (see the GRADE section above); the design weakness still caps it there. Named gap: a long-term nitrate/beetroot RCT with
   ambulatory BP in a hypertensive or higher-CV-risk population would move this (none held).
 - **DBP effect null; dose-response is a cross-trial meta-regression** (ecological, not within-person
   titration); plasma nitrite did not track BP, so the biomarker chain is not cleanly closed.

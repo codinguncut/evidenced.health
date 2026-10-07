@@ -8,8 +8,8 @@ cluster: masld
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-06
-self_critiqued: 2026-09-23
+updated: 2026-10-07
+self_critiqued: 2026-10-07
 relationships:
   related_to:
     - Saturated Fat Intake and Replacement
@@ -38,6 +38,8 @@ women (Europeans)» or BMI >=25; prediabetes/T2D (fasting glucose 5.6-6.9 / >=7.
 factor counts), not outcome targets.
 [@easl2024]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The lever, and its dose-response — the actionable finding
 
 **Weight loss is the base-layer treatment, and the histological benefit is dose-dependent and
@@ -64,11 +66,15 @@ damage.»
   [>=5%]»; follow-up shows «maximal weight loss at 6 months, followed by a gradual weight regain to a
   net weight loss of about 5% at 12-24 months and partial regain of liver lipid content and stiffness.»
 - **No proven effect on advanced fibrosis/cirrhosis** — «evidence for an effect of weight reduction by
-  lifestyle modification on advanced fibrosis or cirrhosis is insufficient». So the lever works on the
+  lifestyle modification on advanced fibrosis or cirrhosis is insufficient, owing to the minority of
+  individuals with advanced fibrosis in most clinical trials and the lack of subgroup analyses». The gap is
+  under-study, not a shown null. So the lever works on the
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-10-06">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The second guidance family — AASLD 2023 agrees on the ladder's shape, and it is un-GRADEd `[AASLD 2023]`
 
@@ -123,12 +129,22 @@ histology trial (Vilar-Gomez 2015 — EASL's ref 280, among AASLD's refs 262/367
   [@aasld2023]
 - **Fructose — the guideline side asserts the molecule-specific harm Chung's isocaloric trials did not
   find.** AASLD: «Excessive fructose consumption in particular increases the risk of NAFLD, NASH, and
-  advanced fibrosis independent of calorie intake» (observational, refs 380-382). This sits *opposite*
-  Chung's isocaloric controlled-feeding null (below) — but they are **not cleanly joined**: AASLD's claim
-  is observational and about long-term *disease incidence*, whereas Chung's null is short-term isocaloric
-  RCT on *liver fat*. AASLD thus populates exactly the chronic/observational regime Chung's
-  short-term isocaloric trials cannot cover (see the fructose section below) — a horizon/design difference, not
-  a settled contradiction. The higher-quality design *for the net-of-energy question* remains Chung's
+  advanced fibrosis independent of calorie intake» (refs 380-382)
+  [@aasld2023]. This sits *opposite*
+  Chung's isocaloric null (below), but they are **not cleanly joined**: AASLD asserts disease risk, and
+  its three references, by their titles, are two fructose-association studies (one on hepatic ATP
+  homeostasis in obese people with T2D, one on fibrosis severity in NAFLD) and one study of
+  fructokinase-dependent diet-induced steatohepatitis
+  [@aasld2023]; so one of the three measures hepatic ATP,
+  not disease, and the third reads as an animal model. Chung's isocaloric null is a
+  short-term RCT on *liver fat*. Chung did appraise observational fructose-NAFLD studies (not AASLD's
+  specific references) and rated that class insufficient: «The overall strength of evidence for
+  observational studies was rated insufficient because of high risk of biases and inconsistent study
+  findings.» Its one low-risk-of-bias adult cohort was null: «sugar intake was not associated with indexes
+  of liver health (HFF, ALT, and GGT) in one cross- sectional study (medium ROB) in children and one
+  prospective cohort study (low ROB) in adults» [@chung2014]. So the chronic regime is
+  thinly and poorly evidenced, not covered by a separate body of evidence — a design/quality difference,
+  not a settled contradiction. The higher-quality design *for the net-of-energy question* remains Chung's
   isocaloric RCT; the decision-relevant lever stays cutting excess liquid energy.
   [@aasld2023]
 
@@ -266,6 +282,8 @@ Imamura glucose-insulin feeding-trial MA the SFA page also holds — so it is sh
 not an independent second route.
 [inferred from @winterseekelen2020]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 
 An umbrella review (37 meta-analyses of observational studies and RCTs) quantifies the same lever menu
@@ -300,8 +318,8 @@ exercise) cleared the higher-strength bar, and every one of them hit only surrog
 [@peng2022nafld]
 
 **This is the same surrogate-vs-histology gap EASL states from the guideline side** (exercise LoE 1 for
-steatosis but LoE 5 for histology; weight-loss ladder with «no proven effect on advanced
-fibrosis/cirrhosis») — reached here from a pooled-MA base. **Not independent corroboration:** an umbrella
+steatosis but LoE 5 for histology; weight-loss ladder with *no proven effect on advanced
+fibrosis/cirrhosis*) — reached here from a pooled-MA base. **Not independent corroboration:** an umbrella
 pools meta-analyses that pool the same primary literature EASL rests on, so the agreement is a
 quantification/grading of the shared evidence, not a second independent route (volume != independence).
 What it adds is the *ranking* — sugary soda as the one firmly-evidenced dietary target, everything else
@@ -316,7 +334,9 @@ increased-risk and the null list reflects conflicting constituent MAs, an unreso
 carries). So the actionable dietary signal narrows to *cutting liquid sugar*, not adding produce.
 [@peng2022nafld]
 
-<div class="recent-update" data-last-updated="2026-10-06">
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Is fructose the specific hepatic culprit? Not shown — the held trials point to energy `[2026-08-06, Chung 2014]`
 
@@ -325,8 +345,9 @@ below — insufficient evidence for a fructose-specific effect, not proof of non
 
 EASL's diet lever names «avoiding sugar-sweetened beverages» and finds low-carb and low-fat «similarly
 effective» for liver fat — both consistent with the driver being **energy, not the fructose molecule**. A
-gold SR-MA of controlled-feeding trials pins this down and **defuses the "fructose is uniquely
-hepatotoxic" claim** rather than confirming it:
+gold SR-MA of fructose intervention and observational studies **does not support the "fructose is
+uniquely hepatotoxic" claim**, but cannot rule it out (the isocaloric leg is one study per comparison,
+graded insufficient):
 
 - **At equal calories, fructose is not shown to raise liver fat more than glucose.** «The 2 isocaloric
   monosaccharide diets did not alter IHCLs (+0.11% ± 2.1%)»; fructose and glucose «did not differ in any
@@ -335,8 +356,8 @@ hepatotoxic" claim** rather than confirming it:
   vs weight-maintenance — but in healthy young men, at supra-physiological doses, from a single research
   group, with baseline liver fat far below the NAFLD threshold; and at equal excess energy fructose ≈
   glucose. [@chung2014]
-- **Chung's own verdict:** the liver-health associations «appear to be confounded by excessive energy
-  intake», and evidence is «not sufficiently robust to draw conclusions regarding effects of fructose,
+- **Chung's own verdict:** «On the basis of indirect comparisons across study findings», the liver-health
+  associations «appear to be confounded by excessive energy intake», and evidence is «not sufficiently robust to draw conclusions regarding effects of fructose,
   HFCS, or sucrose consumption on NAFLD». [@chung2014]
 - **The trials are short and the regime they cover is narrow.** Chung lists the limits of the trial base
   itself: «common limi- tations included small sample sizes, short intervention periods, a lack of energy
@@ -344,8 +365,8 @@ hepatotoxic" claim** rather than confirming it:
   that exceed current intakes.» [@chung2014]
   So chronic, years-long high free-fructose intake is an **unstudied regime** the isocaloric null does
   not cover; a years-long isocaloric high-fructose RCT is near-infeasible, so that cell stays
-  *insufficient evidence*, with the de-novo-lipogenesis mechanism leaning directionally toward harm at
-  that edge [inferred from @chung2014].
+  *insufficient evidence*, with the proposed de-novo-lipogenesis mechanism leaning directionally toward
+  harm at that edge [inferred from @chung2014; @winterseekelen2020].
 
 **So the decision-relevant lever is cutting the excess (liquid) energy — SSB, fruit juice, HFCS — not
 avoiding the fructose molecule per se, and not whole fruit at normal intakes** (a modest
@@ -356,8 +377,9 @@ energy/weight lever EASL already ranks first; fructose-restriction adds no disti
 calories it removes. This is the hepatic-tissue instance of the energy-balance-vs-nutrient-source finding
 -> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]. **Guard:** Chung's
 isocaloric leg is a *single low-ROB study*, so this is *insufficient evidence* for a fructose-specific
-effect, not proof of no effect; and the fructose->de-novo-lipogenesis mechanism is real even though the
-whole-organism liver-fat outcome at equal energy is null (a mechanism-vs-outcome gap).
+effect, not proof of no effect; and a fructose->de-novo-lipogenesis mechanism is proposed («Dietary intake of specific
+nutrients (e.g., fructose) may increase de novo lipogenesis» [@winterseekelen2020]), while Chung grades the direct hepatic-DNL trial evidence
+insufficient. So this is a mechanism-vs-outcome gap, with the mechanism itself only directional.
 [inferred from @chung2014]
 
 </div>

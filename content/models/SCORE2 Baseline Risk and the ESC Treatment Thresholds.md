@@ -13,8 +13,9 @@ relationships:
     - Saturated Fat Intake and Replacement
     - LDL Lowering and Cardiovascular Events
     - Which Objective Moved This Recommendation
+    - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
-updated: 2026-08-27
+updated: 2026-10-07
 self_critiqued: 2026-08-27
 ---
 

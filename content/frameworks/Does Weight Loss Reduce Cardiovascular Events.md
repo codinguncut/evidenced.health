@@ -19,8 +19,9 @@ relationships:
     - Weight Cycling and Cardiometabolic Risk
     - Ectopic Fat and Depot-Specific Risk
     - Sleep Apnea Treatment and Cardiovascular Risk
+    - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 

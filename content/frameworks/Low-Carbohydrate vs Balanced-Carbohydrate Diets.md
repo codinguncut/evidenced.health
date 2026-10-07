@@ -18,7 +18,7 @@ relationships:
     - Ketogenic Diet and Endurance Performance
 self_critiqued: 2026-10-06
 created: 2026-07-26
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 <div class="recent-update" data-last-updated="2026-10-06">
 
@@ -431,7 +431,7 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Limits
 
@@ -441,7 +441,8 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
   (-0.93 to -0.62). So the honest reading is *no detectable funding effect*, not *funding inflated the
   low-carb advantage*.
 - **Non-reporting bias is conceded on both legs.** 11 trials' weight data were unobtainable in usable
-  format; two of three funnel plots *"suggest that smaller studies may be missing"*. In all three
+  format; for two of three funnel plots the review writes that «smaller studies may be missing»
+  [@naude2022]. In all three
   comparisons the fixed-effect estimate sits closer to null than the random-effects one -- the review
   reads this as reassuring, and the consistent one-way pull is equally available as a small-study
   signal.
@@ -451,8 +452,8 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
 - Outpatient settings in **high-income countries except for one trial in China**; nearly half were run
   in the USA.
 - **The review reports a stratum where caution is warranted, and it belongs in any recommendation drawn
-  from this page:** *"In people with lipid disorders and variability with atherogenic lipoprotein
-  response, caution in recommending low-carbohydrate and consequent high-fat diets is warranted."*
+  from this page:** «In people with lipid disorders and variability with atherogenic lipoprotein response, caution in
+  recommending low- carbohydrate and consequent high-fat diets is warranted.»
   [@naude2022] That is a
   telos route-(c) contraindication stated by the source.
 - **Direction, stated plainly:** every subgroup and stratum point estimate favours low-carbohydrate.

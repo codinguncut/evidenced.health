@@ -7,7 +7,7 @@ sources: [Chiavaroli - Portfolio Dietary Pattern CVD 2018]
 cluster: lipids
 confidence: medium
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-07
 self_critiqued: 2026-09-10
 relationships:
   related_to: [LDL ApoB and Cumulative Exposure, Surrogate Outcomes, Soy Products and Health, Dietary Fibre and Health, Nut Consumption and Mortality, Statins for Primary Prevention and the Power of Zero CAC, Baseline Risk and the Relative-Absolute Split]
@@ -17,6 +17,8 @@ The **Portfolio dietary pattern** bundles four cholesterol-lowering plant foods 
 protein (soy, pulses), viscous (soluble) fibre, and plant sterols — each carrying an FDA / Health
 Canada / EFSA LDL health claim. The question this page answers: **how large is the pooled LDL/apoB
 effect, and how far does it travel toward patient-important outcomes?** [@chiavaroli2018portfolio]
+
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Effect estimate — on surrogates only
 
@@ -34,10 +36,12 @@ on an NCEP Step II background vs NCEP Step II alone, median \~4 weeks. [@chiavar
   moderate/high, not imprecision. [@chiavaroli2018portfolio]
 - Secondary, GRADE **moderate** (downgraded for imprecision — CIs contained the pre-specified MID):
   SBP −1.75 mm Hg, DBP −1.36 mm Hg, CRP −0.53 mg/L (−32%), and a **model-estimated** 10-yr CHD risk
-  −1.34% absolute (−13% relative). The CHD figure is computed from the surrogates, not observed
+  −1.34% absolute (95% CI −2.19 to −0.49; 7 trial comparisons; −13% relative). The CHD figure is computed from the surrogates, not observed
   events. [@chiavaroli2018portfolio]
 
 Full table with I2/p-values on the source page.
+
+</div>
 
 ## The surrogate ceiling — the transmission is borrowed, not shown
 

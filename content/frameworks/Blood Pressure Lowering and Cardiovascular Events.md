@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org)]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -23,8 +23,17 @@ relationships:
     - Stress Management and Cardiometabolic Health
     - Garlic and Blood Pressure
     - Dietary Nitrate and Blood Pressure
+    - Layer 1 - Ranking Interventions for a Stratum
+    - Surrogate Outcomes
+    - Potassium Intake and Blood Pressure
+    - Dietary Magnesium and Cardiometabolic Outcomes
+    - Should Sodium Reduction Be Population-Wide or Targeted
+    - Does Weight Loss Reduce Cardiovascular Events
+    - Dietary Fibre and Health
+    - Whole Grains Refined Grains and Pulses
+    - Non-Sugar Sweeteners
 created: 2026-07-29
-updated: 2026-09-25
+updated: 2026-10-07
 self_critiqued: 2026-09-25
 ---
 
@@ -53,6 +62,8 @@ an obesity drug's CV benefit is unproven outside established disease
 action threshold at low risk ([[Statins for Primary Prevention and the Power of Zero CAC]]). BP-lowering
 alone has a **directly proven relative benefit in primary prevention**, at an IPD-meta-analytic warrant.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## But the ceiling's mechanism survives — treat on absolute risk, not a BP number
 
 The paper does **not** conclude *lower everyone's BP*. Its explicit decision rule is the
@@ -68,13 +79,15 @@ of... an individual's overall risk of future cardiovascular events, potential ri
 the cost of treatment, and patient preferences». They even «caution against using the reported absolute
 risk differences from clinical trials for making policy decisions» — the trials' populations were
 higher-risk (absolute rates «31·9... in the comparator group and 25·9... in the intervention group» per
-1000 person-years without prior CVD, i.e. a \~2.4%/yr baseline, far above a low-risk primary-prevention
+1000 person-years without prior CVD, i.e. a \~3.2%/yr comparator-group baseline, far above a low-risk primary-prevention
 person). [@bplttc2021]
 
 **So BP-lowering refines, not refutes, the ceiling.** Its *relative* benefit is proven where weight-loss
 and GLP-1 CV benefit are not — but the *absolute* benefit still scales with baseline risk, exactly the
 ceiling's mechanism, and the paper legislates the same rule (treat on absolute risk). A constant \~10% per
 5 mmHg on a low absolute risk is a small absolute gain; on a high one it is large.
+
+</div>
 
 ## What it does not settle
 
@@ -155,6 +168,8 @@ predicts a \~10% CV-event reduction *if* the pharmacological transmission transf
 -> [[Alcohol and Mortality and Vascular Disease]].
 [inferred from @roerecke2017alcohol]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## A third lifestyle BP route — structured exercise, and the drug head-to-head that does not exist `[2026-08-20, Naci]`
 
 Naci's 2019 network meta-analysis (Br J Sports Med, gold-tier) is the drug-as-realistic-alternative
@@ -205,7 +220,23 @@ detection bias from lack of blinding, vs 1/20 drug RCTs), and — since food/beh
 this weakness is structural, not fixable. The conclusion carries the hedge: the exercise effect «appear
 similar to that of commonly used antihypertensive medications, but this is tempered by the observed
 differences in study population characteristics»
-[@naci2019exercise].
+[@naci2019exercise]. One bias runs the other way, and
+Naci names it: the authors say they may have underestimated exercise's SBP effect, because «We excluded
+trials of medications and dosages that were considered to be ineffective or suboptimal by the BNF, even
+though we did not exclude any exercise trials on this basis»
+[@naci2019exercise]. The drug arm was screened for
+effective doses and the exercise arm was not, so the matched-stratum parity is not obviously flattering
+to exercise.
+
+**Which type.** The single types lower SBP about equally; combined endurance plus resistance training
+beats dynamic resistance alone (−2.98, 95% CrI −5.04 to −0.93), and in the >=140 mmHg sensitivity
+analysis it beats endurance, resistance and isometric training alike [@naci2019exercise], reaching −13.51 (−16.55 to −10.45) vs control
+[@naci2019exercise]. Naci
+notes that only a small subset of trials tested the combination and their frequency and duration were not
+consistently reported, so the edge may partly be more total training. The type groups
+differ in baseline SBP (125 mmHg resistance, 135 combination; Table 1), so part of the all-populations
+edge may be baseline; the edge persisting at >=140 mmHg is the better test. The decision reading and its
+caveats are on [[Is the Exercise Modality Doing Any Work]].
 
 **Decision relevance.** For a **hypertensive** person, structured exercise (endurance or dynamic
 resistance) is a credible-magnitude SBP lever — indirectly comparable to a first-line drug in the
@@ -219,6 +250,8 @@ alcohol and salt-substitute levers above. Exercise also carries large off-target
 glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose and Mortality]],
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
+
+</div>
 
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
@@ -307,6 +340,8 @@ low-cost adjunct for someone who will actually do it, never as a substitute for 
 medication, or structured exercise.
 [inferred from @geiger2025yoga; @bplttc2021]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## A sixth route — garlic, a big clean surrogate mover with no hard-outcome warrant `[2026-09-25, weave: Ried + Ma]`
 
 Garlic supplementation is a **supplement** BP route ([[Garlic and Blood Pressure]]), and placing it beside
@@ -329,20 +364,26 @@ caveat governing every route on this page — is *most* completely unproven.
 | Non-drug BP lever (stratum) | Office SBP (mm Hg) | Same quantity? | ABPM tested? | Hard CV endpoint? | Pub-bias clean? |
 |---|---|---|---|---|---|
 | Exercise, hypertensive (Naci) | -8.96 (-10.27, -7.64) | office MD, **unblindable** | -- | observational only | unblindable |
-| Garlic, hypertensive | -8.38 (Ried) / -8.12 (Ma) | office MD, placebo-ctrl | no | never trialled | uncertain |
+| Garlic, hypertensive -> [[Garlic and Blood Pressure]] | -8.38 (Ried) / -8.12 (Ma) | office MD, placebo-ctrl | no | never trialled | uncertain |
 | Yoga, mixed | -7.95 waitlist; -4.16 NS active | office MD, waitlist-inflated | vanishes on ABPM | no | -- |
 | Slow breathing | -5.62; -2.14 NS at low RoB | office MD | unreported | no | -- |
-| Nitrate (beetroot) | -4.4 (Norouzzadeh) | office MD | -- | no | -- |
-| Urate lowering | \~-3.3 proxy; primary is SDM 0.321 | NOT mm Hg (SDM) | no | no | Egger asym. p=0.032 |
+| Nitrate (beetroot) -> [[Dietary Nitrate and Blood Pressure]] | -4.4 (-5.9, -2.8) (Siervo) | office MD | -- | no | -- |
+| Urate lowering -> [[Uric Acid Lowering and Blood Pressure]] | \~-3.3 proxy; primary is SDM 0.321 | NOT mm Hg (SDM) | no | no | Egger asym. p=0.032 |
 | Salt substitution (SSaSS) | -3.34 (Neal) | office MD | -- | **yes, measured** | -- |
 | BP drug (BPLTTC) | per-5-mm-Hg -> \~10% events | events metric | -- | **yes, measured** | -- |
 
+Nitrate row: Siervo's pooled systolic change, printed «24.4 mm Hg (95% CI: 25.9, 22.8)» in the chunked text, where each minus sign was extracted as a leading "2" (so -4.4, CI -5.9 to -2.8) [@siervo2013nitrate].
+
 The ordering is the finding, but it must be read by *stratum-matched, comparator-matched* quantities, not
 by the bare number — the same discipline the Naci section applies (restricting exercise to hypertensives
-nearly doubled its effect). Once matched, the inverse pattern is real: the levers with the biggest, cleanest
-office-SBP moves (garlic placebo-controlled; exercise, though unblindable) have the **weakest** endpoint
-warrant — none trialled, or observational only — while the two rows validated on *measured* events (SSaSS
--3.34; the drug channel) carry **modest** achieved surrogate moves. Big-and-clean on the surrogate and
+nearly doubled its effect). Once matched, the inverse pattern holds among the non-drug levers: the levers
+with the biggest, cleanest office-SBP moves (garlic placebo-controlled; exercise, though unblindable) have
+the **weakest** endpoint warrant — none trialled, or observational only — while the one non-drug row
+validated on *measured* events (SSaSS) carries a **modest** surrogate move, -3.34. *Corrected 2026-10-07:*
+this sentence earlier counted the drug channel as a second modest-move row, but BPLTTC's per-5-mm-Hg is a
+standardising unit, not an achieved drop, and drugs lower SBP a lot (-8.80 vs control across Naci's drug
+trials, mean baseline about 157 mmHg); drugs are big on the surrogate *and* validated on events, so they sit outside the pattern, which
+rests on one measured-endpoint contrast. Big-and-clean on the surrogate and
 strong-on-the-endpoint are different levers. (Urate lowering is the one non-comparable cell: Qu reports
 SDM, so its \~3 mm Hg is a design-discounted proxy from Agarwal 2013, not the same quantity.) **Layer-1
 sizing: garlic ranks as a small rock despite the big surrogate number** — net of a mature low-harm BP drug
@@ -353,6 +394,59 @@ in the hypertensive stratum for someone who will take it, never as a substitute 
 endpoint.
 
 [inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @bplttc2021]
+
+</div>
+
+## Held levers that barely move SBP — fibre, whole grains, sweeteners
+
+Three exposures the wiki holds for other reasons have randomised SBP results too. One is a small real
+effect, the rest show no clear effect. Reynolds 2019 admitted people with «mild to moderate
+hypertension» but excluded those on medications affecting the outcomes, and reports no
+hypertensive-stratum estimate [@reynolds2019].
+So the comparison with the hypertensive rows in the table above is not stratum-matched.
+
+| Exposure (trial contrast) | SBP effect (mm Hg) | Source certainty | Home page |
+|---|---|---|---|
+| Higher vs lower dietary fibre, general population | -1.27 (-2.50 to -0.04), 15 trials | Moderate | [[Dietary Fibre and Health]] |
+| Higher vs lower fibre, people with diabetes or prediabetes | -1.86 (-4.85 to 1.12), NS, 12 trials | -- | [[Dietary Fibre and Health]] |
+| Higher vs lower whole grains (Reynolds) | -1.01 (-2.46 to 0.44), 8 trials | Moderate | [[Whole Grains Refined Grains and Pulses]] |
+| Whole-grain vs refined-grain diets (SACN) | 0.2 (-1.6 to 2.0), p=0.85 | Moderate (SACN: no effect) | [[Whole Grains Refined Grains and Pulses]] |
+| Non-sugar sweeteners (RCTs) | -1.33 (-2.71 to 0.06), 14 trials | Moderate | [[Non-Sugar Sweeteners]] |
+
+[@reynolds2019]
+[@reynolds2020]
+[@sacn2015]
+[@who2023nonsugar]
+
+Fibre lowers SBP by a real but small amount, at moderate certainty. Read through BPLTTC's per-5-mm-Hg
+channel, a sustained -1.27 would predict roughly 2.5% fewer CV events in relative terms, and only if a
+diet-induced drop transmits like years of drug-induced lowering. SACN listed fibre and blood pressure under
+insufficient RCT evidence (Table 8.2), a category it uses where «two or fewer studies» met its inclusion
+criteria or the studies were too inconsistent (8.158) [@sacn2015]. The two reviews differ in which trials qualified, not in how they read the same trials.
+ The diabetes-fibre estimate is too imprecise to call either way: its interval runs from
+about -5 to +1. Whole grains and sweeteners show no clear effect. SACN's whole-grain pool rests mostly
+on one trial: «8.136 One trial, contributes 92% to the pooled estimate for systolic blood pressure and
+97% for diastolic blood pressure (Howard et al., 2006b). This trial elicited a very small increase in
+whole grains consumption (less than one serving per day) and also resulted in weight loss differences
+between experimental groups.» [@sacn2015]. Legume
+intake got no BP conclusion at all (evidence too limited or inconsistent)
+-> [[Whole Grains Refined Grains and Pulses]]. None of these effects is large enough to rank as a BP
+lever; their value, where they have any, runs through other outcomes on their home pages.
+
+Sweeteners carry a cohort-trial split. WHO's cohorts link sweetener use to hypertension (HR 1.13,
+1.09-1.17, low certainty), while its trials show no SBP rise. WHO says «The majority of RCTs assessing NSS lasted 3 months or
+less» [@who2023nonsugar]; the 14 SBP trials' durations are not given
+separately, but if they follow that pattern they cannot test a harm that takes years to show as incident
+hypertension. WHO names reverse causation as a possible explanation: «Reverse
+causation suggests that those already at elevated risk of disease initiated or increased use of NSS
+because of their risk status, rather than NSS leading to increased risk in otherwise healthy or low-risk
+individuals.» [@who2023nonsugar]. It then limits that reading:
+«However, efforts taken by the authors to address reverse causation and confounding in most studies
+suggest that these phenomena are not the sole causes of observed associations and may not even play a
+significant role in many of the studies.» [@who2023nonsugar]. So the
+short-term SBP question has a moderate-certainty null, and the long-term hypertension question stays
+open.
+[inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
 
 ## Decision relevance
 
@@ -371,6 +465,13 @@ endpoint.
   events — but the transmission of a *lifestyle-induced* BP drop to events is an assumption, not the same
   evidence (a different intervention, unmeasured here — Roerecke's alcohol-reduction CV benefit is
   *modelled*, SSaSS's is *measured*).
+- **Where the levers sit in the ranking.** BP is a big rock only conditionally, by baseline risk
+  -> [[Layer 1 - Ranking Interventions for a Stratum]]; the lever ordering above is a surrogate ordering,
+  read with the transmission criterion in [[Surrogate Outcomes]]. That table leaves out sodium reduction, DASH and
+  potassium, which each have a home page: [[DASH Diet and Blood Pressure]], [[Potassium Intake and Blood Pressure]],
+  [[Dietary Magnesium and Cardiometabolic Outcomes]], and, for whether sodium reduction should target the
+  salt-sensitive or everyone, [[Should Sodium Reduction Be Population-Wide or Targeted]]. Weight loss as
+  an events route -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
 ## Limits
 

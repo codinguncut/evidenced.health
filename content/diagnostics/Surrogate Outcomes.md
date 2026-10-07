@@ -27,8 +27,9 @@ relationships:
     - Vitamin B12 Status in Vegetarian and Vegan Diets
     - Fluoride and Bone Health
     - Exercise and Bone Mineral Density
+    - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-25
-updated: 2026-09-19
+updated: 2026-10-07
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
 self_critiqued: 2026-09-19
 ---
@@ -94,6 +95,11 @@ and still fail here.
 Two further treatments elsewhere in the handbook point the same way: that *"even if well measured
 surrogates are available, confidence in estimates of effects on patient-important outcomes is very
 likely to be low"*, and a dedicated list of *"Key questions when using test accuracy as a surrogate"*.
+
+Blood pressure shows the second criterion applied per route. The transmission to events is measured
+for drug-induced lowering, but for the lifestyle and supplement routes it is assumed. The levers with
+the biggest office-SBP drops tend to be the ones never tested on events
+-> [[Blood Pressure Lowering and Cardiovascular Events]].
 
 ## Tests / indicators
 

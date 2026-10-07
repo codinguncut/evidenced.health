@@ -22,8 +22,8 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-10-06
-self_critiqued: 2026-09-15
+updated: 2026-10-07
+self_critiqued: 2026-10-07
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -146,6 +146,8 @@ false-positive-prone route; hold it as hypothesis-generating, not established.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Guo (neutral) vs Mishali (inverse): a distinction, NOT a tension
 
 The two reach opposite *headlines* on largely the **same cohorts**. The parameter table dissolves the
@@ -158,7 +160,7 @@ apparent clash:
 | Fat stratification | high/low-fat analysed separately (both null) | none (total dairy/milk only) | **NO** |
 | Sex | pooled + subgroups | central moderator; effect women-only | **NO** |
 | Cohort set | 29 cohorts (938k) | 13 CVD / 16 T2D (461k/546k), overlapping subset | **NOT independent** |
-| Funding | research-institute | Israel Dairy Board | — |
+| Funding | partly Global Dairy Platform / Dairy Research Institute / Dairy Australia (funders had no role) | Israel Dairy Board | — |
 
 **The clash is not joined — by not-joined check (ii) (different unit/contrast) plus the shared data.**
 The two estimates are **not commensurable**: Guo's 0.97 is a per-200 g/d dose-response slope, Mishali's
@@ -172,7 +174,7 @@ industry sponsor — reads a \~5% inverse CVD estimate as «beneficial». So **n
 this is a structured distinction. It is also **not type-E independent backing** — the shared cohorts make
 the agreement a re-pooling, not two independent routes.
 
-
+</div>
 
 ## The milk-mortality controversy is a confounding artifact
 
@@ -198,6 +200,8 @@ instrument in-source). Note Guo does not invoke Michaelsson's own D-galactose hy
 
 
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Mechanism (candidate, not demonstrated) and the matrix hinge
 
 Both MAs propose the same channels without RCT confirmation: dairy minerals (Ca, K, Mg) lower total/LDL-C
@@ -209,10 +213,10 @@ the **dairy-matrix** hypothesis — the same SFA behaving differently inside che
 mechanism to weigh, not a finding; the SFA verdict itself is deferred to
 [[Saturated Fat Intake and Replacement]] and [[Does Reducing Saturated Fat Reduce Cardiovascular Events]].
 ~~~~ **CASHED 2026-09-15 by Thorning 2017** — the
-controlled-feeding matrix mechanism (cheese vs butter on LDL) that moves this from candidate to
-directional (below).
+controlled-feeding matrix mechanism (cheese vs butter on LDL) that adds a surrogate-LDL directional
+leg; the hard-outcome matrix claim stays a candidate (below).
 
-### The food-matrix concept and the cheese-vs-butter LDL leg (Thorning 2017 — labelled-weak, directional-only)
+### The food-matrix concept and the cheese-vs-butter LDL leg (Thorning 2017 — scoping review, directional-only)
 
 
 
@@ -220,10 +224,13 @@ Thorning et al. 2017 names the mechanism the hypothesis above was invoking witho
 of the food structure and the nutrients therein (i.e., the food matrix) will determine the nutrient
 digestion and absorption, thereby altering the overall nutritional properties of the food.»`
 [@thorning2017]. The **directional** leg the matrix claim was
-missing is a controlled-feeding contrast: in Tholstrup's whole-diet trial, matched for fat, protein and
-lactose, `«butter caused significantly higher LDL-cholesterol concentrations ... than cheese did,
+missing is a controlled-feeding contrast: in Tholstrup's whole-diet trial, the diets were balanced for fat,
+protein and lactose «but not of calcium» [@thorning2017], and `«butter caused significantly higher LDL-cholesterol concentrations ... than cheese did,
 whereas the effect of milk was intermediate»` [@thorning2017]
-— so the same milk fat raises LDL more as butter than as cheese, and protein/lactose are not the cause.
+— so the same milk fat raised LDL more as butter than as cheese. Thorning reads this as «These studies
+suggested that protein and lactose were not the determinants of the difference between cheese and butter
+on blood lipids.» [@thorning2017], pointing instead to dairy calcium, which the diets did not
+balance.
 This is the mechanism-directional rule at work: a **surrogate** endpoint (LDL-C, not a hard outcome),
 admitted to inform DIRECTION only, discounted, and marked as mechanism.
 
@@ -231,13 +238,17 @@ Two guards hold the weight down and are why `confidence:` stays **medium**, gove
 above and NOT lifted by Thorning. First, the source states its own limit — `«It has to be clarified
 whether the effects of the various mechanisms have a magnitude to impose an effect in the whole diet
 setting.»` [@thorning2017] — so whether the matrix moves a
-patient-important outcome in a real diet is explicitly open. Second, the directional-sponsor tell: the
-underlying expert workshop was funded by the European Milk Forum and its senior author is a known
-dairy-fat defender, which is exactly the direction such a sponsor would push. A milk-industry-funded
-narrative review is **not** independent robustness backing (NOT-E — no `[E-independent]` with any gold
+patient-important outcome in a real diet is explicitly open. Second, independence and sponsorship. Thorning shares
+authors with Guo 2017 (Astrup and Soedamah-Muthu; Givens very likely the same person), so it cannot back
+Guo independently. The underlying expert workshop was funded by the European Milk Forum, and authors
+disclose dairy-industry funding or consultancy (Astrup: Arla Foods, the Danish Dairy Research Foundation;
+Givens: the Dairy Council). The source states «The study sponsor had no inﬂuence on the meeting program
+or the selection of speakers, was not present at the meeting, and was not involved in the production of
+the manuscript.» [@thorning2017] A milk-industry-funded scoping review (of a consensus
+workshop), sharing authors with the gold anchor, is **not** independent robustness backing (NOT-E — no `[E-independent]` with any gold
 source here); it is a mechanistic framing, credited and labelled at point of use.
 
-
+</div>
 
 ## Off-axis endpoint: a minor protective dental-erosion association (cashes HELD-DAIRY-1)
 
@@ -369,6 +380,8 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
 Gijsbers is the dedicated dairy -> T2D **dose-response** MA (22 prospective cohorts, 579,832 individuals,
@@ -432,7 +445,8 @@ itself was Wageningen-University-funded with no sponsor role, but three senior a
 dairy-industry funding (Global Dairy Platform, Dairy Research Institute, Dairy Australia, Dutch Dairy
 Association) [@gijsbers2016]. The whole
 dairy-T2D-protective literature clusters in industry-adjacent groups (Mishali = Israel Dairy Board;
-PURE = Dairy Farmers of Canada; the Soedamah-Muthu lineage here) — a **uniformity tell** about the
+PURE = Dairy Farmers of Canada; the Soedamah-Muthu lineage here; Guo 2017 itself, partly funded by the
+Global Dairy Platform, Dairy Research Institute and Dairy Australia [@guo2017]) — a **uniformity tell** about the
 field, not a refutation of any one estimate. The effect is discounted, not deleted.
 
 **The genetic-instrument leg is now HELD — see the Vissers MR section below.** Gijsbers noted secondhand
@@ -470,6 +484,7 @@ the yogurt/low-fat arm; still no hard-outcome RCT.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
 
+</div>
 
 ## Vissers 2019 — the genetic-instrument (MR) leg: milk -> T2D is causally null, but only for MILK `[2026-09-15]`
 

@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 <div class="recent-update" data-last-updated="2026-10-06">
@@ -645,8 +645,8 @@ questioned show the two ways that distinction bites, and they resolve in **oppos
   for a normotensive.** Unlike plant foods it carries a **proven** hard-outcome transmission that reaches
   primary prevention: 5 mmHg systolic -> \~10% fewer major CV events (BPLTTC, HIGH), so route-(a) baseline
   scaling makes the *same* millimetres a large absolute gain at high risk and a small one at low. The
-  owning deliverable already holds this as a two-column tier table keyed to baseline risk, governed by
-  *"rank on absolute risk, not the BP number"* -> [[Blood Pressure]]. Its *dietary* levers (sodium, DASH,
+  owning claim page states the rule as *decide on absolute CV risk, not the BP number*
+  -> [[Blood Pressure Lowering and Cardiovascular Events]]. Its *dietary* levers (sodium, DASH,
   potassium) are Medium; the big-rock instantiation is the drug route plus weight loss — which is why
   [[Sodium Intake and Blood Pressure]] tiers below the integrator it feeds.
 

@@ -7,7 +7,7 @@ sources: [Neufingerl - Plant-Based Nutrient Status 2021]
 confidence: medium
 cluster: deficiency-enhancement
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-07
 self_critiqued: 2026-09-17
 relationships:
   related_to:
@@ -84,6 +84,8 @@ adverse health consequences in adult vegetarians with lower zinc status, suggest
 zinc utilization may be increased in vegetarians on the longer term» [@neufingerl2021plant] — lower zinc status here is a surrogate whose transmission to harm is
 itself unestablished, exactly the [[Surrogate Outcomes]] discipline.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The at-risk panel, by stratum
 
 Risk is **stratum-graded: vegan > vegetarian > meat-eater** for the animal-sourced nutrients, and reversed
@@ -95,7 +97,7 @@ plus deficiency-prevalence where a biomarker cutoff existed
 |---|---|---|---|
 | **Vitamin B12** | vegan >> vegetarian | intake vegan 1.5 / veg 2.1 / meat 5.6 ug/d (EAR 2.0, food-only vegan well below); deficiency \~44% vegan, \~32% vegetarian | essentially no active plant source |
 | **EPA/DHA** | vegan, vegetarian | intake vegan 27/4, veg 16/31, meat 94/172 mg/d — below 250 mg AMDR; status consistently lower | fish/seafood absent; ALA->EPA/DHA conversion <10% |
-| **Iodine** | vegan | intake vegan 111 / veg 146 / meat 170 ug/d (EAR 95); deficiency (UIC<100) **92% vegan** vs 37% veg vs 51% meat | few plant sources; only 5 studies (thin) |
+| **Iodine** | vegan | intake vegan 111 / veg 146 / meat 170 ug/d (EAR 95); deficiency (UIC<100) **92% vegan** vs 37% veg vs 51% meat | few plant sources; thin: 5 studies on intake, 5 on status, 3 on deficiency prevalence |
 | **Iron** | vegetarian/vegan **women** | intake higher but ferritin lower; deficiency 15% vegan / 11% veg / 7% meat; anemia up to 17% | non-heme, phytate-inhibited (see reframe) |
 | **Zinc** | vegan | intake similar but below adjusted EAR; deficiency 30% vegan | phytate-inhibited absorption |
 | **Vitamin D** | vegan (but ALL patterns) | intake below EAR (10 ug) in **every** pattern (vegan 1.52 -> pesco 5.25); deficiency 67% vegan / 33% veg in one small Finnish study | few natural sources; a whole-population gap |
@@ -106,6 +108,8 @@ plus deficiency-prevalence where a biomarker cutoff existed
 nutrients — fiber, PUFA, ALA, folate, vitamin E, magnesium — and, alongside everyone else, vitamin D and
 calcium [@neufingerl2021plant]. "Nutrient inadequacy" is not
 a property of plant-based diets; it is a property of *any* non-diverse diet, differently distributed.
+
+</div>
 
 ## What each risk actually licenses (the levers, not a prescription)
 
@@ -137,6 +141,8 @@ review filling a gap, not a second independent witness to the same quantity. The
 is built on the B12 page. No `[E-independent]` is claimed here
 .
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Confidence and gaps
 
 **Confidence `medium`** — gold-design SR, but a single source, all endpoints are surrogates (intake/status,
@@ -151,10 +157,14 @@ Key limitations and gaps (G):
   the proportion of the population below it: «A major limitation of our review was that we could not provide
   reliable estimations on the adequacy of dietary nutrient intakes» [@neufingerl2021plant]. Read the prevalence numbers as indicative, not exact — and this cuts
   *against* over-reading the deficits.
-- **Iodine and EPA/DHA rest on very few studies** (iodine 5, EPA/DHA 8) — insufficient-evidence, not a firm
+- **Iodine and EPA/DHA rest on very few studies** (iodine 5 on intake and 5 on status, with the 92% deficiency figure resting on 3; EPA/DHA 8) — insufficient-evidence, not a firm
   parameter, despite the dramatic 92% vegan iodine-deficiency figure.
+  Counts: «Five studies reported on iodine intake», «Five studies reported on iodine status», and
+  «Three studies reported on iodine deficiency» [@neufingerl2021plant].
 - **Western populations only**; results may not transport to other food systems.
 - **Cutoff and measurement heterogeneity** drive part of every deficiency band (the same caveat that governs
   the B12 prevalence range).
+
+</div>
 
 ## References

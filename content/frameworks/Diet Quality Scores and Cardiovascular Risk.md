@@ -23,7 +23,7 @@ relationships:
     - Food Groups and Health Outcomes - A Dose-Response Matrix
 self_critiqued: 2026-08-29
 created: 2026-08-25
-updated: 2026-09-07
+updated: 2026-10-07
 ---
 
 **Nucleus of the `diet-quality-scores` cluster** — the canonical owner of *what a whole-diet quality
@@ -42,6 +42,8 @@ at arm's length. Everything here is **observational**; the headline associations
 substantially** once lifestyle and socioeconomic status are adjusted, and no hard-outcome RCT exists.
 
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The score and the magnitudes
 
 The score was developed in 147,642 PURE participants (21 countries) and replicated in five independent
@@ -54,11 +56,18 @@ median intake — an **unweighted sum with median cut-offs**.
 
 - Mortality **HR 0.70 (0.63-0.77)**; major CVD **0.82 (0.75-0.91)**; MI **0.86 (0.75-0.99)**;
   stroke **0.81 (0.71-0.93)** [@mente2023pure].
+- **How much the adjustment removes:** the crude total-mortality rate runs from 12.14 per 1000
+  person-years in the lowest score quintile to 4.10 in the highest (about 3-fold); age-and-sex
+  adjustment gives HR 0.54 (0.50-0.59) and the multivariable model 0.70 (0.63-0.77) (PURE Table 3,
+  n = 147,642) [@mente2023pure]. Most of the raw gap is
+  explained by who scores high, and any residual confounding sits inside what is left.
 - **Per one quintile (20 percentile) increment:** «a 20% (1 quintile) higher PURE healthy diet score
   was associated with a 6% lower risk of major CVD, and 8% lower risk of mortality»
-  [@mente2023pure] — mortality HR 0.91 (0.89-0.93),
-  major CVD 0.94 (0.92-0.97), composite 0.93 (0.92-0.95)
-  [@mente2023pure].
+  [@mente2023pure]. Two analyses, two numbers: the «8%
+  lower» is the six-study pooled estimate (244,597 people), total mortality HR 0.92 (0.90-0.93);
+  PURE alone gives HR 0.91 (0.89-0.93), major CVD 0.94 (0.92-0.97)
+  [@mente2023pure]. They agree; neither contradicts the
+  prose.
 
 **Replication holds, same direction, similar size.** In three prospective vascular-patient cohorts
 (ONTARGET/TRANSCEND/ORIGIN): mortality HR 0.73 (0.66-0.81), CVD 0.79 (0.72-0.87); in two case-control
@@ -72,6 +81,8 @@ area under the ROC curve is only **0.61 (mortality), 0.54 (major CVD), 0.58 (com
 orders *populations* on risk; it does not tell an *individual* their fate. A per-quintile 6-8% relative
 shift on a modest baseline is a small absolute effect for most people
 ([[Baseline Risk and the Relative-Absolute Split]]).
+
+</div>
 
 ## The dose-response knee — the lever is raising LOW consumers to moderate
 
@@ -121,6 +132,8 @@ the appeal-to-nature trade-off). For the reasonably-healthy, adequately-fed defa
 protective-food rocks are largely already pulled. The direction-of-guidance question this raises
 -> [[Which Objective Moved This Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Which score is best? Barely matters — except the Planetary score, which was null
 
 PURE compared its score head-to-head with five others on its own participants (Table 4). «The PURE
@@ -128,7 +141,7 @@ score appears to be slightly more predictive of composite events than the Medite
 HEI-2015, and DASH diet scores and substantially more predictive than the Planetary diet score»
 [@mente2023pure]. On mortality: PURE HR 0.91 / AUC 0.61;
 Mediterranean 0.96 / 0.55; HEI-2010 0.93 / 0.55; DASH 0.96 / 0.53; **Planetary (EAT-Lancet) HR 1.00
-(0.98-1.03) / AUC 0.52 — null** [@mente2023pure].
+(0.98-1.03) / AUC 0.52 (0.51-0.53) — null** [@mente2023pure].
 
 - **The "PURE wins" margin is small and self-serving by construction** — every score was tested on
   PURE's own FFQ, which captures PURE's components best and can disadvantage scores built on foods PURE
@@ -150,6 +163,8 @@ Mediterranean 0.96 / 0.55; HEI-2010 0.93 / 0.55; DASH 0.96 / 0.53; **Planetary (
   PURE's signal. Whether that is a real demerit of the EAT-Lancet pattern or an artifact of scoring it
   on a population where those foods are protective is unresolved here (its non-health / environmental
   objective is a different axis this wiki does not price — name it, do not net it).
+
+</div>
 
 ## No single component carries it — and the score is reachable many ways
 

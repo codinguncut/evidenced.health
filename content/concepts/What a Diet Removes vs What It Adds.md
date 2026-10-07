@@ -7,14 +7,14 @@ sources: []
 cluster: exposure-and-comparator
 confidence: medium
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-07
 self_critiqued: 2026-09-10
 relationships:
   related_to:
     - The Comparator Problem
     - Is the Food Category Doing Any Work
     - Named Diet Programs Compared
-    - Dietary Patterns
+    - Mediterranean Diet and Cardiovascular Events
     - Ultra-Processed Food and Health Outcomes
     - Free Sugars Intake
     - Low-Carbohydrate vs Balanced-Carbohydrate Diets
@@ -75,6 +75,8 @@ The move is the same one the fabric already makes for single foods: an observed 
 not evidence for any one of its components, and the benefit of a fruit-and-vegetable pattern resists
 being pinned to any single compound -> [[Is the Food Category Doing Any Work]], [[Fruit and Vegetable Intake and Health]]. Here the "population" is a diet and the "component" is its signature food.
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Not every diet is pure removal — the discriminator
 
 
@@ -82,11 +84,13 @@ being pinned to any single compound -> [[Is the Food Category Doing Any Work]], 
 The confound is a diagnostic, not a verdict that every named diet is only its exclusions. A diet earns
 credit for its *additions* when a distinctive inclusion has its own evidence that survives the honest
 comparator. The Mediterranean pattern is the nearest contrast case: its hard-endpoint trial signal comes
-from named additions (olive oil, nuts) tested against a fat-reduction control -> [[Named Diet Programs Compared]], [[Dietary Patterns]]. That control is an imperfect comparator, not the fully junk-free one
+from named additions (olive oil, nuts) tested against a fat-reduction control -> [[Named Diet Programs Compared]], [[Mediterranean Diet and Cardiovascular Events]]. That control is an imperfect comparator, not the fully junk-free one
 this page defines, but it is non-trivial, because the control was not a junk-heavy diet either. So at
 least part of the credit sits with the addition rather than a junk removal alone — even though the trial
 cannot separate the oil from the nuts from the whole gestalt. The test is therefore per diet: **does a
 distinctive addition survive a comparator that is not itself junk-heavy, or does only the exclusion?**
+
+</div>
 
 ## Decision relevance
 

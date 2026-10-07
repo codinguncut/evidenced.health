@@ -18,7 +18,7 @@ relationships:
     - Surrogate Outcomes
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-08-07
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 
@@ -406,11 +406,11 @@ low-sodium target 50 mmol/d not reached (achieved \~65).
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Limits
 
-- **Surrogate-only, 2-24 weeks.** No hard endpoint; the CVD-prevention claim is a modelled projection.
+- **Surrogate-only, 2-24 weeks (Siervo; Filippou's pool averages \~15 weeks).** No hard endpoint; the CVD-prevention claim is a modelled projection.
 - **High heterogeneity on the primary outcome** (SBP I2=76%), and some publication bias for TAG (Egger
   P=0.01).
 - **Almost entirely US / non-European trials** — the authors flag limited evidence on applicability
@@ -437,13 +437,14 @@ low-sodium target 50 mmol/d not reached (achieved \~65).
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Decision relevance
 
 - **DASH is an evidenced BP-lowering pattern** (-5.2/-2.6 mmHg vs control) with a modest LDL/total-
-  cholesterol co-benefit and no glucose/HDL/TAG effect — a real surrogate move, larger in
-  higher-BP / higher-BMI people.
+  cholesterol co-benefit and no glucose/HDL/TAG effect — a real surrogate move. Siervo found it
+  larger in higher-BP / higher-BMI people; *contested 2026-10-06 (Filippou): a second pooling puts the
+  SBP effect at -3.2 mmHg and finds no hypertension-status modifier — see the Updates block below.*
 - **Its value on hard outcomes rides on the BP -> events chain AND a direct cohort layer** — DASH
   adherence is associated with \~18-21% lower incident CVD / CHD / stroke / diabetes in cohorts, but at
   GRADE low / very low (diet-score confounding) [@chiavaroli2019],

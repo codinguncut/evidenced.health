@@ -16,7 +16,7 @@ relationships:
     - Surrogate Outcomes
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-29
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 
@@ -307,7 +307,7 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Per-outcome certainty — the Cochrane review grades each PREDIMED endpoint (F) `[2026-10-06]`
 
@@ -443,6 +443,12 @@ cells repeat the extracted lines in the LDL section above.
   implications of the findings of these trials are unclear (Appel 2013).»
   [@rees2019medcochrane] The intervention that
   showed events is *free EVOO/nuts/margarine plus counselling*; advice alone is untested on events.
+  In PREDIMED those foods came from industry donors: «Supplemental foods were donated, in- cluding
+  extra-virgin olive oil (by Hojiblanca and Patrimonio Comunal Olivarero, both in Spain), walnuts (by
+  the California Walnut Commission), almonds (by Borges, in Spain), and hazelnuts (by Morella Nuts, in
+  Spain). None of the sponsors had any role in the study design, data analysis, or reporting of the
+  results.» The trial's funding was public (Instituto de Salud Carlos III)
+  [@estruch2018].
 
 - **Harms and quality of life:** «Two trials reported on adverse events where these were absent or minor
   (low- to moderate-quality evidence). No trials reported on costs or health-related quality of life.»

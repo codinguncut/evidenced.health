@@ -18,7 +18,7 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
 self_critiqued: 2026-09-25
 created: 2026-07-31
-updated: 2026-09-25
+updated: 2026-10-07
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -90,6 +90,8 @@ metabolic-advantage prediction -> [[What Drives Fat Gain - Energy Balance vs the
 (where that evidence is held). Ge's near-equivalence across 14 named diets is the free-living,
 whole-programme face of that same null. [inferred from @ge2020]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The one exception: Mediterranean holds at 12 months
 
 Ge is otherwise a clean null on durability, with one break: «Estimated effects at the 12 month follow-up
@@ -97,10 +99,15 @@ for weight loss and cardiovascular risk factor improvements diminished for all p
 except for the Mediterranean diet», and «Only the Mediterranean diet showed a statistically significant
 difference compared with usual diet in LDL cholesterol reduction»
 [@ge2020]. This is a **surrogate
-(LDL) finding**, distinct from — but pointing the same way as — the one whole-pattern RCT that shows
-Mediterranean moving hard events -> [[Mediterranean Diet and Cardiovascular Events]]. That two
-independent designs (a named-diet NMA on LDL; PREDIMED on CV events) single out the same pattern is worth
-noting, while keeping the outcomes distinct: Ge does not measure events, PREDIMED does not pool LDL here.
+(LDL) finding**, distinct from — but pointing the same way as — the whole-pattern RCTs (PREDIMED, and the
+smaller Lyon trial) that show Mediterranean moving hard events -> [[Mediterranean Diet and Cardiovascular Events]].
+That two different designs (a named-diet NMA on LDL; PREDIMED on CV events) single out the same pattern is
+worth noting, but it is not verified-independent backing: the held Ge capture does not list its included
+trials, so whether PREDIMED's risk-factor data sit inside Ge's network cannot be checked here
+[searched: PREDIMED/Estruch across the 1 held Ge file, 0 hits]. Keep the outcomes distinct too: Ge does not
+measure events, PREDIMED does not pool LDL here.
+
+</div>
 
 ## DASH vs Mediterranean — an outcome-specific split, not a demonstrated winner
 

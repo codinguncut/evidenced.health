@@ -19,7 +19,7 @@ relationships:
     - Which Objective Moved This Recommendation
     - Inflammation as a Modifiable Lever
 created: 2026-09-07
-updated: 2026-10-06
+updated: 2026-10-07
 self_critiqued: 2026-10-06
 ---
 
@@ -80,8 +80,8 @@ under-measures ([[Is the Food Category Doing Any Work]]), and here it is the obj
 strongest available mortality grade — while the *named* pattern (the label people argue about) is shown
 to be near-interchangeable above a quality floor. That is the same **no-meaningful-difference-between-
 labels** verdict the [[Named Diet Programs Compared]] deliverable and the PURE head-to-head reach by
-other routes; Boushey is a third, independent-of-those-instruments confirmation of it (see Independence
-check below). [inferred from @boushey2020]
+other routes; Boushey reaches the same verdict through a third instrument, but on overlapping primary data, so
+it refines that verdict rather than independently confirming it (see Independence check below). [inferred from @boushey2020]
 
 **The observed-healthy-population caveat holds and is stated.** A protective *pattern* cannot be
 decomposed into a verdict on any one of its component foods — that would require the isolating
@@ -193,7 +193,7 @@ when the diets examined were of higher quality»
 that the **pattern/food-quality axis carries the mortality signal and the macronutrient-percentage axis
 does not** — a direct corroboration of the pattern-over-macros theme.
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Appraisal — a Strong grade on a near-entirely observational body
 
@@ -209,7 +209,13 @@ upgrade factors. The reasons the grade is defensible, and the limitations that c
   Mediterranean diets or a control low-fat diet ... high-risk for CVD ... Mediterranean diet with
   extra-virgin olive oil (EVOO) ... or mixed nuts ... Consumption of the Mediterranean diets with EVOO
   or mixed-nuts were significantly associated with reduced all-cause mortality risk after (median) 4.8y»
-  [@boushey2020]. PREDIMED's post-publication
+  [@boushey2020].
+  That summary sentence overstates the trial's own numbers. Boushey's evidence table reports the
+  intention-to-treat all-cause hazard ratios as «Med + EVOO, n=118 deaths, 0.90, 95% CI: 0.69, 1.18 • Med + Nuts, n=116 deaths, 1.12, 95% CI: 0.86, 1.47» and, for both arms combined, «HR: 0.98, 95% CI: 0.77, 1.24»
+  [@boushey2020] — every interval spans 1, so
+  PREDIMED did not detectably change total deaths; its event benefit sits in the cardiovascular
+  composite and stroke ([[Mediterranean Diet and Cardiovascular Events]]). The single RCT therefore
+  does not supply the *Strong* grade's mortality signal; the cohorts do. PREDIMED's post-publication
   randomization problem is acknowledged and judged non-fatal: «the republished results confirmed the
   initial findings even after accounting for participants that may not have been adequately randomized»
   [@boushey2020]. So the single experimental

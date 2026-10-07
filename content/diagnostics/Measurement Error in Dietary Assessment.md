@@ -2,11 +2,11 @@
 type: diagnostic
 question: How much can measurement error in diet studies hide a real effect, or manufacture a false one?
 aliases: [Measurement Error, Attenuation, Regression Dilution, De-attenuation, Regression Calibration, Validation Study, Differential Misclassification]
-authors: [Willett, Walter; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun; Afshin, Ashkan]
-sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Ekelund - Accelerometer Physical Activity Mortality 2019]
+authors: [Willett, Walter; European Society of Cardiology (org); Ekelund, Ulf; World Health Organization (org); Baudry, Julia; Kesse-Guyot, Emmanuelle; National Academies of Sciences Engineering and Medicine (org); Li, Jun; Afshin, Ashkan]
+sources: [Willett - Nutritional Epidemiology 3e, SACN - Carbohydrates and Health 2015, Te Morenga - Dietary Sugars and Body Weight 2013, WHO - Physical Activity Web Annex Evidence Profiles 2020, Baudry - Organic Food Consumption Cancer NutriNet 2018, NASEM - Reproducibility and Replicability in Science 2019, Li - Linoleic Acid Mortality Meta-Analysis 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Ekelund - Accelerometer Physical Activity Mortality 2019, ESC - CVD Prevention Guidelines 2021]
 cluster: nutrition-methods
 confidence: medium
-self_critiqued: 2026-09-22
+self_critiqued: 2026-10-07
 relationships:
   related_to:
     - Energy Adjustment and What a Diet Coefficient Means
@@ -19,7 +19,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-10-06
+updated: 2026-10-07
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -151,7 +151,7 @@ authored by a principal of the method.
   moderate degree of measurement error**" — a condition that matters on a page arguing dietary error
   is large.
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The cross-domain contrast — and what the parameter table refuses to let us claim
 
@@ -197,8 +197,15 @@ evidence** it.
 
 **Consequence for the telos.** The `every reduction pays` default was induced from four
 self-reported-exposure sources. It should be **scoped to that condition** rather than asserted as a
-general property of decision-relevant curves — knees exist in this corpus, they are simply not in the
-half of it that is measured by asking people.
+general property of decision-relevant curves. Self-report tends to hide knees, but it does not hide all
+of them: the ESC guideline reports a fruit-and-vegetable plateau from a cohort dose-response
+meta-analysis, where «all-cause mortality was not reduced further with intakes of more than five
+servings» [@esc2021]. Fruit and vegetable intake in
+cohorts is self-reported, so this is a knee inside the self-reported half. The defensible reading is a tendency (self-report under-detects knees), not a
+partition of the corpus into knee-showing and knee-free halves.
+Schema note: the CLAUDE.md knees prior is already CONTESTED, holds the ESC plateau, and states that
+measurement can hide a knee but not manufacture one; no further scoping of the default is owed from
+this page.
 `-> [[Physical Activity Dose and Mortality]]`
 
 ### Self-critique of the section above `[2026-07-27]`
@@ -230,14 +237,16 @@ contrast the WHO-PA row could not: the same behaviour and the same outcome, meas
 
 | Parameter | Self-report activity | Device (accelerometer) activity | Same quantity? |
 |---|---|---|---|
-| Exposure | questionnaire physical activity | accelerometer-measured physical activity | **YES — same behaviour, two instruments** |
+| Exposure | questionnaire physical activity | accelerometer-measured physical activity | **PARTLY — same behaviour family; the self-report referents are domain-restricted (leisure-time) or a different population** |
 | Outcome | all-cause mortality | all-cause mortality | **YES** |
-| Observed effect size | the self-report literature (the referent Ekelund cites) | «about twice as large» [@ekelundacc2019] | **YES — same association, two instruments** |
+| Observed effect size | the self-report literature (the referent Ekelund cites) | «about twice as large» [@ekelundacc2019] | **PARTLY — same outcome, approximately the same exposure (see the Exposure row)** |
 
-Two rows the cross-domain table could not fill now read **YES**: exposure and outcome are matched
-across the two activity literatures while the instrument differs (device cohorts vs self-report
-cohorts — different study sets, not the same people measured twice), so the \~2x gap isolates the
-measurement effect far better than the diet-vs-activity comparison did. A second facet points the same way but is weaker — the
+The outcome is matched across the two activity literatures and the exposure approximately so, while
+the instrument differs (device cohorts vs self-report cohorts — different study sets, not the same people
+measured twice). Ekelund notes that self-reports «are usually restricted to a limited number of physical
+activity domains (eg, leisure time activity)» [@ekelundacc2019], and his device cohorts were US and western-European adults aged 40 and over,
+so the referents differ in construct and population as well as instrument. The \~2x gap therefore
+approximates the measurement effect better than the diet-vs-activity comparison did; it does not isolate it. A second facet points the same way but is weaker — the
 sitting-offset dose runs \~60-75 min/day (self-report, Ekelund 2016) versus \~30-40 min/day (device,
 Ekelund 2020), roughly halved; that pair is direction-consistent but *magnitude-partial*, because the
 two arms are different cohort pools with different offset endpoints and Ekelund attributes the drop
@@ -247,7 +256,7 @@ only partly to measurement. Held estimates: [[Physical Activity Dose and Mortali
 **What this cashes, and what it still does not.** This partially answers the section's own `AWAITS` —
 not a second *domain*, but the *within-domain paired contrast* the n=1-per-arm objection assumed was
 unavailable. It **strengthens the mechanism's warrant** — the attenuation is now shown and quantified
-with exposure and outcome held fixed, beyond the diet DLW substudy and Te Morenga's self-attribution.
+with the outcome held fixed and the exposure approximately matched, beyond the diet DLW substudy and Te Morenga's self-attribution.
 It still does **not** license the strong causal reading: the offset-dose arms differ in more than the
 instrument, so residual non-measurement differences remain. Consistent-with, and now better-warranted;
 still not proof. **This is a claim-refinement (type-F), not a robustness lift** — a second instance of
@@ -772,6 +781,8 @@ Willett — GBD *applies* it, it does not arrive at it independently.
 methodologist's position but the stated self-appraisal of the largest analysis in the domain.
 [inferred from @afshin2019]
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
 
 The obvious remedy for self-report error is an objective biomarker, and whether that escape is available
@@ -788,12 +799,18 @@ the body can synthesise the analyte** — a within-category boundary that carrie
 - **The escape route and the error-laden route agree — a within-source check.** Li 2020's LA-mortality
   SR+MA ran *both* arms in parallel — a self-report dietary pool (FFQ, the error this page is about) and
   an objective-biomarker pool — and they land on the same answer (all-cause mortality RR **0.87**
-  dietary vs **0.91** biomarker; directionally the same for CVD and cancer, \~0.87 vs \~0.89), which Li calls «reassuring». This is the
+  dietary, high vs low intake, vs **0.91** biomarker per SD — different contrasts, so not a magnitude
+  comparison; directionally the same for CVD and cancer, \~0.87 vs \~0.89), which Li calls «reassuring».
+  Li also reports that «Meta- regressions suggested baseline age and dietary assessment methods as
+  potential sources of heterogeneity for the association between LA and total mortality.»
+  [@li2020] This is the
   reassuring case of the escape route: where the biomarker is valid (essential fatty acid), the
-  error-laden FFQ gradient is **not** so flattened that it disagrees with the objective marker — so for
+  error-laden FFQ gradient does not disagree with the objective marker in direction or significance — so for
   LA the self-report attenuation is tolerable, not fatal. Note the asymmetry with the general rule: the
   agreement licenses trusting the *direction*, not treating the FFQ magnitude as unbiased (both arms are
   observational, and Li's dietary route still carries the standard recall error).
   [inferred from @li2020]
+
+</div>
 
 ## References

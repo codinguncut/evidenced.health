@@ -20,8 +20,8 @@ relationships:
     - The Observational-Trial Discordance
     - Night Shift Work and Breast Cancer
 created: 2026-07-25
-updated: 2026-10-06
-self_critiqued: 2026-08-19
+updated: 2026-10-07
+self_critiqued: 2026-10-07
 ---
 
 Observational evidence starts at **low** certainty, but three factors can raise it. This is the half
@@ -93,7 +93,7 @@ with each hour's delay of antibiotics in sepsis and hypotension.
   or plateau is a **decision** parameter.
   [inferred from @grade]
 
-<div class="recent-update" data-last-updated="2026-10-06">
+<div class="recent-update" data-last-updated="2026-10-07">
 
 ## 3. Plausible residual confounding working against the effect
 
@@ -142,8 +142,8 @@ records the criteria as met; it does not issue an upgrade verdict (adjudication 
 ### A case where the gradient is present but §3 runs the WRONG way `[2026-08-19, Celis-Morales active commuting]`
 
 The active-commuting cohort is the instructive mirror of Ding: it **has** the §2 dose-response gradient
-but is blocked from upgrade because the dominant plausible confounding runs **with** the effect, not
-against it — the opposite of the §3 configuration.
+but is blocked from upgrade because the dominant plausible confounding most plausibly runs **with** the
+effect, not against it (an inference, below) — the opposite of the §3 configuration.
 
 - **Dose-response gradient (§2) present.** «among cycling commuters there were distinct dose-response
   trends in all outcomes by weekly commuting distance», and among walking commuters a gradient for CVD
@@ -160,10 +160,13 @@ against it — the opposite of the §3 configuration.
   confounding is always possible and associa- tions may not imply causation»
   [@celismorales2017commuting]. The
   direction (healthy-user confounding running *with* a protective association) is this page's inference
-  about active commuters in general, not an author-flagged finding. Its baseline leg is in
-  the source's Table 1: cyclists were leaner and fitter than non-active commuters (BMI 25.22 vs 27.51; body
-  fat 24.73% vs 30.84%; fitness 11.79 vs 9.32 METs), though not wealthier
-  [@celismorales2017commuting]
+  about active commuters in general, not an author-flagged finding. Table 1 does
+  not settle it: cyclists were leaner and fitter than non-active commuters (BMI 25.22 vs 27.51; body
+  fat 24.73% vs 30.84%; fitness 11.79 vs 9.32 METs), not wealthier, and more often in the most-deprived
+  fifth (29.2% vs 17.2%) [@celismorales2017commuting].
+  Leanness and fitness were measured at the same visit as commute mode, so they may be consequences of
+  cycling rather than markers of who chose it; the authors name overall physical activity as the likely pathway and fitness as a potential one, and the
+  models adjust for BMI.
   (corrected 2026-10-06, Gate 52 cold re-audit: the healthy-volunteer quote was earlier read as a cyclist
   self-selection flag).
   So the plausible residual confounding would **manufacture or amplify** the protective association — the
@@ -207,7 +210,7 @@ this page's reading, not as an author-flagged one; the bullet above is corrected
 - **Significance is not the credibility threshold — a small RR is not "real because significant."**
   Significance is a CI-excludes-1.0 fact (precision-driven — a big cohort makes RR 1.05 significant),
   not a point-estimate cutpoint, so "is it 1.1, 1.15 or 1.2?" has no answer there. The magnitude
-  governing *causal credibility from association alone* is GRADE's rate-up bar of **\~2 (or <=0.5)** —
+  governing *causal credibility from association alone* is GRADE's rate-up bar of **\~2 (or <0.5)** as Poole states it —
   far above where most nutritional exposures sit (red/processed meat 1.12/1.16
   -> [[Red and Processed Meat and Cancer]]). Below it a cohort association needs triangulation
   (MR/RCT/convergence); below-2 means **insufficient on its own, never false**
@@ -217,6 +220,8 @@ this page's reading, not as an author-flagged one; the bullet above is corrected
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-10-07">
+
 ## Limits
 
 - The factors apply to **exposures as well as interventions** — GRADE's own upgrade cases are
@@ -225,9 +230,11 @@ this page's reading, not as an author-flagged one; the bullet above is corrected
   route is available to nutrition questions, not only to trial-shaped ones.
   [@grade]
 - The thresholds ("large," "very large") are pinned to a table this chunk renders as `[TABLE]` — the
-  numeric cut-points are not captured on this page and would need re-reading from the source or the
-  GRADE Book. `AWAITS` a re-read for the magnitude thresholds.
+  Handbook's own Table 5.9 is not in the held chunks; the >2 / <0.5 figures on this page come from
+  Poole's statement of the GRADE bar, not from the Handbook text.
 - **Source currency:** §5 is flagged in-source as rewritten in the 2024 GRADE Book.
+
+</div>
 
 ## Worked cases — the upgrade decision applied, with reasons, in both directions `[2026-07-27]`
 

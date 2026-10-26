@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline, Sea Salt, Himalayan Salt, Pink Salt, Is Sea Salt Healthier, Table Salt vs Sea Salt, Specialty Salt, Iodized Salt, Salt Type]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001, Graudal - Low vs High Sodium Cochrane 2020]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -16,9 +16,10 @@ relationships:
     - Blood Pressure Lowering and Cardiovascular Events
     - DASH Diet and Blood Pressure
     - Should Sodium Reduction Be Population-Wide or Targeted
+    - Net Effect vs Intended Effect
 created: 2026-07-26
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 **Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
@@ -154,6 +155,15 @@ every-reduction-pays default (telos dose-response section) instantiated on a rec
 exposure. The 3 g/day target is a policy extrapolation beyond the trial range and carries the advocacy
 caveat above.
 [@he2013]
+**Challenged since 2026-10-22 (Graudal 2020):** *trial range* means the long-term range; Graudal's trials
+(3-1100 days) reach a mean low arm of 65 mmol/day (SD 40). At that deeper contrast white normotensives fall
+\~0.8 mmHg per 100 mmol against He's \~3.2 (pooled 2.42 mmHg / 75 mmol, a ratio; He's own normotensive
+meta-regression slope is 4.3, 95% CI 0.1-8.5, adjusted for age and ethnicity), and Graudal, citing Brunner 1972, describes renin and aldosterone rising
+exponentially below \~100 mmol/day (no CI or fitted breakpoint). That is a further hint of concavity at the
+low end (weakly echoed by WHO's non-significant by-baseline-intake gradient, absolute mmHg not per mmol;
+against it, Huang finds baseline intake not a modifier, P trend 0.20),
+confounded by ethnicity, baseline BP and duration (section below). *No plateau shown* still holds; *proportionally more below \~100 mmol/day* is
+not established. [inferred from @graudal2020sodium]
 
 ### Huang 2020 refines the dose-response with a duration axis — and it is the SAME lineage, not a witness `[2026-07-31, Huang 2020]`
 
@@ -212,9 +222,15 @@ What is real is a **very-short-trial underestimate**: each 50 mmol reduction bou
 **Huang reads this as a real biological lag, not a measurement artifact:** short trials use very
 restricted diets -> sudden large reductions -> transient renin-angiotensin / sympathetic activation and
 adverse metabolic effects that do not persist chronically; the full effect needs several weeks
-(DASH-Sodium showed a larger fall at week 4 than earlier). **Decision consequence for this page:** the
+(DASH-Sodium showed a larger fall at week 4 than earlier). (The activation-to-shortfall link is this
+page's reading; Huang states the two side by side — see the opposing-Cochrane section.) **Decision consequence for this page:** the
 pooled surrogate effect it holds is a *lower bound* on the sustained effect — the chronic BP benefit of
 a maintained reduction is larger than a trial-duration-mixed meta-analysis shows.
+[inferred from @huang2020]
+**Qualified since 2026-10-22:** Huang's own six multi-timepoint trials and its multivariable meta-regression
+are null on duration; the doubling is a subsidiary split with overlapping intervals. *Lower bound* — and
+the *bias-direction finding* / *biased downward* above — is therefore a possibility, not a finding -> the
+opposing-Cochrane section below.
 [inferred from @huang2020]
 
 **3. The modifier is continuous baseline SBP, not the hypertensive/normotensive dichotomy.** Huang finds
@@ -241,6 +257,244 @@ aldosterone/noradrenaline rises being the compensations WHO also observed. This 
 *high-certainty, no-harmful-effect-on-lipids* rating (this page's Limits), but through the same
 He/MacGregor lineage — a body line, not a `sources:`-padding independent backing.
 [@he2013]
+**Contested since 2026-10-22:** Graudal 2020 (next section) finds total cholesterol and triglyceride
+rising at a larger contrast, including in its >=7-day subgroup — and the two lipid estimates turn out to
+be numerically compatible.
+[inferred from @graudal2020sodium; @he2013]
+
+## The opposing Cochrane review — same hypertensive BP effect, a compensation arm the other lineage reads as transient `[2026-10-22, Graudal 2020]`
+
+Graudal, Hubeck-Graudal & Jürgens 2020 (Cochrane CD004022, 4th update) is the review whose 2011/2017
+editions the He/Huang lineage rebuts. It pools **195 RCTs, 12,296 people**, durations 3-1100 days, at a larger and
+sharper contrast than He's: **203 -> 65 mmol/day** (salt 11.5 -> 3.8 g/day), with a methods-defined (no protocol)
+**>=7-day, high arm <=250 mmol/day** subgroup. Exposure is 24-hour urine or a sample of >=8 hours
+(looser than Huang's 24-hour-only rule). In the authors' words, «there is no protocol».
+[@graudal2020sodium]
+
+**Not independent of He/Huang on the BP leg.** The author lists are disjoint, but the trial pools
+overlap heavily: MacGregor 1989, Cappuccio 1997, He 2009, Swift 2005, TOHP II and DASH-Sodium all sit in
+Graudal's lists and in He's. Agreement on the BP effect is shared-trial agreement, **no `[E-independent]`**.
+The authors are also a position-holding camp (their own U-curve cohort meta-analysis, a guideline-process
+critique, a 2018 Circulation letter co-written with Mente [@graudal2020sodium]) — the mirror of the CASH/WASH interest above, read the same
+way: pooled numbers at face value, interpretation caveated.
+[inferred from @graudal2020sodium; @he2013]
+
+### Blood pressure: hypertensives agree across camps; white normotensives are small in every review
+
+| Population (Graudal) | SBP MD (95% CI) | DBP MD (95% CI) | trials | GRADE |
+|---|---|---|---|---|
+| White normotensive | **-1.14** (-1.65 to -0.63) | 0.01 (-0.37 to 0.39) | 95 (SBP) / 96 (DBP) | high |
+| — >=7 d subgroup | -1.38 (-1.87 to -0.89) | -0.37 (-0.78 to 0.04) | 63 | high |
+| White hypertensive | **-5.71** (-6.67 to -4.74) | -2.87 (-3.41 to -2.32) | 88 | high |
+| Black normo / hyper | -4.02 (-7.37 to -0.68) / -6.64 (-9.00 to -4.27) | -2.01 / -2.91 | 7 / 8 | low |
+| Asian normo / hyper | -1.50 (-3.09 to 0.10) / -7.75 (-11.44 to -4.07) | -1.06 / -2.68 | 5 / 8 | moderate / low |
+
+[@graudal2020sodium]
+
+**Hypertensive: convention held.** Graudal's -5.71 sits beside He's -5.39 and WHO's -4.06, and the
+review's own conclusion is that in white people with elevated BP sodium reduction «may be used as a
+supplementary treatment for hypertension». For a hypertensive the direction of the recommendation is the
+same from both camps. [@graudal2020sodium]
+
+**Normotensive — parameter table** (op-weave 2a) before any comparison:
+
+| Parameter | WHO 2012 | He 2013 | Graudal 2020 | Same quantity? |
+|---|---|---|---|---|
+| SBP fall, normotensive | 1.38 (0.02-2.74), 6 studies | 2.42 (1.29-3.56), 12 trials | 1.14 (0.63-1.65) white; 1.38 >=7 d | **PARTLY — same outcome, different trial sets** |
+| Achieved contrast | \~-76 mmol overall (1.74 g/day; not reported for normotensives) | -75 mmol | \~-138 mmol (\~-110 to -127 in the subgroup) | **NO** (WHO \~ He; Graudal \~1.8x) |
+| Duration filter | >=4 weeks | >=4 weeks | any (>=7 d in subgroup) | **NO** |
+| Ethnicity | all | all | white only (black/Asian separate) | **NO** |
+| Baseline BP of *normotensive* | upper half of the distribution (Graudal's reading) | 127/77 median (He chunk 01) | mean \~119/71 | **NO** |
+
+[@who2012] [@he2013] [@graudal2020sodium]
+
+Per 100 mmol of reduction that is roughly 3.2 mmHg in He's normotensives (pooled 2.42 mmHg / 75 mmol, a
+ratio; He's own normotensive meta-regression slope is 4.3, 95% CI 0.1-8.5) and 0.8 in Graudal's
+. Contrast, duration, ethnicity and baseline BP all differ at once,
+and the held sources cannot say which carries the gap. **The camps do agree on one candidate modifier:**
+Graudal explains its gap with WHO by baseline BP, rejecting duration — «as duration has no impact on the
+BP eﬀect (Table 2), a more reliable explanation for the diﬀerence between the WHO review and our review
+is that the study populations with normal BP in the WHO review generally have a high baseline BP in the
+upper 50% percentile of the population» [@graudal2020sodium]
+— and Huang, from the other lineage, finds continuous baseline SBP the significant modifier (section
+above). Shared trial pool, so not an independent E; but it narrows the normotensive dispute to the
+SBP \~120 stratum, where both see a small non-zero fall and disagree on whether to call it worth having.
+[inferred from @graudal2020sodium; @huang2020]
+
+On race, the camps split by design: Huang's between-trial meta-regression keeps non-white ethnicity as an
+independent modifier, while Graudal reads the group differences as mostly confounding by «baseline BP,
+age, and amount of sodium reduction» and cites a within-study comparison (Graudal 2015b, not held) with
+no racial difference. Graudal's own black estimates and its Asian hypertensive estimate are low-certainty
+and split into large- and small-effect sub-clusters; the Asian normotensive estimate is moderate-certainty
+and homogeneous. Route (a) stays the default; ethnicity is not used here to
+personalize. [@graudal2020sodium]
+
+### The compensation arm — the hormones rise in both lineages, TC and TG rise in Graudal, HDL and LDL are n.s. in both; the dispute is size and persistence
+
+| Marker | Graudal 2020 (cross-over trials, all durations) | >=7 d subgroup | He 2013 (>=4 wk) | Same quantity? |
+|---|---|---|---|---|
+| Renin (ng/mL/h) | **+1.56** (1.39-1.73), 82 trials, high | +1.29 (1.07-1.51) | +0.26 (0.17-0.36) | **YES on marker/unit; NO on contrast + duration** |
+| Aldosterone | +104 pg/mL (CI printed «18.4 to 119.69», evidently 88.4; SoF 4: 102.4, 86.9-117.8) \~ +288 pmol/L, high | +96.6 pg/mL | +73.2 pmol/L (44.9-101.5) | same, after unit conversion; NO on contrast + duration |
+| Noradrenaline | +62.3 pg/mL (41.9-82.8) \~ +370 pmol/L, high | +48.7 pg/mL | +187 pmol/L (39-336) | same, after unit conversion; NO on contrast + duration |
+| Total cholesterol | +5.19 mg/dL (2.07-8.32) \~ +0.13 mmol/L, high | **+4.31 (0.71-7.91) \~ +0.11 (0.02-0.20) mmol/L** | +0.05 mmol/L (-0.02 to 0.11) | same, after unit conversion; NO on contrast + duration |
+| Triglyceride | +7.10 mg/dL (3.14-11.07) \~ +0.08 mmol/L, high | +7.03 (2.01-12.04) | +0.04 mmol/L (-0.02 to 0.09) | same, after unit conversion; NO on contrast + duration |
+| LDL / HDL | +2.46 (-0.97 to 5.9) ns, moderate / -0.30 ns | +2.74 ns / -0.68 ns | +0.05 ns / -0.02 ns | same, after unit conversion |
+
+Graudal columns: [@graudal2020sodium]. He column: [@he2013]. Unit conversions (aldosterone x2.77, noradrenaline x5.91, cholesterol /38.7, triglyceride /88.6) are this page's arithmetic. Neither review reports the sodium contrast of its hormone/lipid subset; the BP-analysis contrasts (\~-138 mmol in Graudal, -75 mmol in He) differ, so *NO on contrast* is this page's inference from those.
+
+**Not a contradiction on the numbers.** Every marker's point estimate moves the same way in both reviews. On cholesterol,
+He's «no significant change» has an upper limit of \~0.11 mmol/L, and Graudal's >=7-day estimate is \~0.11 —
+compatible estimates carrying opposite labels. He's renin, aldosterone and noradrenaline rises at >=4
+weeks are smaller than Graudal's but statistically present, which He calls a «small physiological
+increase». [@he2013]
+
+**The joined part is persistence, and both sides argue it from the same confound.**
+
+- **He/Huang:** He attributes Graudal's lipid change to short trials — «in the meta-analysis by Graudal and
+  colleagues the changes in lipids occurred only with short term trials, and a subgroup analysis including
+  trials with a duration of four or more weeks showed no significant change in lipid concentrations» (that
+  was the 2011 edition) [@he2013]. Huang
+  says «The responses of the renin- angiotensin system and sympathetic nervous system as well as adverse
+  metabolic effects associated with acute large falls in dietary sodium do not, however, appear to be
+  present in longer term interventions», citing He 2013 and Rhee 2016, a renin study (population analysis plus meta-analysis of RCTs) the
+  wiki does not hold (refs 21 and 165) [@huang2020]. — the renin-specific warrant behind Huang's *not present*.
+  He's own >=4-week data show those responses smaller, not absent.
+- **Graudal:** «while short duration has been suggested to underestimate the BP eﬀect, it has
+  concomitantly been suggested to overestimate possible adverse eﬀects on hormones and lipids. This idea
+  that the duration of the intervention tends to underestimate some physiological outcomes and
+  overestimate others has not been documented, but still has been used to disregard side eﬀects shown in
+  studies lasting less than four weeks» — and «Very few studies lasting more than four weeks have
+  investigated side eﬀects, and further more these studies do not reduce sodium to the recommended level,
+  but to levels above 87 mmol/day» [@graudal2020sodium].
+  The 2020 edition reports no >=4-week lipid or hormone estimate, only >=7 days.
+
+The hidden term: **across trials, duration and contrast size travel together**, and the sources say so
+themselves. He: the compensatory responses are «bigger with sudden and large decreases in salt intake and
+much smaller or minimal with a longer term modest salt reduction» [@he2013].
+Huang: «large, short term reductions in sodium could elicit a different type of blood pressure response»
+[@huang2020]. Graudal: the >4-week trials stop «above 87 mmol/day» (quoted
+above), and the renin/aldosterone funnel asymmetry arises because «large sodium reductions to low levels
+of sodium intake mainly was performed in small studies» [@graudal2020sodium]. Long
+trials' low arms sit at \~80-90 mmol/day (He's \~78-87, from medians 153-162 minus 75)
+.
+
+Graudal's account of renin and aldosterone, citing Brunner 1972, is an exponential dose curve («rise slowly
+as long as the intake is above 100 mmol/day, but exponentially» below it) [@graudal2020sodium].
+Both low arms sit below \~100 mmol/day, where that curve places the steep rise; no CI
+or fitted breakpoint is given. On that curve He's smaller rises are *consistent with* its
+smaller contrast and less-deep low arm, with no fading over time. Graudal's quantification here is coarse:
+a reduction from high to moderate intake «induces a factor 2 increase in hormones whereas a reduction of
+sodium intake from a moderate level to a low level induces a factor 5 increase» (Graudal 1998, cited)
+[@graudal2020sodium]; nobody has fitted the curve
+to the two lineages' contrasts, so this is unquantified. On a fading reading they are consistent with duration alone.
+
+What this page adds is narrower than the bundle itself: for the markers, the bundle makes time-decay and
+dose observationally equivalent. No held source scales the hormone or lipid rises per mmol or models
+contrast and duration jointly, so between-trial pooling cannot separate them. Repeated within-trial
+measurement at a fixed contrast over months would, and Graudal states such trials are scarce. In the He
+lineage the primary-pool hormone data run four to six weeks; Graudal's primary-pool durations are not
+extracted here (its all-duration pools include trials under 7 days; its
+subgroup is >=7 days, with no >=4-week estimate). He
+writes «It is likely that such effects might attenuate over time.» [@he2013],
+backed by one multi-component trial; Graudal writes «The assumption that at least some of these eﬀects may
+be persistent and not just temporary has been indicated in observational studies.» [@graudal2020sodium].
+WHO pooled no renin or aldosterone. Its >=4-week total cholesterol (1-2 months) and noradrenaline (1-2.5
+months) pools are n.s. and between-trial; their per-marker contrasts are not stated, but WHO's overall
+trial contrast (\~76 mmol, 1.74 g/day) is milder than Graudal's, so they carry the same dose confound
+[@who2012]. In WHO's narrative, the
+lipids and catecholamines «transient» sentence cites Graudal's 2011 edition (WHO ref 33); the renin and
+aldosterone «persisted» sentence carries only refs 40-41 (renin's prognostic importance); by context it
+presumably rests on Graudal 2011's >=4-week subgroup (ref 33, not held), so the persistence claim cannot be
+checked here [@who2012]. **No held source pools, or measures repeatedly within-trial,
+persistence at a fixed, sodium-only contrast over months.** The one held months-scale record is not separately pooled: Jula 1994, a single open parallel trial (76
+hypertensives, 365 days per Graudal's study table), which Graudal excludes from its primary (crossover)
+marker pools, adds back only in all-duration sensitivity analyses («did not change the outcome»), and
+records as renin
+«increase from 0.7 to 1.1 ng/ml/h», aldosterone «increase from 297 to 363 pg/ml» and noradrenaline
+«unchanged from 610 to 520 pg/ml» during sodium reduction [@graudal2020sodium].
+That fits renin and aldosterone still raised at 12 months and noradrenaline not raised then, from one open trial whose
+sodium-only status is not checked here and no earlier hormone timepoint is reported, so *fading* is only
+consistent with it, not observed; Graudal pools these data only in sensitivity analyses and does not argue
+persistence from them.
+
+Graudal offers the activation as «a possible explanation» for the small BP fall («compensatory activation
+of the renin-aldosterone system is proportional to the degree of sodium reduction») [@graudal2020sodium]. He
+calls the responses «compensatory» to the volume fall. Huang places the acute activation and the
+short-trial BP shortfall side by side but does not link them causally. That the lineages share one
+damping mechanism and differ only on its time course is this page's reading.
+[inferred from @graudal2020sodium; @he2013; @huang2020] `type-F` `type-G`
+
+**The BP duration claim — the data agree; the dispute is interpretation.** Graudal's *maximal efficacy at
+one week* rests on within-trial repeated measures (its Table 2, data from Graudal 2015): SBP differences
+between weeks 1, 2, 4 and 6 of -0.50 to 0.39 mmHg, each interval about 2-3 mmHg (one \~1.8) either side of
+zero, 4-12 trials per comparison (the 12-trial week 2 vs 4 row wraps across a page break in extraction) [@graudal2020sodium]. Huang's own within-trial and model-based
+evidence points the same way: «The six studies that recorded multiple measurements at different time
+points showed no apparent difference in the pattern of blood pressure lowering over time (supplementary
+fig 2), which corresponded to the meta-regression analyses.» and «Likewise, the univariable
+meta-regression analyses of all trials showed no association of blood pressure effect with duration of
+sodium reduction and neither did the multivariable meta-regressions.» [@huang2020]
+
+Huang's doubling comes from a subsidiary split: 1.05 (0.40 to 1.70) vs 2.13 (0.85 to 3.40) mmHg per 50
+mmol in <=14-day vs longer trials. Huang affirms it: «In trials of more than two weeks’ duration, the
+dose-response relation between sodium reduction and blood pressure fall was greater than that in trials
+of shorter duration, but there was» [page break] «limited evidence that interventions of longer duration
+further increased the effects of sodium reduction on blood pressure», and «Short
+term studies underestimate the effect of sodium reduction on blood pressure.» Huang's hedge covers only
+*further* gains beyond two weeks [@huang2020].
+That the intervals overlap, and that the main duration analyses and the six multi-timepoint trials are
+null, is this page's reading against that affirmation. Because Huang scales per
+50 mmol (and its joint model, though not the stratified split, includes both terms), the duration-contrast
+bundle confounds the split mainly if the BP dose-response is concave at deep cuts; other stratum
+differences (baseline SBP, ethnicity) remain open. The exponential renin/aldosterone rise Graudal cites
+(Brunner 1972) would supply such concavity, and the 3.2-vs-0.8 mmHg per 100 mmol gap above hints at it (confounded by
+ethnicity, baseline BP and duration). So on BP both sides hold a null, imprecise within-trial result. The
+joined part is interpretation: Graudal reads it as «duration has no impact»; Huang reads the earlier
+analysis as «unable to determine» and leans on the subsidiary split.
+[inferred from @graudal2020sodium; @huang2020] `type-D` (on interpretation)
+
+**What it changes for a decision.**
+
+- **High-intake hypertensive:** reduce. Every camp agrees on direction, and the BP effect is \~4-6 mmHg SBP
+  across all three reviews. Agreement stops at direction. Graudal hedges («People with hypertension may
+  benefit due to the eﬀect on BP, but may also suﬀer from harms due to the side eﬀects.») and finds that
+  «the eﬀect on hormones and lipids were similar in people with normotension and hypertension.»
+  [@graudal2020sodium]. The target level is disputed (WHO's <2 g/day vs the
+  PURE J below) -> [[Should Sodium Reduction Be Population-Wide or Targeted]]. In a hypertensive the
+  marker cost is similar or smaller (aldosterone rises less in Graudal's hypertensives; their total
+  cholesterol rise is n.s.) and the BP benefit is \~2-5x larger (He \~2x, Graudal \~5x).
+- **Normotensive:** the markers rise (high certainty in Graudal; present but smaller in He at 4-6 weeks),
+  and the BP fall is \~1-2.4 mmHg SBP. Suppose BP lowering protects the same way whatever lowers it, which
+  Graudal contests (beta-blockers lower BP without lowering mortality). Then BPLTTC's HR 0.91 per 5 mmHg in
+  people without CVD turns 1.1-2.4 mmHg into \~2-4.5% fewer major CV events, relative
+  -> [[Blood Pressure Lowering and Cardiovascular Events]]. On a low baseline risk that is a small
+  absolute gain. The marker rises have no held transfer to an outcome (LDL n.s.). Graudal's
+  no-net-benefit conclusion, «Due to the relatively small eﬀects and due to the antagonistic nature of the
+  eﬀects (decrease in BP, increase in hormones and lipids), these results do not support that sodium
+  reduction may have net beneficial eﬀects in a population of white people with normal BP»
+  [@graudal2020sodium], puts a percent change in cholesterol beside a percent
+  change in BP with no common outcome scale. **For a low-risk normotensive the lever is small even if the
+  compensation fades completely.** That is a ceiling-is-a-finding result, and it holds whichever way the
+  persistence dispute resolves. Net effect stays **insufficient evidence**
+  -> [[Net Effect vs Intended Effect]].
+- **For scale:** the BP fall was measured at Graudal's overall contrast (to \~65 mmol/day); the contrast
+  behind the lipid rise (\~0.1 mmol/L total cholesterol, LDL n.s.) is not reported. Graudal says a significant
+  reduction is hard to hold: «it has been diﬀicult to maintain a significant sodium
+  reduction in longer-term studies» [@graudal2020sodium].
+  Other things equal, both effects should shrink at a contrast people can sustain.
+
+[inferred from @graudal2020sodium; @he2013; @who2012; @bplttc2021]
+
+**WHO's *no harmful effect* verdict is a relevance call, not a no-change finding.** WHO rates total
+cholesterol and noradrenaline high-certainty and «did not cross threshold of relevance» (Limits, below)
+against a threshold it never quantifies. Graudal's significant rises and WHO's verdict can therefore both
+hold. The disagreement sits partly in the unstated threshold and partly in the data: WHO's own >=4-week
+estimates are much smaller than Graudal's (total cholesterol +0.02 mmol/L, -0.03 to 0.07; noradrenaline
++8.23 pg/mL, -27.84 to 44.29), and WHO reads the lipid and catecholamine changes as «transient and no
+longer present after 4 weeks of reduced sodium intake», while renin and aldosterone «persisted with
+longer term reduced sodium intake» — the first citing Graudal's 2011 edition (WHO ref 33), the second
+carrying only refs 40-41 (renin's prognostic importance); by context it presumably rests on Graudal 2011's
+&gt;=4-week subgroup (ref 33, not held), so the persistence claim cannot be checked here [@who2012].
+[inferred from @who2012; @graudal2020sodium]
 
 ## How the gap is bridged — a disclosed surrogate transfer
 
@@ -341,9 +595,26 @@ seeks**: it reports the J directly on hard outcomes yet ran only the *weak* chec
 events, exclude prevalent CVD/HTN/diabetes), never a referent-correction or a genetic/MR instrument on
 the low arm. So the hold still `AWAITS` a source that *adjudicates* the low arm with a confounder-immune
 method (a referent-correction, a Mendelian-randomization instrument on the low-intake arm, or a large
-long-term RCT of sodium *level* rather than reduction) — the post-2011 observational literature (PURE,
-the Cochrane and Graudal lines) supplies more poles, not the adjudication. The joined-issue write-up is
+long-term RCT of sodium *level* rather than reduction) — the post-2011 literature (PURE observationally;
+the He/MacGregor and Graudal RCT meta-analyses) supplies more poles, not the adjudication. The joined-issue write-up is
 [[Should Sodium Reduction Be Population-Wide or Targeted]].
+
+**Graudal 2020 (held since 2026-10-22) argues the low arm is real — also without the strong check.** The
+opposing Cochrane review pools no RCT hard outcomes; its low-arm case is argument plus an observational
+pooled table (Discussion Table 4: all-cause mortality, adjusted cohorts, healthiest subgroups, pooled
+RR/OR 0.84 (0.76-0.93) or 0.87 (0.76-0.98) for usual vs low intake; cut-points <114 mmol/day (Graudal
+2014) or <130 mmol/day (O'Donnell 2014, PURE). The table includes PURE itself (RR 0.62), so on the low arm
+this is not a pole independent of Mente/PURE.) [@graudal2020sodium]. Against reverse causation it cites adjusted cohorts and
+NHANES data showing sick and healthy people eat the same sodium. Against measurement error it argues the
+misclassification is «not systematic, but random... which contributes to an underestimation of the
+outcome, but do not cause a change of the direction of the outcome»
+[@graudal2020sodium]. That defence covers only
+classical random error. The mechanism this page flags for PURE — error that is **unequal across the
+range**, largest at the extremes — can bend a flat curve into a U, and a random-error argument does not
+reach it -> [[The U-Shaped Association Artifact]]. So one camp names the artifact recipe without testing it and
+the other runs weak checks (adjusted cohorts, healthiest subgroups, NHANES); neither runs a
+referent-correction or MR.
+[inferred from @graudal2020sodium]
 
 **A third major body encodes the split as uncertainty rather than resolving it `[2026-08-04, Afshin GBD 2017]`.**
 The GBD 2017 dietary-risks analysis needed an *optimal* sodium level to compute attributable burden,
@@ -361,7 +632,8 @@ and rather than pick one it published the RCT-vs-observational disagreement as a
 is what a J-curve on the hard outcome would produce — and GBD, an independent consortium with no
 salt-advocacy stake, **does not adjudicate it either**: it widens the uncertainty to 1-5 g and carries
 both. So the corpus now holds three postures on the low-intake arm — WHO (names it, cannot answer),
-He/MacGregor (rebut it from advocacy, no strong check), GBD (encode it as uncertainty) — **and none
+He/MacGregor (rebut it from advocacy, no strong check), GBD (encode it as uncertainty) — plus the PURE and
+Graudal poles (sections above), **and none
 runs the confounder-immune adjudication.** GBD corroborates *unprobed, not disproved*; it does not close
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
@@ -522,8 +794,6 @@ the structural, population-level iodine-deficiency lever).
 
 [inferred from @who2012]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Sodium is one BP lever among several — the DASH pattern lowers BP independently of it `[2026-08-07, Siervo]`
 
 Sodium reduction is not the only dietary BP lever. The DASH **pattern** lowers SBP by **-5.2 mmHg**
@@ -596,7 +866,9 @@ primary trial refining the pooled estimates, not a new witness to them.
 This is a randomized interaction between two randomized exposures, which is the evidence route (b)
 asks for. It is one trial, 30-day periods, BP only. The authors' explanations (potassium/calcium in DASH
 blunting the low-sodium effect, or low sodium blunting potassium's) are offered with «perhaps» and not
-tested -> [[Potassium Intake and Blood Pressure]]. Decision consequence: a person already eating a
+tested -> [[Potassium Intake and Blood Pressure]] (which now holds a between-trial baseline-sodium
+subgroup from a potassium dose-response meta-analysis pointing the same way, still a hypothesis
+[inferred from @filippini2020potassium] `[2026-10-22]`). Decision consequence: a person already eating a
 DASH-like diet should expect roughly half the BP fall from the same sodium cut that a typical-US eater
 gets (in a 30-day fed trial, over \~140 -> \~65 mmol/d; free-living DASH-like diets untested); the sodium
 cut still lowered BP on DASH. The halved sodium step, the sub-additive combination (point 2) and DASH's
@@ -669,8 +941,6 @@ endpoint is BP, and people on BP drugs were excluded. [@sacks2001dashsodium]
 The authors' statement that the trial «should settle the controversy» over sodium in people without
 hypertension is their assertion about a BP surrogate; it does not reach the hard-outcome J-curve dispute
 -> [[Should Sodium Reduction Be Population-Wide or Targeted]]. [inferred from @sacks2001dashsodium]
-
-</div>
 
 ## Limits
 

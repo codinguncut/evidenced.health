@@ -15,8 +15,9 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
     - Measurement Error in Dietary Assessment
+    - Implementation Intentions and Action Planning for Physical Activity
 created: 2026-09-01
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
 
@@ -26,8 +27,6 @@ keeps them moving? This is a Layer-3 *adherence-is-part-of-the-effect* / *struct
 question, not a new dose-response fact about activity itself: the tracker does not change what a dose
 of activity *does* (that lives at [[Physical Activity Dose and Mortality]]) — it is a candidate tool
 for *reaching and sustaining* the dose.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Verdict — a small, real short-term boost to activity; durability unproven; effect on a surrogate
 
@@ -78,10 +77,6 @@ object — the SMD and its interval are the robust one. [@brickwood2019wearable]
 The abstract reports marginally different pooled SMDs (step 0.24 [0.16-0.33]; MVPA 0.27 [0.15-0.39];
 EE 0.28 [0.03-0.54]; sedentary −0.20 [−0.43 to 0.03]) — rounding/recomputation differences from the
 Results-body values quoted above; the direction, significance pattern, and certainty are identical. [inferred from @brickwood2019wearable]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Apps and trackers in healthy adults — Laranjo 2020
 
@@ -154,14 +149,18 @@ plus the component analysis below. [inferred from @brickwood2019wearable; @laran
   and sets personalised goals. This is a cheap implementation choice backed by hypothesis-generating
   evidence. It is not an established effect modifier, so it falls short of the route-(b) bar.
   [inferred from @laranjo2020]
+- **The same pattern appears for written exercise plans, on different trials.** In a meta-analysis of
+  if-then planning (none of its 13 trials is in Brickwood's or Laranjo's pools), plans reinforced during
+  follow-up by phone, meeting or text showed SMD 0.25 on self-reported activity and one-off plans about
+  zero; the overall effect was not significant and the subgroup difference was not tested. A different
+  moderator construct on a different outcome, so a recurring hypothesis — the prompt, not the tool, may
+  be the active ingredient — not a corroboration. Parameter table on
+  [[Implementation Intentions and Action Planning for Physical Activity]].
+  [inferred from @laranjo2020]
 - **Outcome measurement.** 14 of 28 trials read the outcome off a consumer app or tracker, 11 used a
   research-grade accelerometer, and 3 used self-report. [@laranjo2020]
   Brickwood notes that Fitbit over-counts steps in free-living use (below), so the device-read half of
   the base deserves a measurement caveat. [inferred from @laranjo2020; @brickwood2019wearable]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Durability — the crux, and it is NOT established
 
@@ -201,10 +200,6 @@ own evidence cannot demonstrate the fix.
   decay in four short trials). The trial sets overlap heavily (9 shared, all in Brickwood's step MA). Neither has the long follow-up that would show whether the effect survives once
   novelty and usage fade. [inferred from @brickwood2019wearable; @laranjo2020]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What the effect is made of, and how to weight it
 
 - **Standalone vs bundled.** «even without supporting behavior change techniques, the use of a
@@ -242,10 +237,6 @@ own evidence cannot demonstrate the fix.
   the mortality-relevant increment" is unsupported. What is supported is a \~600-750-step gain for a few
   months; its mortality relevance is unmeasured. [inferred from @laranjo2020] -> [[Physical Activity Dose and Mortality]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where it sits in the Layer-1 ranking
 
 For a reasonably-healthy, already-somewhat-active person, this is a **small, low-certainty lever**: it
@@ -273,10 +264,6 @@ transmission stay low-certainty. Each MA rates its own evidence low (Brickwood s
 low-to-moderate (Laranjo overall). Both carry irreducible performance bias, since a behaviour
 intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2020]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Gaps
 
 - **Long-term (>12 month) durability of the device effect is unestablished** — the two long trials
@@ -301,7 +288,5 @@ intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2
   effect on a *surrogate* (steps / HbA1c), high heterogeneity, low certainty, and unproven durability.
   Flagged as a candidate concept, **not built** — it needs a second device class beyond these two
   before a cross-source synthesis is warranted. [inferred from @brickwood2019wearable]
-
-</div>
 
 ## References

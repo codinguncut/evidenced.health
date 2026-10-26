@@ -89,8 +89,6 @@ in the discordant group. It contests only which of *those two* to prefer as the 
 and it is genuinely unresolved. The practical reading: non-HDL-C is free on every panel and captures
 most of what a separate apoB draw would. -> [[ApoB Particle Number vs Cholesterol Content]]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Lowering the number with a drug cuts hard events by about a fifth per unit, with no floor
 
 The statin trials settle the magnitude. Pooling 26 trials and 169,138 people, each **1.0 mmol/L**
@@ -142,8 +140,6 @@ raise brain hemorrhage** in any agent or subgroup. [@li2025ldlich]
 So the observational bleeding-stroke arm is most likely not caused by lowering, and it does not
 justify withholding treatment from someone whose ischemic and vascular risk dominates. One residual
 piece — the lifelong-genetic-exposure question — remains open. -> [[LDL Lowering and Cardiovascular Events]]
-
-</div>
 
 ## It matters whether diet or a drug does the lowering
 
@@ -227,8 +223,6 @@ absolute requirement is the point: it is why lowering Lp(a) enough to matter is 
 causal-*existence* finding still does not close the treatment question — no Lp(a)-lowering outcome
 trial is yet held. -> [[Lipoprotein(a) and Cardiovascular Risk]]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The statin's real costs are smaller than its reputation
 
 Two fears drive people off statins, and the trial evidence sizes both.
@@ -267,8 +261,6 @@ the diagnosis itself stays a separate, small cost, which the CTT authors judge g
 the fall in major vascular events. [@reith2024diabetes] Neither harm changes the
 start-or-continue decision for someone with a real indication. -> [[Statin Muscle Symptoms and the Nocebo Effect]], [[Statins and New-Onset Diabetes]]
 
-</div>
-
 ## Eggs and dietary cholesterol: close to a non-lever
 
 The cholesterol *in food* is a weak lever on the cholesterol *in blood* for most people. A medium
@@ -293,8 +285,6 @@ A second outcome lies beyond the artery: higher LDL-C in midlife tracks higher l
 incidence (about 8% per 1 mmol/L, midlife-specific), which adds to the reasons to lower it without
 changing the cardiovascular verdict. [@livingston2024]
 -> [[Dementia Prevention and Modifiable Risk Factors]]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to do with this
 
@@ -327,7 +317,5 @@ are personal.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Lipids%20and%20ApoB.md) |
-
-</div>
 
 ## References

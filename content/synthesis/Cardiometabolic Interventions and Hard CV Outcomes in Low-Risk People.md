@@ -22,7 +22,7 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Low-Fat Dietary Pattern and Cardiovascular Disease
 created: 2026-07-28
-updated: 2026-10-06
+updated: 2026-10-22
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -94,8 +94,6 @@ and one the other four do not reach.
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The largest levers are missing from the table — because their evidence is observational
 
 The obvious objection to a ceiling finding is *"but exercise."* It is worth answering, because the
@@ -104,8 +102,16 @@ hard outcomes are not the four above — they are **activity and fitness**, and 
 proven-lever table on purpose*:
 
 - Physical activity (device-measured *total* activity, accelerometer counts — not aerobic activity
-  specifically): all-cause HR \~**0.34** at the top of the dose-response ([[Physical Activity Dose and Mortality]]) — the single largest association the vault holds, dwarfing every RCT-proven lever here.
-  (corrected 2026-10-06: *aerobic activity* -> device-measured total activity.)
+  specifically): all-cause HR **0.27** (0.23-0.32) for the most-active vs least-active quarter, and HR
+  **0.34** (0.27-0.43) at the curve's maximal risk reduction (\~300 counts per minute), per
+  [[Physical Activity Dose and Mortality]]. Both are larger relative associations than any RCT-proven
+  lever on this page (the four-lever table's largest is HR 0.80, SELECT MACE; the high-risk trials below reach HR 0.70,
+PREDIMED), but they differ in design, outcome and contrast (an observational all-cause quartile
+contrast vs trial hazard ratios on CV-event composites), so the numbers
+  are not commensurable (below).
+  (corrected 2026-10-06: *aerobic activity* -> device-measured total activity.) (corrected 2026-10-22:
+  *HR \~0.34 at the top of the dose-response* -> the quartile and curve-maximum figures; dropped *the
+  single largest association the vault holds*.)
 - Cardiorespiratory fitness: **RR 0.87 per 1-MET** ([[Cardiorespiratory Fitness and Mortality]]).
 - Muscle-strengthening: all-cause **RR 0.85** ([[Muscle-Strengthening Activity and Mortality]]).
 
@@ -120,9 +126,9 @@ proven causal lever.
 **The sharpened ceiling:** it is not that no large lever exists. It is that the **proven** levers are
 small-for-low-risk, and the **large** lever (activity/fitness) is the one whose causal effect on hard
 outcomes is structurally *unprovable by RCT*. So the low-risk person's honest position is unchanged — no
-*proven* large CV-event lever — even after the biggest association in the vault is on the table.
+*proven* large CV-event lever — even after the HR 0.27-0.34 activity association is on the table.
 
-</div>
+
 
 ## The decision-change — this is a ceiling finding
 
@@ -145,8 +151,6 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
   The pattern is a statement about the **low-risk tail**, where most of the wiki's healthy strata sit.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What tested it — and why the test sharpened rather than broke it
 
@@ -239,7 +243,5 @@ single trial — all land in the same place by the same mechanism. Aspirin adds 
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
-
-</div>
 
 ## References

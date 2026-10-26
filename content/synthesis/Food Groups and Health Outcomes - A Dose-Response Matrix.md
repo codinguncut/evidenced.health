@@ -9,7 +9,7 @@ nucleus: true
 confidence: moderate
 self_critiqued: 2026-10-06
 created: 2026-08-28
-updated: 2026-10-06
+updated: 2026-10-22
 relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
@@ -218,8 +218,6 @@ lower arm, so the *every-reduction-pays* default holds for the harmful rows.
 [@zhong2020meat]
 -> [[The U-Shaped Association Artifact]]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Genetic-instrument check on the meat rows (Li 2024 MR) `[2026-10-06]`
 
 A two-sample Mendelian-randomization study instrumented UK Biobank intake of processed meat, pork, beef
@@ -277,10 +275,6 @@ either direction*) + **G** (below). Not **D**: the issue is not joined, since th
 intervals overlap. Not **E**: not concordant, and Li shares its exposure GWAS with the only earlier
 meat->CVD MR it cites (Yang 2023, not held).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Layer-1 across-food-group ranking (which levers move the most outcomes)
 
 This is the Layer-1 input the series was acquired for -> [[Layer 1 - Ranking Interventions for a Stratum]]. Ranking by **direction-consistency x magnitude x certainty**, net of each cell's
@@ -319,8 +313,6 @@ everywhere except mild adiposity harm at high intake; legumes are null in most *
 eggs are mostly null/insufficient. For a stratum already eating these, the marginal lever is
 small by construction.
 
-</div>
-
 ## Divergence findings — outcome-specificity is the informative signal
 
 Uniform effects (meat harmful, whole grains protective) mostly restate what each food-group page
@@ -338,8 +330,6 @@ already holds. The **divergences** are where the matrix earns its place:
 - **SSB** — strong cardiometabolic harm but **null for all-cause mortality** (the mortality CI
   is wide, 0.91-1.18 — an unmeasured, not a demonstrated-absent, effect).
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Shape honesty — where the curve has a knee or plateau
 
 Most linear cells are **monotone over the studied range only** — do not read more-is-always-better
@@ -351,20 +341,32 @@ past the data edge. Reported non-linear features:
 - **Vegetables and fruit** plateau at **\~200-400 g/d** for mortality/CVD — the rising arm is at
   low intake.
   [@schwingshackl2017mort]
-- **Whole grains** most benefit by \~50 g/d (T2D) to \~100 g/d (CHD).
+- **Whole grains** most benefit by \~50 g/d (T2D) to \~100 g/d (CHD). T2D: risk fell 25% with intake up
+  to \~50 g/d, then «Small beneﬁts for increasing intake above this value were observed» (non-linear,
+  cubic-spline display; overall intake range 0-302 g/d across the 13 studies of the high-vs-low
+  analysis; the spline subset's range is not reported)
+  [@schwingshackl2017t2d]. CHD: risk fell 17%
+  with intake up to \~100 g/d, «No beneﬁt for increasing intake was apparent above this intake (Figure
+  2).» (pnon-linearity <0.001 but only 5 studies; cubic-spline display; overall intake range 0-220 g/d
+  across the 7 high-vs-low studies; the 5-study spline's range is not reported)
+  [@bechthold2019]. The T2D
+  knee (\~50 g/d, small further benefit above it) and the CHD plateau (\~100 g/d) are different outcomes
+  from separate analyses, not one feature located twice
+  `[2026-10-22: provenance added; the line was untagged]`.
 - **SSB->T2D** is monotone increasing over the studied range — the included studies' overall intake
   range is **0-748 mL/d** — non-linear in shape but with risk rising «throughout all the range of SSB
   investigated»; no threshold is shown within that range, and nothing is said above it
   (corrected 2026-10-06: *across the entire range, every increment adds risk* -> monotone over 0-748
   mL/d only).
   [@schwingshackl2017t2d]
+  (scope note 2026-10-22: 0-748 mL/d is the range across the 10 studies of the high-vs-low analysis;
+  the non-linear curve's own range is not reported, so the extent of the «range of SSB
+  investigated» is unquantified)
 - **Refined grains->adiposity** is J-shaped, harm emerging above \~90 g/d.
 
 The plateaus mean over-shooting a protective food merely fails to add benefit (rarely harms) —
 the *every-reduction-pays* default holds for the harmful foods, whose curves show no protective
 lower arm. -> [[The U-Shaped Association Artifact]]
-
-</div>
 
 ## Cross-source check — the legume row against a dedicated legume SR+MA `[2026-08-28, Thorisdottir]`
 
@@ -406,8 +408,6 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Gaps (type-G)
 
 - All cells are **observational** (prospective cohorts) with self-reported intake; dietary
@@ -440,7 +440,5 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   for the non-meat rows (whole grains, fruit, vegetables, dairy, nuts, SSB), which have no absolute
   anchor held; the mortality paper's *optimal-combined-intake* -> 56% relative reduction figure is still
   relative-only. `G (needs a baseline-risk source per stratum — non-meat rows)`.
-
-</div>
 
 ## References

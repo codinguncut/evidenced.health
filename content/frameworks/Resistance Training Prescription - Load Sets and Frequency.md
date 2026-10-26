@@ -1,9 +1,10 @@
 ---
 type: framework
-question: How should resistance training be prescribed — load, sets, weekly frequency, and equipment modality (free-weights vs machines) — for strength versus hypertrophy, what is the minimal effective dose, and does any of it move a health outcome?
-aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth, Reps at Percentage of 1RM, REPS \~ %1RM, Repetitions to Failure, RM to 1RM Conversion, Rep Max Load Gauge]
-authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas; Nuzzo, James L; Pinto, Matheus Daros; Nosaka, Kazunori; Steele, James]
-sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023, Nuzzo - Repetitions at Percentages of 1RM 2023]
+question: How should resistance training be prescribed — load, sets, weekly frequency, equipment modality (free-weights vs machines), and the secondary dials (rest interval, time of day, exercise order, range of motion, effort/failure, progression) — for strength versus hypertrophy, what is the minimal effective dose, does the volume answer differ for adults over 60, and does any of it move a health outcome?
+aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth, Reps at Percentage of 1RM, REPS \~ %1RM, Repetitions to Failure, RM to 1RM Conversion, Rep Max Load Gauge, Rest Between Sets, Inter-Set Rest, Time of Day Training, Morning vs Evening Training, Exercise Order, Range of Motion, Full Range of Motion, Training to Failure, Repetitions in Reserve, RIR, Progressive Overload, Periodization, ACSM Resistance Training Position Stand, Beginner Resistance Training, Novice Resistance Training]
+authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas; Nuzzo, James L; Pinto, Matheus Daros; Nosaka, Kazunori; Steele, James; D'Souza, Alysha C; Fiatarone Singh, Maria A; Lowisz, Caroline V; Rawson, Eric S; Schoenfeld, Brad J; Smith-Ryan, Abbie E; Steen, Jeremy P; Thomas, Gwendolyn A; Triplett, N Travis; Washington, Tyrone A; Werner, Timothy J; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Herbert, Rob; de Noronha, Marcos Amaral; Kamper, Steven James; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro]
+sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023, Nuzzo - Repetitions at Percentages of 1RM 2023, ACSM - Resistance Training Position Stand 2026, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011,
+  Herbert - Stretching Muscle Soreness Cochrane 2011, Radaelli - Resistance Training Volume Older Adults NMA 2024]
 cluster: muscle
 confidence: low
 relationships:
@@ -18,9 +19,11 @@ relationships:
     - Blood Flow Restriction Training
     - Detraining and Residual Effects in Older Adults
     - Supervised vs Unsupervised Exercise
+    - Exercise Safety in Osteoporosis
+    - Power Training and Physical Function in Older Adults
 created: 2026-08-06
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 **Peripheral scope** (exercise-programming) — admitted on the same evidence bar as any exposure, kept
@@ -30,17 +33,25 @@ meta-analysis, 178 strength / 119 hypertrophy RCTs) and it settles one genuinely
 thing: **the *resistance-training dose* is not one dial — strength and hypertrophy are driven by
 different variables, and the gap between any-RT and no-RT dwarfs the gap between prescriptions.**
 
-**Evidence-tier note (`confidence: low`).** Single gold NMA (Currier 2023). The *surrogates* (1RM
+**Evidence-tier note (`confidence: low`).** Anchored on one gold NMA (Currier 2023); a second gold NMA (Radaelli 2024) covers only the
+adults >=60 volume question, cites Currier, and does not raise independent support for the rest. The *surrogates* (1RM
 strength, muscle size) are RCT-grade; the *health-outcome* transmission is not established by this source
 (see the surrogate boundary below), and the primary trials are unblindable (moderate–high risk of bias).
 Held `low` on total web support pending an independent line — and Currier is **not** independent of the
-staged ACSM 2026 stand or of Morton's protein RCT-MA (shared Phillips/McMaster team), so a second
+ACSM 2026 stand or of Morton's protein RCT-MA (shared Phillips/McMaster team), so a second
 same-lineage source would not raise it. [inferred from @currier2023]
+
+(2026-10-21: the ACSM 2026 position stand is now held and confirms the shared lineage — same first and
+senior authors, citing Currier as its own prior work, and pooling Haugen and the team's own 2024 umbrella review
+(McLeod, ref 24) as constituents (Nuzzo's reps-at-%1RM meta-regression, ref 186, is cited once, on load
+conversion; a separate Nuzzo minimal-dose overview, ref 195, is cited once). It adds the dials Currier coded out and the novice/safety framing below, but it is not an
+independent line and does not raise `confidence:`. Its own grading is a vote-count of reviews with a
+GRADE-derived quality percentage (not a GRADE certainty rating) and no pooled effect sizes.)
+[@acsm2026rt]
+[inferred from @acsm2026rt]
 
 
 [@currier2023]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The big rock: any prescription beats none — the between-prescription differences are second-order
 
 Currier compared 12 prescriptions (load H ≥80% 1RM / L <80%; sets M multiset / S single; frequency
@@ -57,9 +68,6 @@ tail.
 
 
 [@currier2023]
-
-</div>
-
 ## The decomposition (the value): strength is load-driven, hypertrophy is volume-driven
 
 The one place prescription *does* matter splits by outcome — and the two do not track together, so
@@ -99,10 +107,19 @@ not a distinct growth mechanism. Chase **volume** for size and **load** for stre
 or novelty as the dose signal.
 
 
+**What soreness is, and what does not change it.** A Cochrane review describes DOMS as «usually caused by
+unaccustomed exercise, particularly exercise that requires primarily eccentric muscle action», typically
+arising within a day and peaking at around 48 hours; the 1960s-70s muscle-spasm explanation, from which
+stretching for soreness may have arisen, has been discredited. Stretching before or after the session changes it by about one point on a 100-point
+scale -> [[Flexibility Training and Stretching]]. The review grounds the *unaccustomed-exercise* half of
+the mechanism note above; it does not test the repeated-bout effect.
+[@herbert2011stretch]
+For other post-session recovery techniques (massage, compression, cold water) and how far their
+single-session soreness results can be trusted, see the recovery-technique section on
+[[Flexibility Training and Stretching]].
+
 
 [@currier2023]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Minimal effective dose — a floor, not a located knee
 
 - «There was a 95% probability that RT with at least two sets or two sessions per week increased
@@ -152,6 +169,33 @@ once-weekly-vs-twice-weekly strength/function head-to-head SR is not held.
 it* -> once-weekly multiset is covered for strength; once-weekly single-set is imprecise; Currier chunk 02)
 [inferred from @currier2023]
 
+**What the ACSM 2026 stand adds to the floor (type F, same team — attribution, not corroboration).**
+
+- **Frequency's strength effect shrinks when volume is equated.** The stand scores frequency as raising strength (4 reviews,
+  n=3,531, vs 3 reviews, n=608, finding no effect) but adds that «there was insuffi- cient evidence to
+  conclude a dose-response relationship, and the impact is diminished when volume is equated
+  (73,76,90).» For size it found no frequency effect «when total volume was equated» across 1 vs >5
+  days per week.
+  [@acsm2026rt]
+- **Read with Currier's once-weekly result**, this points the same way: weekly sets carry some, possibly much, of the
+  frequency effect, so once-weekly training that keeps the weekly sets is not shown to lose much. The
+  two are different quantities (a review vote-count on unequated frequency vs a network contrast at
+  fixed load and sets), so neither confirms the other's magnitude. The older-adult once-weekly
+  head-to-head stays a G-gap: the stand did not split reviews by age.
+  [inferred from @acsm2026rt; @currier2023]
+- **Sets.** «Clearly, one set is superior to zero sets (CTRL), and two sets are superior to one set
+  (17,24,88–93,128,131–133), but the exact number of sets required to optimize adaptations cannot be
+  ascertained.» The stand's advice is «at least two sets per exercise», which turns Currier's
+  two-sets-or-two-sessions floor into a per-exercise default.
+  [@acsm2026rt]
+- **A located plateau, held secondhand only.** The stand reports a meta-regression (Pelland, its ref
+  187) showing «a dose-response that plateaued and showed diminishing returns beyond \~2–3 sets/exercise
+  for strength and \~18–20 weekly sets for hypertrophy with varying loads». No interval or studied range
+  comes with these figures, and the meta-regression itself is not held, so they are not a located knee
+  for this page. They are the evidence the categorical-coding G-gap above asks for. Until it is held,
+  the dose-response stance on this page stays as written: a floor, not a knee; the curve shape open.
+  [@acsm2026rt] — would turn the secondhand plateau into a located knee with an interval, or fail to.
+
 
 [@currier2023]
 
@@ -162,10 +206,6 @@ training cessation (ES = 0.88 [0.47-1.29]), and the residual does not depend on 
 but its decay time-course and any *reduced maintenance dose* are unestimated. So a forced break does not
 reset the prescription clock; see [[Detraining and Residual Effects in Older Adults]] for the retention
 half of the dose question and the maintenance-floor gap. [inferred from @buendiaromero2025]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Effect modifiers — mostly absent (route-b is quiet here)
 
@@ -178,11 +218,155 @@ on preference and constraint (Route e), not on demonstrated effect modification 
 [@currier2023]
 
 
-[@nuzzo2023reps]
+## Older adults (>=60): more weekly sets did not add TUG, 6-min walk or muscle size; strength mostly unresolved
 
-</div>
+**The stratum-specific estimate.** Radaelli's network meta-analysis is restricted to adults >=60 with no
+training background: 151 randomised trials, n = 6306, median age 68.8, 78.8% physically healthy,
+supervised RT only (no co-exercise, no nutrition co-intervention). Volume is coded as **terciles of
+prescribed weekly sets** (frequency x exercises x sets; reps and tempo not counted). Lower-limb bands:
+low (LVRT) 5 to <18 sets/week (median 12, IQR 9-15), moderate (MVRT) 18 to <27 (median 21), high (HVRT)
+&gt;=27 (median 36, IQR 27-45). Full-body: 10 to <42 (median 30), 42 to <61, >=61 (median 72). Peak load had
+a median of 80% 1RM (IQR 75-80%) across the interventions reporting it.
+[@radaelli2024rtvol]
+Intensity is not reported by band, so whether load stayed constant while volume varied is unexamined.
+[inferred from @radaelli2024rtvol]
 
-<div class="recent-update" data-last-updated="2026-10-06">
+| Outcome (comparisons) | LVRT vs control | HVRT vs control | LVRT vs HVRT | Certainty |
+|---|---|---|---|---|
+| Timed up and go (49; lower = better) | -1.20 (-1.57 to -0.82) | -0.63 (-0.99 to -0.26) | -0.57 (-1.09 to -0.04), favours low | Low |
+| 6-min walk (21) | 1.03 (0.33 to 1.73) | 0.27 (-0.40 to 0.94) | 0.76 (-0.21 to 1.73) | Low |
+| Fast walking speed (10) | -0.21 (-0.57 to 0.14) | 0.40 (0.10 to 0.71) | -0.61 (-1.08 to -0.15), favours high | Low |
+| Lean body mass (76) | 0.25 (0.10 to 0.40) | 0.18 (0.06 to 0.30) | 0.07 (-0.11 to 0.25) | Low |
+| Lower-limb hypertrophy (45) | 0.40 (0.25 to 0.54) | 0.18 (0.02 to 0.34) | 0.22 (0.01 to 0.43), favours low | Low |
+| Knee-extension 1RM (68) | 0.85 (0.55 to 1.14) | 1.18 (0.86 to 1.49) | -0.33 (-0.73 to 0.07) | Very low |
+| Knee-extension isokinetic (15) | 0.36 (-0.25 to 0.98) | 1.13 (0.66 to 1.60) | -0.76 (-1.54 to 0.01) | Very low |
+
+SMD (95% CI), frequentist random-effects NMA; MVRT sits between the two on most rows (leg-press 1RM and
+isometric strength peak at MVRT: 1.24 and 1.09 vs control). [@radaelli2024rtvol]
+
+**Any volume beat no training; between volumes, little separated.** Every band beat control on TUG,
+lean mass, hypertrophy and all 1RM outcomes. Between bands, only five contrasts excluded zero: low over
+high on TUG and on hypertrophy; higher over low on fast walking speed (both vs MVRT and vs HVRT); high
+over moderate on isokinetic torque. No 1RM or isometric head-to-head separated. The authors' own
+summary: «Except for muscle strength, prescribing a high resistance training volume did not accrue
+additional benefits for the outcomes examined.»
+[@radaelli2024rtvol]
+
+**The paper's «most effective» is a P-score rank, not an effect size — on both sides.** LVRT ranks first
+on TUG (94.4%) and hypertrophy (94.2%), but LVRT vs MVRT spans zero on TUG, 6-min walk, lean mass and
+hypertrophy. Higher bands rank first on 1RM and isometric strength, but those head-to-heads also span
+zero; on isokinetic torque only high beat moderate, and neither higher band separated from low. The
+defensible readings are *more volume did not add TUG, 6-min walk or size*, and *higher volume had
+larger point estimates for strength against control, mostly unresolved head to head* — not *low
+volume beats moderate* nor *high volume is needed for strength*.
+[inferred from @radaelli2024rtvol]
+
+**Function is not one outcome here.** TUG and 6-min walk rank low volume first; fast walking speed
+ranks high volume first, and the low band did not beat control on it. The authors call RT's function
+effects «test depend- ent». The walking-speed estimate is the thinnest (k = 10, no direct
+volume-vs-volume trials). [@radaelli2024rtvol]
+
+**Certainty and bias.** GRADE-for-NMA: low for function, lean mass and hypertrophy; very low for every
+strength outcome. «First, most studies had a high risk of bias.» Funnel asymmetry for TUG and all four
+strength outcomes; dropping one outlier trial cut MVRT's TUG effect from -0.91 to -0.63.
+[@radaelli2024rtvol]
+
+**The low-beats-high contrasts may lean mainly on between-trial comparison.** The paper analysed 164 RT
+interventions from 161 articles describing 151 trials, five of which compared volumes without a control
+[@radaelli2024rtvol]. The held main text does not report how many trials carried RT arms in
+different bands (study characteristics are in ESM Table S10 and side-split analyses in ESM Tables S15, S17,
+S19, none held). It downgraded for inconsistency or a lack of sufficient direct comparisons (the footnote
+does not say which; for fast walking speed the Limitations name the lack of direct comparisons) on fast
+walking speed, leg-press 1RM, isometric and isokinetic strength, but not on TUG or hypertrophy
+[@radaelli2024rtvol]. If each extra
+intervention is a second arm in a separate trial, at most about 13 trials could give a direct band-vs-band
+contrast, so most volume-vs-volume information is plausibly indirect, through the shared control.
+[inferred from @radaelli2024rtvol]
+The global inconsistency tests reported were non-significant, but a between-trial contrast is held as a
+hypothesis, not a demonstrated reversal: robust is *high volume did not add TUG, 6-min walk or size*;
+fragile is *high volume did worse*. [inferred from @radaelli2024rtvol]
+
+**Shape: no knee located; no added benefit detected above the low band, for some outcomes.** No
+dose-response model was fitted. The authors «propose» that function effects «do not increase further
+beyond a certain resistance training dosage», and that above «a certain volume threshold» size gains are
+independent of dosage. [@radaelli2024rtvol]
+On the band estimates (lower-limb medians 12, 21, 36 sets/week; low-band IQR 9-15, high-band IQR
+27-45), TUG, 6-min walk, lean mass and hypertrophy did not rise above the low band, and hypertrophy point
+estimates fell. Fast walking speed and isokinetic torque point estimates rose stepwise from low to moderate to high
+band, and knee-extension
+1RM, leg-press 1RM and isometric point estimates rose from low to moderate (no head-to-head separating).
+Three tercile averages cannot locate
+a plateau — one could sit anywhere at or below the low band — so the shape stays a G-gap, as on
+Currier's categorical coding above. What binds: for TUG, 6-min walk and size, adding sets above the low
+band is not supported (a stop signal for those outcomes only). Nothing was studied below about 5
+lower-limb sets a week; the top of the high band is not reported in the main text.
+[inferred from @radaelli2024rtvol]
+
+**Duration and health status are thinner than the abstract reads.** The text reports significant 6-min
+walk and walking-speed effects only for short programmes (<20 weeks), so the *independent of program duration*
+claim for function rests mainly on TUG. For physically impaired adults (sarcopenia, frailty, mobility
+limitation — about 13% of trials), significant estimates are reported for only a few cells, mainly
+strength; for adults with sarcopenia or
+frailty the authors say the best dose «for this group remains to be determined». -> [[Frailty]].
+[@radaelli2024rtvol]
+
+**Older-adult reviews before it disagreed.** Radaelli's introduction notes that earlier older-adult
+meta-analyses split: «While the benefits from a high resistance training vol- ume have been supported by
+previous meta-analyses in older adults [12, 14, 16, 26], there is also evidence sug- gesting a lack of
+volume-dependence of resistance training with similar results between both low- and high-volume
+resistance training [15, 27].» None of those reviews is held, so the fabric has one older-adult volume
+estimate, not a settled one. [@radaelli2024rtvol]
+
+**Held general-adult guidance, which names older exercisers, agrees on the floor.** The 2011 ACSM stand recommends «Two to
+four sets are the recommended for most adults to improve strength and power.» and adds «A single set of
+resistance exercise can be effective especially among older and novice exercisers.»
+[@garber2011acsm] Radaelli places its low band against three unheld recommendations (refs 9-11):
+«Our results partially concur with current recommendations [9–11], indicating that an even lower
+resistance training volume than previously suggested for muscle function and size improvement can be
+sustained for longer periods (≥ 20 weeks).» [@radaelli2024rtvol] So a low starting volume for an
+untrained older adult matches held guidance, and the open question is narrower: whether more sets add size
+or strength at this age. [inferred from @radaelli2024rtvol; @garber2011acsm]
+
+**Does this contradict the held volume findings? Not shown — the cells cannot be matched.**
+
+| Parameter | Radaelli (chunk 01) | ACSM 2026 stand (chunk 01) / Currier (chunk 01-02) | Same quantity? |
+|---|---|---|---|
+| Population | adults >=60, no training background, 78.8% healthy | ACSM: «Reviews included in this overview of reviews were limited to healthy adults», defined from age 18 and not split by age (older adults named as a future subpopulation); Currier: healthy adults, function outcomes only in mean age >=55 | **Partly** — Radaelli's stratum sits inside ACSM's unsplit adult pool |
+| Volume unit | weekly sets summed over all lower-limb exercises | ACSM: «≥10 sets/muscle group/wk»; Currier: sets per exercise, single vs multiset | **No** — lower-limb total vs per-muscle-group vs per-exercise |
+| Contrast on the axis | median 12 vs 21 vs 36 lower-limb sets/week | ACSM: below vs at-or-above 10 per muscle group; Currier: one set vs several | **Unknown** — converting needs sets per muscle group, which Radaelli does not report |
+| Per-exercise sets | authors' translation of the low-band median: two sets per exercise, three lower-limb exercises, twice weekly (the band itself, 5 to <18 lower-limb sets, also admits single-set programmes) | ACSM: «at least two sets per exercise»; Currier: single vs multiset | **Partly** — same unit, but Radaelli's figure translates a median and is not coded per trial |
+| Size outcome | lean mass (whole body) + lower-limb hypertrophy, pooled SMD | ACSM: hypertrophy vote-count, no effect sizes; Currier: muscle size SMD | partly |
+| Design | NMA with CIs and GRADE | ACSM: overview vote-count; Currier: Bayesian NMA | No |
+
+Of the held sources, the ACSM stand is the one that scores more sets as raising size (its vote-count
+gives >=10 sets per muscle group per week), and it hypothesizes diminishing returns above two sets per
+exercise: «Completing more than two sets per exercise may provide additional benefits, but we
+hypothesize that these bene- fits diminish with each subsequent set.» The sentence before it cites a
+meta-regression whose curve «plateaued and showed diminishing returns beyond \~2–3 sets/exercise for
+strength and \~18–20 weekly sets for hypertrophy with varying loads; thus, healthy adults are advised to
+complete at least two sets per exercise.» This is secondhand, and the held text does not say whether those
+weekly sets are counted per muscle or per programme, so the 18–20 figure is not matched to Radaelli's
+lower-limb totals. [@acsm2026rt] Currier's *volume-driven* reading
+(the decomposition above) is a rank: multiset prescriptions top the hypertrophy ranking, but only 1 of 45
+comparisons excluded zero and its summary is that «all prescriptions comparably promoted muscle
+hypertrophy». [@currier2023] Radaelli
+found no added size above its low band. On the per-exercise axis they partly agree: the authors
+translate the low-band median as two sets per exercise [@radaelli2024rtvol], which would meet
+ACSM's two-set floor and count as multiset in Currier's coding, though the band also admits single-set
+programmes and Radaelli did not code sets per exercise per trial.
+[inferred from @radaelli2024rtvol; @acsm2026rt; @currier2023] Whether they collide on size depends on where the low band falls in sets per
+muscle group: a lower-limb session of a few exercises spreads 12 sets over several muscles, so the low
+band could sit near or below ACSM's 10, which would put the findings in conflict for size in adults >=60.
+The volume-unit cell is *no* and the axis cell is *unknown*, so **no tension is filed** — not because the
+issue is shown to be unjoined, but because it cannot be shown joined. It is recorded as a type-F stratum
+refinement plus a G-gap: does ACSM's >=10-sets size verdict hold in adults >=60, measured per muscle group?
+[inferred from @radaelli2024rtvol; @acsm2026rt; @currier2023]
+
+**Independence.** Radaelli's author list shares no one with Currier or the ACSM stand, but it cites
+Currier as concurring on the size threshold, and Currier's pool includes older-adult function trials
+whose overlap cannot be checked (Currier's included-trial list is not in the held text). So it refines the
+page; it does not count as an independent backing, and `confidence:` stays `low`.
+[inferred from @radaelli2024rtvol; @currier2023]
 
 ## The load gauge — how many reps sit at a given %1RM (operationalizing the 80% cut)
 
@@ -292,9 +476,6 @@ anywhere from \~80% to >90%.
 
 
 [@haugen2023freeweight]
-
-</div>
-
 ## Equipment modality (free-weights vs machines): specific for the test, equivalent for the outcome
 
 The other much-debated RT dial — barbell/dumbbell vs pin-loaded machine — resolves the same way the
@@ -358,6 +539,207 @@ calisthenics training against loaded RT** for strength or hypertrophy is held �
 research pass (verified absent at acquisition), not a settled equivalence. A gold head-to-head SR would
 close it; until one lands, hold any bodyweight-vs-loaded claim at `confidence: low`.
 [inferred from @haugen2023freeweight]
+
+
+[@acsm2026rt]
+## The secondary dials — rest, time of day, exercise order, range of motion, effort (ACSM 2026)
+
+Currier's network coded only load, sets and frequency; rest intervals, tempo and time-under-tension
+were out of scope (see *Limits*). The 2026 ACSM position stand covers the rest. It is an overview of 137
+systematic reviews (>30,000 healthy adults, RT for 6-52 weeks, mostly novices). Each variable gets a
+verdict symbol (✔ improves the outcome, ✖ does not, ? cannot tell) with the number of reviews behind it,
+their pooled n, and a quality percentage. The stand says plainly that the method cannot rank variables
+against each other: «This overview of reviews summarized RTx variable- level evidence, an approach that
+prevents statistical insights into the comparative effectiveness (e.g., dose- response) of individual
+RT variables.»
+[@acsm2026rt]
+
+| Dial | Strength verdict (reviews; n; QoE%) | Hypertrophy verdict (reviews; n; QoE%) |
+|---|---|---|
+| Between-set rest, <1 min vs >1 min | ✖ no effect (2; 982; 63%; one is the team's 2024 umbrella, ref 24) | ? (4; 265; 44%) |
+| Time of day, morning vs evening | ✖ no effect (2; 430; 75%; refs 24 and 102 — the stand says ref 24 re-synthesizes ref 102 in its hypertrophy example, so likely one review here too) | ? (3; 336; 75%) |
+| Exercise order, lift done first | ✔ improves (4; 941; 88%) | ✖ no effect (4; 759; 81%) |
+| Full range of motion | ✔ improves (2; 1,262; 50%) | ? (1 up, n=90; 3 unclear, n=276) |
+| Sets to failure | ✖ no effect (3; 1,371; 83%; 1 review, n=199, for) | ✖ no effect (4; 800; 69%; 1 review, n=189, for) |
+| Periodization | ? (1 for, n=616; 2 no effect, n=1,075) | ✖ no effect (4; 1,414; 63%) |
+
+[@acsm2026rt] (read from the rendered table, pp 857-858)
+
+**How to read a ✖ here.** A ✖ means the reviews found no difference. No pooled effect sizes are reported
+[searched: "effect size" / "SMD" = 0 hits across both chunks]; per-review results sit in supplements
+the wiki does not hold, so a ✖ is not a shown equivalence with a
+bounded interval: it is *no difference detected* on 2-4 reviews of short trials in mostly novice
+adults. The quality figure is the stand's own percentage, built from review design and AMSTAR score by «a
+method based on the Grading of Recommendations Assessment, Development and Evaluation approach for
+primary evidence (21)», not a GRADE certainty rating: «There remains no standardized
+method to evaluate the certainty of evidence in overviews of reviews (15,22), so a summary percentage
+scores were calculated to demonstrate the qual- ity of evidence contributing to each conclusion.» The
+stand also warns that overlapping reviews can count one study more than once; its own example is time
+of day, where «three reviews were included on the impact of RT time of day on hypertrophy (24,102,131),
+but two reviews (24,131) synthesized one original review (102).»
+[@acsm2026rt]
+For the decision this is enough. A ✖ on a free choice (when to train, how long to rest) means the
+choice can follow convenience, because nothing in the held evidence makes the other option better. It
+does not show the two options are identical, and it is thin on trained lifters (mostly novice evidence).
+[inferred from @acsm2026rt]
+The rest-interval verdict differs from the stand's own predecessor, which the stand summarizes as
+having recommended, among other settings, «2–3 min rest between sets». For strength in healthy adults
+the new stand finds no difference between under and over a minute of rest.
+[@acsm2026rt]
+
+**Effort without failure.** «Completing sets to fatigue (momentary muscular fail- ure) does not enhance
+gains in strength, hypertrophy, and power, and so is not necessary for benefits to occur.» The stand's
+primary recommendation still asks for «high effort», and it gives a working gauge: «Sufficient effort
+(assessed using various scales) can be accomplished by complet- ing sets with various RTx and
+completion of “near- failure” or a target of 2–3 repetitions in reserve (RIR)
+(24,97–99,128,137,188–190).» It adds that exact RIR targets cannot be set from the data, and that
+failure training «may also be» inadvisable for some groups, such as older adults, on vascular and
+injury grounds; that last point rests on the stand's citations, not on an outcome the stand measured.
+This matches Currier's network meta-regression, where failure did not explain the hypertrophy response,
+but it is not a second line: the overview's judgment is by Currier's team, and its failure reviews
+(mostly from other groups) likely share primary trials with Currier's network, an overlap the stand did
+not assess for this outcome.
+[@acsm2026rt]
+[@currier2023]
+[inferred from @acsm2026rt]
+
+**Equipment, again — not a second line.** The stand's machine-vs-free-weight verdict (✖ for strength,
+1 review, n=683) is Haugen (its ref 100), the only review it had on that question. It adds nothing to
+the equipment section above. [@acsm2026rt]
+
+**Parameter table — where the stand and the held meta-analyses touch the same dial.**
+
+| Dial | Held MA result | ACSM 2026 result | Same quantity? |
+|---|---|---|---|
+| Frequency, strength | Currier: no once-vs-twice-weekly separation at matched load and sets (network CrIs) | ✔ on 4 vs 3 reviews; effect «diminished when volume is equated» | **No** — a network contrast at fixed sets vs a vote-count pooling volume-equated and unequated comparisons; consistent once the volume qualifier is applied |
+| Failure, hypertrophy | Currier: failure did not improve network meta-regression fit | ✖ (4 reviews, n=800) | **No** — a meta-regression covariate vs a review vote-count; same direction, shared team |
+| Machine vs free weight, strength | Haugen: SMD 0.084, 95% CI -0.106 to 0.273 (direct comparison) | ✖ (1 review, n=683) | **Yes, and it is the same review** — Haugen is the stand's ref 100; not independent |
+
+[inferred from @acsm2026rt; @currier2023; @haugen2023freeweight]
+
+
+[@acsm2026rt]
+## Starting out — novices, the first weeks, and progression
+
+**The stand puts participation ahead of the recipe.** «Deviating from previous guidelines, we propose
+that individualizing programs to increase RT participation is, from our perspective, more important
+than conform- ing to specific RTx criteria outlined in previous Position Stands.» Its reasons: only
+about 30% of US adults report muscle-strengthening on 2 or more days a week, and the 2009
+guidance could add up to a lot of time. «Current estimates (from self-report) are that only \~30% of
+American adults complete some muscle-strengthening activities at least 2 d/ wk, and nearly 60%
+complete no muscle-strengthening exercise (169–173).» «Notably, others have esti- mated that
+developing general muscular fitness (strength, hypertrophy, and power) according to previous ACSM
+guidelines may, in some cases, require training for 20 h or more per week (176).» Both figures are the
+stand's citations (self-report and an estimate), not its own synthesis.
+[@acsm2026rt]
+
+**The old novice prescription had a thin base.** «For example, the previous Position Stand recommended
+novice lifters complete two to three full-body sessions per week for muscle hypertrophy, and this
+recommendation was graded as the highest possible quality of evidence (11).» The stand reports that
+this rested on three studies with 59 people, two of which did not test frequency.
+[@acsm2026rt]
+
+**The minimum the stand recommends for a beginner.** «Our pri- mary recommendation is that healthy
+adults perform RT with high effort (effort can be measured through various scales, but can be achieved
+with various loads and sets per the FITT-VP principle) at least twice weekly, with all major muscle
+groups being engaged.» How to cover *all major muscle groups* is the authors' opinion, not a tested
+rule: «In the view of the authors, applying the recommenda- tions herein to the body regions “upper”
+and “lower” for “push” and “pull” exercises (i.e., four body regions) is sufficient to target major
+muscle groups.» Compared with no exercise, elastic-band RT raised strength, size and some function
+measures, and home-based RT raised strength, endurance and balance; the stand offers both as easier
+ways in: «Nontraditional forms of RT may provide alternative, perhaps more accessible or approachable,
+strategies for completing RT with appreciable physical benefits.» The stand also separates two goals:
+«Significant and optimal improvements are two different goals; however, participants and facilitators
+of RT must dis- tinguish between them.»
+[@acsm2026rt]
+
+**Who the evidence describes.** Mostly beginners: «Previously, we showed that training experience had a
+minimal impact on strength and hypertrophy outcomes (17); nonetheless, much of the evidence synthesized
+here is from inexpe- rienced trainees.» (ref 17 is Currier's NMA.) Reviews were not split by age, because
+too many mixed people above and below 55. So the verdicts above fit the untrained adult best, and an
+older-adult reading rests on mixed-age reviews. «“Healthy adults” was operational- ized as humans (≥18-yr
+old) with no defined disease(s), including obesity, sarcopenia, and physical frailty.» — so an obese or
+frail novice is outside the studied population.
+[@acsm2026rt]
+
+**Progression — required for low-load beginners, optional after that, but stated more broadly
+elsewhere.** In the discussion: «Notably, as the results in Table 4 high- light, progression is not
+necessary to achieve beneficial outcomes, and overload, or more accurately, increasing the stimulus in
+some manner, is likely a requirement only for those seeking continued longer term progress.» The very
+next sentence carves out beginners: «We note that in some populations, due to inexperience (and
+potential safety concerns), RTx necessitates that loads are necessarily low and progression is a
+requirement to achieve a meaningful benefit.» And then: «Continued progression could be a personal
+decision and part of the individual- ization of RTx (see below).» So in the discussion a beginner who
+starts light must raise the load to reach a useful stimulus, and beyond that, adding load is for
+continued gains and is a personal choice.
+[@acsm2026rt]
+Elsewhere the stand is broader. Its abstract concludes that «Healthy adults should perform progressive
+RT», and it says «Untrained individuals will benefit from various RT programs, provided that
+progression, the variables out- lined here as affecting outcomes, and adherence are core principles.»
+On periodization, the stand finds it not superior for size (✖) and could not tell for strength, where
+«one review found that periodized programs were slightly favored over nonperiodized pro- grams to
+maximize strength gains under volume-equated conditions (117)»; its summary is that «periodization is
+not significantly superior to nonperi- odized programs».
+[@acsm2026rt]
+Neither reading rests on a direct test: the progression-related variables the stand scores (intrasession
+autoregulation, varied exercise selection, periodization) are not framed as progressing-vs-not-progressing
+contrasts. The periodization comparator is defined as «Nonperiodized: Not manipulating RTx during the
+program.», but the stand makes its periodization verdict conditional on «appropriate progressive overload», so
+Table 4 does not cleanly test progression itself. The stand still reads it as showing that «progression
+is not necessary to achieve beneficial outcomes», in the same sentence that limits overload to «those
+seeking continued longer term progress», followed by the novice carve-out quoted above. For a beginner both readings give the same advice: add load or reps
+as sets get easier, which working at \~2-3 RIR does by itself. Starting light and rising gradually is
+standard practice and the wiki's reading of the tendon point under the surrogate boundary below (tendon
+adapts more slowly than muscle), not a stand finding.
+[inferred from @acsm2026rt]
+
+
+[@acsm2026rt]
+## Safety — what the stand asserts, and what it rests on
+
+«Resistance training is safe for healthy adults of all ages (5), but many adults, particularly older
+adults, avoid RT due to misperceptions about safety and injury risks (181).» The support is cited, not
+synthesized in the stand. A meta-analysis of exercise-therapy trials: «In an analysis of >38,000
+participants (>6700 RT partic- ipants), of which >11,000 were older adults, exercise did not increase the
+risk of serious adverse events.» The comparator for minor harms was aerobic exercise, not rest: «The
+risk of nonserious adverse events (e.g., pain, fatigue, bursi- tis, and edema) was not different than
+aerobic exercise in terms of injury rate or risk (182).» And in cardiac patients: «In 23 studies (n = 1174) of adults with
+coronary heart disease, all 63 nonfatal cardiovascular complications occurred during aerobic training,
+and the 20 musculoskeletal complications that occurred during RT were caused by preexisting condi-
+tions (knee arthritis) and were resolved by changing RT intensity or body position (183).» Ref 183
+(Hollings) is co-authored by a stand author.
+[@acsm2026rt]
+
+**G-gap.** The wiki holds no safety systematic review of RT in healthy adults, so this is a guideline's
+assertion resting on unheld sources, labelled as such. The figures carry no event rates per exposure-hour and no
+breakdown for an untrained adult starting from scratch. The stand also does not address the safety of
+1RM or maximal testing, or warm-up [searched: "testing" = 2 hits, neither on test safety; "warm" = 0,
+across both chunks], so the *Limits* question on maximal testing stays open. The stand itself concedes
+the reporting problem: trials in the field show «poor report- ing of adverse events, and other
+shortcomings (199)».
+[inferred from @acsm2026rt]
+[@acsm2026rt] — would put the adverse-event figure on a held source, with rates and the RT subgroup.
+The 2011 ACSM quantity-and-quality stand (ref 10 here; this stand says «the recommendations of the
+previous Position Stand (10,11) may be less relevant for most adults»
+[@acsm2026rt]) does not fill the warm-up gap: its only graded warm-up statement on risk is the grade-C «may reduce the
+risk» row (a separate grade-A row concerns warming the muscle before flexibility work); its other content
+statements concern performance or flexibility, and its Conclusions call warming up an effective strategy,
+none with a dose for injury; and it warns against
+eccentric-only training (rhabdomyolysis) -> [[Exercise Interventions and Sports Injury Prevention]].
+[@garber2011acsm]
+
+**What the held safety evidence elsewhere says about reading a *no excess harm* pooling.** The nearest
+held source is a different stratum: [[Exercise Safety in Osteoporosis]] (Kunutsor), where serious
+adverse events were also rare and the excess was minor aches, but where harms were often not recorded
+— in one updated falls review, 55 of 107 trials did not report adverse events and 26 more reported
+zero. So a trial-pooled *no increase in serious adverse events* is reassuring in
+direction and weak as a bound, whatever the population, until the pooled trials are shown to have
+recorded harms. [[Supervised vs Unsupervised Exercise]] is a different contrast (two exercise arms, not exercise vs
+none): adverse events and falls were similar with and without supervision, though possibly
+under-counted because exercise dose was not equated. For the healthy novice this supports
+starting RT, with the usual caution that light loads and gradual increases cost little (for strength,
+light loads do slow gains).
+[inferred from @acsm2026rt; @kunutsor2018adverse]
 
 
 ## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
@@ -438,8 +820,20 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   lower mortality observationally -> [[Grip Strength and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
   (any MSA vs none: all-cause mortality RR 0.85; MSA + aerobic RR 0.60). But that is *activity/strength
   predicting death*, not *this NMA's 1RM gains reducing death* — no RCT closes it.
-- **Strength → injury reduction is the one patient-important outcome established at CAUSAL (RCT-MA)
-  grade** — see [[Exercise Interventions and Sports Injury Prevention]] (Lauersen: strength-training
+- **Strength → sports-injury reduction is one of the patient-important outcomes held at RCT-MA
+  grade, not the only one.** Two others sit beside it: falls in older adults (exercise programmes cut
+  the fall rate, RaR 0.77, 0.71-0.83, HIGH certainty, but the active ingredient is balance/functional
+  training; RT alone has not been shown to reduce falls, RaR 1.14, 0.67-1.97, very low certainty
+  -> [[Exercise for Preventing Falls in Older Adults]]), and
+  power training's GRADE-HIGH advantage over conventional strength training on function tests in
+  older adults (a head-to-head comparison of two resistance-training forms; activity tests, not
+  daily-life disability -> [[Power Training and Physical Function in Older Adults]]). Of the three, injury is the one where a conventional strength-training arm, compared with control,
+itself carries the effect; on function tests the held vs-control result is for power training
+(secondary analysis, generic tests SMD 0.73 vs no training ->
+[[Power Training and Physical Function in Older Adults]]), and its certainty is not the GRADE-HIGH
+head-to-head grade. (corrected 2026-10-22: was
+  *the one patient-important outcome established at CAUSAL (RCT-MA) grade*.)
+  See [[Exercise Interventions and Sports Injury Prevention]] (Lauersen: strength-training
   RR **0.315**, injuries cut to <1/3; the standout intervention, stretching null). This is the closest
   the resistance-training case gets to a hard endpoint on interventional rather than observational
   evidence. **Exposure-identity caveat:** Lauersen's strength arms are *eccentric / sport-specific
@@ -461,14 +855,19 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 - **The closest-to-patient-important signal here is physical function in older adults:** LM2/LM3/HM3
   improved mobility and gait speed, HM3 improved balance (few studies, ≥55y) — function is on the outcome
   menu directly, but the evidence is thin. [@currier2023]
+  - The ACSM 2026 stand's function table (RT vs no exercise, healthy adults of mixed age) scores gait
+    speed, balance, chair stand and timed up-and-go as improved. Gait speed: 8 reviews (n=3,407, QoE
+    81%) for, with 3 unclear (n=115) and 2 finding no effect (n=1,660, QoE 100%); stair climbing had
+    no data. On the SPPB it warns against reading its own null: «this conclusion likely reflects the
+    sparseness of evidence, rather than a true null effect.» No effect sizes are given, and these are
+    still function tests, not falls or disability. Not independent of Currier (same team).
+    [@acsm2026rt]
 - **Why the older-adult stratum needs this dose at all — the mechanism is [[Anabolic Resistance]].** Aging
   blunts the muscle-protein-synthesis response to a given protein dose; resistance training is the
   **non-nutritional lever that partially restores that sensitivity**, so the training stimulus and the
   higher per-meal protein target ([[Protein Intake for Older Adults]]: \~1.2 g/kg/day for the active
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -482,13 +881,18 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   data on mostly healthy 20-40-year-olds; a population gauge with a \~2.5-rep between-person SD, not a
   personal conversion.
 - **If the goal is size/hypertrophy:** chase **volume (sets)**; load is flexible — lighter loads work if the
-  sets are there, and training to failure is not required (untrained). Pairs with the protein lever
-  (\~1.6 g/kg/day) on [[Protein and Resistance Training for Muscle and Strength]] — the *other* input to the
-  same adaptation.
-- **Minimal effective dose:** roughly **2 sets, 2×/week** captures most of the available strength and size
-  gain; more is a modestly steeper strength curve, not a different category.
-- **Equipment is a preference choice, not a lever.** Free-weights and machines produce equivalent
-  strength and hypertrophy on the outcome (Haugen: all direct-comparison CIs span zero); pick by
+  sets are there, and training to failure is not required (untrained). Pairs with the protein lever on
+  [[Protein and Resistance Training for Muscle and Strength]] — the *other* input to the same adaptation.
+  That page holds a broad intake region, not a settled target: its break point was not statistically
+  established.
+- **Minimal effective dose:** roughly **2 sets, 2×/week** is the floor shown to work (Currier); it is not
+  shown to capture most of the available gain. For size, the ACSM 2026 stand reports a volume
+  dose-response from ≥10 sets per muscle group per week (vote-count; a secondhand plateau near \~18-20)
+  and says minimal-dose programmes need more study (see the defaults below).
+- **Equipment is a preference choice, not a lever.** Free-weights and machines showed no
+  difference in strength or hypertrophy on the outcome (Haugen: all direct-comparison CIs span zero; the
+  dynamic-strength CI, SMD 0.084 [-0.106, 0.273], bounds the average difference to a small effect, though
+  the prediction interval is wide; hypertrophy rests on 5 studies); pick by
   preference, access, and goal-specificity. Specificity binds only for a competitor tested in a named
   lift — train that lift — not for general strength or size.
 - **Adherence and preference win the ties.** With prescriptions near-equivalent, the sustainable protocol
@@ -498,9 +902,66 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 [inferred from @currier2023]
 
-</div>
+**For an untrained adult over 60, a short low-volume session is a reasonable default for timed up
+and go, 6-min walk and muscle size.** Radaelli's low band (median \~12 lower-limb sets a week) was not outperformed by higher
+bands on timed up and go, 6-min walk, lean mass or lower-limb muscle size. The authors' Discussion
+translates it as two sessions a week of two sets per exercise for three lower-limb exercises, and say a
+low-volume lower-limb workout «can be completed in less than 20 min»; their Conclusions say *eight*
+lower-limb exercises for the same \~12 sets. Typical trial load was \~80% 1RM.
+[@radaelli2024rtvol] (2 x 2 x 3 = 12, while 2 x 2 x 8 = 32 is close to the \~30 full-body figure, so
+the *eight* is probably a full-body count mislabelled.) [inferred from @radaelli2024rtvol]
+If strength or fast walking is the goal, moderate-to-high volume had the larger point estimates and
+separated from low on walking speed, but strength head-to-heads are mostly unresolved (very low
+certainty; on isokinetic torque only high beat moderate). Low certainty overall, mostly healthy and short (median 12 weeks), and the frail stratum
+is barely estimated. This licenses stopping at a short session for those outcomes (not for fast walking speed); it is not
+evidence that more volume harms, and it does not settle whether ACSM's >=10 sets per muscle group holds
+for size at this age (the G-gap above). Whether it transports to younger adults is untested: the mixed-age
+stand favours >=10 sets per muscle group per week for size, in a different unit, and no age x volume
+interaction is shown either way.
+[inferred from @radaelli2024rtvol]
 
-<div class="recent-update" data-last-updated="2026-10-06">
+**Practical defaults for a beginner (added 2026-10-21, from the ACSM 2026 stand).** These are cheap,
+reversible choices, so they are stated plainly. The basis is a vote-count of reviews in mostly novice
+adults without pooled effect sizes: *no difference detected*, not a measured equivalence. The stand's
+*healthy adults* exclude obesity, sarcopenia and frailty, so for an obese or frail beginner these are
+carried over, not studied.
+
+- **Start with at least two sessions a week covering all major muscle groups**, at least two sets per
+  exercise. Upper/lower body x push/pull is the authors' opinion of enough coverage, not a tested rule.
+- **If size is a goal, build toward 10 or more sets per muscle group per week.** The stand scores higher
+  weekly volume as raising size (5 reviews, n=2,267): «Muscle hypertrophy was enhanced by higher volumes
+  (≥10 sets/wk) and eccentric overload.» The two-session, two-set floor above is well under that for any
+  one muscle, and the stand says «various minimal-dose RT programs warrant further investigation».
+- **For strength, rest between sets as long as is convenient.** Under vs over a minute made no detected
+  strength difference (2 reviews, n=982, one of them the team's own umbrella review); the 2009 advice of
+  2-3 minutes is not backed by this. For size the stand could not tell.
+- **For strength, train at whatever time of day you will keep doing it.** Morning vs evening made no
+  detected strength difference, on two reviews, one an umbrella that (per the stand's hypertrophy
+  example) re-synthesizes the other. For size the stand could not tell.
+- **Lift at a controlled, comfortable tempo.** Fast (<2 s) vs moderate-slow (>2 s) contractions made no
+  detected strength difference, and time-under-tension scored no effect for strength or size.
+- **Put the lift you most want stronger first in the session**, and use full range of motion — the
+  two order/ROM dials that scored ✔ for strength (4 reviews, n=941; 2 reviews, n=1,262, QoE 50%).
+  Neither scored for size.
+- **Work hard but stop short of failure** — about 2-3 reps in reserve is the stand's suggested gauge,
+  though it says exact targets cannot be set; failure adds nothing measured and the stand suggests it
+  may be inadvisable for some older adults.
+- **Add load (or reps) as sets get easier.** Working at \~2-3 reps in reserve does this by itself. For a
+  beginner who starts light, raising the load is what the stand says is needed for a meaningful benefit;
+  for strength, work toward the heavier loads above. Starting light and rising gradually is standard
+  practice and the wiki's reading of the tendon point (tendon adapts more slowly than muscle), not a
+  stand finding. Formal periodization is not shown to beat plain progressive loading.
+- **Bands or home training count.** They beat no training; standard RT did more for multicomponent
+  function than bands, so bands are the easier start, not the ceiling.
+
+[inferred from @acsm2026rt]
+
+**Older adults and the size default.** For an untrained adult >=60 the age-specific NMA found the moderate and high bands (lower-limb medians
+21 and 36 sets a week) gave no detected gain in lean mass or muscle size over the low band (median 12, range 5 to <18;
+low certainty; different unit, see the older-adult section), so there the
+low-volume default is a reasonable stopping point for size — a cheap-lever default, not a settled answer
+to the per-muscle-group question above.
+[inferred from @radaelli2024rtvol]
 
 ## Limits
 
@@ -521,17 +982,32 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
   test is safe or unsafe for an untrained adult — Nuzzo does not address it, so the fabric holds no data
   either way. [inferred from @nuzzo2023reps; @currier2023]
 - **Categorical coding** (H/L, M/S, 1/2/3) — cannot locate a continuous knee; periodized programmes, rest
-  intervals, tempo, time-under-tension excluded/under-reported.
+  intervals, tempo, time-under-tension excluded/under-reported. (Rest, time of day, order, range of
+  motion, failure, tempo and time-under-tension are now covered at vote-count grade by the ACSM 2026
+  section above.)
 - **Unblindable primary trials** — moderate–high risk of bias (strength 22% high; hypertrophy 18% high);
   gold *design*, but the underlying RCTs cannot double-blind exercise.
-- **Healthy adults only** — athletes, comorbidities, frail excluded; older-adult function data sparse. For
+- **Healthy adults only** — athletes, comorbidities, frail excluded; older-adult function data sparse
+  in Currier. The >=60 volume question has its own NMA (Radaelli, older-adult section above), but its
+  volume is tercile-coded, its significant 6-min walk and walking-speed effects are reported only for short programmes, and physically impaired
+  adults are about 13% of its trials with significant estimates reported for few cells, so the frail/sarcopenic volume dose stays
+  a gap. [@radaelli2024rtvol] For
   the person who **cannot load heavy** (older, comorbid joints/bones, rehab), this dial does not apply; the
   route-(c)/(e) workaround is [[Blood Flow Restriction Training]], which reaches heavy-load-comparable
   *hypertrophy* at light load (though below-heavy-load *strength*) — and lands the same load-dependence
   shape from an independent team, corroborating the strength-is-load-driven / hypertrophy-is-not
   decomposition above.
-- **Single source, shared lineage** — not independent of ACSM 2026 or Morton 2018 (Phillips/McMaster);
-  `confidence: low` until an independent line lands.
+- **One anchor NMA, shared lineage** — Currier is not independent of ACSM 2026 or Morton 2018
+  (Phillips/McMaster); Radaelli (no shared authors) cites Currier and addresses only the >=60 volume
+  cell, so `confidence: low` until an independent line lands on the general-adult questions.
+- **ACSM 2026 secondary dials are a vote-count** (added 2026-10-21) — reviews counted per direction, a
+  GRADE-derived (not GRADE) quality percentage, no pooled effect sizes, no sensitivity analyses, overlap checked for
+  strength only, ages not separated, mostly novice trainees. It cannot rank one dial against another,
+  and its ✖ verdicts are *no difference detected*, not equivalence. Its constituents include Currier,
+  Haugen and the team's 2024 umbrella (McLeod, ref 24; it cites Nuzzo's reps-at-%1RM meta-regression only on load conversion, and a separate
+  Nuzzo minimal-dose overview once), so it adds coverage, not independent support. The 1RM-testing safety question in
+  the bullet above is not addressed there either.
+  [inferred from @acsm2026rt]
 - **Equipment facet is thin and tentative (Haugen)** — 13 studies, hypertrophy on only 5-6, none rated
   excellent quality, and the authors call the evidence «tentative»; unblindable primaries, same design
   ceiling. Its team is disjoint from Currier's but its evidence base is shallow, so it broadens the
@@ -539,7 +1015,5 @@ surrogate, and the ranking of surrogates matters more than the ranking of prescr
 
 
 [inferred from @currier2023]
-
-</div>
 
 ## References

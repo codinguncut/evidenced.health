@@ -18,8 +18,6 @@ protein (soy, pulses), viscous (soluble) fibre, and plant sterols — each carry
 Canada / EFSA LDL health claim. The question this page answers: **how large is the pooled LDL/apoB
 effect, and how far does it travel toward patient-important outcomes?** [@chiavaroli2018portfolio]
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Effect estimate — on surrogates only
 
 Pooled SR+MA of 7 controlled-trial comparisons, 439 hyperlipidemic participants, Portfolio pattern
@@ -40,8 +38,6 @@ on an NCEP Step II background vs NCEP Step II alone, median \~4 weeks. [@chiavar
   events. [@chiavaroli2018portfolio]
 
 Full table with I2/p-values on the source page.
-
-</div>
 
 ## The surrogate ceiling — the transmission is borrowed, not shown
 

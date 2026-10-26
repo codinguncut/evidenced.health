@@ -12,7 +12,6 @@ updated: 2026-10-06
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **When you eat is a smaller lever than almost anyone selling it believes.** When trials hold calories
 steady and vary only the clock, the eating window adds no significant weight loss to what the calorie
@@ -32,9 +31,6 @@ short window took a large share of its small weight loss from lean tissue; and a
 weight with a hormonal headwind that persists for at least a year. And for the biggest weight lever of
 all, a drug now beats anything fasting can deliver.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Holding calories constant, the eating window adds no significant weight loss
 
@@ -57,7 +53,6 @@ honest verdict is a **decomposition**, not a discovery: the umbrella word "fasti
 distinct exposures, and the daily-window version works mainly as a way to deliver a deficit; no
 trial held here shows it acting as an independent lever. [inferred from @liu2022; @semnaniazad2025]
 
-</div>
 
 ## Eating more often is not a weight lever either
 
@@ -73,8 +68,6 @@ more.
 [inferred from @liu2022]
 -> [[Time-Restricted Eating]].
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Eating earlier moves a few markers, on the weakest possible evidence
 
@@ -103,9 +96,6 @@ constraint on the eTRF signal, not shielded from it.
 run a window, put it early -- the better-supported bet, but the support is weak
 -> [[Surrogate Outcomes]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Among fasting styles, alternate-day edges the rest -- by a margin that fades
 
@@ -126,9 +116,6 @@ Read that as *no durable schedule advantage was demonstrated*, not *the two are 
 regimen label is second-order: pick the pattern you will actually adhere to, because adherence, not the
 schedule, is what the deficit rides on -> [[Time-Restricted Eating]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A short eating window may cost you muscle
 
@@ -165,9 +152,6 @@ case rests on a single, non-randomised comparison between trials.
 so whether the same protection holds in younger dieters was not tested
 -> [[Resistance Training During Caloric Restriction]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A deep, sustained deficit is a real therapy -- and that is about magnitude, not timing
 
@@ -198,7 +182,6 @@ weight loss (>=5% reduces liver fat, 7-10% improves inflammation, >=10% improves
 on liver fat. [@easl2024] Both sources point
 one way: the deficit is the medicine; the timing is packaging.
 
-</div>
 
 ## Prolonged fasting and autophagy are a separate exposure the evidence does not cover
 
@@ -211,8 +194,6 @@ against a patient-important outcome, so autophagy stays a *mechanism*, never a r
 longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic multi-day low-calorie
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
@@ -266,9 +247,6 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A drug now dwarfs the biggest effect fasting can offer
 
@@ -290,7 +268,6 @@ tax, so it is a maintained
 commitment, not a one-time fix. And it is the same weight lever by a different route -- combinable with
 diet, not either/or -> [[Semaglutide for Cardiovascular Risk in Obesity]].
 
-</div>
 
 ## Meal timing gets attention out of all proportion to its effect
 
@@ -303,8 +280,6 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 [inferred from @semnaniazad2025]
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The bottom line
 
@@ -349,7 +324,5 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
-
-</div>
 
 ## References

@@ -52,8 +52,6 @@ cardiovascular disease and a body-mass index... of 27 or greater but no history 
 **secondary-prevention** population (prior MI, stroke, or symptomatic PAD), non-diabetic, with a placebo
 event rate of 8% over 3.3 years (\~2.4%/yr).
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The primary-prevention gap — stated by the trialists themselves
 
 This is the load-bearing limit, and it is not the wiki's inference — it is the paper's own:
@@ -85,10 +83,6 @@ population.
 2. **The relative effect itself may not transport.** Mechanism (plaque already present vs not) differs
    between secondary and primary prevention; SELECT cannot speak to it.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Confirmed vs widely-repeated — the hierarchical-testing catch
 
 Only the **primary composite** is a confirmatory result. The pre-specified gatekeeping hierarchy tested
@@ -110,11 +104,6 @@ downstream is a point estimate, not a confirmed effect:
 
 
 [@lincoff2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Weight loss: the drug route to the biggest lever
 
 > body weight «-9.39» % vs «-0.88» % (difference «-8.51 (-8.75 to -8.27)» percentage points at week 104);
@@ -170,11 +159,6 @@ transmission channel.
 
 
 [@lincoff2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The adherence cost is part of the effect
 
 An intervention not taken has no effect, and semaglutide has a real tolerability tax:
@@ -234,11 +218,6 @@ treatment is required to maintain improvements in weight and health»
 
 
 [@lincoff2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Diabetes prevention — a secondary signal that fits the prediabetic stratum
 
 Two-thirds of SELECT was prediabetic. Progression to diabetes was cut sharply:
@@ -253,9 +232,6 @@ caveat.
 
 
 [@jastreboff2022]
-
-</div>
-
 ## Tirzepatide (SURMOUNT-1) — the class efficacy high-water, but surrogate-only and CV-untested
 
 The best-evidenced *drug* on this page is semaglutide, but it is no longer the strongest **weight**
@@ -332,8 +308,6 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 
 [@lincoff2023]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Provenance and limits
 
 - **Industry origin:** both trials were «Funded by Novo Nordisk»; STEP-1 was sponsor-designed («The sponsor
@@ -372,10 +346,6 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 [inferred from @lincoff2023; @wilding2021]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Obese + established CVD + non-diabetic:** semaglutide is a strong incremental option — NNT \~67 for
@@ -391,11 +361,6 @@ is unproven for this agent. Against semaglutide it offers more weight loss but *
 
 
 [inferred from @lincoff2023; @wilding2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The non-cardiometabolic ledger has its own home
 
 The CV/weight case above is only half the drug decision; the **non-cardiometabolic effects and harms**
@@ -415,8 +380,6 @@ findings there bear directly on this page's decision:
 
 Most other non-cardiometabolic signals are exploratory (single-trial-fragile), so they refine rather
 than reverse the net-benefit picture above.
-
-</div>
 
 ## The cross-drug placement — sole hard-outcome drug, but the signal is this page's own trials `[2026-08-22, Nong]`
 
@@ -442,8 +405,6 @@ the mortality signal remains a **route-(a)** finding concentrated where CV risk 
 [inferred from @nong2026obesity]
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Gaps this opens
 
 - **No obesity-drug trial has shown hard-outcome benefit in a primary-prevention population** — earlier
@@ -456,7 +417,5 @@ the mortality signal remains a **route-(a)** finding concentrated where CV risk 
 - **No head-to-head** of drug vs sustained lifestyle vs bariatric surgery on hard outcomes.
 - **Weight loss on hard outcomes as an exposure in its own right** (independent of the drug) is still
   unheld -> [[Weight Loss and Mortality]] (a future page, not yet a held source).
-
-</div>
 
 ## References

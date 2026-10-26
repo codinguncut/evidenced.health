@@ -42,8 +42,6 @@ at arm's length. Everything here is **observational**; the headline associations
 substantially** once lifestyle and socioeconomic status are adjusted, and no hard-outcome RCT exists.
 
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The score and the magnitudes
 
 The score was developed in 147,642 PURE participants (21 countries) and replicated in five independent
@@ -88,8 +86,6 @@ area under the ROC curve is only **0.61 (mortality), 0.54 (major CVD), 0.58 (com
 orders *populations* on risk; it does not tell an *individual* their fate. A per-quintile 6-8% relative
 shift on a modest baseline is a small absolute effect for most people
 ([[Baseline Risk and the Relative-Absolute Split]]).
-
-</div>
 
 ## The dose-response knee — the lever is raising LOW consumers to moderate
 
@@ -139,8 +135,6 @@ the appeal-to-nature trade-off). For the reasonably-healthy, adequately-fed defa
 protective-food rocks are largely already pulled. The direction-of-guidance question this raises
 -> [[Which Objective Moved This Recommendation]].
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Which score is best? Barely matters — except the Planetary score, which was null
 
 PURE compared its score head-to-head with five others on its own participants (Table 4). «The PURE
@@ -170,8 +164,6 @@ Mediterranean 0.96 / 0.55; HEI-2010 0.93 / 0.55; DASH 0.96 / 0.53; **Planetary (
   PURE's signal. Whether that is a real demerit of the EAT-Lancet pattern or an artifact of scoring it
   on a population where those foods are protective is unresolved here (its non-health / environmental
   objective is a different axis this wiki does not price — name it, do not net it).
-
-</div>
 
 ## No single component carries it — and the score is reachable many ways
 

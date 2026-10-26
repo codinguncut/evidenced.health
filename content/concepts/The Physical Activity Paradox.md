@@ -8,7 +8,7 @@ cluster: occupation
 nucleus: true
 confidence: low
 created: 2026-08-14
-updated: 2026-09-04
+updated: 2026-10-22
 self_critiqued: 2026-09-04
 relationships:
   related_to:
@@ -64,11 +64,13 @@ this is a two-category HR, and heterogeneity in the male estimate was high (I2 =
 The apparent clash with [[Physical Activity Dose and Mortality]] («more activity, lower mortality»)
 dissolves on a same-quantity check: the two are **different exposures under one word**, so this is a
 type-B disambiguation and a type-F refinement of the dose page, **not** a joined tension.
+(corrected 2026-10-22: the *typical pattern* cell read *short moderate-vigorous bouts* beside the
+device total-PA HR; device total PA is any-intensity movement, mostly light by time, not MVPA bouts.)
 
 | Parameter | Leisure / total PA (dose page) | Occupational PA (Coenen) | Same quantity? |
 |---|---|---|---|
 | Exposure | leisure-time / total movement volume | activity performed *at work* | **NO** — different domain |
-| Typical pattern | short moderate-vigorous bouts, long recovery | ≥40 h/week, static/repetitive, little recovery | NO |
+| Typical pattern | leisure: voluntary bouts with recovery between them; device total PA (the \~0.27 row below): total accelerometer counts per wear-minute across all intensities (by time mostly light) | ≥40 h/week, static/repetitive, little recovery | NO |
 | Measurement | accelerometer / harmonised self-report | self-report (all included studies) | NO |
 | Contrast | most-active vs least-active quartile | high vs low occupational category | NO — non-comparable |
 | Direction on mortality | lower (HR down to \~0.27 total PA) | **higher** in men (HR 1.18) | **NO — opposite** |

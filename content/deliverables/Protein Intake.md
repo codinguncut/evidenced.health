@@ -196,8 +196,6 @@ plant shift costs a few extra grams or a pairing, not a compromise on either goa
 Who these dials matter for is not uniform. The amount, the timing, and whether supplements help at all
 depend hard on the stratum.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Who needs more, and who can stop optimizing
 
 The daily number is not one number. Who should raise protein, who has already pulled the lever, and
@@ -328,8 +326,6 @@ a gap, not a scaled-down lean or reference target. Any per-stratum lean scaling 
 sign-uncertain, and never a finding: the obese carry more absolute lean mass, which pushes a per-lean
 target up, not down.
 
-</div>
-
 ## The evidence is mostly on surrogates — the honest ceiling
 
 Almost every number in this appraisal measures a stand-in, not the thing you care about. Muscle mass,
@@ -345,8 +341,6 @@ trial exists [@devries2018]. The muscle
 case carries its own gap. Low muscle mass independently predicts mortality — a link de Santana found is
 not fully explained by muscle strength [@santana2021] — but
 that *raising* mass lowers it is unproven.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What to do — and the question none of it answers
 
@@ -375,7 +369,5 @@ you function or how long you live.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
-
-</div>
 
 ## References

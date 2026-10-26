@@ -30,8 +30,6 @@ gold-tier, CC-BY) is the first meta-analysis to compare the two *while controlli
 deficit* — so it isolates the lever from the deficit size.
 [inferred from @recchia2023]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The finding — exercise wins per unit deficit; the raw picture is the opposite
 
 Both interventions cut visceral fat vs eucaloric controls, and there are **two distinct comparisons that
@@ -86,8 +84,6 @@ dose-response was flat — so WC is an imperfect stand-in for the visceral depot
 | Deficit-adjusted comparison (meta-regression) | superior: ES −0.18 (−0.33 to −0.04), p=0.012 (favours exercise) | reference | **Yes** — the isolating comparison (statistical adjustment, not matched arms) |
 | Waist circumference (absolute) | −3.15 cm | −4.67 cm | Yes — but WC ≠ visceral depot |
 | GRADE certainty | moderate (down 1: bias, heterogeneity) | moderate (down 1: bias) | «moderately confident that the true effects are likely to be close to the estimates» |
-
-</div>
 
 ## Why exercise preferentially targets visceral fat — the mechanism
 
@@ -158,8 +154,6 @@ the smaller number of studies available for analysis, compared with exercise stu
 [@recchia2023] (16 vs 46 effects).
 Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **If visceral fat / cardiometabolic risk is the target, weight the deficit toward exercise.** Per unit
@@ -195,8 +189,6 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 
 [inferred from @recchia2023]
 
-</div>
-
 ## Limits
 
 - **The exercise effect is small.** «the overall effect of exercise as well as its dose–response effect on
@@ -212,8 +204,6 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
 - **Single-source, `confidence: low`** — one gold MA carries the head-to-head; the cross-links to
   compensation and the surrogate warning are the wiki's weave, not independent replication of the
   head-to-head itself.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Self-critique `[run 2026-08-06, before commit]`
 
@@ -250,7 +240,5 @@ Do **not** read CR's null slope as "diet dose doesn't matter for visceral fat."
   resistance split O'Donoghue reports.
 - **Scope guard:** O'Donoghue's WC figures and the modality ranking carry their CIs and the stratum
   (adults with obesity); the full ranking is kept on its own page, not duplicated here.
-
-</div>
 
 ## References

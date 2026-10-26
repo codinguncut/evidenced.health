@@ -75,8 +75,6 @@ The move is the same one the fabric already makes for single foods: an observed 
 not evidence for any one of its components, and the benefit of a fruit-and-vegetable pattern resists
 being pinned to any single compound -> [[Is the Food Category Doing Any Work]], [[Fruit and Vegetable Intake and Health]]. Here the "population" is a diet and the "component" is its signature food.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Not every diet is pure removal — the discriminator
 
 
@@ -89,8 +87,6 @@ this page defines, but it is non-trivial, because the control was not a junk-hea
 least part of the credit sits with the addition rather than a junk removal alone — even though the trial
 cannot separate the oil from the nuts from the whole gestalt. The test is therefore per diet: **does a
 distinctive addition survive a comparator that is not itself junk-heavy, or does only the exclusion?**
-
-</div>
 
 ## Decision relevance
 

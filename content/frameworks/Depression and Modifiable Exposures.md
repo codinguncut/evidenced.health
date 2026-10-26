@@ -24,7 +24,7 @@ relationships:
     - Acute Carbohydrate Effects on Mood
     - Magnesium Supplementation and Subjective Anxiety
 created: 2026-08-09
-updated: 2026-09-28
+updated: 2026-10-22
 self_critiqued: 2026-09-28
 ---
 

@@ -2,24 +2,26 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Franklin, Barry A.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche; Filippini, Tommaso; Naska, Androniki; Kasdagli, Maria‐Iosifina; Torres, Duarte P.M.; Lopes, Carla Maria Moura; Carvalho, Catarina; Moreira, Pedro Augusto Maciel; Malavolti, Marcella; Orsini, Nicola; Whelton, Paul Kieran; Vinceti, Marco; Di Federico, Silvia; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe]
 sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
   Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
   Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
   Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020,
-  Katagiri - Excess Iodine Thyroid Diseases 2017]
+  Katagiri - Excess Iodine Thyroid Diseases 2017, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Graudal - Low vs High Sodium Cochrane 2020,
+  Filippini - Potassium Blood Pressure Dose-Response 2020, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023]
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - The Estimate-to-Action Gap
     - Nut Consumption and Mortality
     - Alcohol and Mortality and Vascular Disease
+    - Does Light Drinking Raise Blood Pressure
     - Sodium Intake and Blood Pressure
     - Measurement Error in Dietary Assessment
     - Non-Sugar Sweeteners
@@ -37,6 +39,7 @@ relationships:
     - Dairy and Cognitive Decline
     - Central Adiposity and All-Cause Mortality
     - Excess Iodine Intake and Thyroid Disease
+    - Potassium Intake and Blood Pressure
 ---
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
@@ -96,8 +99,6 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where it applies in the wiki
 
 *Worked-instance catalog — per-exposure applications of the diagnostic; content, not revision history.*
@@ -114,6 +115,38 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     endpoint is BP, not mortality/IHD, so it confirms *no protective arm* on a new outcome rather than
     re-settling the mortality J — a randomised design being the strongest form of the interventional check
     the decision rule asks for.
+    - *Qualified 2026-10-22 (resolves the review flag raised by the Filippini instance's rule).* Two
+      parts of the sentence above carry less than the rest. The **threshold at 2 drinks** is a
+      between-trial contrast: trials are pooled by baseline band and a meta-regression on baseline
+      intake does the work («Alcohol intake at baseline explained 75·4% of the between-study variance
+      in systolic blood pressure, and 93·4% in diastolic blood pressure»), and the <=2 stratum also
+      cut the least alcohol (weighted mean -15 g/day vs -30, -40 and -32 g/day in the higher bands).
+      Below 2 drinks the 5 trials give SBP -0.18 (-1.02 to 0.66) and DBP +0.61 (-0.04 to 1.26); in
+      the band's high-CVD-risk subgroup (4 trials) DBP is +1.30 (0.14 to 2.47).
+      [@roerecke2017alcohol]
+      So the threshold rests on a between-trial contrast, and **flat below 2** means no significant fall,
+      not a shown zero. The **no-protective-arm** direction stands for SBP: it rests on pooled
+      within-trial randomised contrasts, and no band shows cutting alcohol significantly raising SBP.
+      DBP is weaker: in the <=2 band cutting moved DBP up, non-significantly overall and significantly
+      in the 4-trial high-CVD-risk subgroup (a between-trial split, hypothesis-grade).
+      [inferred from @roerecke2017alcohol]
+  - **A low-dose cohort curve with no lower arm and an unreported referent `[2026-10-22, Di Federico]`
+    `type-F/G`.** Seven cohorts (19,548 adults, 4-12 y) give a near-straight fitted BP-change curve from
+    the zero referent with no threshold shown: SBP 1.25 (0.49 to 2.01) mmHg at 12 g/day vs «no alcohol consumption».
+    [@difederico2023alcbp]
+    The studied range is 0 to \~55 g/day (plotted extent, figure read), with no formal non-linearity
+    test in the main text. The referent's make-up is not reported in the main text
+    `[searched: former / never across chunks 01-02, srcgrep 0 / 0]`, so the referent check cannot be
+    run. Every point on the curve is a contrast against that referent, and a 3-knot spline pinned at
+    zero cannot isolate a step at zero, so contamination could tilt the whole fitted curve, not only its
+    lowest step; on a BP-change outcome the direction of such a distortion is unsigned. The overall
+    curves are monotone over the studied range (women's and North Americans' DBP are not), so the
+    diagnostic has no protective arm to discount here. Set against Roerecke's <=2-drink trial null it
+    is a distinction, not a joined issue. The two measure different quantities (weeks-scale BP level vs
+    years-scale BP change) and are consistent once matched. Overall DBP intervals fail to overlap only if
+    the cohort difference is read as a level effect reversing within weeks, and they touch in
+    women only (no men-only <=2 trials) -> [[Does Light Drinking Raise Blood Pressure]].
+    [inferred from @difederico2023alcbp; @roerecke2017alcohol]
   - **The CANCER outcome has no lower arm to adjudicate — the J is outcome-specific `[2026-08-27, Bagnardi]`
     `type-F`.** Bagnardi 2014's site-specific dose-response MA (572 studies) finds the aerodigestive and
     breast curves rise *monotonically from zero*, significant already at light drinking (breast light 1.04,
@@ -442,6 +475,18 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   arm from *argued* to *directly observed* while leaving it **unadjudicated** — the [PRIOR] does not close
   here. The policy clash this feeds is [[Should Sodium Reduction Be Population-Wide or Targeted]].
   [inferred from @mente2016pure]
+  **The opposing camp argues the arm real, also without the strong check `[2026-10-22]`.** Graudal 2020
+  (Cochrane, RCTs of BP and markers only) defends the cohort low arm with weak checks: a pooled table of
+  adjusted cohorts using the healthiest subgroups (all-cause mortality, RR/OR 0.84 or 0.87, usual vs low
+  intake; the table includes PURE itself, RR 0.62, so it is not independent of the PURE arm above) and NHANES data
+  showing sick and healthy people eat the same sodium, against reverse causation; and against measurement error the claim that
+  misclassification is «not systematic, but random... which contributes to an underestimation of the
+  outcome, but do not cause a change of the direction of the outcome».
+  [@graudal2020sodium] That covers classical
+  error only; the unequal-precision mechanism above is the one this random-error argument does not reach.
+  So the sodium arm now has weak checks on Graudal's side, a dismissal on the other, and the strong
+  check (referent correction or a genetic/objective test) on neither.
+  [inferred from @graudal2020sodium]
 - **Coffee CANCER mortality — a worked referent-correction whose confounder pushed the OPPOSITE way to
   alcohol `[2026-08-04, Grosso + Poole]` `type-F`.** Grosso 2016 (dose-response MA, 31 cohorts, 1.6M)
   performs the smoker/non-smoker **referent correction** the coffee page flagged as pending. Its cleanest,
@@ -891,11 +936,85 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     independent-E (a new exposure sharing the one diagnostic) -> **type-F** -> [[Dairy and Cognitive Decline]].
     The lesson for the concept: **before believing a dose-response knee, check that a single population
     spans the range** — a spline across non-overlapping cohort supports can manufacture a knee at the seam.
+- **Very high exercise volume -> mortality / CV outcomes — the *extreme-exercise hypothesis* upper arm
+  `[2026-10-21, Franklin]` `type-F`.** The suspect arm here is the *upper* one: the claim that the most
+  active lose part of the benefit. An AHA scientific statement (consensus, no stated search) walks three
+  cohort cases and offers a hedged explanation for each.
+  [@franklin2020acute]
+  - **Small top groups.** «the relatively small sample sizes of the most active sub- groups (typically
+    <5% of the total cohort)» «may» explain the wide intervals; Schnohr's strenuous joggers were n=36 with
+    2 deaths, HR 1.97 (0.48–8.14). [@franklin2020acute] That is the
+    unequal-between-group-precision mechanism: a thin top cell widens the interval and lets a point
+    estimate drift up without any bias.
+  - **Confounding.** Armstrong's daily strenuous exercisers (Million Women) had smoking «25.6% versus
+    13.3%» and lower socioeconomic status «20.1% versus 13.1%» against 2-3x/week exercisers, which «might
+    explain this finding in part». [@franklin2020acute]
+  - **A different exposure, not only a different coding.** Lear's attenuation in the most active
+    «disappeared when recreational and nonrecreational physical activities were combined».
+    [@franklin2020acute] Total activity adds occupational activity, which the occupational-activity instance above
+    treats as a separate exposure with its own harm signal, so this result fits the artifact and the causal
+    reading equally well and is not a diagnosis.
+  - **What the hedges leave unexplained.** The statement's own Table 4 shows the most-active estimate
+    attenuated in every cohort with separate optimal and most-active groups, including two where the top
+    group is not small: Lee 2584 vs 2570 people, HR 0.67 (0.55–0.80) vs 0.77 (0.63–0.92); Maessen 2127 vs
+    2130, OR 0.31 (0.20−0.48) vs 0.43 (0.28−0.65). [@franklin2020acute] Small cells cannot explain a
+    same-direction attenuation in groups of equal size. Most top groups stay below 1.0 against the inactive
+    referent, so the arm is a smaller benefit, not harm.
+  - **Verdict, as the statement gives it:** «In aggregate, there is currently no evidence to reject the
+    curvilinear association (Figure 8A) between exercise volumes and cardiovascular health outcomes, with
+    AF as a possible exception.» [@franklin2020acute] AF keeps a J-shape in a nonlinear meta-regression (19
+    studies, 29,855 AF cases). [@franklin2020acute] In cardiac patients the statement calls the evidence
+    U-suggestive but conflicting (Mons, CHD, 7 sessions/wk: HR 1.77 [0.90−3.47]; Stewart, n=15,486, a
+    graded reduction). [@franklin2020acute]
+  - What it adds to the concept: an upper arm that is **attenuation of benefit, not harm vs the
+    referent**, and a verdict that splits by **outcome** (AF) and by **stratum** (cardiac patients). In the
+    general population the arm is **not supported**, not **refuted**: the adjudication is by hedged
+    diagnosis of mechanism, not by the referent-correction or genetic check the decision rule asks of a
+    protective arm, and part of the attenuation stays unexplained. The statement is a narrative review
+    citing these cohorts, not an independent analysis of them -> **type-F**, no `[E-independent]`.
+    Applied page: [[Physical Activity Dose and Mortality]].
+- **Potassium supplements and BP -- a U drawn through randomized trials, whose shape is still
+  between-trial `[2026-10-22, Filippini]` `type-F/G`.** A 1-stage spline meta-analysis of 32 RCTs (1764
+  participants) reports a «U‐shaped relationship» with BP rising above an \~80 mmol/d arm difference in
+  urinary potassium. [@filippini2020potassium]
+ This stretches the concept on two counts: the data are randomized, and the arm under test
+  is a high-dose *harm* arm, not a protective low arm. Each 2-arm trial contributes one randomized
+  contrast over its own dose interval, so **the curve's shape comes from comparing trials**, which
+  randomization does not protect. The recipe's confounding leg is possible but unsigned: the 6 trials
+  above 80 mmol/d are all crossover, all untreated or normotensive, and 3 come from one group, so the
+  high-dose region is not like-for-like with the rest, and the paper signs those differences both ways.
+  Untreated hypertensives fell more on the forest plot, which would mask a rise: «Among those with hypertension, potassium supplementation was on average more effective in lowering BP in participants not using antihypertensive medication compared with those receiving antihypertensive drug treatment»;
+  though on the achieved-axis spline drug use «did not appear to be associated with major changes in the effect of achieved potassium intake on BP levels»;
+  normotensives (2 of the 6 trials) fell less, which could manufacture one: «a larger BP decrease following potassium supplementation in those with compared with those without hypertension»; and design
+  reverses between analyses: «In an analysis stratified by trial design (crossover versus parallel), the dose‐response analysis showed a larger BP decrease in the latter group, but there was a higher increase in BP in those receiving the largest supplementation, starting at approximately a higher excretion of ≈30 mmol/d, in either the overall population or those with hypertension»
+  (the latter group = parallel), while
+  «The corresponding forest plot analysis showed a larger BP decrease in the crossover studies, in the total sample and analyses restricted to those with hypertension».
+  [@filippini2020potassium]
+  [inferred from @filippini2020potassium] These are between-trial averages, not dose-specific, and the one-lab cluster has no known
+  direction, so they neither explain the rise away nor show it to be real.
+  (The paper's design-stratified spline also reports a rise from \~30 mmol/d among the largest
+  supplementations, read here as the parallel trials, and the >=12-week subset (N=5; the 4 identifiable in Table 1 are all parallel) a
+  BP-raising effect below 60, both figure-only and the latter «statistically imprecise»; so the rise is
+  not confined to the crossover trials, though no parallel trial reaches the >80 region.) The problem
+  that does the work is not on the list: *sparse-tail imprecision*. Those 6 trials hold 109 participants, and every *reported* interval at the high end (90 and 120
+  difference; 150, the plateau's edge, and 180 achieved) includes 0. That is random error, which leaves the arm unestimated
+  rather than manufactured. The paper also places the rise in different subgroups in its abstract,
+  Results and Discussion, and runs no formal non-linearity test.
+ Verdict: the BP fall from moderate supplementation is robust as a pooled randomized contrast
+  (forest SBP -3.9, -5.2 to -2.6; the spline puts -3.3, -4.9 to -1.6, at a 30 mmol/d difference). The **shape** of both arms is
+  between-trial. The low end is better populated and its intervals exclude 0 (+3.9, 2.1 to 5.8, at 60 vs
+  90 mmol/d achieved), though the +9.1 at 30 mmol/d sits below the lowest control arm (34 mmol/d). The
+  upper arm is **unadjudicated**.
+  [@filippini2020potassium]
+ The rule this adds: *pooled from RCTs* does not make a dose-response shape randomized. The
+  strong check is not MR or a referent correction but a **within-trial multi-dose comparison**. The rule
+  applies back to the alcohol->BP entry above: Roerecke's closest-to-randomized part is each trial's own
+  reduction->BP change (some of its *reduction* groups are reducing control arms: «If a control group in a parallel-group trial reported a reduction in alcohol consumption, we included it as a “reduction of alcohol” group.»
+  [@roerecke2017alcohol]); its threshold at two drinks per day is between-trial too.
+  Applied page: [[Potassium Intake and Blood Pressure]].
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
-
-</div>
 
 ## Corrections and revision history (dated strata)
 

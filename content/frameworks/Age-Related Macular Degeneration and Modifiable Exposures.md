@@ -171,8 +171,6 @@ infarction and subclinical-CVD risk). AMD and CVD share a vascular/atherosclerot
 precedes which is unresolved — the safe reading is co-occurrence / shared risk substrate, not
 CVD-causes-AMD.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Antioxidant + zinc supplementation (AREDS formula) — RCT-backed *benefit* on progression, defined stratum
 
 Evans 2023 — a gold Cochrane SR+MA — is the first **intervention** arm on this page — RCTs in people who
@@ -226,8 +224,6 @@ not genotype.
 well-nourished American population where supplementation is common – can be extrapolated to other
 settings and populations is unclear.» [@evans2023amdsupp]. Whether the benefit is enhancement or correction of a marginal-intake state
 is untested — a well-nourished cohort cannot separate them.
-
-</div>
 
 ## Decision relevance (Layer 1)
 

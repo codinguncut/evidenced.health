@@ -401,8 +401,6 @@ soaking-and-cooking step that lowers the toxicity worry also raises protein qual
 
 The other worry is sugar — specifically, whether the sugar in fruit is a problem.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Whole fruit is not a sugar problem
 
 The worry about sugar in fruit dissolves at the definition. **WHO's free-sugars limit excludes the
@@ -460,8 +458,6 @@ whole fruit from processed forms, not one fruit from the next.
 
 So how much does any of this matter, set against the big levers?
 
-</div>
-
 ## Where plant-food choice sits on your list of levers
 
 If you already eat a varied plate of whole plant foods, **the big plant-food
@@ -503,8 +499,6 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What to do
 
 **Pull two levers.** Get fibre up toward \~30 g/day — by any route, a high-fibre
@@ -535,7 +529,5 @@ event benefit.
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
-
-</div>
 
 ## References

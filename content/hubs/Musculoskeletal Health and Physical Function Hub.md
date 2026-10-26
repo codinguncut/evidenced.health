@@ -2,7 +2,7 @@
 type: hub
 question: How do muscle, bone, strength, and physical function change with age, which of them predict outcomes vs are modifiable levers, and how do protein, resistance training, and supplementation move them?
 created: 2026-08-06
-updated: 2026-10-04
+updated: 2026-10-22
 ---
 
 Navigator for the muscle-bone-function domain — the substrate of the older-adult health-lever question:
@@ -27,8 +27,6 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   disease independently of aerobic activity, and at what dose — the interventional test of the
   observational muscle-mortality associations above
 
-<div class="recent-update" data-last-updated="2026-10-04">
-
 ## Building and keeping muscle (the levers)
 
 - [[Anabolic Resistance]] — the mechanism behind the older-adult protein target: aging blunts the
@@ -37,6 +35,8 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
 - [[Resistance Training Prescription - Load Sets and Frequency]] — how to program RT (load for strength,
   volume for hypertrophy), the minimal effective dose, and why any-RT-beats-none dwarfs the
   between-protocol gap; the closest-to-patient-important signal is physical function in older adults
+  (plus the secondary dials: rest interval, time of day, exercise order, range of motion, effort/failure,
+  progression, and beginner defaults)
 - [[Power Training and Physical Function in Older Adults]] — whether training MODE (high-velocity power
   vs conventional slow strength) matters for physical function in older adults: power beats strength on
   function tests (SMD 0.43, GRADE HIGH) and on muscle power (0.99), but no trial measured daily-life
@@ -56,12 +56,23 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   safety in older adults insufficient-evidence
 - [[Exercise Interventions and Sports Injury Prevention]] — which exercise prevents sport injury:
   strength training cuts injuries to <1/3 (RR 0.315, the standout), proprioception helps, STRETCHING
-  does not (tight null); RT's one causal-grade patient-important outcome, in young athletes
+  does not (tight null); RT's one causal-grade patient-important outcome, in young athletes; structured
+  warm-up programmes (FIFA 11+-type) cut youth-sport injuries by about a third (IRR 0.64), compliance-dependent
+- [[Flexibility Training and Stretching]] — what regular stretching does: joint range of motion (ACSM 2011
+  grade A), gained in 3-4 wk and lost within 4-8 wk of stopping; a graded dose (≥2-3 d/wk, 60 s per stretch,
+  10-30 s holds, after exercise); an RCT-MA null for injury; a Cochrane near-zero effect on next-day
+  soreness (about 1 point on 100, benefit above \~6 points excluded; one 12-week field trial 32% -> 25% of
+  weeks with bothersome soreness); among single-session recovery techniques (Dupuy 2018 MA) stretching is
+  the null one, massage/compression/cold water show unblinded SMD reductions; an acute strength/power cost when done right before
 - [[Tendon Adaptation to Mechanical Loading]] — the connective-tissue layer under the strength-training
   benefit: high load MAGNITUDE (not contraction type) stiffens tendon (stiffness SMD 0.70; high- vs
   low-intensity 0.90 vs 0.04), mostly via material not size change; outcomes are surrogates (no injury
   measured), and tendon adapts SLOWER than muscle — the rate mismatch that argues for a gradual load
   ramp, most of all in the deconditioned/obese novice; evidence is young active men (Bohm 27-study SR-MA)
+- [[Exercising Into Pain for Chronic Musculoskeletal Pain]] — must rehab exercise for chronic tendon/fascia/back pain stay
+  pain-free? No outcome support for a strict pain-free rule: pain-allowed protocols (mostly heavier loading, pain up to \~5/10
+  settling by next morning) gave a small short-term pain edge (SMD -0.27, moderate) and no long-term difference; pain vs load not
+  separable, harm not measured (Smith gold SR-MA, 7 RCTs, 385)
 - [[Training Load Progression and Running Injury]] — the epidemiological counterpart: does ramping running
   volume too fast cause injury, and is the "10% rule" sound? INSUFFICIENT evidence for the causal claim
   (4 heterogeneous studies, 3 weakly positive, no meta-analysis) and NO evidence for the 10% figure — the
@@ -95,10 +106,6 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   physical function (SMD 0.36, GRADE low) but not blood biomarkers (null) over \~12 wk — the body-comp gain
   is **fat-loss-weighted, not demonstrated muscle gain** (Polo-Ferrero 9-RCT MA); a distinction from the
   Sardeli RT-during-deficit question, not a tension; surrogate outcomes, mostly women
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-04">
 
 ## Bone, joints, and fracture
 
@@ -146,5 +153,3 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   at total hip), but BMD is a SURROGATE — the moderators (bone/menopausal status, supervision) are all
   null, and transmission to fewer fractures is not shown here (the falls channel, BMD-independent,
   carries the larger fracture signal); same-group non-independence caps confidence
-
-</div>

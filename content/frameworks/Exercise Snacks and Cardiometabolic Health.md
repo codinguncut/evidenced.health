@@ -19,8 +19,6 @@ created: 2026-10-04
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 **What the exposure is.** An *exercise snack* (ExSn) means
 «incorporating short bursts of high-intensity physical activity into daily routines» —

@@ -35,8 +35,6 @@ Three limbs, four sources (a meta-analysis, an umbrella review, and two RCTs), o
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The surrogate at the centre
 
 Testosterone declines with age and is suppressed by adiposity, and it is easy to measure — so it is the
@@ -48,9 +46,7 @@ outcome trial, which did not measure BMD, found fractures numerically higher —
 juxtaposition, not a within-trial inversion; corrected 2026-10-06, self-critique). For the CV endpoint the RCT shows **safety, not benefit**. So raising T is licensed
 narrowly, and the real levers on the outcomes are adiposity reduction and resistance training.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limb 1 — adiposity suppresses testosterone, and weight loss reverses it
 
@@ -111,7 +107,6 @@ the number directly.
   (Bayer Schering Pharma) — noted, not weighted; the finding is a within-subject before/after effect
   robust across 24 studies.
 
-</div>
 
 ## Limb 2 — testosterone therapy builds muscle *mass*, but function lags and it is a surrogate
 
@@ -141,8 +136,6 @@ surrogate, for confirmed hypogonadism, not a general anabolic. The abstract repo
 participants; the body text reports 28,046 (both give 11 SRs / 121 unique RCTs). An internal source
 discrepancy; the \~20,846 headline is used and the conflict flagged, not resolved.
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limb 3 — the hard outcomes: cardiovascular SAFETY (not benefit), and fractures numerically UP
 
@@ -217,9 +210,6 @@ independent replication** — no `[E-independent]` is claimed. The genuinely sep
 Corona (a different intervention on a different limb) and the *fracture* endpoint (measured nowhere else
 here).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Synthesis — the axis, read by outcomes
 
@@ -260,9 +250,6 @@ separately, and the lifestyle one carries the proven-driver status **without** T
 signals — an evidence-weighting judgment, appropriately, that a head-to-head trial could still
 overturn.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -281,9 +268,8 @@ overturn.
 - **Out of scope (appraise, do not prescribe):** who is a candidate for TRT, dosing, monitoring
   hematocrit/PSA, managing the AFib/PE/AKI risks — prescriber acts needing this person's labs and history.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
+
 
 ## Limits and gaps
 
@@ -318,7 +304,5 @@ overturn.
   not a mortality benefit.)
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks a recommendation against a realized outcome.
-
-</div>
 
 ## References

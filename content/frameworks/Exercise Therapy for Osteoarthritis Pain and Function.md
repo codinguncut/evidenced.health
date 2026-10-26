@@ -17,7 +17,7 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Baseline Risk and the Relative-Absolute Split
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
 
@@ -60,8 +60,6 @@ exercise conferred a moderate» benefit for pain relief (SMD 0.56, 95% CI 0.44-0
   four statistically significant. So the headline figures are somewhat **inflated by the lower-quality,
   heterogeneous trials**, and the defensible lower bound is pain \~0.50 / function \~0.43 — still moderate.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Durability is the decision-changer — the effect decays to nothing by 9-18 months
 
 [@goh2019] «We found a general trend for the
@@ -84,10 +82,6 @@ depending on the outcome.»
   personal beliefs, social support, relationship with provider and ease of access to exercise facilities
   play important roles [30].» [@goh2019] —
   consistent with, not proof of, *contingent on ongoing stimulus*.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Who responds — determinants, and the obesity stratum
 
@@ -132,8 +126,6 @@ effect modifiers**. The BMI *null* is less prone to multiple-comparison inflatio
 but a study-level subgroup null is low-power, so it is *no evidence of modification*, not evidence of
 none (revised 2026-10-06; was: *the more robust read*).
 
-</div>
-
 ## Certainty — why this is moderate, not high
 
 [inferred from @goh2019]
@@ -151,8 +143,6 @@ none (revised 2026-10-06; was: *the more robust read*).
   score for exercise RCTs exists, so robustness was assessed by subgroup/sensitivity rather than a
   quality-restricted meta-analysis.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## How this refines the cluster
 
 [inferred from @goh2019]
@@ -166,10 +156,6 @@ none (revised 2026-10-06; was: *the more robust read*).
   dominant *incidence* lever; the nucleus found weight loss the dominant *symptom* lever; this page adds
   that the *exercise* lever works **regardless of** obesity — so for the obese OA patient the two levers
   are independent and additive, not competing.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Which exercise type? The companion network meta-analysis
 
@@ -252,10 +238,6 @@ MA's hip uncertainty above, from the same project's trials, so it is a refinemen
 confirmation. The awaiting-joint-replacement subgroup likewise shows smaller, uncertain per-type pain
 estimates (strengthening 0.46, -0.28 to 1.18). The authors could not tell «whether the observed differences between exer- cises would persist in the longer term» [@gohtypesnma].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Gaps and open threads (type-G)
 
 - **Exercise-MODE ranking — now held, and it ranks types only weakly.** The companion NMA (section
@@ -288,10 +270,9 @@ estimates (strengthening 0.46, -0.28 to 1.18). The authors could not tell «whet
 - **No long-term disability trajectory.** The outcomes are 8-week-to-18-month pain/function; no source
   here grades exercise against a realized multi-year disability or joint-replacement outcome — the loop
   stays open (R1).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
+- **How much pain to accept during OA exercise is unanswered.** The held meta-analysis of exercising
+  into pain includes no osteoarthritis trials, so its pain-allowance default does not transfer here
+  without a source -> [[Exercising Into Pain for Chronic Musculoskeletal Pain]].
 
 ## Self-critique `[run 2026-10-04, before commit]`
 
@@ -313,10 +294,6 @@ estimates (strengthening 0.46, -0.28 to 1.18). The authors could not tell «whet
 - **Coherence, not validity** (R1): the page reports effect sizes, their decay, and their certainty; it
   does not assert a realized long-term disability benefit — the open loop is named.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Self-critique `[run 2026-10-06, after the NMA addition]`
 
 - Blind re-critique: PASS-WITH-FIXES, all applied — the single-type contrasts are stated as *not
@@ -325,7 +302,5 @@ estimates (strengthening 0.46, -0.28 to 1.18). The authors could not tell «whet
   strengthening null; the pooled result is scoped knee-dominant with the hip exception; the trend test
   is flagged as ordered by the same estimates; the BMI null is downgraded to *no evidence of
   modification*. The NMA is labelled type-F on the pairwise MA (same project, 8/9 authors), never E.
-
-</div>
 
 ## References

@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org)]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org); Di Federico, Silvia; Filippini, Tommaso; Whelton, Paul Kieran; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Vinceti, Marco]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -33,7 +33,7 @@ relationships:
     - Whole Grains Refined Grains and Pulses
     - Non-Sugar Sweeteners
 created: 2026-07-29
-updated: 2026-10-07
+updated: 2026-10-22
 self_critiqued: 2026-10-07
 ---
 
@@ -62,8 +62,6 @@ an obesity drug's CV benefit is unproven outside established disease
 action threshold at low risk ([[Statins for Primary Prevention and the Power of Zero CAC]]). BP-lowering
 alone has a **directly proven relative benefit in primary prevention**, at an IPD-meta-analytic warrant.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## But the ceiling's mechanism survives — treat on absolute risk, not a BP number
 
 The paper does **not** conclude *lower everyone's BP*. Its explicit decision rule is the
@@ -86,8 +84,6 @@ person). [@bplttc2021]
 and GLP-1 CV benefit are not — but the *absolute* benefit still scales with baseline risk, exactly the
 ceiling's mechanism, and the paper legislates the same rule (treat on absolute risk). A constant \~10% per
 5 mmHg on a low absolute risk is a small absolute gain; on a high one it is large.
-
-</div>
 
 ## What it does not settle
 
@@ -149,10 +145,20 @@ understating the sustained one (adherence dilution). The BPLTTC transmission mod
 
 Roerecke's 2017 SR+MA of **36 alcohol-reduction RCTs (2865 participants)**, GRADE-high, is a second
 behavioural BP lever — and it makes this page's *lifestyle-BP-drop-to-events-is-an-assumption* caveat
-concrete. The BP effect is real and dose-dependent but **confined to heavier drinkers**: no significant
-BP change below 2 drinks/day, then dose-dependent above (SBP -1.18 at 3 drinks/day rising to
+concrete. The BP effect is real and dose-dependent but **shown only in heavier drinkers**: no significant
+BP change at 2 drinks/day or fewer, then dose-dependent above (SBP -1.18 at 3 drinks/day rising to
 -5.50 [-6.70 to -4.30] at >=6 drinks/day; overall -3.13 [-3.93 to -2.32]).
-[@roerecke2017alcohol] The magnitude is «similar to that
+[@roerecke2017alcohol]
+*Qualified 2026-10-22:* the <=2 drinks/day band (SBP -0.18, -1.02 to 0.66) shows no fall, not a zero; it
+pools five trials, by weight mostly Mori 2015 (a 4-week crossover).
+[@roerecke2017alcohol]
+A dose-response meta-analysis of seven cohorts finds SBP rose 1.25 mmHg (0.49 to 2.01) more over 4-12 years
+of follow-up at a baseline intake of 12 g/day than with no alcohol.
+[@difederico2023alcbp]
+The trials measure BP level after weeks to months of changed intake, the cohorts the difference in BP change
+over 4-12 years by baseline intake; matched on quantity the two do not clash, unless the cohort difference is
+read as a level effect that stopping would reverse within weeks, which neither source shows; even then
+the SBP intervals overlap and a clash appears only on overall DBP -> [[Does Light Drinking Raise Blood Pressure]]. The magnitude is «similar to that
 of other health behaviour changes, such as physical activity» or weight-loss diets.
 [@roerecke2017alcohol]
 
@@ -167,8 +173,6 @@ alcohol-reduction lever is exactly the case this page flags — a lifestyle BP d
 predicts a \~10% CV-event reduction *if* the pharmacological transmission transfers. Full dose-response
 -> [[Alcohol and Mortality and Vascular Disease]].
 [inferred from @roerecke2017alcohol]
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## A third lifestyle BP route — structured exercise, and the drug head-to-head that does not exist `[2026-08-20, Naci]`
 
@@ -252,10 +256,6 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
@@ -308,10 +308,6 @@ a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), con
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
 Landry's 2024 umbrella adds a diet-pattern BP lever: pooling 16 observational studies (Benatar),
@@ -326,8 +322,6 @@ levers at once -> [[Vegetarian Dietary Patterns and Mortality]]. Read through th
 transmission transfers — and the vegan diet simultaneously moves LDL, BMI and CRP, so the BP channel is
 not separable as the cause. A dietary-pattern BP association, not a titratable lever; the SBP number is
 a surrogate here as for the sodium/alcohol routes above. [inferred from @landry2024vegetarian]
-
-</div>
 
 ## A fifth lifestyle BP route — yoga, the least-warranted of them `[2026-09-23, Geiger]`
 
@@ -348,8 +342,6 @@ supply) the yoga-specific SBP increment is not distinguishable from zero. It ear
 low-cost adjunct for someone who will actually do it, never as a substitute for salt reduction,
 medication, or structured exercise.
 [inferred from @geiger2025yoga; @bplttc2021]
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## A sixth route — garlic, a big clean surrogate mover with no hard-outcome warrant `[2026-09-25, weave: Ried + Ma]`
 
@@ -403,10 +395,6 @@ in the hypertensive stratum for someone who will take it, never as a substitute 
 endpoint.
 
 [inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @bplttc2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Held levers that barely move SBP — fibre, whole grains, sweeteners
 
@@ -470,10 +458,6 @@ short-term SBP question has a moderate-certainty null, and the long-term hyperte
 open.
 [inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Decision relevance
 
 
@@ -498,8 +482,6 @@ open.
   [[Dietary Magnesium and Cardiometabolic Outcomes]], and, for whether sodium reduction should target the
   salt-sensitive or everyone, [[Should Sodium Reduction Be Population-Wide or Targeted]]. Weight loss as
   an events route -> [[Does Weight Loss Reduce Cardiovascular Events]].
-
-</div>
 
 ## Limits
 

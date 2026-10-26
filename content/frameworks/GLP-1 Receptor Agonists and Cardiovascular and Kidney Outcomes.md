@@ -20,7 +20,6 @@ created: 2026-09-05
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 The GLP-1 receptor agonists are a widely-prescribed standard drug class, so their efficacy and limits on
 hard outcomes are a stratum-level decision in their own right (the *Pharmacotherapy taper*). This page
@@ -35,11 +34,6 @@ CKD or diabetes are OUT (prescriber/frontier zone) and not covered here.
 
 
 [@badve2024glp1]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What the meta-analysis pooled
 
 A gold-tier aggregate-data meta-analysis of RCTs (PROSPERO-registered, PRISMA, GRADE, all trials low
@@ -60,11 +54,6 @@ cardiovascular outcome — trials with a surrogate primary outcome, and dual GIP
 
 
 [@badve2024glp1]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Cardiovascular outcomes — a robust class effect, high-certainty
 
 In participants with type 2 diabetes, versus placebo (all high-certainty evidence; with-SELECT figures
@@ -95,11 +84,6 @@ self-critique)
 
 
 [@badve2024glp1]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Kidney outcomes — the class moves a HARD outcome, not just a surrogate (the key refinement)
 
 This is the beyond-the-predecessor move. The prior class meta-analysis (Sattar 2021, not held) reported
@@ -137,11 +121,6 @@ effect is real; the absolute payoff scales with baseline kidney risk (route (a),
 
 
 [@badve2024glp1]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The cost side — net of the drug's own harms
 
 The class benefit must be read net of its costs (the substitution principle: a lever's marginal value is
@@ -161,9 +140,6 @@ net of the alternative's own harms).
   lever). (corrected 2026-10-06: *benefit decays on stopping* -> weight/marker gains revert; CV-benefit
   decay untested.)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Synthesis — Layer-1 sizing: what this shrinks, and what it does NOT
 
@@ -203,7 +179,6 @@ must be relied on to deliver at the margin.
 takes the drug, the lifestyle lever, or both is elicited against adherence, cost, GI tolerability and
 reversibility.
 
-</div>
 
 ## Independence — this is refinement (F), NOT independent backing (E)
 

@@ -9,7 +9,6 @@ updated: 2026-10-06
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-03
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 For most non-pregnant adults, three to four cups of coffee a day is an inexpensive habit more
 likely to help than harm — and no reason to take it up, drink more, or give it up on health
@@ -39,10 +38,6 @@ appraisal speaks to anyone the evidence covers; your own situation and goals com
 end, not here. Every number that follows is an association, so begin with how far to believe
 it.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The appraisal floor: how much to believe it
 
 Almost every number that follows is an *association*, not a demonstrated effect, and the design floor sits low before you weigh a single finding. Poole's umbrella review pools 201 meta-analyses of observational research (67 outcomes) against just 17 of randomised trials (9 outcomes), so it rests overwhelmingly on observational cohorts. And it grades itself honestly. Under GRADE — a structured certainty rating that starts observational evidence low — roughly a quarter of the estimates are *low* certainty and about three-quarters *very low*. The median AMSTAR review-quality score is 5/11, and even the handful of RCT meta-analyses are graded low [@poole2017].
@@ -50,8 +45,6 @@ Almost every number that follows is an *association*, not a demonstrated effect,
 The dominant threat is smoking. Coffee and smoking co-occur, so residual smoking confounding can *manufacture* an apparent harm (lung cancer) or *mask* a benefit — it runs in both directions, not one. Mendelian randomization (MR, a genetic natural experiment immune to reverse causation) is the sharpest available test, and it gives the causal reading no support: the two MR studies Poole cites find **no genetic causal evidence** for coffee->mortality or coffee->type-2-diabetes, «suggesting residual confounding could result in the observed associations in other studies» [@poole2017]. Only the mortality study is read here in full; the diabetes MR is known only through Poole's summary, so its instrument strength and power are unknown. One caveat bounds that: MR «relies on the assumption of linearity between all categories of coffee intake and might not capture non-linear differences» [@poole2017] — for mortality it finds no linear effect but could not exclude one of the observed size [@nordestgaard2016], and neither study can see a non-linear one.
 
 Measurement error pushes the other way. There is no standard cup — bean, roast, grind and brew all vary the dose — so cup-based exposure is coarse, and this non-differential misclassification biases *toward the null*: the true gradients could be steeper, not shallower, not weaker than reported [[Measurement Error in Dietary Assessment]]. None of this makes the associations worthless. Consistency and causal certainty are two different axes that legitimately disagree — a large, consistent association can be graded very-low for causation, and that is two instruments measuring two things, not a contradiction [[The Observational-Trial Discordance]]. For coffee the genetic studies find no support for the causal reading but cannot rule it out, so the honest verdict is insufficient-for-causation, not confirmed: smoking is not the whole story, but the surviving benefit is not established as causal. With that floor set, the first thing the data show cleanly is the *shape* of the dose-response.
-
-</div>
 
 ## The dose-response shape (how much)
 
@@ -83,8 +76,6 @@ cups the cohorts thin out, so an apparent optimum there is more likely the sampl
 knee in the curve.
 
 Shape aside, which outcomes does coffee actually move, in which direction, and how certainly?
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What coffee moves, by evidence state (the outcome menu)
 
@@ -148,10 +139,6 @@ Two of the benefit rows above — all-cause mortality and total cancer — are h
 confounder: coffee drinkers are enriched for smokers, and smoking is the dominant driver of both death
 and cancer. Before either can be read as coffee's doing, it needs the smoking correction.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Smoking confounds the curve: Grosso's referent correction
 
 Grosso 2016 — a dose-response meta-analysis of 31 cohorts, 1,610,543 individuals — performs the never-smoker referent correction [[The U-Shaped Association Artifact]] that Poole's evidence base left pending. It re-runs the coffee-mortality dose-response within smoking strata to see what the dominant confounder was doing. [@grosso2016] Heterogeneity fell in every smoking-stratified model. That is consistent with smoking status as a source of between-study variance, though each stratified model pools only about 5 studies against 24 for the pooled curve, which would also lower it.
@@ -163,10 +150,6 @@ All-cause and CVD mortality tell a different story. The pooled all-cause curve i
 The correction has its limits: it removes the dominant confounder, not SES or reverse-causation residuals, and Grosso is observational throughout. The coffee-mortality Mendelian-randomization study Poole cites, read here in full, found no genetic association with cardiovascular disease or all-cause mortality — but it was too small to exclude an effect the size of the observational hazard ratio of 0.86, which would take roughly 225,000 cases and as many controls. [@nordestgaard2016] These are consistent, not contradictory: the per-cup benefit survives the smoking correction but gains no support from the genetic instrument. That leaves two live explanations — residual non-smoking confounding (SES, reverse causation) and a modest causal effect the MR is too small to exclude -> [[The U-Shaped Association Artifact]]. Smoking is not the whole story, but the surviving benefit is not established as causal.
 
 Smoking-confounded or not, two harm signals are stratum-specific — and they, not the averages, gate the recommendation.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The two harm signals — stratum-specific
 
@@ -222,10 +205,6 @@ Both signals run through caffeine — the pregnancy signal by direct fetal dose,
 fracture signal via caffeine and calcium — which raises the question the benefit
 evidence answers the other way: whether caffeine is even the active agent for the
 *benefits*.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What varies within the cup
 
@@ -296,8 +275,6 @@ the evidence, so this reading is, not a measured finding.
 Sweetened-versus-unsweetened is one question the evidence cannot yet answer — and it is not the only
 one.
 
-</div>
-
 ## What the evidence does NOT settle (named gaps)
 
 Three questions stay open. They fall under *insufficient evidence*, not evidence of no effect — the distinction the four-state discipline keeps: silence from an unstudied question is not a null.
@@ -309,8 +286,6 @@ Three questions stay open. They fall under *insufficient evidence*, not evidence
 - **Respiratory outcomes and the natural history of established disease.** Respiratory endpoints, and the course of already-diagnosed disease (only one MA, post-MI), rest on too little evidence to state a direction — **insufficient**, held as a gap [@poole2017].
 
 Netting the settled, the confounded, and the still-unknown is what produces the decision.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision summary — for whom, what to do
 
@@ -350,7 +325,5 @@ Which of these applies, and how you weigh the outcomes, is the individual layer:
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Coffee.md) |
-
-</div>
 
 ## References

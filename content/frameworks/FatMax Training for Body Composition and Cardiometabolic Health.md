@@ -32,8 +32,6 @@ is it any better than just doing ordinary moderate aerobic exercise? Jiang 2026 
 meta-analysis (19 RCTs) that pools FATmax training against non-exercise or diet-only controls.
 [inferred from @jiang2026]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## FATmax is a way to set the intensity, not a distinct kind of exercise
 
 The single most important thing to get right about this literature: **FATmax is a prescription *method* —
@@ -82,10 +80,6 @@ intensity to the fat-oxidation crossover adds anything over a fixed moderate dos
 not a demonstrated benefit.
 [inferred from @jiang2026]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What FATmax training moves — the pooled effect menu
 
 Across 19 RCTs (N = 644), versus non-exercise or diet-only control, FATmax aerobic training (3-5x/week,
@@ -133,8 +127,6 @@ FATmax), reported «significantly larger reductions in body fat percentage (QM =
 [@jiang2026]. So some of the fat-loss signal may be an
 intensity-measurement artifact rather than a property of training at the true crossover.
 
-</div>
-
 ## The *optimal 2446 min* is not a target
 
 The restricted-cubic-spline dose-response is U-shaped, with an apex the authors carry into their
@@ -153,8 +145,6 @@ compensation and hormonal/overtraining responses — a mechanism consistent with
 *too much* with [[The U-Shaped Association Artifact]] discipline: the upper arm is a hypothesis to
 replicate, not a dosing ceiling to obey.
 [inferred from @jiang2026]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -182,10 +172,6 @@ replicate, not a dosing ceiling to obey.
 
 [inferred from @jiang2026]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits
 
 - **Single gold source, `confidence: low`.** One meta-analysis (N=644) carries the effect menu; overall
@@ -201,8 +187,6 @@ replicate, not a dosing ceiling to obey.
   short interventions (8-20 weeks; corrected 2026-10-06 from 8-16, Table 1 chunk 02). Publication bias flagged for VO2max, fasting glucose and DBP.
 
 [inferred from @jiang2026]
-
-</div>
 
 ## Self-critique `[run 2026-10-04, before commit]`
 

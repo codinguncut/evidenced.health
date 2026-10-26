@@ -22,8 +22,6 @@ BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carb
 broader reviews such as Naude 2022.
 [@naude2022]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The answer depends entirely on what "remission" means
 
 | Definition | 6 months | 12 months |
@@ -61,8 +59,6 @@ And the two definitions do not draw on the same trials. Only **7 of 23 trials (3
 reduction and reported usable data**, so the medication-free estimates come from a structurally
 different set of trial designs, not from a stricter reading of the same evidence.
 [inferred from @goldenberg2021]
-
-</div>
 
 ## Most benefits attenuate by 12 months — but not all
 
@@ -173,8 +169,6 @@ directly.
 
 
 [@goldenberg2021]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The mechanism this review does not isolate — weight loss, not carbohydrate per se
 
 Low-carbohydrate diets cause weight loss, and this review's remission effect **attenuates to null by
@@ -231,8 +225,6 @@ So this is a distinction, not a tension: neither source tests whether a low-carb
 long as an energy-controlled one with the same maintenance support. Both readings are consistent with
 durability tracking maintained weight loss rather than the diet's carbohydrate share.
 [inferred from @goldenberg2021; @lean2019]
-
-</div>
 
 ## The umbrella review sharpens the reading — no RCT tests low-carb FOR REMISSION at all `[2026-08-04]`
 

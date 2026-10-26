@@ -259,8 +259,6 @@ updated: 2026-10-06
 self_critiqued: 2026-10-06
 concrete_subject_audited: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 > [!warning] Applies to a specific group
 > This appraisal is written for **adults with prediabetes or otherwise at high risk of type 2 diabetes,

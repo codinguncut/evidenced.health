@@ -15,8 +15,6 @@ updated: 2026-10-07
 self_critiqued: 2026-10-07
 concrete_subject_audited: 2026-10-07
 ---
-<div class="recent-page" data-last-updated="2026-10-07"></div>
-
 
 ## Lower pressure prevents strokes and heart attacks at every starting level tested; how much you gain depends on your overall risk
 
@@ -282,7 +280,7 @@ so that weakness is built in.
 
 **Single exercise types lowered pressure about equally; combining endurance and resistance training did
 best.** Naci also compared exercise types with one another: «Overall, different types of structured
-exercise interventions achieved similar reductions from baseline (table 2).» «One excep- tion was the
+exercise interventions achieved similar reductions from baseline (table 2).» «One exception was the
 combination of endurance and resistance training, which was more effective in reducing baseline SBP
 than dynamic resistance alone (−2.98, 95% CrI −5.04 to −0.93).»
 [@naci2019exercise] In trials of people starting at
@@ -295,7 +293,7 @@ another, so most type contrasts are network estimates inferred across trials. Th
 at different pressures, a mean 125 mmHg in resistance trials and 135 in combination trials
 [@naci2019exercise]. And Naci
 itself flags how thin the combination evidence is: «For example, only a small subset of studies
-identified in our review tested the effectiveness of the combi- nation of endurance and dynamic
+identified in our review tested the effectiveness of the combination of endurance and dynamic
 resistance training. Although these types of interventions were often effective, especially in
 hypertensive populations, their frequency and duration were not consistently reported to determine the
 optimal formulation and dose of physical activity to maximise its benefit.»

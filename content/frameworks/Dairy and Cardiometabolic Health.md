@@ -122,8 +122,6 @@ and a statistical substitution model, not a feeding trial -> [[Saturated Fat Int
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Mishali 2019 — high-vs-low: modest inverse for T2D and CVD, concentrated in women
 
 16 cohorts (T2D, 545,677) + 13 cohorts (CVD, 460,798), highest-vs-lowest intake:
@@ -144,9 +142,7 @@ deleted. (2) The women-only effect is a **subgroup claim (route-b effect modific
 identified mechanism (menopause-age and region moderators all came back null) — plausible but the
 false-positive-prone route; hold it as hypothesis-generating, not established.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Guo (neutral) vs Mishali (inverse): a distinction, NOT a tension
 
@@ -174,7 +170,7 @@ industry sponsor — reads a \~5% inverse CVD estimate as «beneficial». So **n
 this is a structured distinction. It is also **not type-E independent backing** — the shared cohorts make
 the agreement a re-pooling, not two independent routes.
 
-</div>
+
 
 ## The milk-mortality controversy is a confounding artifact
 
@@ -199,8 +195,6 @@ confounder-explained, and adjudicated only by leave-one-out sensitivity (a weak 
 instrument in-source). Note Guo does not invoke Michaelsson's own D-galactose hypothesis, so neither do we.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Mechanism (candidate, not demonstrated) and the matrix hinge
 
@@ -248,7 +242,7 @@ the manuscript.» [@thorning2017] A milk-industry-funded scoping review (of a co
 workshop), sharing authors with the gold anchor, is **not** independent robustness backing (NOT-E — no `[E-independent]` with any gold
 source here); it is a mechanistic framing, credited and labelled at point of use.
 
-</div>
+
 
 ## Off-axis endpoint: a minor protective dental-erosion association (cashes HELD-DAIRY-1)
 
@@ -363,8 +357,6 @@ channel, not a demonstrated one.
   Council funding tell, same treatment as Mishali's Israel-Dairy-Board sponsorship. The neutral verdict is
   not upgraded — no full-fat-dairy halo introduced.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series places dairy as a **cardiometabolic-marker lever, not a mortality lever**: inverse for
@@ -378,9 +370,7 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 [@bechthold2019] Full grid
 -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
@@ -484,7 +474,6 @@ the yogurt/low-fat arm; still no hard-outcome RCT.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
 
-</div>
 
 ## Vissers 2019 — the genetic-instrument (MR) leg: milk -> T2D is causally null, but only for MILK `[2026-09-15]`
 

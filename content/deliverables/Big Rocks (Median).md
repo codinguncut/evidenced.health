@@ -96,8 +96,6 @@ rarely holds *quantified* subgroup harm, so "mildly harmful to the healthy" is r
 and held stratum-dependence, not a measured interaction. Read bucket (b) as *conditionality*, not as
 evidenced harm.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## (a) Robust big rocks — lead here
 
 ### Move more, at any intensity, plus resistance — the largest robust lever
@@ -324,8 +322,6 @@ effects in this domain are settled and few; the long tail of refinements shares 
 this stratum, reporting that the remaining levers are small and uncertain licenses the person to stop
 optimizing — itself a decision-change.
 
-</div>
-
 ## (b) Stratum-dependent — conditional on metabolic status
 
 ### Reduce sodium — most useful if your blood pressure is already drifting up
@@ -460,8 +456,6 @@ carb-restriction's value as conditional on metabolic status rather than universa
   is the acquirable gap [@nice].
 - **No sourced population statistics** back the stratum — it is a stated hypothetical by design.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Caveats
 
 - **Open loop.** This appraisal grades coherence and fidelity to its sources; it never grades validity. No
@@ -482,7 +476,5 @@ carb-restriction's value as conditional on metabolic status rather than universa
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate); Ross (narrative review, moderate); Lowe (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Median).md) |
-
-</div>
 
 ## References

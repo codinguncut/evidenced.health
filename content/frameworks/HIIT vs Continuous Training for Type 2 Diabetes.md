@@ -15,12 +15,12 @@ relationships:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
     - Physical Activity Dose and Mortality
     - Surrogate Outcomes
+    - Exercise-Related Acute Cardiac Events
 confidence: low
 created: 2026-09-24
-updated: 2026-10-06
+updated: 2026-10-21
 self_critiqued: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **The decision this page answers.** This is a *substitution* question, not an add-vs-nothing one. The
 person is going to do aerobic exercise; the choice is the *modality* — high-intensity interval training
@@ -37,10 +37,6 @@ for glycemic control, but its **only moderate-certainty finding is fitness**, no
 increasing ­VO2peak in T2D patients; they also found that reduction of BMI, body weight, and HbA1c (%)
 was less conclusive because of low quality of the evidence.»
 [@liu2019hiit]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The effect table — HIIT vs MICT, with certainty
 
@@ -73,10 +69,6 @@ T2D, preferable to MICT», while «Results related to other parameters associate
 T2D, such as HbA1c, body weight, and BMI, were not conclusive.»
 [@liu2019hiit]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The glycemic finding is a low-certainty point estimate — and contested
 
 The HbA1c advantage (-0.37% vs MICT) is the only glucose-family signal; **fasting glucose, fasting
@@ -95,10 +87,6 @@ the very finding the title emphasizes is itself the honest read: the HIIT-over-M
 **not settled**, and an earlier (2015) MA in a broader diabetes + metabolic-syndrome population found no
 significant HIIT-vs-continuous HbA1c difference (unheld; quality and trial overlap unverified)
 (corrected 2026-10-06: *one gold MA against it* -> unheld, broader-population MA; self-critique).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## HbA1c is a surrogate — do not read a hard-outcome benefit off this MA
 
@@ -123,10 +111,6 @@ both as predictors: «Both VO2peak and HbA1c are important predictors» of CV ev
 [@liu2019hiit].
 (corrected 2026-10-06: was *the load-bearing benefit ... at moderate certainty*, fusing the between-arm
 GRADE with an ungraded transmission; self-critique)
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Adherence, safety, and net effect — the substitution caveats
 
@@ -156,10 +140,6 @@ time-efficient physical activity program» [@liu2019hiit], but HIIT and MICT pro
 the 13 trials, so this MA does not isolate whether HIIT delivers equal benefit in *less* time. The
 time-efficiency case is plausible and stated, not demonstrated here.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where this sits in the T2D lever stack
 
 For a person with T2D, the big rocks are weight loss, dietary pattern, and getting *any* activity at all
@@ -171,8 +151,6 @@ mortality gradient), HIIT is the
 better bet; if the goal is glycemic control specifically, the modality difference is low-certainty and
 contested, so pick on preference, tolerability, and sustainability rather than on an expected HbA1c
 edge.
-
-</div>
 
 ## Independence note
 

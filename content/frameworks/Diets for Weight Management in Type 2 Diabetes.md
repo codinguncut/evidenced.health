@@ -60,8 +60,6 @@ magnitude-driven**: formula meal replacement (−2.4 kg) separates from the comp
 adherence thesis, the free-living T2D face of the isocaloric-feeding null on
 [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The certainty-graded weight-loss map
 
 Every row is a pooled meta-analytic estimate vs the stated comparator, with AMSTAR-2 MA quality and GRADE
@@ -105,8 +103,6 @@ regression analysis to quantify weight loss-independent effects on HbA1c.»
 This is *insufficient evidence* for a composition-specific glycaemic effect, not a demonstrated null: the
 review could not separate the two, so read it as "not shown," not "shown absent."
 
-</div>
-
 ## The remission map — same structure, one clear winner on certainty
 
 The remission SR (14 studies) is graded on Table 3. Here, unlike weight loss, **one approach does
@@ -134,8 +130,6 @@ figure (20%) is a single non-RCT at GRADE very low with serious risk of bias —
 low-carb-remission claim rests on the weakest cell in the table, sharpening the reading on
 [[Carbohydrate Restriction and Type 2 Diabetes Remission]].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Who this changes the recommendation for (stratification)
 
 - **Route (a) — baseline / timing.** Remission scales with *sustained kilograms lost* and with **early
@@ -161,10 +155,6 @@ low-carb-remission claim rests on the weakest cell in the table, sharpening the 
   efficacy-equivalent diets is decided by the harm profile, cost, and adherence — not by weight-loss
   magnitude.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Choose the diet the person will sustain.** Since composition does not *demonstrably* separate the
@@ -188,8 +178,6 @@ low-carb-remission claim rests on the weakest cell in the table, sharpening the 
 - **The review declares the diet-comparison literature effectively saturated:** «future trials of similar
   diet comparisons are unlikely to add useful information», redirecting the field to pragmatic /
   practice-based / n-of-1 evidence. [@churuangsuk2022]
-
-</div>
 
 ## The paired umbrella (Szczerba 2023) — surrogate refinement on shared evidence
 
@@ -319,8 +307,6 @@ same place**. `[E-independent]` does NOT apply (shared trial base). -> [[Carbohy
 - **Over-read guard:** the standpoint (class-1) flavor is named, so the type-D is not laundered into *one
   body is wrong*. Coherence, not validity — the loop stays open on whether either default improves outcomes.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Fibre — a diet-quality lever under whichever weight diet is chosen `[2026-10-06]`
 
 The umbrellas above rank weight-loss diets; fibre is a separate, smaller axis that sits inside any of them.
@@ -348,8 +334,6 @@ witness, not two** (same commissioning group, and Reynolds is the guideline's co
   sup- plements will confer longer term clinical benefit that is comparable with fibre that occurs natu-
   rally in foods.» [@reynolds2020] A substitution point for anyone taking the low-carb route above, not a reason
   against it.
-
-</div>
 
 ## Limits
 

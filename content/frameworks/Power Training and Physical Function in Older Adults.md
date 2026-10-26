@@ -2,8 +2,8 @@
 type: framework
 question: For an older adult who is going to resistance-train, does emphasizing movement VELOCITY (power / rate-of-force-development) rather than heavy-load STRENGTH buy more physical function, and on what outcomes?
 aliases: [Power Training Older Adults, Power vs Strength Training, Velocity-Based Training Older Adults, Muscle Power Training, Power Training Physical Function, Explosive Resistance Training Elderly, Rate of Force Development Training]
-authors: [el Hadouchi, Mohamed; Kiers, Henri; de Vries, Ralph; Veenhof, Cindy; van Dieen, Jaap; Jimenez-Lupion, Daniel; Chirosa-Rios, Luis; Martinez-Garcia, Dario; Rodriguez-Perez, Manuel; Jerez-Mayorga, Daniel]
-sources: [el Hadouchi - Power vs Strength Older Adults, Jimenez-Lupion - Power Training Fall Risk Older Adults]
+authors: [el Hadouchi, Mohamed; Kiers, Henri; de Vries, Ralph; Veenhof, Cindy; van Dieen, Jaap; Jimenez-Lupion, Daniel; Chirosa-Rios, Luis; Martinez-Garcia, Dario; Rodriguez-Perez, Manuel; Jerez-Mayorga, Daniel; Currier, Brad S; D'Souza, Alysha C; Fiatarone Singh, Maria A; Lowisz, Caroline V; Rawson, Eric S; Schoenfeld, Brad J; Smith-Ryan, Abbie E; Steen, Jeremy P; Thomas, Gwendolyn A; Triplett, N Travis; Washington, Tyrone A; Werner, Timothy J; Phillips, Stuart M; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro]
+sources: [el Hadouchi - Power vs Strength Older Adults, Jimenez-Lupion - Power Training Fall Risk Older Adults, ACSM - Resistance Training Position Stand 2026, Radaelli - Resistance Training Volume Older Adults NMA 2024]
 cluster: power-training
 nucleus: true
 confidence: moderate
@@ -20,8 +20,8 @@ relationships:
     - Grip Strength and Mortality
     - Detraining and Residual Effects in Older Adults
 created: 2026-09-08
-updated: 2026-10-04
-self_critiqued: 2026-09-09
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 The decision here is **not** *should an older adult resistance-train* (that is settled — see
@@ -104,6 +104,34 @@ of the first-order *train vs not* decision — the same Layer-1 ordering that go
 [[Resistance Training Prescription - Load Sets and Frequency]].
 [inferred from @elhadouchi2022]
 
+**Resistance training of any velocity against control (Radaelli).** The claim that the strength arm also
+carries most of its value from training at all is an inference above; el Hadouchi pools power vs control,
+not strength vs control. Radaelli's network meta-analysis of 151 trials in untrained adults >=60 supplies a
+nearby contrast: supervised RT against no or minimal exercise (e.g. a walking group), coded by weekly-set band, with a median peak load of
+80% 1RM and co-exercise excluded. Every volume band beat control on timed up and go (SMD -1.20 to -0.63);
+the low and moderate bands beat it on 6-min walk (1.03, 1.00), the high band did not (0.27, -0.40 to
+0.94). On fast walking speed the low band did not beat control (-0.21, -0.57 to 0.14) while the moderate
+and high bands did (0.29, 0.40). All low certainty; TUG also showed small-study effects.
+[@radaelli2024rtvol]
+Velocity is not a coded variable there, and the included trials (refs 30, 32, 33, 52-209) contain power-
+and velocity-training trials (e.g. Miszko 2003, Marsh 2009, a Reid power trial); Miszko and Marsh also
+appear among el Hadouchi's included trials. [@radaelli2024rtvol]
+[@elhadouchi2022]
+
+| Parameter | el Hadouchi (vs control, secondary MA) | Radaelli (vs control) | Same quantity? |
+|---|---|---|---|
+| Intervention | power training | RT by weekly-set band, velocity uncoded, mostly heavy (median peak 80% 1RM); includes some power arms | No |
+| Outcome | generic / speed test *classes*, pooled | single named tests (TUG, 6-min walk, fast walk speed) | No |
+| Population | mean age >65, healthy per WHO (chronic disease allowed) | >=60, untrained, 78.8% healthy | roughly |
+| Trials | 15 RCTs in the review; vs-control subset n = 272 participants (trial count not stated) | 151 randomised trials (146 with a control arm) | **overlapping** at review level (shared power trials), so not independent |
+
+The cells say *no* on intervention and outcome and the trial pools overlap, so the two SMD sets are not
+ranked against each other and Radaelli is not independent support. What it adds is the direction the
+inference above needed: mostly-heavy RT moves the commoner function tests against no or minimal exercise. The
+walking-speed result is a volume finding — the low band did not beat control and the higher bands did;
+Radaelli, citing an earlier review, calls the mechanisms behind walking-speed gains unclear — and says nothing about velocity
+emphasis.
+[inferred from @radaelli2024rtvol; @elhadouchi2022]
 
 ## The load-bearing gap — function TESTS are not daily-life activity, and falls were never measured
 
@@ -217,6 +245,21 @@ follow-up, which the authors explicitly call for («a direct outcome measure of 
   ([[Anabolic Resistance]]) and higher per-meal protein target ([[Protein Intake for Older Adults]]) are
   the nutritional side of defending function; power training is the non-nutritional side, and both act on
   the same fast-twitch-fibre / neuromuscular substrate.
+- **Same direction in the ACSM 2026 overview of reviews — corroboration,
+  independence unverified (added 2026-10-21).** Comparing RT forms, the stand found «SPPB was enhanced by
+  RT performed with power training», walking performance «was enhanced only by RT per- formed with power
+  training techniques», and multicomponent function was enhanced by power-training techniques. It
+  could not tell for gait speed, timed up-and-go or chair stand on their own («insufficient data to
+  determine if TUG was affected by load (82) or power training versus standard RT (82,106,157)»). Its
+  power reviews (refs 105, 106, 157, 160; refs 105, 106 and 160 are older-adult reviews by title) are
+  not el Hadouchi or Jimenez-Lupion, but in a field this
+  small their primary trials probably overlap (not checked), so this is a same-direction line, not an
+  independent type-E one. Its verdicts are review vote-counts without pooled effect sizes, and the
+  stand as a whole did not separate older from younger adults.
+  For the power outcome itself it lists moderate loads («30%–70% 1RM») among what raised power, a
+  different population and outcome from the \~20-30% 1RM function figure below.
+  [@acsm2026rt] (the quoted verdicts and refs)
+  [inferred from @acsm2026rt]
 
 
 ## Decision relevance

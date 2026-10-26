@@ -19,7 +19,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-10-07
+updated: 2026-10-22
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -151,8 +151,6 @@ authored by a principal of the method.
   moderate degree of measurement error**" — a condition that matters on a page arguing dietary error
   is large.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The cross-domain contrast — and what the parameter table refuses to let us claim
 
 `[2026-07-27, WHO PA Evidence Profiles ingest]` The wiki now holds a domain where exposure is
@@ -203,9 +201,14 @@ meta-analysis, where «all-cause mortality was not reduced further with intakes 
 servings» [@esc2021]. Fruit and vegetable intake in
 cohorts is self-reported, so this is a knee inside the self-reported half. The defensible reading is a tendency (self-report under-detects knees), not a
 partition of the corpus into knee-showing and knee-free halves.
-Schema note: the CLAUDE.md knees prior is already CONTESTED, holds the ESC plateau, and states that
-measurement can hide a knee but not manufacture one; no further scoping of the default is owed from
-this page.
+Schema note: the CLAUDE.md knees prior is CONTESTED and holds the ESC plateau. (superseded 2026-10-22:
+this note said the prior *states that measurement can hide a knee but not manufacture one*; that rule
+was withdrawn at Gate 55. In principle, error that grows with intake can flatten the top of a
+self-reported range and manufacture a plateau (the wiki's mechanism, not a source's); Aune does not
+exclude that measurement error partly explains its fruit-and-vegetable flattening
+-> [[Fruit and Vegetable Intake and Health]]. The prior is now a conditional: protective exposures
+plateau, harm-reduction curves do not; `every reduction pays` is kept for the harm side only.)
+
 `-> [[Physical Activity Dose and Mortality]]`
 
 ### Self-critique of the section above `[2026-07-27]`
@@ -263,8 +266,6 @@ still not proof. **This is a claim-refinement (type-F), not a robustness lift** 
 the same attenuation mechanism, not a separate line of evidence reaching it (the classification the
 WHO-PA row already settled: no `[E-independent]` token is claimed or owed here).
 [inferred from @ekelundacc2019]
-
-</div>
 
 ## Two fibre measures that are not interchangeable `[2026-07-27, SACN chunks 08/10]`
 
@@ -781,8 +782,6 @@ Willett — GBD *applies* it, it does not arrive at it independently.
 methodologist's position but the stated self-appraisal of the largest analysis in the domain.
 [inferred from @afshin2019]
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The escape route works — but only for fatty acids the body cannot make `[2026-08-04]`
 
 The obvious remedy for self-report error is an objective biomarker, and whether that escape is available
@@ -810,7 +809,5 @@ the body can synthesise the analyte** — a within-category boundary that carrie
   agreement licenses trusting the *direction*, not treating the FFQ magnitude as unbiased (both arms are
   observational, and Li's dietary route still carries the standard recall error).
   [inferred from @li2020]
-
-</div>
 
 ## References

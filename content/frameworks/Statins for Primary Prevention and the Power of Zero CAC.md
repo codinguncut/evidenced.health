@@ -103,8 +103,6 @@ not per-mmol). They are complementary, not the same quantity — CTT gives the d
 the per-regimen effect a given statin delivers.
 [inferred from @ctt2010]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Over 75 without known vascular disease — the one cell the constancy premise does not reach `[2026-10-06]`
 
 CTT 2010's *age >75* line above pooled primary and secondary prevention. The CTT 2019 age analysis (28
@@ -179,8 +177,6 @@ page's CAC lever into the >75 cell, as an untested strategy. Ongoing trials in t
 for primary prevention up to about 70 and for secondary prevention at any age. It does **not** extend
 past 70 in primary prevention: CTT found no independently significant reduction in either over-70 group
 (71-75: 0.84, 0.70-1.01; >75: 0.92, 0.73-1.16), and the >75 cell sits in the insufficient-evidence state.
-
-</div>
 
 ## The honesty on both sides — this is not a settled rule
 

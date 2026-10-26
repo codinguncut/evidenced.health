@@ -7,8 +7,8 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: red-meat
 confidence: medium
 created: 2026-07-28
-updated: 2026-09-02
-self_critiqued: 2026-09-02
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - Should Adults Reduce Red and Processed Meat
@@ -19,7 +19,7 @@ relationships:
     - Poultry and White Meat Consumption
 ---
 
-Two guideline families read **the same cohort evidence** and issue **opposite instructions** — WCRF
+Two guideline families read **largely overlapping cohort evidence** and issue **opposite instructions** — WCRF
 2018 says limit it, NutriRECS 2019 says adults may continue. The disagreement is not about the numbers
 below; it is about what they warrant, and that lives on
 [[Should Adults Reduce Red and Processed Meat]]. This page holds the shared evidence.
@@ -43,14 +43,22 @@ colon-only stratum (RR 1.22, 1.06 to 1.39) and the European stratum (RR 1.23, 1.
 pooled point estimate.
 [@wcrf2018]
 
-Processed meat's association is significant and consistent. WCRF also records the confounding candidly:
+WCRF §5.1.1.4: «The result was statistically significant for colon cancer but not for colorectal and rectal
+cancers.» «For colorectal cancer, stratified analyses by geographic location showed a significant increased
+risk in studies conducted in Europe.» [@wcrf2018]
+(corrected 2026-10-22: the basis was previously stated to include a significant combined red+processed
+estimate, which §5.1.1.4 does not mention.)
+Processed meat's association is significant and generally consistent (one of two pooled analyses null):
+«There is generally consistent evidence showing that consumption of processed meat increases the risk of
+colorectal cancer.» [@wcrf2018]
+(corrected 2026-10-22: previously *significant and consistent*.) WCRF also records the confounding candidly:
 "an apparent effect of red meat could possibly be due, at least in part, to low intakes of these other
 foods... Further analysis of adjustment factors was not performed in the CUP."
 [@wcrf2018]
 
 ## The absolute effect — the number WCRF never states and NutriRECS does
 
-NutriRECS **re-pooled the same body of cohort evidence** into absolute terms — its own de novo
+NutriRECS **re-pooled largely overlapping cohort evidence** into absolute terms — its own de novo
 dose-response meta-analyses on its own outcome set, not a restatement of WCRF's RRs (corrected
 2026-08-08) — for a **realistic 3-servings/week reduction** (average intake in North America /
 Western Europe is 2-4 servings/week):
@@ -65,47 +73,92 @@ Western Europe is 2-4 servings/week):
 [@nutrirecs2019]
 
 **This is [[Baseline Risk and the Relative-Absolute Split]] doing decisive work — but on *related*,
-not identical, quantities (corrected 2026-08-08):** WCRF's "16% increased risk" (processed meat) is a
+not identical, quantities (corrected 2026-08-08):** WCRF's «statistically significant 16 per cent increased
+risk of colorectal cancer per 50 grams» (processed meat) [@wcrf2018] is a
 **colorectal-cancer-incidence** RR per 50 g/day; NutriRECS's handful-per-1000 figures are its own
 absolute estimates on **different endpoints and a different increment** (e.g. overall cancer
-*mortality* per 3 servings/week). They are not one finding restated two ways — they are the same
-*evidence body* re-pooled to different outcomes, so the relative and absolute numbers here are not a
+*mortality* per 3 servings/week). They are not one finding restated two ways — they are a largely
+overlapping *evidence body* re-pooled to different outcomes, so the relative and absolute numbers here are not a
 matched pair. What generalizes is the **framing** effect: whether a guideline foregrounds a relative
 or an absolute magnitude of the *same* endpoint largely determines whether it reads as alarming or
 trivial. WCRF states relative forms and no absolute; NutriRECS computes absolutes and builds its
 recommendation on them.
 
+NutriRECS itself records the classification: «The World Health Organization International Agency for
+Research on Cancer has indicated that consumption of red meat is “probably carcinogenic” to humans,
+whereas processed meat is considered “carcinogenic” to humans (4).» It adds, of such recommendations,
+that they are «primarily based on observational studies that are at high risk for confounding and thus
+are limited in establishing causal inferences, nor do they report the absolute magnitude of any possible
+effects.» [@nutrirecs2019]
 Processed meat's IARC Group-1 label is the canonical "shares a category with tobacco" alarm, and it is
 the general point that the label grades *evidence a hazard exists*, not the risk it adds: a firm
 classification here sits atop a handful-per-1000 absolute effect
 -> [[Hazard Identification Is Not Risk Magnitude]].
 
-## The certainty split — the crux, and it is a grading disagreement
+## The certainty split — one of three drivers, and a grading disagreement
 
-Both bodies looked at the same observational evidence and graded it oppositely:
+Both bodies looked at largely overlapping observational evidence and graded it oppositely (though not on
+one scale; see below):
 
 - **WCRF:** processed meat is a "convincing" cause and red meat a "probable" cause of colorectal
-  cancer — both "strong evidence" that «generally justify making public health recommendations.»
-  [@wcrf2018]
-- **NutriRECS:** the same evidence is **low-to-very-low certainty**, because under strict GRADE
+  cancer [@wcrf2018]
+  — both "strong evidence", which WCRF defines as evidence that can «generally justify making public
+  health recommendations.» [@wcrf2018]
+- **NutriRECS:** the overlapping evidence is **low-to-very-low certainty**, because under strict GRADE
   "in the absence of a large effect or a compelling dose-response gradient, observational studies
   provide only low- or very low-certainty evidence for causation," and they "did not rate up for
   dose-response, given the potential for residual confounding."
   [@nutrirecs2019]
 
-**Same evidence, opposite grade** -> [[Certainty of Evidence vs Strength of Recommendation]]. This is a
-methodological joined issue, not a difference in the data, and it is the engine of the recommendation
-split on [[Should Adults Reduce Red and Processed Meat]].
+**Overlapping evidence; both grade causation, on different scales and inputs**
+-> [[Certainty of Evidence vs Strength of Recommendation]]. WCRF grades a causal relationship with
+colorectal cancer, and that grade folds in mechanistic evidence: for processed meat «There is robust evidence for mechanisms operating in humans.»
+[@wcrf2018]; for red meat «There
+is evidence of plausible mechanisms operating in humans.»
+[@wcrf2018]. NutriRECS also
+grades causation («the GRADE approach we used for assessing causation»
+[@nutrirecs2019]), but under GRADE
+observational evidence starts low and is rated up only for a large effect or a compelling
+dose-response (quoted above), and it states certainty per outcome for a 3-servings/week change. On
+that scale WCRF's mechanistic evidence carries little or no weight. (corrected
+2026-10-22: previously *NutriRECS grades GRADE certainty in absolute effects ... a scale on which that
+mechanistic evidence carries no weight*, which implied NutriRECS does not grade causation.) NutriRECS itself names three causes of the split, not one:
+«There are 3 major explanations for the discrepancy between these guidelines and ours.» First, other
+guidelines did not use GRADE; «Second, even if one assumes causation, other guidelines have not
+calculated, or if calculated have not highlighted, the very small magnitude of the absolute adverse
+effects over long periods associated with meat consumption.» «Third, other guidelines have paid little
+or no attention to the reasons people eat meat, and the extent to which they would choose to reduce meat
+consumption given small and uncertain health beneﬁts.»
+[@nutrirecs2019]
+So the grading disagreement is a joined methodological issue and **one** driver of the recommendation
+split on [[Should Adults Reduce Red and Processed Meat]], alongside absolute magnitude and
+values/preferences.
+(rescoped 2026-10-22: previously *Same evidence, opposite grade ... This is a methodological joined
+issue, not a difference in the data, and it is the engine of the recommendation split*; the two bodies
+grade causation on different scales and inputs, on partly different evidence, and NutriRECS gives three reasons.)
 
-**The NutriRECS RCT + cohort arms, now held, confirm the "not the numbers" reading `[2026-07-29]`.** The
-RCT SR (Zeraatkar) found diets lower in red meat had «little or no effect» on cancer — total cancer
-mortality HR 0.95 (0.89-1.01), colorectal-cancer incidence HR **1.04 (0.90-1.20)** — but at low/very-low
-certainty and «rated down for serious indirectness» (the evidence is one low-fat trial, not a red-meat  [@zeraatkar2019]
-trial). [@zeraatkar2019] The cohort SR (Vernooij, 70
-cohorts / 6M people) found «very small or possibly small decreases» in cancer incidence/mortality from
-lower-meat patterns, low/very-low certainty. [@vernooij2019] So across RCTs and cohorts the cancer signal is small/uncertain and (in the RCT) null-but-
-indirect — reinforcing that the WCRF-vs-NutriRECS split is a grading-and-standpoint disagreement, not a
-dispute about the effect size.
+**The NutriRECS RCT + cohort arms, now held, are NutriRECS's own component reviews (same team; 83% of
+Vernooij's cohorts reused in NutriRECS's other cohort SRs) and are consistent with the "not the numbers" reading `[2026-07-29]`.** (corrected
+2026-10-22: previously said they *confirm* it; same-team inputs cannot independently confirm how
+NutriRECS relates to WCRF.) The RCT SR (Zeraatkar) found diets lower in red meat had «little or no
+effect» on cancer — total cancer mortality HR 0.95 (0.89-1.01), colorectal-cancer incidence HR **1.04
+(0.90-1.20)** — but at low/very-low certainty and «rated down for serious indirectness» (the evidence is
+one low-fat trial, not a red-meat trial).
+[@zeraatkar2019] The contrast tested was small: «In
+particular, the WHI study (61), on which we relied for our most important estimates, achieved a
+difference of 1.4 servings per week between the low-fat and the usual diet group (70).» and the authors
+caution: «The failure to ﬁnd differences in outcomes may be a result of the small gradient in red meat
+intake be- tween the experimental and control groups.»
+[@zeraatkar2019] So the RCT null cannot
+rule out an important effect at a larger intake gradient. The cohort SR (Vernooij, 70 cohorts / 6M
+people) found «very small or possibly small decreases» in cancer incidence/mortality from lower-meat
+patterns, low/very-low certainty [@vernooij2019],
+and «Most of the cohorts (83%) were also included in the ac- companying systematic reviews (16, 17) to
+support the guideline recommendation.» [@vernooij2019]
+So across RCTs and cohorts the cancer signal is small/uncertain and (in the RCT) null-but-indirect and
+under-powered by a small contrast — consistent with, not independent confirmation of, the reading that
+the WCRF-vs-NutriRECS split is a grading-and-standpoint disagreement rather than a dispute about the
+effect size.
 
 ## Mechanism
 
@@ -116,14 +169,25 @@ for processed meat** but only **"moderate" for red meat** — a split that track
 grade gap.
 [@wcrf2018]
 
-NutriRECS does not *engage* WCRF's biological mechanism — its silence on the haem-iron / NOC account
-is not a dispute of it, but neither is it acceptance (corrected 2026-08-08, F1). And the two bodies
+NutriRECS does not discuss haem iron, but it names nitrates/nitrites (citing Etemadi, ref 42) as
+possible causal factors within meat-heavy dietary patterns: «Taken together with other potential causal
+factors (for exam- ple, such preservatives as sodium, nitrates, and nitrites) (42) among dietary
+patterns with very small effects, this may explain the larger reductions among dietary pat- terns high
+in red meat and processed meat (14).» It also planned an HCA/PAH subgroup it could not run: «we found
+information insufﬁcient to conduct planned sub- group analyses regarding the method of meat prepara-
+tion (for example, grilling versus boiling) in terms of pos- sible carcinogenic compounds from grilling,
+such as polycyclic aromatic hydrocarbons and heterocyclic amines (43).»
+[@nutrirecs2019] So on the
+compound side it partly converges with WCRF's NOC account. (corrected 2026-10-22: previously said
+NutriRECS does not *engage* WCRF's mechanism and is *silent* on the haem-iron / NOC account; that
+corrected 2026-08-08, F1.) And the two bodies
 **do differ on causal status, not only on certainty and magnitude** (corrected 2026-08-08, D2): the
 concession that «this does not preclude the possibility that meat has a very small causal effect» is
 the *tail* of a sentence whose head runs the other way — NutriRECS's own intake-vs-pattern comparison
 suggests red and processed meat are «unlikely to be causal factors for adverse health outcomes», and
 it judges true causation of the observed effect sizes to be one «which we believe to be implausible».
-So WCRF asserts a convincing/probable *cause* while NutriRECS holds causation implausible — a genuine
+So WCRF asserts a convincing/probable *cause* while NutriRECS holds causation *at the observed effect
+sizes* implausible — a genuine
 disagreement on existence, softened only by NutriRECS declining to rule a very small effect out
 entirely.
 [@nutrirecs2019]
@@ -161,7 +225,7 @@ carcinogenesis») [@bastide2011heme].
 **The decision-relevant bound — how much can nitrite/curing removal help?** Because heme is present in red
 meat **whether or not it is cured**, the intrinsic-heme channel **bounds** the benefit of removing
 nitrite/curing: a genuinely nitrite-free processed-meat product still carries heme, so it cannot fall
-below the intrinsic-heme risk floor. **But the two channels are coupled, not additive-independent.** «In
+below the (suggestive) intrinsic-heme risk floor. **But the two channels are coupled, not additive-independent.** «In
 processed red meat, heme iron is nitrosylated, because curing salt contains nitrate or nitrite», and
 Pierre «demonstrated that the nitrosylation of heme was a key event in the promoting effect of processed
 meat in rats» [@bastide2011heme] — curing
@@ -171,15 +235,18 @@ nitroso side is addressed in the next section — but it splits into two exposur
 Said Abasse 2022 measures.
 [inferred from @bastide2011heme]
 
-## The three-exposure decomposition — free dietary nitrate/nitrite is NOT the colorectal driver `[2026-08-22, Said Abasse 2022]`
+## The three-exposure decomposition — free dietary nitrate/nitrite shows no colorectal association `[2026-08-22, Said Abasse 2022]`
 
 The intrinsic-heme section leaves an attribution question: heme vs curing-nitroso. Said Abasse 2022 (gold
 SR+MA, 41 articles, 13 cancer sites) forces a **finer cut** than that binary, because the term "nitrite"
 in the diet is not one exposure. The correct decomposition of processed-meat cancer risk is **three**
 exposures, not two:
 
-1. **Intrinsic heme iron** — present regardless of curing (Bastide, above); promotes **colon** cancer
-   (RR 1.18 categorical).
+1. **Intrinsic heme iron** — present regardless of curing (Bastide, above); is associated with **colon**
+   cancer (RR 1.18 [1.06-1.32], highest vs lowest; Bastide: «Epidemiological data thus show a suggestive
+   association between dietary heme and risk of colon cancer.»); promotes aberrant crypt foci in rats
+   [@bastide2011heme]. (corrected 2026-10-22:
+   previously *promotes colon cancer*.)
 2. **In-matrix curing-nitroso / nitrosyl-heme** — nitrite added to the *meat matrix*, nitrosylating heme
    and driving endogenous NOC (Bastide's curing coupling); the channel most specific to *processed* meat.
 3. **Free dietary nitrate/nitrite** — total ingested nitrate/nitrite as measured by diet questionnaires,
@@ -187,14 +254,29 @@ exposures, not two:
    of nitrate ... and nitrite ... which represent the primary sources of exposure»
    [@abasse2022nitrate].
 
-**Said Abasse measures only exposure (3), and finds NO colorectal signal for it.** Across both categorical
-approaches and both molecules, colon and rectal risk are null: Colon (nitrate) 0.99 (0.91, 1.08) / 1.00
-(0.96, 1.04); Colon (nitrite) 1.02 (0.92, 1.11) / 1.02 (0.93, 1.11); Rectal (nitrate) 1.01 (0.88, 1.14) /
-1.10 (0.96, 1.24); Rectal (nitrite) 1.09 (0.79, 1.39) / 1.06 (0.87, 1.26)
+**Said Abasse measures only exposure (3), and finds NO colorectal signal for it.** Table 1 pools each site
+two ways: **highest vs lowest** intake category (HvL) and **all combined higher vs lowest** categories (AC);
+paired values below are HvL / AC. Across both approaches and both molecules, colon and rectal risk are null:
+Colon (nitrate) 0.99 (0.91, 1.08) / 1.00 (0.96, 1.04); Colon (nitrite) 1.02 (0.92, 1.11) / 1.02 (0.93, 1.11);
+Rectal (nitrate) 1.01 (0.88, 1.14) / 1.10 (0.96, 1.24); Rectal (nitrite) 1.09 (0.79, 1.39) / 1.06 (0.87, 1.26)
 [@abasse2022nitrate].
-The only significant categorical associations anywhere in the 13 sites were **thyroid (nitrate) OR 1.40
-(1.02, 1.77)** and **glioma (nitrite) OR 1.12 (1.03, 1.22)** — both I2 = 0%, both **non-GI**
-[@abasse2022nitrate]. A dose
+The only significant *positive* categorical associations anywhere in the 13 sites are **non-GI** and each is
+significant in **one column only**: **thyroid (nitrate) OR 1.40 (1.02, 1.77), HvL** (AC 1.27 (0.85, 1.69),
+null) and **glioma (nitrite) OR 1.12 (1.03, 1.22), AC** (HvL 1.17 (0.98, 1.37), null); I2 = 0% in each
+significant column
+[@abasse2022nitrate].
+Table 1 also carries significant *inverse* rows that the Results text reports as no association. Significant
+in **both** columns: NHL (nitrate) 0.82 (0.69, 0.94) / 0.83 (0.75, 0.91); esophageal (nitrate) 0.75 (0.57,
+0.94) / 0.83 (0.72, 0.94); stomach (nitrate) 0.81 (0.70, 0.92) / 0.81 (0.75, 0.87), a row flagged for
+publication bias (Egger p = 0.000, Begg p = 0.006). Significant in **one column only**: breast (nitrate)
+0.92 (0.87, 0.96), AC (HvL 0.91 (0.81, 1.00), null); pancreatic (nitrite) 0.87 (0.76, 0.97), HvL (AC 1.04
+(0.85, 1.24), null, I2 = 76.1%; row Egger and Begg p = 0.000)
+[@abasse2022nitrate]
+(corrected 2026-10-22: previously said *the only significant categorical associations*, which missed these
+inverse rows; corrected again 2026-10-22: values were listed without their Table 1 column, as *thyroid
+(nitrate) OR 1.40 (1.02, 1.77)*, *glioma (nitrite) OR 1.12 (1.03, 1.22) — both I2 = 0%*, *breast (nitrate)
+0.92 (0.87, 0.96)* and *pancreatic (nitrite) 0.87 (0.76, 0.97)*, which read single-column results as
+unqualified). A dose
 meta-regression adds only directional (no OR) hints — nitrite -> stomach/bladder up, pancreatic down;
 nitrate -> kidney/bladder down — several of which are **publication-bias-flagged** (Egger/Begg: kidney,
 stomach, pancreatic, colon-nitrite)
@@ -208,26 +290,50 @@ by *protective vegetable* sources, so aggregate dietary nitrite is a poor proxy 
 and even carries the opposite confounding. Said Abasse keeps the meat channel conceptually separate itself:
 «It is the presence of nitrite, amides, and amines ... in processed meats and heme iron in fresh meat ...
 that is considered to be responsible for these risk effects»
-[@abasse2022nitrate]. And the one
-in-matrix interaction it reports runs the *other* way from the protective aggregate: among high-nitrate
-individuals, high heme carried a bladder signal (Catsburg 2014, OR 1.76 [1.21, 2.55])
-[@abasse2022nitrate].
+[@abasse2022nitrate]. And the
+animal-source / heme signals it reports run the *other* way from the protective aggregate: among
+high-nitrate individuals, high heme carried a bladder signal (Catsburg 2014, OR 1.76 [1.21, 2.55]), and
+for ovarian cancer (Kilfoy) «there was a relationship between a nitrate intake of 0.33 mg/1000 kcal from
+animal sources HR: 1.34 (95% CI: 1.05, 1.69).»
+[@abasse2022nitrate]. (corrected
+2026-10-22: previously *the one in-matrix interaction it reports*.)
 
 **The decision consequence.** "Cut the nitrite" is ambiguous across three exposures with different signs.
 Reducing **free dietary nitrite** by eating fewer vegetables would be net-harmful (it is the protective,
 vegetable-borne channel) and does nothing for CRC (null). The colorectal lever, if any, is the **in-matrix
 curing-nitroso** channel (exposure 2) — which this SR does **not** isolate — bounded below by the
-**intrinsic-heme floor** (exposure 1) that curing-removal cannot touch. So the fabric holds: dietary-nitrate
+(suggestive) **intrinsic-heme floor** (exposure 1) that curing-removal cannot touch. So the fabric holds: dietary-nitrate
 guidance and processed-meat-CRC guidance are about **different molecules**, and a broad site-specific
-synthesis (41 articles, 13 sites) shows the vegetable-borne aggregate is not the colorectal driver.
+synthesis (41 articles, 13 sites) finds no colorectal association for the vegetable-borne aggregate
+(colon CIs narrow; rectal wider, upper bounds +14% to +39%; colon nitrite Egger-flagged). The authors advise
+caution: «However, the study’s limitations are as follows; ﬁrst, very few articles were available for
+each type of cancer, some with three or fewer studies, and so the results for this analysis should be
+treated with caution.» and they could not adjust for confounders or examine effect modification
+[@abasse2022nitrate].
+(corrected 2026-10-22: previously *shows the vegetable-borne aggregate is not the colorectal driver*;
+heading previously *is NOT the colorectal driver*.)
 
 
-**A mitigation lever that does not require abstention.** Bastide's own decision move is to «inhibit red
+**A mitigation lever that does not require abstention.** Bastide's own decision move is «inhibiting red
 and processed meat toxicity instead of stopping meat intake»
 [@bastide2011heme]: calcium and chlorophyll
 trap heme, vitamin C/E block ATNC formation, polyphenols block lipid peroxidation (hence «eat a yogurt
 after your steak»; ascorbate is already added during curing). This is **directional/mechanistic** (rat +
 human-biomarker), with **no outcome RCT** — held as a candidate lever, not a recommendation.
+Separately, dairy -> lower colorectal cancer is held at WCRF «probably protects» on its own terms:
+«Consumption of dairy products probably protects against colorectal cancer»
+[@wcrf2018] (restated as the CUP Panel
+conclusion at §5.7.1.6, chunk 02). But WCRF itself declined to base a recommendation on it: «The Panel
+did not base a recommendation on the strong evidence that the consumption of dairy products decreases the
+risk of colorectal cancer as there is some other evidence that is suggestive of an increased risk of
+prostate cancer, although that evidence fell below the general threshold required for making a
+recommendation (see Recommendations and public health and policy implications, Section 3: Issues where the evidence is divergent between cancer sites – Dairy products and calcium).»
+[@wcrf2018]
+So *eat dairy alongside meat* is a cheap, reversible default with a colorectal basis, flagged for men
+given the limited-suggestive prostate signal, and not a WCRF recommendation; what stays mechanistic
+and unproven is the *mitigation-of-meat* interaction (calcium trapping heme). (added
+2026-10-22; corrected 2026-10-22: previously *a labelled cheap, reversible, low-harm default on that
+outcome-level grade*, which dropped WCRF's non-recommendation and the prostate signal.)
 
 **Supersession + independence.** This 2011 MA (5 cohorts, categorical only) is the newest heme-CRC MA the
 wiki holds; a larger/newer heme-specific dose-response MA would upgrade it (G-gap). Bastide draws on the
@@ -237,8 +343,10 @@ independent count (no [E-independent]).
 
 ## The same channel decomposition on a MORTALITY endpoint `[2026-09-02, Etemadi 2017]`
 
-The three-exposure logic above was built on **cancer** endpoints. An independent US mega-cohort —
-NIH-AARP, 536 969 adults aged 50-71, 16-year follow-up, 128 524 deaths — runs the *same* heme-iron /
+The three-exposure logic above was built on **cancer** endpoints. A US mega-cohort — NIH-AARP (not
+independent of the cancer evidence above: Bastide's heme MA already pools Cross et al 2010 from the same
+NIH-AARP cohort [@bastide2011heme];
+corrected 2026-10-22, previously called *independent*), 536 969 adults aged 50-71, 16-year follow-up, 128 524 deaths — runs the *same* heme-iron /
 nitrate-nitrite decomposition on **all-cause and cause-specific MORTALITY** and reaches the same channel
 structure: «Heme iron and processed meat nitrate/ nitrite were independently associated with increased risk
 of all cause and cause specific mortality»
@@ -261,15 +369,30 @@ in-matrix processed-meat additive, not the vegetable-dominated free-dietary aggr
 processing, as levels in unpro- cessed red meat are low»
 [@etemadi2017]. So this cohort populates on
 a mortality endpoint the **in-matrix curing-nitroso channel** (exposure 2) that the cancer SR could not
-isolate, and finds it carries risk — a type-F extension of the channel decomposition from CRC incidence to
+isolate, and finds it carries risk (as a covariate-adjusted single-compound association, which the
+authors call «independently associated»
+[@etemadi2017]; the mediation split below is less favourable to nitrite) — a type-F extension of the channel decomposition from CRC incidence to
 all-cause and cause-specific death. It says nothing about the vegetable-borne exposure (3), so the CRC
 distinction above (nitrite-the-molecule has opposite signs across channels) is untouched.
 
-**Mediation is «accounted for, in part», not «explained by».** SAS-macro mediation estimated that of the
+**Mediation is partial — «accounted for, in part».** The authors pose the question as what share
+«could be explained by these three ingredients» and answer with partial proportions (corrected 2026-10-22:
+the heading previously contrasted the result against «explained by», wording the source itself uses).
+SAS-macro mediation estimated that of the
 *processed*-red-meat -> all-cause-mortality association, nitrate statistically accounted for **50.1%**
-(72.0% of the CVD-death association) and heme iron **20.9-24.1%**; for *unprocessed* red meat -> all-cause
+(36.1 to 64.1; 72.0% of the CVD-death association) and heme iron **21.3%** (16.5 to 27.1; 20.9-24.1%
+across the cause-specific deaths — corrected 2026-10-22, the range was previously given as the
+all-cause figure); for *cancer* death the shares were nitrate **37.0%** (14.8 to 66.4) and heme iron
+**22.8%** (13.7 to 35.3); for *unprocessed* red meat -> all-cause
 mortality, heme iron accounted for **20.8%** (13.7 to 30.3)
-[@etemadi2017]. The two
+[@etemadi2017].
+**Nitrite itself mediated none of the processed-meat association with all-cause, cancer or CVD death;
+the additive's mediated share ran through nitrate (heme iron mediated 21.3-24.1% of those same associations, above).** Table 2 reads: «Processed meat nitrite: Overall None – Cancer
+None – Cardiovascular disease None – Respiratory disease 14.9 (3.9 to 43.3) P=0.1»
+[@etemadi2017]. Since the
+page's exposure (2) is defined by nitrite nitrosylating heme, this weakens reading Etemadi as direct
+support for the nitrite step of that channel: the processed-meat additive signal that survives
+mediation is nitrate's (a modelled split of two correlated FFQ-derived additives, not an experiment). (added 2026-10-22.) The two
 channels are mechanistically coupled, not additive-independent in origin: «the endogenous N-nitroso compound
 production is in fact stimulated by heme iron and not by protein residues»
 [@etemadi2017].
@@ -278,8 +401,14 @@ production is in fact stimulated by heme iron and not by protein residues»
 (124-item NCI DHQ) and the design is a single prospective cohort — the association is confounded and the
 mediation is a *modelled* decomposition, not an experiment. The authors flag the bias direction themselves:
 «measurement error may have biased our results toward null»
-[@etemadi2017] — i.e. the true channel
-gradients are, if anything, steeper than reported ([[Measurement Error in Dietary Assessment]]). This is
+[@etemadi2017] — for red-meat intake:
+«In the calibration analysis, to correct the estimates of daily red meat intake in the entire cohort for
+measure- ment error, we used data from a subset of participants with two non-consecutive 24 hour
+dietary recalls» [@etemadi2017];
+whether the heme/nitrate channel HRs or mediation shares are likewise attenuated was not calibrated,
+and error in the mediators can bias a mediation share in either direction
+([[Measurement Error in Dietary Assessment]]). (corrected 2026-10-22: previously *i.e.
+the true channel gradients are, if anything, steeper than reported*.) This is
 **not** independent-backing (type-E) for the cancer association: NIH-AARP/Sinha overlaps the cohort
 literature the matrix and WCRF draw on, and a highest-vs-lowest-fifth mortality HR is a different estimand
 from a per-100 g/day CRC-incidence slope.
@@ -329,7 +458,8 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
   recommendation — *attention is an anti-signal*.)
   [inferred from @wcrf2018ter]
 - **Not independent on the evidence.** Both draw on largely the same observational cohort literature;
-  their divergence is in appraisal and standpoint, not in separate data (no [E-independent]).
+  their divergence is mainly in appraisal and standpoint, on largely (not wholly) shared data (no
+  [E-independent]).
 - Coherence, not validity (R1): the associations are what the cohorts report; whether reducing meat
   reduces a given person's cancer is not established by either.
 
@@ -339,17 +469,20 @@ So cooked weight ≈ **0.67-0.71 × raw** — a cooked-weight numeral correspond
 
 ## Appraising this observational evidence — the instrument `[2026-07-31]`
 
-The per-serving cancer associations (Vernooij/Zeraatkar 2019) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
+The cohort cancer associations (Vernooij 2019's dietary-pattern cohort SR; Zeraatkar 2019 is the RCT SR
+and not part of this — corrected 2026-10-22) are **observational**; **ROBINS-I** ([[Risk of Bias Assessment Tools]]) is the appraisal instrument, with domain 1 (confounding) and domain 7 (selective reporting — the many-model problem) the likely caps. Flagged as a re-appraisal candidate there; not re-graded here. [inferred from @vernooij2019]
 
 ## Non-cancer outcomes live in the matrix (2026-08-28)
 
 This page stays **cancer-scoped**. The red/processed-meat associations with the OTHER outcome
 families — mortality, T2D, hypertension, CVD, adiposity — are held in the DIfE/Boeing dose-response
-grid, where **processed meat is the most consistently harmful food in the whole matrix** (harmful in
-all five outcome families; T2D 1.37 per 50 g/d, the single largest effect, HIGH grade) and red meat
-mirrors it one notch smaller. See [[Food Groups and Health Outcomes - A Dose-Response Matrix]];
-not re-extracted here.
-[@schwingshackl2017t2d]
-[@bechthold2019]
+grid. Tagged here: processed meat -> T2D RR 1.37 (1.22-1.55; I2 88%) per 50 g/d
+[@schwingshackl2017t2d], and processed
+(and red) meat -> CHD / stroke / HF [@bechthold2019].
+The broader reading — **processed meat as the most consistently harmful food in the whole matrix**
+(harmful in all five outcome families, T2D the single largest effect, HIGH grade) with red meat one notch
+smaller — rests on the other DIfE/Boeing sources held on
+[[Food Groups and Health Outcomes - A Dose-Response Matrix]], not on the two tags above; not
+re-extracted here.
 
 ## References

@@ -16,7 +16,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-10-06
+updated: 2026-10-22
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -29,8 +29,6 @@ leans on Reynolds for its whole-grain dose-response, so that dependency runs thr
 convergence it appears to add is therefore shared-source, not type-E.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The headline: refined grains are NOT found harmful
 
@@ -53,8 +51,6 @@ p=0.14), fasting insulin and insulin sensitivity — several at `Adequate eviden
 95% CI -642, -79; p=0.01)» — graded `Effect · Limited evidence`, and **SACN notes one trial
 contributes 75% of the pooled estimate.**
 [@sacn2015]
-
-</div>
 
 ## The claim that survives is narrower than the popular one
 
@@ -351,7 +347,9 @@ told only one of the two would form a different picture of how settled this is.
   g/day fibre target. **Dry weight of a food against an AOAC fibre measure** — recorded in the body as
   a non-comparison.
 - **Dose-response: declined to score.** The sentence is the only candidate knee in the
-  corpus and the temptation was to bank it against the falsified prior. Left open, source named.
+  corpus and the temptation was to bank it against the falsified prior (superseded 2026-10-22: contested, Gate 55 re-score; no longer the only candidate
+  knee — see the whole-grain T2D knee and CHD plateau in
+  [[Food Groups and Health Outcomes - A Dose-Response Matrix]]). Left open, source named.
 - **Residual:** `confidence` stays `low` and the source count going from one to two changes nothing
   epistemically, which is the whole point of the section.
 
@@ -407,8 +405,6 @@ which this page already records as the thing that makes 30 g and 25 g non-compar
 bound of 45 g is the highest figure in the corpus and comes with no stated warrant**, so it is recorded
 as a held position, not as evidence that more is better.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The whole-grain benefit is probably the FIBRE benefit `[2026-07-29, Reynolds]`
 
 Reynolds 2019 (the WHO-commissioned Lancet meta-analysis) tracks whole grains and total fibre in the
@@ -432,7 +428,6 @@ products with whole grain foods» as one way to raise fibre, with whole grains l
 whole grains add anything beyond their fibre is untested in the held text — a named gap (G), consistent with, but not
 evidence for, the component-not-category reading above.
 
-</div>
 
 ## Low whole grains tops the GLOBAL burden ranking — but read that as prevalence, not effect size `[2026-08-04, Afshin GBD 2017]`
 
@@ -520,7 +515,24 @@ All-cause risk is lowest at **225 g/day**; the curves are steeper at low intake 
 but **stay decreasing to the studied-range edge — no plateau reached within the data, no upper (harm)
 arm** for the headline outcomes. So NNR's 90 g/day threshold marks study density / a median, not a
 ceiling — **the SACN pattern again** (a guideline number marking the evidence edge, not a curve
-feature), consistent with the falsified knees-prior. **No U-artifact:** the lone point estimate above 1
+feature), once read as support for the knees-prior's
+falsification (superseded 2026-10-22: the prior is contested, re-scored at Gate 55 as a conditional —
+protective exposures plateau). Aune's whole-grain set is mixed. The headline curves (CHD, total cancer, respiratory, all-cause) are
+still falling at 210-225 g/day, so no plateau is reached in range. CHD (P<0.001) and all-cause are
+non-linear with steeper reductions at low intake: a soft bend, not a plateau. Total cancer shows no
+evidence of non-linearity (P=0.15). CVD falls fastest up to 50 g/day, «but with slight further
+reductions in risk with intakes up to 200 g/day» [@aune2016wg].
+All of these use a 3-knot restricted cubic spline that is forced linear beyond its 90th-centile knot
+. But Aune reports «no further reduction in risk above 120-150 g/day» for stroke (per-90 g
+RR not significant) and, for diabetes and infectious-disease mortality, «most of the reduc- tion in risk
+observed with intakes up to about 60-90 g/ day», with further reductions at higher intakes for
+respiratory disease [@aune2016wg]. The stroke curve, a
+primary outcome, is a located plateau, and the diabetes and infectious-disease curves are knees on
+cause-specific mortality. Both fit the conditional, while CHD, respiratory and all-cause bend but reach no
+plateau, and total cancer is linear (no evidence of non-linearity, P=0.15). Bechthold's CHD spline (5 studies) plateaus at \~100 g/d
+(-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]) while Aune's CHD curve keeps falling
+to 210 g/d (7 studies in the per-90 g analysis; the spline's study count is not stated in the text).
+That is an unreconciled shape clash on the same outcome. **No U-artifact:** the lone point estimate above 1
 is nervous-system mortality (1.15, 0.66-2.02, n=2, NS) at low intake only — a weak single outcome, not a
 U on the headline curves -> [[The U-Shaped Association Artifact]].
 
@@ -799,13 +811,22 @@ all-cause agreement with the Aune lineage are shared-source, not convergent-rout
 not evidence count.
 
 
-**G-gap status change + confidence.** The pulses cell moves from *«cohort-null on events, LDL benefit at
-RCT doses, no mortality data»* to *«non-soy legumes -> \~6% lower all-cause mortality per 50 g/d (moderate
-certainty), monotone with no knee, but no robust signal on any specific cause of death»*. This is the
+**G-gap status change + confidence.** The pulses cell moves from *cohort-null on events, LDL benefit at
+RCT doses, no mortality data* to *non-soy legumes -> \~6% lower all-cause mortality per 50 g/d (moderate
+certainty), no knee shown (3-knot restricted cubic spline, all-cause P-nonlinearity 0.31; studied
+intake range not reported), but no robust signal on any specific cause of death* (2026-10-22: the
+wiki's own summary was un-guillemeted, and a bare *monotone with no knee* scoped to display + range)
+. This is the
 strongest pulse -> hard-outcome signal the page holds, yet `confidence:` **stays low**: it is
 observational and measurement-error-attenuated, the all-cause signal may be power/confounding rather than a
 broad effect (author-stated), stroke is non-robust, and the source is **not independent** of the held
-Aune/Thorisdottir lineage. What remains open (G): no minimum effective dose (no knee), and the mechanism
+Aune/Thorisdottir lineage. What remains open (G): no minimum effective dose — no knee is shown over
+the modeled range (display: restricted cubic spline, «We used restricted cubic splines with 3 knots at
+ﬁxed per- centiles (10%, 50%, and 90%) of the distribution to model the potential nonlinear association
+[54].» [@zargarzadeh2023]; all-cause P-nonlinearity
+0.31), and the studied intake range is not reported in the text — Figure 3 carries no extracted axis
+values [searched: range/up to/maximum/Figure 3 across chunks 01-02]
+(rescoped 2026-10-22: was a bare *(no knee)*) — and the mechanism
 by which non-soy legumes would lower *all-cause* death without moving a named cause is unresolved.
 Full cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 

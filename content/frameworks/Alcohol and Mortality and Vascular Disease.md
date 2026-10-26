@@ -2,14 +2,14 @@
 type: framework
 question: Is moderate alcohol intake protective, harmful, or neutral — and is the J-curve real?
 aliases: [Alcohol, Moderate Drinking, Alcohol and Mortality, Alcohol J-Curve, Alcohol and Stroke, Alcohol Cardioprotection]
-authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen; Bryazka, Dana; GBD 2020 Alcohol Collaborators (org); Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai]
-sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019, Bryazka - Alcohol Population-Level Risks GBD 2022, Xu - Alcohol Consumption Dementia 2017]
+authors: [Stockwell, Tim; Millwood, Iona Y; Walters, Robin G; Chen, Zhengming; Zhao, Jinhui; Livingston, Gill; World Cancer Research Fund International (org); Roerecke, Michael; Rehm, Jürgen; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Semba, Richard D; Griswold, Max G; GBD 2016 Alcohol Collaborators (org); Rumgay, Harriet; Nordic Council of Ministers (org); Kwok, Alastair; Dordevic, Aimee L; Paton, Gemma; Page, Matthew J; Truby, Helen; Bryazka, Dana; GBD 2020 Alcohol Collaborators (org); Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Di Federico, Silvia; Filippini, Tommaso; Whelton, Paul Kieran; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Vinceti, Marco]
+sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Zhao - Daily Alcohol Intake and Mortality 2023, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Roerecke - Irregular Heavy Drinking Ischemic Heart Disease 2010, Roerecke - Alcohol Reduction Blood Pressure 2017, Semba - Resveratrol Levels Mortality 2014, GBD - Alcohol Use Burden 195 Countries 2018, Rumgay - Alcohol Attributable Cancer Burden 2021, NNR - Nordic Nutrition Recommendations 2023, Kwok - Alcohol and Food Energy Intake Meta-Analysis 2019, Bryazka - Alcohol Population-Level Risks GBD 2022, Xu - Alcohol Consumption Dementia 2017, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023]
 cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-06
-self_critiqued: 2026-09-04
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - The U-Shaped Association Artifact
@@ -19,6 +19,7 @@ relationships:
     - Is the Food Category Doing Any Work
     - Net Effect vs Intended Effect
     - Exercise Energy Compensation
+    - Does Light Drinking Raise Blood Pressure
 ---
 
 Opens the `alcohol` cluster. The famous finding that *moderate drinkers outlive abstainers* — the
@@ -38,8 +39,6 @@ independent methods say the protection is largely not real.
   myocardial infarction; men who reported drinking about 100 g of alcohol per week... had lower risks
   of all three diseases than non-drinkers or heavier drinkers.»
   [@millwood2019]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Why the lower arm is an artifact — two independent adjudications
 
@@ -79,8 +78,6 @@ not mainly caused by alcohol itself, and are largely artifacts of reverse causat
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
 [@millwood2019]
-
-</div>
 
 ## Two independent methods, one conclusion `[E-independent]`
 
@@ -140,7 +137,7 @@ genuinely unresolved**, and that is the one place a small real benefit is not ex
 [@millwood2019]
 
 
-## Interventional confirmation — reducing alcohol lowers BP, confined to >2 drinks/day `[Roerecke 2017]`
+## Interventional confirmation — reducing alcohol lowers BP above 2 drinks/day; no fall shown below `[Roerecke 2017]`
 
 The BP slope above (Millwood) is observational + genetic. Roerecke's 2017 SR+MA of **36 randomised
 trials (2865 participants)** supplies the missing **interventional** leg — the RCT dose-response of
@@ -161,14 +158,29 @@ evidence for a dose-response association as high».
   [@roerecke2017alcohol] Studied range: baseline
   weighted means 15 / 30 / 49 / 76 g/day across the four strata (single trials to \~380 g/day) — so the
   curve is estimated *over the drinking range*, not extrapolated.
-- **Below the threshold the lever is empty — the decision-relevant part.** «People drinking two drinks or
+- **Below the threshold no BP fall is shown (not a shown zero; qualified below) — the decision-relevant part.** «People drinking two drinks or
   fewer per day did not have a signiﬁ cant reduction in blood pressure when they reduced their alcohol
   consumption to near abstinence, suggesting that this amount of alcohol intake does not increase blood
   pressure.» [@roerecke2017alcohol] So the alcohol->BP
-  lever is **confined to the >2 drinks/day stratum**; for a light drinker, cutting alcohol buys no BP —
+  lever is **confined to the >2 drinks/day stratum**; for a light drinker, cutting alcohol buys no BP *(read: no BP fall shown; qualified 2026-10-22 below)* —
   a route-(a)/(b) stratification, not a universal recommendation. The dose-response held «in healthy
   participants and people with hypertension or other CVD risk factors».
   [@roerecke2017alcohol]
+  - *Qualified 2026-10-22 (Di Federico):* the empty-lever reading rests on **5 trials** in the <=2
+    stratum, SBP -0.18 (-1.02 to 0.66), DBP +0.61 (-0.04 to 1.26), whose alcohol arm averaged 15 g/day
+    against abstinence or near-abstinence. Three of the five gave abstainers or near-abstainers wine
+    (Cordain, 10 weeks; Gepner 2015, 104 weeks; Shai, 12 weeks), one gave carotid-plaque patients red
+    wine vs abstinence (Droste, 20 weeks), one swapped regular drinkers' wine for dealcoholised wine
+    (Mori 2015, 4 weeks); two enrolled people with type 2 diabetes.
+    [@roerecke2017alcohol]
+    For SBP that is *no fall shown*, not a shown zero: the interval admits a fall of about 1 mmHg. By
+    trial count the band mostly tests starting to drink, but by weight it is mostly one 4-week crossover
+    in 24 habitually drinking women given about 8 g/day (Mori 2015: 52% of SBP, 69% of DBP weight,
+    Roerecke Figures 2-3). A cohort
+    dose-response puts SBP 1.25 mmHg higher at 12 g/day than at none, with no threshold shown. Read the
+    bullet as **no BP fall demonstrated by trials below 2 drinks/day**; the two are set side by side,
+    as a distinction rather than a joined clash, at [[Does Light Drinking Raise Blood Pressure]].
+    [inferred from @roerecke2017alcohol; @difederico2023alcbp]
 
 ### Third independent leg for the alcohol->BP causal claim `[E-independent]`
 
@@ -190,6 +202,12 @@ The alcohol->BP causal effect is thus triangulated across observation, genetics,
 Roerecke **refines** the Millwood log-linear picture with a threshold (an F riding on the E): the BP
 effect is a >2-drinks/day phenomenon, flat below it.
 [inferred from @millwood2019; @roerecke2017alcohol]
+*Qualified 2026-10-22:* *flat* means no significant trial effect below 2 drinks/day, and the threshold
+itself is a between-trial contrast (stratum pooling and a meta-regression on baseline intake, with the
+<=2 stratum also cutting the least alcohol). It is not a demonstrated zero, and a cohort curve shows no threshold
+over its studied range, 0 to \~55 g/day (plotted extent, figure read), with no formal non-linearity
+test (*Low-dose cohort curve* below).
+[inferred from @roerecke2017alcohol; @difederico2023alcbp]
 
 ### But BP is the SURROGATE — the CV events are modelled, not measured
 
@@ -208,9 +226,100 @@ adjudicated at [[Blood Pressure Lowering and Cardiovascular Events]].
 
 **No protective arm for the BP outcome — the interventional check the artifact concept demands.** Where
 alcohol's *mortality/IHD* J-curve carries a spurious protective lower arm (above), the *BP* dose-response
-has none: reducing alcohol never *raises* BP, and below the 2-drink threshold it is simply flat. A
+has none: reducing alcohol never *raises* BP, and below the 2-drink threshold it is simply flat
+*(qualified 2026-10-22: no band shows reducing alcohol significantly raising BP, but the <=2 band's DBP,
++0.61, -0.04 to 1.26, leans that way and is significant in its high-CVD-risk subgroup (a 4-trial between-trial subgroup,
+hypothesis-grade), +1.30, 0.14 to 2.47; and below 2 drinks no trial effect is shown, which is not a shown
+zero; see the next section)*. [@roerecke2017alcohol] A
 randomised-reduction design is the strongest form of the interventional check -> [[The U-Shaped Association Artifact]] asks for — but note the outcome is **distinct** (BP, not mortality), so this
 confirms the concept on a *different endpoint*, it does not itself adjudicate the mortality J.
+
+
+### Low-dose cohort curve: no threshold shown, and a distinction from the trials `[2026-10-22, Di Federico]`
+
+The trials above are thinnest exactly where the light-drinker decision sits. Di Federico's 1-stage
+dose-response meta-analysis pools **7 cohorts (19,548 adults, median follow-up 5.3 y, range 4-12; 3 North
+American, 4 Japanese/Korean, 3 of them men only)** and models BP *change* over follow-up against
+*baseline* intake, against a referent of «no alcohol consumption».
+[@difederico2023alcbp]
+
+> «Usual SBP and DBP were 1.25 mm Hg (95% CI, +0.49 to +2.01) and 1.14 mm Hg (95% CI, +0.60 to +1.68) higher, respectively, for a 12 g/day greater daily consumption of alcohol compared with no alcohol consumption.»
+
+[@difederico2023alcbp]
+
+- **Curve.** SBP 2.48 (1.40 to 3.56) at 24 g/day and 4.90 (3.71 to 6.08) at 48 g/day; DBP 2.03 and 3.10,
+  flattening. [@difederico2023alcbp]
+  **No threshold shown over the studied range 0 to \~55 g/day** (the plotted extent; chunk 02 prep
+  note); the main text reports no formal non-linearity test and no certainty rating (supplement not
+  chunked) `[searched: linearity / P for / GRADE across chunks 01-02, srcgrep 0 / 0 / reference list only]`.
+- **Where it is thin.** Women rest on 2 cohorts: SBP 0.82 (-0.58 to 2.22) at 12 g/day, and DBP an
+  inverted U. North America (3 cohorts): SBP 1.50 (-0.25 to 3.24) at 12 g/day, DBP flattening and
+  tending to fall above 24 g/day. The overall low-end SBP interval excludes 0; these two strata's do not.
+  [@difederico2023alcbp]
+- **Authors' reading, with its own qualifier.** The SBP change at «one serving/day» was «rather small»,
+  yet «Our findings suggest that in longitudinal analysis there is no threshold below which no
+  association exists between alcohol consumption and a higher SBP», and they conclude that
+  «consumption of any alcohol should be considered a risk factor for high SBP». Exposure is
+  baseline-only (drinking changes in follow-up unmeasured), 2 of 7 cohorts are low RoB, and one is crude.
+  [@difederico2023alcbp]
+
+**Against Roerecke's <=2-drink band: a distinction, not a joined clash.** Both bear on one decision
+question: does about one drink a day, against none, raise BP? Roerecke reads its band as «this amount
+of alcohol intake does not increase blood pressure». Di Federico finds the one-serving change «rather
+small» but concludes there is no threshold. It opens by calling it unclear whether the low-band
+uncertainty reflects «a lack of statistical power in studies of low levels of alcohol intake or
+reflects biological differences at lower compared with higher intakes of alcohol». The two measure
+different quantities, and both can hold at once:
+
+- Roerecke: BP level after 4-104 weeks of changed intake. By count the band is mostly abstainers
+  starting wine; by weight it is mostly one 4-week crossover in habitually drinking women at about
+  8 g/day.
+- Di Federico: the difference in BP change over 4-12 years by baseline intake, in healthy, mostly
+  male adults.
+
+Only if the cohort difference is read as a level effect that reverses within weeks do the overall DBP
+intervals fail to overlap: the trial excludes a fall beyond \~0.04 mmHg, and the cohort gives +1.14,
+0.60 to 1.68. Women only, they touch at \~0.7 mmHg; on SBP they share \~0.5-1 mmHg. Confounding,
+horizon, transport and power each fit; held evidence cannot pick. Parameter table, not-joined checks
+and the reconciliation menu: [[Does Light Drinking Raise Blood Pressure]] (a distinction with a
+conditional clash; type-F/G).
+[@roerecke2017alcohol]
+[@difederico2023alcbp]
+
+
+**Independence and echoes.** Di Federico shares no author with Roerecke or Millwood. It is not a fourth
+independent method on the causal slope: it is observational, the same design family as Millwood's
+conventional leg, whose slope (+4.8 mmHg per 280 g/week among current drinkers) it matches in size but
+not in quantity (BP change over years vs BP level).
+[@millwood2019]
+
+The trial result Di Federico calls «generally consistent» with its own, Xin 2001, adds little: by Di
+Federico's account it «relied on a meta-regression linear model», which cannot show a threshold, and it
+shares an author (Whelton) with Di Federico. Xin is not held.
+[@difederico2023alcbp]
+
+**Referent.** The curve is pinned at «no alcohol consumption», whose make-up (never vs former drinkers)
+is not reported in the main text `[searched: former / never across chunks 01-02, srcgrep 0 / 0]`; excluding diagnosed CVD,
+diabetes and alcoholism removes some sick quitters, not all. Every reported point, 48 g/day included, is
+a contrast against that referent, and the 1-stage model pools each study's contrasts against its own
+referent (studies with as few as 2 exposure categories enter). A 3-knot spline pinned at zero cannot
+isolate a step at zero, so a contaminated referent could tilt the whole fitted curve. Within-study
+comparisons among drinker categories would escape it, but they are not reported separately. On a
+BP-*change* outcome the direction of any former-drinker distortion is unsigned
+-> [[The U-Shaped Association Artifact]].
+[inferred from @difederico2023alcbp]
+
+**Decision consequence (light-drinker stratum, harm side).** The F-attenuation: *cutting from \~1 drink/day
+buys no BP* becomes **the BP gain is between zero and about 1.25 mmHg SBP** (cohort interval 0.5 to 2):
+zero on the trial reading, \~1.25 mmHg if the cohort gradient is causal and reverses when people cut
+down. The harm-side default holds, every reduction pays, and here the payment is small: on this wiki's
+arithmetic, carrying BPLTTC's drug-trial hazard ratio (\~0.91 per 5 mmHg of pharmacological lowering
+-> [[Blood Pressure Lowering and Cardiovascular Events]]) over to an alcohol-associated BP difference,
+which neither source models, that is roughly a 2% relative reduction in major CV events (about 1-4% across the cohort interval),
+modelled rather than measured. For a light drinker the BP route is a
+small part of the case; the cancer endpoint, which rises from zero with no protective arm (Bagnardi,
+-> [[The U-Shaped Association Artifact]]), is the other leg.
+[inferred from @difederico2023alcbp; @roerecke2017alcohol]
 
 ## What this probes `[PRIOR handle — not scored here]`
 

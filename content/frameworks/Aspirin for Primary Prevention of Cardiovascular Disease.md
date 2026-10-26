@@ -2,11 +2,11 @@
 type: framework
 question: For a person without established cardiovascular disease, does daily low-dose aspirin reduce cardiovascular events enough to outweigh its bleeding harm?
 aliases: [Aspirin Primary Prevention, Aspirin CVD Primary Prevention, Low-Dose Aspirin Primary Prevention, Acetylsalicylic Acid Primary Prevention, Aspirin for Heart Attack Prevention]
-authors: [Zheng, Sean L; Roddick, Alistair J; US Preventive Services Task Force (org)]
-sources: [Zheng - Aspirin Primary Prevention Meta-Analysis 2019, USPSTF - Aspirin Primary Prevention 2022]
+authors: [Zheng, Sean L; Roddick, Alistair J; US Preventive Services Task Force (org); Franklin, Barry A.]
+sources: [Zheng - Aspirin Primary Prevention Meta-Analysis 2019, USPSTF - Aspirin Primary Prevention 2022, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020]
 cluster: cvd-risk-estimation
 confidence: medium
-self_critiqued: 2026-08-20
+self_critiqued: 2026-10-21
 relationships:
   related_to:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
@@ -15,8 +15,9 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
+    - Exercise-Related Acute Cardiac Events
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-10-21
 ---
 
 *For a person with no established cardiovascular disease, does daily aspirin prevent enough
@@ -215,6 +216,22 @@ negative at 60-69**, and are **negative at essentially all modelled risk levels 
 men +36.1 -> +4.2 -> -3.0 -> -6.9.) This is the same closing-of-the-route-(a)-escape-hatch the Zheng
 analysis found (harm co-scales with the risk that carries the benefit), here resolved onto an **age**
 axis to set the grade cutpoint.
+
+## A different decision: a dose before strenuous exercise `[2026-10-21, Franklin]`
+
+Taking aspirin shortly *before* a bout, to blunt the transient risk of exertion-triggered MI, is a
+separate, episodic use from the daily regimen above. An AHA scientific statement (consensus) notes
+«there are no definitive data that these medications prevent exercise-related acute cardiac events»,
+sets out an antiplatelet rationale, and concludes against routine use: «Collectively, these data and more recent reports63 suggest there is insufficient
+evidence to recommend the routine use of either aspirin or β-blockers before strenu- ous PA or sports
+participation.» In TIMI II aspirin use did not significantly reduce the likelihood of MI during exertion,
+and in the MI Onset Study it did not alter the relative risk of MI triggered by heavy exertion. Both are
+observational analyses of patients' aspirin use; the statement does not say the aspirin was taken before
+exertion, and it cites no trial of a pre-bout dose. It leaves individual decisions to a risk discussion
+with the patient. [@franklin2020acute]
+ So exercise-timed aspirin is not a supported alternative route to the protection daily
+aspirin fails to deliver net of bleeding; the exercise risk itself and what does lower it are on
+[[Exercise-Related Acute Cardiac Events]].
 
 ## What this is and is not
 

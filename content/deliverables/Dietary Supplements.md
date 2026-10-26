@@ -222,8 +222,6 @@ colorectal cancer, some trials for other cancer sites have shown potential for u
 effects» [@wcrf2018ter] — a site-specific benefit
 does not license the supplement, because the whole-body ledger is what a recommendation weighs.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Correcting a documented deficiency is a different, real lever
 
 Where a person is genuinely short, repletion moves patient-important outcomes — and the benefit scales
@@ -317,8 +315,6 @@ TPO-antibody-positive individuals.
 generalizes past pregnancy: iodine has no benefit arm left to climb, so more is not better.
 -> [[Excess Iodine Intake and Thyroid Disease]]
 
-</div>
-
 ## Folic acid before pregnancy is the clearest supplement win the evidence holds
 
 Periconceptional folic acid is the standing counter-example to *supplements are a distraction* — the
@@ -338,8 +334,6 @@ pregnant, so supplementation must be in place beforehand
 (prior NTD pregnancy, diabetes, anticonvulsants) take 5 mg/day rather than the general 0.4 mg
 [@deregil2015]. For this stratum a
 supplement flips from bottom-of-hierarchy to a genuine big rock.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Calcium plus vitamin D helps only the frail elderly, and carries its own harms
 
@@ -398,8 +392,6 @@ fracture signal is low-certainty (fall-related fractures RR 0.73, 0.56-0.95, 10 
 [@sherrington2019] -> [[Exercise for Preventing Falls in Older Adults]];
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
-
-</div>
 
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
@@ -486,8 +478,6 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint. The repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The bottom line
 
 #### The general-population defaults
@@ -524,10 +514,6 @@ These are named gaps — absence of held evidence, not evidence of absence
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
   useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Caveats
 
 - **The loop is open.** Nothing here grades a supplement against a realized outcome in a real person; the
@@ -551,7 +537,5 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kreider (consensus, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
-
-</div>
 
 ## References

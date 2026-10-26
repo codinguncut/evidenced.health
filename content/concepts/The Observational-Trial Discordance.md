@@ -40,8 +40,6 @@ the reason is the single most useful thing this pattern teaches: **the two evide
 not estimating the same exposure.** The discordance is a *diagnostic signal to check
 exposure-commensurability*, not a verdict for the trial.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The pattern is real — three worked instances
 
  — the values below are as established on each linked page; the cross-instance structure is
@@ -87,10 +85,6 @@ outcomes», so the trials «make it difficult to draw definitive conclusions abo
 on health.» This corroborates the *structure* (surrogate-validity + triangulation), not an independent
 primary dataset — and Aramburu INCLUDES Hall, so it is not independent backing for the intake foothold.
 Loci on [[Ultra-Processed Food and Health Outcomes]] and [[Is the Food Category Doing Any Work]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The untested pole — red meat -> T2D, and why it is NOT coffee `[2026-08-29]`
 
@@ -152,8 +146,6 @@ stays open both ways. **Heuristic (induced from two MRs, not a law):** an MR nul
 observational signal only when it is shown powered to exclude the observational effect size, which needs a
 stated exposure unit and adequate instrument strength; a positive control strengthens it. Neither MR here
 meets it. The same instrument-validity weaknesses would discount a positive result from an MR built like Li's.
-
-</div>
 
 ## Why the streams disagree — five mechanisms, not one
 
@@ -245,8 +237,6 @@ meets it. The same instrument-validity weaknesses would discount a positive resu
   convincing = GRADE very low* is not a contradiction — it is two instruments measuring two things
   (how consistent vs how causally certain) -> [[Upgrading Observational Evidence]].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The resolution — triangulate on the exposure, do not crown the RCT
 
 
@@ -282,8 +272,6 @@ meets it. The same instrument-validity weaknesses would discount a positive resu
    trials + biochemistry + genetics all converging) is the standard for a survived nutrition finding;
    the two classic reversals (beta-carotene, dietary-fat->breast-cancer) had many studies of *one*
    method class -> [[Upgrading Observational Evidence]] (the triangulation criterion).
-
-</div>
 
 ## The dual-use guard
 

@@ -18,8 +18,6 @@ drugs that move hard CV events, and the behavioural big rocks. Nucleus of the ex
 - [[Risk Modifiers - When Extra Information Changes a Risk Estimate]] — when an extra test moves a risk
   estimate enough to change the decision, and why very few modifiers clear the bar
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Blood pressure levers
 
 - [[Blood Pressure Lowering and Cardiovascular Events]] — the one cardiometabolic lever whose
@@ -44,8 +42,6 @@ The wider **psychosocial / HPA-channel exposures** that reach cardiometabolic ri
 social connection, sense of purpose, allostatic load, depression — plus **sun/UV** live in
 [[Psychosocial and Environmental Exposures Hub]]; most are observational mortality markers, not proven
 BP levers.
-
-</div>
 
 ## Lipids, drugs, and dietary patterns for CV events
 

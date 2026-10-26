@@ -61,8 +61,6 @@ effects" of either. Fruit juice is **in**; whole fruit is **out**. The 2015 defi
 2002 one by adding "and beverages" and "and fruit juice concentrates", while parts of the evidence base
 date from 1959 and measured *total* sugars.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Body weight — the effect is energy, not sugar
 
 | Contrast | Effect (95% CI) | Design | Certainty |
@@ -199,10 +197,6 @@ population based recommendations rather than nutritional recommendations for the
 obesity"*; WHO, *"Trials that were specifically designed to achieve weight loss were excluded."* So
 none of this speaks to sugar reduction as an obesity *treatment*, only as population guidance.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Dental caries — a patient-important outcome with no trial behind it
 
 **First, the correction to a natural misreading:** caries is what the *threshold numbers* are pinned to,
@@ -301,10 +295,6 @@ independent evidence of it**, since both are the same body's process.
 
 **None of this is a second witness.** See *Why these are one source, not three* below.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The second guidance family arrives — and the 5% agreement dissolves
 
 SACN is the independent reading gate 4 said was missing. It agrees
@@ -366,10 +356,6 @@ while the number comes from applying the pooled RCT effect to a policy target** 
 2026-10-06: the 78 kJ divisor is the pooled effect, not the non-significant meta-regression slope;
 corrected 2026-10-06: *the strongest evidential position the
 `<5%` figure has anywhere in the corpus* -> direction only; self-critique).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A third guidance family — and it sets no 5% tier at all
 
@@ -539,8 +525,6 @@ but it is not an independent witness to that evidence.** The divergence is infor
 wrong — NNR neither tested nor rejected it. Three bodies disagreeing is a statement about the state of
 the appraisal, not a verdict on the number.
 
-</div>
-
 ## Why WHO and its own reviews are one source, not three
 
 The wiki now holds WHO Sugars 2015 plus both reviews behind it. **They are one witness for the
@@ -612,8 +596,6 @@ NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independen
 counting rule as *Why WHO and its own reviews are one source, not three* above. It extends this page's
 substitution frame; it does not add an independent backing.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The beverage limb — SSB dose-response to cardiometabolic outcomes `[2026-08-06, Qin 2020]`
 
 The body-weight rows above are the guideline's own free-sugars-%E evidence. The **beverage vehicle** —
@@ -662,10 +644,6 @@ does NOT license:
   association as an ASB *effect*; it is the artifact-suspect arm -> [[The U-Shaped Association Artifact]],
   [[Non-Sugar Sweeteners]].
 [@qin2020]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A fourth body sets NO number at all — EFSA's risk assessment could find no threshold `[2026-08-06, EFSA 2022]`
 
@@ -765,10 +743,6 @@ available, however, did not allow exploring dose-response relationships across t
 a level of total sugars intake at which the risk of dental caries is not increased (Section 10.3).»
 [@efsasugars2022] [inferred from @efsasugars2022]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **The 10% limit is a dental recommendation in its number** (its threshold is pinned to caries; body
@@ -798,9 +772,7 @@ a level of total sugars intake at which the risk of dental caries is not increas
   time-point (and mildly *worse* alertness/fatigue within the hour) -> [[Acute Carbohydrate Effects on Mood]].
   So the free-sugars costs above are not offset by an acute upside for this use-case.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits
 
@@ -815,7 +787,7 @@ a level of total sugars intake at which the risk of dental caries is not increas
   and SACN; SACN read WHO's commissioned reviews. **No two of the three are independent witnesses to
   the primary data**, so agreement anywhere among them must not be counted as corroboration.
 
-</div>
+
 
 ## Self-critique of the NNR addition `[run 2026-07-28, before commit]`
 
@@ -845,17 +817,11 @@ a level of total sugars intake at which the risk of dental caries is not increas
   different comparison. Tagged in place.
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Fruit juice, smoothies and whole fruit — the form decision lives on its own page
 
 Fruit juice counts toward the free-sugars limit and whole fruit does not (definition above). Which form
 of fruit to eat, and why fruit juice runs opposite signs on metabolic versus vascular outcomes, is a
 separate decision -> [[Whole Fruit Smoothies and Fruit Juice]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Refinement — SSB in the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -875,7 +841,5 @@ imprecise (CI 0.91-1.18, n = 4 studies), not evidence of safety, and Qin's large
 (corrected 2026-10-06: *the streetlight/measurement caveat* -> imprecision; self-critique).
 Full cross-outcome placement ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
 
 ## References

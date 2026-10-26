@@ -8,8 +8,8 @@ cluster: measured-vs-true-effect
 nucleus: true
 confidence: medium
 created: 2026-08-08
-updated: 2026-08-31
-self_critiqued: 2026-08-31
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - Exercise Energy Compensation
@@ -18,6 +18,7 @@ relationships:
     - The Estimate-to-Action Gap
     - Inflammation as a Modifiable Lever
     - Alcohol and Mortality and Vascular Disease
+    - Sodium Intake and Blood Pressure
 ---
 
 **An intervention's *intended* effect — the one its mechanism predicts in isolation — is routinely wrong,
@@ -38,10 +39,11 @@ a closed loop with counter-regulation, so the arithmetic over-predicts.
 
 Each restates a finding held on the linked page; the selection and framing as compensation-instances is
 this page's synthesis. The first four run the *attenuating* or *redirecting* way (the term subtracts or
-diverts); the last is the *amplifying* mirror (the term adds). The two limbs are **not equally
+diverts); the fifth (alcohol) is the *amplifying* mirror (the term adds). The two limbs are **not equally
 evidenced**: the attenuating direction rests on four instances, the amplifying direction on one, whose
 intake -> weight step is itself *inferred, not measured* — so "the term can add" is held as a real but
-single-instance generalization, not a symmetric law.
+single-instance generalization, not a symmetric law. A sixth, sodium, is listed as a candidate and is
+not counted in either limb.
 
 - **Exercise -> the body compensates.** Added exercise energy is partly offset by eating more and moving
   less the rest of the day, so the net energy deficit is smaller than the sessions "burn"
@@ -66,6 +68,21 @@ single-instance generalization, not a symmetric law.
   the exercise case: there the whole-organism response *subtracts* from the intended deficit; here it
   *adds* to the intended surplus. Same principle (net != intended via the whole-organism response),
   opposite direction — which is why the diagnostic must be signed, not assumed to subtract.
+- **Sodium reduction -> counter-regulation may damp the BP fall (candidate); its persistence is the open
+  term `[2026-10-22]`.** A candidate instance, not yet a worked one. When sodium intake falls, renin,
+  aldosterone and noradrenaline rise in both opposing Cochrane lineages; Graudal offers the rise only as a
+  possible explanation for the small BP fall (the *damp* direction), while He calls it a compensatory
+  response it expects to attenuate (Huang does not link the activation to the BP fall). One lineage adds a candidate
+  *redirect* — total cholesterol and triglyceride rising by \~0.1 mmol/L. What keeps it a candidate: the two
+  lineages disagree on whether the renin and aldosterone rises fade over months (for lipids and
+  noradrenaline only the population-wide side — He/Huang/WHO — commits), which no held source measures within-trial
+  at a fixed sodium-only contrast (the primary-pool marker data run to \~4-6 weeks in He's hormone trials;
+  WHO's 1-2.5-month pools find total cholesterol and noradrenaline n.s., and its renin/aldosterone-persist
+  statement cites only renin-prognosis reviews, plausibly carrying over Graudal 2011, so it adds no
+  independent data); between-trial data cannot separate fading from the smaller contrasts of
+  long trials; and the BP fall reaches an outcome only through a BP-to-outcome transfer that assumes the
+  means of lowering does not matter (Graudal contests it), while the marker rises reach none -> [[Sodium Intake and Blood Pressure]],
+  [[Should Sodium Reduction Be Population-Wide or Targeted]].
 
 ## The failure mode it names
 

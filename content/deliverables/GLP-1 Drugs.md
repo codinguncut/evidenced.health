@@ -81,8 +81,6 @@ a person actually cares about is a separate evidenced step, never assumed from t
  -> [[Surrogate Outcomes]]. That discipline bites hardest exactly here, where the effect is
 so large and reliable that reading the surrogate *as* the outcome is most tempting.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Hard cardiovascular events fall as a class — but the benefit is proven where risk is high
 
 This outcome turns the drug from a weight intervention into a lever on something people care about,
@@ -184,10 +182,6 @@ worked case where a large surrogate improvement bought no measurable event reduc
 -> [[Does Weight Loss Reduce Cardiovascular Events]]. Until SURMOUNT-MMO reports, tirzepatide's
 hard-CV effect is insufficient-evidence, not no-effect.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The kidney is now its own proven leg
 
 Kidney disease is a third distinct benefit, on a different endpoint in a different stratum — and the
@@ -235,8 +229,6 @@ is real, but the payoff scales with baseline kidney risk (route (a)) and is deci
 the FLOW-type stratum. It does not transport to a low-risk, near-normal-BMI person
 -> [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 
-</div>
-
 ## Progression to diabetes drops sharply
 
 Two-thirds of SELECT was prediabetic, and progression to diabetes fell steeply — progression to
@@ -253,8 +245,6 @@ the same insufficient-evidence caveat as the CV case.
 
 Weight loss of the magnitude these drugs produce improves fatty-liver (MASLD) disease in a
 dose-dependent way; the full steatosis/inflammation/fibrosis threshold ladder lives on [[Body Fat]].
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Muscle comes off with the fat — the ratio improves while absolute mass falls
 
@@ -326,8 +316,6 @@ to 1.273), while fat and total weight loss came out similar in both arms
 GLP-1 drug, and they measured lean mass rather than function. Carrying the result over to drug users
 assumes drug-driven and diet-driven loss respond alike — the open attribution question above
  -> [[Resistance Training During Caloric Restriction]].
-
-</div>
 
 ## The safety ledger: worry about the gut, not the cancers
 
@@ -492,8 +480,6 @@ decades, and this horizon mismatch is structural — more searching now cannot c
   mature record never tested. Accrued years de-risk the specific compound and dose, not the class
   label.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where you net out
 
 **Start from your baseline risk, not the scale.** If you have established cardiovascular disease, or
@@ -531,7 +517,5 @@ the fabric supplies only the directions and the certainties.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
-
-</div>
 
 ## References

@@ -212,8 +212,6 @@ thing to an olive-oil-alone estimate still leaves the MUFA-for-the-heart case pa
 The other polyunsaturated leg, n-6 linoleic acid, is where a **live public controversy** sits -- and it
 is the next section's subject.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Read n-6 linoleic acid as neutral-to-protective as a class
 
 Linoleic acid is the main omega-6 fat in bottled seed oils, and the popular
@@ -261,8 +259,6 @@ The louder seed-oil arguments — oxidation and aldehydes on heating, hexane
 extraction, the n-6:n-3 ratio, FADS genotype — are a separate question about a
 processed food, not about the fatty acid, and are appraised in [[Seed Oils]].
 This section holds only the class-level finding.
-
-</div>
 
 ## Split n-3 by form and hold the class evidence thin
 
@@ -334,8 +330,6 @@ the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plan
 genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
 **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -366,7 +360,5 @@ evidence does not offer.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
-
-</div>
 
 ## References

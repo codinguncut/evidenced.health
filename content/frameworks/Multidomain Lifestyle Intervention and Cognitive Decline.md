@@ -2,12 +2,12 @@
 type: framework
 question: Does acting on the modifiable dementia risk factors as a bundle (diet + exercise + cognitive training + vascular monitoring) actually improve or maintain cognition — or prevent dementia — in a randomised trial, and by how much?
 aliases: [FINGER, FINGER trial, preDIVA, Vascular Care to Prevent Dementia, Multidomain Dementia Prevention, Multidomain Cognitive Intervention, Multidomain Dementia Incidence, Lifestyle Intervention for Cognitive Decline, MAPT, MAPT trial, Multidomain Alzheimer Preventive Trial]
-authors: [Ngandu, Tiia; Lehtisalo, Jenni; Solomon, Alina; Levälahti, Esko; Soininen, Hilkka; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Eurelings, Lisa S; van Dalen, Jan-Willem; Hoevenaar-Blom, Marieke P; van Gool, Willem A; Andrieu, Sandrine; Guyonnet, Sophie; Coley, Nicola; Cantet, Christelle; Vellas, Bruno; Shourick, Jason; Mendes, Augusto J; Ribaldi, Federica; Frisoni, Giovanni B]
-sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025]
+authors: [Ngandu, Tiia; Lehtisalo, Jenni; Solomon, Alina; Levälahti, Esko; Soininen, Hilkka; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Eurelings, Lisa S; van Dalen, Jan-Willem; Hoevenaar-Blom, Marieke P; van Gool, Willem A; Andrieu, Sandrine; Guyonnet, Sophie; Coley, Nicola; Cantet, Christelle; Vellas, Bruno; Shourick, Jason; Mendes, Augusto J; Ribaldi, Federica; Frisoni, Giovanni B; Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna]
+sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Livingston - Dementia Prevention 2024]
 cluster: dementia
 confidence: low
 created: 2026-08-05
-updated: 2026-09-05
+updated: 2026-10-22
 self_critiqued: 2026-09-05
 relationships:
   related_to:
@@ -108,10 +108,30 @@ certainty: single proof-of-concept RCT; `confidence: low` (unreplicated; surroga
   cognitively-near-normal elderly. It does not transport to dementia patients (excluded) or to a low-risk
   group; absolute benefit scales with baseline dementia risk. Dietary self-report in the diet arm carries
   the usual measurement error -> [[Measurement Error in Dietary Assessment]].
-- **Single-domain trials had been null; the multidomain bundle was positive** — consistent with the
-  vault's held observation that a lone structured-exercise RCT found no cognition benefit
-  -> [[Physical Activity Dose and Mortality]]. But non-decomposability means this is *not* evidence that
-  exercise (or any one component) works alone.
+- **Single-domain trials had been *mainly negative*, with positive signals for exercise and cognitive
+  training in smaller, shorter studies (FINGER's framing); the multidomain bundle was positive.**
+  FINGER: «Previous single-domain prevention trials for cognitive impairment and dementia have yielded
+  mainly negative results.» It adds that «Some positive associations with cognition were [...]
+  reported for physical activity, cognitive training, or both in smaller and shorter intervention
+  studies.»
+  [@ngandu2015]
+  The one held long exercise RCT found no overall cognition difference at 5 years (Livingston reads
+  it as «in line with the small cognitive benefit shown in an umbrella review of RCTs», with a
+  subgroup MCI benefit in men), and its control arm was itself active: «At 5 years, 96% of the control group adhered to national guidance
+  for physical activity, and 75% and 76% adhered to the interval training intervention» and «There was
+  no significant difference in cognition between the groups (beta 0.26, −0.17 - 0.69) or odds of MCI
+  (OR 0.86, 0.66-1.13).» [@livingston2024]
+  -> [[Physical Activity Dose and Mortality]]. **Not the same quantity as the pooled single-domain
+  signal:** Mendes's NMA (below) finds exercise alone improves global cognition vs *health education*,
+  SMD 0.14 (0.05-0.22)
+  [@mendes2025multidomain].
+  Comparator plausibly reconciles the two — a null against an exercising control vs a small
+  positive against an education-only control — but no held source attributes the gap to the comparator, and
+  Mendes's own active-control panel is reported inconsistently (see the ranking section). So *single-
+  domain exercise is null* is not a held finding without its comparator. (corrected
+  2026-10-22: bare *single-domain trials had been null* -> FINGER's «mainly negative» + comparator
+  scope.) Non-decomposability still means FINGER is *not* evidence that exercise (or any one component)
+  works alone.
 - **Nor does the *modality* of exercise resolve it.** A 2023 umbrella claims mind-body exercise
   outperforms aerobic/resistance for cognition, but the advantage is a cross-review comparator artifact,
   not established modality-specific benefit -> [[Mind-Body Exercise and Cognition]]. So neither the
@@ -367,10 +387,19 @@ not top the ranking.**
   [0⋅05–0⋅22]...)» all significantly improved cognition; diet-alone, social-activity-alone and the other
   multidomain nodes did not [@mendes2025multidomain]. **Exercise + cognitive training (E+C) is the strongest of all twelve** — above the full
   diet+exercise+cognitive-training+health-education bundle (D+E+C+H, SMD 0·14).
-- **The two robust single levers** are cognitive training and physical exercise: «When compared with active
+- **Against an active control, the Results text keeps only E+C and cognitive training:** «When compared with active
   control, only physical exercise and cognitive training combined (p=0⋅038) and cognitive training alone
-  (p=0⋅044) revealed significant improvement» [@mendes2025multidomain] — **the full multidomain bundle is NOT significant against an active
-  control**, its benefit shrinking exactly as FINGER's authors warned their active-control estimate would.
+  (p=0⋅044) revealed significant improvement» [@mendes2025multidomain] — **the full multidomain bundle, and exercise alone, are NOT significant against an active
+  control**, the bundle's benefit shrinking exactly as FINGER's authors warned their active-control estimate would.
+  The active controls were «minimal engagement tasks, such as stretching or low-intensity exercises in
+  physical exercise trials». The Abstract states it differently: «Random-effects models using active
+  control and no intervention as comparators yielded similarly significant effects for the aforementioned
+  interventions, with effect sizes in the same order.»
+  [@mendes2025multidomain]
+  The wiki follows the Results text, which names the
+  comparisons; the Abstract sentence is a source-internal inconsistency. (corrected
+  2026-10-22: *the two robust single levers are cognitive training and physical exercise* -> exercise
+  alone is not significant vs active control in the Results text.)
 - **More is not better.** «Combining lifestyle interventions might enhance efficacy, but increased number
   of domains does not automatically translate into greater cognitive benefits»
   [@mendes2025multidomain]; «more is not
@@ -466,8 +495,11 @@ effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a findin
 - **If pulling levers for the surrogate, lead with exercise + cognitive training, not a maximal bundle.**
   The 109-trial NMA ranks E+C highest and shows the full diet+exercise+cognitive-training+health-education
   bundle does not improve on it (and is NS vs an active control) — *more is not better*, because adherence
-  falls and mechanisms overlap. Cognitive training and physical exercise are the two levers robust even
-  against an active control [@mendes2025multidomain]. This ranks *within* the surrogate; it does not convert to a demonstrated dementia-incidence
+  falls and mechanisms overlap. Against an active control only E+C and cognitive training alone stay
+  significant in the Results text; exercise alone is significant vs health education or no
+  intervention, not vs an active control [@mendes2025multidomain]
+  (corrected 2026-10-22: was *cognitive training and physical exercise are the two levers robust even
+  against an active control*). This ranks *within* the surrogate; it does not convert to a demonstrated dementia-incidence
   benefit (Coley null still governs), and the exercise levers are cardiometabolic big rocks already pulled
   -> [[Big Rocks (Elderly)]].
 - **Omega-3 supplementation is not a cognitive lever on this evidence.** MAPT (the longest/largest omega-3

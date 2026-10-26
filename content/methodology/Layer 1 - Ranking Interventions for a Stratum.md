@@ -2,8 +2,8 @@
 type: methodology
 question: For this stratum, what is the largest remediable gap — and can the wiki rank anything yet?
 aliases: [Layer 1 Hierarchy, Intervention Hierarchy, Ranking Interventions, Largest Remediable Gap, What Can Be Ranked]
-authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan; GBD 2019 Risk Factors Collaborators (org)]
-sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019, GBD - 87 Risk Factors 204 Countries 2019]
+authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan; GBD 2019 Risk Factors Collaborators (org); Riebe, Deborah A.]
+sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019, GBD - 87 Risk Factors 204 Countries 2019, Riebe - ACSM Preparticipation Health Screening 2015]
 cluster: decision-hub
 relationships:
   related_to:
@@ -12,10 +12,9 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-10-07
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **Mostly a compilation.** Every row of the table below is copied from a claim page with its own source;
 that part combines nothing. The point of the page is the **shape of what is held and what is missing** —
@@ -50,9 +49,7 @@ would invert that** — the telos is explicit that the wiki *"is never built aro
 situation"*, and that stratification and outcome-weighting belong to **layer 3, per case, after the
 fact**. Any actual person's values live outside the graph, never in it.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The honest answer first
 
@@ -74,9 +71,7 @@ fewer deaths per 1000, at its own trials' baseline — item 2 below). (corrected
 exposures, one* -> of nine rows, three; audit 2026-10-06: *\~10 years ... by 40* -> \~9-10, Jha gives
 \~10 for quitting at 25-34 and \~9 at 35-44; off-table weight-loss figure noted.)
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is held
 
@@ -105,9 +100,6 @@ consistent harmful levers), while SSB, dairy, fish and eggs are outcome-specific
 input to this stratum ranking; its effects are per-serving RRs on mostly-hard outcomes, all
 observational-grade and from **one shared evidence base** (not independent).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is held as a RECOMMENDATION but with no magnitude
 
@@ -118,9 +110,7 @@ observational-grade and from **one shared evidence base** (not independent).
   24 months, scaling with kg lost. NICE's *own* review figure is still unextracted, but the lever is no
   longer magnitude-less.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What is EMPTY — and this is the finding
 
@@ -131,10 +121,6 @@ observational-grade and from **one shared evidence base** (not independent).
 | **Baseline risk** | **FILLED as machinery (2026-07-26)** | [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the ESC thresholds and a read-off grid. **A stratum defined by age and condition alone cannot use it** — the chart also needs smoking status, a BP band, a cholesterol band and a region, and the ESC category moves between *high* and *very high* across plausible values. Those four are **case inputs, supplied at layer 3**, not fabric |
 | ~~**Pharmacotherapy**~~ | **FILLED 2026-07-28** | [[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT+STEP-1) + [[Statins for Primary Prevention and the Power of Zero CAC]] (USPSTF+Nasir). Both the realistic drug comparators the telos names. Key finding is a ceiling, not a lever: see below |
 | ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR \~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What this page establishes
 
@@ -174,7 +160,8 @@ observational-grade and from **one shared evidence base** (not independent).
    ceiling itself; its measured hard-outcome benefit is a small all-cause one not routed through the
    heart. (corrected 2026-10-06: *no longer unquantified* wording aligned with the revised item 2.)
 
-</div>
+
+
 
 ## What would change the answer
 
@@ -226,8 +213,6 @@ estimate is observational and between-quartile, so reverse causation is not excl
 large HR from cohorts does not outrank a smaller one from trials automatically.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
@@ -291,8 +276,6 @@ cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burde
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
 [@nnr2023]
-
-</div>
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -464,8 +447,6 @@ guidance body saying so about its own recommendations**, which is stronger than 
   above rather than competing with it.
 [inferred from @esc2021]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The absolute layer arrives for one exposure — and it shrinks the lever `[2026-07-28, WHO SFA Annex 6]`
 
 This page's binding complaint is that it holds almost no absolute effects. **WHO's Annex 6 has now been
@@ -508,7 +489,7 @@ exposure.** (superseded 2026-10-06: the *remain empty rows* list is stale — ph
 and smoking are all now held; see the EMPTY table above. Physical activity still has ratios without
 absolutes.)
 
-</div>
+
 
 ## A heavily-discussed lever that ranks near the bottom — meal timing `[2026-07-29, TREAT + eTRF]`
 
@@ -526,8 +507,6 @@ effect to rank, which is itself the placement.
 
 
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
 
@@ -588,11 +567,33 @@ just the confirming):**
 **The sharpening the fabric adds to the doubt's *big* levers — each is real, and each carries an
 evidence-type asterisk the doubt's framing omits:**
 
-- **Movement** is the largest association the vault holds (HR \~0.34 at the dose maximum, \~0.27 top-vs-bottom quartile — both
-  device-measured total activity, Ekelund's accelerometer cohorts; corrected 2026-10-06: *0.34
-  self-report* -> device-measured) but it is
+- **Movement** carries a larger relative association than the other levers in this list (HR \~0.34 at
+  the dose maximum, \~0.27 top-vs-bottom quartile — both device-measured total activity, Ekelund's
+  accelerometer cohorts; corrected 2026-10-06: *0.34 self-report* -> device-measured). For scale,
+  statin all-cause RR 0.90 per mmol/L and Ma's weight-loss all-cause RR 0.82 below; a quartile contrast
+  is not a per-unit or trial contrast, so this compares size only (corrected 2026-10-22: was *the
+  largest association the vault holds*). But it is
   **observational — structurally unprovable by RCT** for hard CV events; a predictor of large effect, not
   a proven-by-trial one -> [[Physical Activity Dose and Mortality]], [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
+  - Its harm side does not shrink the rock: vigorous exertion transiently raises sudden-death / MI risk,
+    but absolute risk is very low (0.31-2.1 exertion-related SCDs per 100k person-years, AHA consensus)
+    and the relative excess is largest in the habitually inactive doing unaccustomed vigorous work — a route-(c)
+    constraint on *how* the rock is pulled (graded entry), not on whether (figures compiled from the
+    claim page) -> [[Exercise-Related Acute Cardiac Events]]. for the ranking reading.
+  - The safety gate must not block the rock either. The old ACSM risk-factor screen would send \~95% of US
+    adults over 40 (NHANES) to a physician before exercising, «possibly creating a barrier to exercise
+    participation» (deterrence itself was not measured). The ACSM 2015 consensus algorithm (shares authors
+    Franklin and Thompson with the AHA statement above, so one lineage, not two) drops it, letting inactive,
+    asymptomatic adults without known cardiovascular, metabolic (diabetes) or renal disease start
+    light-to-moderate *aerobic* exercise without medical clearance; risk factors alone no longer trigger
+    referral. It states a «lack of evidence that medical clearance and exercise testing (28) are effective»,
+    and reports that the guidance set splits: ACC/AHA still advise exercise testing before moderate work
+    when CVD risk is raised (on «conflicting evidence»), USPSTF finds the evidence insufficient
+    [@riebe2015screen]. Ranking
+    reading: for that stratum the screen's benefit, its deterrence cost and the benefit of graded entry are
+    all unmeasured, and the benefit is structurally unmeasurable at these event rates (insufficient, not
+    null). Placing the screen below graded entry is a labelled practice default resting on cost,
+    reversibility and the rarity of events, not on a trial -> [[Exercise-Related Acute Cardiac Events]].
 - **Muscle / grip strength** is a **predictor, not a proven treatment target**: grip is *"a number to
   MEASURE (it places you in a stratum), not a number to STEER toward"*; that training it lowers mortality
   is not established -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]].
@@ -623,9 +624,8 @@ the bias the rule exists to catch. The value added is configurative (the composi
 per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
 this section states it once instead of leaving it distributed.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-07">
+
 
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
@@ -658,7 +658,7 @@ tiers by the person's baseline risk and so is **stratum-conditional** (blood pre
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
-</div>
+
 
 ## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
 

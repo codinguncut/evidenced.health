@@ -1,15 +1,15 @@
 ---
 type: framework
-question: Does deliberate cold-water immersion (cold shower / ice bath / plunge at <=15C) improve health and wellbeing outcomes in healthy adults, and by how much on patient-important vs surrogate endpoints?
-aliases: [Cold-Water Immersion, CWI, Cold Plunge, Ice Bath, Cold Shower, Cold Exposure, Cold Thermogenesis]
-authors: [Cain, Tara; Brinsley, Jacinta; Bennett, Hunter; Nelson, Max; Maher, Carol; Singh, Ben]
-sources: [Cain - Cold-Water Immersion Wellbeing 2025]
+question: Does deliberate cold-water immersion (cold shower / ice bath / plunge at <=15C) improve health and wellbeing outcomes in healthy adults (and, as a separate facet, soreness after an exercise session), and by how much on patient-important vs surrogate endpoints?
+aliases: [Cold-Water Immersion, CWI, Cold Plunge, Ice Bath, Cold Shower, Cold Exposure, Cold Thermogenesis, Post-Exercise Cold Water Immersion, Contrast Water Therapy, Whole-Body Cryotherapy]
+authors: [Cain, Tara; Brinsley, Jacinta; Bennett, Hunter; Nelson, Max; Maher, Carol; Singh, Ben; Dupuy, Olivier; Douzi, Wafa; Theurot, Dimitri; Bosquet, Laurent; Dugué, Benoit]
+sources: [Cain - Cold-Water Immersion Wellbeing 2025, Dupuy - Post-Exercise Recovery Techniques Meta-Analysis 2018]
 cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-10-06
-self_critiqued: 2026-09-16
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - Sauna Bathing and Cardiovascular Mortality
@@ -17,24 +17,25 @@ relationships:
     - Wim Hof Method
     - Surrogate Outcomes
     - Measurement Error in Dietary Assessment
+    - Flexibility Training and Stretching
+    - Massage Therapy for Pain and Function
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **Peripheral-scope lifestyle lever (cold exposure), and a SMALL, MOSTLY-SURROGATE, HEAVILY
 TIME-DEPENDENT one — not a big rock.** CWI is admitted on the same evidence bar as food or activity,
 not by a category exemption; the Layer-1 ranking is what keeps it peripheral, and its current
-popularity is an *anti-signal*, not a pass. The one meta-analysis held (11 RCTs, n=3177 healthy
-adults) finds that CWI's best-evidenced acute physiological effect runs **against** the popular claim:
-it *raises* inflammation short-term rather than lowering it. Every reported *benefit* is a pre-post
-standardized mean difference (SMD) on a surrogate or self-report scale, at a single timepoint, with
-no hard endpoint and no long-term data.
+popularity is an *anti-signal*, not a pass. The wellbeing meta-analysis held (11 RCTs, n=3177 healthy
+adults) finds inflammation markers *rise* immediately and 1 h after immersion rather than fall; whether
+cold lowers inflammation at later hours is unresolved in the held sources (scoped 2026-10-22, after the
+post-exercise recovery meta-analysis). Every reported wellbeing *benefit* is a pre-post standardized mean
+difference (SMD) on a surrogate or self-report scale, at a single timepoint, with no hard endpoint and no
+long-term data. A second meta-analysis, of single post-exercise recovery sessions, finds a small-to-moderate
+soreness reduction (section *After exercise* below).
 
 The exposure is specifically **cold shower, ice bath, or plunge at water temperature <=15C for
 &gt;=30s** in healthy adults [@cain2025cwi] — not
-cold-water swimming (which confounds CWI with exercise) and not the athletic-recovery literature the
-term is usually attached to.
-
-</div>
+cold-water swimming (which confounds CWI with exercise). The athletic-recovery use the term is usually
+attached to is a different exposure context, kept in its own section below.
 
 ## The fad gap — popularity vastly exceeds the evidence [@cain2025cwi]
 
@@ -69,8 +70,9 @@ Report every estimate with its timepoint: the source's central finding is that t
 significance of CWI's effect **change with time since immersion**, so a timepoint-free statement is
 meaningless here.
 
-**Inflammation — CWI ACUTELY RAISES it (Grade B) [@cain2025cwi].** This is the one robust, direction-surprising finding, and it runs
-against the popular *reduces-inflammation* claim:
+**Inflammation — CWI ACUTELY RAISES it (Grade B) [@cain2025cwi].** This is the best-graded pooled finding, and at 0-1 h it runs
+against the popular *reduces-inflammation* claim (the authors' own caveat on what it measures follows the
+table):
 
 | Timepoint | SMD (95% CI) | Direction | Certainty |
 |---|---|---|---|
@@ -81,14 +83,28 @@ against the popular *reduces-inflammation* claim:
 CI: 0.37, 1.68], p < 0.01) and 1 hour post (SMD: 1.26 [95% CI: 0.59, 1.94], p < 0.01) CWI exposure.»
 These are *large* SMDs, but they measure an acute surrogate (IL-6 / TNF-alpha-class markers), not a
 patient-important outcome, and the acute inflammatory rise is expected physiology, not established
-harm. No study tracks whether it translates to any downstream benefit or harm.
+harm. No study tracks whether it translates to any downstream benefit or harm. The authors place it
+between two earlier reviews and qualify what it measures: «Our findings of short-term increased
+inflammation contrast with a previous review that reported reductions in inflammation following CWI, such
+as decreased tumor necrosis factor-α 24 hours post-immersion [35]. However, our findings are consistent
+with another review, which reported higher interleukin-6 levels in longer 30-minute CWI protocols [36],
+indicating increased inflammation. Immediate increases in inflammation markers may reflect metabolic
+responses such as glycogenolysis rather than systemic inflammation, while mea­ surements taken 24 hours
+post-CWI likely reflect reduced muscle temperature and metabolic activity, leading to decreases in
+systemic inflammation [30]. Differences in biomarkers used to test for inflammation may also contribute
+to this variability [30].» [@cain2025cwi]
 
 Corroborated from a different exposure literature: the [[Wim Hof Method]] SR (Almahayni 2024,
 disjoint authors) found cold-exposure-alone null on every inflammatory cytokine (TNF/IL-6/IL-8/IL-10,
 all p>0.4) and read the wider immersion literature as showing cold immersion alters inflammation but
-not significantly. Two separate reviews thus point the same way — cold immersion does not *lower*
-inflammation — so the popular *cold-reduces-inflammation* claim is unsupported in both (quote and
-attribution live on the [[Wim Hof Method]] page).
+not significantly. Two separate reviews thus point the same way at the timepoints and markers they
+measured — cold immersion did not *lower* inflammation there — so the popular *cold-reduces-inflammation*
+claim finds no support in either (quote and attribution live on the [[Wim Hof Method]] page). The
+post-exercise recovery meta-analysis below is mixed for cold water after exercise: its pooled IL-6 and
+CRP results for immersion were null, while its text says cold water below 15°C helped inflammation, with
+no timepoint given (see *After exercise*). Across the held sources the claim is unproven, not refuted.
+[inferred from @dupuy2018recovery] (the Dupuy loci are quoted in
+the After-exercise section)
 [inferred from @cain2025cwi]
 
 **Stress — null at every timepoint EXCEPT a single 12h reading (Grade B) [@cain2025cwi].** The headline *CWI reduces stress* is
@@ -137,10 +153,13 @@ short-term increases in inflammation.» Applying the telos bars:
 - **No patient-important outcome is moved on gold evidence.** Every positive is a surrogate (pooled
   SMD) or a soft self-report (sickness absence, Likert sleep/QoL) at a single timepoint, mostly in
   men, mostly single-session. There are no hard endpoints, no long-term data, and no dose-response.
-- **The one direction-surprising, robust finding is a mild negative for the popular claim** — CWI
-  raises acute inflammation rather than lowering it. This is *symmetric standards* working: the fad's
-  central mechanistic selling point is contradicted by the best-graded pooled result held. Whether
-  that acute rise matters for any outcome is unknown, so it is a nuance, not established harm.
+- **The best-graded pooled finding is a mild negative for the popular claim at 0-1 h** — inflammation
+  markers rise right after immersion rather than fall. This is *symmetric standards* working: the fad's
+  central mechanistic selling point gets no support in the first hour, and the authors suggest the rise
+  may be metabolic rather than systemic. The post-exercise recovery review is mixed (null pooled IL-6
+  and CRP for immersion, a favourable statement for water below 15°C; see *After exercise*), so the claim
+  is unproven, not refuted. Whether the acute rise matters for any outcome
+  is unknown, so it is a nuance, not established harm.
 - **The 12h stress reduction is the most decision-relevant candidate**, and it is genuinely
   interesting (a delayed, not immediate, effect), but it rests on one significant timepoint in an
   otherwise-null series and cannot yet carry a recommendation.
@@ -163,6 +182,72 @@ observational mortality gradient (a hard endpoint, one narrow stratum, no RCT); 
 surrogate SMDs (better design, softer endpoints, no mortality data). Neither transports to the other,
 and neither is a big rock. The cross-link is structural parallelism, not a shared claim.
 
+## After exercise: immersion as a recovery technique (a different exposure context)
+
+The athletic-recovery literature this page's scope sets aside is held in one meta-analysis of single
+post-exercise recovery sessions in healthy adults aged 18-65. Immersion after an exercise bout reduced
+DOMS by SMD **-0.47 (95% CI -0.77 to -0.18)**, 34 groups, 379 people, I2 50.55%, and perceived fatigue by
+-1.16 (-1.94 to -0.39), 8 groups, 75 people; Table 2's ≤15°C fatigue row is the same 8 groups and
+75 people at the same -1.16, so the fatigue estimate is a cold-water estimate. By water temperature, ≤15°C gave -0.62 (-0.93 to -0.32) on
+DOMS (moderate by the review's own Cohen thresholds) and warm water (≥36°C) 0.53 (-0.44 to 1.51), no
+significant effect on sparse data (n=30); whole-body and legs-only immersion did about the same on DOMS
+(-0.50 vs -0.49). Soreness was pooled across measurement times from <6 h to >96 h; the immersion time
+course is only in a figure. The authors: «The eﬀect of cold water immersion (CWI) on DOMS and
+perceived fatigue was signiﬁcant, but the eﬀect size was small in terms of DOMS.» Contrast (hot-cold)
+water: DOMS -0.40 (-0.73 to -0.07), fatigue -0.04 (-0.86 to 0.79). Cryotherapy / cryostimulation (cold air): DOMS -0.53
+(-1.04 to -0.03), present <6 h after exercise and «not present after 24 h or later».
+[@dupuy2018recovery]
+
+The same review states no comparator for its SMDs, gives no certainty rating, concedes that placebo
+effects «could not be eliminated», and examined «only one recovery session». Its DOMS funnel plot leaned
+positive («23 studies out of 57 were distributed toward a positive eﬀect»), and recovery techniques as a
+group reduced DOMS more in males than in females. On markers it found no significant IL-6 or CRP change
+with cold immersion while also stating that «only immersion in water with a temperature lower than 15◦C
+had a positive impact on inﬂammation», and its abstract names cold exposure (which there also covers cold-air cryotherapy), with massage, as «The
+most powerful techniques for reducing inﬂammation».
+[@dupuy2018recovery]
+
+**Does this contradict the acute inflammation rise above?** Parameter check before reading them together:
+
+| Parameter | Cain 2025 (inflammation pool) | Dupuy 2018 (immersion after exercise) | Same quantity? |
+|---|---|---|---|
+| Exposure | shower, bath or plunge, ≤15°C, at or above chest level | any depth (legs or whole body), any temperature; markers reported for cold | no |
+| Context | 5 of 11 included studies overall applied it after exercise | always after an exercise bout | partly |
+| Timepoint | immediately and 1 h after immersion | coded <6, 24, 48, 72, >96 h; per-time marker results only in a figure | overlap at <6 h only |
+| Reference | pre-to-post change | not stated | unknown |
+| Markers | inflammation markers (pooled) | IL-6, CRP, CK, pooled separately | partly |
+
+[@cain2025cwi]
+[@dupuy2018recovery]
+
+[inferred from @cain2025cwi; @dupuy2018recovery]
+Not joinable on the held evidence, so neither a tension nor an agreement. The two overlap only in the
+first hours, where Dupuy's per-time marker results are not extracted; exposure and reference differ. Cain's
+own explanation of its contrast with an earlier review (via its ref [30], hedged as such) could also fit
+here: an immediate marker rise reflecting metabolism, then lower systemic inflammation by 24 h, with differing biomarkers as
+another explanation (quoted above); applying it to Dupuy is this page's step. For a person the question splits in two: *does a cold bath after a session make
+the following days less sore?* (a small-to-moderate single-session effect, unblinded) and *does a
+cold-water habit do anything for health?* (the rest of this page: unproven).
+
+**Whether regular post-workout cold immersion blunts strength or muscle gains is a third question, and
+the decision-relevant one for anyone training for muscle or strength.** Neither held source tests it:
+Dupuy has no adaptation or performance outcome, and says of performance that «this factor was not
+evaluated in this manuscript». [@dupuy2018recovery]
+(`hypertrophy` / `strength gain` return no hit in Dupuy chunk 01; `adaptation` appears in the introduction, once
+loosely in the results, and in reference titles, never as a training-adaptation outcome.) Cain raises it
+only as background: «there is a growing body of evidence suggesting that the regular use of CWI after
+training sessions can blunt increases in muscle size [7] and the development of muscular power and
+muscular strength [2,8].» [@cain2025cwi]
+The two meta-analyses it cites are not held: — hypertrophy after resistance training; — strength gains.
+
+- **Labelled default for soreness after a session**: a cold soak (≤15°C) is cheap and
+  low-harm, with a small-to-moderate single-session effect on soreness (unblinded, unstated comparator,
+  funnel asymmetry). Massage, compression garments and active recovery ranked higher in the same review,
+  but each was pooled from a different set of trials, so the ordering is indirect -> [[Flexibility Training and Stretching]].
+  If gaining muscle or strength is the goal, a background claim of blunting (above, unheld) is reason to
+  keep cold soaks for occasions when next-day soreness matters more than adaptation. Standard caution, not
+  a tested trade-off.
+
 ## Gaps (acquisition targets, not silences)
 
 - **No long-term / habitual-exposure data** — 6 of 11 studies were single-immersion; the daily-habit
@@ -175,7 +260,11 @@ and neither is a big rock. The cross-link is structural parallelism, not a share
 - **No dose-response** — temperature (7-15C), duration (30s-2h), and frequency are not resolved into
   a curve; there is no threshold, knee, or plateau to state, and no basis to recommend a protocol.
 - **Confounding with exercise recovery** — 5 of 11 studies applied CWI post-exercise; a clean CWI
-  effect isolated from recovery context is not yet available.
+  effect isolated from recovery context is not yet available. (The post-exercise use itself is the
+  section above; it is single-session only.)
+- **Cold water after resistance training and adaptation** — whether regular post-workout immersion
+  blunts muscle or strength gains is untested in any held source; two meta-analyses are named above
+  (AWAITS). Belief-harvest #43.
 - **The acute-inflammation rise is unexplained downstream** — whether it helps, harms, or is inert
   for any patient-important outcome is unknown.
 

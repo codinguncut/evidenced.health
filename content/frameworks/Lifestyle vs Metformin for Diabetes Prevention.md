@@ -74,8 +74,6 @@ BMS stock, yet the finding runs *against* the drug the funder sells (the study m
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
 This is the decision-relevant subgroup structure, and the two arms behave differently:
@@ -124,8 +122,6 @@ broad-spectrum lever** that works across strata. The route-(b) machinery this in
 [[Baseline Risk and the Relative-Absolute Split]] (one trial showing an arm with modified relative effect
 beside an arm with a roughly constant one). [inferred from @knowler2002]
 
-</div>
-
 ## Outcome scope — diabetes incidence is shown; CV/mortality is NOT this trial
 
 DPP's endpoint is **diabetes incidence** — a disease-onset outcome, better than a pure surrogate (it is a
@@ -145,8 +141,6 @@ established by DPP** — it depends on «whether the maintenance of these lower 
 outcome». That downstream question is **now answered** by the DPP Outcomes Study (DPPOS) — see below.
 Diabetes-incidence prevention sits one rung below a hard outcome on the [[Surrogate Outcomes]] ladder, and
 DPPOS shows why the page was right not to let the incidence win stand in for a mortality win.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## DPPOS — the hard-outcome answer: diabetes prevention did NOT reduce CV events over 21 years
 
@@ -205,10 +199,6 @@ mortality benefit from diabetes prevention in a *low-risk* prediabetes stratum o
 risk is the concern in such a stratum, the demonstrated levers are the direct ones (statin / BP control —
 heavily used here); a CV payoff from diabetes prevention itself, if any, would need a higher-risk or
 longer-latency stratum. The [[Surrogate Outcomes]] page carries this as a worked surrogate-disconnect.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Independent replication — Finnish DPS and Da Qing (type-E robustness)
 
@@ -293,10 +283,6 @@ lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage t
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
 Metformin and lifestyle reduced fasting glucose similarly, but lifestyle did more on post-load glucose and
@@ -369,8 +355,6 @@ mechanism that sustains weight loss once achieved. This connects to the weight-l
 is the *sole* mediator.
 [inferred from @hamman2006; @tuomilehto2001]
 
-</div>
-
 ## Adherence and adverse events
 
 Adherence to the lifestyle goals decayed — the adherence-is-part-of-the-effect point in a landmark
@@ -384,8 +368,6 @@ perfect compliance.
 Harms were modest and differed by arm: gastrointestinal symptoms highest on metformin (77.8 vs 12.9
 events/100 person-yr on lifestyle), musculoskeletal symptoms highest on lifestyle (24.1). No deaths were
 attributed to any intervention. [@knowler2002]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -410,8 +392,6 @@ attributed to any intervention. [@knowler2002]
   [@pittas2023vitamindipd]. On absolute yield it ranks well
   below both DPP arms — a cheap, low-harm add-on where 25(OH)D is low or BMI is not high, never a
   replacement for the lifestyle or metformin rock -> [[Vitamin and Mineral Supplements for Disease Prevention]].
-
-</div>
 
 ## Limits and provenance
 

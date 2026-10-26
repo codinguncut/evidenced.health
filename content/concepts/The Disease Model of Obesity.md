@@ -46,8 +46,6 @@ This is the mechanism catalogued in detail on [[Weight-Loss Maintenance and Meta
 the point here is what it means for the *model*: the difficulty of maintenance is a property of the
 regulated system, not a measure of the person's resolve.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Pharmacology is consistent with the mechanism — and with a defense still there underneath [EXTRACTED]
 
 A drug acting on appetite biology produces effect sizes that structured lifestyle programmes do not.
@@ -74,8 +72,6 @@ drug-induced loss returned within a year, leaving a net loss of 5.6% at week 120
 [@wilding2022] — the same direction
 as the signature Sumithran measured hormonally, read out here as regain. This is the regulated-defense reading of the GLP-1 evidence catalogued on
 [[GLP-1 Drugs]].
-
-</div>
 
 ## The symmetric guard — regulated does NOT mean fated [EXTRACTED]
 

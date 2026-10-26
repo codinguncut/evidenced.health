@@ -39,8 +39,6 @@ cancer, the cancer-prevention body WCRF places processed meat at its strongest e
 sets the target bluntly: «Consume very little, if any, processed meat»
 [@wcrf2018ter].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Unprocessed red meat: the same direction, smaller and less certain
 
 Unprocessed red meat mirrors processed meat one step down. Per 100 g/day the same series reports
@@ -89,10 +87,6 @@ association. No feeding trial tests meat against diabetes either, so the cell st
 directions. -> [[The Observational-Trial Discordance]],
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The cancer question splits two expert bodies
 
 Two guideline families read **the same cohort evidence** and issued opposite instructions. This
@@ -140,8 +134,6 @@ A single iron channel cannot be harmful for both, so whatever raises coronary ri
 observational heme data most likely runs through a non-iron route rather than iron burden itself. And
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
-
-</div>
 
 ## Preparation matters less than the headlines
 
@@ -344,8 +336,6 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
@@ -383,7 +373,5 @@ cited here.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
-
-</div>
 
 ## References

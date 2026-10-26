@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-09-24
+updated: 2026-10-22
 self_critiqued: 2026-09-24
 ---
 

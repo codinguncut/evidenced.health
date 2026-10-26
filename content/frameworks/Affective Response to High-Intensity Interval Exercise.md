@@ -18,8 +18,6 @@ created: 2026-10-04
 updated: 2026-10-04
 self_critiqued: 2026-10-04
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 **The decision this page answers.** HIIE is promoted as a time-efficient route to fitness
 ([[Measuring and Raising Cardiorespiratory Fitness]], [[HIIT vs Continuous Training for Type 2 Diabetes]]). The standing objection is that it *feels worse*, and an exercise not done has no effect

@@ -29,8 +29,6 @@ outcome, whether the loss lasts -- those live in [[Losing Fat and Keeping It Off
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where fat sits carries the risk — read the depot, not the scale
 
 The first decision about body fat is not *how much* but *where*. Cardiometabolic risk tracks the fat
@@ -249,9 +247,6 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -424,7 +419,6 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
-</div>
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -480,8 +474,6 @@ works on the *reversible* stages, not once bridging fibrosis or cirrhosis is est
 [@easl2024]
 
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Composition moves liver fat beyond calories — but it is the fat *type*, not the carbohydrate fraction
 
 Once a person is losing weight, *what* they eat at a given calorie level is a second-order lever on liver
@@ -527,8 +519,6 @@ association of sugar-sweetened soda with increased NAFLD risk».
 «Additional studies are needed to better understand the long-term association among changes in liver fat,
 histological response, and clinical outcomes.»
 [@aasld2023]
-
-</div>
 
 ## The risk MASLD carries is mostly extrahepatic — it feeds diabetes and cardiovascular disease
 
@@ -603,8 +593,6 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The decision: read the depot, target it, and know what losing it buys
 
 Put together, the *state* of a person's body fat settles three things and hands off a fourth. **Where the
@@ -639,7 +627,5 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
-
-</div>
 
 ## References

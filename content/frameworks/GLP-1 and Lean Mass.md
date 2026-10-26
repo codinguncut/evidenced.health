@@ -53,8 +53,6 @@ turns on **which face matters for whom** — the ratio for a young obese adult w
 absolute loss for anyone whose muscle is already the binding constraint (below).
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Is GLP-1 muscle loss worse than ordinary weight loss? Roughly no — on average
 
 The sharpest decision question: does the *drug* shed disproportionate muscle, or is this just what weight
@@ -86,7 +84,6 @@ reduction observed with semaglutide could be attributed to its increased potency
 previously described in studies [24].» [@laverde2026]
 — consistent with *not special*, scaled by more weight lost. [inferred from @laverde2026]
 
-</div>
 
 ## The surrogate/function gap — lean mass is not function
 
@@ -100,8 +97,6 @@ So a reassuring lean-mass ratio does **not** prove function is spared, and a sca
 **not** prove function is lost — the outcome people actually care about (strength, falls, independence) is
 unmeasured on both sides. Held as **insufficient evidence on function**, not as *safe* or *harmful*.
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The muscle-preservation bridge — the same machinery the muscle cluster already holds
 
@@ -137,9 +132,6 @@ GLP1-RA medications and then continued lifestyle intervention measures.»
 increment over diet-and-activity counselling; counselling is not structured RT, so what RT + protein add
 beyond it is the open magnitude.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Where the cost inverts — older adults, and a mechanism collision
 
@@ -165,7 +157,6 @@ older stratum — which is losing muscle anyway, sharpening rather than softenin
 the wiki's inference (corrected 2026-10-06: the 0.3-1%/yr was presented as the placebo arms'
 loss -> a literature rate Laverde offers as the likely explanation; self-critique).
 
-</div>
 
 ## Independence — Laverde pools trials the vault already holds
 
@@ -176,8 +167,6 @@ trials — it re-pools them for a body-composition outcome those pages did not r
 **new outcome** (lean mass), not independent corroboration of the held weight/CV findings; do not count
 Laverde as a second route to *semaglutide causes large weight loss*.
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -192,10 +181,6 @@ Laverde as a second route to *semaglutide causes large weight loss*.
   -> [[Big Rocks (Elderly)]]. This is where the drug decision is genuinely contingent on the defense.
 - **The complete strategy, not the drug alone:** judge net effect — GLP-1 + RT + adequate protein — never
   the drug's naive body-composition number. Function is unmeasured, so monitor it directly where it matters.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Class-comparative check — worst-on-weight is worst-on-lean `[2026-08-22, Nong]`
 
@@ -229,7 +214,5 @@ guidelines recommending «structured aerobic and resistance exercise to help pre
 already holds, reached independently from the class-comparison side. Full comparative appraisal
 -> [[Comparing Obesity Drugs]].
 [inferred from @nong2026obesity]
-
-</div>
 
 ## References

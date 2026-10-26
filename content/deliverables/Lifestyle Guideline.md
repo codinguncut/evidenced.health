@@ -22,8 +22,6 @@ separate anti-cancer or anti-dementia diet to run. This card ranks and points. T
 the two analytic cuts it fronts -- [[Big Rocks (Median)]] (18-65) and [[Big Rocks (Elderly)]] (65+). ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The five levers, biggest first
 
 **Don't smoke -- the largest lever wherever it is present.** No safe cigarette, no good-enough dose:
@@ -63,8 +61,6 @@ night [@yin2017]. The penalty is small
 until sleep drops well below that and bites hardest under about five hours. Sleeping long is a marker
 of underlying illness, not a habit to trim. -> [[Sleep Duration and Mortality]], [[Big Rocks (Median)]]
 
-</div>
-
 ## The smaller levers add a little
 
 Everything below the five is genuinely small -- worth a sentence, not a campaign.
@@ -83,8 +79,6 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   with healthier eating generally; only the viscous kind (oats, psyllium) has a clean, small trial
   effect on cholesterol, and a supplement is no substitute for the food pattern. ->
   [[Dietary Fibre and Health]]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Things to look out for
 
@@ -106,8 +100,6 @@ lever harder *and* discuss with your doctor. This page never names or doses a dr
   muscle levers are holding. -> [[Grip Strength and Mortality]]
 
 None of these is a sixth lever -- they are the dials on the five you already have.
-
-</div>
 
 ## Where it stops being worth the effort
 
@@ -170,8 +162,6 @@ it is the goal.
   sources -- not whether following them makes you better off. Treat it as well-sourced reasoning,
   not a guarantee.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where the evidence lives
 
 Every directive here is derived elsewhere. The effect sizes, confidence intervals, studied ranges,
@@ -190,7 +180,5 @@ The per-lever claim pages linked from each directive carry the rest.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
-
-</div>
 
 ## References

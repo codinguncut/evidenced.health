@@ -20,7 +20,6 @@ self_critiqued: 2026-10-06
 created: 2026-07-26
 updated: 2026-10-07
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **Nucleus of the `weight-loss-diets` cluster.** Cochrane 2022: 61 RCTs, 6925 randomised, search to
 June 2021. **Synthesis mode: aggregative** — a common metric and an identical hypothesis, so the answer
@@ -28,11 +27,6 @@ is a pooled magnitude. Most questions in this wiki are configurative; this one i
 
 
 [@naude2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The answer, in one line
 
 **Both diets produce weight loss the review treats as approaching clinical meaningfulness — its own
@@ -47,10 +41,6 @@ trials) would start to become clinically meaningful."* **That 4-6 kg is a within
 baseline, achieved by both diets — not a between-group threshold.** The \~1 kg figures below are
 between-group mean differences and must not be set against it as though they were the same quantity.
 [@naude2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The magnitudes
 
@@ -68,10 +58,6 @@ Other outcomes at >=12 months, without T2DM: DBP **0.09 mmHg lower** (1.29 lower
 LDL **0.04 mmol/L higher** (0.05 lower to 0.12 higher). With T2DM: HbA1c **0.14% lower** (0.38 lower to
 0.10 higher); LDL **0.12 mmol/L higher** (0.03 lower to 0.26 higher).
 [@naude2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Why this is a *no meaningful effect* verdict and NOT an "insufficient evidence" one
 
@@ -101,8 +87,6 @@ because the intervals excluded an appreciable effect in **both** directions.
 5%" is a pre-specified primary outcome with its own SoF row. The DBP, LDL and HbA1c bars appear only in
 the **Discussion** — stated, not demonstrably pre-specified. Do not apply one caveat to all four.
 
-</div>
-
 ## Two mechanistic deflators that make \~1 kg smaller than it looks
 
 Both from Authors' Conclusions, and both are **priors the authors bring to interpretation, not findings
@@ -121,8 +105,6 @@ of this review** -- it measured no body composition or hydration outcome that co
 A 2-3 kg reversible water shift fully absorbs a \~1 kg between-arm difference. **So the observed
 difference may not be a fat-mass difference at all** -- and that is a claim about what the outcome
 *measures*, not about how big it is.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Comparator energy prescription and restriction depth co-vary with the effect
 
@@ -179,10 +161,6 @@ the answer*; self-critique).
   disentangles them.
   [inferred from @naude2022]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The one RCT that pre-specified diet personalization — DIETFITS, null (route-b) `[2026-08-04]`
 
 The route-(b) cautions above ask whether a low-carb estimate should be *personalized* by a biomarker.
@@ -235,10 +213,6 @@ powered test of personalization by genotype and insulin.
 
 [inferred from @gardner2018]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What no trial measured
 
 > «None of the included trials reported on the following outcomes for any of the four comparisons:
@@ -256,8 +230,6 @@ diet trials is impractical.
 
 *Athletic performance is a separate question with its own gold evidence:* the ketogenic form of
 low-carb does not improve aerobic capacity or endurance performance -> [[Ketogenic Diet and Endurance Performance]].
-
-</div>
 
 ## Decision relevance
 
@@ -284,8 +256,6 @@ shared missing-trial or confounding structure would move both. Ge is a corrobora
 
 
 [inferred from @naude2022]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where it stands relative to guidance
 
 The review's findings sit **comfortably inside prevailing guidance**, and it says what that guidance
@@ -313,10 +283,6 @@ for it or against it** ([[Diets for Weight Loss - What NICE Recommends]]). This 
   appraising the *same* RCT base this page's Cochrane review (Naude) pools, so the convergence is
   shared-evidence agreement, not a second independent route -- it raises confidence modestly and defeats
   the guidance null (agreement with better warrant), but adds no independent witness.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Paired with Goldenberg 2021 — the two reviews DISAGREE about depth of restriction
 
@@ -389,10 +355,6 @@ carbohydrate threshold -- and the two reviews use different thresholds while bot
 while Naude requires the control to be a balanced-carbohydrate *weight-reducing* diet, so comparator
 design is a live rival explanation for any between-review gap.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Szczerba 2023 (T2D umbrella) — the HbA1c verdict flips with the comparator
 
 The Cochrane head-to-head above gives low-carb **vs a balanced-carbohydrate diet** an HbA1c of only
@@ -428,10 +390,6 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
 - **Deprescribing (the firmest non-surrogate finding).** Low-carb (<26%E) «reduced the use of drug
   treatments by an additional 24 per 100 individuals (risk difference 0.24, 0.12 to 0.35;... moderate
   certainty)». Also GRADE-high: triglycerides −0.30 mmol/L; HDL +0.06 (moderate). [@szczerba2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Limits
 
@@ -567,10 +525,6 @@ Two further Szczerba findings on carbohydrate restriction in T2D, held in full o
   review points outside its own evidence base to cohort data showing *«harm at the extremes of intake»*
   -- which cuts against **both** diet poles rather than favouring either.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## WHO Total Fat 2023 vs the matched-energy result — a DISTINCTION, not a tension `[2026-09-22]`
 
 WHO Total Fat 2023 recommends adults limit total fat to <=30%E to prevent unhealthy weight gain, on a
@@ -615,10 +569,6 @@ is borrowed from the SFA/TFA rule -> [[Saturated Fat Intake and Replacement]]; t
 question stays about weight, in either direction, per *«Nothing here speaks to mortality or
 cardiovascular events»* above.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Held, not filed
 
 A **candidate joined issue** exists on Analysis 1.2 and is deliberately not filed yet: this review
@@ -643,10 +593,6 @@ free-living trials, not measured intake (corrected 2026-10-06 from *reaching the
 advantage verdict*; self-critique). Both share isocaloric-comparison logic (convergent, not clean
 independent backing). The candidate appetite/ad-libitum joined issue held above is the CIM's one surviving
 live channel — GL/protein acting on *intake*, not on metabolism.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Why a small weight-CHANGE difference is a harder measurement than it looks `[2026-07-28, Willett ch.9]`
 
@@ -686,8 +632,6 @@ records that self-reported BMI runs low — NHANES III mean 25.07 vs 25.52 techn
 underreporting weight (**-0.56 kg**) *and* overreporting height (**+0.76 cm**), two errors compounding
 in the same direction on the ratio.
 [@willett]
-
-</div>
 
 ## What the trials actually delivered — the fidelity seam `[2026-07-28]`
 

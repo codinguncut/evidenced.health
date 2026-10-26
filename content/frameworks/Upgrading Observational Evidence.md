@@ -93,8 +93,6 @@ with each hour's delay of antibiotics in sepsis and hypotension.
   or plateau is a **decision** parameter.
   [inferred from @grade]
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## 3. Plausible residual confounding working against the effect
 
 The standard reason observational evidence sits at low certainty is residual confounding —
@@ -218,9 +216,6 @@ this page's reading, not as an author-flagged one; the bullet above is corrected
   same doubt as a small harmful one (and measurement error usually attenuates toward the null, so a
   modest RR can understate a real effect too -> [[Measurement Error in Dietary Assessment]]).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Limits
 
@@ -233,8 +228,6 @@ this page's reading, not as an author-flagged one; the bullet above is corrected
   Handbook's own Table 5.9 is not in the held chunks; the >2 / <0.5 figures on this page come from
   Poole's statement of the GRADE bar, not from the Handbook text.
 - **Source currency:** §5 is flagged in-source as rewritten in the 2024 GRADE Book.
-
-</div>
 
 ## Worked cases — the upgrade decision applied, with reasons, in both directions `[2026-07-27]`
 

@@ -8,7 +8,7 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -31,8 +31,6 @@ evidence; a high VO2max is otherwise a stratification metric, not a target in it
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The dose-response — each MET matters, and no upper limit was observed over the studied range
 
 - **Per 1-MET higher CRF (Kodama meta-analysis, dose-response):** all-cause mortality «RR 0.87 (95% CI,
@@ -50,6 +48,24 @@ evidence; a high VO2max is otherwise a stratification metric, not a target in it
   performers.» *No ceiling* is a finding in a treadmill-referral cohort, not a monotonicity law.
   [@mandsager2018]
   (corrected 2026-10-06: bare *no ceiling* -> no upper limit observed, with the subgroup limits; self-critique)
+  (corrected 2026-10-22: the 10-12 MET passage's only citation identified as an activity study, per its title, below)
+- **A stated counterpoint, not reconciled here (Ross 2016, AHA scientific statement):** «Most of the
+  lower mortality risk associated with a higher CRF occurs by the time a CRF of 10 to 12 METs is
+  achieved. CRF values >12 METs are associated with a relatively lower impact on risk of all-cause and
+  CVD mortality.» [@ross2016]
+  Ross's display is a statement-level summary sentence (one cited reference, no curve or CI printed
+  with it), and the only citation in the three sentences ending at ref 290 (on the closing sentence) is Arem 2015, titled as a pooled dose-response analysis of leisure time physical activity and mortality [@ross2016]; by its title an activity study rather than a fitness study. Mandsager's is
+  a categorical HR from one treadmill-referral cohort (elite >=97.7th percentile vs high 75-97.6th).
+  Detail and the training-dose reading: [[Measuring and Raising Cardiorespiratory Fitness]].
+- **Why the pair is not a contradiction as stated, and not a resolution either.** The two answer
+  different contrasts: Mandsager asks whether the top band still differs from the band below it (yes,
+  HR 0.77, carried by subgroups); Ross asks where *most* of the gradient has already been realized (by
+  \~10-12 METs). A further step beyond 12 METs can be real and still small relative to the low-end steps,
+  so both can hold. Ross's 10-12 MET sentence carries no citation of its own and the nearest one (ref 290) is
+  by its title an activity study, so that sentence gives no measured-fitness location for the flattening.
+  In chunk 01 Ross writes that many studies find «CRF levels >8 to 10 METs are associated with relative protection», and that «Relatively less is gained by increasing CRF between moderately fit and highly fit individuals.», stated alongside its Figure, modified from Blair 1989, a study in which fitness was estimated by maximal treadmill testing [@ross2016]; the references cited for the >8-10 MET sentence include Kodama 2009 and Myers 2002 [@ross2016], by title mostly fitness/exercise-capacity studies [inferred from @ross2016]. Neither source tests the other's contrast, so the wiki asserts neither a plateau nor
+  its absence: the held statement is *gradient steepest at the low end, a smaller residual step at the
+  top observed in one referral cohort*.
 
 **A convergence worth naming, and it bears on the U/J-artifact prior.** Self-reported *activity* studies
 show a plateau (and sometimes a U-shape) at high volumes; Mandsager, measuring fitness *objectively*,
@@ -73,10 +89,6 @@ for lack of data [@coenen2018paradox]. So CRF is a *candidate buffer* of the str
 operates at a lower relative workload), but it clears only the plausibility bar, not positive
 effect-modification, so it is held as an open interaction, not a finding.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## How big — low fitness carries hazards comparable to or greater than smoking and diabetes
 
 Mandsager's adjusted all-cause-mortality gradient (reference = low performers): «Low vs Elite ... 5.04
@@ -90,10 +102,6 @@ fitness contrast and a binary smoking contrast are not the same quantity. (corre
 Kodama concurs categorically: low-vs-high CRF «RR for all-cause mortality of 1.70 (1.51-1.92)», attenuated
 to 1.48 (1.31-1.68) after trim-and-fill (see *Limits*).
 [@mandsager2018]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The target — where a given VO2max sits, by age and sex
 
@@ -119,10 +127,6 @@ peak exercise», with no conversion equation named [@mandsager2018]. Why a cycle
 land low on this grid (the cycle-vs-treadmill modality gap, plus a treadmill conversion that would over-read
 if it resembles the ACSM steady-state equations; Mandsager names none) is worked through on
 [[Measuring and Raising Cardiorespiratory Fitness]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The load-bearing honesty — predictor, not proven cause
 
@@ -151,10 +155,6 @@ risk as the cohorts, in heart-failure patients, on a hospitalization-inclusive c
 association in HF patients; self-critique) The upgrade is real and bounded: CRF is a
 *modifiable target whose improvement tracks benefit*, not yet a *proven cause* of longer life.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits
 
 - **Not two independent methods.** A meta-analysis of cohorts (Kodama) and one mega-cohort (Mandsager)
@@ -173,7 +173,9 @@ association in HF patients; self-critique) The upgrade is real and bounded: CRF 
 - Coherence, not validity (R1): a strong, graded, mechanism-plausible association — but not proof that
   acting on it changes a given person's life.
 
-</div>
+
+
+
 
 ## CRF is a measured CAPACITY, not a behaviour - and the predictor claim is cited (deliverable-critique, 2026-08-01)
 
@@ -194,8 +196,6 @@ total-activity number and the CRF-predictor claim are different (both valid) fin
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## "Per 1-MET" - what it means, and why you cannot compound it to 0.87^5 (deliverable-critique, 2026-08-01)
 
 "Per 1-MET" is per 1 metabolic-equivalent of CRF *capacity* (VO2max; 1 MET = 3.5 ml/kg/min), NOT per
@@ -215,9 +215,7 @@ compound to a personal promise (5 METs -> 0.87^5 \~ 0.50) for two reasons:
   causal discount in the next section. Read it as: escaping the low-fitness bottom is where the large,
   decision-relevant benefit sits - not as a compoundable multiplier.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The causal discount - VO2max is part lever, part marker (deliverable-critique, 2026-08-01)
 
@@ -244,7 +242,5 @@ association and the effect of raising *your own* fitness:
 Net: VO2max is *part lever, part marker*. The decision-relevant claim survives but shrinks - **escaping the
 low-fitness bottom by training plausibly helps** (a likely smaller causal benefit, concentrated at the low end, not yet trial-proven on mortality) - it
 is NOT the between-person \~5x read as a personal promise.
-
-</div>
 
 ## References

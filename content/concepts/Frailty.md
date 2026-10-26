@@ -2,8 +2,8 @@
 type: concept
 question: What is frailty, what does it predict, and is it a modifiable target or only a prognostic marker?
 aliases: [Frail, Prefrail, Prefrailty, Frailty Syndrome, Fried Phenotype, Frailty Phenotype, Frailty Index, Physical Frailty]
-authors: [Vermeiren, Sofie; Vella-Azzopardi, Roberta; Bautmans, Ivan; Racey, Megan; Sherifali, Diana; Keller, Heather]
-sources: [Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021]
+authors: [Vermeiren, Sofie; Vella-Azzopardi, Roberta; Bautmans, Ivan; Racey, Megan; Sherifali, Diana; Keller, Heather; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro]
+sources: [Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Radaelli - Resistance Training Volume Older Adults NMA 2024]
 cluster: frailty
 nucleus: true
 confidence: medium
@@ -20,8 +20,8 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Intrinsic Capacity and Multidimensional Healthspan
 created: 2026-08-08
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 Nucleus of the `frailty` cluster. Frailty is the older-adult syndrome of **reduced physiological
@@ -43,8 +43,6 @@ identifying frailty is decision-changing because the identified stratum has both
 (large absolute benefit available) *and* a lever that moves the outcome. This is what a RAG over either
 paper alone misses — Vermeiren reads as "frailty is bad prognosis," Racey as "exercise helps the frail";
 the *act-on-it* conclusion is the composite.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What frailty predicts (Vermeiren — prognostic leg, observational)
 
@@ -74,10 +72,6 @@ the source's overall estimates pool frail-vs-robust and prefrail-vs-robust contr
   health) but confounded, with high heterogeneity (I2 95-98% for mortality). Frailty here is a *risk
   marker*; the causal test is the intervention leg.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Frailty is modifiable (Racey — intervention leg, RCT/GRADE)
 
 [@racey2021frailtypa]
@@ -102,7 +96,35 @@ small for cognition.
   protocols [@racey2021frailtypa]. Harms were similar to control (no undue harm), but adherence is
   poor in the real world (fear of falling, low self-belief) — adherence is part of the effect.
 
-</div>
+**How much resistance-training volume the frail need is not estimated (gap).** The one held
+network meta-analysis of RT volume in adults >=60 (Radaelli, 151 trials) found a low weekly volume not
+outperformed by a high one on most function and size outcomes (higher volume did better on fast walking speed, and
+had larger strength point estimates), but in a pool 78.8% physically healthy; frail
+trials numbered 5, and the physically-impaired subgroup (sarcopenia, frailty, mobility limitation) produced significant
+estimates for few cells: low and moderate volume on knee-extension and leg-press 1RM, low and high volume
+on isometric strength, high volume on timed up and go, and moderate volume on lean mass. The authors: «While resistance train- ing can prevent muscle wasting in older
+adults with sar- copenia or frailty [222–224], the most effective resistance training dosage for this
+group remains to be determined.» [@radaelli2024rtvol]
+The authors translate the low band's median (\~12 weekly lower-limb sets) as «equivalent to two sessions
+per week and two sets» «per exercise for three lower-limb resistance training exer- cises», which they say
+«has proven highly effective in enhancing physical function measured by timed up and go and 6-min walk
+test but not fast walking speed in healthy older adults.» On
+strength they add: «Interestingly, both physically healthy and physically impaired participants derived
+significantly large effects from moderate-to-high resistance training vol- ume, which is important to
+preserve muscle strength for those targeting healthy ageing and achieve a greater safety margin before the
+threshold for disabilities.» [@radaelli2024rtvol]
+So the not-outperformed finding is not carried to this stratum as evidence; the supervised, adjusted
+programmes above remain the held frame. In the impaired subgroup even low volume gave significant 1RM and
+isometric strength gains, so a low-volume start (the authors' Discussion translation of \~12 weekly lower-limb sets: two sets per exercise, three
+lower-limb exercises, twice a week, inside a supervised programme; their Conclusions give eight exercises
+for the same volume, probably a full-body count — see the RT page — and the held general default covers
+all major muscle groups) is a reasonable cheap default to
+begin with. It rests on these subgroup cells and on a translation the authors give for healthy older
+adults; it is not a trial-tested optimum, and the dose for the frail stays unestimated (whole-pool strength
+certainty is already very low, and the subgroup is ungraded; 5 frail trials). Because moderate and high volume also gave large strength effects in this
+subgroup, the low start is a floor to progress from, not a ceiling.
+-> [[Resistance Training Prescription - Load Sets and Frequency]]
+[inferred from @radaelli2024rtvol; @racey2021frailtypa]
 
 ## Reconciliation — target the measurable COMPONENTS, read "frailty" as the composite that moves
 

@@ -2,8 +2,9 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org)]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org); Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping]
+sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019,
+  Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -16,8 +17,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-10-06
-updated: 2026-10-06
+self_critiqued: 2026-10-22
+updated: 2026-10-22
 ---
 
 ## The decomposition
@@ -440,8 +441,6 @@ repletion) — effect-modification is real *sometimes*, and the discipline is th
 assumed, in either direction.
 [inferred from @coley2025]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
@@ -527,8 +526,6 @@ from the numbers of events observed in these trials.» Its worked example (63 vs
 2.5% vs 4.0% MVE per year in primary prevention, giving \~50 vs \~80 avoided per 10,000 per year per
 mmol/L) is route (a) arithmetic applied to the cell where route (a) is least certain. [@ctt2019]
 Statin decision consequences: [[Statins for Primary Prevention and the Power of Zero CAC]].
-
-</div>
 
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 
@@ -703,5 +700,32 @@ factors»), and adiposity is the *noisier* input (WHR regression-dilution ratio 
 redundant *and* less reliable. The measure-choice tension this sits on is
 [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 [inferred from @erfc2011whr]
+
+## A small, study-level subgroup search with a single trial-feature moderator — youth warm-up programmes `[2026-10-22, Ding]`
+
+A third route-(b) absence, in a third exposure class and a weaker design than Coley or Nong. Ding's
+meta-analysis of 15 cluster-RCTs of structured warm-up programmes in under-19s ran eight study-level
+subgroup splits and found that «Q and P values for between-subgroups comparisons indicated only one
+discernible difference in compliance (*p* = 0.01)»
+[@ding2022warmup]. Age (p =
+0.64) and sex (p = 0.10, a three-way test including 9 mixed-sex trials; males 0.47 vs females 0.68, three trials
+each) showed no significant difference
+[@ding2022warmup].
+As with Nong's duration effect, the one moderator is a property of the trial (how well the programme was
+done), not of the person; unlike trial duration, it is something an implementer can act on (adherence,
+a Layer-3 matter), and by Table 4's counts one trial with compliance N/A sits in the >70% group
+[@ding2022warmup].
+
+ Three bounds make this a weak data point. Subgroups of 3 to 12 trials compared on aggregate
+data have little power, so this is *no modification shown*, not *modification excluded*. The splits are
+between trials, so the sex comparison sets male-only, female-only and mixed trials against each other,
+confounded with level, setting, programme type and compliance: not a person-level test at all. And the
+source itself says both the examined and the unexamined factors «could still moderate the effect»
+[@ding2022warmup]. Separately,
+the same paper's discussion reads point-estimate gaps between non-significant subgroups as real differences,
+which is the route-(b) false-positive generator at the reporting stage, inside a paper whose own tests
+are null. Lodged toward the `[PRIOR — over-personalization is the likelier failure]`, not scored. Full
+appraisal -> [[Exercise Interventions and Sports Injury Prevention]].
+[inferred from @ding2022warmup]
 
 ## References

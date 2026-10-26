@@ -8,7 +8,7 @@ cluster: dietary-acrylamide
 nucleus: true
 confidence: moderate
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-10-22
 self_critiqued: 2026-08-25
 relationships:
   related_to:
@@ -82,7 +82,7 @@ Kidney, endometrial, and ovarian are the sites the mechanism (hormonal/genotoxic
 non-gynecological ones here do not confirm it, and the gynecological signal lives in a *separate*
 source not yet held.
 
-### Dose-response: no threshold, no knee — a genuinely informative null
+### Dose-response: no threshold or knee shown across study medians of 6.8-44.1 µg/day (cubic spline) — a genuinely informative null
 
 The one-stage dose-response MA (cubic splines, knots at the 10th/50th/90th percentiles; reference
 23 µg/day; linear trend fitted alongside) found «a null association with no thresholds for all
@@ -91,11 +91,18 @@ dietary acrylamide and the risk of any of the site-speciﬁc cancers considered.
 [@filippini2022]
 
 This is the *right question asked and answered* (-> [[The U-Shaped Association Artifact]] vocabulary):
-where is the knee / threshold / upper bound? **There isn't one located** over the studied intake
-range **6.8-44.1 µg/day** (up to \~0.7 µg/kg body weight/day). Per the corpus rule, a measured-flat
+where is the knee / threshold / upper bound? **There isn't one located** across the included studies'
+intakes, which Filippini reports as **6.8-44.1 µg/day** (up to \~0.7 µg/kg body weight/day)
+[@filippini2022]. Those two numbers
+are the lowest and highest *study medians* in Table 1 (Wilson's Swedish case-control median 44.10,
+with category values to 67.2), so 6.8-44.1 is the spread of study medians, not the spline's support,
+which is probably wider [@filippini2022]
+. Per the corpus rule, a measured-flat
 curve is weak evidence of a *true* flat curve — measurement error can hide a knee — so this is *no
 threshold shown*, not *no threshold exists*; but the direction of that caveat only *weakens* an
 already-null signal, it cannot manufacture harm (-> [[Measurement Error in Dietary Assessment]]).
+Measurement error can also run the other way: error that grows with intake flattens the top of a
+curve and can manufacture a plateau where none exists.
 
 ### The two subgroup exceptions — both fragile
 

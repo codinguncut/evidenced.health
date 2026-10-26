@@ -31,8 +31,6 @@ buys little (and this is the robustly-evidenced side), while a pattern that migh
 physiological channel — circadian timing — is where the positive signals cluster, though that side of the
 evidence is markedly weaker. `type-A` (a cross-instance structure no single instance page states).
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The instances split into two camps
 
 
@@ -63,10 +61,6 @@ evidence is markedly weaker. `type-A` (a cross-instance structure no single inst
   is observational (predictor, not established causal lever; see the tiers below)
   -> [[Sleep Regularity and Mortality]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Why the split — the mechanism reads the axis
 
 
@@ -82,10 +76,6 @@ its own effect (this is where the positive but weaker signals sit). The lesson i
 "only totals matter"; it is **ask whether the pattern opens a distinct mechanism, or only re-shuffles the
 dose** — and note that the cases where a distinct mechanism is plausible are exactly the ones the evidence
 has isolated least well (below).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The evidence tiers are not symmetric — hold the split lightly
 
@@ -103,8 +93,6 @@ That leaves a live alternative to the exposure-specific reading: the split may b
 load-bearing caution survives either way (do not transport a distribution finding across exposures — test
 each), but "distribution dominates" should be read as a live hypothesis in sleep and a low-confidence
 preference in eating, not an established effect.
-
-</div>
 
 ## Decision relevance
 

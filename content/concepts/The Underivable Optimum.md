@@ -7,7 +7,7 @@ sources: []
 cluster: estimate-to-action
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-05
+updated: 2026-10-22
 self_critiqued: 2026-09-05
 relationships:
   related_to:
@@ -68,8 +68,10 @@ is broader and more null-straddling still.
 
 ### Route 2 (the cleanest case) — a monotone effect has no observed peak at all
 
-For an effect still *rising at the edge of the observed data* (fibre, sodium and free sugars are each
-monotone over their studied range — the falsified knees-and-plateaus audit, below), the apparent
+For an effect still *rising at the edge of the observed data* (fibre, sodium and free sugars each show no knee over the data, but three of the four
+displays in the knees-and-plateaus audit below (sodium->BP, sugars->weight, sugars->caries) could not have
+shown one, and fibre's no-knee reading holds for hard outcomes only; that prior is now CONTESTED, not
+falsified, superseded 2026-10-22, see the guard below), the apparent
 *optimum* is simply the **top of the sampled range** — set by the study's often-arbitrary cut-off, not
 by the curve. A different study with a slightly different cut-off would report a different *optimum*, and
 you cannot extrapolate above the data. This **generalizes a held rule** — *where a threshold appears in
@@ -165,11 +167,26 @@ harm-ceiling or a logistical cap, not by an optimum.
   manufactures one -> [[Measurement Error in Dietary Assessment]], so a *measured* plateau is weak
   evidence of a *true* one. Route 1 is real where a curve is genuinely flat, but it carries the least
   weight and leans on the other two.
+  **(superseded 2026-10-22, Gate 55 re-score — `meta/telos-review.md`):** the knees-and-plateaus prior is
+  no longer *falsified*; it is **CONTESTED**, re-scored as a conditional — *protective exposures plateau,
+  harm-reduction curves do not* (sitting is the one held harm-side knee). The original falsification
+  rested on fibre/sodium/sugar/caries curves, three of which used displays that cannot show a knee
+  (single-coefficient meta-regression, null meta-regression, ecological correlation); about 21 of \~70
+  held non-U curves locate a knee or plateau, almost all on protective exposures, including
+  device-measured activity -> mortality (formal non-linearity test), so *objective activity shows no
+  plateau* above is also withdrawn. And *measurement error erases a knee but never manufactures one* is
+  withdrawn: error that grows with intake can flatten the top of a self-reported range (Aune concedes
+  it for fruit/veg -> [[Fruit and Vegetable Intake and Health]]), so error can hide a knee **or**
+  manufacture a plateau. What survives of this guard: route 1 still fires only where a flat region is
+  observed, and a *measured* plateau is still weak evidence of a *true* one — now for both reasons.
+
   - **A worked FOOD instance of both halves of the guard — nuts -> mortality `[2026-08-13]`.** Aune 2016's
     nut dose-response is genuinely *observed* to flatten at \~15-20 g/day for CHD/CVD/all-cause (a real
     Route-1 plateau, unlike fibre/sodium/sugar) -> [[Nut Consumption and Mortality]] — a second observed
     plateau to set beside ESC fruit/veg, so the falsification's demotion (not its reversal) is what
-    nuts support. But it is FFQ-measured, so the flat top is exactly the *Route-3-downstream* case: the
+    nuts support (superseded 2026-10-22: contested, Gate 55 re-score — nuts is now one of the
+    protective-side plateaus that supports the conditional, not a demotion of a falsification)
+. But it is FFQ-measured, so the flat top is exactly the *Route-3-downstream* case: the
     measured plateau is weak evidence of a true one. And it carries the **boundary-as-target launder in the
     wild** — Aune names 20 g/day «the optimal intake» *because* returns flatten there, i.e. a knee-region
     relabelled a point-optimum. Read it as a floor-for-most-of-the-benefit with its studied range, never a

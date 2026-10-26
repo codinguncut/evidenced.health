@@ -19,7 +19,7 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Does Weight Loss Reduce Cardiovascular Events
 created: 2026-08-07
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
 
@@ -65,15 +65,22 @@ zero). Furthermore, intakes above these values, up to the highest analyzed intak
 - **The whole thing is on a caloric budget:** more protein necessarily displaces carbohydrate or fat, with
   potential costs to RT performance, sex-hormone levels, and adherence — weighed at Layer 3, not netted here.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
-## The shape: LINEAR, no knee — consistent with Morton on *no significant knee* only, across two populations
+## The shape: LINEAR over the studied 0.8-3.2 g/kgBM range, no knee shown — consistent with Morton on *no significant knee* only, across two populations
 
 [@refalo2025]
 Bayes-Factor model comparison found the **linear** model (no additional predictors) beat quadratic and
 cubic: «there was a 97% probability that FFM change becomes more positive as daily protein intake
 (g/kgBW) increases» (per BM, b=0.07, 95% HDI -0.01 to 0.14), rising to 99% per FFM (below). No knee, no
 plateau over the analyzed range.
+Range and display `[2026-10-22]`: «Dietary protein intake per kilogram of BM ranged from 0.8 to 3.2 g
+(mean 5 1.8 g), and protein intake per kilogram of FFM ranged from 0.9 to 4.2 g (mean 5 2.4 g).»
+[@refalo2025]; the display is a Bayesian
+meta-regression with linear vs quadratic vs cubic model comparison («linear and nonlinear (i.e., quadratic
+and cubic) Bayesian meta-regressions were generated»
+[@refalo2025]) — a polynomial fit, not a
+spline or a breakpoint (biphasic) model, so a sharp knee would have to show up as a quadratic/cubic win.
+*Linear, no knee* therefore means *no knee shown over 0.8-3.2 g/kgBM (0.9-4.2 g/kgFFM) on a polynomial
+model comparison*, not *no knee exists*.
 
 This is a **second, same-lineage instance of a no-significant-knee protein curve** (Helms co-authors both
 papers, and Refalo cites Morton). The parameter table below shows the shared ground is narrow — *no
@@ -100,8 +107,6 @@ not a tension.
   2014 generally (it is an *update* of it, same author).
 [inferred from @refalo2025]
 
-</div>
-
 ## Why per-FFM is the better denominator here
 
 [@refalo2025]
@@ -111,8 +116,6 @@ athletes» (Helms' rationale). Decision consequence: **where FFM can be reasonab
 FFM-based target** (2.5 g/kgFFM up to 4.2 for gain). This also means the number is **undefined until the
 denominator is named** — the same trap as the energy-balance page's g/kg-total ambiguity, sharper here
 because per-FFM is the recommended scaling.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Who benefits more per gram — the BF% ordering (leaner may benefit more; suggestive, not an established moderator)
 
@@ -136,10 +139,6 @@ under restriction, so protein may defend them more. Protein *may* therefore **in
   the relationship «somewhat tentative». (corrected 2026-10-06: *the direction is firmer than the
   magnitude* -> suggestive ordering; self-critique)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Sex, duration, deficit magnitude
 
 [@refalo2025]
@@ -157,10 +156,6 @@ under restriction, so protein may defend them more. Protein *may* therefore **in
   recently suggested that an energy deficit of ;500 kcal per day prevented gains in FFM» — so «individuals
   seeking to avoid FFM losses at all costs should likely implement modest energy restriction». A large
   deficit is itself likely a lever on FFM independent of protein.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The load-bearing caveats — do not ship a clean number
 
@@ -192,10 +187,6 @@ under restriction, so protein may defend them more. Protein *may* therefore **in
   smears any threshold).
 - **Mild COI** — the authors are tied to the evidence-based-fitness industry (Renaissance Periodization,
   MASS Research Review, 3D Muscle Journey); the method is rigorous, but noted.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The independent contrast MA (Wycherley 2012) — same direction, different design, different stratum
 
@@ -286,10 +277,6 @@ dose-response elsewhere, here acting on a between-arm contrast -> [[Measurement 
   as a gap) — now closed by Kim 2016, whose age-restricted MA finds the same FFM-sparing direction and
   magnitude in adults >=50 (see the Kim section below).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The older-adult stratum (Kim 2016) — same direction, same magnitude, NOT an independent leg
 
 [@kim2016]
@@ -371,10 +358,6 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
 - **Modest dose contrast** — the demonstrated benefit lands at \~1.0-1.5 vs \~0.6-1.0 g/kg/d, so like
   Wycherley it does not speak to whether pushing toward Refalo's \~1.9 g/kg buys more in this population.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Cutting athlete / dieter who must protect lean mass (nonobese, resistance-trained):** aim \~1.9
@@ -425,7 +408,5 @@ independence still fails on two counts, so this is **corroboration + stratum-ext
   MAs (Wycherley, Kim) show benefit at a LOWER achieved dose (\~1.0-1.25 g/kg). Treat as a well-reasoned
   prior for practice, revisable on controlled higher-vs-lower RCTs powered on function — including the
   sarcopenic-obesity RCT Kim names as unstudied.
-
-</div>
 
 ## References

@@ -184,8 +184,6 @@ observational**) finds per one-point rise on the 0-9 MD score: **AD RR 0.89 (0.8
   [[Dementia Prevention and Modifiable Risk Factors]].
 
 [@dinu2018]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The breadth context — an umbrella review bounds the single trial (F, not independent E)
 
 PREDIMED is one landmark RCT. Dinu's 2018 umbrella review (13 meta-analyses of observational studies +
@@ -304,11 +302,6 @@ pooled Med-diet estimates noisy and partly explains the weak RCT signal.
 [[Measurement Error in Dietary Assessment]].
 
 [@rees2019medcochrane]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Per-outcome certainty — the Cochrane review grades each PREDIMED endpoint (F) `[2026-10-06]`
 
 Rees's Cochrane review (30 RCTs, 12,461 randomised, search to Sept 2018)
@@ -466,10 +459,6 @@ the incumbent never claimed more than moderate certainty on any endpoint, Rees's
 `medium` confidence, and the LDL change is a precision gain over an overlapping Nordmann estimate, not
 an opposed result.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits
 
 - **Single trial, `confidence: medium`** — one landmark RCT, and one carrying an internal-validity
@@ -489,7 +478,7 @@ an opposed result.
   two meet on the same endpoint (Ge's network) they are near-equivalent. So "Med is better" is an
   availability asymmetry (Med was tested on events; DASH was not), not a head-to-head result -> [[Named Diet Programs Compared]] (DASH-vs-Mediterranean section).
 
-</div>
+
 
 ## Self-critique `[run 2026-07-29, before commit]`
 
@@ -527,8 +516,6 @@ illness -> depression), so it is plausibly not an independent MedDiet benefit bu
 the same cardiometabolic effect. Named here only as a cross-link; the caveats live on the depression page.
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Self-critique `[run 2026-08-05, after adding the Dinu umbrella section]`
 - **Independence NOT laundered — the load-bearing catch.** Dinu's RCT pool *contains* PREDIMED (Liyanage,
   Grosso, M-Gonzalez all pool it), so `[E-independent]` is explicitly refused and the relationship is
@@ -543,8 +530,6 @@ the same cardiometabolic effect. Named here only as a cross-link; the caveats li
   routed to Surrogate Outcomes rather than asserted as an SFA-channel duplicate. *(Superseded: already
   narrowed 2026-08-08 to a differential null, and on 2026-10-06 Rees's update shows a small differential
   LDL advantage too — see the Rees section.)*
-
-</div>
 
 ## The F&V component leg — the observational estimate PREDIMED cannot isolate `[2026-08-13]`
 
@@ -562,8 +547,6 @@ limit.
   the MedDiet's benefit. The RCT (Estruch) and the observational legs remain genuinely different routes;
   the two *observational* legs do not.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Self-critique `[run 2026-09-25, after the olive-oil-isolation section (WS-022)]`
 
 - **No overclaim toward or against olive oil.** The section neither asserts an isolated olive-oil CHD
@@ -577,10 +560,6 @@ limit.
 - **No laundered extraction.** synthesis over held pages; no new `[EXTRACTED]` minted and no
   `sources:` added — the WHO and Zhang figures are cross-referenced to [[Saturated Fat Intake and Replacement]],
   where they are extracted and audited. Every figure re-verified against that page before writing.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Self-critique `[run 2026-10-06, after the Rees Cochrane section]`
 
@@ -597,7 +576,5 @@ limit.
   unsupported "pre-statin-era" phrase (now the March 1993 interim date, drug use not reported).
 - **No tension filed:** Rees C2's LDL estimate overlaps Nordmann's (a precision gain), and Rees C1 vs Ge fails not-joined
   check (ii) (very-low-certainty 3-6-month trials vs a network MA). `confidence: medium` re-judged and kept.
-
-</div>
 
 ## References

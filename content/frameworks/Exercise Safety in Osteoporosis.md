@@ -15,8 +15,9 @@ relationships:
     - Surrogate Outcomes
     - Dairy and Bone Health
     - Shared Modifiable Levers Across Age-Related Diseases
+    - Exercise-Related Acute Cardiac Events
 created: 2026-08-27
-updated: 2026-09-10
+updated: 2026-10-21
 ---
 
 **The route-(c) contraindication question for exercise in the osteoporotic/osteopenic stratum.**

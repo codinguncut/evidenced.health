@@ -19,8 +19,6 @@ relationships:
 created: 2026-07-29
 updated: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 DiRECT (Lancet 2018) is the first registered trial to set **remission of type 2 diabetes as a
 primary outcome** and to deliver the intervention in **routine primary care** rather than a research

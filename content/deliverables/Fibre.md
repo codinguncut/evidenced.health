@@ -205,8 +205,6 @@ while a high-fibre arm did not
 resident community rather than reliably diversifying it on a short timescale, and a composition
 shift earns belief only when followed through to an outcome ([[Gut Microbiome and Health]]).
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Glycaemia, weight and transit move the right way but resist a clean number
 
 **Fibre nudges the softer outcomes in the expected direction, but the corpus cannot put a
@@ -258,8 +256,6 @@ And for a smoker, whom COPD overwhelmingly affects, smoking cessation dominates 
 margin ([[Dietary Fibre and COPD Risk]] carries the subtype detail)
 .
 
-</div>
-
 ## The downsides are real, minor, and mostly settled in the kitchen
 
 **The antinutrient alarm around fibre-rich plant foods is largely mis-scaled, but the genuine
@@ -280,8 +276,6 @@ beans cause documented poisonings; a full boil defuses it. A handful of named st
 care: low iron stores and tannin timing, recurrent kidney-stone formers and oxalate load,
 marginal-iodine status and goitrogens. But these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Thirty grams marks the edge of the data, not a biological threshold
 
@@ -322,8 +316,6 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 [@sacn2015] That is a roughly 40% gap,
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
-
-</div>
 
 ## Where this lands against official guidance
 
@@ -368,8 +360,6 @@ stated amount and plausibly tracks lower heart-disease risk.
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Caveats
 
 - **The hard-outcome benefit is observational.** The 15-30% risk reductions come from cohorts of
@@ -404,7 +394,5 @@ stated amount and plausibly tracks lower heart-disease risk.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
-
-</div>
 
 ## References

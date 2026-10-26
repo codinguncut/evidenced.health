@@ -345,8 +345,6 @@ not two witnesses of one effect [inferred from @martineau2017; @manson2019vitd].
   the deficient) — and the safe route needs **no subgroup-interaction claim**, though here a credible
   route-(b) interaction is *also* present [inferred from @martineau2017].
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Second instance — iron -> cognition, anaemia-stratified (Falkingham 2010)
 
 The lower arm now has a **second, independent** worked instance in a **different nutrient on a
@@ -448,8 +446,6 @@ iron raises IQ. What is independently corroborated is the **status-dependence st
 instantiate.
 Do not read the `[E-independent]` mark as evidence for either point estimate
 [inferred from @martineau2017; @falkingham2010].
-
-</div>
 
 ## Third instance — iodine -> child mental development (Bougma 2013)
 

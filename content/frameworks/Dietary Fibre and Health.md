@@ -2,8 +2,8 @@
 type: framework
 question: Does dietary fibre change patient-important outcomes (mortality, T2D, CHD, colorectal cancer) and the LDL surrogate — by how much, on what dose-response, and how much of it is causal versus confounded?
 aliases: [Dietary Fibre, Fibre, Fiber, Soluble Fibre, Viscous Fibre, Dietary Fiber and Health, Fibre and Mortality]
-authors: [Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed]
-sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, Wang - Resistant Starch Glucose Insulin 2019]
+authors: [Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Brown, Lisa; Willett, Walter W; Sacks, Frank M; Valdes, Ana M; Veronese, Nicola; Tzoulaki, Ioanna; World Cancer Research Fund International (org); Milajerdi, Alireza; Esmaillzadeh, Ahmad; Jenkins, David J A; Valisoltani, Neda; Ghoreishy, Seyed Mojtaba; Mohammadi, Hamed; Scientific Advisory Committee on Nutrition (org)]
+sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, Valdes - Gut Microbiota Nutrition and Health 2018, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Fruit Vegetable Mortality 2017, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, Wang - Resistant Starch Glucose Insulin 2019, SACN - Carbohydrates and Health 2015]
 cluster: fibre
 nucleus: true
 confidence: medium
@@ -22,7 +22,7 @@ relationships:
     - Dietary Patterns and COPD Risk
     - Low-FODMAP Diet for IBS
 created: 2026-07-29
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
 
@@ -128,12 +128,38 @@ being that soluble fibre «may exert only a small effect on the risk of heart di
 
 ## The dose-response — a worked case for the CLAUDE.md prior
 
-Fibre is the falsification prior's cleanest fabric instance, now with a **second independent estimate**.
+Fibre is the falsification prior's cleanest fabric instance, now with a **second independent estimate**
+(superseded 2026-10-22: the knees prior is contested, Gate 55 re-score, held as a conditional —
+protective exposures plateau, harm-reduction curves do not; fibre is a protective exposure whose
+plateau is *not shown*, which is weaker than *absent*; the *independent* label is also demoted to
+type-F shared-literature below).
 Reynolds finds the fibre-outcome curves «many of which are linear with no sign of a plateau within the
 available data», with «the greatest benefits ... for individuals consuming 25-29 g per day» and
 recommends «no less than 25-29 g per day with additional benefits likely to accrue with higher intakes.»
 [@reynolds2019]
 
+- **Display type — what these curves could show `[2026-10-22]`.** Reynolds overlays two displays on
+  the same cohort data: a linear model (the source of the per-8 g RR, e.g. all-cause 0.93) and a
+  restricted cubic spline — «Non-linear dose-response was assessed by restricted cubic splines with
+  three knots at 10%, 50%, and 90% of distribution combined with multivariate meta-analyses.» and
+  «Linear and spline (with 95% CI) models are shown in figures 1–3 with each datapoint overlaid as
+  circles.» [@reynolds2019]. The
+  3-knot spline makes Reynolds' no-plateau reading a *partial* shape test: it can show curvature
+  between the 10th and 90th percentile knots but is forced linear beyond them, so a flattening that begins above the
+  90th-percentile knot could not appear (whether a fibre plateau would lie there is unknown). Reynolds'
+  reading also covers «many of» the four outcome curves, not all of them. Its figure 1 x-axes span roughly 0-35 g/day (all-cause,
+  CHD) to 0-45 g/day (T2D, colorectal); that is the plotted axis span, and the studied intake range
+  is not stated in the text
+
+  [searched: ranged/intakes above/highest intake/more than 35 across Reynolds chunk 01 (1 file), 0 hits].
+  SACN reports its cohort meta-analyses as linear per-increment relative risks — «For the prospective
+  cohort study meta-analyses the relative risks for dietary fibre, cereal fibre and insoluble fibre
+  intakes are presented for each 7g/day increase in intake.»
+  [@sacn2015] — and sets the 30 g DRV by reading
+  non-linear plots reproduced from the Aune 2011 / Threapleton 2013 meta-analyses (Figures 11.1-11.5),
+  noting «The confidence intervals widen at intakes of 30g/day or more»
+  [@sacn2015]. SACN does not state the curve-fitting
+  method behind those reproduced plots [searched: spline/cubic spline/plateau across chunks 01-13].
 - **This confirms SACN's reading** (SACN's 30 g marks where confidence intervals widen, not a knee) —
   but as a **type-F shared-literature corroboration, NOT independent backing**: SACN's dose-response
   curves rest on the Aune 2011 / Threapleton 2013 cohort pools, the same cohort literature Reynolds
@@ -142,8 +168,10 @@ recommends «no less than 25-29 g per day with additional benefits likely to acc
   shared]`. The decision default *every reduction pays; the burden is on whoever claims a knee to
   locate it* stands on the shared base, twice-derived.
 - **But the shape is outcome-specific** (the gate-6 refinement). Brown's **LDL-surrogate** curve *does*
-  attenuate above \~8-10 g/d — a located knee on a surrogate — while Reynolds' **hard-outcome** curves stay
-  linear. So *fibre has no plateau* is true of the outcomes and false of the LDL marker; the curve you get
+  attenuate above \~8-10 g/d — a located knee on a surrogate — while Reynolds describes «many of» its four **hard-outcome** curves as linear. So *no plateau is shown within the available data (Reynolds: «many of» the four outcome
+  curves; plotted axes \~0-35/45 g/day, studied range not stated; display: linear + 3-knot restricted
+  cubic spline, forced linear beyond the outer knots)* holds for the hard outcomes and fails for the
+  LDL marker (rescoped 2026-10-22: was a bare *fibre has no plateau*); the curve you get
   depends on the endpoint you pick. This is exactly why a plateau on a surrogate must not be read across to
   the outcome ([[Surrogate Outcomes]]).
 - **The monotone reading is the BENEFIT arm over the studied range, not the net curve.**
@@ -228,8 +256,6 @@ endpoints via fermentation vs IBS-sufferer subjective GI relief via removing it)
 matched. The very fermentation that transmits fibre's benefit is what drives IBS symptoms, which is why
 the LFD reduces bifidobacteria — so long-term full restriction *sacrifices* the benefit this page
 documents, and the LFD is properly a time-limited elimination protocol, not a diet.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The diabetes stratum — same direction, one thin cohort base, a 35 g data edge `[2026-10-06]`
 
@@ -334,10 +360,6 @@ What the table licenses:
   here, and the review reports no fibre-versus-drug comparison (one included trial, Lalor 1990, co-tested guar and
   metformin; its design is not described in the held text).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Target \~25-30 g/day of total fibre from food**, mostly cereal/whole-grain + legumes + fruit/veg; more
@@ -356,7 +378,7 @@ What the table licenses:
   optimum. Expect a small glycaemic gain (\~0.2 percentage points HbA1c; whether via weight or directly is unresolved) rather than a
   glucose-lowering therapy.
 
-</div>
+
 
 ## Certainty and gaps
 

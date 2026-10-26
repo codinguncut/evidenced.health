@@ -33,8 +33,6 @@ diminished quality of life»; knee OA has «biomechanical and inflammatory origi
 [@messier2013idea] — and both of
 those origins are modifiable, which is what makes it in-scope.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The lever hierarchy — weight loss and exercise are additive; flexibility is unproven
 
 [inferred from @messier2013idea; @rauschosthoff2018exercise]
@@ -65,8 +63,6 @@ from strengthening, 0.26 (-0.04 to 0.57), so part of its deficit may be inflatio
 blinding, small-study bias, thin aerobic/mind-body networks), and the NMA comes from the same project as
 the pairwise MA, so it refines rather than independently confirms -> [[Exercise Therapy for Osteoarthritis Pain and Function]].
 
-</div>
-
 ## Weight loss + exercise for knee OA (Messier / IDEA RCT — the causal anchor)
 
 [@messier2013idea]
@@ -90,8 +86,6 @@ weight loss + exercise (D+E), diet only (D), exercise only (E, the comparator). 
 - **Honesty note on magnitude:** the \~1-point between-group WOMAC pain difference (0-20 scale) is of
   «uncertain» clinical significance (MCID \~20% from baseline), and baseline pain was mild (6.5/20),
   leaving little room. The *proportion pain-free* (38% vs \~21%) is the more decision-legible readout.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Exercise across arthritis is safe and effective (Rausch Osthoff / EULAR MA — generalization)
 
@@ -128,8 +122,6 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   moves the fitness/strength mediators broadly; Messier shows the pain/function payoff in knee OA when
   paired with weight loss.
 
-</div>
-
 ## Cross-links and mechanism
 
 - **The inflammation channel.** IDEA's IL-6 reduction with weight loss is the same lever the wiki holds
@@ -141,8 +133,6 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
 - **Protect muscle while losing weight.** IDEA's weight loss cost lean mass (\~4.2-4.7 kg), which in
   older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
   with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits — the open loop
 
@@ -172,10 +162,6 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   lever dominant for incidence as this page finds for symptoms — but observational, so preventing
   incidence by modifying it stays untested.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Self-critique `[run 2026-10-06, after the Goh NMA addition]`
 
 - Blind re-critique: PASS-WITH-FIXES, all applied — single-type contrasts stated as *not shown to
@@ -183,7 +169,5 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   equivalence; the mixed-loses reading carries the small-study alternative and the mixed vs
   strengthening null; older *efficacy-equivalent* / *BMI-independent* overstatements softened. The NMA
   shares a project and 8/9 authors with the pairwise Goh MA, so it is type-F, never independent backing.
-
-</div>
 
 ## References

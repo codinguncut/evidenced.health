@@ -2,8 +2,8 @@
 type: framework
 question: How much physical activity, of what kind, changes mortality -- and where, if anywhere, does the benefit flatten?
 aliases: [Physical Activity Dose, Exercise Dose-Response, MVPA Threshold, Muscle-Strengthening and Mortality, Sedentary Thresholds, How Much Exercise]
-authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika; Wan, Kewen]
-sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Wan - Exercise Snacks Cardiometabolic]
+authors: [World Health Organization (org); Ekelund, Ulf; Paluch, Amanda E; Mandsager, Kyle; Livingston, Gill; World Cancer Research Fund International (org); Coenen, Pieter; Celis-Morales, Carlos A; Kivimaki, Mika; Wan, Kewen; Franklin, Barry A.; Mendes, Augusto J; Ribaldi, Federica; Frisoni, Giovanni B; Ross, Robert]
+sources: [WHO - Physical Activity Web Annex Evidence Profiles 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Ekelund - Sitting Time Physical Activity Mortality 2016, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Paluch - Daily Steps Mortality 2022, Willett - Nutritional Epidemiology 3e, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Livingston - Dementia Prevention 2024, WCRF - Diet Nutrition Activity Cancer 2018, Sherrington - Exercise Preventing Falls 2019, Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Celis-Morales - Active Commuting Cardiovascular Cancer Mortality 2017, Shailendra - Resistance Training Mortality Meta-Analysis 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Wan - Exercise Snacks Cardiometabolic, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016]
 cluster: activity
 nucleus: true
 confidence: medium
@@ -23,8 +23,8 @@ relationships:
     - Wearable Activity Trackers and Physical Activity
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-27
-updated: 2026-10-07
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-21
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -42,22 +42,36 @@ three, and they re-slice overlapping cohort pools (the shared accelerometry/harm
 NHANES, the Women's Health Study, and others recur across them). So their agreement on curve *shape* is
 a set of convergent framings of one evidence base, not three separate confirmations — which is why no
 `[E-independent]` token is claimed on it (the same-quantity check returns NO; the convergence is
-qualitative). The genuine independence this page banks is by measurement *modality*, in the next
-paragraph.
+qualitative). The measurement reading in the next paragraph does not close that gap either.
 
-**The independence gap is now partly closed — by measurement modality, not by method.** A genuinely
-independent check was hoped for from [[Muscle-Strengthening Activity and Mortality]] (Momma 2022) and is
-NOT one (same observational PA-epidemiology lineage, overlapping cohorts). But the *measurement-artifact
-reading* itself now has independent backing: Ekelund's accelerometry finds the activity-mortality effect
-is **\~2x larger** than self-report shows, and Mandsager's cardiopulmonary-exercise-testing finds
-objectively-measured *fitness* has **no plateau** where self-reported activity does
--> [[Cardiorespiratory Fitness and Mortality]]. Two different objective instruments (hip accelerometer;
-maximal exercise test), two non-overlapping author groups, converging on *self-report attenuates the
-true gradient* — a genuine `[E-independent]` corroboration of the measurement reading (not of any single
-effect size — and the Mandsager leg, being *fitness* not activity, is consistent-with rather than an
-independent confirmation of the *activity*-attenuation reading specifically, since fitness != activity;
-leg 1's own device-vs-self-report 2x gap is what directly carries that claim). An RCT-grade mortality
-outcome is still owed.
+
+**The independence gap remains open.** A genuinely independent check was hoped for from
+[[Muscle-Strengthening Activity and Mortality]] (Momma 2022) and is NOT one (same observational
+PA-epidemiology lineage, overlapping cohorts). The *measurement-artifact reading* rests mainly on
+within-lineage evidence: Ekelund's accelerometry finds the activity-mortality effect is **\~2x larger** than
+self-report shows, a comparison against earlier self-report studies made in one of the three base MAs
+[@ekelundacc2019].
+Mandsager's exercise-treadmill-testing study (estimated METs), from a non-overlapping group, finds objectively-measured
+*fitness* with **no upper limit of benefit observed** in one referral cohort (elite vs high HR 0.77,
+0.63-0.95, significant overall and in the 70-plus and hypertensive subgroups; no significant elite-vs-high
+difference in younger patients; non-significant by sex and in the other with-comorbidity subgroups)
+[@mandsager2018] -> [[Cardiorespiratory Fitness and Mortality]]. Its bands are age- and
+sex-relative percentiles: at age 70+, where the step was significant, elite starts at 8.4-11.5 METs
+depending on age band and sex [@mandsager2018]. Mandsager calls its result «notably discrepant
+from population-based studies» of physical activity and exercise, and its first candidate explanation is «the objective
+measurement of physical fitness in the present study, as opposed to self-reported activity levels»
+[@mandsager2018]. That explanation is weakened, not refuted, by Ekelund's device-measured curve,
+which also plateaus (low light intensity excepted).
+Ross's AHA statement places most of the CRF-mortality gradient by \~10-12 METs, with >12 METs having «a
+relatively lower impact» [@ross2016], but that sentence has no citation of its own; the only citation in the three sentences ending at ref 290 (on the closing
+sentence) is Arem 2015, titled as a pooled dose-response analysis of leisure time physical activity and mortality [@ross2016]; by its title an activity study rather than a fitness study. In chunk 01 Ross writes that many studies find «CRF levels >8 to 10 METs are associated with relative protection», and that «Relatively less is gained by increasing CRF between moderately fit and highly fit individuals.», stated alongside its Figure, modified from Blair 1989, a study in which fitness was estimated by maximal treadmill testing [@ross2016]; the references cited for the >8-10 MET sentence include Kodama 2009 and Myers 2002 [@ross2016], by title mostly fitness/exercise-capacity studies.
+So Ross's cited evidence puts relative protection above \~8-10 METs, a sentence stated alongside its Figure (Blair
+1989, treadmill-estimated fitness) adds that less is gained beyond moderate fitness, and its 10-12 MET sentence is itself uncited.
+The Mandsager leg is consistent-with the measurement reading, not an independent confirmation: fitness !=
+activity, its top-band step is significant overall but by age only in the 70+ subgroup, and objective
+measurement is only one of Mandsager's three candidate explanations (genetic/unmeasured-habit contributors
+and population differences are the others). Not a banked type-E (corrected 2026-10-22: previously *a
+genuine `[E-independent]` corroboration*). An RCT-grade mortality outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
 
@@ -68,11 +82,15 @@ outcome is still owed.
 curve then flattens.** That is a decision-change in the telos's specific sense: it licenses someone
 to *stop optimizing*, which is a result, not a failure to find one.
 
-**But the *outcome* of that activity — cardiorespiratory fitness — predicts mortality even more  [@mandsager2018]
-strongly, and with no plateau** -> [[Cardiorespiratory Fitness and Mortality]]. The two are not one
-claim: self-reported activity *dose* flattens early here, while objectively-measured *fitness* keeps
-paying — a discrepancy that is itself informative about measurement, not proof that more activity is
-always better.
+**But the *outcome* of that activity — cardiorespiratory fitness — is a strong mortality predictor, with no
+upper limit observed in one referral cohort**: «Importantly, there was no upper limit of benefit of increased
+aerobic fitness.» «The adjusted mortality risk of reduced performance on ETT was
+comparable to, if not greater than, traditional clinical risk factors (eg, CAD, smoking).»
+[@mandsager2018] -> [[Cardiorespiratory Fitness and Mortality]]. The two are not one claim:
+activity *dose* flattens early here (on the device-measured curve too), while objectively-measured
+*fitness* showed a significant step at the top in one referral cohort (elite vs high HR 0.77, 0.63-0.95)
+[@mandsager2018] — a discrepancy worth keeping open, not proof that more activity is always
+better.
 
 **This page is about total DOSE (how much); a sibling decision governs its DISTRIBUTION across the
 week.** Once a weekly volume is fixed, whether it is concentrated into 1-2 sessions (the weekend-warrior
@@ -80,8 +98,6 @@ pattern) or spread across the week appears not to change the mortality benefit
 -> [[Weekend Warrior Activity Pattern and Mortality]] (with a session-duration floor: sub-30-min
 sessions do not bank it, at low observational certainty).
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
 
@@ -131,19 +147,26 @@ and with the domain split on [[The Physical Activity Paradox]].
 **Decision-change (structural leverage):** commuting active — especially cycling — is a way to bank
 the mortality benefit *built into the day*, so adherence is high; but treat walking-commuting as a
 lower-intensity dose that may not reach the plateau this page's leisure estimates describe. **Caveat:**
-observational, self-reported mode, and cyclists are markedly leaner/fitter/wealthier at baseline
-(healthy-user selection) — a robust association, not a proven causal offset
+observational, self-reported mode, and cyclists were leaner and fitter than non-active commuters at
+the same baseline visit (BMI 25.22 vs 27.51; fitness, measured in a subsample, 11.79 vs 9.32 METs)
+but not wealthier: by area deprivation more of them sat in the most-deprived fifth (29.2% vs 17.2%)
+and fewer in the least-deprived (11.9% vs 21.2%), while household income was similar (>£100,000:
+8.6% vs 7.0%; <£18,000: 10.6% vs 9.8%)
+[@celismorales2017commuting].
+Leanness and fitness may partly be consequences of cycling rather than markers of who chose it, so
+healthy-user selection is possible but not shown — a robust association, not a proven causal offset
 -> [[Upgrading Observational Evidence]].
+(corrected 2026-10-22: *markedly leaner/fitter/wealthier* -> leaner/fitter, not wealthier, per Table 1)
 [inferred from @celismorales2017commuting]
 
 *Self-critique `[run 2026-08-19]`:* the commuting arm is classed **type-F, not `[E-independent]`** —
 UK Biobank shares the observational PA-epidemiology lineage this page rests on, so it does not add an
 independent instrument and no `[E-independent]` token is claimed. The benefit is stated as an
-*association* with the healthy-user caveat explicit (cyclists leaner/fitter/wealthier at baseline);
+*association* with the healthy-user caveat explicit (cyclists leaner/fitter at baseline; corrected
+2026-10-22: not wealthier: more often in the most-deprived area fifth, similar household income,
+Table 1);
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
-
-</div>
 
 ## Where the curve bends — named maxima, device-measured
 
@@ -197,6 +220,51 @@ median total physical activity for the third quarter»
 optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
 the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
 
+## The very-high-volume tail in the general population — a smaller benefit, not a reversal `[2026-10-21, Franklin]`
+
+The maxima above say where the benefit flattens. A separate question is whether it *turns back* at
+volumes far above guidance. An AHA scientific statement (consensus; no stated search) reviews the
+cohorts that reach that far. Arem:
+«Maximal mortality risk reduction (HR, 0.61 [95% CI, 0.59−0.62]) occurred at an exercise volume
+equaling 3 to 5 times the recommendations. Although the most active indi- viduals (≥10 times the
+recommendations) had a lower mortality risk (HR, 0.69 [95% CI, 0.59−0.78]) compared with inactive
+control subjects, their risk reduction was not as large as the group with optimal exercise volume.»
+The statement attributes the wide intervals in the top groups to their size: they «may be explained by
+the relatively small sample sizes of the most active sub- groups (typically <5% of the total cohort).»
+Its verdict: «In aggregate, there is currently no evidence to reject the curvilinear association
+(Figure 8A) between exercise volumes and cardiovascular health outcomes, with AF as a possible
+exception.» [@franklin2020acute]
+
+- **AF is the outcome where the shape may differ.** A nonlinear meta-regression (Ricci; 19 studies)
+  found a J-shape: 5-20 MET-h/wk lower AF risk, 20-55 MET-h/wk similar to inactive, and a trend to higher
+  risk above 55 MET-h/wk (>9.5 h of vigorous exercise per week). In the Physicians' Health Study, men who
+  jogged 5 to 7 times per week had a 50% higher risk of AF than men who did not exercise vigorously, after
+  adjustment for cardiovascular risk factors.
+  [@franklin2020acute] Shape
+  is outcome-specific here as elsewhere, and the AF signal starts at volumes a committed recreational
+  runner can reach.
+- **Coronary calcium at high volume is a surrogate, not an outcome.** In the Cooper Clinic cohort
+  (n=21,758 men), the 432 doing ≥3000 MET-min/wk had a higher adjusted risk of CAC ≥100 but no higher
+  all-cause or CV mortality than men exercising at more moderate levels: «These findings
+  refute the notion that high-volume endurance activity (>1 h/d) increases mortality risk, regardless of
+  CAC level.» [@franklin2020acute]
+- **Cardiac patients are carved out.** The same paragraph that rejects a U for the general population
+  adds: «These find- ings might not be applicable to cardiac patients, because high-intensity, high-volume
+  PA may increase all-cause mortality among these patients.» Among CHD patients, Mons found the lowest
+  mortality at 2-4 vigorous sessions/week and HR 1.77 (0.90−3.47) at 7 sessions/week; Stewart (n=15,486) found a graded
+  reduction instead, and the statement calls the findings conflicting.
+  [@franklin2020acute]
+- **Reading the Arem pair:** the intervals overlap (0.59−0.62 vs 0.59−0.78), so the smaller
+  benefit at ≥10x is a point-estimate difference, not a demonstrated one. Other top-group estimates the
+  statement tabulates point the same way (Lear 0.98 for the most active vs 0.89 optimal; Schnohr 1.97 with
+  a 0.48−8.14 interval).
+- **Decision consequence:** for people without heart disease the relevant tail question is the
+  *transient* risk of a bout, not a long-run harmful arm — that lives on
+  [[Exercise-Related Acute Cardiac Events]]. The adjudication of the extreme-exercise upper arm as a
+  candidate artifact is catalogued on [[The U-Shaped Association Artifact]]. These are secondary
+  citations through one statement, not primaries held here, so they bound the shape claim without
+  raising this page's `confidence:`.
+
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
 The two maxima above trace to **Ekelund 2019**, a harmonised MA of 8 accelerometry cohorts (n=36 383,
@@ -230,15 +298,21 @@ curve flattens:
 > physical activity where the risk appeared to decrease further.»
 > [@ekelundacc2019]
 So this IS a located plateau (monotone-decreasing then flat — no U/J, no harmful upper arm at achievable
-doses). It survives the *measurement* caveat the wiki attaches to plateaus: measurement error can hide a
-knee but not manufacture one, and here the plateau is on the objectively-measured, un-attenuated curve —
-so it is credible on the un-attenuated curve, more so than a self-report plateau. The one qualifier that
+doses). It largely survives the *measurement* caveat the wiki attaches to plateaus: measurement error can hide a
+knee, and where it grows with activity level it can also manufacture a plateau; here the plateau is on the
+device-measured curve, where that error is smaller than in self-report — so it is more credible than a
+self-report plateau, though not immune to it (corrected 2026-10-22: previously *error can hide a
+knee but not manufacture one*). The one qualifier that
 cuts the other way: the plateau's high-dose arm rests on **few participants with wide CIs** (the maxima
 caveat above), so it is well-established that the curve flattens but not precisely where. Cross-check: objectively-measured *fitness*
-shows NO plateau -> [[Cardiorespiratory Fitness and Mortality]] — the two are not the same construct
-(activity dose flattens; the fitness it produces keeps paying).
+showed no upper limit of benefit in one referral cohort (Mandsager, in age/sex-relative percentiles)
+-> [[Cardiorespiratory Fitness and Mortality]]. Fitness and activity dose are not the same construct, and
+Ross reports that many studies find relative protection at >8-10 METs and less gain between moderate and
+high fitness [@ross2016], while Mandsager saw no upper limit in one referral cohort; a precise
+flattening point for measured fitness is not pinned by the held sources
+(corrected 2026-10-22: previously *shows NO plateau*).
 
-**Why the effect is this large — the measurement corrective (the type-A/E payoff of holding the primary).**
+**Why the effect is this large — the measurement corrective (the type-A payoff of holding the primary).**
 > «The observed effect sizes for the associations between physical activity and the risk of death are
 > about twice as large compared with those previously reported in studies assessing physical activity by
 > self report»
@@ -259,8 +333,6 @@ persist»); there is no MR/genetic instrument, so this is the *weak* adjudicatio
 [[The U-Shaped Association Artifact]] sense — enough that the monotone benefit is not purely sick-quitter
 artifact, not enough to call it causal. Consistent across all three sources here (see the steps and
 sitting sections).
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
@@ -311,8 +383,6 @@ Even if the gradient were causal and applied to induced change (neither is shown
 above notes a sick-quitter tell), \~600-750 steps is roughly a fifth to a third of one inter-quartile
 gap, held for a few months.
 [inferred from @paluch2022; @brickwood2019wearable; @laranjo2020] -> [[Wearable Activity Trackers and Physical Activity]]
-
-</div>
 
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 
@@ -393,8 +463,6 @@ viewing is not addressed here, so confounding is not excluded.
 self-reported-sitting metas — the same self-report/device gap that doubles the activity effect above,
 running in the sitting direction. Read the WHO 6-8 h number as a self-report figure, not the device one.
 [@ekelundacc2019]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Does activity OFFSET sitting? Mostly yes — the Ekelund 2016 interaction
 
@@ -492,8 +560,6 @@ cohorts (short), ≥40 y so not generalisable to younger/more active or LMIC pop
 mean «uncontrolled confounding would have to be as large in magnitude as smoking to distort our results».
 [inferred from @ekelund2020joint; @ekelundsitting2016; @ekelundacc2019]
 
-</div>
-
 ## Older adults — falls, which is a patient-important outcome
 
 > «Long-term exercise is associated with a reduction in falls, injurious falls, and probably fractures
@@ -523,8 +589,24 @@ most-at-the-bottom* shape on a second outcome. Caveat unchanged: the link is «l
 cognition/MCI difference — so the observational RR 0.80 is a decreased-risk *association*, not a proven
 prevention effect. Where a *multidomain* bundle **including** exercise (FINGER RCT) did move a cognitive
 composite, the design cannot attribute that to the exercise component
--> [[Multidomain Lifestyle Intervention and Cognitive Decline]]; single-domain exercise RCTs on cognition
-stay null.
+-> [[Multidomain Lifestyle Intervention and Cognitive Decline]]. Whether single-domain exercise RCTs on
+cognition are null may depend on the comparator. In that 5-year RCT the control arm was itself active:
+«At 5 years, 96% of the control group adhered to national guidance for physical activity, and 75% and
+76% adhered to the interval training intervention»
+[@livingston2024].
+Livingston reads the overall null as «in line with the small cognitive benefit shown in an umbrella
+review of RCTs»
+[@livingston2024].
+Against health education, Mendes's 109-RCT network finds exercise alone improves global
+cognition, SMD 0.14 (0.05-0.22), a small surrogate effect that, per the Results text, is not
+significant against an active (stretching / low-intensity exercise) control (the Abstract says the
+active-control models were «similarly significant»; see
+[[Multidomain Lifestyle Intervention and Cognitive Decline]])
+[@mendes2025multidomain].
+That the comparator reconciles the null with the small positive is
+the wiki's reading, not a held source's (Livingston reconciles the null with a small benefit, but
+not by comparator). (corrected 2026-10-22: bare *single-domain
+exercise RCTs on cognition stay null* -> comparator-scoped.)
 
 The direct dementia effect is now contested at the reverse-causation frontier
 [@kivimaki2019inactivity]: Kivimaki's individual-
@@ -558,8 +640,6 @@ person optimizing specifically for cancer risk cannot bank the mortality plateau
 Caveat symmetric with the rest of the page: WCRF's cancer grades are **observational cohort** judgements,
 so reverse causation (illness lowers activity) is not excluded by design.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What this page does NOT support
 
 - **No compensation analysis exists anywhere in the annex** — *now held on a sibling page.* Whether a
@@ -585,8 +665,6 @@ so reverse causation (illness lowers activity) is not excluded by design.
   cognitive function (b = 0.41; p = 0.002).»* That does not license "improving function improves
   cognition" for a person — the ecological-inference trap.
   [@who2020]
-
-</div>
 
 ## Sedentary behaviour is not the inverse of activity — and devices have type-specific bias `[2026-07-28, Willett ch.10]`
 

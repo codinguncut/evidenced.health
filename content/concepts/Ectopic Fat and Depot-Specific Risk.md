@@ -23,7 +23,6 @@ relationships:
     - Menopause and the Shifting Levers
     - Allostatic Load and Mortality
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 Opens the `ectopic-fat` cluster. The organizing claim, induced across an individual-mechanism source
 (Taylor's personal-fat-threshold hypothesis) and a population-outcome meta-analysis (Kramer's
@@ -34,10 +33,6 @@ tracks total fat mass or BMI.** This reframes three decisions the fat-mass / BMI
 at risk (some normal-weight people are; some obese people are less so, but not durably safe), what the
 operative variable is (depot / metabolic status, not the scale), and why the risk reverses (drawing
 ectopic fat back down). `type-A`
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The bidirectional energy-toxicity spine
 
@@ -62,10 +57,6 @@ and normal β-cell function when the fat content of the liver and the pancreas w
 loss diet- ary regimen» — «achievable equally readily by people with lower initial BMI».
 [@taylor2015pft] The reversal
 arm is separately gold-backed by the held RCT evidence -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The depot distinction — three fat compartments are three different objects `type-B`
 
@@ -150,10 +141,6 @@ acts on the shared upstream driver regardless of which depot is the proximate ca
 -> [[Surrogate Outcomes]].
 [inferred from @mantovani2018]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Why BMI misleads — the individual-vs-population gap
 
 BMI is a population statistic misapplied to a person. Taylor's UKPDS distribution is unimodal (no distinct
@@ -165,8 +152,6 @@ whether a person crosses *their own* threshold, not by a population cut-point (c
 threshold itself shifts by ethnicity: «the equivalent degree of risk for a Caucasian of BMI greater than
 30 kg/m2 is expressed in South Asians at 25.2 kg/m2 and at 27 kg/m2 in African/Caribbeans».
 [@taylor2015pft]
-
-</div>
 
 ## The population signature — Kramer's MHO meta-analysis reads as the same claim at scale `type-A`
 
@@ -228,8 +213,6 @@ E-independence, because Kramer never measures ectopic fat — metabolic-syndrome
 for the depot biology Taylor describes. The convergence raises confidence in the reframe, not in any shared
 number.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The hard-outcome instantiation — INTERHEART maps the depot distinction onto MI `type-F`
 
 Taylor and Kramer are glycemic/metabolic-status sources; INTERHEART extends the depot distinction to a
@@ -261,10 +244,6 @@ overall skeletal muscle mass.» [@yusuf2005interheart]
 loss). (corrected 2026-10-06: *lower-body fat protective* as a shared Taylor+INTERHEART claim -> INTERHEART
 hip-circumference only, muscle reading named; self-critique)
 [inferred from @yusuf2005interheart; @taylor2015pft]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -316,7 +295,6 @@ hip-circumference only, muscle reading named; self-critique)
   status is genuinely causal for the **glycemic** axis (this spine), and genuinely **not** the CVD lipid
   lever (apoB is); a raised TyG / TG-HDL *flags* the discordance, it does not replace measuring apoB.
 
-</div>
 
 ## Limits
 

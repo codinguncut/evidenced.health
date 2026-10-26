@@ -14,8 +14,6 @@ updated: 2026-10-07
 self_critiqued: 2026-10-07
 concrete_subject_audited: 2026-10-07
 ---
-<div class="recent-page" data-last-updated="2026-10-07"></div>
-
 
 ## A diet fails when it leaves out essential nutrients; above that floor, the label changes little that has been measured
 

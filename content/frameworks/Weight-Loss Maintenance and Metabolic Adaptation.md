@@ -22,7 +22,7 @@ relationships:
     - Weight Cycling and Cardiometabolic Risk
 self_critiqued: 2026-09-01
 created: 2026-07-31
-updated: 2026-09-01
+updated: 2026-10-20
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -85,8 +85,16 @@ Hall also **ranks the two limbs**, and the ranking favours the appetite limb thi
 weight loss, intake rose by «about 100 kcal/d per kilogram of lost weight – an effect more than 3-fold larger
 than the corresponding energy expenditure adaptations to weight loss»
 [@hallguo2017]. So the appetite/hormonal headwind is
-the larger driver, and the contested expenditure limb (above) is also the *smaller* one — a reason the D1
+the larger driver (on Hall's one modelled study; see below), and the contested expenditure limb (above) is also the *smaller* one — a reason the D1
 hedge costs the page's core claim little.
+
+**That ranking rests on one modelled study, not a measured intake.** Hall's figure comes from a single
+setting: «A validated mathematical method89 using repeated body weight measurements calculated the
+long-term changes in energy intake in patients with type 2 diabetes who were treated for 1 year with an
+inhibitor of the renal sodium glucose transporter type-2» [@hallguo2017].
+The intake rise is calculated from weight records, in people with type 2 diabetes losing glucose
+calories without dieting, so its transfer to deliberate dieting is untested. Read *appetite is the larger
+limb* as the direction this one study points, not a settled ranking. *Added 2026-10-20*.
 
 ## The reframe — regain is defended physiology, not (only) a lapse of resolve
 
@@ -136,12 +144,12 @@ two stronger claims:
   belief centres on — is the *contested* limb (Hall flags its persistence as contested, above) and the
   *smaller* one: Hall ranks the post-loss intake rise as **more than 3-fold larger than the corresponding
   energy-expenditure adaptation** (quoted above), so the dominant regain driver is **appetite, not a
-  crashed metabolism**. Neither the metabolic slowdown's permanence nor its primacy is supported.
+  crashed metabolism** (on Hall's one modelled SGLT2-inhibitor study; see the caveat above). Neither the metabolic slowdown's permanence nor its primacy is supported.
 
 
 Net: *starvation mode* names a real defended-set-point biology but mislabels both its mechanism and its
 severity. The corrective is neither *eat even less* (a deeper deficit does not overcome a headwind that
-scales with the loss and is largely appetite-mediated) nor *your metabolism is ruined* (unshown past 12
+scales with the loss and is probably largely appetite-mediated) nor *your metabolism is ruined* (unshown past 12
 months) — it is the **structural-leverage** posture the reframe already licenses
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
@@ -180,6 +188,19 @@ few kg kept [@franz2007]:
 | Sibutramine + diet | 8.2 kg (8.4%) | 8.2 kg (8.4%) | 10.8 kg (11%) @24 | (drug withdrawn — see below) |
 | Exercise alone | 2.4 kg (2.7%) | \~2 kg | **1.0 kg (1%) @24** | minimal at any timepoint |
 | Advice alone | minimal | minimal | minimal | minimal at any timepoint |
+
+**Diet + exercise vs diet alone is not a clean test of adding exercise.** The two rows come from different
+studies with different diets: «In general, in the diet-alone studies, the energy intake was approximately
+500 kcal or more less than estimated energy need and fat intake was 30% of total energy intake. In the
+diet and exercise studies, 1,200 kcal for women and 1,500 kcal for men were generally pre- scribed.»
+[@franz2007]. So part of the 7.9 vs 4.9 kg gap at
+6 months may be the diet, not the exercise. Franz's own 24-month comparison is smaller:
+«we found a difference between mean weight change at 24 months in diet alone and diet and exercise
+favoring diet and exercise by 1.3 kg. Despite the modest effect of physical activity on weight-loss main-
+tenance, they concluded that physical activity should be recommended as one part of a healthful
+lifestyle.» [@franz2007] (the "they" is an
+earlier review Franz cites). The direction favours adding exercise; the size is modest and possibly confounded by
+diet. *Added 2026-10-20.*
 
 **The efficacy meta-analysis (comparator-subtracted) shows the drug and food arms add only a few kg over
 their controls, with wide, heterogeneous intervals.** Hedges' *g* was pooled against a comparator arm

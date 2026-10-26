@@ -2,11 +2,11 @@
 type: synthesis
 question: When an exercise decision is framed as a choice between modalities or delivery formats (bike vs pool vs land, supervised vs home, this aerobic mode vs that), does the modality boundary carry decision information — or, once both options deliver the targeted stimulus, is the choice flat on the outcome and settled instead by adherence, feasibility, and injury?
 aliases: [Does Exercise Modality Matter, Exercise Modality Equivalence, The Modality Axis Is Flat, Is the Exercise Format Doing Any Work, Choosing Between Equivalent Exercise Options]
-authors: [Luan, Lijiang; Deng, Ying; Gomez-Redondo, Paola; O'Donoghue, Grainne; Liu, Jing-xin; Blomstrand, Peter; Goh, Siew Li; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A]
-sources: [Luan - Stationary Cycling Knee OA, Deng - Aquatic Land Balance Older, Gomez-Redondo - Supervised Unsupervised Exercise, ODonoghue - Exercise Prescription Body Composition, Liu - HIIT Glycemic Control Type 2 Diabetes 2019, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Goh - Exercise Types NMA Knee Hip OA, Naci - Exercise vs Antihypertensive Drugs 2019]
+authors: [Luan, Lijiang; Deng, Ying; Gomez-Redondo, Paola; O'Donoghue, Grainne; Liu, Jing-xin; Blomstrand, Peter; Goh, Siew Li; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Franklin, Barry A.]
+sources: [Luan - Stationary Cycling Knee OA, Deng - Aquatic Land Balance Older, Gomez-Redondo - Supervised Unsupervised Exercise, ODonoghue - Exercise Prescription Body Composition, Liu - HIIT Glycemic Control Type 2 Diabetes 2019, Blomstrand - Mind-Body Exercise Cognition Umbrella 2023, Goh - Exercise Types NMA Knee Hip OA, Naci - Exercise vs Antihypertensive Drugs 2019, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020]
 confidence: low
-self_critiqued: 2026-10-07
-updated: 2026-10-07
+self_critiqued: 2026-10-21
+updated: 2026-10-21
 relationships:
   related_to:
     - Mind-Body Exercise and Cognition
@@ -19,11 +19,10 @@ relationships:
     - Physical Activity Dose and Mortality
     - Layer 1 - Ranking Interventions for a Stratum
     - Blood Pressure Lowering and Cardiovascular Events
+    - Exercise-Related Acute Cardiac Events
   derived_from:
     - Is the Food Category Doing Any Work
 ---
-<div class="recent-page" data-last-updated="2026-10-07"></div>
-
 
 This is [[Is the Food Category Doing Any Work]] applied to exercise programming. The food version asks
 whether a *category boundary* (meat, dairy, "processed") carries information or averages over a mix that
@@ -143,6 +142,48 @@ thin aerobic and mind-body nodes, the only ones mixed separates from (mixed vs s
 other large node, 0.26, -0.04 to 0.57). The NMA's lone single-type edge, aerobic over strengthening on
 walking-type performance tests, is plausibly training-specificity rather than a modality effect.
 
+
+**Benefit flat once dose-matched, harm possibly graded — HIIT in coronary patients
+`[2026-10-21, Franklin]`.** The diagnostic so far asks whether the boundary moves the *benefit*. An AHA
+scientific statement (consensus; secondary citation of the meta-analyses and the event-rate study) shows a
+case where the harm side may move when the dose-matched benefit side does not. Three meta-analyses in
+cardiac patients gave HIIT a fitness edge over MICT (+1.78, +1.3, +1.4 mL/kg/min); in two of them, «these
+effects disap- peared after HIIT and MICT were matched for energy expenditure», and the statement
+concludes «These findings suggest that the exercise-induced health benefits of HIIT and MICT in cardiac
+patients are comparable». On harm it says «Data on the safety of HIIT in clinical populations are
+scarce.» In one cohort of 4846 coronary rehab patients «The absolute risk was low for HIIT (1 event per
+23 182 patient-hours) and MICT (1 event per 129 456 patient-hours) but 5.6 times higher in the HIIT
+group.» No event counts or CI are given. [@franklin2020acute]
+
+Is this the same comparison as the T2D HIIT row above? Parameter check:
+
+| Parameter | Liu (T2D) | Franklin-cited MAs (CHD / HFrEF) | Same quantity? |
+|---|---|---|---|
+| Contrast | HIIT vs MICT | HIIT vs MICT | yes |
+| Outcome metric | VO2peak, mL/kg/min | CRF, mL/kg/min | yes (same unit) |
+| Unmatched edge | +3.37 (1.88-4.87) | +1.78 / +1.3 / +1.4 | same direction |
+| Energy-matched | one cited trial (Karstoft): HIIT still better on VO2peak | edge gone in 2 MAs | **opposite directions** |
+| Population | T2D | coronary / heart-failure patients | **no** |
+| Event-rate harm data | none held | 5.6x higher per patient-hour, one cohort | one side only |
+
+The Karstoft row is from Liu's introduction.
+[@liu2019hiit] Liu's T2D result agrees with a
+cardiac MA (Xie, MD 1.76 mL/kg/min) and lists Gomes-Neto (the CHD meta-analysis, Franklin's ref 263)
+among its references, so the unmatched edges are not independent of each other.
+[@liu2019hiit]
+
+ (from the parameter table above) **An open question, not a filed tension.** Unmatched, the HIIT edge points the same way in
+both populations. Under energy matching the held evidence points opposite ways, but one side is a single
+trial cited by Liu and the other two meta-analyses cited by Franklin, in different populations, so
+whether matching removes the edge in T2D is untested at meta-analysis level. The harm side rests on one
+observational rate ratio per patient-hour; if HIIT reaches the same dose in fewer hours, the ratio per
+unit of training would be smaller than 5.6x. What it adds to this page is a third possible shape for the
+per-case check: flat on benefit, graded on benefit (HIIT for VO2peak in T2D unmatched, combined training
+for SBP), or **flat on dose-matched benefit and graded on harm**. For someone with known or suspected
+CAD, the statement holds that more safety data are needed before HIIT is widely adopted, «especially in
+unsupervised, non- medical settings» [@franklin2020acute]. The cheap default there is moderate continuous
+training, and HIIT inside supervised cardiac rehab
+-> [[Exercise-Related Acute Cardiac Events]], [[Supervised vs Unsupervised Exercise]].
 
 ## Relation to the food diagnostic — same three-way cut
 

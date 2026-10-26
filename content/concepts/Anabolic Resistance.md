@@ -1,9 +1,9 @@
 ---
 type: concept
-question: Why does aging blunt the muscle response to dietary protein, and what does that change about how much and how an older adult should eat protein?
+question: Why does aging blunt the muscle response to dietary protein, and what does that change about how much and how an older adult should eat protein (and does it imply more resistance-training volume)?
 aliases: [Anabolic Resistance, Anabolic Resistance of Aging, Attenuated MPS Response, Per-Meal Anabolic Threshold, Leucine Threshold, Muscle Protein Synthesis Response]
-authors: [Bauer, Jürgen; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Wolfe, Robert R; Komar, B; Schwingshackl, L]
-sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Komar - Leucine-Rich Protein Elderly]
+authors: [Bauer, Jürgen; Moore, Daniel R; Katsanos, Christos S; Phillips, Stuart M; Wolfe, Robert R; Komar, B; Schwingshackl, L; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro]
+sources: [Bauer - PROT-AGE Protein Older Adults 2013, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, Komar - Leucine-Rich Protein Elderly, Radaelli - Resistance Training Volume Older Adults NMA 2024]
 cluster: muscle
 confidence: medium
 relationships:
@@ -18,9 +18,10 @@ relationships:
     - GLP-1 and Lean Mass
     - Branched-Chain Amino Acids and Insulin Resistance
     - Blood Flow Restriction Training
+    - Resistance Training Prescription - Load Sets and Frequency
 created: 2026-08-06
-updated: 2026-09-24
-self_critiqued: 2026-08-19
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 The mechanism that makes older age a genuine protein-intake **stratum**, not just a demographic label.
@@ -156,6 +157,42 @@ leucine premise is downstream, not a separate route. The verdict is *split*, and
   null in the pooled analysis; that pool spans the two DM2 trials (Leenders, Scognamiglio), though Komar
   reports no diabetes-specific subgroup [inferred from @komar2015] — so the insulin-independent MPS pathway did not read out as
   glycaemic benefit.
+
+## Does more training volume add muscle size in older adults? Not shown in the outcome NMA (Radaelli)
+
+**The mechanism-to-dose inference.** Radaelli's network meta-analysis states the inference in its
+Introduction: «Due to anabolic resistance [18], older adults present a dimin- ished acute myofibrillar
+protein synthesis response to resist- ance training compared with younger adults [19], which, in turn, may
+require a higher stimulus from resistance train- ing to significantly increase myofibrillar protein
+synthesis and anabolic signalling [19].» A later sentence in the same paragraph calls for studies to
+«confirm whether a higher dosage is necessary», so it is posed as a hypothesis, not a finding.
+[@radaelli2024rtvol]
+
+**What the outcome data showed.** In the size networks of adults >=60 (76 lean-mass and 45 hypertrophy
+comparisons), higher weekly-set bands did not add muscle size. Bands: low \~30 full-body / \~12 lower-limb
+sets a week, moderate \~48 / \~21, high \~72 / \~36 (medians; the high band's lower-limb IQR runs 27-45).
+Lean mass SMD vs control was 0.25, 0.24 and 0.18, with every head-to-head spanning zero; lower-limb
+hypertrophy was 0.40, 0.28 and 0.18, and low beat high by a borderline 0.22 (0.01 to 0.43). Low certainty. The authors report «median increases ranging
+from 0.6 to 0.8 kg in lean mass». They attribute the modest size gains to this page's mechanism, and the
+lack of continued gain to diminishing returns: these «seem to be associated with anabolic resistance [18,
+219, 220], as we previously observed [221], and the diminishing returns principle, respectively.»
+[@radaelli2024rtvol]
+The 0.22 contrast is read here as no added gain, not as harm (the wiki's reading; the held main text does not say
+how much of this contrast is direct — the paper's local side-split analyses are in ESM Table S17, not held). [inferred from @radaelli2024rtvol]
+
+**Reading.** The NMA cannot test whether older adults need more stimulus *than younger adults*: it has no
+young arm, and its low band may already exceed a young adult's minimum. What it shows is narrower:
+within adults >=60, going beyond the low band did not add lean mass or muscle size (low certainty; how much of the
+band-vs-band comparison is direct is not in the held text). So on current outcome evidence the size lever for an older adult is
+*training at all*, not piling on sets (the per-meal protein levers above stay mechanism-grounded, with
+chronic lean-mass gains shown mainly in the deficit stratum; and whether the mixed-age >=10 sets per muscle
+group verdict holds at this age is an open gap on the RT prescription page). Strength is different:
+higher bands had larger point estimates against control, though head to head only high beat moderate,
+on isokinetic torque (very low certainty), so this bounds the volume corollary for size only. The acute-MPS literature this page rests on
+and the outcome NMA measure different quantities (synthesis rate after one bout vs lean mass after
+weeks), so this refines the dose corollary; it does not contradict the mechanism.
+Volume detail and the stratum caveats -> [[Resistance Training Prescription - Load Sets and Frequency]].
+[inferred from @radaelli2024rtvol]
 
 ## Decision relevance
 

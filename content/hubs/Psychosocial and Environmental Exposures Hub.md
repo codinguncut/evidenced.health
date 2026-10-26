@@ -54,12 +54,15 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
 
 - [[Cold-Water Immersion]] — nucleus of the `cold-exposure` cluster: deliberate cold shower / ice bath
   / plunge (<=15C, >=30s). Popularity vastly exceeds evidence (ice-bath sales rose from <1000 to
-  &gt;90,000/yr in 12 months). The one meta-analysis held (11 RCTs, n=3177) finds the best-graded acute
-  effect runs AGAINST the fad claim — CWI *raises* inflammation short-term (SMD \~1.0-1.3, Grade B) — and
+  &gt;90,000/yr in 12 months). The wellbeing meta-analysis (11 RCTs, n=3177) finds the best-graded acute
+  effect runs AGAINST the fad claim at 0-1 h — inflammation markers rise (SMD \~1.0-1.3, Grade B; later
+  hours unresolved) — and
   the "stress reduction" is one significant timepoint (12h, SMD -1.00) in an otherwise-null series.
   Immunity null (Grade D); sleep/QoL/sickness-absence are single-study self-reports. All-surrogate, no
   hard endpoints, no long-term, mostly single-session and male. Low-confidence peripheral lever; the
-  cold sibling of sauna (parallel, not a tension).
+  cold sibling of sauna (parallel, not a tension). After exercise (Dupuy 2018 MA): a small-to-moderate
+  single-session DOMS reduction (SMD -0.47; ≤15°C -0.62), a separate question from the cold habit;
+  whether it blunts strength-training gains is unheld.
 - [[Wim Hof Method]] — nucleus of the `wim-hof` cluster: the branded 3-pillar protocol (hyperventilatory
   breathing + cold + commitment). One SR held (8 tiny trials, n=13-48, 86.4% male, all high risk of bias,
   no meta-analysis) returns INSUFFICIENT evidence on any patient-important outcome — no hard endpoint,

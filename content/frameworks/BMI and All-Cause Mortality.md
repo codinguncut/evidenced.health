@@ -7,7 +7,7 @@ sources: [Global BMI - BMI All-Cause Mortality 2016, Wade - BMI Mortality Mendel
 cluster: weight-management
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-08
+updated: 2026-10-22
 self_critiqued: 2026-08-27
 relationships:
   related_to:
@@ -317,7 +317,14 @@ constraints; it bounds and extends the BMI reading rather than corroborating it 
   circumference *strengthens* after BMI adjustment (HR 1.11 per 10 cm -> 1.17 in BMI-adjusted studies).
   So two people at the same BMI carry different risk by fat distribution — the crude-proxy limit above,
   quantified -> [[Central Adiposity and All-Cause Mortality]].
-- **The central-fat curve is LESS U-shaped than this BMI curve.** WHR and ABSI are monotone with no knee;
+- **The central-fat curve is LESS U-shaped than this BMI curve.** WHR and ABSI are monotone over the
+  plotted range, no knee shown (display: restricted cubic spline, three knots at the 10th/50th/90th
+  percentiles; studied range not stated in the text, figure x-axes span WHR \~0.6-1.2 and ABSI
+  \~0.06-0.10): «Overall the relations were monotonic with little evidence of sharp changes at particular
+  cut-off points (fig 5).» (WHR) and «A positive monotonic association was found between A body shape
+  index and the risk of all cause mortality (Pnon-linearity<0.001, fig 11).»
+  [@jayedi2020central]
+  (rescoped 2026-10-22: was a bare *monotone with no knee*);
   waist circumference and waist-to-height ratio are shallow-J with a *negligible* protective lower arm
   (WC nadir men 90 cm HR 0.96, women flat 60-80 cm) — nothing like the substantial obesity-paradox arm
   the cascade above had to strip from BMI. Jayedi names why: «smaller waist circumference might reflect

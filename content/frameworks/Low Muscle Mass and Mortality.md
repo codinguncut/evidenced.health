@@ -57,8 +57,6 @@ metric is a **between-group mean difference in mass, not a hazard ratio per unit
 finding is that lower-mass people die at higher rates, but the page **cannot state an absolute risk or a
 dose-response gradient** from it. It is a discrimination signal of modest size, tight CI.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The decision-relevant move — mass predicts mortality; strength did not explain it in a study-level meta-regression
 
 [@santana2021]
@@ -94,10 +92,6 @@ predicted falls/fractures/mobility/mortality, while muscle mass (ALMI) «was not
 outcomes, [but] was consistently associated with mortality» — corroboration *within the source*, not an
 independent field (no `[E-independent]`).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Effect modifiers
 
 [@santana2021]
@@ -123,10 +117,6 @@ separate muscle from fat — so it is *directionally compatible, not diagnostic*
 (general-adult population, 3 studies). No `[E-independent]` badge (corrected 2026-10-06: badge dropped;
 self-critique); a body line only, it does not pad `sources:` -> [[Central Adiposity and All-Cause Mortality]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Predictor vs target — the line this page holds
 
 [inferred from @santana2021; @cruzjentoft2019]
@@ -146,10 +136,6 @@ self-critique); a body line only, it does not pad `sources:` -> [[Central Adipos
 - **So the muscle lever is worth pulling for function, independence, and sarcopenia** (patient-important
   in their own right) and now has an *associational* mortality rationale — but *raise your ASMI to live
   longer* would over-read this evidence.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## How mass relates to strength — refinement, not tension (vs EWGSOP2)
 
@@ -172,8 +158,6 @@ signal beyond strength (an underpowered study-level null), so it is not disposab
 reading — the composite (*strength primary; mass still prognostic, possibly beyond strength*) beats
 either source alone (corrected 2026-10-06: *independently predicts death* -> *possibly beyond strength*;
 self-critique). No `tension` is filed.
-
-</div>
 
 ## The syndrome as marker — and the function-outcome leg (Zhao 2026, moderate)
 
@@ -223,8 +207,6 @@ extends the *marker family*, not de Santana's finer mass-specific point.
   AWAITS a resistance-training -> mortality/function SR — walled RT->hard-outcome MAs being acquired
   separately; closes when an RCT/SR shows a sarcopenia-reversing intervention moves either outcome.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Measuring muscle mass in an older adult carries prognostic information** the strength measure *may*
@@ -251,10 +233,6 @@ extends the *marker family*, not de Santana's finer mass-specific point.
 - **Do not convert the SMD into a personal risk number.** It is a between-group discrimination statistic,
   not a per-SD hazard ratio; it supports *low mass is a bad sign*, not *each kg buys X*.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits — the open loop
 
 - **Observational, prognostic — no causal/target claim.** Nine cohorts; the low-mass -> death link may
@@ -276,7 +254,5 @@ extends the *marker family*, not de Santana's finer mass-specific point.
   (EWGSOP2 sets none), so the strongest-modifier stratum is the least operationally defined.
 - **The loop is open.** This grades coherence and source-fidelity, never validity; no operation here
   checks whether raising muscle mass changes what a person experiences.
-
-</div>
 
 ## References

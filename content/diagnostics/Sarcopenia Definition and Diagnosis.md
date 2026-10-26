@@ -82,8 +82,6 @@ EWGSOP2 «uses low muscle strength as the primary parameter of sarcopenia; muscl
 the most reliable measure of muscle function». Sarcopenia is *probable* on low strength alone — so
 treatment need not wait for imaging.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Tests / indicators — the F-A-C-S algorithm
 
 [@cruzjentoft2019]
@@ -103,8 +101,6 @@ treatment need not wait for imaging.
 - **Confirm** quantity — DXA or BIA in clinical care; DXA/MRI/CT in research. (Calf circumference <31 cm
   is a low-resource proxy where no instrument is available.)
 - **Severity** — gait speed (the advised measure), SPPB, TUG, or 400-m walk.
-
-</div>
 
 ## Cut-off points (EWGSOP2 Table 3)
 

@@ -2,8 +2,8 @@
 type: framework
 question: Does exercise prevent falls and fall-related fractures in community-dwelling older adults, and which types of exercise work?
 aliases: [Falls Prevention, Fall Prevention Exercise, Preventing Falls in the Elderly, Balance Training Falls, Exercise and Falls, Tai Chi for Falls, Tai Chi Balance, Tai Chi Fall Prevention]
-authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan; Pillay, Jennifer; Gaudet, Lindsay A; Hartling, Lisa; Jimenez-Lupion, Daniel; Chirosa-Rios, Luis; Martinez-Garcia, Dario; Rodriguez-Perez, Manuel; Jerez-Mayorga, Daniel]
-sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Jimenez-Lupion - Power Training Fall Risk Older Adults]
+authors: [Sherrington, Catherine; Fairhall, Nicola J; Wallbank, Geraldine K; Tiedemann, Anne; Lamb, Sarah E; Kahwati, Leila C; Weber, Rachel Palmieri; LeBlanc, Erin; Viswanathan, Meera; Racey, Megan; Pillay, Jennifer; Gaudet, Lindsay A; Hartling, Lisa; Jimenez-Lupion, Daniel; Chirosa-Rios, Luis; Martinez-Garcia, Dario; Rodriguez-Perez, Manuel; Jerez-Mayorga, Daniel; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
+sources: [Sherrington - Exercise Preventing Falls 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024, Jimenez-Lupion - Power Training Fall Risk Older Adults, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
 cluster: falls
 nucleus: true
 confidence: moderate
@@ -21,8 +21,8 @@ relationships:
     - Rating Outcome Importance
     - Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults
 created: 2026-08-05
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 The nucleus of the **falls / fracture-prevention** cluster — a large, high-lever, patient-important
@@ -30,8 +30,6 @@ outcome for the older stratum that was previously a named-but-empty gap. Falls a
 at least one-third of community-dwelling people over 65 fall each year, and fall-related fracture
 (hip above all) is a direct driver of loss of independence and death. Source: one gold-tier Cochrane
 SR, 108 RCTs / 23,407 participants, mean age 76 [@sherrington2019].
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The headline — exercise prevents falls, and this is HIGH-certainty
 
@@ -52,10 +50,6 @@ removal of the trials with a high risk of bias on one or more items.»
 [@sherrington2019] (corrected 2026-10-06: *so
 non-blinding did not downgrade it* -> the source's risk-of-bias wording; self-critique). Contrast the physical-activity
 *mortality* evidence, which is observational and far softer -> [[Physical Activity Dose and Mortality]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Which exercise — the decision is NOT *exercise*, it is *balance*
 
@@ -106,10 +100,6 @@ The types differ (subgroup test for rate of falls P=0.004), and the ordering is 
 - ***Walk more* is not fall-prevention advice.** Walking programmes have insufficient evidence and are
   not what reduces falls — a substitution worth naming, because it is the intuitive default.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 
 The outcomes people most fear are the worst-measured (streetlight effect on the outcome side)
@@ -139,10 +129,6 @@ structurally blind to the falls channel, so BMD *under*-reads exercise's fractur
 small BMD gain does not itself guarantee a fracture reduction ([[Surrogate Outcomes]]). Frame the
 recommendation on the composite of both channels, not on either number alone.
 [inferred from @sherrington2019; @mohebbi2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The other leg — vitamin D / calcium supplements do NOT prevent fractures in the community-dwelling
 
@@ -183,10 +169,6 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Who, and how much — the stratification
 
 - **Route (a), stated by the source:** the *relative* effect does not vary by baseline fall-risk, age
@@ -210,13 +192,24 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
   studies «higher doses of exercise were associated with a greater impact» on falls (corrected 2026-10-06:
   *higher-challenge ... balance work* was the wiki's addition; self-critique)
   [@sherrington2019].
+  - **A guideline floor for the balance dose (2011, predates Sherrington).** The 2011 ACSM position stand
+    recommends neuromotor exercise (balance, agility, gait, proprioceptive work; tai ji, yoga) on ≥2-3 d/wk
+    (grade B), and its Table 2 time row is hedged: «Time Q20–30 minIdj1 may be needed.» (per day, B). The
+    text notes that «Studies that have resulted in improvements have
+    mostly used train- ing frequencies of Q2–3 dIwkj1 with exercise sessions of Q20–30 min in duration, for a
+    total of Q60 min of neuro- motor exercise per week; however, more research is needed before any
+    definitive recommendations can be made» (`Q` = ≥, `dIwkj1` = per week, a PDF glyph artifact). Intensity,
+    volume, pattern and progression are stated as not known. NHLBI categories: B = RCTs, limited data.
+    [@garber2011acsm]
+    Read it as the typical dose in the positive 2011 studies (≥2-3 d/wk, ≥20-30 min, ≥60 min/wk), for
+    function as well as falls, not an optimum. Sherrington found only «some indication» of a higher-dose
+    effect, in underpowered within-study comparisons, and locates no dose range, so neither source sets a
+    minimum or a ceiling. The later World Guidelines (via Pillay, *Guidance proximity* below) set ≥3
+    supervised sessions a week for ≥12 weeks for intermediate-risk older adults; the 2011 floor is the
+    weaker, older figure and should not anchor the dose.
 - **Harms:** where reported, predominantly non-serious musculoskeletal; 2 serious events across all 108
   trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
   but nothing signals net harm — the intervention is low-risk relative to a large benefit.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
 
@@ -270,10 +263,6 @@ structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpe
   *walk-more is not fall-prevention advice* substitution above, now from a second synthesis (largely
   overlapping trials).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Two interventions that INCREASED falls — harm at the type level
 
 The NMA is one of the few sources that catches fall-prevention interventions doing net harm
@@ -295,10 +284,6 @@ The NMA is one of the few sources that catches fall-prevention interventions doi
   associated with minimal harm» (two exercise nodes: moderate certainty for small \~5-8/100 any-AE harms,
   little-to-no serious harm) — consistent with Sherrington's 2-serious-events-in-108-trials safety profile
   [@pillay2024falls].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## What patients actually value — the outcome-valuation layer (Pillay KQ2)
 
@@ -337,8 +322,6 @@ on a 0 (no HRQoL loss) to 1 (equal to death) scale [@pillay2024falls]:
   flags on its fracture leg (corrected 2026-10-06: *moved best by the same exercise top tier*; self-critique)
 .
 
-</div>
-
 ## Preference is not efficacy — the delivery-format distinction (Pillay KQ3)
 
 Sherrington finds group vs individual delivery does **not modify the fall-reduction effect**. Pillay's
@@ -352,8 +335,6 @@ where feasible) is a free adherence gain — «If implementing new balance/resis
 individual rather than group sessions when feasible may be most acceptable»
 [@pillay2024falls]. Group
 delivery remains a legitimate, effective, lower-resource option. [inferred from @pillay2024falls]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Guidance proximity — where this sits against the guidance set
 
@@ -373,7 +354,27 @@ is **strong** here and this wiki's job is calibrated agreement-with-better-warra
 the *outcome-valuation* ordering (fracture >> fall), none of which the guideline statements carry on their
 face. [inferred from @pillay2024falls]
 
-</div>
+**The 2011 ACSM stand, superseded on certainty for balance and functional exercise (noted 2026-10-22).** The ACSM position stand graded
+neuromotor and multifaceted exercise for improving function and reducing falls in older people at risk at
+**B** (RCTs, limited data), and wrote that agility and balance training «probably reduce the number of falls,
+al- though more definitive evidence is needed to confirm this finding». For younger and middle-aged adults it
+graded any benefit **D** (panel consensus): «Definitive recommendations as to whether neuromotor exercise is
+beneficial in young and middle-aged adults cannot be made owing to a paucity of data, although there may be
+benefit, especially if participating in physical activities requiring agility, balance, and other motor
+skills.»
+[@garber2011acsm]
+For the older stratum, the 2011 «probably reduce» is superseded by Sherrington 2019 for balance and
+functional exercise (RaR 0.76, HIGH certainty): direction unchanged, certainty raised. Tai chi's
+rate-of-falls certainty stays lower (see above), so the supersession does not cover the whole 2011 B row.
+The middle-aged D, which concerns general benefit rather than falls, remains the held position for that
+stratum; none of this page's sources studies neuromotor training in middle-aged adults.
+Not independent backing, and the overlap is confirmed: the «probably reduce» clause cites tai chi reviews
+and a meta-analysis (Harmer & Li 2008, Logghe 2010, Wu 2002), the ACSM/AHA older-adults recommendation
+(Nelson 2007), a trial protocol and Liu-Ambrose trials, while the preceding risk-and-fear clause cites
+Karinkanta 2007 and Liu-Ambrose. Karinkanta 2007, Liu-Ambrose 2004 and Liu-Ambrose 2008 are among
+Sherrington's included trials. The agreement is attribution, not type-E.
+[@garber2011acsm]
+[@sherrington2019]
 
 ## Where this sits in the ranking
 
@@ -383,8 +384,6 @@ intervention. It is the strongest outcome class the activity evidence carries fo
 -> [[Physical Activity Dose and Mortality]]. The loop stays open: no operation here grades this against a
 realised outcome, and *appraise, do not prescribe* binds — programme selection, progression and
 fall-risk titration in a specific person are prescriber/coaching acts. [inferred from @sherrington2019]
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Caveat — the HIGH-certainty result is for the GENERAL older adult, not the already-frail
 
@@ -403,7 +402,5 @@ must be dosed down to avoid injury (Racey's background concern that recommended 
 advanced or too intense for a frailer population»)
 [@racey2021frailtypa] and that the payoff shifts to function/mobility are *hypotheses*, not findings
  (corrected 2026-10-06: stated as facts; self-critique) -> [[Frailty]].
-
-</div>
 
 ## References

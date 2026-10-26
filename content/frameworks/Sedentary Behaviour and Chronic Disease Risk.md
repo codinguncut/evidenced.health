@@ -14,7 +14,6 @@ relationships:
 created: 2026-08-21
 updated: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 **The decision this page changes:** whether, and how hard, to cut *sitting* and *TV time* — separately
 from the decision about how much to *move*. Sedentary behaviour is a **distinct exposure from physical
@@ -32,10 +31,6 @@ real, and matter most for the heaviest sitters (mortality) and for population-wi
  (corrected 2026-10-06: *independent of activity* + *accelerates past a threshold* unscoped ->
 PA-adjusted, mortality-scoped; self-critique)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Two exposures, not one — total sitting vs TV viewing `type-B`
 
 *Sedentary behaviour* names two objects with **different curves and different strengths**, and conflating
@@ -52,10 +47,6 @@ confounding/mediating patterns».
   Only the first and last make TV a *sharper causal lever*; the middle two would make it a sharper
   *signal* only. (corrected 2026-10-06: *TV is the sharper lever because of what travels
   with it* -> four candidate explanations; self-critique)
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Dose-response — an accelerating-harm knee, the MIRROR of the activity plateau
 
@@ -94,8 +85,6 @@ threshold inherits measurement error — an objective-device inflection sits *hi
 accelerometry \~9.5 h/day sitting; see [[Physical Activity Dose and Mortality]]), the same self-report/
 device gap running in the sitting direction.
 
-</div>
-
 ## T2D is the standout — and the most caveated `type-F`
 
 TV->T2D is the strongest association in the whole analysis (**1.09 (1.07-1.12)** per h/day, PA-adjusted),
@@ -116,8 +105,6 @@ preceded ascer- tainment of exposure data»
 the dietary-mediation mechanism (TV -> snacking -> energy surplus -> T2D) also means part of this is
 *diet acting through TV*, not sitting per se.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## How far to trust the point estimates — measurement cuts both ways
 
 Sedentary time is mostly self-reported, and «Misclassiﬁcation of sedentary exposure would potentially
@@ -132,10 +119,6 @@ true effects* -> net direction unknown; self-critique) This is the same self-rep
 attenuation mechanism catalogued for diet in [[Measurement Error in Dietary Assessment]], transported to
 sedentary exposure; a null/shallow arm is weak evidence of no gradient. (TV's *better* self-report
 validity is one reason its signal reads larger than total sitting's — measurement, not only biology.)
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The bout/break gap — answered on surrogates, still open on hard outcomes `type-F` `type-G`
 
@@ -204,10 +187,6 @@ would need to close. The trials are also unblindable — you cannot blind an exe
 carries performance/detection risk of bias by construction (a design constraint, not a defect).
 [inferred from @loh2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Acting on it (layer 3)
 
 - **Effect depends on the replacement** — judge against the realistic alternative, not against standing
@@ -240,10 +219,6 @@ carries performance/detection risk of bias by construction (a design constraint,
   independent confirmation (same author, overlapping cohorts) — full parameter table and the
   within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Provenance / independence
 
 Primary anchor, **Patterson 2018** (gold dose-response MA), plus **Ekelund 2020** as a device-measured
@@ -265,7 +240,5 @@ discussion explicitly *rests on* Ekelund's offset figure — so no agreement her
 surrogate finding, not a hard-outcome one, and its own hard-outcome (break -> mortality/incidence)
 evidence is weak/null.
 [inferred from @patterson2018sedentary]
-
-</div>
 
 ## References

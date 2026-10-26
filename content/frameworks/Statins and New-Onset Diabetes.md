@@ -18,7 +18,6 @@ created: 2026-09-07
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 New-onset diabetes is the second-most-cited statin harm after muscle symptoms, and unlike the muscle
 scare it is a **real, small, dose-dependent pharmacological effect** — not a nocebo artifact. The decision
@@ -30,10 +29,6 @@ and the cardiovascular benefit already nets out any *cardiovascular* harm arisin
 the diagnosis itself stays a separate, small cost the source judges outweighed. This is the *metabolic* leg of the statin-harms
 decision — a different endpoint, and a different *kind* of harm, from the *tolerability* leg on
 [[Statin Muscle Symptoms and the Nocebo Effect]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The size and the intensity gradient (Reith / CTT 2024)
 
@@ -65,10 +60,6 @@ source judges the relative excesses «likely to be robust and generalisable». [
 *The high-intensity **absolute** excess is not \~10x the low/moderate one for a biological reason — see the
 ascertainment caveat next.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The absolute-excess caveat — measurement drives the cross-trial gap, not biology
 
 The most easily-misread number here is the \~10-fold gap between the low/moderate (0.12%/yr) and
@@ -92,10 +83,6 @@ absolute terms. This is a measurement-shapes-the-estimate instance in the interv
 inverse of the usual dietary case where measurement error *attenuates* a gradient; here more measurement
 *inflates* a detected rate -> [[Measurement Error in Dietary Assessment]].
 [inferred from @reith2024diabetes]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The mechanism — a small glycaemic shift crossing a threshold, not mainly weight gain
 
@@ -125,10 +112,6 @@ near the diagnostic cut-point over it:
   analysis; the source does not name the non-weight pathway). (corrected 2026-10-06: *NOT the
   mediator / direct effect* -> *at most a small share*; self-critique)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The stratum structure is route-(a): constant relative effect, absolute risk near the threshold
 
 The relative effect «did not vary much in different types of participants» — by age, sex, race, vascular
@@ -142,10 +125,6 @@ The statin plausibly *advances* a diagnosis that baseline risk had already made 
 diabetes de novo — but this is untested: the trials ran \~4-5 years and cannot show whether these cases would
 otherwise have been diagnosed later. (corrected 2026-10-06: *overwhelmingly* + advancement
 asserted as fact -> *majority (\~62%)* + hedged; self-critique)
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Worsening glycaemia in people who already have diabetes
 
@@ -165,8 +144,6 @@ glucose-control trials — «so the changes induced by a statin are likely to be
 material change in the risk of microvascular disease». [@reith2024diabetes]
 (corrected 2026-10-06: used the no-diabetes 0.06–0.08% and *an order of magnitude* -> the with-diabetes
 shift; self-critique)
-
-</div>
 
 ## The tolerability-vs-metabolic distinction — *statin harm* is not one thing
 
@@ -191,8 +168,6 @@ objects that a single reflex (*side effect -> stop*) wrongly merges. Framed as a
 `[[tension]]`.
 [inferred from @reith2024diabetes]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Not an independent (type-E) corroboration of CTT's benefit
 
 Reith 2024 restates that the cardiovascular benefit already nets out the glycaemic harm's *cardiovascular*
@@ -208,10 +183,6 @@ comparator is CTT's own prior efficacy work, not a second witness to it. The ben
 net-effect call rests on (per 1 mmol/L LDL-C reduction over 5 years, \~25–50 major vascular events prevented
 per 1000) is held on [[LDL Lowering and Cardiovascular Events]] / [[Statin Muscle Symptoms and the Nocebo Effect]],
 not established here.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Decision relevance
 
@@ -244,10 +215,6 @@ not established here.
   and warrants no monitoring burden — so the *metabolic limitation*, like
   the *tolerability limitation*, keeps the statin's rank high rather than lowering it.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits
 
 - **Trial-enrolled, older, higher-risk population** (mean age 63; 21% with diabetes at baseline); the
@@ -261,7 +228,5 @@ not established here.
 - **The open loop (R1).** No source here randomises a *statin-diabetes management strategy* against
   patient-important outcomes; the *don't monitor for it, don't stop over it* rule is inferred from the
   causal-attribution and net-benefit evidence, not tested as an intervention.
-
-</div>
 
 ## References

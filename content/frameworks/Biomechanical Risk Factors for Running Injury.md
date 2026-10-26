@@ -16,10 +16,8 @@ relationships:
     - Surrogate Outcomes
     - The Underivable Optimum
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-22
 ---
-<div class="recent-page" data-last-updated="2026-10-04"></div>
-
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important**: a running-related
 injury (RRI) is an overuse injury that stops or modifies training for weeks (route-(c) harm, and the
@@ -131,7 +129,8 @@ injury and both return null-to-trivial there — the overlapping quantity agrees
 contradict it; they are different variables, not a joined tension. The emergent claim is that
 **intrinsic/static-trait screening for running injury is low-yield across injury types** — the predictors
 that survive are either non-modifiable markers or clinically trivial, and the actionable, modifiable
-signal sits in training load, not in the runner's anatomy -> [[Training Load Progression and Running Injury]], and the prevention evidence that *does* work is interventional strength/neuromuscular training,
+signal sits in training load, not in the runner's anatomy ->
+[[Training Load Progression and Running Injury]], and the prevention evidence that *does* work is interventional strength/neuromuscular training,
 not screening -> [[Exercise Interventions and Sports Injury Prevention]]. [inferred from @peterson2022]
 
 **Confidence: low** — the direction is corroborated across two independent reviews, but Peterson's own

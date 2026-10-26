@@ -27,8 +27,6 @@ together they **decompose** the popular claim rather than settling it as a singl
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The bottom line, up front
 
 - **The weight-loss rationale for TRE is weak — and this is now RCT-evidenced, not inferred.** The
@@ -69,8 +67,6 @@ Eating bridges the two camps of the distribution-vs-total split -> [[Temporal Di
 *eating early* is a candidate circadian channel — a fragile, surrogate-only signal (n=8, not reproduced by
 Liu's 12-month RCT), the same weak-tier mechanism line as sleep-timing regularity.
 
-</div>
-
 ## The parameter table — why TREAT and eTRF are NOT the same quantity (op-weave 2a)
 
 | Parameter | TREAT (Lowe 2020) | eTRF (Sutton 2018) | Same quantity? |
@@ -92,8 +88,6 @@ hides at least two distinct exposures that behave differently.
 
 
 [@lowe2020] [@sutton2018]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The decomposition — three separable claims
 
 1. ***Restrict your eating window whenever, change nothing else* → little independent effect on weight.**
@@ -140,9 +134,6 @@ hides at least two distinct exposures that behave differently.
 
 
 [@liu2022]
-
-</div>
-
 ## Liu 2022 — the RCT that isolates the schedule from the deficit
 
 The load-bearing gap the page previously named (*a calorie-matched TRE-vs-continuous-restriction test —
@@ -212,8 +203,6 @@ certainty neither source claims.
 
 
 [@semnaniazad2025]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The pooled IF picture (Semnani-Azad 2025 NMA) — confirms Liu, disambiguates the regimens
 
 The IF network-MA the page awaited is now held: **99 RCTs, 6582 adults**, CINeMA/GRADE, EASD-commissioned
@@ -280,7 +269,6 @@ The two nulls agree and are the same conceptual quantity — but they are **not 
 the pooled trials). type-F: the NMA raises the *precision/generality* of Liu's reading, not a second
 witness to it.
 
-</div>
 
 ## Why this is not a filed tension (the not-joined check)
 
@@ -311,8 +299,6 @@ answer is held (meal count is not a weight lever independent of intake); the *me
 is a named gap (G), worth queuing only if a believer-facing deliverable needs the number.
 
 [inferred from @liu2022; @lowe2020]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Do not sell TRE as a weight-loss method on its own.** For someone whose goal is weight, the honest
@@ -350,9 +336,7 @@ is a named gap (G), worth queuing only if a believer-facing deliverable needs th
   IF is a small lever beside the drug class ([[Semaglutide for Cardiovascular Risk in Obesity]],
   [[GLP-1 Non-Cardiometabolic Effects and Safety]]).
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Certainty and gaps
 
@@ -380,7 +364,7 @@ is a named gap (G), worth queuing only if a believer-facing deliverable needs th
   fast, so the efficacious protocol may be the least feasible one — an 8h+ early window is the realistic
   target.
 
-</div>
+
 
 ## Self-critique `[run 2026-07-29, before commit]`
 

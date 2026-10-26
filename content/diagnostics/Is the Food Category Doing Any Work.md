@@ -191,8 +191,6 @@ claims from mechanism alone.
 
 
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Limits
 
 - **The within/between variance ratio is almost never measured for food categories**, so this is
@@ -208,10 +206,6 @@ claims from mechanism alone.
 - **The protein case is the same structure at the nutrient level** — single-plant versus complementary
   protein, whole food versus isolate, whey versus casein — now evidenced on its own page
   -> [[Protein Quality and the DIAAS Score]] (the DIAAS report, FAO 2013, is held).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The isolate-vs-food case, where the ISOLATE has the better evidence `[2026-07-27, SACN chunk 09]`
 
@@ -264,9 +258,6 @@ about blinding:
 
 So a greens powder may add specific micronutrients, but *replace vegetables* is not a supported claim.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## A fourth case: the boundary IS predictive and still adds nothing `[2026-07-28]`
 
@@ -497,8 +488,6 @@ convergence across the boundary means stop using it as a decision variable.
 **The bound:** this is WHO's reading of its own evidence review, and the review is not held here. **What
 is recorded is that a Tier-A body tested the split and merged it**, not an independent verification
 that the two behave alike.
-
-</div>
 
 ## SFA as a nutrient label that fails to predict its foods — Astrup et al. 2020 `[2026-07-29]`
 
@@ -825,8 +814,6 @@ finding read as a cheese finding, or a whole-milk finding as a yogurt finding. F
 verdict -> [[Dairy and Cardiometabolic Health]].
 
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Olive oil — a single-food CHD claim that decomposes into pattern + substitution `[2026-09-25, WS-022]`
 
 *Olive oil reduces heart disease* is a food-label claim the held evidence never isolates. Every leg that
@@ -846,7 +833,6 @@ inversely associated with both cancer mortality (per 5 g/d: HR, 0.96; 95% CI, 0.
 cancer mortality; the cardiovascular one is small and sits at the edge of its interval. So the food label collects credit that belongs to the pattern it marks and the
 comparator it replaces: an isolated-food claim with no isolable causal evidence.
 
-</div>
 
 ## The inverse case — an aggregate where NO sub-component is load-bearing `[2026-08-25, Mente]`
 

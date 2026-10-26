@@ -8,7 +8,7 @@ cluster: coffee
 nucleus: true
 confidence: medium
 created: 2026-08-04
-updated: 2026-10-07
+updated: 2026-10-21
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -40,8 +40,6 @@ not as an effect. The friction on how much of the protective arm is real is on
 [[The U-Shaped Association Artifact]]. Grosso 2016 has now performed the smoker referent-correction (the
 smoking-stratified dose-response detail below) [@grosso2016].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The dose-response shape — a plateau, not a harmful upper arm `type-C`
 
 Where Poole found non-linearity (all-cause mortality, CV mortality, CVD, heart failure), the shape is a
@@ -63,10 +61,6 @@ consequences:
   self-critique.)
   For T2D the dose-response is monotone («risk was still lower for each dose... between one and six
   cups»), not even a plateau.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Smoking confounds the mortality curve — Grosso's referent correction `type-F`
 
@@ -123,10 +117,6 @@ pooling \~5 studies instead of 24 would also lower it.
   but neither is the surviving linear benefit established as causal (\~6% relative per cup is small, and
   the source gives no baseline risk — **relative-only**). -> [[The U-Shaped Association Artifact]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What coffee moves, by evidence state
 
 | Outcome | Direction + magnitude (vs none unless noted) | State | Note |
@@ -154,10 +144,6 @@ chronic liver disease are the *only* outcomes whose effect size (<0.5) is large 
 upgrade of observational evidence -> [[Upgrading Observational Evidence]]. Antioxidant/anti-inflammatory
 mechanism (chlorogenic acids, caffeine) plus a direct antifibrotic action on hepatic stellate cells is
 the proposed pathway [inferred from @poole2017].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The two harm signals — stratum-specific, and they gate the recommendation
 
@@ -188,8 +174,6 @@ benefits; self-critique.)
   for important confounders such as body mass index (BMI), smoking, or intakes of calcium, vitamin D, and
   alcohol.» [@poole2017]
 
-</div>
-
 ## Brewing method IS load-bearing — the diterpene / lipid channel `type-C`
 
 The one within-"coffee" boundary that carries a real, mechanistic decision: **filtered vs unfiltered**.
@@ -209,7 +193,7 @@ established ASCVD risk has a cheap lever — switch to filtered** — while for 
 effect is marginal. -> [[Is the Food Category Doing Any Work]] (brewing method as the load-bearing
 sub-boundary).
 
-## Additives are a second uncontrolled axis — added sugar most of all `[INFERRED, 2026-08-07 maintainer challenge]`
+## Additives are a second uncontrolled axis — added sugar most of all
 
 The cohort "coffee" exposure pools drinks taken black, with milk, and **with sugar** — additives are as
 uncontrolled as brew method is for the T2D estimate (below). Milk's effect is minor (the calcium-offset
@@ -220,8 +204,6 @@ the beverage*, not to a sugar-loaded coffee drink. Same within-category boundary
 milk and added sugar all vary it. The wiki holds no cohort separating sweetened from unsweetened coffee on
 hard outcomes — a named acquire-gap, not a held finding.
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Caffeine is (mostly) NOT the active agent `type-C`
 
@@ -250,10 +232,6 @@ risk of hypertension compared with those with alleles for fast caffeine metaboli
 [@poole2017] (a candidate effect-modifier, not yet
 an actionable stratifier).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The Mendelian-randomization check — primary evidence `type-F`
 
 The disconfirming genetic signal was previously held only secondhand (Poole citing "two MR studies").
@@ -268,7 +246,7 @@ mortality.» — «The latter are novel findings.»
 - **Instrument.** A caffeine-intake allele score (near AHR and CYP1A1/CYP1A2); per-allele \~8% higher
   intake, 0 vs 4 alleles = 2.2 vs 3.1 cups/day (42% higher). First-stage strength is high — «the
   statistical F-value for allele score was very high at 827». Per-allele genetic HRs/ORs cluster at
-  \~1.00 with CIs spanning 1.0. [@nordestgaard2016]
+  \~1.00; most confidence intervals span or just touch 1.0, and a few single-variant estimates exclude it (e.g. one variant's IHD odds ratio, 1.09, 1.05-1.12; that variant's pooled estimate is 1.03, 0.99-1.06). [@nordestgaard2016]
 - **Positive control (the instrument is not dead).** The same design recovers a known causal chain:
   «low cholesterol level caused by ApoE genotype associated causally with the ex- pected low risk of
   IHD.» [@nordestgaard2016]
@@ -301,7 +279,7 @@ OBSERVED size* -> *not powered to exclude it*, Nordestgaard chunk 01)
 
 | Parameter | Nordestgaard 2016 (primary MR) | Incumbent claim / Poole 2017 (obs + secondary MR) | Same quantity? |
 |---|---|---|---|
-| Genetic (causal) coffee->all-cause mortality | per-allele HR \~1.00, CIs span 1.0; F=827; «genetically coffee intake was not associated with ... all-cause mortality» | Poole secondhand: «no genetic evidence for a causal ... relation» (no numbers) | YES -- same causal-null quantity; Poole reports THIS study secondhand -> type-F firming, **not** independent-E |
+| Genetic (causal) coffee->all-cause mortality | per-allele HR \~1.00, CIs mostly span or touch 1.0; F=827; «genetically coffee intake was not associated with ... all-cause mortality» | Poole secondhand: «no genetic evidence for a causal ... relation» (no numbers) | YES -- same causal-null quantity; Poole reports THIS study secondhand -> type-F firming, **not** independent-E |
 | Observational coffee->all-cause mortality | HR 0.86 for \~350% higher intake (0 vs 4-5 cups) | Poole/Grosso: nadir RR 0.83 (0.79-0.88; Poole misprints the lower bound as 0.83) at 3 cups vs none | ROUGHLY -- same association type, different cohorts + contrast (whole-range HR vs per-category nadir); directional agreement only, not a matched estimate |
 | Genetic vs observational (WITHIN Nordestgaard) | causal OR/allele 0.97 (8% intake) excludable vs observed 0.86 (350% intake) | -- | NO -- different exposure scale AND causal-vs-associational; this divergence IS the finding, not a tension to file |
 
@@ -313,9 +291,6 @@ corroboration (type-E)** — so it firms the caveat's warrant without lifting `c
 **medium**: the null converges with the existing "plausibly confounded" reading rather than adding a
 new route, and its own power/linearity caveats keep it short of a confident "no effect").
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## How much to believe it — the appraisal floor
 
@@ -344,24 +319,20 @@ new route, and its own power/linearity caveats keep it short of a confident "no 
   is coarse. Non-differential misclassification biases toward the null -> the true gradients could be
   steeper, not shallower -> [[Measurement Error in Dietary Assessment]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision summary (layer-1 framing)
 
 - **For most non-pregnant adults, coffee is not a big rock** — it is a low-cost, likely-net-favourable
-  or neutral habit, not a lever with a large certain effect. «More likely to benefit than harm» + a flat
-  dose-response means *there is no strong reason to start, increase, or quit for health* within \~3-4
+  or neutral habit, not a lever with a large certain effect. Poole's conclusion, «more likely to benefit
+  health than harm» [@poole2017], plus a pooled curve that
+  flattens near 3-4 cups, means *there is no strong reason to start, increase, or quit for health* within \~3-4
   cups/day. Reporting that the lever is small and uncertain is itself the decision-change.
+  [inferred from @poole2017; @nordestgaard2016; @grosso2016]
 - **The genuinely actionable, stratum-specific calls:** (1) pregnancy / trying to conceive — limit
   (precautionary contraindication); (2) women at high fracture risk with low calcium — a small caution;
   Poole cites evidence that a little milk offsets caffeine's effect on calcium absorption, which has not
   been tested against fracture; (3) high LDL / ASCVD risk drinking large volumes of unfiltered coffee — switch to filtered.
 - **The one large-magnitude, mechanistically-supported benefit worth an RCT is liver disease** — but it
   is not yet a recommendation, only the best causal candidate.
-
-</div>
 
 ## Gaps (G) + attachment points for the cluster
 
@@ -378,8 +349,6 @@ new route, and its own power/linearity caveats keep it short of a confident "no 
   referent split (the U-shape correction, section above) [@grosso2016];
   Ding 2014 has landed — it refines the monotone T2D gradient and the decaf/caffeine split (section
   below) [@ding2014]. Both attach to this nucleus.
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The T2D dose-response, refined — Ding 2014 IS the MA under Poole's T2D headline `type-F`
 
@@ -437,7 +406,5 @@ trigonelline) is in-vitro/animal only [inferred from @ding2014].
 **Brew method is uncontrolled here** — Ding did not assess filtered vs unfiltered («most coffee is
 likely to be ﬁltered»), so the T2D estimate pools brew methods, unlike the lipid outcome where the
 filtered/unfiltered split is load-bearing.
-
-</div>
 
 ## References

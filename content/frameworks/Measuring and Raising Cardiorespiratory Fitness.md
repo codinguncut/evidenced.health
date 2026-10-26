@@ -2,8 +2,8 @@
 type: framework
 question: How do I measure my cardiorespiratory fitness, how much exercise raises it, and does raising it actually lower risk?
 aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, VO2max Measurement, CRF Vital Sign, Exercise Dose to Increase Fitness, 2-km Walk Test, UKK Walk Test]
-authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.; Khan, Sadiya S; Matsushita, Kunihiro; Sang, Yingying; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Kokkinos, Peter F.; Zhang, Jiajia; Mandsager, Kyle; Jaber, Wael; Oja, Pekka; Laukkanen, Raija; Pasanen, Matti; Tyry, Tuula; Vuori, Ilkka; Marín-Jiménez, Nuria; Sánchez-Parente, Sandra; Expósito-Carrillo, Pablo; Jiménez-Iglesias, José; Álvarez-Gallardo, Inmaculada C.; Cuenca-García, Magdalena; Castro-Piñero, José]
-sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Kokkinos - FRIEND Cycle Ergometry Equation 2018, Oja - 2-km Walking Test Fitness 1991, Marin-Jimenez - 2-km Walk Test Validity Reliability 2023, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT, SCORE2-Diabetes 2023, Khan - PREVENT Equations 2024]
+authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.; Khan, Sadiya S; Matsushita, Kunihiro; Sang, Yingying; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Kokkinos, Peter F.; Zhang, Jiajia; Mandsager, Kyle; Jaber, Wael; Oja, Pekka; Laukkanen, Raija; Pasanen, Matti; Tyry, Tuula; Vuori, Ilkka; Marín-Jiménez, Nuria; Sánchez-Parente, Sandra; Expósito-Carrillo, Pablo; Jiménez-Iglesias, José; Álvarez-Gallardo, Inmaculada C.; Cuenca-García, Magdalena; Castro-Piñero, José; Franklin, Barry A.]
+sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Kokkinos - FRIEND Cycle Ergometry Equation 2018, Oja - 2-km Walking Test Fitness 1991, Marin-Jimenez - 2-km Walk Test Validity Reliability 2023, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT, SCORE2-Diabetes 2023, Khan - PREVENT Equations 2024, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020]
 cluster: fitness
 confidence: medium
 relationships:
@@ -14,13 +14,13 @@ relationships:
     - Exercise Modality for Body Composition in Obesity
     - Menopause and the Shifting Levers
     - Blood Pressure Lowering and Cardiovascular Events
+    - Exercise-Related Acute Cardiac Events
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-10-07
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-21
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
@@ -45,10 +45,6 @@ a route, not a grade change. [inferred from @oja1991walk]
 Marín-Jiménez 2023 (n=410, Spain) adds out-of-sample agreement and test-retest data for Oja's equation;
 it tests that equation rather than backing it independently, so it bounds the walk route's per-person
 error without changing the grade. [inferred from @marinjimenez2023walk]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -323,10 +319,6 @@ average offset of a walk estimate is not settled (low in Oja's groups, near zero
 and per person the 95% band is about ±3.6 METs, so a single walk can place someone in the wrong band.
 [inferred from @oja1991walk; @marinjimenez2023walk]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Raise it — the exercise dose → CRF response
 
 Meeting consensus physical-activity recommendations buys «≈10% improvement in CRF in previously
@@ -355,10 +347,6 @@ in one trial near-maximal intervals gave «20.6%» vs «9.4%» for moderate cont
 
 
 [@ross2016]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-05">
 
 ## Holding the effort target as you get fitter
 
@@ -395,12 +383,15 @@ vigorous the intensity needed to produce a clinically significant increase in CR
   band. The point where a person needs to raise the *relative* effort (from ≈50% HRR toward 65-85%) is
   when they leave the <10 MET band and still want further CRF gains.
   [inferred from @ross2016]
-- **On the mortality evidence that step-up is optional, not required.** Ross: «Most of the lower
+- **On the mortality evidence that step-up may be optional.** Ross: «Most of the lower
   mortality risk associated with a higher CRF occurs by the time a CRF of 10 to 12 METs is achieved. CRF
   values >12 METs are associated with a relatively lower impact on risk of all-cause and CVD mortality.»
-  [@ross2016] So staying at ≈50% HRR
-  once past \~10 METs is defensible on mortality grounds rather than a failure; pushing to higher bands
-  buys diminishing mortality return. Whether ≈50% HRR *holds* CRF at that level, and what the step-up
+  [@ross2016] Read with Ross's statement, staying at ≈50% HRR
+  once past \~10 METs is arguable on mortality grounds rather than a failure, with a smaller mortality
+  return from higher bands, though Mandsager saw a further elite-vs-high step in patients 70+
+  (HR 0.71, 0.52-0.98) [@mandsager2018]; its bands are age/sex-relative and elite starts at
+  8.4-11.5 METs at 70+ [@mandsager2018], so that step is not cleanly above 10 METs. The basis is a statement-level sentence with no citation of its own; the
+  only citation in the three sentences ending at ref 290 (on the closing sentence) is Arem 2015, titled as a pooled dose-response analysis of leisure time physical activity and mortality [@ross2016]; by its title an activity study rather than a fitness study (corrected 2026-10-22). Whether ≈50% HRR *holds* CRF at that level, and what the step-up
   does for daily function, no held source reports (see also [[Physical Activity Dose and Mortality]]).
   [inferred from @ross2016]
 
@@ -430,9 +421,6 @@ is not a null result. No direction is asserted.
   [@ross2016] — but as a single
   arm, not a contrast.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## HIIT vs continuous training — the gold umbrella (Poon 2024)
 
@@ -460,6 +448,41 @@ HIIT→CRF *intervention* reviews — a different question from the held CRF→m
 Mandsager), so it is a type-F upgrade of the raise-it leg, **not** independent backing for the causal leg
 below. [@poon2024]
 
+**One coronary-rehab study, read two ways: absolute vs relative risk `[2026-10-21, Franklin]`.** Poon's
+safety sentence sits beside its own caveat and extends to high-risk groups: «while large-­scale studies with
+safety outcomes are currently lacking, some clinical studies have suggested that HIIT appears to be safe,
+well-­tolerated, and attainable, even when applied to relatively high-­risk pop- ulations with low initial
+fitness.» Its citations for that (refs 53-57) include Rognmo 2012, the coronary-rehab event-rate study, and
+its small-trial example of four adverse events across 14 RCTs and 429 middle-aged and older adults
+includes a myocardial infarction. [@poon2024]
+[@poon2024]
+An AHA scientific statement (consensus) cites the same study (n=4846 coronary patients in cardiac rehab):
+«The absolute risk was low for HIIT (1 event per 23 182 patient-hours) and MICT (1 event per 129 456
+patient-hours) but 5.6 times higher in the HIIT group.» It gives no event counts or confidence interval
+for the ratio, and it also says «Data on the safety of HIIT in clinical populations are scarce.»
+[@franklin2020acute]
+
+| Parameter | Poon 2024 (umbrella) | Franklin 2020 (AHA statement) | Same quantity? |
+|---|---|---|---|
+| Population | includes «relatively high-risk» groups | coronary patients | **overlapping** |
+| Key study | Rognmo 2012 among refs 53-57 | Rognmo 2012 (ref 267) | **yes — shared** |
+| Data scale | «currently lacking» | «scarce» | **agree: both thin** |
+| Reading | HIIT not appreciably riskier than MICT | absolute risk low, relative rate 5.6x; more data needed before wide use in CAD | — |
+
+ Poon cites the study but reports neither of its rates; both sources call the safety data thin,
+and they differ in how they weigh the one shared study, so this is a **distinction, not a tension**
+(not-joined check i). Franklin's
+reading is a type-F refinement of Poon's paragraph: its safety claim for high-risk groups cites a study
+whose relative rate was 5.6x, and its next sentence («do not appear to be significantly greater») carries
+that forward, and the decision depends on whether one weighs the absolute or the
+relative figure. Small RCTs cannot estimate rare-event rates either way. Practical reading: HIIT stays a
+reasonable option for the general and overweight adult once active. For known or suspected coronary
+disease, the statement holds that more safety data are needed before HIIT is widely adopted, especially
+unsupervised; its default for cardiac patients is regular activity «ideal- ly via traditional medically
+supervised center- or home- based cardiac rehabilitation programs», and chest pain, lightheadedness or
+palpitations mean stop and get evaluated -> [[Exercise-Related Acute Cardiac Events]].
+[@franklin2020acute]
+
 For the same head-to-head *inside the type-2-diabetes stratum*, see
 [[HIIT vs Continuous Training for Type 2 Diabetes]]: a gold MA (Liu 2019, 13 RCTs) finds HIIT beats MICT
 on VO2peak at moderate certainty (+3.37 ml/kg/min) — concurring with Poon's direction, though on likely-
@@ -479,8 +502,6 @@ intensity than ... duration or frequency»* principle is the wiki's link — Wan
 against duration, and the PPO >2-min condition cuts against *ultra-short bouts move CRF*.
 (corrected 2026-10-06: headline *distributed 1-2 min snacks still raise CRF* / *largest in the
 inactive* -> very-low-certainty, PPO-only subgroup limits; type-F link retagged INFERRED; self-critique)
-
-</div>
 
 ## In the obesity stratum, the modality gains don't separate — and a measurement trap
 
@@ -504,8 +525,6 @@ fitness expressed in relative terms, often without the desired underlying metabo
 in a weight-loss study can be arithmetic (smaller denominator), not a true cardiorespiratory gain — a
 specify-the-measurement-method point for any CRF target in this stratum.
 
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## In post-menopausal women, every mode raises CRF — and the modality choice is low-stakes
 
@@ -576,11 +595,6 @@ strength findings land on [[Menopause and the Shifting Levers]] (resistance is t
 
 
 [@ross2016]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Does raising it help? — the modifiability evidence
 
 This is the partial answer to the nucleus's predictor-not-lever caveat. **Within-person CRF change** (a
@@ -610,11 +624,6 @@ adherence to that lever.
 
 
 [@ross2016]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## CRF sharpens a risk estimate — but only if it reclassifies
 
 Adding CRF to a traditional risk model (age, BMI, SBP, diabetes, cholesterol, smoking) improves
@@ -648,9 +657,6 @@ omission now verified against their own sources)
 
 
 [@ross2016]
-
-</div>
-
 ## The guidance move, and how to read it
 
 The statement's thesis is that CRF should be «an accepted "vital sign"» — the "only major risk factor
@@ -662,8 +668,6 @@ symmetric standards apply to a body making the case for its own risk factor.
 
 
 [@ross2016]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **You can know your CRF for free.** An eCRF equation from routine clinical numbers gives a first
@@ -696,8 +700,9 @@ symmetric standards apply to a body making the case for its own risk factor.
   the activity is what has the causal warrant; CRF is how you measure whether it is working.
 - **A low CRF legitimately up-classifies risk** within a stratum (a route-(a)/modifier use), and does so
   on evidence that meets the reclassification bar — but it was excluded from the 2013 ACC/AHA calculator
-  (whether later models include it is unverified, see above), so it informs judgement rather than a
-  computed score.
+  and SCORE2 / SCORE2-Diabetes and PREVENT also omit it (verified against their own papers above), so it
+  informs judgement rather than a computed score. (corrected 2026-10-22: was *whether later models
+  include it is unverified*.)
 - **HIIT vs walking for the drifting-median adult — the VO2max edge is real but small at the outcome
   level (Challenge #11).** Intervals raise VO2max more than continuous work (20.6% vs 9.4% above), so
   HIIT *wins the surrogate*. But (a) CRF is a predictor, and the *mortality* dose-response front-loads
@@ -728,11 +733,6 @@ symmetric standards apply to a body making the case for its own risk factor.
 
 
 [inferred from @ross2016]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Limits
 
 - **Expert-consensus scientific statement, not a systematic review or GRADE appraisal** — «not intended
@@ -746,7 +746,5 @@ symmetric standards apply to a body making the case for its own risk factor.
 
 
 [inferred from @ross2016]
-
-</div>
 
 ## References

@@ -91,8 +91,6 @@ naltrexone-bupropion and orforglipron are **unfavourable** (modest-to-high weigh
 heavy dropout, GI and fatigue).
 [inferred from @nong2026obesity]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The decision-turning finding — the weight-loss ranking is NOT the hard-outcome ranking
 
 This is the page's reason to exist, and it is an instance of the [[Surrogate Outcomes]] rule made
@@ -142,8 +140,6 @@ benefit is largest exactly where CV risk is highest, and does not transport to a
 weight loss -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @nong2026obesity]
 
-</div>
-
 ## Quality of life — the surrogate moved, the patient-important outcome did not
 
 Despite weight loss up to \~15%, **no drug improved quality of life beyond its minimally important
@@ -179,8 +175,6 @@ patient would notice -> [[Surrogate Outcomes]]. Two honest caveats bound how har
 
 [inferred from @nong2026obesity; @malhotra2024surmount]
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Lean mass — the best on weight are the worst on muscle
 
 The drugs that shed the most fat also shed the most lean mass: tirzepatide -8.3% (-12.9 to -3.7,
@@ -209,10 +203,6 @@ available evidence.» [@nong2026obesity]
 The protein limb of the defense rests on [[GLP-1 and Lean Mass]], not on Nong.
 [inferred from @nong2026obesity]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## No credible effect modification — the ranking is route-(a), not route-(b)
 
 Across the prespecified modifiers — baseline obesity severity, type-2-diabetes status, body-composition
@@ -240,8 +230,6 @@ of individual-participant data «precluded more credible exploration of treatmen
 subgroups, including age, sex, and comorbidity burden»
 [@nong2026obesity] — so this is
 *no credible modification found*, not *modification excluded*.
-
-</div>
 
 ## The durability wall — the benefit is rented
 
@@ -272,8 +260,6 @@ sponsor-designed single trials it pools (SELECT, STEP, SURMOUNT), even though th
 mortality/MI data still trace to those industry trials. Recorded as a weighting fact, not an
 editorial verdict.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **Match the drug to the outcome the person weights, not to the leaderboard.** Maximal weight loss ->
@@ -303,8 +289,6 @@ editorial verdict.
   patient the antidepressant choice can work with or against the weight goal — a co-lever outside this
   NMA's comparison. The weight figures are observational with no pooled estimate, so the co-lever is real
   but low-certainty -> [[Antidepressants for Depression]].
-
-</div>
 
 ## Limits
 

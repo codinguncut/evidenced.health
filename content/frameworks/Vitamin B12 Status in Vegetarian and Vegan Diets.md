@@ -30,8 +30,6 @@ is a descriptive prevalence review [@pawlak2013];
 its findings are prevalence and measurement facts, **not** an effect estimate on a patient-important
 outcome.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The actionable core — a genuinely non-optional supplement for this stratum
 
 B12 is synthesized only by microorganisms, so it is absent from plant foods except via soil
@@ -59,8 +57,6 @@ maintenance and \~200x in established deficiency, and `>=250 ug` for best result
 prescriber act** (needs this person's labs) and is out of the wiki's scope; the number is here only to
 size the lever, not to prescribe. The figures are cited secondhand (the source's refs 3 and 32), with no
 RCT pooled here, so a same-outcome dose-response for repletion is a named gap (see *Gaps* below) [inferred from @pawlak2013].
-
-</div>
 
 ## Prevalence — high, but cutoff-driven and one-armed
 

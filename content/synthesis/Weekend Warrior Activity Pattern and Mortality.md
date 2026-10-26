@@ -14,7 +14,7 @@ relationships:
   extends:
     - Physical Activity Dose and Mortality
 created: 2026-08-23
-updated: 2026-10-06
+updated: 2026-10-22
 self_critiqued: 2026-10-06
 ---
 
@@ -22,8 +22,6 @@ self_critiqued: 2026-10-06
 weekly volume?* (bout distribution), an orbiter of the total-dose nucleus
 [[Physical Activity Dose and Mortality]]. The reader it serves is time-pressed: *can I bank the mortality
 benefit in one or two sessions, or must activity be spread across the week?*
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The decision-change
 
@@ -70,8 +68,6 @@ reaches the same equivalence — the reason confidence is
 raised from low to **medium** (below).
 [inferred from @kunutsor2022; @odonovan2024; @khurshid2023]
 
-</div>
-
 ## The two patterns are equivalent — but do NOT equate the two studies' magnitudes
 
 The decision-relevant contrast is **weekend-warrior (WW) vs regularly-active (RA)** — *is concentration
@@ -98,8 +94,10 @@ all-cause mortality (P-values for meta-regression: 0.75 and 0.51, respectively)�
 [@kunutsor2022].
 O'Donovan: «the HR (95% CI) was 0.88 (0.83 to 0.93) in the weekend warriors and 0.88 (0.84 to 0.91) in
 the regularly active» [@odonovan2024].
-
-<div class="recent-update" data-last-updated="2026-10-06">
+That quote is the Abstract's. O'Donovan's own Table 2 and Results text print the fully adjusted CIs as
+WW 0.88 (0.84 to 0.93) and RA 0.88 (0.85 to 0.91), the figures used in the parameter table above; the
+Abstract's CIs differ by 0.01 at the lower bound, a source-internal discrepancy with no bearing on the
+equivalence reading. [@odonovan2024]
 
 ## The objective-measurement leg — Khurshid 2023 (UK Biobank accelerometer), and why it IS independent
 
@@ -142,10 +140,6 @@ shared magnitude — Khurshid measures CVD morbidity, so it does not triangulate
 (where Kunutsor and O'Donovan themselves diverge on CVD mortality, below); (ii) all three remain
 observational, so the E raises confidence about *measurement-method robustness*, not about causality.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The session-duration floor — O'Donovan's novel refinement (type-F)
 
 **Both patterns: no association was detected with sessions under 30 min.** Stratifying by min/session,
@@ -160,7 +154,9 @@ regularly-active <30-min HR is also borderline, and O'Donovan states the duratio
 | 30-60 min | 0.84 (0.78-0.91) | 0.88 (0.84-0.93) |
 | >60 min | 0.82 (0.75-0.89) | 0.80 (0.75-0.86) |
 
-[@odonovan2024] «substantial reductions
+[@odonovan2024] (Figures are
+Table 3's; for >60 min the Results text instead prints WW 0.80 (0.75 to 0.89) and RA 0.81 (0.75 to
+0.86), another source-internal discrepancy.) «substantial reductions
 in all-­cause mortality risk only occurred when the duration of exercise sessions was at least 30-60
 min.» [@odonovan2024] — and in its Key
 messages: «⇒For both the weekend warrior pattern and the regularly active pattern, substantial reductions
@@ -176,10 +172,6 @@ sessions of \~30+ minutes (for either pattern), as a hedge. It is still a refine
 pattern-level equivalence, which could not see session duration (no subgroup data).
 (corrected 2026-10-06: *lower bound — two weekly sessions of at least \~30 min* -> associational
 category contrast, no identified threshold; ODonovan chunk 02 Table 3) [inferred from @odonovan2024]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Independence: the Kunutsor/O'Donovan pair is type-F (refinement), NOT type-E
 
@@ -208,10 +200,6 @@ extensions Kunutsor lacked (the duration floor; repeated-measures "becoming a WW
 either source alone without being independent backing.
 [inferred from @kunutsor2022; @odonovan2024]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Transportability — the absolute benefit may shrink where background activity is high
 
 O'Donovan's exercise-vs-non-exercise contrast is **smaller** (\~15% lower all-cause mortality) than the
@@ -222,10 +210,6 @@ when the *referent* group already walks a lot for transport — the marginal ben
 exercise would be compressed (corrected 2026-10-06: quote dropped «may be»; self-critique) —
 the same non-exercise/occupational-PA theme as [[The Physical Activity Paradox]]. So the pattern
 equivalence transports, but the *magnitude* of any-activity-vs-none may not.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Caveats and what is NOT resolved
 
@@ -259,7 +243,5 @@ equivalence transports, but the *magnitude* of any-activity-vs-none may not.
   ~~~~ **CASHED 2026-09-15 by Khurshid 2023.**
   Still unheld: a step-pattern version (Inoue 2023, 8000 steps on 1-2 days \~= daily), cited by
   O'Donovan.
-
-</div>
 
 ## References

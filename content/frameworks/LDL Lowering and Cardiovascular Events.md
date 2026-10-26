@@ -35,8 +35,6 @@ LDL-C in \~430,000 people). This page holds the magnitude and the metric; the ca
 [[LDL ApoB and Cumulative Exposure]]. Structural sibling to
 [[Blood Pressure Lowering and Cardiovascular Events]] on the other big cardiometabolic lever.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The magnitude — CTT per 1.0 mmol/L LDL-C reduction
 
 CTT scales every trial by the LDL-C reduction achieved at 1 year and reports the effect **per 1.0 mmol/L**
@@ -103,8 +101,6 @@ overall column 95% CIs, >75 column 99% CIs:
   the data are dense (to 75, and secondary prevention past 75), except a modest graded attenuation on
   major coronary events across all ages (cause unclear), and is **unconfirmed, not refuted**, for
   the oldest people without vascular disease. [inferred from @ctt2019; @ctt2010]
-
-</div>
 
 ## The shape — monotone, no threshold, multiplicative
 

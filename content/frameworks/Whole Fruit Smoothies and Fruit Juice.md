@@ -18,8 +18,6 @@ created: 2026-10-06
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 Orbiter of the `sugars-sweeteners` cluster; the limit on free sugars itself lives on the nucleus
 [[Free Sugars Intake]]. This page holds the separate decision of **which form of fruit**: whole,

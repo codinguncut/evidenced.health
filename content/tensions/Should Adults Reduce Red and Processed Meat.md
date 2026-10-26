@@ -134,8 +134,6 @@ the plant replacement is defused by preparation, [[Antinutrients in Plant Foods]
 
 
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The CVD and all-cause-mortality arm of the same decision (Zhong 2020) `[2026-09-08]`
 
 The clash above is framed on **cancer**, but *should adults reduce red/processed meat?* is one decision
@@ -186,8 +184,6 @@ evidence rather than evidence of no effect (appraisal and parameter table on
 NutriRECS already concedes a possible «very small causal effect»
 [@nutrirecs2019], a null this imprecise is compatible
 with that concession, and it tests no cancer outcome, so it does not bear on WCRF's cancer-based reading. The decomposition above is unchanged.
-
-</div>
 
 ## The one thing that would move this — and a caveat on NutriRECS
 

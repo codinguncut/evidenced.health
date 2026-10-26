@@ -193,8 +193,6 @@ when the diets examined were of higher quality»
 that the **pattern/food-quality axis carries the mortality signal and the macronutrient-percentage axis
 does not** — a direct corroboration of the pattern-over-macros theme.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Appraisal — a Strong grade on a near-entirely observational body
 
 The load-bearing appraisal fact: 152 of the 153 included articles were **prospective cohort studies**;
@@ -239,8 +237,6 @@ upgrade factors. The reasons the grade is defensible, and the limitations that c
 - **Stratum limit — younger adults.** Insufficient evidence below \~age 35; the grade is for adults and
   older adults [@boushey2020].
 
-</div>
-
 ## Independence check (VERIFY-E) — this is F, not E
 
 The staging note hypothesized Boushey as a candidate type-E independent backing for pattern -> mortality.
@@ -276,8 +272,6 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
   confounded ([[Baseline Risk and the Relative-Absolute Split]]).
 - **Macronutrient percentages are the wrong axis to optimize** for mortality on this evidence — food
   quality, not carbohydrate/fat share, is where the signal sits.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Gaps
 
@@ -319,7 +313,5 @@ score), which is what licenses reading its label-agnostic conclusion as a claim-
   all-cause mortality *events*, never the shape of the health curve a pattern buys — whether a protective
   pattern compresses morbidity or merely lengthens a declining tail is unmeasured across every pattern,
   so the outcome many people weight most heavily is the one this evidence is silent on.
-
-</div>
 
 ## References

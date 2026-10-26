@@ -3,330 +3,298 @@ type: deliverable
 title: Minimal Exercise for Quality of Life
 question: 'For a median obese, sedentary, untrained, inactive middle-aged adult in a developed country whose objectives are quality of life, functional capacity, and a function-held-then-rapid-decline trajectory (the centenary decathlon): what does the evidence show about aerobic AND resistance training, as co-led questions, for cardiorespiratory fitness, strength, and function together; what is the SIMPLEST weekly program that could plausibly be adequate — the minimum that could work — if a dose threshold is even the right framing, across acquisition and maintenance, accounting for modality, frequency / volume / intensity and measurement, adherence, connective-tissue conditioning, injury, impact, and compensation?'
 aliases: []
-sources: [Alentorn-Geli - Running Hip Knee Osteoarthritis,
+sources: [ACSM - Resistance Training Position Stand 2026,
+  Alentorn-Geli - Running Hip Knee Osteoarthritis,
   Bohm - Tendon Adaptation Loading,
-  Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019,
   Buendia-Romero - Residual Training Cessation,
-  Careau - Energy Compensation Adiposity 2021,
   Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019,
   Currier - Resistance Training Prescription NMA 2023,
   Damsted - Training Load Running Injury,
-  Deng - Aquatic Land Balance Older,
   Duong - Risk Factors Knee Osteoarthritis Lifespan 2025,
-  Ekelund - Accelerometer Physical Activity Mortality 2019,
-  Franz - Weight-Loss Outcomes 1-Year SR-MA 2007,
-  Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017,
-  Goh - Exercise Therapy Knee Osteoarthritis,
-  Goh - Exercise Types NMA Knee Hip OA,
+  ESC - CVD Prevention Guidelines 2021,
+  Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020,
+  Garber - ACSM Quantity and Quality of Exercise Position Stand 2011,
   Gomez-Redondo - Supervised Unsupervised Exercise,
   Haugen - Free Weight vs Machine Strength Training 2023,
-  Khalafi - Exercise Type CRF Postmenopausal,
-  Kokkinos - FRIEND Cycle Ergometry Equation 2018,
-  Kunutsor - Weekend Warrior Physical Activity Mortality Meta-Analysis 2022,
+  Herbert - Stretching Muscle Soreness Cochrane 2011,
+  Kodama - Cardiorespiratory Fitness and Mortality 2009,
   Kunutsor - Adverse Events Exercise Osteoporosis Osteopenia Systematic Review 2018,
-  Lauersen - Exercise Interventions Prevent Sports Injuries Meta-Analysis 2013,
-  Luan - Stationary Cycling Knee OA,
+  Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018,
   Marin-Jimenez - 2-km Walk Test Validity Reliability 2023,
+  Momma - Muscle-Strengthening Activities and Mortality 2022,
   Niven - Affective Responses HIIT,
+  Nuzzo - Repetitions at Percentages of 1RM 2023,
   ODonoghue - Exercise Prescription Body Composition,
+  ODonovan - Weekend Warrior Accelerometer Mortality 2024,
   Oja - 2-km Walking Test Fitness 1991,
   Paluch - Daily Steps Mortality 2022,
   Poon - HIIT Cardiorespiratory Fitness Umbrella 2024,
-  Racey - Physical Activity Interventions Frailty Meta-Analysis 2021,
+  Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018,
+  Riebe - ACSM Preparticipation Health Screening 2015,
+  Riou - Energy Compensation Exercise 2015,
   Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016,
-  Sardeli - Resistance Training Caloric Restriction,
+  Saeidifard - Resistance Training Mortality Meta-Analysis 2019,
   Sherrington - Exercise Preventing Falls 2019,
-  Shailendra - Resistance Training Mortality Meta-Analysis 2022,
+  Silva - Implementation Intentions Physical Activity Meta-Analysis 2018,
+  Smith - Painful Exercise Chronic Musculoskeletal Pain Meta-Analysis 2017,
   Wan - Exercise Snacks Cardiometabolic,
-  WHO - Physical Activity Web Annex Evidence Profiles 2020]
+  Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026]
 confidence: low
 created: 2026-10-05
-updated: 2026-10-06
-self_critiqued: 2026-10-06
-concrete_subject_audited: 2026-10-05
+updated: 2026-10-22
+concrete_subject_audited: 2026-10-22
+self_critiqued: 2026-10-22
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 > [!warning] Applies to a specific group
-> This card is written for **a sedentary, untrained middle-aged adult with obesity, in a developed
-> country, whose goals are quality of life, physical function, and keeping function into old age**. If you
-> are not in it, the recommendations here may not transfer — the population-level picture can differ.
+> This appraisal is written for **a sedentary, untrained, middle-aged adult with obesity who has no
+> known heart, blood-vessel or kidney disease, no diabetes and no symptoms**. If that is not you -- you
+> have one of those conditions, you get symptoms such as chest pain or unusual breathlessness on
+> exertion, or you already exercise regularly -- the screening and build-up advice here changes, and the
+> population-level picture can differ -> [[Exercise-Related Acute Cardiac Events]].
 
-**Lift twice a week, do about 150 minutes a week of moderate, low-impact aerobic exercise, and walk more
-on top of that.** Start at about half that for the first eight weeks, then keep the full program going
-for good. Each piece is at or near the lowest dose that trials found reliably works for its own outcome.
-Training probably improves physical function and quality of life too. The bet is cheap and reversible,
-and it targets inactivity, one of the largest risks a sedentary adult can change.
+## Two strength sessions and three aerobic sessions a week is a reasonable start
 
-One caveat matters most: **no trial has tested this exact package for quality of life, or for keeping
-function into old age, in middle-aged adults with obesity.** Fitness and strength are what you can measure
-along the way; what you can do in daily life is the goal. -> [[Resistance Training Prescription - Load Sets and Frequency]],
-[[Measuring and Raising Cardiorespiratory Fitness]], [[Physical Activity Dose and Mortality]],
-[[Acting on a Direction Without a Magnitude]]
+**A reasonable starting program is two short strength (resistance) training sessions and three moderate
+aerobic sessions a week**, such as brisk walking or stationary cycling. Over two to three months, build
+toward about 150 minutes of aerobic work a week, the amount published guidance recommends.
+**The two halves do different jobs**: aerobic work raises fitness (CRF), and strength training raises
+strength. More walking is not shown to stand in for the strength sessions. The first month mostly
+builds the habit and the body's tolerance; fitness gains come over the following months and are modest.
 
-## Start with strength twice a week, moderate aerobic work, and more steps
+**This caveat applies to everything below: no trial the wiki holds has tested this program, or any minimal
+program, for quality of life or physical function in people like you.** The program is a bet. It draws on fitness and strength trials,
+function trials in older adults and observational mortality studies. Its doses are guideline and
+expert defaults, not measured minimums.
 
-Plain numbers trace to the evidence; a † marks a practical choice the evidence leaves open.
+## Start light, then build over two to three months
 
-| Session | What | How long, how often | How hard |
-|---|---|---|---|
-| **Strength A and B** | 5-6 whole-body exercises†, **2-3 sets each** | 2x/week on non-consecutive days†, about 30-40 min† | Moderate loads for weeks 1-8†, then build toward **heavy**; set by reps |
-| **Moderate aerobic** | Brisk walking, stationary cycling, rowing or water exercise: whichever you will keep doing | **About 150 min/week**, e.g. 5 x 30 min or 3 x 50 min† | **About 50% of heart-rate reserve** |
-| **Everyday movement** | More steps, less sitting, any intensity | Daily | Step count on a phone or tracker |
-| *Optional: intervals* | Swap one aerobic session for intervals | After 8-12 weeks† | Hard effort; not part of the minimum |
+The first week looks like this. The days are examples. The session lengths, warm-up and cool-down are
+practice defaults: the sources say to begin slowly but give no starting minutes, and no source tests a
+warm-up dose -> [[Exercise Interventions and Sports Injury Prevention]],
+[[Flexibility Training and Stretching]]. Strength and aerobic work sit on separate days because no
+study held here shows which should come first when they share a session.
 
-**Strength, in detail.** 5-6 whole-body exercises†: leg press or sit-to-stand, hip hinge, push, pull,
-loaded carry. **2-3 sets each** (the third set is †). Machines or free weights. Weeks 1-8†: moderate
-loads. Then build toward **heavy**. **No maximum-lift test is needed†: set the load by reps.** Early on,
-aim for 12-15 reps per set; later, heavier loads for about 5-8 reps per set†. Stop 1-2 reps short of
-failure†. When you reach the top of the rep range with more than about 2 reps still in hand, add the
-smallest step next session†. Log the load.
+| Day (example) | Session | What | How long | How hard |
+|---|---|---|---|---|
+| Mon | Strength A | 4 exercises: upper push, upper pull, lower push, lower pull; 2 sets each; any equipment | \~20-30 min | week 1 light; by weeks \~4-8, 2-3 reps in reserve |
+| Tue | Aerobic | brisk walk; stationary bike if walking hurts your knees | \~20-30 min to start | moderate: RPE 12-13 |
+| Thu | Strength B | same four regions; variants allowed | \~20-30 min | as Mon; add load or reps as sets get easier |
+| Sat, Sun | Aerobic | as Tue | as Tue | as Tue |
+| Every session | Warm-up, cool-down | light, dynamic movement | a few minutes each | easy; no long static stretches before lifting |
+| Every day | Everyday movement | more steps, any pace | through the day | count steps on a phone or tracker |
 
-Trials label these loads as below and above 80% of a one-repetition maximum (1RM). A network
-meta-analysis of 178 strength trials converted rep maxima to %1RM as 100 minus 2.5 per rep, which puts
-an 8-rep maximum at 80% [@currier2023]. That
-is a coding rule, not a tested conversion; how much it varies by person or exercise is not known here
+**Start the aerobic work as walks, judged by effort.** ACSM defines moderate as heart rate and breathing
+noticeably up, RPE 12-13 on a perceived-exertion scale, or 40 to under 60% of heart-rate reserve [@riebe2015screen].
+Effort is relative to a person's own capacity, so for an unfit starter an activity listed as moderate
+can be vigorous work [@franklin2020acute]. Go by how it feels.
+On a beta-blocker, go by effort rather than heart rate. -> [[Exercise-Related Acute Cardiac Events]]
 
+### How the first months run
 
-**Aerobic effort, in detail.** **About 50% of heart-rate reserve**: a brisk effort, breathing harder but
-still able to talk†. A heart-rate monitor using an age-estimated maximum is a rough check, not a
-requirement†. On a heart-rate-lowering drug such as a beta-blocker, go by perceived effort instead
+- **Months 1-3: build gradually.** ACSM's screening panel recommends a transitional phase of about 2-3
+  months with duration and intensity rising gradually [@riebe2015screen]. Aerobic time climbs toward the guideline \~150 minutes a week (say 5 x 30 or
+  3 x 50); strength loads rise as sets get easier. No held source tests how fast to build. -> [[Physical Activity Dose and Mortality]]
+- **While building, spread sessions over three or more days.** People who exercise more often carry a
+  smaller heart-attack risk during each bout; the wiki reads that as a case for spreading sessions
+  out. -> [[Exercise-Related Acute Cardiac Events]]
+- **After about three months of regular exercise, harder work is an option.** ACSM lets an inactive,
+  symptom-free starter progress gradually in intensity. It counts exercise as regular after 30
+  minutes of planned moderate exercise on 3 or more days a week for 3 months [@riebe2015screen]. This guide ties the
+  step-up to the three-month mark on its own reading. From then on you can choose intervals,
+  heavier loads, or packing the week into one or two longer days. -> [[Weekend Warrior Activity Pattern and Mortality]]
+- **Then keep going.**
 
+## Walk briskly most days; harder work can wait
 
-**How the first six months run**:
+**Pick the type of exercise you will keep doing and your joints tolerate.** In trials of adults with a BMI over 30 or
+high body fat, absolute VO2max rose 7-15% across exercise types, but no gain reached statistical
+significance and no type separated statistically from the others [@odonoghue2020]. Brisk
+walking is the simplest default. -> [[Is the Exercise Modality Doing Any Work]],
+[[Exercise Modality for Body Composition in Obesity]], [[Stationary Cycling for Knee Osteoarthritis]]
 
-1. **Weeks 1-8, build-up.** About half the aerobic minutes† and lighter loads, raised in small absolute
-   steps.
-2. **Weeks \~8-24, full program.** The whole template, every week.
-3. **Month 6 onward, keep going.** Same weekly minutes at the same heart-rate effort. As you get fitter,
-   that effort takes more resistance or pace, which is the progression. No smaller maintenance
-   dose has been tested -> [[Detraining and Residual Effects in Older Adults]],
-   [[Measuring and Raising Cardiorespiratory Fitness]].
+**Train at a moderate effort; about 50% of heart-rate reserve is enough at a low starting fitness.** An
+American Heart Association statement rates about 50% of heart-rate reserve as adequate for a gain of at
+least 1 MET when fitness (CRF) starts below 10 METs (multiples of resting energy use). Fitter people need
+harder work, because CRF responds more to intensity than to longer or more frequent sessions
+[@ross2016]. Heart-rate reserve is
+your maximum heart rate minus your resting heart rate, so a 50% target is your resting rate plus half
+that span (the standard definition). Nobody has tested whether a measured or an
+age-predicted maximum sets the better target. -> [[Measuring and Raising Cardiorespiratory Fitness]]
 
-## Why each piece is in the program, and what you can swap
+**Build toward about 150 minutes a week, in sessions of 30 minutes or more once you get there.** In a
+Mexico City cohort, weekend warriors whose sessions lasted under 30 minutes showed no mortality
+difference from non-exercisers (HR 1.03, 0.94-1.14), while those with 30-60-minute sessions had lower mortality (HR 0.84,
+0.78-0.91) [@odonovan2024].
+These self-reported categories support longer sessions as a hedge, not a proven threshold.
+-> [[Weekend Warrior Activity Pattern and Mortality]]
 
-**Even light movement counts, and the least active gain the most from starting.** In device-measured cohorts,
-people in the second-least-active quarter had less than half the mortality hazard of the least active
-(HR 0.48), and light activity on its own showed a similar gradient (HR 0.60 for its second quarter)
-[@ekelundacc2019]. That is why the template
-counts steps as well as sessions. Steps are the simplest count: risk kept falling up to about 8,000-10,000
-steps a day in adults under 60 [@paluch2022]. Both findings
-are observational associations. -> [[Physical Activity Dose and Mortality]]
+**On top of the sessions, walk more through the day.** In pooled step-count cohorts, mortality kept
+falling up to about 8,000-10,000 steps a day in adults under 60 and about 6,000-8,000 at 60 and over.
+The first step up carried most of the gain: against about 3,550 steps a day, about 5,800 had a hazard
+ratio of 0.60 (0.51-0.71) and about 10,900 had 0.47 (0.39-0.57) [@paluch2022]. These are
+the points where observational curves flatten, not tested targets. -> [[Physical Activity Dose and Mortality]]
 
-**Do the aerobic work at a moderate effort; intervals are optional.** For adults below 10 METs of
-fitness, about 50% of heart-rate reserve is enough for a gain of at least 1 MET; at 10-14 METs,
-65-85% is likely more effective [@ross2016],
-a step taken for more fitness, not one this program requires.
+**Add intervals (short hard bouts with easy recovery) only once walking is a habit.** In people with
+overweight or obesity, intervals raised CRF more than continuous moderate work (standardized mean
+difference 0.26-0.99 across three reviews), though most reviews in that umbrella review rated moderate
+to critically low on quality [@poon2024].
+Hard intervals also feel worse while you do them than moderate continuous work, and about as bad as hard
+continuous work; the authors suggest this points to the intensity rather than the interval format.
+Afterwards, people rated intervals as more enjoyable than moderate work
+[@niven2020]. Nobody has shown that either effect changes who
+keeps going. Intervals can save time, but how much extra fitness they add over
+steady work is uncertain. -> [[Affective Response to High-Intensity Interval Exercise]]
 
-The trial closest to this reader enrolled 300 adults with obesity. Its 73-person arm doing about 30
-minutes five times a week for 24 weeks raised fitness by roughly 8-9% (Ross's table gives 7.7%, its text 9.4%) [@ross2016].
-A pooled analysis of exercise in adults with obesity saw gains in the same direction but no statistically
-significant improvement [@odonoghue2020], so
-expect a modest rise. -> [[Measuring and Raising Cardiorespiratory Fitness]]
+**Exercise snacks may beat nothing but do not replace the sessions if you can do them.** Exercise snacks are brief hard
+bouts spread through the day (about 20 s to 10 min in the trials one meta-analysis pooled). Pooled, they
+did not significantly raise VO2max, at very low certainty. The authors offer snacks as a
+complement or alternative for people who cannot meet activity guidelines, not a replacement for those
+guidelines [@wan2025]. -> [[Exercise Snacks and Cardiometabolic Health]]
 
-**Pick the mode you will keep doing and are least likely to be hurt doing.** Aerobic, resistance and
-combined training each raised fitness in postmenopausal women, in an analysis of 35 training arms from
-25 studies [@khalafi2023]; the review did not test the
-modes against each other.
-
-In 103 trials of knee and hip osteoarthritis, every exercise type beat usual care on pain and function.
-Aerobic and mind-body exercise had the largest effects, but the single types were not shown to differ
-from one another. Programs mixing more than one type ranked last, and worse than aerobic or mind-body
-exercise for pain [@gohtypesnma]. That mixed group also took
-in trials that did not name a single exercise type, so it does not show that combining modes harms; for
-knee and hip osteoarthritis it gives no reason to expect a combined program to beat a single mode
-. The template pairs lifting with aerobic work because each serves a different
-outcome, not because the pair outranks either alone.
-
-**Joint-friendly modes work, and trials in heavier groups showed no smaller benefit.** Stationary cycling matched other
-exercise for knee osteoarthritis [@luan2020], and water
-exercise did at least as well as land exercise on balance and walking tests in older adults
-[@deng2024]. In a companion pooled analysis of knee and hip
-osteoarthritis from the same research group, the pain benefit was no smaller in trials whose participants
-averaged a BMI of 30 or more (0.56 versus 0.46 standardized mean difference, P = 0.78)
-[@goh2019]; a trial-level comparison like this
-cannot rule out a difference. -> [[Is the Exercise Modality Doing Any Work]],
-[[Exercise Therapy for Osteoarthritis Pain and Function]]
-
-**Lift twice a week, two or more sets per exercise.** Across 178 strength trials, at least two sets or two
-sessions a week raised strength, and at least two sets and two sessions raised muscle size, each at 95%
-probability [@currier2023]. That is the lowest
-dose the analysis was confident about, not a measured optimum. Which program you pick matters less than
-starting one: every well-studied prescription beat no training, a few sparsely studied schemes were
-too imprecise to show it, and most programs could not be told apart from one another
-[@currier2023]. These trials enrolled healthy
-adults, not specifically adults with obesity. -> [[Resistance Training Prescription - Load Sets and Frequency]]
-
-**Move toward heavy loads after the build-up; equipment is your choice.** The top-ranked programs for
-strength used heavy loads, and those for muscle size used multiple sets
-[@currier2023]. Tendons stiffened under loads
-above 70% of maximum, but not in the five lower-load programs studied
-[@bohm2015], another reason to work up to heavy loads. Free weights and
-machines built strength equally [@haugen2023freeweight].
-Bodyweight training has not been compared with loaded training. -> [[Resistance Training Prescription - Load Sets and Frequency]],
-[[Tendon Adaptation to Mechanical Loading]]
-
-**If you are dieting, lift as well.** Dieting removes muscle along with fat. In six trials of obese older
-adults cutting calories, adding resistance training three times a week cut lean-mass loss by 93.5%
-[@sardeli2018]. -> [[Protein and Resistance Training for Muscle and Strength]]
-
-**Intervals may buy fitness a little faster, and feel worse.** In reviews of adults with overweight or
-obesity, interval training raised fitness as much as or slightly more than moderate continuous work
-[@poon2024], but it felt worse during the
-session, and the hard effort, not the interval format, drove the discomfort
-[@niven2020]. They suit someone short of time who tolerates
-hard effort; the minimum does not need them. -> [[Affective Response to High-Intensity Interval Exercise]]
-
-**Use exercise snacks as a way in, not a substitute.** Brief vigorous bouts, lasting from about 20 seconds
-to 10 minutes in the 14 studies Wan reviewed [@wan2025], raised VO2max
-at very low certainty, and the authors judge it unlikely that inactive people will reach recommended
-levels through snacks alone [@wan2025]. How you split
-the week matters less than the weekly total: a weekend-warrior pattern carried a similar
-mortality association to spreading activity out, at very low certainty
-[@kunutsor2022].
--> [[Exercise Snacks and Cardiometabolic Health]], [[Physical Activity Dose and Mortality]]
-
-## Watch your joints, plan for lapses, and keep weight expectations modest
-
-### Injury and joints
-
-**Tendons adapt more slowly than muscle, so raise the load slowly.** Tendon can respond to heavy load
-within about 8 weeks, adapts more clearly over 12 or more, and adapts more slowly than muscle
-[@bohm2015]. Add load in small absolute steps and judge by how
-you feel the next day†; the popular 10% weekly rule has no evidence behind it
-[@damsted2018]. -> [[Tendon Adaptation to Mechanical Loading]],
-[[Training Load Progression and Running Injury]]
-
-**Spare the knees first, and leave running out of the minimum†.** Higher BMI and a prior knee injury both
-raise knee osteoarthritis risk [@duong2025kneeoa].
-Whether running is safe for an overweight person with a prior injury and a physically heavy job remains
-unclear [@alentorngeli2017].
--> [[Knee Osteoarthritis Incidence and Risk Factors]]
-
-**Lifting protects, and exercise rarely harms.** Strength training cut sports injuries while stretching
-did not [@lauersen2013injury].
-Reviews of exercise in chronic pain found no harm beyond passing soreness, though only a quarter of the
-trials reported harms [@geneen2017chronicpain].
--> [[Exercise Interventions and Sports Injury Prevention]]
-
-### Keeping going
-
-**Plan for the week that goes wrong.** Evidence the reviewers cite suggests advice to exercise, on its own, is
-insufficient to change much [@geneen2017chronicpain].
-In year-long weight-loss trials, attrition averaged 29%
-[@franz2007]. A tracker added about 627 steps a
-day, on low-quality evidence [@brickwood2019wearable].
-Supervision helps a little: in adults over 60, supervised programs gave slightly larger gains (robustly
-only for knee strength) at the same 81% attendance as home programs
-[@gomezredondo2024], so a home program is a
-reasonable start. -> [[Chronic Pain and Physical Activity]]
-
-**A planned break does not reset you; stopping for good does.** Older adults who stopped training for
-4-36 weeks (mean about 11), while carrying on with normal daily life, still scored ahead of
-non-exercising controls on function
-[@buendiaromero2025]. A layoff forced by illness, a fall
-or a hospital stay was not studied. In knee osteoarthritis, though,
-exercise benefits peaked at 2 months and were no better than usual care by 9-18 months
-[@goh2019]; the authors suggest the fade may partly
-reflect poor adherence. -> [[Detraining and Residual Effects in Older Adults]]
-
-**Exercise alone moves weight less than the calorie count suggests.** In a large energy-expenditure
-dataset, the body offset part of the extra burn by lowering its basal energy use: 28% on average, rising
-to 49.2% in people at the 90th percentile of BMI
-[@careau2021]. Eating more can cancel out still more
-. If weight loss is a goal, change the diet too. -> [[Exercise Energy Compensation]]
-
-### Keeping score, and special cases
-
-**Track the measures, but judge by what you can do.** Log the load lifted, time a five-rise chair stand,
-and check grip [@cruzjentoft2019]. If you
-lose weight, track fitness in litres per minute as well as per kilogram, since the per-kilogram figure
-rises with weight loss alone; the pooled analysis in adults with obesity used litres per minute
-[@odonoghue2020]. These numbers predict outcomes;
-they are not the outcome. -> [[Surrogate Outcomes]], [[Sarcopenia Definition and Diagnosis]]
-
-**A fitness test gives a range, not a number.** Without a lab, a fast 2-km walk with a heart-rate
-strap estimates VO2max. Its authors found it relatively valid in medically screened healthy adults with
-and without obesity, though in their obese men the estimate ran below measured on average, and they advise a
-practice walk first [@oja1991walk]. In a later sample of
-410 adults aged 18-64, 95% of walk estimates landed within about 12-13 ml·kg-1·min-1 of measured VO2max
-(about ±3.6 METs), and 95% of repeat walks a week later agreed within about 8
-[@marinjimenez2023walk]. An 8-9% gain from a
-starting VO2max near 25 is about 2 ml·kg-1·min-1, well inside either band, so a before-and-after pair
-cannot show progress; for tracking, lean on the load and chair-stand log.
-
-In a lab or clinic, a supervised maximal bike test is the other option; read its peak watts through the FRIEND
-equation rather than the ACSM one, which read 15% high on average. That paper reports no per-person
-error [@kokkinos2018cycle].
+**Expect a modest fitness gain.** Activity at guideline levels raised CRF by about 10% in previously
+sedentary adults [@ross2016].
 -> [[Measuring and Raising Cardiorespiratory Fitness]]
 
-**Some people need a different start.** With osteoporosis, be wary of moves that bend the spine forward,
-such as sit-ups and some yoga poses, which were linked to rare vertebral fractures
-[@kunutsor2018adverse].
-If you are frail, the standard program may be too intense; start lower, ideally with professional
-guidance. -> [[Frailty]]
+## Two short strength sessions a week reach the lowest dose shown to work for strength
 
-## Beyond the template, extra exercise buys less
+**Start any strength training; the protocol matters far less than starting.** A network meta-analysis in
+healthy adults compared 12 prescriptions against no training. Every one had a positive estimate for
+strength, and 91% of the comparisons between prescriptions could not separate them
+[@currier2023]. These are strength and
+muscle-size results; the authors say the effect on health outcomes is largely unknown.
+-> [[Resistance Training Prescription - Load Sets and Frequency]]
 
-**Past the template, more exercise buys less.** For moderate-to-vigorous activity, the mortality curve
-stops falling steeply after a modest daily amount
-[@who2020], a broad region of roughly
-20-40 minutes a day. The template already reaches that region. More still lowers risk, just
-less per extra hour: 2000 versus 750 MET-minutes a week carried a mortality HR of 0.82
-[@who2020]. Fitness and strength also
-keep improving with more, so doing more is a choice, not a requirement. -> [[Physical Activity Dose and Mortality]],
-[[The Underivable Optimum]]
+**The floor: two sets, twice a week, for all major muscle groups.** At least two sets
+or two sessions a week had a 95% probability of raising strength, and two sets plus two sessions raised
+muscle size [@currier2023]. This floor is shown
+to work; it does not mark where gains level off.
 
-**No study has measured two things that matter here.** None tested whether training keeps function
-intact into old age and then allows a short decline; trials report function over weeks or months. And none
-tested a smaller dose that keeps the gains, so the plan is to keep going. Most function and
-quality-of-life trials enrolled older, frail or arthritic people: exercise probably improved mobility and
-quality of life in frail adults over 65
-[@racey2021frailtypa]. The direction
-plausibly carries over to this group; the size is not established for it.
--> [[Surrogate Outcomes]], [[Frailty]]
+The 2026 ACSM position stand comes from the same team. Its primary recommendation is high-effort training at least
+twice a week, engaging all major muscle groups, and it leaves the number of sets open.]); the primary recommendation alone is silent on sets. Same check for the section heading the lowest dose shown to work, which Currier's two sets or two sessions does not support as a minimum -- next compile] Its authors judge
+four body regions (upper and lower, push and pull, as in the table above) enough coverage, an opinion
+rather than a tested rule [@acsm2026rt]. The stand's *healthy adults*
+excluded obesity, so its advice for an obese beginner is borrowed from other adults, not studied
+directly.
 
-**The template matches published guidance.** WHO advises 150-300 minutes of moderate activity a week
-plus muscle strengthening on at least 2 days
-[@shailendra2022]. This card treats
-that range as a sensible target where the mortality benefit has begun to level off, not as the point where
-benefit begins; the card and WHO differ in purpose, not in evidence. Later in life, add balance training:
-it carried exercise's fall prevention in adults with a mean age of 76
-[@sherrington2019].
--> [[Exercise for Preventing Falls in Older Adults]]
+**Work hard, stop short of failure, and add load as sets get easier.** Failure is the point where you
+cannot complete another rep. End each set when you could still do about 2-3 more good reps. The stand
+uses this as its gauge and says exact targets cannot be set. It finds training to failure unnecessary,
+and says a beginner who starts light must raise the load for a meaningful benefit
+[@acsm2026rt].
+-> [[Resistance Training Prescription - Load Sets and Frequency]]
 
-## Read this as a starting place, not a measured minimum
+**For more strength, move to heavier loads after the first weeks.** Load was the one variable that
+reliably separated prescriptions for strength, and multi-set programs ranked highest for muscle size
+[@currier2023]. At 80% of 1RM (the most you
+can lift once) the average person manages about 10 reps to failure (9.75, 95% CI 9.32-10.20; person-to-person SD
+about 2.5 reps), mostly measured in healthy 20-40-year-olds
+[@nuzzo2023reps]. So a weight you can
+lift no more than about 8-9 times is at or above \~80% for the average person, not necessarily for you
+. -> [[Resistance Training Prescription - Load Sets and Frequency]]
 
-- **A starting place, not a measured minimum.** Each dose is the lowest that worked for its own outcome;
-  the package as a whole is a reasonable bet -> [[The Underivable Optimum]].
-- **Function and fitness, not weight loss.** Judge it by what you can do; for weight, change the diet too
-  -> [[Exercise Energy Compensation]].
-- **Health only.** Time, money and enjoyment are yours to weigh; they shape what you will keep doing.
-- **No drug substitutes for it on function.** A drug can match exercise on blood pressure, but none builds
-  strength -> [[Blood Pressure Lowering and Cardiovascular Events]].
-- **Not graded against real-world results.** This wiki checks that its claims hang together and match their
-  sources, not whether anyone who followed the program ended up better off.
+**Heavy loads are optional for a quality-of-life goal, though without them you may miss one tendon
+adaptation.** In a review of mostly young, active men, programs above 70% of maximum stiffened tendons
+(SMD 0.90, 0.71-1.08) and the five lower-load programs showed no detectable change (SMD 0.04, -0.46 to 0.53) [@bohm2015].
+The authors split the studies at 70%, which is not a measured threshold, and stiffness is a tissue
+marker, not an injury outcome. Do not test a 1RM: no held source reports whether that is
+safe for an untrained adult. -> [[Tendon Adaptation to Mechanical Loading]]
 
-## Find the full evidence on the linked pages
+**Choose equipment, rest and order by convenience.** Free weights and machines showed no difference in
+strength gains [@haugen2023freeweight]. Bands or
+home training beat no training. Resting under or over a minute made no detected strength difference, so
+the old 2-3-minute advice has no support. Put the lift you most want stronger first and use full range of
+motion [@acsm2026rt]. These findings come from
+tallies of review findings without pooled effect sizes: no difference was detected, but equivalence is not proven.
+-> [[Resistance Training Prescription - Load Sets and Frequency]]
 
-The claim pages linked above hold the effect sizes, confidence intervals, dose-response shapes and the
-trial-versus-observation reasoning behind each directive. Three pages anchor them:
-[[Physical Activity]] for the activity and fitness estimates,
-[[Resistance Training Prescription - Load Sets and Frequency]] for the strength dose, and
-[[Big Rocks (Median)]] for why exercise ranks among the largest levers for this group. The tendon,
-injury, adherence and detraining detail sits in [[Tendon Adaptation to Mechanical Loading]],
-[[Training Load Progression and Running Injury]] and [[Detraining and Residual Effects in Older Adults]].
+**Keep strength training even if you walk a lot.** In pooled cohorts, adults doing any
+muscle-strengthening activity had lower all-cause mortality than those doing none, after adjustment for
+aerobic activity (RR 0.85, 95% CI 0.79-0.93, GRADE very low)
+[@momma2022]. Adults doing both
+strength and aerobic work had a larger reduction. The data are observational and self-reported. The
+lower mortality appears at a modest, imprecisely estimated weekly volume of roughly 30-80+ minutes, which
+two 20-30-minute sessions reach. More than two sessions a week was not associated with lower
+mortality [@saeidifard2019]. A third
+session is for strength, not survival. Function trials make the stronger healthspan case, though they
+enrolled older adults and tested exercise broadly. -> [[Muscle-Strengthening Activity and Mortality]]
 
+## Track the habit; treat fitness numbers as rough ranges
+
+**Fitness (CRF) is a gauge of the habit, not a goal in itself.**
+Each 1-MET higher CRF went with lower all-cause mortality, RR 0.87 (0.84-0.90), across observational cohorts [@kodama2009].
+Aim at the exercise and use CRF to check it is happening. Grip strength, likewise, is worth measuring, not training toward.
+-> [[Cardiorespiratory Fitness and Mortality]], [[Grip Strength and Mortality]]
+
+**A 2-km walk test gives a rough range, not an exact number.**
+Its developers judged it valid for healthy adults with and without obesity (BMI 27-40 in the obese groups).
+Still, it read low on average in every validation group, most in obese men (by about 12% in ml/kg/min) [@oja1991walk].
+In 410 adults aged 18-64, the estimate fell within about ±12-13 ml/kg/min of measured VO2max (95% limits of agreement), about ±3.6 METs [@marinjimenez2023walk].
+
+Retested a week later, estimates differed by up to about ±8 ml/kg/min [@marinjimenez2023walk].
+That is more than the roughly 10% gain a sedentary starter can expect, so one before-and-after pair cannot confirm progress [inferred from @marinjimenez2023walk; @ross2016].
+Do one practice walk first: on a repeat walk people went faster and their estimate rose slightly [@oja1991walk].
+-> [[Measuring and Raising Cardiorespiratory Fitness]]
+
+**Track what you do; read tests as trends.**
+Log sessions, minutes, and the loads and reps you lift.
+Time five rises from a chair without using your arms, a convenient leg-strength check [@cruzjentoft2019].
+Walk time on a fixed course repeats within about 20 seconds (-21.07 to 18.10 s) [@marinjimenez2023walk].
+Repeat any test the same way and read the trend over months; a trend is likely more informative than one pair, though no study in this review tests it.
+
+**If you are losing weight, judge CRF in litres of oxygen per minute, not per kilogram.** A lighter body raises the per-kilogram figure on its own, whether or not fitness has changed [@odonoghue2020].
+-> [[Measuring and Raising Cardiorespiratory Fitness]], [[Sarcopenia Definition and Diagnosis]]
+
+## Watch your tendons, joints and the first month
+
+**The first weeks are the riskiest stretch.** The 2011 ACSM position stand warns: «Unaccustomed exercise demands, espe- cially during the initial weeks of a physical conditioning regimen, often result in muscle soreness, musculoskeletal in- jury, and attrition (12).» [@garber2011acsm] It also discourages sessions made only of lowering (eccentric) work, which can cause severe muscle damage and, uncommonly, rhabdomyolysis (a dangerous breakdown of muscle tissue) [@garber2011acsm] -> [[Exercise Interventions and Sports Injury Prevention]].
+
+**Raise tendon load gradually; nobody has measured the right rate.** Tendons adapt to load more slowly than muscle [@bohm2015]. That review studied mostly young, active men, and an untrained, heavier body warrants more caution, not less. The rule of adding no more than 10% a week has no support: in novice runners, 10% and 24% weekly increases gave indistinguishable injury rates (HR 0.8, 95% CI 0.6-1.3) [@damsted2018]. Do not read that as permission to build up fast; add load in small, fixed steps -> [[Tendon Adaptation to Mechanical Loading]], [[Training Load Progression and Running Injury]].
+
+**Spare the knees, and leave running out of the start.** Higher BMI and a prior knee injury both raise knee osteoarthritis risk [@duong2025kneeoa]. Recreational runners in general showed no excess hip or knee osteoarthritis (OR 0.86, 95% CI 0.69-1.07). The same review leaves open whether running is safe for an overweight person with a prior injury and a physically heavy job [@alentorngeli2017] -> [[Knee Osteoarthritis Incidence and Risk Factors]]. This guide leaves running out of the first months because of the impact and tendon load on an unconditioned, heavier body; that is a judgement call, not an osteoarthritis finding.
+
+**If your knees hurt, change the type of exercise rather than stopping**. In exercise trials in arthritis, knee osteoarthritis included, no study reported harm from exercise, and a few reported minor, transient pain [@rauschosthoff2018exercise]. Stationary cycling is the low-impact default -> [[Knee Osteoarthritis and Modifiable Levers]].
+
+**Expect next-day soreness; stretching will not fix it.** Unaccustomed exercise, especially lowering work, causes it. Stretching changes next-day soreness by about half a point on a 100-point scale when done before a session (95% CI about -11 to +10) and about 1 point when done after (about -7 to +5). In one large trial of recreational exercisers, stretching before and after cut peak soreness over a week by about 4 points (-5.2 to -2.4) [@herbert2011stretch]. Start new exercises at low volume and build up: standard practice, not trial-tested. Soreness fades as the muscle gets used to a movement while strength keeps building, so it is not a sign a session worked; go by the logged load and reps. -> [[Flexibility Training and Stretching]], [[Resistance Training Prescription - Load Sets and Frequency]].
+
+**Pain limits come only from chronic-pain rehab trials.** In rehab for localized chronic tendon, fascia or low-back pain, trials that set a limit allowed pain up to about 5/10, as long as it settled after the session, by the next session or by the next morning, a convention rather than a tested threshold [@smith2017painful] -> [[Exercising Into Pain for Chronic Musculoskeletal Pain]]. If pain lasts into the next day, reduce the load (a practical default). No study held here gives a stop rule for a new sharp pain or joint pain in a healthy beginner.
+
+**Most people in this group can start without a doctor's visit.** An inactive adult with no known heart, vascular or kidney disease, no diabetes and no symptoms can start light-to-moderate exercise without medical clearance. Known disease or any symptom means getting clearance first. The rule rests on expert consensus, and the panel reports a lack of evidence that clearance or exercise testing prevents exercise-related cardiac events [@riebe2015screen]. Obesity alone is not on the list.
+
+**Some people need a different start.** With osteoporosis, avoid repeated or loaded forward bending of the spine and favour extension work; evidence that flexion exercise causes vertebral fractures is limited, and single everyday bends are not implicated [@kunutsor2018adverse]. If you are frail, the standard program may be too intense; start lower, ideally with professional guidance. -> [[Exercise Safety in Osteoporosis]], [[Frailty]]
+
+**Stop and get checked for these symptoms:** chest, neck, jaw or arm pain or pressure; unusual breathlessness; lightheadedness; palpitations or an irregular heartbeat; ankle swelling; burning or cramping in the legs on short walks [@franklin2020acute]. Exercise-related sudden cardiac death runs at 0.31 to 2.1 per 100,000 person-years [@franklin2020acute]. The risk during a bout rises most in habitually sedentary people with known or undiagnosed heart disease doing unaccustomed strenuous work [@franklin2020acute] -> [[Exercise-Related Acute Cardiac Events]].
+
+**Training on your own is a reasonable default.** In adults aged 60 and over, supervised training beat unsupervised training robustly only on knee-extension strength (SMD 0.18, 95% CI 0.07-0.30), with similar adverse events [@gomezredondo2024]. No held trial covers adults under 60. A few coached sessions to learn the lifts are an option, not a tested need -> [[Supervised vs Unsupervised Exercise]].
+
+**Write a plan, and book a check-in to revise it.** Across trials, a when-where-how plan did not significantly raise activity (SMD 0.15, 95% CI -0.01 to 0.31); in the trials that reinforced the plan by call, meeting or text, it did (SMD 0.25, 0.05-0.45). All outcomes were self-reported, and the comparison sets one group of trials against another [@silva2018implint]. Treat it as a cheap default, not a proven tool; a step tracker is a similar small aid -> [[Implementation Intentions and Action Planning for Physical Activity]], [[Wearable Activity Trackers and Physical Activity]].
+
+**Expect little weight loss from exercise alone.** In trials in adults with obesity, exercise without diet change lowered weight by 0.05 to 1.01 kg on average against no exercise, depending on exercise type (only types with an aerobic part were significant; the strength-only types were not) [@odonoghue2020]. People offset very different shares of the energy burned from one study to the next (mean 18%, SD 93%) [@riou2015]. The program pays off in fitness and function, which do not depend on those calories -> [[Exercise Energy Compensation]].
+
+## Past the guideline dose, more minutes buy little for mortality; the shape of decline over decades is unmeasured
+
+**The activity-mortality curve flattens around the guideline amount.** -> [[Physical Activity Dose and Mortality]]. Mortality keeps falling as measured CRF rises, with no upper limit observed over the studied range [@mandsager2018], but most of that drop has arrived by about 10 to 12 METs [@ross2016] -> [[Measuring and Raising Cardiorespiratory Fitness]].
+
+**For someone starting below about 10 METs, any further drop in mortality tracks fitness, not more minutes**. In one cohort, men who went from unfit to fit between two exams had 44% lower mortality than men who stayed unfit [@ross2016]. That is an observational change in fitness, not a test of training. **Harder training is optional once the habit holds. No study held here shows whether it lowers mortality for middle-aged adults with obesity, or whether it improves their function or quality of life**.
+
+**Plan to keep going for good.** Adults aged 60 and over who took a planned 4- to 36-week break (mean 11 weeks) after a program still beat untrained controls on function, effect size 0.88 (95% CI 0.47-1.29) [@buendiaromero2025]. That compares groups; it does not say what share of their gains people kept. In people with knee or hip osteoarthritis, a different group from the one this guide is for, the pain and function benefit was no better than usual care by 9 to 18 months -> [[Exercise Therapy for Osteoarthritis Pain and Function]]. A break is not a reset, but benefits fade once exercise stops. No held study gives the smallest dose that keeps them -> [[Detraining and Residual Effects in Older Adults]].
+
+**Later in life, add balance work.** In fall-prevention trials in adults with a mean age of 76, balance and functional exercise cut the rate of falls by about a quarter (rate ratio 0.76, 0.70-0.81) [@sherrington2019] -> [[Exercise for Preventing Falls in Older Adults]].
+
+**Some outcomes have never been measured.** Across 15 RCTs, exercise, alone or within a multidomain program, gave the most consistent signal on intrinsic capacity and quality of life, but the authors called the effects generally small. The trials ran in mostly older adults (predominantly 75 or over) who were probably healthier than their peers, and the authors say the findings cannot be generalized to younger adults [@zheng2026healthspan] -> [[Intrinsic Capacity and Multidimensional Healthspan]]. No held study tracks full function held for decades and then a short decline, or adherence beyond a year. Unknown here means unmeasured, not zero.
+
+**The program matches published guidance.** ESC 2021 recommends 150-300 min a week of moderate or 75-150 min of vigorous aerobic activity [@esc2021]; ACSM 2026 recommends at least two strength sessions a week [@acsm2026rt]. On screening, the guideline bodies disagree: ACC/AHA advise exercise testing first when cardiovascular risk is raised, USPSTF finds the evidence insufficient, and ACSM 2015 lets inactive adults with no known disease or symptoms start light-to-moderate work without clearance [@riebe2015screen]. This guide follows ACSM 2015 -> [[Layer 1 - Ranking Interventions for a Stratum]]. [[Big Rocks (Median)]] weighs whether exercise is the biggest change open to you.
+
+**Not graded against real-world results.** This wiki checks that its claims hang together and match their sources, not whether anyone who followed the program ended up better off. **It covers health only.** Time, money and enjoyment are yours to weigh; they shape what you will keep doing.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'For a median obese, sedentary, untrained, inactive middle-aged adult in a developed country whose objectives are quality of life, functional capacity, and a function-held-then-rapid-decline trajectory (the centenary decathlon): what does the evidence show about aerobic AND resistance training, as co-led questions, for cardiorespiratory fitness, strength, and function together; what is the SIMPLEST weekly program that could plausibly be adequate — the minimum that could work — if a dose threshold is even the right framing, across acquisition and maintenance, accounting for modality, frequency / volume / intensity and measurement, adherence, connective-tissue conditioning, injury, impact, and compensation?' |
-> | **Evidence included** | 36 sources — 28 gold, 5 high, 3 moderate |
+> | **Evidence included** | 36 sources — 23 gold, 9 high, 4 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Marin-Jimenez (method, moderate); Oja (method, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
+> | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Marin-Jimenez (method, moderate); Oja (method, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
 
 ## References

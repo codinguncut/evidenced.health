@@ -53,8 +53,6 @@ surrogate that earns belief only when followed through to an outcome ([[Surrogat
 done right is [[Non-Sugar Sweeteners]] (Suez 2022): it did not stop at a microbiome shift — it followed
 through to glucose tolerance and proved cause by transplanting the bacteria into germ-free mice.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What actually moves the microbiome: diet, and mostly fibre
 
 The dominant modifiable lever is diet, and within diet, **fermentable fibre**: gut bacteria ferment it into
@@ -93,8 +91,6 @@ foods were the more reliable lever — an *indirect* remodeling of the resident 
 colonization by eaten microbes. The prebiotic (fibre-feeds-resident) and probiotic
 (fermented-adds-microbes) routes are genuinely distinct, and both are surrogate-level here.
 [inferred from @wastyk2021]
-
-</div>
 
 ## Probiotics: strain- and indication-specific, NOT a general tonic
 

@@ -19,7 +19,6 @@ created: 2026-07-29
 updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
-<div class="recent-update" data-last-updated="2026-10-06">
 
 Strength training earns its place in a lever list on two claims: it lowers mortality and major disease
 **independently of aerobic activity**, and it does so at a **small dose**. Three meta-analyses now
@@ -41,9 +40,6 @@ a reversal (see the cross-source table below).
 
 
 [@momma2022]
-
-</div>
-
 ## The effects — modest, broad, and independent of aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -64,8 +60,6 @@ is a refinement, not an [E-independent] convergence.
 
 
 [@saeidifard2019]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
 
 Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
@@ -115,11 +109,6 @@ resistance training and survival has a U-shape curve.» This is a second-source 
 
 
 [@shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
 
 Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
@@ -176,11 +165,6 @@ constraint is *why* only 4 of 10 studies could enter the dose-response, and it c
 
 
 [inferred from @momma2022; @saeidifard2019; @shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
@@ -222,11 +206,6 @@ finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 
 
 [@momma2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The dose — small, and a J-shape whose upper arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -291,8 +270,6 @@ imprecise \~30-80+ min/week region; the standard «at least 2 days/week» sits c
 does not: any reason to fear or to chase high MSA volume for mortality — nor any reading of an optimal
 *frequency*, which this source cannot supply.
 
-</div>
-
 ## Decision relevance
 
 - **Add strength training — a modest weekly volume reaches most of the mortality benefit** (\~30-80+
@@ -309,8 +286,6 @@ does not: any reason to fear or to chase high MSA volume for mortality — nor a
 
 
 [inferred from @momma2022]
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -346,9 +321,7 @@ in keeping function and staying off the floor, not (on current evidence) a prove
   speed-emphasis 0.36) — specifying not just *that* strength training defends function but *how* to
   train for maximum functional payoff in this stratum. [inferred from @elhadouchi2022]
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Limits
 
@@ -364,7 +337,6 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 
 [inferred from @momma2022]
 
-</div>
 
 ## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
 

@@ -2,10 +2,10 @@
 type: framework
 question: Does ramping running training load too fast cause running-related injury, and is the popular 10% rule (and acute-chronic workload approach) evidence-based?
 aliases: [10% Rule, Ten Percent Rule, Training Load and Running Injury, Running Volume Progression Injury, Too Much Too Soon Running, Sudden Training Load Change Injury, Running Related Injury Training Load, Acute Chronic Workload Ratio Running]
-authors: [Damsted, Camma; Glad, Simone; Nielsen, Rasmus Oestergaard; Sorensen, Henrik Toft; Malisoux, Laurent]
-sources: [Damsted - Training Load Running Injury]
+authors: [Damsted, Camma; Glad, Simone; Nielsen, Rasmus Oestergaard; Sorensen, Henrik Toft; Malisoux, Laurent; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
+sources: [Damsted - Training Load Running Injury, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
 confidence: low
-self_critiqued: 2026-10-04
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - Tendon Adaptation to Mechanical Loading
@@ -15,7 +15,7 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Measurement Error in Dietary Assessment
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-22
 ---
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important**: a running-related
@@ -79,10 +79,16 @@ novice runners.» [@damsted2018] So the 10% cut has no
 demonstrated privileged status: a novice can apparently more than double it (to 24%) without a measured
 excess risk, and the hazardous zone — if one exists — sits well above 10%, nearer 30%, not at it.
 
-Note this is **within one study** — the SR's highest-quality study (100% methodological-quality score)
-produced *both* the 10%-vs-24% null *and* the >30% signal. That the same methods, same population and
-same analysis found 10% and 24% equivalent yet >30% elevated makes the refutation of the 10% figure a
-within-study contrast, not a fragile between-study artifact.
+**Correction (2026-10-22, self-critique): this is a between-study contrast, not a within-study one.** An
+earlier version of this paragraph said one study produced both results. It did not. The 10%-vs-24% null
+is Buist, «the randomized trial by Buist et al.22 (73% methodological» quality score, comparing average
+increases over a whole programme. The >30% signal is a cohort, «Nielsen et al.10 (100% methodological
+quality assessment score)», with «an increased Hazard Ratio (HR)=1.59 (95% CI: 0.96; 2.66) for
+distance-related injuries», a single-period change against <10%. Two designs, two exposure definitions,
+and the signal is for a named injury subset. The 10% figure stays unsupported (the RCT found no
+difference), but *the hazard sits nearer 30%* is a composite across designs, not a located threshold.
+Both results are non-significant: the RCT's null is not a shown equivalence (CI 0.6-1.3), and the cohort's
+HR 1.59 is a signal only in direction (CI 0.96-2.66 crosses 1).
 [@damsted2018]
 
 **Underivable-optimum discipline (`[[The Underivable Optimum]]`).** The 10% figure is a round-number
@@ -116,8 +122,8 @@ findings [inferred from @damsted2018]:
   load measurement could show a gradient we have not yet seen). It is emphatically **not** a
   *no-effect* finding: the SR does not say ramping fast is safe, it says the evidence cannot yet
   adjudicate.
-- The **10% rule specifically** is closer to refuted-as-a-number: the one direct test found 10% and
-  24% equivalent, so the figure has no support. That is a decision-change — it licenses dropping slavish
+- The **10% rule specifically** is closer to refuted-as-a-number: the one direct test found no
+  difference between 10% and 24% (HR 0.8, CI 0.6-1.3; not a shown equivalence), so the figure has no support. That is a decision-change — it licenses dropping slavish
   adherence to the 10% cut — without licensing the opposite (fast ramping is not thereby endorsed).
 - **The conservative default survives on other grounds.** Three directionally-consistent studies plus a
   coherent tissue mechanism (below) make *progress load gradually* the low-regret choice even under
@@ -165,24 +171,75 @@ tolerance) from this page's question (manage the ramp), and a stronger evidence 
   review this SR updates) and — both would bear on
   whether the >30% signal is real or an artifact of the pre-injury week.
 
+## The guideline position on progression — gradual, graded, and also without a number (ACSM 2011)
+
+The 2011 ACSM position stand covers progression for all aerobic exercise in general adults, not running
+specifically. Its Table 2 rows: «A gradual progression of exercise volume by adjusting exercise duration,
+frequency, and/or intensity is reasonable until the desired exercise goal (maintenance) is attained.»
+(grade B — RCTs, limited data) and «This approach may enhance adherence and reduce risks of musculoskeletal
+injury and adverse CHD events.» (grade D — panel consensus). For flexibility, «Methods for optimal
+progression are unknown»; for neuromotor work, progression is also stated as not known.
+[@garber2011acsm]
+
+- **No rate is given.** [searched with `bin/srcgrep.py`: `ten percent` / `rate of progression` / `per week
+  increase` = 0 hits across chunks 01-03; every progression row says "gradual", "reasonable" or "unknown"]
+- **Where the risk sits, per the stand.** «Unaccustomed exercise demands, espe- cially during the initial
+  weeks of a physical conditioning regimen, often result in muscle soreness, musculoskeletal in- jury, and
+  attrition (12).» And: «The type and intensity of the exercise seem to be more important factors in the
+  incidence of injury, with the vol- ume of exercise performed apparently of lesser importance», with
+  walking and moderate activity at very low risk and running at higher risk.
+  [@garber2011acsm]
+
+**How the two sources fit (a distinction plus agreement, not a tension).**
+
+| Parameter | Garber 2011 (guideline) | Damsted 2018 (SR) | Same quantity? |
+|---|---|---|---|
+| Exposure | rate of progressing aerobic volume/intensity, any modality | weekly % change in running volume | partly — running is a subset |
+| Outcome | musculoskeletal injury and CHD events (and adherence) | running-related injury | partly |
+| Claim | gradual progression «may» reduce injury risk (C in Table 1, bundled; D in Table 2) | very limited evidence that a sudden change raises RRI; the one RCT of a graded (10%) programme found no reduction vs 24% | same direction only on the observational arm; both weak |
+| Number | none | 10% unsupported; 10% vs 24% no detected difference (HR 0.8, CI 0.6-1.3) | both decline to give one |
+
+The guideline grades the injury benefit of gradual progression twice, C in its Table 1 bundle and D
+(consensus) in Table 2, and its own risks section says «controlled studies substantiating the
+effectiveness of these methods are insufficient». The later SR finds the causal evidence insufficient
+too. Both decline to give a rate; only the guideline (and this page's low-regret inference) recommends
+ramping gradually. Damsted does not reach that recommendation, and its one RCT of a graded programme found
+no injury reduction. [@garber2011acsm]
+The stand's *type and intensity over volume* sentence compares type and intensity with training *volume*
+(the amount done), not with the ramp rate, so it does not rank modality against ramp rate. Its walking-vs-running
+contrast is also not adjusted per unit of training stimulus: walking is a lower dose. Its refs (7, 8, 171,
+172, 186, 393) are injury-epidemiology studies (Almeida x2, Hootman x2), a *Sports Med* overview (Jones
+1994) and a cohort of 6406 runners on training and *weight* (Williams & Thompson); the sentence carries no grade, so it is a candidate lever, not a
+finding. The stand also notes that overweight and obese adults «have engaged in greater volumes of exer- cise
+than those recommended here without adverse sequelae». [@garber2011acsm]
+ (the same-quantity reading is the wiki's).
+
 ## Decision relevance
 
 [inferred from @damsted2018] — the actionable reading of the SR's findings:
 
 - **Do not treat the 10% rule as evidence-based.** It is a round-number heuristic with no support; the
-  one study testing it found 10% and 24% weekly increases equivalent in injury risk. Dropping rigid 10%
+  one study testing it found no detectable difference in injury risk between 10% and 24% weekly increases. Dropping rigid 10%
   adherence is a licensed decision-change.
 - **Still ramp gradually — but for mechanism and low-regret reasons, not the 10% number.** Three
   directionally-consistent studies plus the tendon rate-mismatch mechanism make gradual progression the
-  conservative choice; the *number* is undefined (the hazardous threshold, if any, is unknown and
-  appears to sit nearer 30% than 10%).
+  conservative choice; the *number* is undefined (the hazardous threshold, if any, is unknown; the
+  &gt;30%-vs-<10% hazard ratio comes from a different study, Nielsen 10, than the 10%-vs-24% null).
 - **Watch the relative-absolute trap at low volume.** For a true beginner, percentage rules are most
   restrictive where mileage is lowest; think in absolute steps a deconditioned body tolerates, not a
   fixed percent.
 - **This is insufficient evidence, not reassurance.** The SR cannot say fast ramping is safe — it says
   the evidence cannot yet decide. For the deconditioned/obese novice (route-(c) harm, high stakes), the
   asymmetry favours caution.
-- **The stronger injury lever is building tolerance** ([[Exercise Interventions and Sports Injury Prevention]]: strength training), a better-evidenced route than load-ramp management alone.
+- **The guideline is equally silent on the number.** ACSM 2011 grades gradual progression B as
+  reasonable, and its injury benefit C (Table 1) and D (Table 2), with no rate. It also points at
+  modality: walking and moderate activity carry very low injury risk, running more, and the first weeks
+  are the risk window. For a novice whose goal is general fitness, starting with walking is a cheap
+  default; for a would-be runner, the same idea is a walk-to-run start. (from the ACSM 2011
+  section above)
+- **The stronger injury lever is building tolerance**
+  ([[Exercise Interventions and Sports Injury Prevention]]: strength training), a better-evidenced
+  route than load-ramp management alone.
 
 ## Sibling cell — the bone-stress-injury counterpart (distinction + convergence)
 

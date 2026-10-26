@@ -40,8 +40,6 @@ Guo's meta-analysis is the worked case: it splits dairy five ways and the answer
 while the aggregate *total dairy* hides them [@guo2017]. So a whole-milk finding must never be read as a yoghurt finding, nor a
 butter finding as a cheese finding. Every claim below attaches to a named category and a single endpoint.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## For heart disease and early death, dairy barely moves the needle
 
 Across roughly 940,000 people, Guo found **total dairy neutral for both death and cardiovascular
@@ -89,8 +87,6 @@ part-funded by dairy-industry councils, exactly where such a sponsor would push
 [@mente2023pure]. It nudges the range toward
 neutral-to-mildly-favourable for whole-fat dairy; it does not license a *full-fat dairy is
 cardioprotective* claim.
-
-</div>
 
 ## The *milk shortens your life* scare is a single-cohort artifact
 
@@ -231,8 +227,6 @@ evidence's ([[The Weighting Problem - Why Population Guidance Is Ill-Posed and I
 Anyone using dairy to weigh a personal cancer decision needs the underlying reviews, which this cut does
 not yet hold.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Does the food matrix change what the saturated fat does?
 
 The same saturated fat might behave differently inside cheese than inside butter — the recurring idea
@@ -269,10 +263,6 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## What to actually do about dairy
 
 Dairy is a small lever, and the attention it gets runs far ahead of the effect. If the big rocks —
@@ -302,7 +292,5 @@ exists, and none is likely, so these verdicts are calibrated small effects, not 
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
-
-</div>
 
 ## References

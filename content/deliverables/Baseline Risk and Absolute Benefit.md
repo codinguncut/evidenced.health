@@ -24,8 +24,6 @@ risk comes from, when an extra test is allowed to move it, and why a reassuring 
 an alarming thirty-year one. One twist matters most: **a harm that grows alongside the benefit —
 aspirin's bleeding — can cancel it exactly where the benefit looks biggest.**
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## A relative effect is a fact about the treatment, not about you
 
 The arithmetic is one line. The absolute benefit is the relative risk *reduction* applied to a
@@ -98,8 +96,6 @@ drug is worth about four times as much in the higher-risk person.
 One honest bound: the low-risk arm's point estimate is attenuated (its confidence interval crosses 1), so this pair blends baseline-risk
 scaling with a *possible* change in the relative effect, and one trial's subgroups cannot cleanly
 separate the two (interaction P = 0.14). Read it as the worked pair it is, with that caveat attached.
-
-</div>
 
 ## Your baseline risk comes from a model with a home ground
 
@@ -260,8 +256,6 @@ individual decision at 40–59 with a 10-year risk of 10% or more (a small net b
 *against* initiating it at 60 or older — because the absolute bleeding harm climbs steeply with age even
 though the relative effect does not [@uspstf2022aspirin].
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## What to carry away
 
 The one habit worth keeping: never act on a relative effect alone. Convert it to an absolute number at
@@ -297,7 +291,5 @@ lifetime, and none has randomized statins by calcium score.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
-
-</div>
 
 ## References

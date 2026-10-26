@@ -2,10 +2,10 @@
 type: framework
 question: Does mechanical loading adapt human tendon, which loading parameters drive it, and does that adaptation translate into a patient-important outcome (injury avoidance, function)?
 aliases: [Tendon Loading Adaptation, Connective Tissue Conditioning, Tendon Stiffness Training, Tendon Conditioning, Collagen Adaptation Loading, Tendon Plasticity]
-authors: [Bohm, Sebastian; Mersmann, Falk; Arampatzis, Adamantios]
-sources: [Bohm - Tendon Adaptation Loading]
+authors: [Bohm, Sebastian; Mersmann, Falk; Arampatzis, Adamantios; Smith, Benjamin Edward; Hendrick, Paul A.; Smith, Toby Oliver; Bateman, Marcus; Moffatt, Fiona; Rathleff, Michael Skovdal; Selfe, James; Logan, Pip]
+sources: [Bohm - Tendon Adaptation Loading, Smith - Painful Exercise Chronic Musculoskeletal Pain Meta-Analysis 2017]
 confidence: low
-self_critiqued: 2026-10-04
+self_critiqued: 2026-10-22
 relationships:
   related_to:
     - Exercise Interventions and Sports Injury Prevention
@@ -15,8 +15,9 @@ relationships:
     - Resistance Training for Sarcopenic Obesity
     - Surrogate Outcomes
     - The Underivable Optimum
+    - Exercising Into Pain for Chronic Musculoskeletal Pain
 created: 2026-10-04
-updated: 2026-10-04
+updated: 2026-10-22
 ---
 
 **Peripheral scope** (exercise-programming), and — unlike the injury-prevention evidence it underlies —
@@ -162,6 +163,37 @@ tendon conditioning as a big-rock-adjacent lever. [@bohm2015]
 - A lower-limb-tendon-specific synthesis is awaited to test these parameters in a broader frame: — would it confirm the magnitude-over-type
   finding and bound the deconditioned-stratum transfer.
 
+## Distinction — conditioning a healthy tendon vs loading a painful one
+
+Bohm's evidence is healthy tendons in young active adults, outcome = stiffness. A separate question is
+whether people with *established* chronic tendon or fascia pain should load the painful structure.
+Smith's meta-analysis is mostly that population (shoulder impingement/rotator cuff, Achilles, plantar
+fascia; six of seven trials), and its painful arms were largely heavy or eccentric loading with pain
+allowed, with a level of about 5/10 named in four trials (a cap in three) and pain required to settle anywhere from
+immediately after the set to by the next morning.
+[@smith2017painful]
+
+| Parameter | Bohm — chunk 01-02 | Smith — chunk 01 | Same quantity? |
+|---|---|---|---|
+| Population | healthy, mostly young active men | adults with musculoskeletal pain >3 months | **No** |
+| Outcome | tendon stiffness / modulus (surrogate) | self-reported pain, function | **No** |
+| Contrast | high vs low loading intensity | pain-allowed (usually higher load) vs pain-free | **No** |
+| Design | between-study subgroup of pre-post changes (27 vs 5 interventions, non-randomized) | within-trial randomized | **No** |
+
+Not a tension and not a corroboration: the two answer different questions. What they share is the
+candidate active ingredient — load magnitude. Bohm finds intensity drives tendon adaptation; Smith
+cannot tell whether its painful arms did slightly better short-term because of the pain allowance, the
+higher load, or the larger overall dose. Smith's loads were never expressed as %MVC (only Rathleff gave an RM-based start), and no source
+links a stiffness gain to less pain, so the shared ingredient is a hypothesis, not a mechanism. Smith's
+painful protocols were themselves progressive (e.g. Rathleff: from 12 repetition maximum, «slowly
+progressed over 3 months»), so they test pain allowance within a gradual ramp and do not license a fast
+load jump on a painful tendon. The overload warning above concerns unaccustomed loading outrunning tendon adaptation;
+it is not evidence that loading a chronically painful tendon into pain within a prescribed ceiling (up
+to \~5/10 where specified) worsens pain or function. Smith's painful arms were not shown to do worse on
+pain (though the long-term intervals cannot exclude a small, up to \~0.4 SMD, disadvantage) or, narratively, on
+function; harm itself was not measured. [inferred from @bohm2015; @smith2017painful]
+-> [[Exercising Into Pain for Chronic Musculoskeletal Pain]].
+
 ## Decision relevance
 
 - **To condition a tendon, the lever is LOAD MAGNITUDE, not exercise style.** High-intensity loading
@@ -180,6 +212,9 @@ tendon conditioning as a big-rock-adjacent lever. [@bohm2015]
 - **Plyometrics are a weaker tendon-conditioning tool** than sustained high-load work — likely the short
   ground-contact loading dwell — so if tendon adaptation (not power) is the goal, slower high-load
   contractions are the better bet.
+- **If the tendon is already painful, these parameters do not answer the question** (healthy tendons,
+  stiffness outcome) -> [[Exercising Into Pain for Chronic Musculoskeletal Pain]].
+  [inferred from @bohm2015; @smith2017painful]
 - **Scope to young active adults until broader evidence lands.** The parameters are from young
   recreationally-active men; transfer to obese, older, or untrained tendons is unproven, and the
   mismatch caveat argues for *more* caution there, not less.

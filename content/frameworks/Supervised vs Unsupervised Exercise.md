@@ -2,8 +2,8 @@
 type: framework
 question: Does exercise have to be supervised, or does unsupervised (home) delivery retain enough of the benefit to be the realistic default?
 aliases: [Supervised vs Unsupervised Exercise, Home-Based Exercise, Supervised Exercise, Unsupervised Exercise, Exercise Delivery Format, Supervision and Exercise Outcomes, Home vs Gym Exercise]
-authors: [Gomez-Redondo, Paola; Valenzuela, Pedro L.; Morales, Javier S.; Ara, Ignacio; Manas, Asier]
-sources: [Gomez-Redondo - Supervised Unsupervised Exercise]
+authors: [Gomez-Redondo, Paola; Valenzuela, Pedro L.; Morales, Javier S.; Ara, Ignacio; Manas, Asier; Franklin, Barry A.; Riebe, Deborah A.; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
+sources: [Gomez-Redondo - Supervised Unsupervised Exercise, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Riebe - ACSM Preparticipation Health Screening 2015, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
 cluster: activity
 nucleus: false
 confidence: low
@@ -15,12 +15,12 @@ relationships:
     - Power Training and Physical Function in Older Adults
     - Exercise for Preventing Falls in Older Adults
     - Grip Strength and Mortality
+    - Exercise-Related Acute Cardiac Events
+    - Implementation Intentions and Action Planning for Physical Activity
 created: 2026-10-04
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
-<div class="recent-page" data-last-updated="2026-10-06"></div>
-
 
 The delivery-format decision for the physical-activity lever: when exercise is the prescription, must
 it be supervised (a trainer/clinician present, usually facility-based) or can it be done unsupervised
@@ -90,6 +90,11 @@ Caveat on horizon: these are trial-window attendance rates. Whether unsupervised
 adherence over the longer term (after the trial's contact and measurement fall away) is not resolved
 by this evidence — a named gap, not a null.
 
+For an unsupervised exerciser, one cheap way to keep some scheduled contact is a written if-then plan
+plus a scheduled check-in to revise it. Whether that replaces anything a supervisor provides is
+untested; its own evidence (self-reported, short-term, a reinforced-plan subgroup signal under a null
+overall estimate) is on [[Implementation Intentions and Action Planning for Physical Activity]]. [inferred from @gomezredondo2024]
+
 ## The dose confound — a likely contributor to the non-robust edges
 
 SUP and UNSUP arms were generally **not dose-matched**: supervised sessions tended to use harder
@@ -146,7 +151,11 @@ Knee extension strength is also a prognostically weighty target — it tracks AD
   small and mostly not robust. The exception worth considering paying supervision for is dedicated
   lower-limb strength loading (the knee-extension signal — a small, possibly bias-inflated one),
   plausibly because unsupervised loading is lower (untested here; the authors instead propose training
-  specificity and low baseline strength).
+  specificity and low baseline strength). On adherence to resistance training specifically,
+  the 2011 ACSM stand adds: «Limited evidence suggests that enhancing desires for strength and feelings of
+  empowerment, previous exercise ex- perience, and supervision by an experienced instructor may increase
+  adoption and adherence of resistance training among older adults (304,319).» (Two studies in older adults, one
+  cross-sectional; adherence, not outcomes.) [@garber2011acsm]
 - **For someone who would otherwise not exercise at all:** the realistic alternative to UNSUP is
   nothing, so UNSUP dominates — the source's explicit position: «However, for those unable to perform
   SUP, UNSUP may represent a safe and cost-effective alternative to ensure physical exercise.»
@@ -155,6 +164,80 @@ Knee extension strength is also a prognostically weighty target — it tracks AD
   both arms [@gomezredondo2024] — though note
   dose was not equated, so a dose-matched unsupervised program might carry a different (unmeasured)
   injury profile for a deconditioned novice -> [[Resistance Training Prescription - Load Sets and Frequency]].
+- **Except after a recent cardiac event, and for vigorous or HIIT work in known or suspected coronary
+  disease — a route-(c) stratum this source does not cover `[2026-10-21, Franklin]`.** An AHA scientific
+  statement (consensus) recommends supervision for one named group: «Medically supervised programs
+  (cardiac rehabilitation) are recommended for at-risk patients (eg, recent acute coronary syndrome,
+  revascularization, or heart failure).» (Table 5, class I B). Its preferred vehicle for cardiac patients
+  includes home delivery («ideal- ly via traditional medically supervised center- or home- based cardiac
+  rehabilitation programs»), and the same table encourages all patients to get 30-60 min of
+  moderate-intensity activity such as brisk walking on most days, with no supervision named.
+  [@franklin2020acute] Supervised
+  cardiac rehab facilities ran at «1 event per 58 000 patient-hours» (a 16-year follow-up, ref 74, 1998),
+  higher than multicenter fitness-facility data (1 per 1,124,200 nonfatal and 1 per 887,526 fatal events)
+  «but still low».
+  [@franklin2020acute]
+  [@franklin2020acute] [inferred from @franklin2020acute]
+  Summed, the fitness-facility rates come to about 1 event per 0.5 million person-hours.
+  - **HIIT in this stratum:** more safety data «are needed be- fore it can be widely adopted in patients
+    with known or suspected CAD, especially in unsupervised, non- medical settings.» Inside supervised
+    rehab, one cohort (Rognmo, n=4846) saw a 5.6x higher, still low, event rate with HIIT than with
+    moderate continuous training, and the fitness edge of HIIT disappeared once energy expenditure was
+    matched. [@franklin2020acute]
+  - **Up-titration, not a cap:** patients start rehab at about 2-3 METs and up-titration is often too
+    slow, especially once early monitoring stops, so the statement advises counselling them to raise walking speed or grade gradually up to moderate intensity
+    (3.0-5.9 METs) while asymptomatic, below the ≥6 MET vigorous range. [@franklin2020acute]
+  - The Gomez-Redondo safety parity above is for older adults in general. For coronary
+    patients, the statement's supervision line is structured rehab after a recent event or in heart
+    failure, plus caution on HIIT, especially unsupervised; it does not make supervision a requirement for
+    moderate walking. The cheap default for this stratum is moderate continuous training. **There is no
+    supervised-vs-unsupervised cardiac event-rate comparison in CAD in any of the page's sources** — supervised rehab
+    has a denominator, home exercise in the same stratum does not — so this is a consensus boundary, not a
+    measured gap -> [[Exercise-Related Acute Cardiac Events]].
+  - **Clearance is not supervision.** The ACSM 2015 preparticipation algorithm (consensus; shares authors
+    Franklin and Thompson with the AHA statement, so not a second route) sends inactive people with known
+    cardiovascular, metabolic (type 1 or 2 diabetes) or renal disease, and anyone with symptoms, for
+    *medical clearance* («approval from a health care professional to engage in exercise») before starting,
+    then light-to-moderate work; the provider «decides what evaluation, if any, is appropriate». Flagging
+    people with disease «who may benefit from participating in a medically supervised exercise program» is
+    one of its three stated goals, but no branch of the algorithm requires supervision, and it is scoped to
+    aerobic exercise («logic model for aerobic exercise participation»).
+    [@riebe2015screen]
+    [inferred from @riebe2015screen] So for light-to-moderate *aerobic*
+    exercise, a novice with no diagnosed CVD, diabetes or renal disease and no symptoms needs neither
+    medical clearance nor supervision (risk factors alone no longer trigger clearance; the self-check for
+    symptoms and known disease still applies). Whether to supervise inside the cleared-with-disease stratum
+    is left open by the algorithm, so it falls to the clinician. Riebe does not cover resistance training
+    (risk «seems to be low» on few data); for strength work the no-supervision default rests on the
+    Gomez-Redondo safety data above.
+- **The 2011 ACSM stand on adherence, cost and risk, for adults in general `[2026-10-22, Garber]`.** Its
+  Table 1 grades supervision by an experienced health and fitness professional as enhancing adherence at
+  **C** (nonrandomized or observational). Its text runs both ways: «Su- pervision by an
+  experienced exercise leader can, on the other hand, enhance adherence (87,319). Structured, super- vised
+  programs and unsupervised, home-based programs can increase exercise behavior, and there seems to be no
+  differences in adherence to home-based and traditional ex- ercise programs (86,100,307), although some
+  studies have found an advantage for home-based exercise (91,131,183).» On cost: «Even if the long-term
+  adherence between structured, supervised pro- grams and home-based exercise programs is similar, cost-
+  effectiveness analyses support the promotion of home-based programs (317,321).» On safety: «There are no
+  randomized studies demonstrating the ef- fectiveness of supervision by a well-trained fitness profes-
+  sional in reducing the risks of exercise, but the low risk of exercise-related complications in medically
+  supervised ex- ercise programs (14,359) supports the likelihood of benefit, particularly for novice
+  exercisers who are at an elevated risk for exercise-related complications.» A fitness professional
+  reducing risk is graded **D** (panel consensus).
+  [@garber2011acsm]
+ This sits beside Gomez-Redondo's equal attendance (81%) without being a second route to it: the
+  stand's adherence claims draw on different trials and ages (one, ref 86 Cox, is the S.W.E.A.T.
+  home- vs centre-initiated trial in women aged 40-65), cited, not pooled. On home-based delivery it agrees
+  (a reasonable default, favoured on cost-effectiveness), and it adds that the safety case for supervision
+  rests on low event rates in supervised programmes, not on a comparison. The stand's pro-supervision
+  adherence line (refs 87, 319) cites two studies in older women. Its Conclusions lean the other way for
+  novices: «The supervision of an experienced fitness professional can enhance adherence to exercise and
+  likely reduces the risk of exercise in those with elevated risk of adverse CHD events. Adults, especially
+  novice exercisers and persons with health conditions or disabilities, likely can benefit from
+  consultation with a well-trained fitness professional.» So the agreement is on home-based as an
+  acceptable default, not on supervision being unnecessary for the novice or the higher-risk person.
+  [@garber2011acsm] Franklin, Barry A.
+  co-authors this stand and the AHA statement above, so no independence is claimed between them.
 
 ## Transportability — older adults, not middle-aged
 
@@ -162,8 +245,9 @@ The entire evidence base is >=60 y. The barriers supervision addresses (techniqu
 fall risk during exercise) are plausibly *larger* in older adults than in a middle-aged person, so the
 small SUP advantage found here is, if anything, an **upper bound** for a younger, more capable
 stratum — the delivery-format gap should be no wider, and likely narrower, for the middle-aged. But
-this is a directional transport argument, not measured: no head-to-head SUP-vs-UNSUP evidence in a
-middle-aged population is held. Named gap.
+this is a directional transport argument, not measured: no head-to-head SUP-vs-UNSUP *outcome* evidence
+below 60 is held. Adherence parity in women aged 40-65 is cited second-hand by the 2011 ACSM stand (Cox,
+the S.W.E.A.T. trial; not held). Named gap.
 
 AWAITS <SR of supervised vs unsupervised exercise in middle-aged adults> -- would test whether the
 delivery-format gap transports below age 60.

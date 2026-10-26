@@ -26,8 +26,6 @@ updated: 2026-10-06
 self_critiqued: 2026-10-06
 ---
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Where FATmax-intensity training fits (not a seventh modality)
 
 *Train at FATmax, in the fat-burning zone* names an **intensity-prescription method, not a modality**:
@@ -58,10 +56,6 @@ The six modalities (F.I.T.T.-defined): **AE-V** aerobic vigorous (>65% VO2max), 
 (45-65%), **R-HI** resistance high load (>75% 1RM), **R-LM** resistance low-moderate (50-75% 1RM),
 **COM-HI** combined high-intensity, **COM-LM** combined low-moderate
 [@odonoghue2020].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## The robust finding: combined on top, low-load resistance-only on the bottom
 
@@ -101,10 +95,6 @@ R-LM values (.16/.21/.40/.18); CRF used «all six intervention categories», so 
 the %BF/CRF assignment (.40/.18) is inferred from the P-score sum (k/2) — R-LM is last or
 near-last either way. (corrected 2026-10-06: %BF .18 / CRF — -> .40? / .18?; self-critique)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Why the fine ranking is a ranking of noise
 
 The P-scores order the modalities, but **most of the between-modality differences behind them are not
@@ -133,10 +123,6 @@ this NMA finds none; O'Donoghue's use of absolute (L/min) VO2max is a candidate 
 between-mode order; self-critique) The cross-stratum synthesis (matched-parameter table, the low-stakes
 modality-for-CRF decision) is worked on [[Measuring and Raising Cardiorespiratory Fitness]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Exercise alone is not a weight-loss lever — regardless of modality
 
 The single most decision-relevant number is how *small* the weight effect is. «Overall, weight loss was
@@ -154,10 +140,6 @@ This is the modality-resolved version of the vault's held picture on [[Exercise 
 exercise as a weight-loss tool** — the \~1 kg ceiling holds across aerobic, resistance and combined. The
 body-composition effects (%BF, WC) are the better-responding outcomes, and %BF is argued to be more
 responsive than body weight.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Magnitudes and the surrogate boundary
 
@@ -179,10 +161,6 @@ These multiply this NMA's surrogate effects by effect sizes from *other* studies
 source's cited context, never as evidence that a modality prevents disease here.
 [inferred from @odonoghue2020]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Decision relevance
 
 - **If an adult with obesity is going to exercise for body composition, combined (aerobic + resistance)
@@ -203,8 +181,6 @@ source's cited context, never as evidence that a modality prevents disease here.
 
 [inferred from @odonoghue2020]
 
-</div>
-
 ## Limits
 
 - **Single gold source, `confidence: low`.** One NMA carries the ranking; the cross-links to
@@ -219,8 +195,6 @@ source's cited context, never as evidence that a modality prevents disease here.
   3x45 min/week) — the ranking cannot be extrapolated beyond that studied dose or to non-obese adults.
 - **The CRF ranking orders non-significant results** and must not be read as establishing a
   fitness-modality order.
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Self-critique `[run 2026-10-04, before commit]`
 
@@ -241,7 +215,5 @@ source's cited context, never as evidence that a modality prevents disease here.
   Jiang and Khalafi figures were not, now tagged); magnitudes carry their CIs;
   the *least effective* and *most promising* verdicts are quoted (in the main-finding span) with their
   stratum (BMI >=30).
-
-</div>
 
 ## References

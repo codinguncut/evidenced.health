@@ -38,8 +38,6 @@ women (Europeans)» or BMI >=25; prediabetes/T2D (fasting glucose 5.6-6.9 / >=7.
 factor counts), not outcome targets.
 [@easl2024]
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The lever, and its dose-response — the actionable finding
 
 **Weight loss is the base-layer treatment, and the histological benefit is dose-dependent and
@@ -71,10 +69,6 @@ damage.»
   under-study, not a shown null. So the lever works on the
   *reversible* stages; once bridging fibrosis/cirrhosis is present, lifestyle is not shown to reverse it.
 [@easl2024]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## The second guidance family — AASLD 2023 agrees on the ladder's shape, and it is un-GRADEd `[AASLD 2023]`
 
@@ -157,8 +151,6 @@ mortality / all-cause mortality, and the guidance body itself flags the last lin
 patient-important endpoints (liver-related death, all-cause mortality, decompensation) are the
 under-measured dark region -> [[Surrogate Outcomes]]; the histological "response" the trials report is two
 surrogate-steps short of them. [@aasld2023]
-
-</div>
 
 ## The drug comparator — drugs hit the same surrogate ceiling; only bariatric surgery is shown on mortality `[AASLD 2023]`
 
@@ -282,8 +274,6 @@ Imamura glucose-insulin feeding-trial MA the SFA page also holds — so it is sh
 not an independent second route.
 [inferred from @winterseekelen2020]
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The graded lifestyle-lever menu — only sugary soda is high-grade, and the treatments move surrogates not histology `[Peng 2022 umbrella]`
 
 An umbrella review (37 meta-analyses of observational studies and RCTs) quantifies the same lever menu
@@ -334,10 +324,6 @@ increased-risk and the null list reflects conflicting constituent MAs, an unreso
 carries). So the actionable dietary signal narrows to *cutting liquid sugar*, not adding produce.
 [@peng2022nafld]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Is fructose the specific hepatic culprit? Not shown — the held trials point to energy `[2026-08-06, Chung 2014]`
 
 (corrected 2026-10-06: heading *Mostly no — it is an energy story* -> *Not shown*, to match the Guard
@@ -381,8 +367,6 @@ effect, not proof of no effect; and a fructose->de-novo-lipogenesis mechanism is
 nutrients (e.g., fructose) may increase de novo lipogenesis» [@winterseekelen2020]), while Chung grades the direct hepatic-DNL trial evidence
 insufficient. So this is a mechanism-vs-outcome gap, with the mechanism itself only directional.
 [inferred from @chung2014]
-
-</div>
 
 ## Bariatric surgery — the large lever for class II/III obesity
 

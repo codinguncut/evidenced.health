@@ -239,8 +239,6 @@ choice not to downgrade), **not positive route-(b) effect-modification evidence*
 [inferred from @chiavaroli2019] — the reasoned-judgment-not-subgroup-test
 framing is this page's; the no-downgrade decision and the component-RCT warrant are Chiavaroli's.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## A second pooling on a different metric — smaller effect, no baseline-BP modifier (Filippou 2020)
 
 Filippou 2020 (Adv Nutr) pools **30 RCTs (n=5545; mean age 51, BMI 29.2, baseline 134.3/84.9 mmHg,
@@ -340,10 +338,6 @@ be suggested that the BP-lowering effect of the DASH diet is extended to longer 
 
 [inferred from @filippou2020dash; @siervo2015] — the F-not-E call, the two-estimates statement, the confounded-subgroups reading and the route-(a)-not-(b) reading are this page's; the estimates, subgroup results and the authors' caveats are Filippou's.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## The within-trial test: DASH adds less at low sodium, and the two stack sub-additively (Sacks 2001)
 
 DASH-Sodium (NEJM 2001; n=412, SBP 120-159 / DBP 80-95 mmHg, 41% stage-1 hypertensive, 56-57% black by arm,
@@ -404,10 +398,6 @@ authors write «long-term health benefits remain to be demonstrated»), BP only,
 low-sodium target 50 mmol/d not reached (achieved \~65).
 [@sacks2001dashsodium]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Limits
 
 - **Surrogate-only, 2-24 weeks (Siervo; Filippou's pool averages \~15 weeks).** No hard endpoint; the CVD-prevention claim is a modelled projection.
@@ -434,10 +424,6 @@ low-sodium target 50 mmol/d not reached (achieved \~65).
   feeding periods on a BP surrogate. [inferred from @sacks2001dashsodium]
 
 [inferred from @siervo2015; @chiavaroli2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-07">
 
 ## Decision relevance
 
@@ -492,7 +478,5 @@ predicted \~-12.6 if the single effects summed. Both together still beat either 
 lowering do both, and estimate the combined effect from the factorial (-8.9 in this trial), not by adding two separate numbers. The trial's
 -11.5 hypertensive / -7.1 non-hypertensive split is a prespecified but unadjusted single-trial subgroup
 (P=0.004), not a stratum estimate; the page default stays route (a). [inferred from @sacks2001dashsodium]
-
-</div>
 
 ## References

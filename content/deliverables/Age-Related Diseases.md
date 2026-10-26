@@ -128,8 +128,6 @@ This is the shared-lever thesis's sharpest test, so it earns a full appraisal of
 highest-risk person, the per-lever ranking, and the diet and sleep candidates that turn out to route
 through the same cardiometabolic rocks rather than adding independent targets.
 
-<div class="recent-update" data-last-updated="2026-10-06">
-
 ## Cancer, heart disease, diabetes — the increments beyond the rocks
 
 Cancer and the cardiometabolic diseases tell the same shared-rock story with fewer surprises — and a
@@ -196,10 +194,6 @@ adiposity rock beneath them -> [[Body Fatness and Cancer Risk]].
 Most of the population's cancer burden sits entirely outside this diet/activity/adiposity list —
 tobacco, infection (HPV, hepatitis, *H. pylori*) and occupational exposure carry a comparable or larger
 share and fall outside this deliverable's lifestyle scope.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-06">
 
 ## Keeping the body working — frailty, muscle, bone, falls
 
@@ -299,8 +293,6 @@ to the oldest-old without checking which stratum it is being applied to ->
 
 The shared-lever logic is powerful but not universal — two places break it, and the breaks are
 instructive.
-
-</div>
 
 ## Where the shared logic breaks — Parkinson's and the eyes
 

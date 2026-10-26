@@ -2,8 +2,8 @@
 type: concept
 question: Does physical activity/exercise reduce chronic pain and improve function, with what certainty, and is it safe?
 aliases: [Chronic Pain, Exercise for Chronic Pain, Physical Activity for Pain, Chronic Pain Exercise, Pain and Exercise]
-authors: [Geneen, Louise J; Moore, R Andrew; Smith, Blair H; Messier, Stephen P]
-sources: [Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013]
+authors: [Geneen, Louise J; Moore, R Andrew; Smith, Blair H; Messier, Stephen P; Smith, Benjamin Edward; Hendrick, Paul A.; Smith, Toby Oliver; Bateman, Marcus; Moffatt, Fiona; Rathleff, Michael Skovdal; Selfe, James; Logan, Pip]
+sources: [Geneen - Physical Activity Exercise Chronic Pain Cochrane Overview 2017, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Smith - Painful Exercise Chronic Musculoskeletal Pain Meta-Analysis 2017]
 cluster: chronic-pain
 nucleus: true
 confidence: low
@@ -16,9 +16,10 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Physical Activity Dose and Mortality
     - Massage Therapy for Pain and Function
+    - Exercising Into Pain for Chronic Musculoskeletal Pain
 created: 2026-08-08
-updated: 2026-10-04
-self_critiqued: 2026-08-08
+updated: 2026-10-22
+self_critiqued: 2026-10-22
 ---
 
 Nucleus of the `chronic-pain` cluster. **Scope:** exercise/PA as a modifiable lever for *chronic
@@ -26,6 +27,7 @@ non-cancer pain* (pain >=12 weeks; \~20% adult prevalence) — a function/QoL le
 pain *management* (drug/injection/surgery selection, acute-pain control, diagnosis) is out. The
 patient-important outcomes here — self-reported pain, physical function, QoL — are the ones measured
 *worst*, so this page carries **more honest uncertainty, not more confident advice**.
+[@geneen2017chronicpain]
 
 ## The verdict — safe, probably helps function and pain a little, but the evidence is genuinely weak
 
@@ -53,9 +55,11 @@ unchanged from pub2, so all attributions carry over.
   effects).
 - **Safety is the load-bearing, decision-changing finding.** «none of the physical and activity
   interventions assessed appeared to cause harm to the participants» — most adverse events were transient
-  soreness that subsided. This directly counters the fear-of-movement belief (patients told for decades to
-  *rest*). The decision-change: for the chronic-pain patient afraid exercise will worsen their condition,
-  the evidence says it is safe and may help function — start.
+  soreness that subsided — though «only 25% of included studies actively reported adverse events»
+  [@geneen2017chronicpain]. This
+  counters the fear-of-movement belief (patients told for decades to *rest*). The decision-change: for the
+  chronic-pain patient afraid exercise will worsen their condition, the evidence is reassuring on safety,
+  not conclusive, and suggests it may help function — start, with pacing.
 
 ## Why the certainty is low — a structural weakness, not evidence of no effect
 
@@ -102,10 +106,54 @@ for *specific* conditions the answer sharpens — knee OA has a strong weight-lo
 answers -> [[Exercise for Preventing Falls in Older Adults]]. The decision improves by descending from
 the umbrella to the condition.
 
+## Must the exercise be pain-free? — a second contrast inside the choice (F)
+
+Geneen answers *exercise vs no exercise*; it does not say how much pain is acceptable during exercise
+[searched: `into pain` / `pain during exercise` = 0; `pain-free` only as walking time/distance, Geneen chunks 01-04]. Smith's systematic review and meta-analysis asks exactly that:
+programmes allowing pain vs pain-free programmes, both arms receiving exercise-based care (one control was
+multimodal usual physiotherapy), in localized chronic musculoskeletal pain (7 small RCTs, pain pooled from
+6 with n=385; six of seven shoulder, Achilles or plantar-heel conditions, one low back). Pain outcomes
+favoured the painful arm in the short term (SMD -0.28, -0.49 to -0.08, low; sensitivity -0.27, -0.54 to
+-0.05, moderate). At 3-12 months the 3-trial pool also favoured it (-0.59, -1.03 to -0.15, low), but the
+single-trial sensitivity analysis was null (-0.32, -0.95 to 0.31) and the paper's own summary reports no
+medium-term difference. At >=12 months no difference was detected (0.01, -0.39 to 0.41, very low;
+sensitivity 0.13, -0.14 to 0.40, moderate).
+[@smith2017painful]
+The painful arms also used heavier loads, and «it is unknown if the difference in responses can be
+attributable to these two elements»; no trial recorded the pain participants actually felt.
+[@smith2017painful]
+
+| Parameter | Geneen (umbrella) — chunk 01-02 | Smith (MA) — chunk 01 | Same quantity? |
+|---|---|---|---|
+| Contrast | «exercise versus no exercise/minimal intervention» (chunk 01) | pain-allowed (heavier-load) vs pain-free exercise | **No** — Smith is within exercise |
+| Population | 10 conditions incl. RA, OA, fibromyalgia, LBP, neck | localized MSK pain >3 mo; shoulder, Achilles, plantar, LBP; fibromyalgia excluded | **No** — partial overlap (LBP) |
+| Pain outcome | self-reported pain, many scales | VAS, SPADI, KOOS and FFI pain pooled as SMD | Partly — both pool across instruments |
+| Harm | «none of the physical and activity interventions assessed appeared to cause harm to the participants», though «only 25% of included studies actively reported adverse events» (chunk 02); commonest event «increased soreness or muscle pain, which reportedly subsided» (chunk 01) | no adverse-event outcome reported | **No** — Geneen thin, Smith silent |
+
+[inferred from @geneen2017chronicpain; @smith2017painful]
+
+- **A complement, not a corroboration or a tension.** Smith answers a question Geneen does not ask (F by
+  covering a blind spot). Once the decision to exercise is made, the held evidence gives no support for a
+  strict pain-free rule for *bounded* pain (a level near 5/10 in four trials, pain required to settle
+  between immediately and the next morning, no rise in daily pain) in mostly shoulder, Achilles and
+  plantar-heel pain. It says nothing about OA, RA, fibromyalgia or unbounded pain.
+- **The same small-trial caution applies to Smith.** Seven small, all-unblinded trials with self-reported
+  pain carry the inflation risk this page applies to Geneen. Converted with the low-back trial's VAS SDs
+  (21-29 mm), -0.27 SMD is roughly 6-8 mm on a 100 mm scale, below the >=10/100 benchmark Geneen uses. The
+  short-term edge is small; the decision-relevant reading is that allowing pain was not shown to be worse.
+- **Neither source tests whether pain-allowed protocols are as safe as pain-free ones.** Geneen's thin
+  adverse-event data (commonest event transient soreness) and its warning that programmes without pacing
+  «may bring about adverse events such as pain 'flare-ups'» (chunk 01) fit Smith's protocols, which built
+  in a settling rule, but do not test them. Smith's only indirect check, long-term pain, did not differ;
+  its interval does not exclude a small disadvantage.
+
+Detail, the load confound, and the protocol conventions -> [[Exercising Into Pain for Chronic Musculoskeletal Pain]].
+
 ## Decision relevance
 
-- **The realistic comparator matters.** Exercise «is likely to be associated with minimal adverse
-  effects ... when compared to pharmaceutical and surgical interventions» [@geneen2017chronicpain]
+- **The realistic comparator matters.** Geneen's background premise (not a pooled finding) is that
+  exercise «is likely to be associated with minimal adverse effects ... when compared to pharmaceutical
+  and surgical interventions», making it attractive «if the systematic reviews show benefit» [@geneen2017chronicpain]
   — judged against drugs/surgery (with their harms), a safe, self-managed intervention with a probable
   small function benefit is an attractive adjunct even at low certainty.
 - **Adherence is the binding real-world constraint** — «simply giving an individual advice to exercise is

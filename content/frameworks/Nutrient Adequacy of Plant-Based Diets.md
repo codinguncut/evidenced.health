@@ -84,8 +84,6 @@ adverse health consequences in adult vegetarians with lower zinc status, suggest
 zinc utilization may be increased in vegetarians on the longer term» [@neufingerl2021plant] — lower zinc status here is a surrogate whose transmission to harm is
 itself unestablished, exactly the [[Surrogate Outcomes]] discipline.
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## The at-risk panel, by stratum
 
 Risk is **stratum-graded: vegan > vegetarian > meat-eater** for the animal-sourced nutrients, and reversed
@@ -108,8 +106,6 @@ plus deficiency-prevalence where a biomarker cutoff existed
 nutrients — fiber, PUFA, ALA, folate, vitamin E, magnesium — and, alongside everyone else, vitamin D and
 calcium [@neufingerl2021plant]. "Nutrient inadequacy" is not
 a property of plant-based diets; it is a property of *any* non-diverse diet, differently distributed.
-
-</div>
 
 ## What each risk actually licenses (the levers, not a prescription)
 
@@ -141,8 +137,6 @@ review filling a gap, not a second independent witness to the same quantity. The
 is built on the B12 page. No `[E-independent]` is claimed here
 .
 
-<div class="recent-update" data-last-updated="2026-10-07">
-
 ## Confidence and gaps
 
 **Confidence `medium`** — gold-design SR, but a single source, all endpoints are surrogates (intake/status,
@@ -164,7 +158,5 @@ Key limitations and gaps (G):
 - **Western populations only**; results may not transport to other food systems.
 - **Cutoff and measurement heterogeneity** drive part of every deficiency band (the same caveat that governs
   the B12 prevalence range).
-
-</div>
 
 ## References

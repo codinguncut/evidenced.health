@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-10-22
+updated: 2026-10-26
 self_critiqued: 2026-09-24
 ---
 
@@ -90,6 +90,8 @@ similar conclusions» [@kreider2017].
   a repletion-vs-enhancement gradient (route (a)/(b)) analogous to the deficiency structure on
   [[Deficiency Repletion vs Enhancement]], though here on a surrogate, not a hard outcome.
 
+<div class="recent-update" data-last-updated="2026-10-26">
+
 ## Safety — the decision-relevant finding, and the creatinine trap
 
 The safety profile is the part of this document with the widest evidence base, and it directly answers a
@@ -100,18 +102,29 @@ to 0.8 g/kg/day for up to 5 years «there is no compelling evidence that creatin
 negatively affects renal function in healthy or clinical populations»
 [@kreider2017].
 
-- **The creatinine confound (decision-change).** Creatine is metabolised to creatinine — the same marker
-  used to *estimate* kidney function — so supplementation can raise serum creatinine (and thus lower an
-  estimated GFR) **without any change in actual renal function**; controlled studies of GFR and creatinine
-  clearance found no true impairment [@kreider2017]. The practical consequence: a raised creatinine in a creatine user is not, by itself,
-  evidence of kidney damage — but it will be *read* as such by a clinician who does not know the person
-  supplements. [inferred from @kreider2017]
+- **The creatinine confound (decision-change).** Creatine is broken down to creatinine — «About 1–2% of
+  intramuscular creatine is degraded into creatinine (metabolic byproduct) and excreted in the urine»
+  [@kreider2017] — the same marker
+  used to *estimate* kidney function. Controlled studies of GFR and creatinine clearance found no true
+  impairment, and Kreider's own 21-month trial in football players found «no significant effects on
+  creatinine or creatinine clearance»; the reports of high creatinine are case studies
+  [@kreider2017]. That
+  supplementation can raise a serum creatinine reading (and so lower an estimated GFR) without any change
+  in actual renal function is the wiki's inference from the byproduct mechanism; the held source reports no
+  such benign rise in a controlled study (its high-creatinine reports are uncontrolled case studies, some
+  with renal dysfunction or other supplements), and the one cited trial that reports creatinine itself (21 months) found no significant
+  change in it, so the step is unconfirmed here. The practical consequence, if it does occur: a raised creatinine in a creatine user is not, by
+  itself, evidence of kidney damage — but it will be *read* as such by a clinician who does not know the
+  person supplements, so disclosing supplementation before a creatinine test costs nothing.
+  [inferred from @kreider2017]
 - **The weight gain is water + lean mass, not fat** — partly acute osmotic fluid retention (\~0.5-1.0 L on
   loading) [@kreider2017]; a
   consideration for weight-class athletes, not a health harm.
 - **Symmetric-standards caveat:** the safety conclusion is stated by an industry-funded body with an
   interest in it; it rests on a genuinely large literature, but a favourable safety claim from a conflicted
   source earns the same scrutiny as an unfavourable one (see *The source caveat*).
+
+</div>
 
 ## The unestablished claims — kept out of the benefit column
 

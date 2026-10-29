@@ -2,8 +2,8 @@
 type: framework
 question: Does exercise have to be supervised, or does unsupervised (home) delivery retain enough of the benefit to be the realistic default?
 aliases: [Supervised vs Unsupervised Exercise, Home-Based Exercise, Supervised Exercise, Unsupervised Exercise, Exercise Delivery Format, Supervision and Exercise Outcomes, Home vs Gym Exercise]
-authors: [Gomez-Redondo, Paola; Valenzuela, Pedro L.; Morales, Javier S.; Ara, Ignacio; Manas, Asier; Franklin, Barry A.; Riebe, Deborah A.; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
-sources: [Gomez-Redondo - Supervised Unsupervised Exercise, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Riebe - ACSM Preparticipation Health Screening 2015, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
+authors: [Gomez-Redondo, Paola; Valenzuela, Pedro L.; Morales, Javier S.; Ara, Ignacio; Manas, Asier; Franklin, Barry A.; Riebe, Deborah A.; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Niemeijer, Andre; Lund, Hans; Stafne, Signe Nilssen; Ipsen, Thomas; Goldschmidt, Cathrine Luhaäär; Jørgensen, Claus Thomas; Juhl, Carsten B]
+sources: [Gomez-Redondo - Supervised Unsupervised Exercise, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Riebe - ACSM Preparticipation Health Screening 2015, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011, Niemeijer - Exercise Therapy Adverse Events 2020]
 cluster: activity
 nucleus: false
 confidence: low
@@ -18,7 +18,7 @@ relationships:
     - Exercise-Related Acute Cardiac Events
     - Implementation Intentions and Action Planning for Physical Activity
 created: 2026-10-04
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-10-22
 ---
 
@@ -144,6 +144,8 @@ these outcomes [@gomezredondo2024].
 Knee extension strength is also a prognostically weighty target — it tracks ADL/function and mortality
 -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]].
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Substitution framing and who this changes
 
 - **For a self-directed, reasonably capable person:** unsupervised home exercise is a sufficient
@@ -164,6 +166,31 @@ Knee extension strength is also a prognostically weighty target — it tracks AD
   both arms [@gomezredondo2024] — though note
   dose was not equated, so a dose-matched unsupervised program might carry a different (unmeasured)
   injury profile for a deconditioned novice -> [[Resistance Training Prescription - Load Sets and Frequency]].
+  An all-population exercise-harm meta-analysis also detects no format difference, on a different
+  quantity (minor events). Niemeijer pooled each format against a non-exercising control and compared
+  the formats across trials by meta-regression; no included trial randomised one format against the other. Supervised trials gave
+  a non-serious adverse-event RR of 1.17 (95% CI 1.05-1.30; 200 trials, 17,862 participants), unsupervised
+  trials 1.34 (0.84-2.14; 33 trials, 2634), and «The RR of a non-serious adverse event associated with
+  participating in a supervised exercise intervention was found to be 1.17 (95%CI 1.05 to 1.30), but no
+  differences were found for the risk of adverse events between supervised and un-super- vised or between
+  performing exercise in groups and individually (figure 2).»
+  [@niemeijer2020]
+  That is a between-trial comparison across 16 condition groups, on minor events only, so it shows no
+  difference detected between formats, not equal safety. The supervised estimate is the one significant
+  against control; the unsupervised one (33 trials, CI 0.84-2.14) is too imprecise to place above or below
+  it in either direction. [inferred from @niemeijer2020]
+  Both format estimates rest on the half of trials that reported harms: «Only 49% of all primary studies
+  reported non-serious adverse events (375 out of 773 included studies).» The authors weigh the whole-pool
+  estimate both ways: «However, as there was a trend towards a higher risk of non-serious adverse
+  events in studies with a low risk of bias compared with unclear and high risk of bias, this may
+  underestimate the risk of non-serious adverse events.» and «Although only 49% of the primary studies
+  reported adverse events, the large number of studies (375) and participants (38 517) in the analysis of
+  this systematic review may indicate that the identified estimate of increased risk may not change.»
+  The review's Introduction cites the opposite default as a disease-specific caveat: «In some cases»,
+  guidelines «recommend avoidance of unsupervised exercise, due to the risk of performing the prescribed
+  exercise incorrectly, and thereby increasing the risk of adverse events.» Its one citation for that
+  (ref 17) is the NICE chronic fatigue syndrome guideline (CG53, 2007).
+  [@niemeijer2020]
 - **Except after a recent cardiac event, and for vigorous or HIIT work in known or suspected coronary
   disease — a route-(c) stratum this source does not cover `[2026-10-21, Franklin]`.** An AHA scientific
   statement (consensus) recommends supervision for one named group: «Medically supervised programs
@@ -238,6 +265,8 @@ Knee extension strength is also a prognostically weighty target — it tracks AD
   acceptable default, not on supervision being unnecessary for the novice or the higher-risk person.
   [@garber2011acsm] Franklin, Barry A.
   co-authors this stand and the AHA statement above, so no independence is claimed between them.
+
+</div>
 
 ## Transportability — older adults, not middle-aged
 

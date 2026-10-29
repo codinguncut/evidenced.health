@@ -9,7 +9,7 @@ authors: [Lane, Melissa M; Hall, Kevin D; Nordic Council of Ministers (org); Te 
 sources: [Lane - Ultra-Processed Food Umbrella 2024, Hall - Ultra-Processed Diets Inpatient RCT 2019, NNR - Nordic Nutrition Recommendations 2023, Te Morenga - Dietary Sugars and Body Weight 2013, SACN - Carbohydrates and Health 2015, Robinson - Eating Rate and Energy Intake Meta-Analysis 2014, Aramburu - Ultra-Processed Food RCT Review, WHO - Sugars Intake 2015, Qin - Sweetened Beverages Obesity Diabetes Meta-Analysis 2020, Fazzino - Hyper-Palatable Foods Quantitative Definition 2019, Sutton - Ultraprocessed Hyper-Palatable Energy-Dense Foods 2023, Schulte - Which Foods May Be Addictive 2015, Gordon - Evidence for Food Addiction Systematic Review 2018, Pursey - Food Addiction Prevalence YFAS Systematic Review 2014, WHO - Non-Sugar Sweeteners 2023, Said Abasse - Dietary Nitrate Nitrite Site-Specific Cancer 2022, Baye - Low AGE Diet Cardiometabolic 2017, WCRF - Meat Fish and Dairy Products and Cancer 2018, Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, NutriRECS - Red and Processed Meat Recommendations 2019, WCRF - Diet Nutrition Activity Cancer 2018, Afshin - Health Effects of Dietary Risks GBD 2019, Henney - Ultra-Processed Food Dementia 2023, IARC - Aspartame Carcinogenicity 2023, JECFA - Aspartame Safety Evaluation 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: low
 created: 2026-08-01
-updated: 2026-10-02
+updated: 2026-10-26
 self_critiqued: 2026-10-02
 ---
 
@@ -73,6 +73,8 @@ you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
 
+<div class="recent-update" data-last-updated="2026-10-26">
+
 ## The category average is real, but confounded and low-certainty
 
 **The category average is real: broad, consistent, and drawn from a lot of people.** Lane's umbrella
@@ -113,12 +115,16 @@ and deprivation, not a clean exposure. [@nnr2023]
 Lane defends the associations — adjusting for diet-quality *patterns* leaves them standing — but this
 does not close the gap. Adjusting for a pattern is not the same as matching the sugar, salt, fat and fibre
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
-— and the newest outcome arm, cognition, shows just how much of the association the confounding can swallow.
+— and the newest outcome arm, cognition, shows how fragile such an association can be under adjustment.
 
-## Dementia and cognition: the signal thins on adjustment
+</div>
 
-**Add dementia to the outcome list and it behaves the way this whole decomposition predicts — real at
-face value, thinning toward nothing once you hold the metabolic and calorie channels fixed.** The first
+<div class="recent-update" data-last-updated="2026-10-26">
+
+## Dementia and cognition: a fragile signal that adjustment does not settle
+
+**Add dementia to the outcome list and the signal is real at face value but fragile: it stayed
+significant in three of five adjustment subsets and lost significance in two.** The first
 meta-analysis to pool the ultra-processed-food-to-dementia link found high (versus low) intake tracked
 all-cause dementia at **RR 1.44 (95% CI 1.09-1.90)**. But the study set was so disparate that the pooled
 figure averages almost anything (I2 = 97%), and moderate intake was flat (RR 1.12, 0.96-1.31), so the
@@ -127,15 +133,24 @@ Taken one at a time, every dementia subtype was non-significant — Alzheimer's 
 2.05 (0.39-10.90), mild cognitive impairment 2.01 (0.75-5.42), dementia excluding MCI 1.24 (0.93-1.65) —
 so only the pooled all-cause number clears significance. [@henney2023upf]
 
-**Adjust for diabetes or total calories, and the association loses significance.** Restrict the pool to the studies that adjusted for
-type 2 diabetes and the association is gone (RR 1.47, 0.97-2.00); restrict to those adjusting for total
-energy intake and it is gone again (RR 1.26, 0.95-1.67); it also falls apart above a 10,000-participant
-study-size cutoff, the small-study tell. [@henney2023upf]
-Read against this deliverable's thesis, that is the answer: the dementia signal is consistent with running
-*through* the cardiometabolic disease and surplus calories ultra-processed food carries, not with a
-processing-specific effect on the brain.
+**Pool only the studies that adjusted for diabetes or total calories, and the association loses significance.** Restrict the pool to the studies that adjusted for
+type 2 diabetes and the association is no longer significant, though the point estimate barely moves (RR 1.47,
+0.97-2.00); restrict to those adjusting for total energy intake and it is lower and loses significance again
+(RR 1.26, 0.95-1.67). It also loses significance when the studies are split at 10,000 participants, and the
+smaller studies show the widest spread of estimates. [@henney2023upf]
+The association held when studies adjusted for BMI (RR 1.46, 1.07-2.00), cardiovascular disease (1.46,
+1.07-2.00) or socioeconomic status (1.39, 1.02-1.90). [@henney2023upf]
+Neither lost result settles how ultra-processed food might act. Each figure pools only the studies that made
+that adjustment, so it compares a different mix of studies, not the same studies with and without it. The
+calorie subset's lower estimate fits part of the signal running *through* surplus calories, but that subset
+also leaves out studies that did not adjust for calories, including one that reported RR 2.80 for high
+intake. The diabetes subset's estimate does not shrink at all (1.47 against 1.44); it loses significance on a
+wider interval, although the equally large BMI and cardiovascular subsets stayed significant. Neither result
+shows a processing-specific effect on the brain, and neither rules one out.
 [inferred from @henney2023upf]
-The same decomposition, applied to weight and heart disease, reaches the same place for cognition.
+As with the observational heart-disease and mortality associations, the dementia studies cannot separate
+processing from the calories and metabolic disease it travels with; only for intake has a trial held
+composition fixed.
 
 **Widen the outcome from a dementia diagnosis to cognition generally and the picture holds.** A second
 review — a narrative synthesis of five observational studies, still a preprint — took in global cognition,
@@ -152,6 +167,8 @@ replaces* the food, not the label. [@smith2025upf]
 Feeding trials to a dementia endpoint are ethically impossible, so this arm stays observational by design.
 Intake is the one outcome where a composition-fixed design does exist — and there, processing does move
 the needle.
+
+</div>
 
 ## Processing does move how much you eat — through levers you can name
 

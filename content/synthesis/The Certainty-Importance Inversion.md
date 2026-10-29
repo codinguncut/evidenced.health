@@ -7,6 +7,7 @@ sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-28
+updated: 2026-10-28
 relationships:
   related_to:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
@@ -46,6 +47,8 @@ quoted above is floor-to-ceiling; the *effective* gap after that transfer is nar
 
 
 [@who2012] [@who2023saturated]
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## The counter-instance, and what it reveals about the cause
 
 **The inversion is NOT a law, and physical activity breaks it:** it is rated **HIGH certainty on
@@ -73,6 +76,8 @@ The inversion is therefore a symptom of **thin hard-outcome trial evidence meeti
 marker** — wherever the outcome has been tried (or measured in large objective cohorts), certainty can
 attach to the outcome directly.
 [inferred from @who2012; @who2023saturated; @who2020]
+
+</div>
 
 ## Why carbohydrate restriction is NOT a third instance
 

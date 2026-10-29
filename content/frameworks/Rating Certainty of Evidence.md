@@ -2,8 +2,8 @@
 type: framework
 question: How is confidence in a body of evidence rated, and what can raise or lower it?
 aliases: [Quality of Evidence, Certainty of Evidence, GRADE Rating, Five Downgrade Factors, Three Upgrade Factors, Evidence Grading]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; Higgins, Julian PT; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Szczerba, Edyta; Churuangsuk, Chaitong]
-sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022, Cochrane - Handbook for Systematic Reviews 6.5, NASEM - Finding What Works in Health Care, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; Higgins, Julian PT; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Szczerba, Edyta; Churuangsuk, Chaitong; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [GRADE - Handbook, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, WHO - Physical Activity Web Annex Evidence Profiles 2020, SACN - Carbohydrates and Health 2015, NASEM - Redesigning the DGA Process, USPSTF - Procedure Manual 2022, Cochrane - Handbook for Systematic Reviews 6.5, NASEM - Finding What Works in Health Care, Szczerba - Diet Type 2 Diabetes Umbrella Review 2023, Churuangsuk - Diabetes Diets Umbrella Review 2022, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 cluster: evidence-appraisal
 self_critiqued: 2026-08-04
 relationships:
@@ -13,7 +13,7 @@ relationships:
     - Upgrading Observational Evidence
     - Rating Outcome Importance
 created: 2026-07-25
-updated: 2026-08-04
+updated: 2026-10-29
 ---
 
 Four grades — **high / moderate / low / very low** — assigned to a *body* of evidence, starting from
@@ -438,6 +438,8 @@ distinguish them. `-> [[Was GRADE Actually Used]]`
   this session, all self-inflicted; the checker continues to outperform care.
 - **Adjudication check:** no challenge or standing-challenge row scored in this pass.
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## How the study-level risk-of-bias verdict FEEDS this domain — the crosswalk `[2026-07-31]`
 
 The "risk of bias (study limitations)" downgrade factor above is stated but not operationalized: *how*
@@ -478,6 +480,33 @@ domain» — via an explicit crosswalk:
 "moderate" built from ROBINS-I assessments that never seriously probed confounding is a moderate on
 paper only — which is exactly where the held nutrition-cohort pages sit
 (→ [[Risk of Bias Assessment Tools]], re-appraisal candidates).
+
+**A second start-high route for observational evidence: prognostic GRADE `[2026-10-28, Lang]`.** An
+umbrella on fitness and health outcomes sets out to summarise meta-analyses «that evaluated the
+predictive associations between baseline cardiorespiratory fitness (CRF) and health outcomes among
+adults», and states: «Observational cohort evidence began at ‘high’ certainty because randomised
+controlled trials were deemed not feasible for our research question», with «The certainty of the
+evidence could be rated down based on five domains» and no upgrade step in the main text [searched:
+upgrad / rated up — srcgrep, 1 file, 0 hits; its GRADE decision-rules table is an unheld supplement].
+The start-high sentence cites Iorio 2015, *Use of GRADE for assessment of evidence about prognosis:
+rating confidence in estimates of event rates in broad categories of patients* (ref 34). Methods also
+frames the cohort focus causally: «These studies were the focus because of their ability to assess
+causality for observational research.»
+[@lang2024crf]
+Iorio's is an event-rate framework; Lang applies it to exposure-category HRs, a prognostic-*factor*
+contrast, so the fit is approximate. [inferred from @lang2024crf]
+This differs from the ROBINS-I route above: no default two-level confounding penalty applies
+(confounding enters only through the risk-of-bias domain), because the question graded is *does the
+exposure predict the outcome?*, not *does changing it change the outcome?* Lang justifies the high
+start by RCT infeasibility, an intervention-question argument, picks cohort designs for their ability to
+assess causality, and later reads its results as possibly causal, so a prognostic start-high ends up
+applied to a question the authors also treat causally. A
+"moderate" from this route and a "moderate" on an intervention question are different objects under
+one label, and borrowing the first as support for acting on the exposure skips the penalty the
+intervention question would have carried -> [[Cardiorespiratory Fitness and Mortality]].
+[inferred from @lang2024crf]
+
+</div>
 
 ## GRADE's eight factors are embedded in the IOM SR standard — shared lineage, not corroboration `[2026-07-31, IOM]`
 

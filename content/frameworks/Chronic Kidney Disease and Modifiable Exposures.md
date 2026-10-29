@@ -2,13 +2,13 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce the risk of new-onset chronic kidney disease in a reasonably-healthy person, by how much, for whom, and how confident can we be?
 aliases: [CKD Prevention, Modifiable Risk Factors for CKD, Lifestyle and Kidney Disease Risk, Preventing Chronic Kidney Disease, Diet Physical Activity and CKD]
-authors: [He, Ling-Qiong; Wu, Xu-Hong; Huang, Yi-Qian; Zhang, Xiao-Yan; Shu, Long; Seidu, Samuel; Abdool, Mohammad; Almaqhawi, Abdullah; Wilkinson, Thomas J; Kunutsor, Setor K; Khunti, Kamlesh; Yates, Tom; Kelly, Jaimon T; Su, Guobin; Zhang, La; Qin, Xindong; Marshall, Skye; Gonzalez-Ortiz, Ailema; Clase, Catherine M; Campbell, Katrina L; Xu, Hong; Carrero, Juan-Jesus]
-sources: [He - Dietary Patterns Chronic Kidney Disease Risk SR 2020, Seidu - Physical Activity Chronic Kidney Disease Risk Meta-Analysis 2023, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020]
+authors: [He, Ling-Qiong; Wu, Xu-Hong; Huang, Yi-Qian; Zhang, Xiao-Yan; Shu, Long; Seidu, Samuel; Abdool, Mohammad; Almaqhawi, Abdullah; Wilkinson, Thomas J; Kunutsor, Setor K; Khunti, Kamlesh; Yates, Tom; Kelly, Jaimon T; Su, Guobin; Zhang, La; Qin, Xindong; Marshall, Skye; Gonzalez-Ortiz, Ailema; Clase, Catherine M; Campbell, Katrina L; Xu, Hong; Carrero, Juan-Jesus; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [He - Dietary Patterns Chronic Kidney Disease Risk SR 2020, Seidu - Physical Activity Chronic Kidney Disease Risk Meta-Analysis 2023, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 nucleus: true
 cluster: chronic-kidney-disease
 confidence: low
 created: 2026-08-28
-updated: 2026-09-25
+updated: 2026-10-29
 self_critiqued: 2026-08-29
 relationships:
   related_to:
@@ -87,6 +87,8 @@ honest read is *your remaining CKD-specific gains are small and uncertain*, whic
 Ranking orders *where to act*; it does not privilege any lever as *the cause* (an effect needs its whole
 support set).
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Single-exposure levers (Kelly 2020) — sodium and smoking now held, diet decomposed
 
 Kelly 2020 (SR + MA, **104 observational studies, \~2.76M participants**, GRADE) inventories
@@ -159,6 +161,24 @@ independent backing of one claim and not a joined-issue clash (the parameter tab
 establishes the levers are not the same quantity). The one shared lever — PA, vs Seidu — is
 confirmation with a shared-cohort caveat, handled above.
 
+**Measured fitness as a CKD marker — one small MA, VERY LOW certainty `[2026-10-28, Lang]`.** Lang's
+umbrella of cohort meta-analyses carries Kunutsor 2023: high vs low cardiorespiratory fitness, incident
+CKD RR 0.58 (0.46-0.73), 5 cohorts, n=32,447, AMSTAR2 moderate, graded VERY LOW by Lang's prognostic
+GRADE (observational evidence started high; the main text lists only downgrade domains, and its
+decision-rules table is an unheld supplement). Lang gives inconsistency and indirectness as the main
+reasons incident outcomes were downgraded, the latter from «largely male populations»; it gives no sex
+split for this row (for all-cause mortality the split is 1,858,274 men vs 180,202 women), and expects
+more female data to raise certainty rather than change magnitude.
+[@lang2024crf]
+This is a different exposure from the PA rows above (measured capacity, not reported activity; Lang's
+evidence base is single-baseline, though Kunutsor's title also names *usual* CRF, unexamined here), so it is not backing for the activity lever; it also shares an author with Seidu (Kunutsor).
+Lang reports no lag analysis, so low fitness may partly mark early kidney or cardiometabolic decline
+rather than cause it, and it is open to confounding like the PA rows. Read it as a stratification signal
+(fitness as a marker, not the activity lever): low-fit adults sit at higher CKD risk, best-evidenced in
+men. [inferred from @lang2024crf]
+
+</div>
+
 ## Route-(a) baseline-risk stratification — where absolute benefit is largest
 
 The relative effects above are roughly constant across strata; **absolute** CKD benefit scales with
@@ -211,10 +231,13 @@ Seidu's own framing agrees the levers are complementary, not rival: physical act
 piece of the puz- zle» alongside healthy diet, healthy weight, and risk-factor control.
 [@seidu2023ckd]
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Held threads / gaps
 
 - **No RCT / Mendelian-randomization / objective-PA source** for any lever -> the confounding discount
-  cannot be lifted. Named gap.
+  cannot be lifted. Named gap. The measured-fitness row above is objective but measures capacity, not
+  activity, so it does not fill this gap.
 - **No dose-response for PA** (Seidu could not estimate one; no MET-hour unit) and **none believable for
   diet** (measurement error) — so no threshold/knee is locatable for the protective levers. Named gap.
 - **Sodium and smoking are now HELD** as CKD levers (Kelly 2020: sodium RR 1.21 moderate; smoking
@@ -224,5 +247,7 @@ piece of the puz- zle» alongside healthy diet, healthy weight, and risk-factor 
   RR 1.59 (1.30-1.94), moderate** — the first patient-important (non-surrogate) endpoint in the cluster.
   For the *other* levers (obesity, diet, PA, sodium) the surrogate-to-hard-outcome transmission is still
   assumed, not evidenced. Narrowed gap. [@kelly2020ckd]
+
+</div>
 
 ## References

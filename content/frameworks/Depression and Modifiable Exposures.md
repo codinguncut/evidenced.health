@@ -2,8 +2,8 @@
 type: framework
 question: Which modifiable lifestyle exposures reduce depression, for whom, by how much, and how confident can we be?
 aliases: [Depression, Exercise for Depression, Diet and Depression, Nutritional Psychiatry, Lifestyle Depression, Depression Prevention]
-authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed; Liao, Yuhua; Xie, Bo; Zhang, Huimin; He, Qian; Guo, Lan; Subramanieapillai, Mehala; Fan, Beifang; Lu, Ciyong; McIntyre, Roger S; Deane, Katherine H O; Jimoh, Oluseyi F; Biswas, Priti; O'Brien, Alex; Hanson, Sarah; Abdelhamid, Asmaa S; Fox, Chris; Hooper, Lee; Musazadeh, Vali; Keramati, Majid; Ghalichi, Faezeh; Kavyani, Zeynab; Ghoreishi, Zohre; Abu-Zaid, Ahmed; Zarezadeh, Meysam; Mekary, Rania A; Okereke, Olivia I]
-sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Liao - Omega-3 PUFA Depression 2019, Deane - Omega-3 Prevention Depression 2019, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Musazadeh - Vitamin D Depression Umbrella 2023, Marx - Saffron Depression Anxiety 2019, Okereke - VITAL-DEP Vitamin D Depression 2020]
+authors: [Noetel, Michael; Sanders, Taren; Gallardo-Gomez, Daniel; del Pozo Cruz, Borja; Lonsdale, Chris; Molendijk, Marc; Martinez-Gonzalez, Miguel Angel; Jacka, Felice N; O'Neil, Adrienne; Opie, Rachelle; Itsiopoulos, Catherine; Berk, Michael; Bi, Zheng; Jiao, Zhiyu; Li, Jinju; Fang, Zhaohui; Bushi, Ganesh; Khatib, Mahalaqua Nazli; Rohilla, Shivam; Singh, Mahendra Pratap; Uniyal, Nidhi; Shabil, Muhammed; Liao, Yuhua; Xie, Bo; Zhang, Huimin; He, Qian; Guo, Lan; Subramanieapillai, Mehala; Fan, Beifang; Lu, Ciyong; McIntyre, Roger S; Deane, Katherine H O; Jimoh, Oluseyi F; Biswas, Priti; O'Brien, Alex; Hanson, Sarah; Abdelhamid, Asmaa S; Fox, Chris; Hooper, Lee; Musazadeh, Vali; Keramati, Majid; Ghalichi, Faezeh; Kavyani, Zeynab; Ghoreishi, Zohre; Abu-Zaid, Ahmed; Zarezadeh, Meysam; Mekary, Rania A; Okereke, Olivia I; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [Noetel - Exercise Depression Network Meta-Analysis 2024, Molendijk - Diet Quality Depression Dose-Response Meta-Analysis 2017, Jacka - SMILES Trial Diet Depression 2017, Liao - Omega-3 PUFA Depression 2019, Deane - Omega-3 Prevention Depression 2019, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Musazadeh - Vitamin D Depression Umbrella 2023, Marx - Saffron Depression Anxiety 2019, Okereke - VITAL-DEP Vitamin D Depression 2020, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 cluster: depression
 nucleus: true
 confidence: low
@@ -24,7 +24,7 @@ relationships:
     - Acute Carbohydrate Effects on Mood
     - Magnesium Supplementation and Subjective Anxiety
 created: 2026-08-09
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-09-28
 ---
 
@@ -150,6 +150,8 @@ claim — see the distinction below).
 
 
 [@noetel2024exercise]
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Lever 1 — Exercise treats depression (RCT-grade, low certainty)
 
 A Bayesian network meta-analysis of **218 RCTs / 495 arms / 14,170 participants** with major depressive
@@ -174,12 +176,16 @@ network — though the review «was not designed to find all studies of these tr
 should not usurp» the psychotherapy/pharmacotherapy-focused reviews. This is the layer-3 substitution
 point: exercise is a viable **alternative or adjuvant** to first-line treatment, not merely a last resort.
 
-**Dose is about INTENSITY, not volume — and not energy expenditure.** «The effects of exercise were
+**Dose tracks INTENSITY; a volume or energy-expenditure gradient is not shown.** «The effects of exercise were
 proportional to the intensity prescribed»: light PA «still provided clinically meaningful effects
 (g=−0.58, −0.82 to −0.33)», but expected effects were «stronger for vigorous exercise (eg, running,
 interval training; g=−0.74, −1.10 to −0.38)».
-Crucially «This finding did not appear to be due to increased weekly energy expenditure» — the METs/min
-dose-response was «unclear». So more calories burned is *not* the mechanism; intensity is. Benefits were
+«This finding did not appear to be due to increased weekly energy expenditure: credible intervals were
+wide, which meant that the dose- response curve for METs/min prescribed per week was unclear».
+[@noetel2024exercise]
+So energy expenditure is not shown to drive the intensity gradient, but with intervals that wide it is not
+excluded either: intensity is the dose variable with a visible gradient, and calories burned is unresolved
+rather than ruled out. Benefits were
 «equally effective for different weekly doses». This is a genuinely different dose-response object from the
 volume/METs curve on [[Physical Activity Dose and Mortality]] — the mortality lever is dosed in weekly
 minutes, the depression lever in intensity.
@@ -204,11 +210,40 @@ reported 58 times more frequently» to erase it. Grey literature was not systema
 **Mechanism is unresolved**: «Our review did not uncover clear causal mechanisms, but the
 trends in the data are useful for generating hypotheses.» The authors hypothesise a combination (social
 interaction, mindfulness/acceptance, self-efficacy, green space, neurobiology, acute positive affect) —
-no single modality covers all, and the mediation studies were underpowered. That the effect scales with *intensity* but not *energy expenditure* is itself a hint the
-pathway is neuro-affective, not metabolic.
+no single modality covers all, and the mediation studies were underpowered. That the effect shows a visible gradient with *intensity* while the
+energy-expenditure curve is unclear is at most a weak hint that the pathway is neuro-affective rather
+than metabolic; a metabolic route is not excluded.
+
+**Coda on incidence, not treatment — fitness as a marker `[2026-10-28, Lang]`.** The trials above treat
+existing depression; the page's one positive incidence *lever* is diet quality, its signal observational and fragile
+(Lever 2 below; the omega-3 and vitamin D sections record prevention nulls). On *incident* depression, Lang's
+umbrella carries one prognostic row: high vs low cardiorespiratory fitness HR 0.61 (0.48-0.78), Kandola
+2019, 3 cohorts, n=1,145,655, AMSTAR2 critically low, graded VERY LOW by Lang's prognostic GRADE
+(observational evidence started high; the main text lists only downgrade domains, and its
+decision-rules table is an unheld supplement). Kandola's follow-up spans «8 weeks to 42
+years», and «Kandola (2019) reported estimates for low versus high which were inverted for this study».
+Lang gives inconsistency and indirectness as the main reasons incident outcomes were downgraded, the latter
+from «largely male populations»; it gives no sex split for this row (for all-cause mortality the split
+is 1,858,274 men vs 180,202 women), and expects more female data to raise certainty rather than change
+magnitude.
+[@lang2024crf]
+Fitness was measured once at baseline and Lang reports no lag analysis. Kandola's review-wide follow-up range
+(which Lang notes «may include exposures other than CRF»
+[@lang2024crf])
+starts at 8 weeks, so prodromal low mood among the low-fit cannot be excluded. Lang reads its rows as
+possibly causal; here the row is weak directional evidence at most. Unlike the diet row below, fitness
+is a capacity whose own lever, exercise, is already held on RCT evidence above (for treatment, not
+prevention), so the row mainly says
+low-fit adults (best-evidenced in men) are a higher-risk stratum and does not change the treatment reading.
+[inferred from @lang2024crf]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-29">
+
+## Lever 2 — Diet quality tracks lower depression incidence (observational, and fragile)
 
 [@molendijk2017diet]
-## Lever 2 — Diet quality tracks lower depression incidence (observational, and fragile)
 
 A dose-response meta-analysis of **prospective cohorts only** — 29 articles / 24 cohorts / «1,959,217
 person-years» (Molendijk 2017). This is a *different exposure and a different question* from the exercise
@@ -242,6 +277,7 @@ in the *softest* analyses, and dies under the two checks that separate cause fro
   to 1.23)» vs symptom-scale «0.72 (0.65 to 0.81)». Metabolic disease shares somatic symptoms (fatigue,
   weight change) with depression, so a symptom scale can register diet's *metabolic* effect as if it were
   depression — a [[Surrogate Outcomes|surrogate-inflation]] mechanism, not a mood effect.
+  [@molendijk2017diet]
 
 Together these are the [[The U-Shaped Association Artifact|artifact-first discipline]] applied to a
 protective arm: the signal is «less than unequivocal» exactly where the measurement is hardest, and the
@@ -279,6 +315,7 @@ size «Cohen's d of -1.16 (95% CI -1.73, -0.59)», an «average between group di
 on the MADRS». Remission: «32.3% (n = 10) of the dietary support group and 8.0% (n = 2) of the social
 support control group achieved remission criteria of a score less than 10 on the MADRS», between-group
 «χ2 (1) = 4.84, p = 0.028», NNT «4.1 (95% CI of NNT 2.3-27.8)».
+[@jacka2017smiles]
 
 **Do not over-read this — n=67, single unblinded trial, tiny-n (registry tier = moderate).** The authors
 name the binding threat themselves: «there is the issue of expectation bias due to the fact that we
@@ -329,6 +366,9 @@ design also rules out expectancy bias.
 
 
 [@liao2019omega3]
+
+</div>
+
 ## Lever 3 — Omega-3 (EPA): treats symptoms, but does NOT prevent (the one BLINDED lever, smallest effect)
 
 A meta-analysis of **26 double-blind randomized placebo-controlled trials / 2160 participants** of omega-3

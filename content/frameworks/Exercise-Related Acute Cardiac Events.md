@@ -2,14 +2,14 @@
 type: framework
 question: "For an adult starting or stepping up exercise, how large is the risk that a bout triggers sudden cardiac death or a heart attack, who carries that risk, what lowers it, and who needs medical clearance before starting?"
 aliases: [Exercise-Related Sudden Cardiac Death, Exertion-Triggered Myocardial Infarction, Is Exercise Dangerous for the Heart, Acute Cardiac Risk of Exercise, Exercise Cardiac Safety, Triggering of Cardiac Events by Exertion, Sudden Death During Exercise, Exercise Preparticipation Health Screening, Preparticipation Screening, Medical Clearance Before Exercise, ACSM Preparticipation Algorithm, Do I Need a Doctor Before Starting Exercise]
-authors: [Franklin, Barry A.; Thompson, Paul D.; Al‐Zaiti, Salah S.; Albert, Christine M.; Hivert, Marie‐France; Levine, Benjamin D.; Lobelo, Felipe; Madan, Kushal; Sharrief, Anjail Zarinah; Eijsvogels, Thijs M.H.; Riebe, Deborah A.; Garber, Carol Ewing; Whitfield, Geoffrey P.; Magal, Meir; Pescatello, Linda Shannon; Blissmer, Bryan J.; Deschenes, Michael R.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
-sources: [Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Riebe - ACSM Preparticipation Health Screening 2015, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
+authors: [Franklin, Barry A.; Thompson, Paul D.; Al‐Zaiti, Salah S.; Albert, Christine M.; Hivert, Marie‐France; Levine, Benjamin D.; Lobelo, Felipe; Madan, Kushal; Sharrief, Anjail Zarinah; Eijsvogels, Thijs M.H.; Riebe, Deborah A.; Garber, Carol Ewing; Whitfield, Geoffrey P.; Magal, Meir; Pescatello, Linda Shannon; Blissmer, Bryan J.; Deschenes, Michael R.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Niemeijer, Andre; Lund, Hans; Stafne, Signe Nilssen; Ipsen, Thomas; Goldschmidt, Cathrine Luhaäär; Jørgensen, Claus Thomas; Juhl, Carsten B]
+sources: [Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Riebe - ACSM Preparticipation Health Screening 2015, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011, Niemeijer - Exercise Therapy Adverse Events 2020]
 cluster: activity
 confidence: low
 relationships:
   related_to: ["[[Physical Activity Dose and Mortality]]", "[[Cardiorespiratory Fitness and Mortality]]", "[[Supervised vs Unsupervised Exercise]]", "[[The U-Shaped Association Artifact]]", "[[Exercise Safety in Osteoporosis]]", "[[Is the Exercise Modality Doing Any Work]]", "[[Aspirin for Primary Prevention of Cardiovascular Disease]]", "[[Baseline Risk and the Relative-Absolute Split]]", "[[Training Load Progression and Running Injury]]"]
 created: 2026-10-21
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-10-22
 ---
 
@@ -542,6 +542,8 @@ inactive stratum, inactivity is the big rock and stays the big rock. They add a 
   reported (srcgrep scope in the screening subsection). It is a consensus rule built on event rarity, the
   habitual-activity gradient and an assumed lower risk at light-to-moderate intensity.
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Gaps
 
 - **Expectancy test:** an RCT with exercise-triggered death as the outcome is infeasible at
@@ -557,5 +559,19 @@ inactive stratum, inactivity is the big rock and stays the big rock. They add a 
   none is held.
 - **Resistance training** is outside the algorithm; its acute cardiac risk is «can- not currently be
   determined but seems to be low» on few data. [@riebe2015screen]
+- **Trial-pooled harm data do not reach this question.** The held all-population meta-analysis of
+  exercise-therapy RCTs pooled serious adverse events across 378 trials (RR 0.96, 95% CI 0.90-1.02 vs a
+  non-exercising control), with «In both exercise and control groups, the most frequent serious adverse
+  events were death, hospitalisation, cerebrovascular acci- dent, stroke and hip fracture.» It gives no
+  cardiac-event estimate (`srcgrep` `cardiac` / `myocardial` hit only its condition list), and serious
+  events were not split by population; the cardiovascular-patient group appears only in the non-serious
+  pooling (RR 1.02, 0.78-1.33; 53 trials, 5835).
+  [@niemeijer2020]
+  On the expectancy test above, this pooling cannot bound a risk of about one event per million-plus
+  episodes: events were not attributed to exercise, serious events were not split by population, and
+  about half the trials did not report adverse events at all. That is a scope limit of the pooled design, not a null for
+  bout-triggered events. [inferred from @niemeijer2020]
+
+</div>
 
 ## References

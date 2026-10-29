@@ -2,9 +2,11 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org); Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping]
-sources: [GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019,
-  Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org); Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Blood Pressure Lowering Treatment Trialists Collaboration (org); Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona; Chalmers, John; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Sherrington, Catherine; Michaleff, Zoe A; Fairhall, Nicola; Paul, Serene Sulyn; Tiedemann, Anne; Whitney, Julie; Cumming, Robert Graham; Herbert, Rob; Close, Jacqueline; Lord, Stephen R.]
+sources: [GRADE - Handbook, Rahimi - BP Lowering by Age BPLTTC 2021, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019,
+  Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022, Lonn - HOPE-3 BP Lowering 2016, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021,
+  Sundstrom - BP Reduction Mild Hypertension 2015, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025,
+  Sherrington - Exercise Falls Prevention Meta-Regression 2017]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -17,8 +19,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-10-22
-updated: 2026-10-22
+self_critiqued: 2026-10-28
+updated: 2026-10-28
 ---
 
 ## The decomposition
@@ -441,6 +443,8 @@ repletion) — effect-modification is real *sometimes*, and the discipline is th
 assumed, in either direction.
 [inferred from @coley2025]
 
+<div class="recent-update" data-last-updated="2026-10-27">
+
 ## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
@@ -526,6 +530,94 @@ from the numbers of events observed in these trials.» Its worked example (63 vs
 2.5% vs 4.0% MVE per year in primary prevention, giving \~50 vs \~80 avoided per 10,000 per year per
 mmol/L) is route (a) arithmetic applied to the cell where route (a) is least certain. [@ctt2019]
 Statin decision consequences: [[Statins for Primary Prevention and the Power of Zero CAC]].
+
+### Age split, second lever — BP-lowering by age band `[2026-10-27, Rahimi]`
+
+The BPLTTC collaboration re-cut its dataset by age at entry (51 trials, 358,707 people, prior heart failure
+excluded). Per 5 mmHg SBP reduction, major CV events: «0·82 (95% CI 0·76--0·88) in individuals younger than
+55 years, 0·91 (0·88--0·95) in those aged 55--64 years, 0·91 (0·88--0·95) in those aged 65--74 years, 0·91
+(0·87--0·96) in those aged 75--84 years, and 0·99 (0·87--1·12) in those aged 85 years and older (adjusted
+p-interaction=0·050).» [@rahimi2021bpage]
+Absolute reductions were larger in older bands (adjusted p-interaction 0.024). The authors report these
+trial-derived absolute effects but restrict them: «More appropriately, such estimates are to be derived
+from the combination of proportional effects in our study and absolute risks taken from contemporary
+patient registries.» and «Thus, our analyses of absolute risk differences are only useful for internal
+comparisons of effect sizes across strata.» The «More appropriately» sentence is this page's method,
+stated by the source. [@rahimi2021bpage]
+
+**Read by route.** From 55 to 84 the relative-effect point estimate is the same (0.91) in every band and the absolute benefit grows with risk:
+route (a), the arithmetic of this page. Both ends depart from 0.91, and the single adjusted interaction p
+of 0.050 covers both; the Results: «For the primary outcome of major cardiovascular events, we found
+evidence for heterogeneous treatment effects by age, with a pattern consistent with a greater relative risk
+reduction in the youngest age group and smaller effects with wider CIs in those aged 85 or older at
+baseline (adjusted p-interaction=0·050).» The <55 interval
+excludes 0.91 and the >=85 one contains it, so the young end probably carries more of the signal
+. The authors say the trend may be chance:
+«With a p-interaction of 0·05 for the primary outcome and the absence of any meaningful interaction by age
+for ischaemic heart disease and heart failure, a chance finding cannot be ruled out.» They also keep the
+other reading open (interaction tests are conservative; shorter treatment, longer prior exposure and
+clustered risk factors could attenuate a real effect) [@rahimi2021bpage].
+Neither end meets the route-(b) bar, so modification is **not established and not excluded** at either
+end: the insufficient-evidence state, as for CTT's primary-prevention >75 cell above. Absent positive
+interaction evidence, plan on the 55-84 relative effect (\~0.91) with wider uncertainty: at >=85 the band's
+own 0.99 (0.87-1.12, about 1000 events over a median 2.8 years [@rahimi2021bpage])
+can neither confirm nor overturn \~0.91,
+and its interval runs from benefit to modest harm; at <55 the band's 0.82 suggests that default may
+understate the benefit, so absolute benefit may be somewhat larger than route-(a) arithmetic on 0.91
+gives; at >=85 the band's 0.99 points the other way, so absolute benefit there may be smaller than
+route-(a) arithmetic on 0.91 gives.
+
+**Trial-mix check, the one the CTT subsection above prescribes: partial.** Prior heart failure was
+excluded at participant level, which removes one of the two support factors that could have confounded CTT's
+age trend (dialysis is not mentioned in the held text [searched: dialysis across chunks 01-02], and chronic
+kidney disease runs at 16-19% in every band, Table 1), and an
+unstandardised sensitivity analysis stratified by trial design was «broadly similar to the main results,
+both overall (appendix p 11) and when stratified by the three types of trial designs included (appendix p
+7).» [@rahimi2021bpage] No by-trial composition of
+the age bands is reported in the held text, and follow-up falls from 4.5 to 2.8 years across the bands, so
+a trial-mix contribution to the age signal is untested beyond the trial-design level.
+
+**A second modifier tested within the pool and not found.** Inside every age band, baseline SBP showed no
+evidence of modifying the relative effect (all adjusted p-interaction >0.070; 1.00 at >=85), down to <120
+mmHg [@rahimi2021bpage]; at >=85 the test had little
+power (121 people below 120 mmHg, Table 1). A prespecified, multiplicity-adjusted interaction test in a
+one-stage IPD pool is a design the route-(b) rule accepts, for an absence as for a positive; it is weaker
+than a within-trial test or the Pittas-type mechanism-plus-negative-control design below, and a trial-mix
+contribution untested beyond the trial-design level remains a residual caveat. Here it
+found no evidence of modification by baseline BP and a borderline signal for age.
+
+**Parameter table — CTT 2019 (statins) against Rahimi 2021 (BP drugs), oldest bands.**
+
+| Parameter | CTT 2019 | Rahimi 2021 | Same quantity? |
+|---|---|---|---|
+| Oldest band | >75 at entry | >=85 at entry (75-84 also reported) | **NO** — different cut-points |
+| Effect unit | RR per 1.0 mmol/L LDL-C | HR per 5 mmHg SBP | **NO** — different exposures |
+| Interval | 99% CI for subgroups | 95% CI | convertible; a reporting convention, not a quantity mismatch |
+| Age test | trend p, nominal (0.06 MVE; 0.05 primary prevention) | interaction p across 5 bands, Hommel-adjusted (0.050) | **NO** |
+| Heart failure | HF and dialysis trials included; could confound the age trend (two trends weakened on exclusion) | participants with prior HF excluded | **NO** |
+| Absolute effects | declined to produce them from trial events; modelled | reported from trial events, for internal comparison only; direct use to come from relative effect x registry risk | yes on method — both derive absolute benefit from the relative effect x an external baseline |
+| Outcome | major vascular events («major coronary events, strokes, and coronary revascularisations») | major CV events (stroke, MI or IHD, heart failure causing death or admission) | **NO** — different composites |
+| Insufficient cell | primary prevention >75 only (whole >75 band: significant benefit) | whole >=85 band, mixed prevention | **NO** — different strata |
+
+[@ctt2019] [@rahimi2021bpage]
+
+CTT's whole >75 band did benefit: «We observed a significant reduction in major vascular events in all age
+groups.» [@ctt2019] Its nearer match in Rahimi is the
+75-84 band (0.91, 0.87-0.96), which also benefits. Six of eight rows read NO; the other two are a reporting
+convention and a shared method for absolute effects. So the two are **not compared as estimates** and no tension is filed. The
+resemblance (a similar relative point estimate over most of the age range: CTT's MVE 0.75-0.81 to 75, Rahimi's
+0.91 in each band across 55-84; an imprecise oldest or oldest-primary-prevention cell; caution on trial-derived
+absolute effects) is recorded as an observed parallel and not scored as a value type. Its features are what small
+oldest-band samples and a shared methods stance would produce, and its insufficient cells are not the same
+stratum. It is not type-E: the sources make different claims about different drugs, and the
+collaborations overlap (C Baigent and R Collins are CTT authors and listed BPLTTC members)
+[inferred from @ctt2019; @rahimi2021bpage].
+The decision consequence for BP-lowering: from 55 to 84, age works through baseline risk; at the ends
+modification is not established and not excluded, so plan on \~0.91 with wider uncertainty, noting that
+at <55 this may understate the benefit and at >=85 it may overstate it, and the >=85 band cannot tell
+whether it does. BP decision consequences: [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
+
+</div>
 
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 
@@ -701,6 +793,8 @@ redundant *and* less reliable. The measure-choice tension this sits on is
 [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 [inferred from @erfc2011whr]
 
+<div class="recent-update" data-last-updated="2026-10-27">
+
 ## A small, study-level subgroup search with a single trial-feature moderator — youth warm-up programmes `[2026-10-22, Ding]`
 
 A third route-(b) absence, in a third exposure class and a weaker design than Coley or Nong. Ding's
@@ -727,5 +821,283 @@ which is the route-(b) false-positive generator at the reporting stage, inside a
 are null. Lodged toward the `[PRIOR — over-personalization is the likelier failure]`, not scored. Full
 appraisal -> [[Exercise Interventions and Sports Injury Prevention]].
 [inferred from @ding2022warmup]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
+
+## A within-trial, prespecified modifier signal with no pooled support — HOPE-3 by baseline SBP `[2026-10-27, Lonn]`
+
+HOPE-3 randomised 12,705 intermediate-risk people without CVD to candesartan + hydrochlorothiazide or
+placebo (achieved difference 6.0/3.0 mmHg, median 5.6 years). Its design names the route-(b) tests in
+advance: «Prespecified hypothesis-based subgroup analyses were conducted according to thirds of baseline
+cardiovascular risk, of systolic blood pressure, and of low-density lipoprotein (LDL) cholesterol
+concentration (with P values for trend)» [@lonn2016hope3].
+Two results came out of the same trial:
+
+- **A modifier signal on baseline SBP.** First-coprimary HRs by SBP third were 1.16 (0.82-1.63) at
+  <=131.5 mmHg, 1.08 (0.80-1.46) at 131.6-143.5 and 0.73 (0.56-0.94) above 143.5, at nearly the same
+  achieved BP difference in each third (5.6-6.1 mmHg); P for trend 0.02, 0.009 for the second coprimary,
+  and 0.22 for stroke [@lonn2016hope3].
+- **An absence on baseline risk itself.** «There were no significant interactions among the other
+  prespecified sub- groups, including those according to thirds of baseline risk, LDL cholesterol
+  concentration, or diastolic blood pressure» [@lonn2016hope3].
+
+[inferred from @lonn2016hope3] By design class the SBP signal is the kind this page's
+route-(b) rule accepts: within one trial, prespecified, hypothesis-driven. The achieved BP difference was
+observed to be similar in each third, and the authors draw the same inference, that the gradient is not a
+dose artifact. Several things keep it well below Pittas' mechanism-plus-negative-control design. The test
+is nominal: «A nominal P value of less than 0.05 was used for all other analyses.»
+[@lonn2016hope3] It is one of three
+hypothesis-based subgroup families, beside further confirmatory ones (age, sex, DBP, waist-to-hip ratio,
+lipids, ethnicity), and the two coprimary composites are nested, so their P values of 0.02 and 0.009 are
+not two replications. Stroke showed no significant trend (P 0.22). And a larger pool of trials published
+1972-2013, which predates HOPE-3, found no modification by baseline SBP, with no subgroup HR above 1.0
+(the BPLTTC parameter table is on [[Blood Pressure Lowering and Cardiovascular Events]]); that test is
+far larger in the corresponding no-CVD, low-SBP stratum, but its stratum is drawn from a no-CVD population
+about 4x higher in risk, with CKD more common than in BPLTTC's own CVD group (its absolute prevalence,
+and the stratum's own risk and make-up, are not held), it differs in
+contrast (it pools drug-vs-drug and intensity trials) and scale (standardised per 5 mmHg), its multiplicity
+adjustment guards against false positives rather than false negatives, and this page accepts a pooled IPD
+interaction test for an absence as for a positive but ranks it below a within-trial one (*A second modifier
+tested within the pool and not found* above). The default stays with the
+pool on size and precision, not design. The authors' caveat about
+earlier meta-analyses, that they rested largely on trials in people with vascular or renal disease,
+diabetes, or entry SBP above 150, is only partly answered when applied to the BPLTTC 2021 pool. Its split by CVD status covers the vascular-disease
+part and its seven SBP categories the entry-SBP part, but not diabetes or renal disease, and the renal part cuts toward the caveat: BPLTTC reports
+that diabetes prevalence was similar with and without prior CVD and «chronic kidney disease was more
+common in participants without previous cardiovascular disease»
+[@bplttc2021],
+and the make-up and per-stratum HRs of its low-SBP no-CVD stratum are not held. So it is **neither established nor excluded**: a hypothesis to hold, while
+the decision default stays route (a). That default is not unchecked (the third *Failure mode*): the pooled
+test is the check.
+
+The authors read the signal more firmly, while noting «Although any subgroup analysis should be
+interpreted with caution», and they argue for baseline SBP over baseline risk: citing an earlier BPLTTC
+analysis (not held) that found 18% lower risk «among persons at comparable baseline risk» with a baseline
+SBP of 155, they conclude «a higher systolic blood pres- sure at baseline may be decisive in determining
+whether small reductions in blood pressure re- duce risk.»
+[@lonn2016hope3] That is their inference across two
+studies, not a within-study test, and the sentence citing the 18% gives the group's risk as a 5-year
+placebo event rate of 6.5% for a composite the held text does not define. Against HOPE-3's crude placebo
+proportions over a median 5.6 years (first coprimary 4.4% overall, 6.5% upper third; second coprimary 5.2%
+and 7.5%) it exceeds the overall rate on both (over a longer follow-up) and matches the upper third's first;
+unless the undefined composite is broader than HOPE-3's second, the cited group was at higher risk than
+HOPE-3 overall, so the contrast does not cleanly separate baseline SBP from baseline risk.
+
+**Where risk tracks SBP, both readings put the drug's benefit on the CV composite at or below a baseline
+SBP of 143.5 mmHg (HOPE-3's lower two tertiles; a tertile cut, not a treatment threshold) as small at best; they differ in every third: a small benefit against none or possible harm
+in the lower two, and a benefit of differing size in the upper**
+[inferred from @lonn2016hope3].
+In the lowest third the placebo risk was 2.9% over 5.6 years. Under route (a), a BPLTTC-sized relative
+effect (\~0.89 for the \~6 mmHg achieved; approximate, since BPLTTC's composite counts heart failure and
+HOPE-3's first coprimary does not) buys about 3 events per 1000 (one per \~300 treated); under route
+(b), none, or harm: the lowest third's 1.16 (0.82-1.63) taken at face value is about 5 more per 1000, which
+the authors call «a suggestion of harm for those in the lower-third subgroup»
+[@lonn2016hope3]. Both readings put the drug's benefit
+there small at best, a ceiling-type finding. The middle third (131.6-143.5 mmHg) looks the same: placebo risk 3.8%, so about 4 fewer per 1000 under route (a), while its 1.08
+(0.80-1.46) at face value is about 3 more under route (b); the authors report that «no benefit was
+observed in participants who had a baseline systolic blood pressure of 143.5 mm Hg or less», and add
+that «The pattern for stroke differed, with no heterogeneity in the three subgroups that were defined
+according to baseline systolic blood pressure.»
+[@lonn2016hope3]. The thirds below are composite figures. So the readings diverge in every third:
+in the lower two, a small benefit against none or a possible harm (gaps of about 8 and 7 per 1000); in the
+upper SBP third (>143.5 at baseline, a tertile cut), benefit of differing size (about 7 vs about 17 per
+1000).
+That agreement on the lower two thirds holds only where risk tracks SBP, as it did in HOPE-3: for a person whose risk is high for
+other reasons while SBP is in the lower thirds, route (a) predicts benefit and route (b) none, and for a
+person at low risk with a high SBP route (a) predicts only a small benefit and route (b) a larger one.
+
+**Two data points for the `[PRIOR — over-personalization is the likelier failure]`, lodged, not scored,
+at unequal strength; direction to be assigned at the scoring gate.** The SBP signal is a within-trial
+positive of modest strength, of the same design class as Pittas but weaker. The baseline-risk thirds are
+a within-trial absence of low informativeness: the trial was powered for a 22.5% main effect, not for interaction, its population
+was selected to be at intermediate risk, which narrows the contrast between risk thirds, and the risk-third estimates are in an unheld
+supplement, so by this page's own rule on underpowered interaction tests the absence says little. If a
+later within-trial or IPD test confirms the SBP gradient, the default of a constant relative effect fails
+in the stratum where a drug decision is closest; if it does not, HOPE-3's lowest-third HR is the kind of
+single-trial subgroup this page's route table calls the false-positive generator. Type: F (refines the
+route-(b) treatment with a within-trial modifier that a pooled analysis does not support). No
+`[E-independent]`: HOPE-3's authors include Yusuf and Reid, both on the BPLTTC collaborator roster
+(*The intermediate-risk modern-drug trial* on the BP page). Full appraisal ->
+[[Blood Pressure Lowering and Cardiovascular Events]].
+[inferred from @lonn2016hope3]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
+
+## One relative effect applied to three baselines, and a split no one modifier can be read from — Sundström `[2026-10-27, Sundström]`
+
+Sundström and colleagues' BPLTTC analysis of grade-1 hypertension without CVD (15,266 people, 13
+comparisons, odds ratios over about 5 years) computes its absolute effects exactly as route (a) does:
+«We calculated absolute risk reductions by applying the relative risks to the ob- served 5-year
+Kaplan–Meier risk estimates in 3 samples» [@sundstrom2015mildhtn].
+For total CV events (pooled OR 0.86, 0.74-1.01) the three baselines give:
+
+- **Non-BPLTTC trial controls** (no diabetes, untreated; 5-year risk 2.4%, on stroke + coronary events only,
+  since heart failure and CV death were recorded only in the BPLTTC trials): about 3 fewer per 1000 over 5
+  years (0 to 6), with the pooled OR applied (these trials' own OR was 0.97, 0.71-1.33, which at the same
+  baseline gives about 1 fewer, from about 7 fewer to 8 more).
+- **BPLTTC trial controls** (96% diabetic; 7.4%): about 10 fewer (−1 to 19).
+- **A primary-care cohort** (ref 13, in a country with universal health care) starting an ACE inhibitor or ARB at grade 1 with no
+  prior CVD (11.6%, on a broader CVD definition): about 16 fewer (−1 to 30). This is an on-treatment
+  cohort's risk, not a control-group risk, so strictly it is not a route-(a) baseline.
+- [@sundstrom2015mildhtn]
+
+The authors state the route-(a) premise and its limit together: «Therefore, although it is reasonable to
+assume that the relative risk reductions in the present study can be gen- eralized to a broader
+population group with grade 1 hypertension, there is uncertainty about the wider ap- plicability of the
+absolute risk reductions observed.» Two sentences later they add of the absolute estimates: «In each case,
+the estimates must be interpreted with caution because the CIs are wide and the point estimates of absolute
+effect are probably un- reliable.» The next sentence is the counterweight: «Nonetheless, these data
+highlight the poten- tially sizeable risk reductions that might be achieved by the treatment of grade 1
+hypertension, particularly among persons with multiple cardiovascular risk fac- tors.» [@sundstrom2015mildhtn]
+
+[inferred from @sundstrom2015mildhtn] Three things limit it as a worked instance.
+
+**The lowest baseline's own trials did not show the effect.** The non-BPLTTC half's own CV-event OR was
+0.97 (0.71-1.33), and about three-quarters of the pooled events come from the diabetic half, so the
+3-per-1000 figure is a transport of a mostly-diabetic relative effect to a non-diabetic baseline, which is
+what route (a) assumes and what this pool cannot confirm.
+
+**A pooled-IPD test of baseline risk found no modification, on few events.** The model is two-level with a
+random intercept for trial, and this analysis used only BPLTTC trials [@sundstrom2015mildhtn].
+So the interaction can mix within- and across-trial information, and the split appears restricted to
+participants with a computable Framingham risk. Inside the BPLTTC half,
+split at the median 5-year Framingham risk of 11%, CV events were 0.66 (0.45-0.97) below it and 0.83
+(0.57-1.21) above it, P 0.35; deaths 0.54 vs 0.63, P 0.62 [@sundstrom2015mildhtn].
+The split covers 3674 of 6361 BPLTTC participants, 2161 below and 1513 above, so the 11% is not this
+subset's median.
+That is consistent with a constant relative effect (the nominal direction is a larger relative effect at
+lower risk). It rests on about 245 CV events in a diabetic population, so it is a low-informativeness
+absence, like HOPE-3's risk thirds above.
+
+**The data-source split bundles its modifiers.** BPLTTC vs non-BPLTTC (CV events 0.83 vs 0.97, P 0.37)
+changes diabetes, prior treatment, drug class, era and data type at once, and the authors do not show
+diabetes interactions because they «nearly completely overlap with the interaction analyses of BPLTTC
+versus non-BPLTTC trials» [@sundstrom2015mildhtn].
+The authors read the null as similarity: «Of note, the relative risk reductions achieved with blood
+pressure–lowering therapy have previously been shown to be similar in persons with and without diabetes
+(30), and this was also true for our study.» [@sundstrom2015mildhtn]
+The wiki reads it more weakly: a positive there could not have been assigned to any one of the bundled
+modifiers, and a non-significant test on these events cannot clear any one of them. Wang's
+Cochrane review reads the difference mainly as lower baseline risk (younger participants, diabetes
+excluded) [@wang2025mildhtn].
+The wiki reads this as route (a); Wang does not specify, and its stance against extrapolation leaves route
+(b) open. These data fit the route-(a) reading but do not show it over a smaller relative effect (route b) in the
+non-diabetic, untreated stratum.
+
+**What route (a) assumes where a stratum's own trials are inconclusive: a method disagreement the wiki
+takes a default on, not one it settles `[2026-10-27, weave]`.** Route (a) needs no subgroup claim, but it does assume the
+relative effect carries over to the stratum. Two held sources take opposing positions, neither absolute (Sundström calls a definitive trial in uncomplicated grade-1 hypertension an important
+addition and the wider
+applicability of its own absolute risk reductions uncertain; Wang still
+suggests considering drugs individually), on whether a decision may rest on that assumption for the untreated, non-diabetic grade-1 stratum, whose own trials exist and are inconclusive. Sundström:
+«Therefore, although it is reasonable to assume that the relative risk reductions in the present study can
+be gen- eralized to a broader population group with grade 1 hypertension, there is uncertainty about the
+wider ap- plicability of the absolute risk reductions observed.»
+[@sundstrom2015mildhtn] Wang: «It is critical that we use data from high-quality
+randomized controlled trials (RCTs) to make decisions around initiation of pharmacotherapy in people with
+mild hypertension without pre-existing cardiovascular disease, rather than relying on extrapolations from
+indirect data.» [@wang2025mildhtn] Neither reports a relative effect that differs in
+the stratum, and the stratum's own intervals contain the pooled estimates (CV events 0.86 inside
+0.71-1.33, deaths 0.78 inside 0.62-1.15), so no estimate is in conflict.
+
+ This page's rule gives a default, and the default sides with Sundström. Moving off the pooled
+relative effect is route (b), which needs positive evidence of modification, and an inconclusive in-stratum
+interval is not that evidence. So the wiki carries the relative effect over, and it attaches conditions in
+response to Wang's objection without adopting Wang's standard: the result is labelled a transport, not a
+measurement; the stratum's own inconclusive trials are stated beside it; and for a costly or harm-bearing
+action the low certainty of the transport enters the decision (firmness scales with stakes). *Limits* above
+holds relative constancy as an empirical regularity, not a law, and here the pooled OR is set mostly by
+diabetic (96%), largely already-treated (55-61%) participants and carried to non-diabetic, untreated
+people; whether they are similar enough in what the effect depends on is the transport question Wang
+raises, and this page's rule leaves it open. BPLTTC 2021's absolute-risk method makes the same transport,
+which Wang would not license either ([[Blood Pressure Lowering and Cardiovascular Events]]).
+
+ The issue is joined on method (the same question, with clashing backing), and none of the
+not-joined checks dissolves it. It is still not filed as a tension, on a ground the not-joined checks do
+not cover, the same one applied to BPLTTC 2021 on [[Blood Pressure Lowering and Cardiovascular Events]]
+(check (i) does not fire, since the difference is substantive, not merely verbal): neither source predicts
+an outcome the other contradicts (no matched estimate is in conflict), and
+they clash only over which evidence standard a decision needs, so a tension page would have no empirical
+pole to resolve. The default is the
+wiki's own revisable method position, not a verdict the sources reach. Three things would move it: an
+in-stratum interval that excludes the pooled effect; a within-trial test in the non-diabetic, untreated
+stratum that finds modification; or an adequately powered direct trial in that stratum, which would replace
+the transport whatever it found. HOPE-3 is the nearest held instance of the second: a prespecified
+within-trial test of baseline SBP in a largely non-diabetic, no-CVD population, whose trend points to a
+larger relative effect in its upper SBP third (baseline mean 154 mmHg; 0.73) and to none in the middle
+third (131.6-143.5 mmHg at baseline; 1.08), although it was not selected for untreated grade-1
+hypertension. Where grade 1's lower edge falls on that gradient depends on the measurement: on baseline readings 140-143.5 sits in the null middle third, but after correction for
+regression dilution (averaging the placebo group's first-year readings) the
+benefiting upper third's usual SBP averaged 140.9, and the authors read their data as compatible with the hypothesis of benefit above about 140: «Therefore, our data are compatible with the hypothesis that treating persons without cardiovascular
+disease who have a systolic blood pressure above approximately 140 mm Hg appears to be beneficial, but
+treat- ment would not be of benefit and may be even harmful in persons with lower systolic blood- pressure
+levels.» [@lonn2016hope3] It does not move the default (a nominal trend without
+support from the larger BPLTTC 2021 pool; *A within-trial, prespecified modifier signal* above). It
+locates no cut, but if the trend is real it marks the low end of the grade-1 range, on either scale, as
+where the transport is least secure.
+
+**One more data point for the `[PRIOR — over-personalization is the likelier failure]`, lodged, not
+scored:** a pooled-IPD, low-powered absence of modification by baseline risk (the Framingham split),
+plus a bundled between-source absence that tests no single modifier. Type: F, resting on what Sundström
+does not draw out: its lowest baseline's own trials returned 0.97, and its data-source null bundles the
+modifiers (the route-(a) computation and its transport caveat are the authors' own). No `[E-independent]`: same
+collaboration as Rahimi and BPLTTC 2021, with shared authors. Full appraisal ->
+[[Blood Pressure Lowering and Cardiovascular Events]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
+
+## No significant sample-feature moderator in community trials; two programme-feature moderators — exercise for falls `[2026-10-28, Sherrington 2017]`
+
+A between-trial meta-regression over 61 general-community trials of exercise for falls (69
+comparisons) tested 14 moderators. Three sample features showed no statistically significant association with the effect:
+average age over 75
+(ratio of rate ratios 0.95, 0.80-1.12), an unselected rather than at-risk population (1.02, 0.87-1.21),
+and the control group's fall rate (0.99, 0.90-1.07; 65 comparisons; Table 1 describes this variable as «Control
+group falls/person-year or proportion who fell in follow-up period»). Two programme features reached
+significance: a high challenge to balance (0.85, 0.73-1.00, p=0.04) and 3 or more hours a week of
+prescribed exercise (0.77, 0.65-0.91, p=0.003)
+[@sherrington2017falls]. The
+authors' own recommendation fits a route-(a) reading, though they do not tie it to the moderator nulls:
+fall-prevention exercise «should be targeted at the general community as well as community-dwellers
+with an increased risk of falls». They add that the meta-regression rests on «non- randomised
+comparisons between studies, so they are potentially confounded»
+[@sherrington2017falls].
+The same paper pools other settings and conditions separately, reasoning that «Given the likely
+heterogeneity between people living in different settings and with different health conditions,
+separate analysis by setting is clinically justiﬁable.» Those pools show no evidence of an effect in
+residential care (0.90, 0.72-1.12), after hospital discharge (1.16, 0.88-1.52) or after stroke (0.74,
+0.42-1.32), which are insufficient-evidence cells rather than shown nulls, and
+larger point effects in Parkinson's disease (0.47, 0.30-0.73, 6 comparisons) and cognitive impairment
+(0.55, 0.37-0.83, 3 comparisons)
+[@sherrington2017falls].
+
+[inferred from @sherrington2017falls]
+Within community trials the pattern is Ding's, not Nong's: the moderators are programme properties an
+implementer can set (content and dose), not traits of the person, and the authors turn them into
+prescriptions. They are differences between exposures, so the dose/content contrast is a between-trial
+hypothesis, not a randomised comparison, and still the labelled, low-harm, time-costly default (the balance result
+at p=0.04 is marginal among 14 tests; the 3 h result is sturdier). For community-dwelling older adults
+the person-level reading stays route (a): a constant relative effect, with more falls averted per
+person where baseline fall rates are higher. The sample-feature nulls are weak evidence about
+individuals (trial means, an aggregation bias that runs in either direction; the control-rate covariate
+mixes two metrics, which in the simple case pulls its coefficient toward null). The two dichotomous
+sample moderators (age over 75, unselected population) have intervals that exclude large trial-level
+modification (roughly beyond 0.8-1.2); the control-rate interval is per unit of that mixed-metric
+covariate, so it is not on the same scale and is not directly comparable. The authors say an individual-participant
+meta-analysis «may better enable investigation» of age and fall-risk status. The setting and condition
+pools are a separate matter: between-pool contrasts with no interaction test, so neither route-(a)
+support nor shown modification, but the authors act on them by recommending differently by setting.
+Lodged toward the `[PRIOR — over-personalization is the likelier failure]` for the within-community
+nulls; the between-pool setting and condition differences are untested, direction to be assigned at the
+scoring gate. Not scored. Type: F (adds a between-trial meta-regression to the route-(b)-absence set).
+No `[E-independent]`. Full appraisal -> [[Exercise for Preventing Falls in Older Adults]].
+
+</div>
 
 ## References

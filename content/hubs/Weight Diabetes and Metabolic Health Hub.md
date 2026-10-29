@@ -2,7 +2,7 @@
 type: hub
 question: For weight loss, type 2 diabetes, and metabolic health, which dietary approach or drug works, at what dose, and does the effect last?
 created: 2026-08-04
-updated: 2026-08-13
+updated: 2026-10-29
 ---
 
 # Weight, Diabetes, and Metabolic Health Hub
@@ -90,10 +90,15 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   metformin with far fewer GI side effects (7% vs 53%) — a tolerability substitution, surrogate-bounded.
   Diet/weight-loss/exercise PCOS levers are named gaps
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Why maintenance is hard, and drug/monitoring routes
 
 - [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
   whether the body physiologically defends the higher weight
+- [[Self-Weighing for Weight Loss]] — whether weighing yourself helps weight loss alone or added to a
+  programme (both randomised within trials), and whether daily beats weekly (between trials only;
+  maintenance untested)
 - [[Comparing Obesity Drugs]] — the 19-drug network meta-analysis: how the class ranks on weight, hard
   outcomes, harms and QoL — and why the biggest weight loss is not the best-evidenced drug
 - [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
@@ -111,3 +116,5 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating
   improves outcomes, especially in people without diabetes
+
+</div>

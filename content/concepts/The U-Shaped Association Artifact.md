@@ -2,20 +2,24 @@
 type: concept
 question: When an observational exposure shows a protective lower arm (a U/J-curve), is the protection real or a study-design artifact — and how do you tell?
 aliases: [U-Shaped Artifact, J-Curve Artifact, Protective Lower Arm, Reverse Causation Curve, Sick-Quitter Bias]
-authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Franklin, Barry A.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche; Filippini, Tommaso; Naska, Androniki; Kasdagli, Maria‐Iosifina; Torres, Duarte P.M.; Lopes, Carla Maria Moura; Carvalho, Catarina; Moreira, Pedro Augusto Maciel; Malavolti, Marcella; Orsini, Nicola; Whelton, Paul Kieran; Vinceti, Marco; Di Federico, Silvia; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe]
+authors: [Stockwell, Tim; Millwood, Iona Y; Dehghan, Mahshid; Cappuccio, Francesco P; World Health Organization (org); Jha, Prabhat; National Academies of Sciences Engineering and Medicine (org); He, Feng J; MacGregor, Graham A; Shan, Zhilei; Poole, Robin; Grosso, Giuseppe; Ramsden, Christopher E; Livingston, Gill; Global BMI Mortality Collaboration (org); Seidelmann, Sara B; Guo, Jing; Malmir, Hanieh; Esmaillzadeh, Ahmad; Wade, Kaitlin H; Davey Smith, George; Timpson, Nicholas J; Godos, Justyna; Jayedi, Ahmad; Shab-Bidar, Sakineh; Ekelund, Ulf; Paluch, Amanda E; Sjöström, Lars; Aune, Dagfinn; Coenen, Pieter; Sun, Yi-Qian; Qin, Pei; Ma, Wancheng; Hu, Fulan; Lopez-Bueno, Ruben; Nordestgaard, Anne Tybjaerg; Nordestgaard, Borge Gronne; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; Bagnardi, Vincenzo; Bryazka, Dana; Wang, Shanshan; Ai, Sizhi; GBD 2020 Alcohol Collaborators (org); Liu, Yunan; Clarke, Robert; Bennett, Derrick; Zong, Geng; Gan, Wei; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Xu, Wei; Wang, Huifu; Tan, Lan; Yu, Jin-Tai; Villoz, Fanny; Chocano-Bedoya, Patricia O; Katagiri, Ryoko; Yuan, Xiaoyi; Kobayashi, Satomi; Sasaki, Satoshi; Franklin, Barry A.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche; Filippini, Tommaso; Naska, Androniki; Kasdagli, Maria‐Iosifina; Torres, Duarte P.M.; Lopes, Carla Maria Moura; Carvalho, Catarina; Moreira, Pedro Augusto Maciel; Malavolti, Marcella; Orsini, Nicola; Whelton, Paul Kieran; Vinceti, Marco; Di Federico, Silvia; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Zhang, Yiwen; Lee, Dong Hoon; Rezende, Leandro F M; Ma, Yuan; Giovannucci, Edward L.;
+  Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S; Saeidifard, Farzane; Medina-Inojosa, Jose R; West, Colin P; Olson, Thomas P; Somers, Virend K; Bonikowske, Amanda R; Prokop, Larry J; Vinciguerra, Manlio; Lopez-Jimenez, Francisco;
+  Shailendra, Prathiyankara; Baldock, Katherine L; Li, L S Katrina; Bennie, Jason A; Boyle, Terry]
 sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol and Vascular Disease Genetic Evidence 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cappuccio - Sleep Duration and Mortality 2010, WHO - Non-Sugar Sweeteners 2023, Jha - Smoking Hazards Cessation Benefits 2013, NASEM - Reproducibility and Replicability in Science 2019, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Shan - Sleep Duration Type 2 Diabetes Meta-Analysis 2015, Poole - Coffee Consumption and Health 2017, Grosso - Coffee Mortality Smokers Nonsmokers 2016, Ramsden - Minnesota Coronary Reanalysis 2016, Livingston - Dementia Prevention 2024,
   Global BMI - BMI All-Cause Mortality 2016, Seidelmann - Carbohydrate Intake Mortality 2018, Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Wade - BMI Mortality Mendelian Randomization 2018, Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Ekelund - Accelerometer Physical Activity Mortality 2019, Paluch - Daily Steps Mortality 2022, Sjostrom - SOS Bariatric Surgery Mortality 2007, Aune - Nut Consumption Mortality 2016, Yin - Sleep Duration Mortality Dose-Response 2017, Mazzoli - Fluoride Bone Fracture 2025,
   Coenen - Occupational Physical Activity Mortality Meta-Analysis 2018, Sun - BMI Mortality Mendelian Randomization, Qin - Carbohydrate Quantity Quality Mortality, Ma - Egg Consumption CVD Mortality, Lopez-Bueno - Handgrip Strength Thresholds, Nordestgaard - Coffee Mortality Mendelian Randomization, Roerecke - Alcohol Reduction Blood Pressure 2017, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, Bagnardi - Alcohol Site-Specific Cancer Dose-Response Meta-Analysis 2014, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Bryazka - Alcohol Population-Level Risks GBD 2022, Wang - Sleep Duration Cardiovascular Meta-Review 2022,
   Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025,
-  Peters - Blood Pressure Lowering Dementia 2022, Xu - Alcohol Consumption Dementia 2017,
+  Peters - Blood Pressure Lowering Dementia 2022, Rahimi - BP Lowering by Age BPLTTC 2021, Xu - Alcohol Consumption Dementia 2017,
   Villoz - Dairy Cognitive Decline Dementia 2024, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020,
   Katagiri - Excess Iodine Thyroid Diseases 2017, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Graudal - Low vs High Sodium Cochrane 2020,
-  Filippini - Potassium Blood Pressure Dose-Response 2020, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023]
+  Filippini - Potassium Blood Pressure Dose-Response 2020, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023,
+  Zhang - Resistance Training Duration Mortality 2026, Momma - Muscle-Strengthening Activities and Mortality 2022,
+  Saeidifard - Resistance Training Mortality Meta-Analysis 2019, Shailendra - Resistance Training Mortality Meta-Analysis 2022]
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-22
-self_critiqued: 2026-10-22
+updated: 2026-10-28
+self_critiqued: 2026-10-27
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -41,14 +45,16 @@ relationships:
     - Excess Iodine Intake and Thyroid Disease
     - Potassium Intake and Blood Pressure
 ---
+<div class="recent-update" data-last-updated="2026-10-28">
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
 J-shaped** association — risk lowest at some *intermediate* exposure, higher at both zero and high —
-the **lower arm** (the apparent benefit of a little vs none) is the fragile part, and is often not
-causal. Alcohol is the worked case; the same shape sits unadjudicated for sodium and, by the telos's
-own flag, for sleep.
+the **lower arm** (the apparent benefit of a little vs none) is usually the fragile part, and is often
+not causal — though the artifact can occupy either arm (the nuts -> stroke and grip-strength upper
+arms below; the muscle-strengthening upper arm is suspect, not adjudicated). Alcohol is the worked case; the same shape sits unadjudicated for sodium, and
+sleep is adjudicated at arm level below (lede updated 2026-10-28; self-critique).
 
-
+</div>
 
 ## The recipe that manufactures a false protective arm
 
@@ -75,11 +81,13 @@ disease were more prevalent among abstainers than among moderate drinkers»).
   un-prespecified U carries the same discount -> [[P-Hacking and Researcher Degrees of Freedom]].
   [@nasem2019]
 
+<div class="recent-update" data-last-updated="2026-10-26">
+
 ## The three adjudication routes — and what they showed for alcohol
 
 | Route | What it does | Alcohol verdict |
 |---|---|---|
-| **Bias-stratified / referent correction** | re-analyse with never-drinkers (not ex-drinkers) as referent; keep only bias-free studies | protection vanishes: RR 0.97 (0.88-1.07), bias-free 0.90 (0.76-1.06), both ns (Stockwell) |
+| **Bias-stratified / referent correction** | re-analyse with never-drinkers (not ex-drinkers) as referent; keep only bias-free studies | protection vanishes: RR 0.97 (0.88-1.07) once abstainer biases *and* study quality are adjusted (0.89, 0.84-0.94, before follow-up length, ill-subject inclusion and race/smoking controls are added); bias-free 0.90 (0.76-1.06), both ns (Stockwell Tables 3-4) |
 | **Mendelian randomization** | genetic instruments fix lifetime exposure, immune to reverse causation | monotonic harm for stroke, no protective arm (Millwood) |
 | **Exclude early follow-up / sick baseline** | remove the reverse-causation window | U-shape *persisted* observationally — so this alone is insufficient (Millwood) |
 
@@ -88,6 +96,8 @@ disease were more prevalent among abstainers than among moderate drinkers»).
 **The load-bearing lesson:** excluding early follow-up is the *weak* check (the alcohol U-shape survived
 it); the referent correction and MR are the *strong* ones, and where a genetic instrument exists it is
 decisive. A protective arm that survives only the weak check has not been adjudicated.
+
+</div>
 
 ## The decision rule
 
@@ -98,6 +108,8 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Where it applies in the wiki
 
@@ -271,15 +283,94 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     running the causal way on that arm. Not independent-E of Cappuccio/Yin (overlapping cohort base, same
     reverse-causation reading, new outcome) -> **type-F** cross-outcome -> [[Sleep and Cognitive Decline]],
     [[Dementia Prevention and Modifiable Risk Factors]].
-- **Muscle-strengthening activity — a J-shape with its own counter-instance built in.** MSA shows a
-  J-shaped dose-response for all-cause mortality/CVD/cancer (nadir in a wide, imprecise \~30-80 min/week
-  region, hazard rising above 1.0 past \~140 min/week) — but an **L-shape** (no upturn) for **diabetes**,
-  the one outcome with a clear
-  muscle-glucose mechanism -> [[Muscle-Strengthening Activity and Mortality]]. This is the sharpest
-  single-source instance of the *adjudicate-the-arm* rule: **the outcome whose mechanism is clear shows
-  no upturn; the outcomes whose upturn lacks a mechanism show one** — plus very-low GRADE, self-reported
-  exposure, and sparse high-volume data. The upper arm is the artifact-suspect region and is left
-  unbelieved; the lower arm (a small effective dose) is kept.
+- **Muscle-strengthening activity — a J-shape with its own counter-instance built in.** In the pooled
+  MA, MSA shows a J-shaped dose-response for all-cause mortality/CVD/cancer (nadir in a wide, imprecise
+  \~30-80 min/week region; the all-cause point estimate reaching 1.0 near \~140 min/week, with its lower
+  95% band above 1.0 from \~165, figure-read; knot note below) — but an **L-shape** (no upturn) for **diabetes**, the one
+  outcome with a clear muscle-glucose mechanism -> [[Muscle-Strengthening Activity and Mortality]].
+ An instance *consistent with*, not diagnostic of, the *adjudicate-the-arm* rule: the outcome
+  with a clear mechanism (diabetes) shows no upturn, while the upturn outcomes have only candidate
+  mechanisms (a CV channel such as arterial stiffness; IGF-1 for cancer, per Zhang) — plus very-low
+  GRADE, self-reported exposure, and sparse high-volume data. The upper arm is the artifact-suspect
+  region and is left unbelieved (wording corrected 2026-10-28 from *the sharpest single-source instance*
+  and *upturn lacks a mechanism*; self-critique). The lower arm is kept as the **action default** under
+  the firmness rule (cheap, reversible, low-harm), but on mortality it is itself **unadjudicated** by
+  this page's rule: it has passed only covariate adjustment and lags, and in Zhang's cohort adjustment
+  removes most of the crude association (1-29 min/week: age-adjusted 0.83 (0.81-0.85), 0.90 with
+  covariates, 0.95 (0.92-0.97) with aerobic activity added).
+  [@zhang2026rtmort]
+  - **A repeated-measures cohort does not show an above-null all-cause category `[2026-10-28, Zhang 2026]`
+    `type-F`.** With weekly weight-machine/resistance-training time re-asked every 2-4 years and averaged
+    (HPFS, NHS, NHSII; 35,798 deaths), the top category (>=120 min/week, mean 204) has all-cause HR 0.92
+    (0.86-0.98) on 1093 deaths, and for the aerobic-adjusted CVD curve no non-linearity is detected (P
+    non-linearity 0.98).
+    [@zhang2026rtmort]
+    The all-cause spline point estimate crosses 1.0 only near \~270 min/week (about 1.02 at 300, the
+    sparse top of its axis, interval including 1); no category estimate lies above the null. Beyond
+    each model's last knot a restricted cubic spline is constrained to be linear, so the shape there
+    (and its band) reflects the model as much as the data; the data beyond the knot still set the
+    slope. This holds for **each** curve here. Zhang's last knot is at 150 min/week
+    [@zhang2026rtmort]. Momma
+    used a «restricted cubic spline model with three knots at fixed percentiles (10%, 50% and 90%) of time of the exposure»
+    [@momma2022]
+    without reporting the knots in min/week; its all-cause curve is near-linear from \~85-90 min/week
+    to its end at \~195 (axis to 200; figure-read, PDF p 6). Shailendra, pooling 4 of Momma's 6
+    dose-response studies with the same percentile scheme, put its last knot at 150 min/week («3 knots placed at 10, 30, and 150 minutes, which roughly correspond with the 10th, 50th, and 90th percentiles of the distribution of dose values from the included studies»)
+    [@shailendra2022]
+    So Momma's last knot plausibly sits somewhere in \~75-150 min/week, and the same caveat applies to
+    its above-null segment from \~165 as to Zhang's tail
+
+    Zhang does reproduce the
+    J's *diminishing* benefit at high volume: all-cause curvature is significant (P non-linearity <0.001), neurological mortality is
+    J-shaped (P 0.002), cancer benefit is confined to 1-59 min/week, and the cancer spline rises above
+    1.0 at the top (to \~1.2 at 300 min/week, interval including 1; P non-linearity 0.05), though that
+    crossing lies mostly beyond the last knot and no cancer category estimate is above 1.0. What it does
+    not reproduce is the all-cause crossing above 1.0 at the category level. That is *consistent with*
+    an artifactual above-null arm but does not discriminate it: Zhang differs from the pooled cohorts on
+    several axes at once (repeated averaging; an explicit 2-year lag, this page's weak check; a narrower
+    item; knot placement and linear tails in both models, Momma's last knot at its 90th exposure
+    percentile and Zhang's at its 95th; a US health-professional sample, a sample type also present in Momma's
+    six-study dose-response pool — «Six studies were eligible for the dose–response analysis»
+    [@momma2022]
+    — whose Figure 3 lists Grøntved 2012 (men; the HPFS, per the nucleus page) and Kamada 2017
+    (older women; whether it is a health-professional cohort is not stated in the held text) among the
+    six). Aerobic adjustment may differ in depth — in Momma «Adjustment for confounders varied
+    widely across studies» and «All studies considered aerobic or other types of physical activity»
+    [@momma2022] — but it
+    cannot by itself explain the pooled arm sitting above Zhang's: in Zhang adding aerobic activity moves every RT category toward the null
+    (>=120 min/week: 0.79 with covariates, 0.92 with aerobic activity added)
+    [@zhang2026rtmort], so weaker
+    aerobic adjustment in the pooled studies would, under the same confounding structure, pull their
+    high-volume estimates down rather than above the null. The mechanism list above names
+    no single-measurement route, and Zhang names no artifact route: it says that a single baseline measure «may
+    introduce measurement error and limit their ability to evaluate the dose-response» and that
+    non-differential mismeasurement would be «generally attenuating the associations» — neither names a
+    route by which one measurement creates an upturn.
+    [@zhang2026rtmort] Its one link between single vs cumulative measurement and an earlier CVD U-shape (its ref 14) is a
+    hedged causal one — training duration («acute vs. long-term») among factors that «may explain these
+    discrepancies», since «acute resistance training may increase arterial stiffness, whereas long-term
+    regular training may reduce it».
+    [@zhang2026rtmort]
+    Held material does name candidate routes for the arm, none tested: a single baseline may
+    over-represent transient high-volume phases (rehabilitation, exercise prescribed when ill), which
+    repeated averaging dilutes, a reverse-causation route via single measurement; and
+    Saeidifard, after causal harm mechanisms of high-intensity training (blood pressure, arterial
+    stiffness, the Valsalva manoeuvre), adds a confounding route specific to high volume — «people performing a high volume of resistance training may be more likely to use anabolic–androgenic steroids or supplements with sub- stances that could adversely aﬀect their health»
+    — before concluding that «the current evidence is not enough to conclude that the relationship between resistance training and survival has a U-shape curve».
+    [@saeidifard2019]
+    Zhang's HPFS men are also already in two MA all-cause pools (nucleus page). So the held point estimates
+    conflict above \~140 min/week: Momma's pooled spline rises above 1.0, as does Shailendra's 4-study
+    spline (crossing 1.0 at roughly \~140-150, lower 95% band above 1.0 from \~165-170, about 1.3 at 200; figure-read,
+    PDF p 6), which re-pools a subset of Momma's studies and so is not independent of it; its authors
+    read it as «a possible “U”-shaped relationship between the duration of resistance training and the risk of all-cause mortality; however, because this analysis only included 4 studies, it should be viewed with caution»
+    [@shailendra2022]
+    while Zhang's categories, and its spline to \~270, stay below it. At \~140 Zhang's and Shailendra's
+    curves are still before their 150-min knots and Momma's may lie either side of its knot; from
+    \~165 all three sit on their linear segments (Momma's on the knot inference above), under the caveat
+    above. No held source settles which is right: the all-cause upper arm stays *unbelieved* under this page's rule, now with one
+    partly-independent non-reproduction of its above-1.0 part; it is not *refuted*, and the cancer arm
+    stays open -> [[Muscle-Strengthening Activity and Mortality]].
+    [inferred from @zhang2026rtmort]
 - **Iodine excess -> thyroid — an UPPER arm of HARM whose direction the interventional check CONFIRMS
   `[2026-09-17, Katagiri]` `type-F`.** The mirror flavour of the protective-lower-arm cases: the
   fragile part here is the *excess* arm of iodine's dose-response U (the deficiency arm ->
@@ -749,6 +840,38 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   exposure, two outcomes, both observational U-arms failing the randomized test. Not independent-E (same
   exposure, new outcome, and Peters' trials overlap BPLTTC's base) -> **type-F** cross-outcome
   -> [[Dementia Prevention and Modifiable Risk Factors]].
+  - **The same randomized check, run inside each age band, on CV events `[2026-10-27, Rahimi]`
+    `type-F`.** The observational worry is the old-age version of the lower arm: «However, other studies
+    have reported an increased risk of cardiovascular events and death in older patients with lower blood
+    pressure compared with those with higher blood pressure.» [@rahimi2021bpage]
+    The BPLTTC age re-analysis stratified each of five age bands by baseline SBP (<120 to >=170) and
+    found no evidence that the relative effect varied with baseline BP in any band («all adjusted
+    p-interaction\>0·070»; «adjusted p-interaction=1·00» at >=85), and none by DBP down to <70
+    [@rahimi2021bpage]. On death: «Stratified effects
+    on all-cause death followed a similar pattern, with no evidence to suggest treatment increases mortality
+    in any age group.» [@rahimi2021bpage]
+    That is about harm; on benefit the Discussion adds that the reduction in all-cause death was
+    marginally larger in the young, «with no obvious effect in people older than 75 years», and the authors caution generally that
+    all-cause effects would be expected to be diluted in a subgroup where non-CV deaths make up more of the deaths [@rahimi2021bpage].
+    So in the four bands below 85, the randomized data give no evidence of a baseline-BP level, down to
+    <120/<70, below which the relative benefit on CV events is lost: the low-BP harm arm finds no support in a randomized check there. At >=85 the
+    band's own benefit is not established (HR 0.99, 0.87-1.12, about 1000 events)
+    [@rahimi2021bpage], and only
+    121 people in that band started below 120 mmHg [@rahimi2021bpage],
+    so the arm is unadjudicated there for want of power, not refuted. Three of the four
+    observational studies the authors cite for the low-BP worry are oldest-old cohorts, two aged 85 and over
+    by title [@rahimi2021bpage],
+    so for the oldest old (>=85) the U is largely untested by this check. Scope: stratifying
+    trials by baseline BP is the closest randomized form of the question the observational U raises (does
+    lowering from an already-low BP harm?); it is not an achieved-BP analysis (Peters, above, is) and not a
+    measured dose-response below 120/70. The authors call interaction tests «notoriously conservative»
+    [@rahimi2021bpage], said of the age test and
+    applied here by extension: *no evidence of variation* is weaker than *constant*. Separately, the relative effect
+    had point estimates that differed from the 55-84 value at both ends of age, stronger at <55 (0.82) and
+    weaker at >=85 (0.99), with 0.91 between; only the <55 interval excludes 0.91; the one relative-scale age interaction test for the primary outcome
+    gives adjusted p=0.050, and the authors do not rule out chance, while absolute reductions were larger in older bands
+    [@rahimi2021bpage]; that is an age gradient, not a low-BP arm. Same collaboration,
+    overlapping dataset (51 vs 48 trials), as the BPLTTC J-curve result -> type-F stratum refinement, not independent backing.
 - **Milk -> mortality — a single-cohort confounding artifact (an upper-arm case, no U required)
   `[2026-08-06, Guo]`.** The *high-milk-doubles-mortality* scare is the exposure-*harm* mirror of
   the protective-arm cases: Guo 2017's pooled milk -> mortality is null (RR 1.00, 0.93-1.07), and the only
@@ -1015,6 +1138,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+</div>
 
 ## Corrections and revision history (dated strata)
 

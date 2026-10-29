@@ -3,17 +3,18 @@ type: framework
 question: How much sedentary time (total sitting, TV viewing) raises mortality and type-2-diabetes risk, at what dose, and independently of how physically active a person is?
 aliases: [Sitting Time and Mortality, TV Viewing and Health, Sedentary Time, Sedentary Behaviour, Sedentary Behaviour and Mortality]
 authors: [Patterson, Richard; McNamara, Eoin; Tainio, Marko; de Sa, Thiago Herick; Smith, Andrea D; Sharp, Stephen J; Edwards, Phil; Woodcock, James; Brage, Soren; Wijndaele, Katrien; Ekelund, Ulf; Loh, Roland; Stamatakis, Emmanuel; Folkerts, Dirk; Allgrove, Judith E; Moir, Hannah J]
-sources: [Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Loh - Interrupting Sitting Glucose Insulin 2019]
+sources: [Patterson - Sedentary Behaviour Mortality Diabetes Dose-Response Meta-Analysis 2018, Ekelund - Joint Accelerometer Sedentary Mortality 2020, Loh - Interrupting Sitting Glucose Insulin 2019, Ekelund - Small Changes Physical Activity Deaths Averted 2026, Ekelund - Accelerometer Physical Activity Mortality 2019]
 cluster: activity
 nucleus: false
 confidence: medium
-self_critiqued: 2026-10-06
+self_critiqued: 2026-10-28
 relationships:
   related_to: [The Physical Activity Paradox, Measurement Error in Dietary Assessment, Surrogate Outcomes]
   extends: [Physical Activity Dose and Mortality]
 created: 2026-08-21
-updated: 2026-10-06
+updated: 2026-10-28
 ---
+<div class="recent-update" data-last-updated="2026-10-28">
 
 **The decision this page changes:** whether, and how hard, to cut *sitting* and *TV time* — separately
 from the decision about how much to *move*. Sedentary behaviour is a **distinct exposure from physical
@@ -22,6 +23,16 @@ step target" does not close this lever. The anchor is **Patterson 2018**, a gold
 meta-analysis (34 prospective studies, 1,331,468 participants) that gives the per-outcome curve shape,
 adds incident T2D and cancer, and splits total sitting from TV viewing.
 [@patterson2018sedentary]
+*(Qualified 2026-10-28:)* the distinct-exposure reading rests on self-report data and on sitting's low
+correlation with MVPA, not with total activity. On wear-time-adjusted device data a sitting cut *is* a
+gain in light activity or MVPA, so there a sitting-specific effect cannot be separated from an activity
+effect: with wear time fixed, «associations for lower sedentary time reflect associations for increases
+in both light physical activity and MVPA.»
+[@ekelund2026small]
+The deaths-averted figures for -30 min sitting and +30 min light or total activity are similar in the
+high-risk column (3.0% vs 3.3% / 3.4%) and within overlapping intervals in the population column (7.3% vs
+5.4% / 6.1%); the closeness is consistent with, not the warrant for, the non-separability.
+[inferred from @ekelund2026small]
 
 The magnitude is **modest per hour and persists after adjustment for physical activity** (Patterson),
 though device data concentrate it in the least active (Ekelund 2020); for all-cause and CVD mortality it
@@ -30,6 +41,8 @@ though device data concentrate it in the least active (Ekelund 2020); for all-ca
 real, and matter most for the heaviest sitters (mortality) and for population-wide TV reduction (T2D).
  (corrected 2026-10-06: *independent of activity* + *accelerates past a threshold* unscoped ->
 PA-adjusted, mortality-scoped; self-critique)
+
+</div>
 
 ## Two exposures, not one — total sitting vs TV viewing `type-B`
 
@@ -47,6 +60,8 @@ confounding/mediating patterns».
   Only the first and last make TV a *sharper causal lever*; the middle two would make it a sharper
   *signal* only. (corrected 2026-10-06: *TV is the sharper lever because of what travels
   with it* -> four candidate explanations; self-critique)
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Dose-response — an accelerating-harm knee, the MIRROR of the activity plateau
 
@@ -81,9 +96,38 @@ points read off the fitted spline, not estimated parameters, with **no CI**
 inflections* -> change points on a fixed-knot spline; self-critique) The
 studied range spans roughly the observed exposure distribution (TV: 75% of the calibration population
 report <4 h/day, so the high-TV arm is thinner). And because 31/34 studies are **self-reported**, the
-threshold inherits measurement error — an objective-device inflection sits *higher* (Ekelund 2019
+threshold inherits measurement error — ~~an objective-device inflection sits *higher* (Ekelund 2019
 accelerometry \~9.5 h/day sitting; see [[Physical Activity Dose and Mortality]]), the same self-report/
-device gap running in the sitting direction.
+device gap running in the sitting direction~~ (struck 2026-10-28: the device curves, onset \~7.5-8 h and
+steepening \~9.5 h, bracket Patterson's self-report \~8 h, so no ordering of device vs self-report
+thresholds is supported; see the re-read below).
+
+**Re-read `[2026-10-28, Ekelund 2026]`: on device data no association is shown for reducing sitting
+below \~8 h (2026); the 2019 level curve rises from \~7.5 h and steepens past \~9.5 h.**
+Ekelund 2026 (six hip/lower-back accelerometry cohorts in the sitting analysis; IPD participants in all
+seven cohorts averaged 577 min/day sedentary) finds «no association between reducing sedentary time and the risk of mortality in those
+spending less than approximately 480 min/day sedentary», a progressively lower risk from reducing it
+above 480 min/day, and at >=660 min/day about 10% (-30 min/day) and 25% (-60 min/day) lower risk; no CIs
+for these HRs are printed in the text.
+[@ekelund2026small]
+The 2019 device curve it updates rose «gradually from about 7.5 to 9 hours and were more pronounced at
+greater than 9.5 hours» — so the \~9.5 h cited above is the steep part of the device curve, not its onset.
+[@ekelundacc2019]
+
+| Parameter | Patterson 2018 | Ekelund 2026 | Same quantity? |
+|---|---|---|---|
+| Exposure | mostly self-reported total sitting | device sedentary time (low counts on a hip/back accelerometer) | **NO** — self-report sitting vs device low-movement time |
+| Number | \~8 h/day change point (all-cause, PA-adjusted RR per h: 1.01, 1.00-1.01 below; 1.04, 1.03-1.05 above) | \~480 min/day, below which reducing sitting shows no association (figure-read, no CI; x-axis 180-900 min/day) | **PARTLY** — Patterson's is a slope-change point (near-flat slope below 8 h, RR 1.01, 1.00-1.01); 2026's is a null-to-signal boundary read off a figure |
+| Adjustment | PA-adjusted per-hour RR | wear-time-adjusted, so a sitting cut is a swap into light/MVPA | **NO** |
+
+So the two \~8 h figures cannot be lined up as one threshold: the exposures (self-report sitting vs device
+low-movement time) and the adjustment differ, and the 2019 device onset (\~7.5 h) and steepening (\~9.5 h)
+bracket Patterson's \~8 h, so neither curve can be said to bend first. What the device
+data add is a region: below \~8 h no signal is
+detectable, above it (>70% of these adults) a reduction is associated with lower risk that grows with
+starting level. [inferred from @ekelund2026small]
+
+</div>
 
 ## T2D is the standout — and the most caveated `type-F`
 
@@ -187,19 +231,92 @@ would need to close. The trials are also unblindable — you cannot blind an exe
 carries performance/detection risk of bias by construction (a design constraint, not a defect).
 [inferred from @loh2019]
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## Acting on it (layer 3)
 
 - **Effect depends on the replacement** — judge against the realistic alternative, not against standing
   still: «greater reductions in risk may occur when replacing sedentary time with strenuous exercise
   compared with walking for pleasure»
   [@patterson2018sedentary].
-  Substituting sitting with movement banks the sitting-reduction *and* the activity-gain.
+  Substituting sitting with movement banks the sitting-reduction *and* the activity-gain, on self-report
+  data. On device data the two cannot be separated: Ekelund 2026 adjusts for wear time, so «associations for
+  lower sedentary time reflect associations for increases in both light physical activity and MVPA.»
+  [@ekelund2026small]
+- **Less sitting vs more MVPA: no firm ordering (model output, if causal).** Ekelund 2026's potential
+  impact fractions, % of all deaths in follow-up (95% CI), high-risk / population scenario. Consortium:
+  -30 min/day sitting 3.0% (2.0-4.1) in the \~20% most sedentary (mean 721 min/day) / 7.3% (4.8-9.6) in
+  all but the \~20% least sedentary; -60 min/day 5.5% (3.9-6.9) / 12.6% (8.4-16.4); against +5 min/day
+  MVPA 6.0% (4.3-7.4) / 10.0% (6.3-13.4) and +10 min/day 8.8% (7.0-10.4) / 14.9% (9.7-19.3). UK Biobank
+  (wrist): -30 min 2.5% (2.1-2.9) / 4.5% (2.8-6.1); -60 min 4.6% (3.8-5.3) / 7.6% (4.4-10.6); +5 min MVPA
+  2.2% (1.6-2.7) / 3.6% (2.4-4.8); +10 min 3.9% (3.0-4.7) / 6.2% (4.0-8.2). The authors, on the
+  consortium: «the estimated number of preventable deaths appears greater with increasing MVPA by 5–10
+  min/day compared with 30-min and 60-min reductions in sedentary time», and they call -30 min/day
+  feasible (occupational-sitting interventions «might reduce sitting time by between 40 min and 100 min per 8-h
+  workday»).
+  [@ekelund2026small]
+  These are observational HRs turned into deaths by arithmetic: they hold only if the HRs are causal
+  and the change is sustained (assumptions on [[Physical Activity Dose and Mortality]] -> deaths-averted
+  section). The two PIF sets are not the same quantity:
+
+  | Parameter | MVPA PIFs | Sitting PIFs | Same quantity? |
+  |---|---|---|---|
+  | Cohorts | 7 (REGARDS included) | 6 (REGARDS is MVPA-only) | **NO** |
+  | High-risk group | \~20% least active by MVPA | \~20% most sedentary | **NO** — different people |
+  | What moves | 5-10 min out of sitting/light into MVPA | 30-60 min out of sitting into light/MVPA | **NO** — both are reallocations, of different size and kind |
+
+  The MVPA-first ordering holds pair by pair in the consortium (5 vs 30, 10 vs 60 min) but does not hold
+  in UK Biobank (point estimates reversed, intervals overlapping); the consortium's population-column
+  intervals overlap (its high-risk-column pairs do not), so the table gives no firm population ordering
+  that holds across both data sets. For a stratum the starting-level HRs are more informative than the
+  PIFs (same observational, if-causal standing; not an individual effect): near-zero MVPA, +5 min/day
+  from \~1 min/day is associated with \~30% lower hazard; at >=660 min/day sedentary, -30 / -60 min/day
+  with \~10% / \~25% lower (no CIs in text).
+  [@ekelund2026small]
+  These are different starting levels on separate curves (7 vs 6 cohorts), so they do not rank one lever
+  above the other; the one comparison that holds is per minute moved, where the MVPA increment at its
+  steepest point carries more (and this ignores that an MVPA minute costs more effort than a minute
+  moved from sitting into light activity).
+  For someone already above \~24 min/day MVPA (the text-stated point beyond which 2026 reports «no clear
+  risk reduction», figure 1A; no CI in the text)
+  [@ekelund2026small]
+  each further +5 min/day is, if causal, associated with a small reduction, not clearly different from
+  none: read off figure 1A (approximate; \~2000 counts/min hip cut-point), roughly HR 0.97-0.99 per +5
+  min from \~25 to 49 min/day, with intervals of about 0.94 to 1.01. A small, uncertain lever, not a shown zero.
+  `[INFERRED; figure-read]` (corrected 2026-10-28: an intermediate wording called this gain *insufficient
+  evidence*.) In Ekelund 2020's high-MVPA third (\~34 min/day, median of cohort medians) the
+  sitting association is attenuated, not shown to be eliminated: the middle and highest sedentary thirds
+  sit at HR 1.16 (0.87-1.54) and 1.40 (0.87-2.26) against the referent, non-significant with wide
+  intervals, and the authors write «The association between sedentary time and higher risk of death
+  appears attenu- ated, although not completely eliminated, in those in the highest third of time spent
+  in MVPA.»
+  [@ekelund2020joint]
+  So for this stratum the remaining MVPA lever is small and uncertain, the sitting lever has neither a
+  shown gain nor a shown absence of one, and the cheap sit-less default below still applies
+  (corrected 2026-10-28: was *no significant sitting penalty ... so both levers are small*). Adults >=40 only; on the hip-device consortium the under-60 MVPA association was
+  too under-powered to read (insufficient, not null), so the hip consortium alone is insufficient for
+  under-60s. The Methods stratify by «age (<60 years vs ≥60 years)» and include UK Biobank in the
+  sensitivity analyses; in UK Biobank (wrist, healthy-volunteer selection) the sex- and age-stratified
+  results are reported only as «the results were materially unchanged» (one phrase covering these and
+  three other analyses; appendix pp 30-31, not held, no figures in the text), so under-60 support is
+  thin and unquantified, not absent.
+  [@ekelund2026small]
+  **Default, labelled:** if device or estimated sitting is above \~8 h/day, cut 30-60 min/day, into walking
+  where possible (observational, if causal); below \~8 h no mortality gain is shown, TV and T2D aside.
+  (\~8 h on either instrument happens to coincide; they are not one threshold.)
+  [inferred from @ekelund2026small]
 - **Where the lever is biggest — split by outcome:** for **mortality**, the heaviest sitters (past the
   knee, where per-hour harm has accelerated); for **T2D**, TV reduction across the whole population, since
   the per-hour TV->T2D increase is largest below \~4 h/day on the point estimate (non-linearity equivocal) — Patterson: «The prevention of T2D would perhaps
   be best served by reducing TV viewing among the whole population, however, to prevent other outcomes
   targeting those with highest exposure levels may be more appro- priate».
   [@patterson2018sedentary]
+  Ekelund 2026 separates the two strategies for device sitting: the broad scenario averts more deaths in
+  total (-30 min: 7.3% vs 3.0%; -60 min: 12.6% vs 5.5%), while the per-person yield stays about twice
+  as high in the most sedentary 20% (roughly 0.15 points per 1% of the cohort, vs 0.07 for the
+  additional \~60% the broad scenario adds; point estimates, assumes the cumulative PIFs add across
+  groups, \~20% group sizes approximate).
+  [inferred from @ekelund2026small]
   For a lean, active, low-TV person the sedentary *mortality* lever is already largely pulled; the T2D one
   is not, on the point estimate. (corrected 2026-10-06: *heaviest sitters ... and anyone weighting T2D* ->
   outcome-split per Patterson; self-critique)
@@ -209,7 +326,7 @@ carries performance/detection risk of bias by construction (a design constraint,
   **device-measured**: Ekelund 2020 (accelerometry, 9 cohorts, 44 370 adults) puts it at «about 30–40 min
   (median of medians=34 min ...) of MVPA per day» to attenuate the sedentary-mortality association — vs
   the \~60-75 min/day from self-report — with the high-MVPA third (\~34 min) carrying no significant
-  sitting penalty and the risk concentrated in the low-MVPA third (\~2 min/day, worst cell HR 2.63, i.e. +163%, 95% CI 1.93-3.57; the paper prints this cell as 263%
+  sitting penalty (highest sedentary third HR 1.40, 0.87-2.26: imprecise, not shown absent) and the risk concentrated in the low-MVPA third (\~2 min/day, worst cell HR 2.63, i.e. +163%, 95% CI 1.93-3.57; the paper prints this cell as 263%
   against an HR-scale interval, an arithmetic slip its +65% / +40% MVPA cells do not make, though its
   total-activity cells repeat it — 260%, 148%, 240% against HR-scale intervals) (corrected 2026-10-06:
   +263% -> +163%, Ekelund 2020 chunk 01).
@@ -217,7 +334,12 @@ carries performance/detection risk of bias by construction (a design constraint,
   **not the same quantity** (device vs self-report; attenuate vs eliminate) and the paper attributes the
   drop partly to measurement, so read this as a **type-F device refinement** of the held offset, not an
   independent confirmation (same author, overlapping cohorts) — full parameter table and the
-  within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless.
+  within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless of MVPA
+  where sitting is above \~8 h/day (TV and T2D aside).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Provenance / independence
 
@@ -239,6 +361,19 @@ discussion explicitly *rests on* Ekelund's offset figure — so no agreement her
 (no `[E-independent]` token). Loh does **not** move the page's `confidence: medium`: it adds a moderate
 surrogate finding, not a hard-outcome one, and its own hard-outcome (break -> mortality/incidence)
 evidence is weak/null.
+
+**Ekelund 2026** enters as a device-measured type-F refinement of the dose (onset \~8 h, the -30/-60 min
+increments, the deaths-averted layer), not type E: it shares authors and four of its six sitting cohorts
+(ABC, NHANES, NNPAS, WHS) with the held Ekelund 2019/2020 cohort pools, all four also in the 2019
+sitting curve: the 2019 Methods name the two Actical cohorts, REGARDS and Framingham, as MVPA-only,
+and the Fig 2 caption's «FHS (Women’s Health Study)12» mislabels Framingham
+[@ekelundacc2019] (Methods + Table 1;
+corrected 2026-10-28: was *only three, WHS MVPA-only*). UK Biobank is analysed by the same team.
+It does not move
+`confidence: medium`.
+[inferred from @ekelund2026small]
 [inferred from @patterson2018sedentary]
+
+</div>
 
 ## References

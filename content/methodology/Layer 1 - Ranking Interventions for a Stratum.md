@@ -2,8 +2,8 @@
 type: methodology
 question: For this stratum, what is the largest remediable gap — and can the wiki rank anything yet?
 aliases: [Layer 1 Hierarchy, Intervention Hierarchy, Ranking Interventions, Largest Remediable Gap, What Can Be Ranked]
-authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan; GBD 2019 Risk Factors Collaborators (org); Riebe, Deborah A.]
-sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019, GBD - 87 Risk Factors 204 Countries 2019, Riebe - ACSM Preparticipation Health Screening 2015]
+authors: [Nordic Council of Ministers (org); European Society of Cardiology (org); Jha, Prabhat; Afshin, Ashkan; GBD 2019 Risk Factors Collaborators (org); Riebe, Deborah A.; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Ekelund, Ulf]
+sources: [NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Jha - Smoking Hazards Cessation Benefits 2013, Afshin - Health Effects of Dietary Risks GBD 2019, GBD - 87 Risk Factors 204 Countries 2019, Riebe - ACSM Preparticipation Health Screening 2015, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Ekelund - Small Changes Physical Activity Deaths Averted 2026]
 cluster: decision-hub
 relationships:
   related_to:
@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-10-22
+updated: 2026-10-28
 self_critiqued: 2026-10-06
 ---
 
@@ -112,15 +112,21 @@ observational-grade and from **one shared evidence base** (not independent).
 
 
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## What is EMPTY — and this is the finding
 
 | Lever | Status | Why it is empty |
 |---|---|---|
-| **Physical activity** | **ratios only, no absolutes** | The WHO guideline, its 535-page evidence annex and the 779-page PAGAC report all report hazard and risk ratios and **no absolute effects** for adult mortality/CVD/cancer/T2D. (corrected 2026-10-06: *Staged, not ingested* -> the WHO evidence annex is now held; PAGAC is not. Relative magnitude now held: HR 0.34, see below) |
+| **Physical activity** | **ratios only, no individual absolutes at a stratum baseline** (population PIFs now held, Ekelund 2026 — see the NNR/GBD section; crude unadjusted counts on [[Physical Activity Dose and Mortality]]) | The WHO guideline, its 535-page evidence annex and the 779-page PAGAC report all report hazard and risk ratios and **no absolute effects** for adult mortality/CVD/cancer/T2D. (corrected 2026-10-06: *Staged, not ingested* -> the WHO evidence annex is now held; PAGAC is not. Relative magnitude now held: HR 0.34, see below) |
 | ~~**Weight loss as an exposure on hard outcomes**~~ | **FILLED 2026-07-28 — as a NULL/ceiling** | [[Does Weight Loss Reduce Cardiovascular Events]] (Look AHEAD): lifestyle weight loss did NOT reduce hard CV events in T2D (HR 0.95). The lever is real for many outcomes; its *hard-CV-event* benefit is unproven via the lifestyle route |
 | **Baseline risk** | **FILLED as machinery (2026-07-26)** | [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the ESC thresholds and a read-off grid. **A stratum defined by age and condition alone cannot use it** — the chart also needs smoking status, a BP band, a cholesterol band and a region, and the ESC category moves between *high* and *very high* across plausible values. Those four are **case inputs, supplied at layer 3**, not fabric |
 | ~~**Pharmacotherapy**~~ | **FILLED 2026-07-28** | [[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT+STEP-1) + [[Statins for Primary Prevention and the Power of Zero CAC]] (USPSTF+Nasir). Both the realistic drug comparators the telos names. Key finding is a ceiling, not a lever: see below |
 | ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR \~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## What this page establishes
 
@@ -136,7 +142,8 @@ observational-grade and from **one shared evidence base** (not independent).
    smallest hard-outcome effects held on this page.)
 2. **The two largest levers for this stratum have no absolute effect at its baseline**, which is not
    the same as unfavourable. Inactivity has a large observational ratio (HR 0.34 at the dose maximum,
-   device-measured, see *Activity enters the hierarchy*) and no absolute layer. Adiposity, via lifestyle
+   device-measured, see *Activity enters the hierarchy*) and no absolute layer at this stratum's
+   baseline (population PIFs and crude unadjusted counts are held, not individual absolutes). Adiposity, via lifestyle
    weight loss, now has hard-outcome figures at its trials' own baselines: null on CV events (Look AHEAD
    HR 0.95; the 54-RCT meta-analysis RR 0.93, NS) and all-cause mortality RR 0.82 (0.71-0.95), about six
    fewer deaths per 1000, in obese adults of mixed glycaemic status
@@ -160,8 +167,7 @@ observational-grade and from **one shared evidence base** (not independent).
    ceiling itself; its measured hard-outcome benefit is a small all-cause one not routed through the
    heart. (corrected 2026-10-06: *no longer unquantified* wording aligned with the revised item 2.)
 
-
-
+</div>
 
 ## What would change the answer
 
@@ -191,6 +197,8 @@ In priority order, all from already-staged material:
 
 
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## Activity enters the hierarchy with a magnitude `[2026-07-27]`
 
 Layer 1 requires magnitudes *comparable enough to make the ordering visible* — *"an effect stated only
@@ -203,16 +211,30 @@ large: **HR 0.34 (0.27-0.43)** at the maximum for device-measured total activity
 1. **The big-rock framing holds for the inactive.** Near-total inactivity is already named as a
    dominant exposure; the magnitude now supports that placement rather than merely asserting it.
 2. **For someone already active, the ceiling arrives early — and that is itself the finding.** Maximal
-   risk reduction is reached at **\~24 min/day of MVPA**. Above that, the curve flattens, so additional
-   activity is a small lever competing with other small levers. Per the ceiling rule, *"your remaining
-   levers here are small"* is a result that licenses someone to stop optimizing, not a failure to find
-   something.
+   risk reduction is reached at **\~24 min/day of MVPA** (Ekelund 2019's maximal-reduction point, HR 0.39,
+   0.26-0.59, an interval on the curve's level there, not on any further increment, and none on its
+   location; the central estimate of a \~20-40 min/day flattening region on ActiGraph >=1952 / Actical
+   &gt;1535 cpm cut-points, mostly hip-worn, middle-aged and older adults). Ekelund 2026 reports «Beyond
+   approximately 24 min/day, no clear risk reduction was evident (figure 1A).»
+   [@ekelund2026small] (no CI in the
+   text; Figure 1A plots them). Read off figure 1A (approximate; \~2000 counts/min hip cut-point), each further +5 min/day from \~25 to 49
+   min/day sits at roughly HR 0.97-0.99, with intervals of about 0.94 to 1.01: if causal, a small
+   reduction per increment, not clearly different from none. Ekelund 2019's wide intervals at high MVPA
+   (few participants there) describe its own curve, not these 2026 increments (carried from
+   [[Physical Activity Dose and Mortality]]). **Ceiling-is-a-finding:** above \~24 min/day (studied to \~50), further
+   activity is a small, uncertain lever for mortality, so stopping there is a defensible choice for this
+   stratum, a result rather than a failure to find something; more is not shown to be worthless.
+   [INFERRED; figure-read] (corrected 2026-10-28: a first wording called the residual a small lever
+   without the figure as warrant; an intermediate one called it *unknown / insufficient evidence* and
+   dropped this ceiling statement; Figure 1A supports the small, uncertain reading.)
 
 **The caution that keeps this honest:** the ranking is by expected effect **x certainty**, and this
 estimate is observational and between-quartile, so reverse causation is not excluded by design. A
 large HR from cohorts does not outrank a smaller one from trials automatically.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
@@ -268,14 +290,34 @@ second is a unit-of-analysis error, and it is a seductive one because both are h
   `AWAITS` a source carrying population attributable fractions with their exposure-prevalence inputs —
   **that, not another guideline, is what would let a population ranking be converted toward an
   individual one.**
+- **A worked instance of the wedge, in activity `[2026-10-28, Ekelund 2026]`.** Ekelund 2026 publishes
+  potential impact fractions with their exposure-distribution inputs, for one exposure under Rose's two
+  coverage scenarios. +5 min/day of device-measured MVPA in the \~20% least active is estimated to avert
+  6.0% (4.3-7.4) of all deaths during follow-up; the same +5 min in everyone except the \~20% most active,
+  10.0% (6.3-13.4).
+  [@ekelund2026small]
+  On point estimates, the extra \~60% of people in the population scenario add 4.0 points, about 0.07 points
+  per 1% of the cohort against about 0.30 for the least active: a per-person yield about four to five
+  times higher at the bottom (nearer four if the «approximately 20%» group is somewhat larger; part
+  steeper curve, part higher baseline mortality among the least active; no interval derivable; assumes
+  the cumulative PIFs add across groups),
+  inside a population total that is larger only because more people move. This shows the coverage half
+  of the wedge on a single exposure, not the cross-factor case. Both figures are stratum averages that
+  hold only if the HRs are causal, which the source cannot fully establish (a 2-year death exclusion and
+  a mobility-limitation exclusion are the checks it frames as reverse-causation checks; an exclusion of
+  self-reported chronic disease, results similar, is also reported); neither is an individual effect
+  -> [[Physical Activity Dose and Mortality]] (deaths-averted section).
+  [inferred from @ekelund2026small]
 
-**And a caution NNR supplies against its own ranking.** The red-meat sentence opens *«Despite their
+**And a caution NNR supplies against its own ranking (NNR again, not Ekelund).** The red-meat sentence opens *«Despite their
 conservative methodology»*, and the preceding sentence records that the GBD review *«concluded that
 there is a weak association between unprocessed red meat consumption and colorectal cancer, breast
 cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burden rank coexists with a
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
 [@nnr2023]
+
+</div>
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -508,6 +550,8 @@ effect to rank, which is itself the placement.
 
 
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
 
 A maintainer doubt, registered as a Challenge: *the evidence for fibre is not convincing or big; the
@@ -624,8 +668,9 @@ the bias the rule exists to catch. The value added is configurative (the composi
 per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
 this section states it once instead of leaving it distributed.
 
+</div>
 
-
+<div class="recent-update" data-last-updated="2026-10-26">
 
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
@@ -652,13 +697,25 @@ questioned show the two ways that distinction bites, and they resolve in **oppos
   potassium) are Medium; the big-rock instantiation is the drug route plus weight loss — which is why
   [[Sodium Intake and Blood Pressure]] tiers below the integrator it feeds.
 
+*Blood-pressure bullet, scoped 2026-10-26:* elevated BP alone does not make the rock Big — the condition
+is absolute risk. For an untreated stage-1 hypertensive (140-159 / 90-99) with no CVD, diabetes or CKD,
+the direct drug-initiation trials are low-certainty and underpowered (CV events RR 0.93, 0.69 to 1.24; one low-certainty stroke
+signal, RR 0.41, 0.20 to 0.84, on 35 events mostly from one microalbuminuria trial) with a low-certainty
+withdrawal cost measured on old drugs in one partly off-stratum trial [@wang2025mildhtn],
+so there the drug route is a transported small lever, not a demonstrated big one. That does not promote
+the dietary BP levers: their event benefit is transported twice and is small at this baseline for the
+same reason, so on the BP->CV channel every lever here is small (a ceiling-is-a-finding result), and the
+drug-vs-lifestyle choice is the person's (Layer 3). Modern-drug tolerability in this stratum is not
+measured
+-> [[Blood Pressure Lowering and Cardiovascular Events]].
+
 **The discriminator, stated once.** A large **association** with a small or unproven **causal transmission**
 tiers Medium and cannot be promoted by baseline risk (plant foods); a lever with a **proven** transmission
 tiers by the person's baseline risk and so is **stratum-conditional** (blood pressure). Reading a headline
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
-
+</div>
 
 ## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
 

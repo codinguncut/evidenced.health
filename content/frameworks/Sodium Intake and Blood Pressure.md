@@ -2,8 +2,8 @@
 type: framework
 question: How much sodium, and what does reducing it actually buy?
 aliases: [Sodium, Salt Intake, Sodium Reduction, Salt Reduction, Dietary Sodium, WHO Sodium Guideline, Sea Salt, Himalayan Salt, Pink Salt, Is Sea Salt Healthier, Table Salt vs Sea Salt, Specialty Salt, Iodized Salt, Salt Type]
-authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche]
-sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001, Graudal - Low vs High Sodium Cochrane 2020]
+authors: [World Health Organization (org); He, Feng J; Li, Jiafu; MacGregor, Graham A; Huang, Liping; Afshin, Ashkan; Neal, Bruce; Siervo, Mario; Nordic Council of Ministers (org); Mente, Andrew; O'Donnell, Martin; Yusuf, Salim; European Association of Urology (org); Lin, Bing-Biao; Lin, Ming-En; He, Xue-Jun; Filippou, Christina D; Tsioufis, Costas P; Thomopoulos, Costas G; Mihas, Costas C; Dimitriadis, Kyriakos S; Sotiropoulou, Lida I; Chrysochoou, Christina; Nihoyannopoulos, Petros I; Tousoulis, Dimitrios M; Sacks, Frank M.; Svetkey, Laura P.; Vollmer, William M.; Appel, Lawrence J.; Graudal, Niels Albert; Hubeck‐Graudal, Thorbjørn; Jűrgens, Gesche; Lai, Honghao; Nesrallah, Gihad E.; Guyatt, Gordon H; Vernooij, Robin W.M.; Liu, Jiayi; Zhao, Weilong; Hou, Liangying; Pan, Bei; Huang, Jiajie; Campbell, Norm R. C.; Tian, Jinhui; Yang, Kehu; Ge, Long; Johnston, Bradley C.; Brand, Amanda; Visser, Marianne E; Schoonees, Anel; Naude, Celeste E.]
+sources: [WHO - Sodium Intake 2012, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, He - Salt Reduction Blood Pressure 2013, Huang - Sodium Dose Duration Blood Pressure 2020, Afshin - Health Effects of Dietary Risks GBD 2019, Neal - SSaSS Salt Substitution Cardiovascular 2021, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, NNR - Nordic Nutrition Recommendations 2023, Mente - Urinary Sodium Cardiovascular Events Hypertension PURE 2016, EAU - Urolithiasis Guidelines 2026, Lin - Dietary Lifestyle Nephrolithiasis 2020, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, Sacks - DASH Diet Sodium Blood Pressure 2001, Graudal - Low vs High Sodium Cochrane 2020, Lai - Salt Substitute Network Meta-Analysis 2026, Brand - Low-Sodium Salt Substitutes Cochrane 2022]
 cluster: sodium-bp
 nucleus: true
 confidence: medium
@@ -18,12 +18,15 @@ relationships:
     - Should Sodium Reduction Be Population-Wide or Targeted
     - Net Effect vs Intended Effect
 created: 2026-07-26
-updated: 2026-10-22
-self_critiqued: 2026-10-22
+updated: 2026-10-28
+self_critiqued: 2026-10-26
 ---
+<div class="recent-update" data-last-updated="2026-10-26">
 
-**Nucleus of the `cardiometabolic-exposures` cluster.** WHO 2012, all recommendations **strong**.
+**Nucleus of the `sodium-bp` cluster.** WHO 2012, all recommendations **strong**.
 The word *conditional* does not appear in the document.
+
+</div>
 
 ## The recommendations
 
@@ -83,6 +86,8 @@ itself:
 > disease, stroke and coronary heart disease was of lower quality. Therefore, these recommendations
 > should be reviewed when more evidence... becomes available."
 [@who2012]
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The published RCT meta-analysis behind the effect `[2026-07-31, He 2013]`
 
@@ -261,6 +266,10 @@ He/MacGregor lineage — a body line, not a `sources:`-padding independent backi
 rising at a larger contrast, including in its >=7-day subgroup — and the two lipid estimates turn out to
 be numerically compatible.
 [inferred from @graudal2020sodium; @he2013]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The opposing Cochrane review — same hypertensive BP effect, a compensation arm the other lineage reads as transient `[2026-10-22, Graudal 2020]`
 
@@ -496,6 +505,8 @@ carrying only refs 40-41 (renin's prognostic importance); by context it presumab
 &gt;=4-week subgroup (ref 33, not held), so the persistence claim cannot be checked here [@who2012].
 [inferred from @who2012; @graudal2020sodium]
 
+</div>
+
 ## How the gap is bridged — a disclosed surrogate transfer
 
 The bridge is explicit, and it is the guideline's most consequential methodological act:
@@ -559,6 +570,8 @@ By **baseline intake**, point estimates rise monotonically with intake (1.79 -> 
 is "independent of baseline sodium intake." **A monotone gradient declared absent on a non-significant
 interaction test is a claim about power as much as about biology.**
 [inferred from @who2012]
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The J-curve — named as the reason for the review, then never adjudicated
 
@@ -638,6 +651,10 @@ runs the confounder-immune adjudication.** GBD corroborates *unprobed, not dispr
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-26">
+
 ## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
 
 This page's central gap was that **hard outcomes sit at very low certainty** (all cohort evidence, the
@@ -658,6 +675,11 @@ age >=60 + high BP, 4.74 y follow-up; events adjudicated blind to assignment):
 
 The achieved contrast: 24h urinary sodium **−15.2 mmol** (−350 mg), potassium **+20.6 mmol** (+803 mg),
 SBP **−3.34 mmHg** (−4.51 to −2.18). [@neal2021]
+Funding, for the same competing-interest check the He/MacGregor and Graudal camps get: publicly funded,
+but the substitute was «purchased by the investigators from local manufacturers in each province for
+years 1, 2, and 5 but was donated by Jiangsu Sinokone Technology for years 3 to 4» — product partly
+manufacturer-donated. The trial was sponsored by the George Institute, where the analyses were performed;
+the held text does not say what role, if any, the NHMRC funder or the donating manufacturer had. [@neal2021]
 
 **Why this is the decision-relevant caveat, not a footnote.** The intervention **raised potassium more
 than it cut sodium** (+20.6 vs −15.2 mmol), and the authors state both exposures «independently lower
@@ -679,9 +701,12 @@ applied: SSaSS earns a strong recommendation *for its own stratum*, not a univer
 K-raising intervention is hyperkalaemia. SSaSS found **no excess** (3.35 vs 3.30 per 1000 py; RR 1.04,
 0.80-1.37; P=0.76) and no excess sudden death — but it **excluded known serious kidney disease,
 potassium-sparing diuretics and K-supplements by history**, did **no biochemical renal prescreening**,
-and did not measure serum potassium serially. So the safety reassurance holds for the *screened*
-population; **CKD / impaired potassium excretion remains a real harm-firing stratum** where a salt
-substitute is contraindicated (concordant with the route-c boundary on [[Potassium Intake and Blood Pressure]]). [@neal2021]
+and did not measure serum potassium routinely at all (Neal: «Routine serum potassium measurements were not performed» in Methods;
+its Limitations say potassium «was not measured serially»). So the safety reassurance holds for the *screened*
+population. **In CKD / impaired potassium excretion, or on potassium-sparing drugs, a salt substitute is
+contraindicated** on mechanism and clinical precedent (Aburto [inferred from @aburto2013]);
+the trials excluded these people, so the in-stratum evidence is insufficient, not shown safe and not
+measured as harm. [@neal2021]
 
 **The events slightly exceed what the measured BP fall predicts — a recurring pattern.** Via
 [[Blood Pressure Lowering and Cardiovascular Events]] (BPLTTC: \~13% stroke reduction per 5 mmHg SBP), a
@@ -693,6 +718,288 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-26">
+
+## Salt substitutes pooled — the hard-outcome benefit is mostly one trial's, with no mortality evidence from outside China `[2026-10-26, Lai]`
+
+Lai 2026 is a GRADE-rated network meta-analysis of **34 RCTs (37,063 participants, 15 countries, 17 of
+the trials in China)** of salt substitutes against regular salt (or, in a few trials, other substitutes or no intervention),
+searched to October 2025. The
+SSaSS formulation (75% NaCl / 25% KCl) falls in its moderate-potassium (25-40% KCl) and low-sodium
+(60-79% NaCl) nodes. Absolute effects are per 1000 over 5 years, computed by applying the pooled RR to
+**modelled** baselines taken from statin-trial (CTT) control arms: intermediate = 5-10% and high =
+20-30% five-year CV-event risk. [@lai2026salt]
+
+| Outcome, moderate-K node (low-Na node) | Intermediate risk | High risk | Certainty (Lai) |
+|---|---|---|---|
+| All-cause mortality (6 trials, 24,106) | -7 (-11 to -3) | -16 (-24 to -7); low-Na -17 (-26 to -7) | moderate / high (prose states *high* for the 17/1000 figure; GRADE shading not in the held XML) |
+| CV mortality (2 trials, 22,607) | -5 (-9 to 0) | -16 (-28 to -1) | moderate |
+| Non-fatal CV events (7 trials, 25,945) | -20 (-35 to 0) | -68 (-115 to 0) | moderate / low (*probably* / *might be* beneficial) |
+| SBP, mmHg (18 trials, 24,345) | -4.64 (-6.05 to -3.24) | | moderate |
+
+[@lai2026salt]
+
+**The mortality pool is SSaSS.** SSaSS's 20,995 participants are about 87% of the moderate-K mortality
+pool, and the implied relative effect (1 - 7/62 and 1 - 16/143, both \~0.89) is SSaSS's own death rate ratio of
+0.88 back again. Lai's sensitivity analysis
+says so directly: «After excluding this study, while the significant all-cause mortality benefit was
+eliminated (still showing reductions of 4 and 10 deaths/1000 for those at intermediate and high
+cardiovascular risk), cardiovascular mortality remained significantly reduced, with 9 and 29 fewer deaths
+per 1000 in intermediate and high risk populations, respectively, over 5 years.» Non-fatal CV events also
+lost significance without SSaSS. [@lai2026salt]
+The CV-mortality residual does not test transport: «Among non-Chinese trials, none examined mortality
+outcomes.» [@lai2026salt], so the
+trials left after SSaSS are Chinese too; on the one or two small trials left (the moderate-K CV-mortality pool is 2 trials, 22,607 people, so
+about 1,600 once SSaSS is removed), a residual that
+survives SSaSS's removal, and is larger without it, reads as fragility or small-study inflation rather
+than robustness. Outside China, the one
+significant hard-outcome signal Lai reports is a Peru trial's non-fatal CV events (44 and 148 fewer per 1000 at
+intermediate and high risk, modelled on the borrowed baselines).
+[@lai2026salt]
+
+**Lai's own transport verdict is narrow.** The current evidence, «dominated by a single large Chinese
+trial (SSaSS, *n* = 20,995 participants), has very limited generalizability beyond populations following
+Chinese dietary patterns characterized by high discretionary salt use and home food preparation.»
+[@lai2026salt] Its certainty ratings
+carry the same scope: «Certainty of evidence ratings were assessed for the populations actually studied
+in the included trials», and «When applying this evidence to populations with substantially different
+dietary patterns, food preparation methods, baseline sodium intake or genetic backgrounds compared to the
+study populations, practitioners may need to consider downgrading evidence certainty for indirectness»
+[@lai2026salt]. Lai itself
+applies no such downgrade; it leaves the call to the user of the evidence.
+So the *high* certainty on all-cause mortality at high risk is a claim about mostly high-risk rural-Chinese
+adults, not about salt substitution in general. A mechanism for the limit, offered as the
+wiki's reading: a substitute replaces only the salt added at home, so where most sodium arrives in
+processed or restaurant food the same switch moves less sodium. Lai names the inputs (home cooking,
+higher intake, less processed food in Chinese populations) but does not model this, and it also reports
+that urinary sodium did not track the substitutes' NaCl content consistently, which it reads as incomplete
+replacement or other dietary sodium. [@lai2026salt]
+
+**Parameter table — Lai against Neal (op-weave 2a).**
+
+| Parameter | Neal SSaSS 2021 | Lai 2026, moderate-K / low-Na node | Same quantity? |
+|---|---|---|---|
+| Population | 20,995 rural Chinese; 72.6% prior stroke; mean age 65; BP 154/89 | 34 trials; weighted mean age 62.3, SBP 147.6, 69.1% hypertensive; mortality pool \~87% SSaSS | **PARTLY** — the hard-outcome pools are mostly SSaSS |
+| Intervention | 75% NaCl / 25% KCl vs regular salt | 25-40% KCl or 60-79% NaCl substitutes vs regular salt | **MOSTLY** — same KCl band; the node also pools Mg- and Ca-containing blends |
+| Mortality metric | death rate ratio 0.88 (0.82-0.95); 39.28 vs 44.61 per 1000 person-years, observed | per 1000 over 5 y, pooled RR applied to CTT control-arm baselines (62 / 143) | **NO** — observed rate vs a modelled absolute on borrowed baselines; the relative effects match (\~0.89 implied) |
+| SBP | -3.34 (-4.51 to -2.18) | -4.64 (-6.05 to -3.24), 18 trials | **PARTLY** — both mmHg mean differences, but Lai's pool contains SSaSS and its trials ran \~10.5 months on average vs SSaSS's \~5 years |
+| Certainty | one RCT, not GRADE-rated | moderate to high, scoped to «the populations actually studied» | **NO** |
+| Independence | -- | SSaSS sits in every hard-outcome pool | **NOT independent** — type-F, never type-E |
+
+[@neal2021] [@lai2026salt]
+
+**What this changes for a decision (route a, plus transport).** For an adult at intermediate CV risk
+(5-10% over 5 years) in a setting like SSaSS's — high intake, most salt added at home — switching to a
+25-40% KCl substitute is estimated at about **7 fewer deaths per 1000 over 5 years (3 to 11; modelled on
+borrowed baselines)**, moderate certainty. That figure is a transport: the relative effect is mostly
+SSaSS's, measured at a control death rate of 44.61 per 1000 person-years (roughly 200
+per 1000 over 5 years [inferred from @neal2021]; 72.6% with prior stroke) [@neal2021],
+above both of Lai's all-cause control baselines (62 and 143 per 1000 over 5 years) [@lai2026salt], and applied to them on the assumption that
+the relative effect holds; SSaSS's subgroups were «broadly consistent», but all within its high-risk
+population [@neal2021]. It applies provided the
+hyperkalaemia screen comes first (route c, below and on [[Potassium Intake and Blood Pressure]]): kidney
+disease, potassium-sparing diuretics and potassium supplements, screened in everyone who eats the
+household's food (SSaSS's exclusions, which covered household members; its population included 22.8% on an ACE inhibitor or ARB, with no
+ACEi/ARB-specific safety estimate in the held text [@neal2021]). Diabetes is a
+check-first group, not an exclusion: Lai says «patients with type 1 or 2 diabetes may also be at risk of
+hyperkalaemia» [@lai2026salt],
+citing work not held here, and SSaSS enrolled people with diabetes without a diabetes-specific
+hyperkalaemia estimate, so kidney function and serum potassium are checked first; safety there is
+unmeasured, not shown harmful. ACE-inhibitor/ARB users join the check-first group on
+Brand's hyperkalaemia-risk classification (detail on [[Potassium Intake and Blood Pressure]])
+[inferred from @brand2022lsss]. Outside that setting
+the mortality estimate does not transfer: no non-Chinese trial measured mortality, and Lai's footnote
+leaves an indirectness downgrade open for other diets. The pooled BP effect has more non-SSaSS backing
+(below), though Lai's indirectness footnote applies to it too, and it was measured at a weighted mean SBP
+of 147.6 mmHg; Lai's meta-regression (low credibility) suggests «a larger effect on SBP in those with higher
+baseline SBP» [@lai2026salt], so
+expect less at lower baselines. Lai ran a sensitivity analysis «exclusion of trials
+conducted in Chinese populations» for BP [@lai2026salt],
+but its result is not in the held text; the nearest held number is Brand's SBP subgroup by ethnicity (in the
+Brand section below: 8 small European trials). Lai's main text
+reports no SBP estimate with SSaSS excluded (its Additional file 6, not held, may), but its pooled -4.64
+exceeds SSaSS's own -3.34, so the other 17 trials
+carry real weight in it [searched: excluding/sensitivity across chunks 01-02] (not the same
+quantity exactly: Lai's BP thresholds are set on a mean follow-up of 10.5 months, SSaSS's -3.34 is over
+about 5 years), and Lai contrasts itself
+with earlier reviews that found «the blood pressure-lowering effects of salt substitutes are
+generalizable across diverse populations and geographic regions», stating its SSaSS-dominance caution of
+the evidence as a whole but supporting it only with the mortality result with SSaSS excluded (its
+Limitations flag generalizability for all its findings)
+[@lai2026salt]. Below
+intermediate risk Lai gives no tier; absolute benefit shrinks with baseline risk, as with SSaSS above.
+A cheap, reversible switch, so a plain do-this for a high-intake home-cooking hypertensive who passes
+the screen, labelled as resting mainly on one Chinese trial for hard outcomes. **Labelled default outside
+SSaSS-like settings:** for a screened adult (safety untested in children and the switch untested in
+pregnancy, both of which a household switch also reaches; see [[Potassium Intake and Blood Pressure]]), a K-enriched substitute for the salt they add themselves is
+still a low-harm BP lever, expected to do less where most sodium arrives in processed or restaurant food;
+it rests on the BP surrogate, with no hard-outcome evidence outside China. Lai's conclusion is in the same direction but
+hedged: substitutes are «a promising sodium reduction strategy with the caveat that individuals without
+kidney impairment at intermediate and high cardiovascular risk need more investigation», with the evidence for mortality
+«derived predominantly from a single large Chinese trial (SSaSS, *n* = 20,995)».
+[@lai2026salt]
+[inferred from @lai2026salt; @neal2021] type-F: Lai bounds SSaSS's transport and adds the absolute-effect and certainty layer; it adds no independent hard-outcome backing.
+
+- — the long-term salt-substitution
+  SR whose transport caution Lai says it confirms. Low priority: Lai credits Greenwood with the reading that
+  the evidence is «dominated by a single large Chinese trial», so holding it cannot add independent
+  hard-outcome backing.
+- Named gap (G): no salt-substitute trial outside China has measured mortality — the European trials
+  reporting any hard outcome (France, UK, Norway, Finland) report non-fatal events only — so there are no mortality data for
+  Black populations either, whom Lai names as «more likely to have sodium sensitivity».
+  [@lai2026salt]
+
+### The Cochrane review beside Lai — same trials, a different target population `[2026-10-26, Brand]`
+
+Brand 2022 is the WHO-commissioned Cochrane review: **26 RCTs, 34,961 adults (plus 92 children), searched
+to August 2021**, 15 of the trials in Asia, 22 of 26 testing a substitute used as discretionary salt «at the individual, household, institution or
+salt supply chain level». Adults,
+against regular salt [@brand2022lsss]:
+
+| Outcome | Effect (95% CI) | Trials, n | Certainty (Brand) |
+|---|---|---|---|
+| SBP | MD -4.76 mmHg (-6.01 to -3.50) | 20, 21,414 | moderate (inconsistency) |
+| DBP | MD -2.43 mmHg (-3.50 to -1.36) | 19, 20,830 | moderate (inconsistency) |
+| Non-fatal stroke | RR 0.90 (0.80 to 1.01); 20 fewer per 100,000 (40 fewer to 2 more) | 3, 21,250 | moderate (indirectness) |
+| Non-fatal acute coronary syndrome | rate ratio 0.70 (0.52 to 0.94); 150 fewer per 100,000 person-years (250 fewer to 30 fewer) | 1 (SSaSS), 20,995 | moderate (indirectness) |
+| CV mortality | rate ratio 0.77 (0.60 to 1.00); 180 fewer per 100,000 person-years (310 fewer to 0 fewer) | 3, 23,200 | moderate (indirectness) |
+| All-cause mortality | RR 0.89 (0.83 to 0.95) | 5, 24,005 | not GRADE-rated (a secondary outcome) |
+
+The stroke row is a **risk** per 100,000 in the SoF and the results text, which pool it as a risk ratio
+(the abstract labels the same figure per 100,000 person-years, so the source is not consistent); the
+coronary and CV-mortality rows are **rates** per 100,000 person-years. Like Lai's per 1000 over 5 years,
+Brand's absolutes are transports, not observed differences: the intervention-arm risk «is based on the
+assumed risk in the comparison group and the relative effect of the intervention» (SoF footnote *), here
+198 per 100,000 for non-fatal stroke, 512 per 100,000 person-years for coronary syndrome and 786 for CV
+mortality [@brand2022lsss].
+So three kinds of baseline are in play on this page: SSaSS's observed rates, Lai's statin-trial control
+arms, and Brand's assumed risks, which coincide with SSaSS's observed control rate for coronary syndrome
+(512 per 100,000 person-years) but not for non-fatal stroke (198 per 100,000, against SSaSS's 24.86 per
+1000 person-years) [@brand2022lsss]. Brand also pools rate ratios as risk ratios for all-cause
+mortality, not only for stroke: «The meta‐analysis combining these data as risk ratios resulted in an RR
+of 0.89 (95% CI 0.83 to 0.95, I^2^ = 0%, 24,005 participants, 5 RCTs, Analysis 1.49) when comparing LSSS
+with regular salt.» [@brand2022lsss]
+BP follow-up ran from 4 weeks to 60 months, but «the majority of trials reporting on blood pressure
+outcomes followed participants for six months or less», and the non-fatal-stroke benefit disappears in
+sensitivity analysis: restricted to low or unclear risk of bias, or to individually randomised trials, the
+pooled estimate «did not reflect this benefit with LSSS; instead showing highly imprecise effects of
+little to no effect, or harm.» [@brand2022lsss]
+The individually-randomised restriction (Analysis 1.35, 2 trials, 255 people) drops the cluster trials,
+SSaSS among them, so it is the same signal as Lai's SSaSS exclusion. The risk-of-bias restriction
+(Analysis 1.34) keeps SSaSS and returns RR 1.03 (0.48 to 2.20) in 21,220 people [@brand2022lsss],
+while SSaSS alone gives rate ratio 0.90 (0.80 to 1.01) [@brand2022lsss], so that widening most
+plausibly comes from random-effects reweighting toward the one small companion trial, not from a second
+sign of fragility. The non-fatal-stroke row is SSaSS's own estimate, whose interval already reaches 1.01
+. The CV-mortality
+row survives its sensitivity analysis: restricted to low- or unclear-risk-of-bias trials (Analysis 1.38),
+it «confirmed this effect». [@brand2022lsss]
+
+**Individual or population importance.** Brand's BP falls were «not considered to be clinically
+important at the individual level», and likewise the non-fatal stroke and CV-mortality reductions; only
+the coronary reduction was judged individually important, imprecisely; all were «small but important from
+a population perspective» [@brand2022lsss]. The
+verdict uses relative measures «of less than 0.75 or greater than 1.25» for events and «at least 10 mmHg
+in SBP» for BP [@brand2022lsss], thresholds that
+do not scale with baseline risk; route (a) says the same relative effect is worth
+more in absolute terms at higher risk: for a low-risk screened adult it supports calling the effect
+small, for a high-risk adult in an SSaSS-like setting it does not carry. The population
+reading is the commissioning body's frame (WHO NUGAG) as much as the review's; the dispute it bears on is
+[[Should Sodium Reduction Be Population-Wide or Targeted]].
+
+**Parameter table — Brand against Lai (op-weave 2a).**
+
+| Parameter | Brand 2022 | Lai 2026 | Same quantity? |
+|---|---|---|---|
+| Trials | 26 RCTs, search to Aug 2021 | 34 RCTs, search to Oct 2025 | **MOSTLY SHARED** — 25 of Brand's 26 are in Lai; Brand-only Toft 2020 (Danish families, substitute in bread: adults plus the 92 children) |
+| SBP | -4.76 (-6.01 to -3.50), all substitutes, 20 trials | -4.64 (-6.05 to -3.24), moderate-K node, 18 trials | **PARTLY** — both pooled mmHg differences; Brand pools every formulation, Lai one KCl band |
+| Serum potassium | +0.12 mmol/L (0.07 to 0.18), 6 trials, 784 | +0.15 (0.09 to 0.20), moderate-K node, 3 trials, 461 | **PARTLY** — same unit; different trial sets; Brand pools every formulation |
+| CV mortality | rate ratio 0.77 (0.60 to 1.00), 3 trials | -5 (-9 to 0) / -16 (-28 to -1) per 1000 over 5 y, 2 trials | **NO** — observed rate ratio vs a modelled absolute; both rest on SSaSS |
+| Certainty target | the general population: the hard-outcome rows downgraded once for indirectness (footnotes j and h) | «the populations actually studied»; no target-population indirectness applied, a footnote leaves that to the user | **NO** — different target population |
+| Hyperkalaemia | analysed: RR 1.04 (0.46 to 2.38), 5 trials | not an analysed outcome | **NO** — Brand only |
+| Authors | Brand, Visser, Schoonees, Naude | 14 authors (Lai, Guyatt, Johnston and others) | no overlap; Neal is an author of neither |
+
+[@brand2022lsss]
+[@lai2026salt]
+
+**Agreement here is not two witnesses.** The two reviews share 25 trials, and SSaSS dominates every
+hard-outcome pool in both, so their concurrence on BP and CV mortality is the same evidence re-pooled
+(type-F, never type-E).
+
+**The certainty labels differ because the question differs (a distinction, not a tension).** Brand's
+indirectness footnote on the stroke, coronary, CV-mortality and stroke-mortality rows (footnote j; the
+small *CV events, various* row carries a separate one) reads: «Pooled effect is driven by a large secondary prevention trial
+(73% of participants with previous stroke) that is less likely to be directly applicable to the general
+population, and that reported limited data on safety outcomes» [@brand2022lsss]. Lai's own position is the Table 5 footnote quoted above
+(rated for the studied populations; for different dietary patterns, food preparation, baseline sodium or genetic backgrounds, an indirectness downgrade is left to the practitioner).
+On **hard-outcome certainty** not-joined check (ii) fires in part: Brand grades for the general
+population and Lai for the populations studied, so one indirectness level of the gap is a difference of
+target. The two downgrade on different axes, though (Brand's footnote on a secondary-prevention
+population, Lai's on diet, food preparation and genetics), and Lai's per-outcome downgrade reasons are not
+in the held text, so whether the grades agree once the target is matched is not shown.
+On **BP transport** the issue looks joined but is not, on the held text. Lai names Brand (its ref 76)
+among reviews that «concluded that the blood pressure-lowering effects of salt substitutes are
+generalizable across diverse populations and geographic regions» and says its own findings «reveal
+limitations overlooked by previous reviews» [@lai2026salt].
+Brand's applicability section does say «Subgroup analyses suggest there may be no important clinical
+differences in average effects on blood pressure between subgroups by ethnicity, although these analyses
+were limited.» [@brand2022lsss] But Lai's
+held text gives no BP number against it (its non-Chinese BP sensitivity result is unheld, above): its
+limited-generalizability sentence is stated of the evidence as a whole, right after the BP claim, but the
+only number it offers in support is the mortality result with SSaSS excluded. So no tension is filed: it is a gap (G) that Lai's unheld
+supplement would close [inferred from @brand2022lsss; @lai2026salt].
+
+**Two things Brand adds to the transport case.** First, the discretionary-share limit offered above as
+the wiki's mechanism is now stated by a review, though as a possibility, not a measurement: «Nearly all
+the trials in our review investigated the effects of LSSS implemented as a discretionary intervention.
+This restricts the generalisability of our findings to discretionary LSSS implementation, and we are
+unable to draw firm conclusions about non‐discretionary LSSS implementations (for example, where LSSS is
+added to manufactured foods). Furthermore, the contribution of discretionary salt to total sodium intake
+varies considerably across countries and settings. This variation is an important consideration when
+decisions are made about the implementation of LSSS since the absolute intakes of LSSS may vary across
+settings, thereby creating the possibility of variable impacts on both effectiveness and safety.»
+Brand also holds the only measurement of the non-discretionary case, one trial: SBP +0.73 (-3.85 to
+5.31), 90 people, against -5.02 (-6.48 to -3.55) for the 17 discretionary-only trials
+[@brand2022lsss]. One small trial
+is not a null; it keeps the possibility open. Brand's own reading of the same subgroup
+analysis runs the other way: «Subgrouping by intervention characteristics also suggested there may be no
+important differences in average effects between the manner of LSSS implementation (Analysis 1.22) or the
+type of LSSS (Analysis 1.23).» [@brand2022lsss] The mixed
+discretionary-plus-added group (2 trials, 142 people) gives -5.12 (-5.85 to -4.39).
+[@brand2022lsss]
+Second, the normotensive cell is thin by the review's own account (one normotensive-only trial of 26; the abstract: evidence «is limited for adults without elevated blood pressure»): «Most of the trials included in our
+review assessed the effects of LSSS in participants with elevated blood pressure at enrolment. Due to
+limited data, we could not adequately examine effect modification for the relationship between LSSS use
+and outcomes by hypertension status.» [@brand2022lsss]
+Its SBP subgroups put a number on the thinness: normal BP -4.50 (-9.14 to 0.14), 4 trials, 561 people;
+hypertension -5.33 (-6.82 to -3.83), 12 trials, 1,847. By ethnicity: Asian -4.08 (-5.46 to -2.71),
+11 trials, 20,699; trials conducted in Europe -5.75 (-8.35 to -3.15), 8 trials, 693 people
+[@brand2022lsss].
+So for a normotensive adult the substitute's BP effect is insufficient evidence, not a null: the point
+estimate sits near the hypertensive one, on an interval that reaches zero (not comparable with WHO's
+normotensive sodium-reduction figure above: a different intervention and dose). The labelled default above (a low-harm BP
+lever outside SSaSS-like settings) is a transport from mostly hypertensive trials, and the European
+subgroup supports the BP part of it, on 693 people.
+
+- Named gap (G): **how Lai counted multiple reports of one trial is not stated in its held text.** Brand
+  files two of Lai's 34 as reports of trials it already counts (Lai's Li 2008 under CSSS 2007, with the
+  same 306 / 302 arm sizes in Lai's table, contributing only acceptability; Lai's Yang 2018 under Zhou
+  2009: Lai lists Zhou 2009 at 119 / 129, the whole trial, and Yang 2018 at 62 / 64, which is exactly
+  Zhou 2009's hypertensive stratum in Brand's hyperkalaemia-risk table, normotensives 57 / 65, and both
+  rows carry BP outcomes) [@brand2022lsss]
+  [@brand2022lsss]
+  [@lai2026salt]. Lai's main text has
+  no multiple-report rule `[searched: duplicate / multiple publications / same trial / multiple reports
+  across Lai chunks 01-02 with srcgrep: 0]` and its selection detail is in an unheld supplement, so a
+  possible double count is an open question about Lai's trial total (and, for Yang 2018, the held tables
+  point to the same 126 hypertensive participants entering the BP pool twice; whether Lai de-duplicated
+  them is in the unheld supplement), not a finding against it.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
 
@@ -754,7 +1061,14 @@ contaminated**, and the study cannot separate those. This is why the WHO/He surr
 g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Population-Wide or Targeted]].
 [inferred from @mente2016pure]
 
-## What is absent
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-26">
+
+## What is absent (from WHO 2012)
+
+*Absolute effects are now held for salt substitutes (see the Lai and Brand sections above, both on
+assumed or borrowed baselines); the list below is what WHO 2012 itself lacks.*
 
 - **Absolute effects entirely.** No per-1000, no risk differences, no baseline risk, no NNT. The
   mmHg figures are absolute in units but never translated to outcome risk. **So this recommendation
@@ -779,6 +1093,8 @@ g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Populati
   sea/Himalayan salt is healthier makes worth stating.
 
 [inferred from @who2012]
+
+</div>
 
 ## Salt type does not change the sodium — sea and Himalayan salt carry the same BP burden `[2026-09-25, belief-harvest run 17 B2]`
 

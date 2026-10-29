@@ -2,8 +2,8 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -20,9 +20,10 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Testosterone Adiposity and Muscle
     - Weight Cycling and Cardiometabolic Risk
+    - Self-Weighing for Weight Loss
 self_critiqued: 2026-09-01
 created: 2026-07-31
-updated: 2026-10-20
+updated: 2026-10-29
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -312,6 +313,55 @@ maintenance vs surgery) -> [[Comparing Obesity Drugs]]. The number is a secondar
 not Nong's own analysis; held as Nong reporting West.
 [inferred from @nong2026obesity]
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
+## Self-weighing as a maintenance tool — not tested in the held trials (Madigan 2015)
+
+*Added 2026-10-29.* Whether regular self-weighing helps keep weight off is a separate question from
+whether it helps weight loss. The one held review of self-weighing RCTs cannot test that use, because it excluded maintenance trials by design:
+«Trials were excluded if they enrolled people after weight loss where the prime aim of the
+intervention was to prevent weight regain or trials that enrolled people that aimed to help prevent
+gradual weight gain.» [@madigan2015weigh]
+Its weight-loss findings are on [[Self-Weighing for Weight Loss]].
+
+What it does report on durability is thin. Three weight-loss trials, of three different comparison
+types, followed people after the last contact. Two of the three found differences whose intervals exclude
+zero (-8.0 kg, -12.5 to -3.5, about 18 months after; -7.5 kg, -11.3 to -3.7, nine months after), the
+third -0.3 kg after a single session; pooled across 185 people -5.5 kg with a printed interval of
+-11.4 to 4.7 and I² 86%. Mixed comparison types and three small trials do not establish durability. The maintenance associations it cites are
+observational, and the authors lean toward them: «Additionally because self-weighing is less
+cumbersome than recording diet and physical activity it might be a behaviour that can be continued and
+therefore help weight control in the longer term. The National Weight Control Registry has found that
+those who are successful at preventing weight regain, after weight loss, weigh themselves on a regular
+basis [46].» On a separate prospective study (ref 48; the quote's closing marker cites a different paper) they add a caveat: «Higher weighing frequency was
+associated with greater weight loss and less weight regain at 24 months follow-up. However, greater
+motivation to maintain weight or success in achieving weight mainten- ance may motivate people to weigh
+themselves frequently, which makes observational data difficult to interpret [49].»
+[@madigan2015weigh]
+
+[inferred from @madigan2015weigh] So for the stratum maintaining a
+loss, self-weighing is **insufficient evidence** in the held fabric, not no effect: the trials that would
+test it were outside this review's scope, and the observational signal points the authors' way but
+carries the motivation and reverse-causation alternatives their own caveat names. The low cost of a scale makes trying it
+reasonable; the held evidence gives no maintenance magnitude. — closes when a review pooling
+maintenance-phase self-weighing trials is held.
+
+**Not the same quantity as Franz's advice-alone row.** Before reading Madigan's scale-alone trial as
+support for Franz's *advice alone: minimal at any timepoint*:
+
+| Parameter | Franz 2007, advice-alone row | Madigan 2015, scale-alone comparison | Same quantity? |
+|---|---|---|---|
+| Exposure | weight-loss advice, no programme | advice to self-weigh, no programme | **NO** — different interventions |
+| Quantity | within-arm mean loss, simple pooling | between-group MD vs no intervention, -0.5 kg (95% CI -1.3 to 0.3) | **NO** — within-arm vs between-group |
+| Horizon | 6 to 48 months | 3 months, programme end | **NO** |
+
+[@franz2007]
+[@madigan2015weigh]
+[inferred from @madigan2015weigh] No cell matches, so the two
+neither corroborate nor contradict each other; each stands on its own.
+
+</div>
+
 ## What it licenses, and the limits that bound it
 
 **Decision-relevant, for an identified stratum (the person maintaining a large diet-induced loss):**
@@ -359,6 +409,8 @@ not Nong's own analysis; held as Nong reporting West.
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Synthesis
 
 [inferred from @sumithran2011] The unit-of-analysis shift this page
@@ -372,6 +424,11 @@ is now well-backed — a high-tier 80-RCT meta-analysis (Franz 2007), convergent
 independent 6-month-peak-then-regain shape. The **causal mechanism** (that hormonal defense *drives* the
 regain) stays weak: one small uncontrolled VLCD study carries it, and the causal step to regain plus the
 generalization past VLCD are both inferred, not held. The dated drug arm (Franz's orlistat/sibutramine)
-does not transport to the current GLP-1 era.
+does not transport to the current GLP-1 era. *Added 2026-10-29:* the behavioural-tool limb is also
+thin. Self-weighing is cheap but has no held maintenance-trial estimate; the held review
+excluded those trials, and the observational associations it cites carry the authors' own
+reverse-causation caveat on one of them (section above). [inferred from @madigan2015weigh]
+
+</div>
 
 ## References

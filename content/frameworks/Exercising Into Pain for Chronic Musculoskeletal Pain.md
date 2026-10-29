@@ -2,8 +2,8 @@
 type: framework
 question: In therapeutic exercise for chronic musculoskeletal pain, should exercise be kept pain-free, or is exercising into pain acceptable — and does the answer differ by time horizon?
 aliases: [Exercise Into Pain, Painful Exercise, Pain-Free Exercise Rule, Pain Stop Rule, Pain During Exercise, Exercising Through Pain, Pain-Allowed Exercise]
-authors: [Smith, Benjamin Edward; Hendrick, Paul A.; Smith, Toby Oliver; Bateman, Marcus; Moffatt, Fiona; Rathleff, Michael Skovdal; Selfe, James; Logan, Pip]
-sources: [Smith - Painful Exercise Chronic Musculoskeletal Pain Meta-Analysis 2017]
+authors: [Smith, Benjamin Edward; Hendrick, Paul A.; Smith, Toby Oliver; Bateman, Marcus; Moffatt, Fiona; Rathleff, Michael Skovdal; Selfe, James; Logan, Pip; Niemeijer, Andre; Lund, Hans; Stafne, Signe Nilssen; Ipsen, Thomas; Goldschmidt, Cathrine Luhaäär; Jørgensen, Claus Thomas; Juhl, Carsten B]
+sources: [Smith - Painful Exercise Chronic Musculoskeletal Pain Meta-Analysis 2017, Niemeijer - Exercise Therapy Adverse Events 2020]
 cluster: chronic-pain
 relationships:
   related_to:
@@ -15,7 +15,7 @@ relationships:
     - Acting on a Direction Without a Magnitude
     - Affective Response to High-Intensity Interval Exercise
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-10-22
 ---
 
@@ -102,6 +102,8 @@ trial usual physiotherapy including injections (Table 2).
   rather than the labelled difference — recurs in [[Is the Exercise Modality Doing Any Work]].
   [inferred from @smith2017painful]
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Who it transports to
 
 «One trial included low back pain,43 72 three included shoulder pain,47 52 70 71 two included Achilles
@@ -123,10 +125,23 @@ trials where participants had a diagnosis of more widespread pain disorders like
   adverse-event, flare or dropout-by-arm analysis [searched: `adverse` / `flare` / `side effect` = 0
   across chunk 01]. The defensible claim is that painful protocols were not shown to produce worse
   pain or (narratively) function outcomes, not that they are proven harmless.
+  - **An adjacent harm figure, for a different contrast.** Niemeijer's meta-analysis of exercise-therapy
+    RCTs compares exercise with a *non-exercising* control, not painful with pain-free exercise. Its
+    *Back pain* group (neck, shoulder and low back pain, whiplash, disc surgery and others) gave a
+    non-serious adverse-event RR of 1.68 (95% CI 1.13-2.51; 23 trials, 2945 participants), and its
+    *Musculoskeletal* group (osteoarthritis, patellofemoral pain, fibromyalgia, rheumatoid arthritis and
+    others) 1.81 (1.28-2.54; 41 trials, 5077); the most frequent non-serious events across all trials
+    were «pain, fatigue, bursitis, low back pain, oedema».
+    [@niemeijer2020]
+    So exercise for these conditions carries more minor events than no exercise, on the half of trials
+    that reported adverse events at all; it does not say whether a painful protocol adds to that.
+    [inferred from @niemeijer2020]
 - **Allegiance.** Two review authors led or co-authored included trials (Rathleff, ref 51; Bateman,
   ref 52), and review authors wrote two of the papers the review itself cites as proponents of
   exercising into pain (refs 37, 38); competing interests are declared none. [@smith2017painful]
   This does not change the numbers, but nothing in the corpus independently replicates them.
+
+</div>
 
 ## Decision relevance
 

@@ -2,8 +2,8 @@
 type: diagnostic
 question: When may a recommendation rest on a marker rather than on the outcome the person actually cares about?
 aliases: [Surrogate Outcome, Substitute Outcome, Surrogate Endpoint, Biomarker Endpoint]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia; Pawlak, Roman; Mazzoli, Riccardo; Hoffmann, Isabelle]
-sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Mazzoli - Fluoride Bone Fracture 2025, Hoffmann - Exercise Major Osteoporotic Fractures 2022]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Smith-Spangler, Crystal; Baranski, Marcin; Sutton, Elizabeth F; Peterson, Courtney M; US Preventive Services Task Force (org); Snyder, Peter J; Cruz-Jentoft, Alfonso J; Johnson, Guy H; Fritsche, Kevin; Ramsden, Christopher E; Semnani-Azad, Zhila; Cholesterol Treatment Trialists' Collaboration (org); Ngandu, Tiia; Kivipelto, Miia; European Food Safety Authority (org); de Santana, Felipe M; Moll van Charante, Eric P; Richard, Edo; Kaptoge, Stephen; Wensley, Frances; Danesh, John; Parker, Haley W; Abreu, Alyssa M; Sullivan, Mary C; Vadiveloo, Maya K; Liu, Xiao; Komar, B; Schwingshackl, L; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Yu, Jie; Zhou, Zien; McEvoy, R Doug; Feller, Martin; Rodondi, Nicolas; Dekkers, Olaf M; Skotsimara, Georgia; Pawlak, Roman; Mazzoli, Riccardo; Hoffmann, Isabelle; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, GRADE - Handbook, WHO - Saturated and Trans Fatty Acid Intake 2023, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, WHO - Non-Sugar Sweeteners 2023, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Sutton - Early Time-Restricted Feeding eTRF 2018, USPSTF - Procedure Manual 2022, Snyder - Testosterone Treatment Fractures 2024, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Minnesota Coronary Reanalysis 2016, Ramsden - Sydney Diet Heart 2013, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ngandu - FINGER Multidomain Cognitive Decline 2015, EFSA - Dietary Sugars Upper Intake Level 2022, de Santana - Low Muscle Mass Mortality 2021, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Emerging Risk Factors Collaboration - CRP Coronary Stroke Mortality 2010, CCGC - CRP Coronary Heart Disease Mendelian Randomization 2011, Parker - Allostatic Load Mortality Meta-Analysis 2022, Komar - Leucine-Rich Protein Elderly, Goldberg - DPPOS Cardiovascular Events 2022, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, Feller - Thyroid Hormone Therapy Quality of Life 2018, Skotsimara - Electronic Cigarettes Cardiovascular Effects 2019, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Mazzoli - Fluoride Bone Fracture 2025, Hoffmann - Exercise Major Osteoporotic Fractures 2022, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 cluster: evidence-appraisal
 relationships:
   related_to:
@@ -29,7 +29,7 @@ relationships:
     - Exercise and Bone Mineral Density
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-25
-updated: 2026-10-07
+updated: 2026-10-28
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
 self_critiqued: 2026-09-19
 ---
@@ -73,6 +73,8 @@ patient-important outcome.
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## The second criterion — does the chain actually transmit?
 
 Proximity is not the only test the handbook supplies. Immediately after the proximity passage it adds
@@ -101,6 +103,8 @@ for drug-induced lowering, but for the lifestyle and supplement routes it is ass
 the biggest office-SBP drops tend to be the ones never tested on events
 -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
+</div>
+
 ## Tests / indicators
 
 - **Is the outcome named separately from the marker?** A recommendation phrased directly in terms of
@@ -116,6 +120,8 @@ the biggest office-SBP drops tend to be the ones never tested on events
   the whole question, and it is a separate evidential claim from the intervention -> marker effect.
 
 
+
+<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Prognostic marker vs modifiable lever — the same distinction, one step earlier
 
@@ -137,6 +143,31 @@ placing someone in a stratum (the decision it *does* serve), never assumed to be
 Worked instances: [[Grip Strength and Mortality]] and [[Cardiorespiratory Fitness and Mortality]] (both
 cheap, strong predictors held explicitly as metrics-not-levers); [[Low Muscle Mass and Mortality]]
 (mass predicts, but strength out-predicts and neither is a proven target).
+
+**Worked instance — a gold umbrella edges toward the predict->intervene step `[2026-10-28, Lang]`.**
+Lang's overview sets out to summarise meta-analyses «that evaluated the predictive associations between
+baseline cardiorespiratory fitness (CRF) and health outcomes among adults», and grades every outcome
+with a GRADE in which «Observational cohort evidence began at ‘high’ certainty because randomised
+controlled trials were deemed not feasible for our research question». The citation on that sentence
+is Iorio 2015, *Use of GRADE for assessment of evidence about prognosis*, so this is a *prognostic*
+grading. It bridges to
+causation with a hedge, «the results of this study may signal a causal relationship between CRF and
+future health outcomes», and then says the 1-MET step «could be considered as a target for
+interventions».
+[@lang2024crf]
+The paper also says its evidence was «limited to studies examining associations between a single
+measure of CRF and prospective health outcomes», and that «future studies would benefit from repeated
+longitudinal measures of CRF to further establish causality»
+[@lang2024crf].
+So a strong predictor graded by a prognostic instrument is offered, hedged (*could be considered*), as
+an intervention target in the same discussion section. Lang names repeated measures as the next design
+and calls RCTs infeasible, and nothing in the review's own evidence tests the intervention step. The reading rule
+this adds: when a review's certainty grade answers *does X predict Y?*, check whether its conclusions
+stay on that question before borrowing its *target* language. Detail:
+[[Cardiorespiratory Fitness and Mortality]], [[Measuring and Raising Cardiorespiratory Fitness]].
+[inferred from @lang2024crf]
+
+</div>
 
 ## The composite-index case — allostatic load predicts mortality, no lever shown `[2026-08-09, Parker]`
 

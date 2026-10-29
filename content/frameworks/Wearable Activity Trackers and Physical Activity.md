@@ -2,8 +2,8 @@
 type: framework
 question: Does a consumer wearable activity tracker or self-monitoring smartphone app increase physical-activity participation (and cut sedentary time) enough to be a worthwhile adherence / behaviour-change lever?
 aliases: [Activity Tracker, Fitness Tracker, Wearable Activity Tracker, Fitbit, Step Counter, Wearables and Physical Activity, Pedometer Intervention, Activity Monitor, Physical Activity App, Smartphone App for Physical Activity, mHealth Physical Activity Intervention, Apps and Activity Trackers]
-authors: [Brickwood, Katie-Jane; Watson, Greig; O'Brien, Jane; Williams, Andrew D; Laranjo, Liliana; Ding, Ding; Heleno, Bruno; Kocaballi, Ahmet Baki; Quiroz, Juan Carlos; Bates, David Westfall]
-sources: [Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Laranjo - Apps Activity Trackers Physical Activity 2020]
+authors: [Brickwood, Katie-Jane; Watson, Greig; O'Brien, Jane; Williams, Andrew D; Laranjo, Liliana; Ding, Ding; Heleno, Bruno; Kocaballi, Ahmet Baki; Quiroz, Juan Carlos; Bates, David Westfall; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B]
+sources: [Brickwood - Wearable Activity Trackers Physical Activity Meta-Analysis 2019, Laranjo - Apps Activity Trackers Physical Activity 2020, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015]
 cluster: activity
 nucleus: false
 confidence: low
@@ -16,8 +16,9 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Measurement Error in Dietary Assessment
     - Implementation Intentions and Action Planning for Physical Activity
+    - Self-Weighing for Weight Loss
 created: 2026-09-01
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-10-06
 ---
 
@@ -264,6 +265,8 @@ transmission stay low-certainty. Each MA rates its own evidence low (Brickwood s
 low-to-moderate (Laranjo overall). Both carry irreducible performance bias, since a behaviour
 intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2020]
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Gaps
 
 - **Long-term (>12 month) durability of the device effect is unestablished** — the two long trials
@@ -288,5 +291,38 @@ intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2
   effect on a *surrogate* (steps / HbA1c), high heterogeneity, low certainty, and unproven durability.
   Flagged as a candidate concept, **not built** — it needs a second device class beyond these two
   before a cross-source synthesis is warranted. [inferred from @brickwood2019wearable]
+- *Added 2026-10-29:* a third self-monitoring tool is now held, the bathroom scale
+  ([[Self-Weighing for Weight Loss]]). It does not meet the trigger above as written: the concept is
+  defined on wearables with a real-time signal, and a scale is neither, though on the evidence
+  shape (a surrogate, certainty ungraded rather than low, unproven durability) it
+  largely matches; heterogeneity matches only in part (I² 82 % across the 15 programme trials, 0 %
+  across the 4 add-on trials) (distinction below). Whether a broader self-monitoring concept is worth building is left to
+  a Weave. [inferred from @madigan2015weigh]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-29">
+
+## Self-weighing — a distinction, not a weld
+
+A scale and an activity tracker both feed a person a number about themselves, so the two lines of
+evidence invite a pooled *self-monitoring works* claim. Matched by parameter first:
+
+| Parameter | Trackers and apps (Brickwood 2019, Laranjo 2020) | Self-weighing (Madigan 2015) | Same quantity? |
+|---|---|---|---|
+| What is monitored | activity, by the device. Brickwood: «an electronic device that monitors physical activity and provides automated real-time feedback»; Laranjo: apps «or trackers with automated and continuous self-­ monitoring and feedback» | body weight, the outcome: «self- weighing is monitoring the outcome rather than the be- haviour» | **NO** — a behaviour vs its outcome |
+| Outcome pooled | Brickwood: «physical activity participation and sedentary behavior»; Laranjo: physical activity only (steps, MVPA, days exercised) | weight change, kg | **NO** |
+
+[@laranjo2020]
+[@brickwood2019wearable]
+[@madigan2015weigh]
+
+[inferred from @madigan2015weigh] No row matches, so this is a
+distinction, not a tension and not corroboration. The two lines answer different questions: does
+watching your activity raise activity, and does watching your weight lower weight. Madigan's own
+mechanism for the scale is that a person must reflect on the reading and then change eating or
+activity. Neither page's estimate transfers to the other tool.
+
+</div>
 
 ## References

@@ -8,7 +8,7 @@ cluster: alcohol
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-22
+updated: 2026-10-26
 self_critiqued: 2026-10-22
 relationships:
   related_to:
@@ -40,12 +40,25 @@ independent methods say the protection is largely not real.
   of all three diseases than non-drinkers or heavier drinkers.»
   [@millwood2019]
 
+<div class="recent-update" data-last-updated="2026-10-26">
+
 ## Why the lower arm is an artifact — two independent adjudications
 
-**1. Bias-corrected observational (Stockwell).** Correcting for how abstainers are defined erases the
-protection. The driving bias is **former-drinker misclassification** (sick-quitters who quit *because*
-they are ill, counted as *abstainers*, making the referent look unhealthy):
+**1. Bias-corrected observational (Stockwell).** In the pooled covariate model, adjusting for the
+abstainer biases together with median age, sex, race and drinking-measure adequacy leaves a small
+protection, and adding further study characteristics (follow-up length, inclusion of ill subjects,
+study-level controls for race and smoking) erases it; the held text reports no model with those
+characteristics alone. **Former-drinker misclassification** (sick-quitters who quit *because* they are
+ill, counted as *abstainers*, making the referent look unhealthy) is one driver, not the only one: the
+covariate-removal analysis «conﬁrms the importance of former drinker bias while suggesting that
+occasional drinker bias may be less inﬂuential»
+[@stockwell2016]:
 
+- adjusted for six study-level covariates (median age at intake, sex, Caucasian/non-Caucasian
+  population, drinking-measure adequacy, and the former- and occasional-drinker biases), low-volume
+  drinking still carried RR 0.89 [0.84, 0.94]; the protection vanished only once study follow-up
+  years, inclusion/exclusion of ill subjects and study-level controls for race and smoking were added
+  (Table 3). [@stockwell2016]
 - fully adjusted for abstainer biases + study quality, low-volume «RR = 0.97, 95% CI [0.88, 1.07]» —
   no significant protection; former drinkers rise to «1.38 [1.24, 1.54]».
 - the 13 bias-free studies show «no significant protection for low-volume drinkers... RR = 0.90, 95%
@@ -78,6 +91,8 @@ not mainly caused by alcohol itself, and are largely artifacts of reverse causat
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
 [@millwood2019]
+
+</div>
 
 ## Two independent methods, one conclusion `[E-independent]`
 

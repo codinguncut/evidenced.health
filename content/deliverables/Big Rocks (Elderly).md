@@ -49,9 +49,12 @@ sources:
   - Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018
   - Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016
   - BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
+  - Rahimi - BP Lowering by Age BPLTTC 2021
   - SPRINT - Intensive vs Standard Blood Pressure 2015
   - Moll van Charante - preDIVA Multidomain Dementia Prevention 2016
   - Neal - SSaSS Salt Substitution Cardiovascular 2021
+  - Lai - Salt Substitute Network Meta-Analysis 2026
+  - Brand - Low-Sodium Salt Substitutes Cochrane 2022
   - Huang - Sodium Dose Duration Blood Pressure 2020
   - Naci - Exercise vs Antihypertensive Drugs 2019
   - Knowler - Diabetes Prevention Program DPP 2002
@@ -121,9 +124,12 @@ sources:
   - WHO - Physical Activity Web Annex Evidence Profiles 2020
 confidence: moderate
 created: 2026-08-05
-updated: 2026-10-22
+updated: 2026-10-28
 concrete_subject_audited: 2026-10-22
+self_critiqued: 2026-10-28
 ---
+<div class="recent-update" data-last-updated="2026-10-28">
+
 > [!warning] Applies to a specific group
 > This guide is written for **obese adults around 70**. If you are not in this group, the recommendations here may not apply to you — what holds for the wider population can differ.
 
@@ -160,8 +166,8 @@ middle-aged adults and genetic evidence of stroke harm. Its rank at this age is 
   step; extra protein on top of training added nothing measurable in healthy
   older adults -> [[Resistance Training Prescription - Load Sets and Frequency]],
   [[Protein Intake for Older Adults]].
-- **Lowering blood pressure still pays, and usually pays more at this age**, because the relative
-  effect stays the same while baseline risk rises. It also slightly reduces dementia, the one lever with randomized evidence for that ->
+- **Lowering blood pressure still pays, and usually pays more at this age**: from 55 to 84 the relative
+  effect holds level while baseline risk rises, and trials measured a larger absolute cut in older groups. It also slightly reduces dementia, the one lever with randomized evidence for that ->
   [[Blood Pressure Lowering and Cardiovascular Events]],
   [[Dementia Prevention and Modifiable Risk Factors]].
 - **People who move more through the day, light activity included, die at lower rates**; after 60 the
@@ -190,6 +196,8 @@ The levers below help only under certain conditions, or help less.
   place, each has a limit to what it can add, and what is left to gain is small ->
   [[Vitamin and Mineral Supplements for Disease Prevention]],
   [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+
+</div>
 
 ## Count falls, fractures and lost independence first, because slow benefits have fewer years to arrive
 
@@ -903,81 +911,180 @@ limited to older adults, and the lever is the same movement already ranked, not 
 Daily movement is also one of the two lifestyle routes to lower blood pressure and blood sugar, the
 subject of the next section.
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## Keep blood pressure and blood sugar down; at this age, starting a statin or aspirin does less good
 
-### Lowering blood pressure reduces heart attacks, strokes and heart failure whatever the starting pressure
+### Lowering blood pressure cuts major cardiovascular events by about the same relative amount from 55 to 84
 
 **Lowering blood pressure reduces heart attacks, strokes and heart failure whatever the starting
-pressure.** The Blood Pressure Lowering Treatment Trialists pooled 48 trials and 344,716 people. Each
-5 mmHg fall in systolic pressure cut major cardiovascular events by about a tenth: hazard ratio 0.91
+pressure.** The Blood Pressure Lowering Treatment Trialists pooled 48 trials and 344,716 people. Each 5
+mmHg fall in systolic pressure cut major cardiovascular events by about a tenth: hazard ratio 0.91
 (0.89-0.94) in people without prior heart disease and 0.89 (0.86-0.92) in those with it. The authors
 found «no reliable evidence of heterogeneity of treatment effects» across starting systolic pressures
 from below 120 to 170 mmHg and above
-[@bplttc2021].
-Hard outcomes are actual heart attacks, strokes and deaths, not just a better reading. Of the
+[@bplttc2021]. Of the
 heart-and-metabolism levers this guide covers, lowering blood pressure is the one with a proven benefit
-on hard outcomes in people without heart disease ([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]).
+on hard outcomes (actual heart attacks, strokes and deaths, not just a better reading) in people without
+heart disease ([[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]]).
 
-**The relative effect stays fixed, so the absolute benefit grows with baseline risk.** In trial participants without prior heart disease, major events ran at 31.9
-per 1,000 person-years in the comparison group and 25.9 on treatment
-[@bplttc2021].
-Baseline risk climbs with age, so an obese adult around 70 with high blood pressure usually gains more
-from the same reduction than a younger adult does ([[Baseline Risk and the Relative-Absolute Split]]).
-The trialists' rule follows from this: decide on overall cardiovascular risk, not on the blood-pressure
-number alone ([[Blood Pressure Lowering and Cardiovascular Events]]).
+**The relative effect stays fixed, so the absolute benefit grows with baseline risk.** In trial
+participants without prior heart disease, major events ran at 31.9 per 1,000 person-years in the
+comparison group and 25.9 on treatment
+[@bplttc2021]. Baseline
+risk climbs with age, so an obese adult around 70 with high blood pressure usually gains more from the
+same reduction than a younger adult does ([[Baseline Risk and the Relative-Absolute Split]]). The
+trialists' rule follows: decide on overall cardiovascular risk, not on the blood-pressure number alone
+([[Blood Pressure Lowering and Cardiovascular Events]]).
+
+**From 55 to 84 the relative benefit stays level; past 85 the trials cannot say.** Rahimi and
+colleagues re-cut the same collaboration's data by age: 51 trials, 358,707 people. Per 5 mmHg fall, the
+hazard ratio for major events was 0.82 (0.76-0.88) under 55, then 0.91 in every band from 55 to 84,
+including 0.91 (0.88-0.95) at 65-74 and 0.91 (0.87-0.96) at 75-84; at 85 and over it was 0.99
+(0.87-1.12) [@rahimi2021bpage]. The 85-plus result rests on about 1,000 events over a
+median 2.8 years [@rahimi2021bpage]. The absolute cut in major events was larger in
+older groups (p for interaction 0.024) [@rahimi2021bpage], though the authors call their
+absolute figures «only useful for internal comparisons of effect sizes across strata»
+[@rahimi2021bpage].
+
+No band showed evidence that the effect varied with starting systolic pressure
+[@rahimi2021bpage]. Only 121 people aged 85 and over started below 120 mmHg
+[@rahimi2021bpage].
+At that age, then, the check is imprecise.
+
+For major cardiovascular events, the 85-plus interval runs from a benefit as large as the younger bands'
+to possible harm. On its own, the 85-plus band is insufficient evidence on events: it shows neither
+benefit nor its absence. The test for a difference by age was borderline (p=0.050). The authors say a chance
+finding cannot be ruled out, and also that interaction tests are conservative and large epidemiological studies
+show the same fading with age [@rahimi2021bpage]. So this guide carries the 0.91 past
+85 with wider uncertainty rather than treating age as a proven change in the effect. ->
+[[Blood Pressure Lowering and Cardiovascular Events]]
+
+**Total deaths, non-fatal harms and frail people are less certain.** The authors found the relative cut
+in all-cause death «marginally larger in younger than in older age, with no obvious effect in people
+older than 75 years», and caution that more non-cardiovascular deaths would dilute that effect. They
+conclude that «the lack of excess mortality risk in older groups suggests that harmful fatal effects of
+the treatment are unlikely in any age group» [@rahimi2021bpage]. They do not pool falls or
+fainting by age [searched: adverse / syncope / falls across chunks 01-02]. People with multimorbidity and
+polypharmacy, frail people and care-home residents were under-represented, and the findings'
+generalisability to them «remains uncertain». Citing «the absence of any strong evidence for excess
+harms from randomised studies», the authors judge continuing a well-tolerated drug appropriate while preventing heart attacks and strokes still matters to the person
+[@rahimi2021bpage].
+For a frail person, starting is an individual trade-off made with a clinician ([[Frailty]]).
 
 **Pushing pressure lower prevents more events but brings more side-effects.** SPRINT pushed systolic
 pressure to about 121 versus 136 mmHg in 9,361 high-risk adults without diabetes (mean age 68; 28% aged
 75 or over). All-cause death fell (hazard ratio 0.73, 0.60-0.90) in a trial stopped early, over a median
 3.26 years. Over that time, for every 61 people treated to the lower target, one primary-outcome event
 (heart attack, other acute coronary syndrome, stroke, heart failure or cardiovascular death) was
-prevented, and for every 90, one death. The authors add: «These
-benefits with re- spect to both the primary outcome and death were consistent across all prespecified
-subgroups, including participants 75 years of age or older.» Serious
-hypotension (blood pressure too low), fainting, electrolyte problems and acute kidney injury rose, «but
-not of injurious falls»
+prevented, and for every 90, one death. The authors add: «These benefits with re- spect to both the
+primary outcome and death were consistent across all prespecified subgroups, including participants 75
+years of age or older.» Serious hypotension (blood pressure too low), fainting, electrolyte problems and
+acute kidney injury rose, «but not of injurious falls»
 [@sprint2015].
 
 The brain section below covers what blood-pressure lowering does for dementia, including the preDIVA
-trial. **How low to go for one person is a
-prescriber's decision**, made with their other drugs and their fall risk in view. This guide sets no
-target.
+trial. **How low to go for one person is a prescriber's decision**, made with their other drugs and their
+fall risk in view. This guide sets no target.
 
-### A potassium-enriched salt substitute cut strokes and deaths
+### A potassium-enriched salt substitute cut strokes and deaths; its safety is unclear in several common conditions
 
-**A potassium-enriched salt substitute cut strokes and deaths in a trial close to this age group.**
-SSaSS randomised 600 villages in rural China, covering 20,995 people. They had had a stroke, or were 60
-or older with poorly controlled blood pressure (systolic 140 mmHg or more on treatment, 160 or more
-untreated; mean age 65; 72.6% with a prior stroke). Households used a substitute of 75%
-sodium chloride and 25% potassium chloride, or regular salt, for a mean 4.74 years. Stroke ran at 29.14
-versus 33.65 per 1,000 person-years (rate ratio 0.86, 0.77-0.96), major cardiovascular events at 49.09
-versus 56.29 (0.87, 0.80-0.94), and death at 39.28 versus 44.61 (0.88, 0.82-0.95)
-[@neal2021]. Over the 4.74 years that comes
-to roughly 21 fewer strokes and 25 fewer deaths per 1,000 people
-.
+**A potassium-enriched salt substitute cut strokes and deaths in a trial of older, mostly post-stroke villagers who salted food at home.** SSaSS
+randomised 600 villages in rural China, covering 20,995 people who had had a stroke, or were 60 or older
+with poorly controlled blood pressure (systolic 140 mmHg or more on treatment, 160 or more untreated;
+mean age 65; 72.6% with a prior stroke). Households used a substitute of 75% sodium chloride and 25%
+potassium chloride, or regular salt, for a mean 4.74 years. Stroke ran at 29.14 versus 33.65 per 1,000
+person-years (rate ratio 0.86, 0.77-0.96), major cardiovascular events at 49.09 versus 56.29 (0.87,
+0.80-0.94), and death at 39.28 versus 44.61 (0.88, 0.82-0.95)
+[@neal2021].
+
+Those rates come to roughly 21 fewer
+strokes and 25 fewer deaths per 1,000 people over the 4.74 years (rate difference times mean follow-up,
+an approximation). Those figures come from people at high risk, most after a stroke; someone at
+intermediate risk would expect fewer (Lai's modelled figure, below).
 
 **The substitute moved two things at once, so sodium alone cannot take the credit.** Urinary potassium
 rose by 20.6 mmol a day while sodium fell by 15.2 mmol, and systolic pressure fell 3.34 mmHg
-[@neal2021]. In the drug trials, each
-5 mmHg fall cut strokes by about 13%
-[@bplttc2021]. At that
-rate, the SSaSS fall would predict a stroke rate ratio near 0.91, not the 0.86
-observed. That leaves room for an effect of potassium itself, or for a sustained fall larger than the
-one measured ([[Sodium Intake and Blood Pressure]]).
+[@neal2021]. In the drug trials, each 5
+mmHg fall cut strokes by about 13%
+[@bplttc2021], which
+predicts a stroke rate ratio near 0.91 for SSaSS. That lies inside the trial's own interval (0.77-0.96),
+so SSaSS does not show a stroke benefit beyond its blood-pressure fall. The trial's authors
+read the stroke effect as «in ac- cordance with a mechanism of action mediated through blood-pressure reduction»
+[@neal2021]. Since potassium rose as sodium
+fell, the trial cannot split that fall between them ([[Sodium Intake and Blood Pressure]]).
 
-Older people's pressure may also respond more to
-the sodium half: across 133 sodium-reduction trials, the same cut in urinary sodium lowered systolic
-pressure more in older people [@huang2020].
-That comparison is between trials, not within one, so it is a lead for this age group, not a measured
-effect.
+**The pooled reviews add blood-pressure trials, but their all-cause death figures rest mostly on
+SSaSS.** Lai's network meta-analysis of 34 trials found that substitutes with 25-40% potassium chloride lowered systolic pressure by 4.64 mmHg (3.24-6.05; 18 trials,
+moderate certainty). Applied to modelled baselines, they probably prevent 7 deaths per 1,000 people over
+5 years at intermediate cardiovascular risk (5-10% over 5 years; 3 to 11 fewer) and 16 at high risk
+(20-30%; 7 to 24 fewer), graded moderate to high certainty
+[@lai2026salt].
 
-**The trial's safety result does not reach people with serious kidney disease or those taking
-potassium-sparing diuretics or potassium supplements.** Dangerously high potassium did not rise (3.35 versus 3.30 per 1,000
-person-years). But the trial excluded people with known serious kidney disease and those taking
-potassium-sparing diuretics or potassium supplements, and it ran no blood test to screen for them
-[@neal2021]. **Anyone with reduced kidney
-function, or on drugs that raise potassium, needs a clinician's check before switching** — a referral,
-not a dosing rule ([[Chronic Kidney Disease and Modifiable Exposures]]).
+SSaSS supplies about 87% of the people in that mortality pool (20,995 of 24,106). Without
+SSaSS, the all-cause benefit lost significance, though the point estimates still showed 4 and 10 fewer
+deaths per 1,000, and cardiovascular deaths stayed significantly lower, with 9 and 29 fewer per 1,000 over
+5 years at intermediate and high risk. No trial outside China measured mortality
+[@lai2026salt]. Lai judges that this evidence transfers poorly beyond
+Chinese dietary patterns with «high discretionary salt use and home food preparation», and found no
+significant difference between formulations, so a higher-potassium blend has not been shown to add benefit
+[@lai2026salt].
+
+Brand's Cochrane review (26 trials) found systolic pressure 4.76 mmHg lower (3.50-6.01) and
+cardiovascular death at a rate ratio of 0.77 (0.60-1.00), both moderate certainty
+[@brand2022lsss];
+converted from Brand's per-100,000 figures, that is about 2 fewer cardiovascular deaths per 1,000
+person-years (0 to 3 fewer). But 25 of its 26 trials are also in Lai, so this is the same
+evidence counted twice, not a second confirmation. Brand marked the hard outcomes down because
+SSaSS, a secondary-prevention trial, drives them and applies less directly to the general population
+[@brand2022lsss].
+
+Older people's pressure may also respond more to the sodium half: across 133 sodium-reduction trials, the
+same cut in urinary sodium lowered systolic pressure more in older people
+[@huang2020]. That comparison is between
+trials, not within one, so it is a lead for this age group, not a measured effect.
+
+**The trial's safety result does not reach several conditions common at this age.** High blood potassium
+(hyperkalaemia), counting definite, probable and possible events, was not significantly more common,
+overall (3.35 versus 3.30 per 1,000 person-years; rate ratio 1.04, 0.80-1.37) or «in any participant
+subgroup» [@neal2021]. Only two events were definite or probable; 302 of the
+others were deaths classed as possible hyperkalaemia
+[@neal2021].
+The trial's hyperkalaemia count is therefore loose. But SSaSS excluded known serious kidney
+disease, potassium-sparing diuretics and potassium supplements, screened by history alone, and did not
+measure blood potassium routinely
+[@neal2021]. Lai calls the safety evidence in kidney
+disease and on potassium-sparing drugs «insufficient», and adds that «patients with type 1 or 2 diabetes
+may also be at risk of hyperkalaemia»
+[@lai2026salt].
+
+People
+with diabetes were enrolled in at least seven trials by this guide's count of Brand's trial tables
+, 10.6% of SSaSS's substitute arm [@brand2022lsss], although Brand's discussion
+states that all its trials excluded them [@brand2022lsss]. No diabetes-specific safety
+estimate is pooled and SSaSS's subgroup results are in a supplement not held here. The same goes for
+ACE-inhibitor or ARB users, 22.8% of SSaSS, with no potassium monitoring
+[@neal2021]. For both groups the evidence
+is insufficient, not shown safe.
+
+Brand pooled hyperkalaemia separately, RR 1.04 (0.46-2.38)
+[@brand2022lsss], and concludes that substitutes «likely result
+in little to no difference in hyperkalaemia», while noting that the interval «included important
+benefit and important harm» [@brand2022lsss]. The estimate rests on about 20 events by this
+guide's count, and Brand notes that most of the information comes from a study at high risk of
+bias, a trial run in nursing homes [@brand2022lsss]. This guide
+reads it more cautiously than Brand does: an interval that wide does not show the absence of harm in
+the conditions the trials left out. No trial reported low blood sodium (hyponatraemia). Brand
+judges it unlikely overall while salt intakes stay high, but flags the individual risk «particularly in older people and those using thiazide diuretics»
+[@brand2022lsss]. Older age is itself on that list, so at this age the switch is worth
+mentioning at the next clinic visit even without a thiazide.
+
+**Anyone in the household with reduced kidney function or diabetes, or taking an ACE inhibitor, ARB,
+potassium-sparing diuretic, potassium supplement or thiazide, needs a clinician's check before
+switching**, and anyone this age should mention the switch at the next visit; a referral, not a dosing rule ([[Chronic Kidney Disease and Modifiable Exposures]]).
+The thiazide entry is this guide's addition, from Brand's hyponatraemia warning. For someone who clears
+the check, the tested form is a blend of about a quarter potassium chloride, used in place of salt at the
+stove and the table; it helps only where salt is added at home.
 
 ### Exercise probably lowers high blood pressure about as much as a first-line drug, in trials of younger adults
 
@@ -1098,11 +1205,13 @@ its modelling shows a loss of life-years at essentially every risk level modelle
 drives the change, not a measured change in its relative effect
 ([[Aspirin for Primary Prevention of Cardiovascular Disease]]).
 
-**The trials that would measure these levers directly at 70 are not among this guide's sources.** The
+**Most trials that would measure these levers directly at 70 are not among this guide's sources.** The
 ESC recommends its older-adult risk tool SCORE2-OP for people aged 70 and over
 [@esc2021]. But that tool's derivation and the elderly
-blood-pressure and statin trials HYVET and PROSPER are not among this guide's sources; it relies instead
-on the CTT over-75 split, SPRINT, preDIVA and SSaSS ([[SCORE2 Baseline Risk and the ESC Treatment Thresholds]])
+blood-pressure and statin trials HYVET and PROSPER are not among this guide's sources. For blood pressure,
+Rahimi's pooled analysis by age reports results at 65-74 and 75-84 directly
+[@rahimi2021bpage]; the
+guide otherwise relies on the CTT over-75 split, SPRINT, preDIVA and SSaSS ([[SCORE2 Baseline Risk and the ESC Treatment Thresholds]])
 . Among weight-loss drugs, the semaglutide trial of cardiovascular events in this guide's
 sources (SELECT) enrolled only people with established cardiovascular disease. In obese people without
 it, the effect on events is untested, not shown absent ([[Semaglutide for Cardiovascular Risk in Obesity]]).
@@ -1111,6 +1220,8 @@ taken are prescriber decisions outside this guide.
 
 Weight loss is the lever most people expect here; its payoff at 70 depends on what it is for and what it
 costs in muscle.
+
+</div>
 
 ## Lose weight for a named target, and protect muscle while you do it
 
@@ -1666,6 +1777,8 @@ Reach each level and hold it. No study among this guide's sources shows that goi
 needs the person's full medication list and history, which makes it a prescriber's decision. The
 evidence behind this guide does not cover it. Below is a short, ordered list of things to do.
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## What to do, in order
 
 **If you smoke, stop; if you drink heavily, cut down** -> [[Smoking and Mortality]],
@@ -1691,7 +1804,9 @@ Next:
   steps a day in cohort comparisons; above about 8,000, more steps buy little extra
   -> [[Physical Activity Dose and Mortality]].
 - **Treat blood pressure with a clinician.** A potassium-enriched salt substitute is one evidenced
-  option, after a clinician's check if kidney function is reduced or a drug raises potassium
+  option where salt is added at home, after a clinician's check for anyone in the household with
+  reduced kidney function or diabetes, or on a drug that raises potassium or a thiazide; at this age,
+  mention the switch at the next visit in any case
   -> [[Blood Pressure Lowering and Cardiovascular Events]],
   [[Chronic Kidney Disease and Modifiable Exposures]].
 
@@ -1721,9 +1836,11 @@ stop medicines already being taken, which is a prescriber's decision
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 116 sources — 69 gold, 41 high, 5 moderate, 1 method |
+> | **Evidence included** | 119 sources — 72 gold, 41 high, 5 moderate, 1 method |
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold/high evidence bar feed this page: Song (meta-analysis, moderate); Kreider (consensus, moderate); Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Montani (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
+</div>
 
 ## References

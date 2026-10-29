@@ -41,7 +41,7 @@ sources: [ACSM - Resistance Training Position Stand 2026,
   Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026]
 confidence: low
 created: 2026-10-05
-updated: 2026-10-22
+updated: 2026-10-26
 concrete_subject_audited: 2026-10-22
 self_critiqued: 2026-10-22
 ---
@@ -156,7 +156,9 @@ guidelines [@wan2025]. -> [[Exercise Snacks and Cardiometabolic Health]]
 sedentary adults [@ross2016].
 -> [[Measuring and Raising Cardiorespiratory Fitness]]
 
-## Two short strength sessions a week reach the lowest dose shown to work for strength
+<div class="recent-update" data-last-updated="2026-10-26">
+
+## Two short strength sessions a week are a dose shown to work for strength
 
 **Start any strength training; the protocol matters far less than starting.** A network meta-analysis in
 healthy adults compared 12 prescriptions against no training. Every one had a positive estimate for
@@ -165,13 +167,17 @@ strength, and 91% of the comparisons between prescriptions could not separate th
 muscle-size results; the authors say the effect on health outcomes is largely unknown.
 -> [[Resistance Training Prescription - Load Sets and Frequency]]
 
-**The floor: two sets, twice a week, for all major muscle groups.** At least two sets
+**A dose shown to work: two sets, twice a week, for all major muscle groups.** At least two sets
 or two sessions a week had a 95% probability of raising strength, and two sets plus two sessions raised
-muscle size [@currier2023]. This floor is shown
-to work; it does not mark where gains level off.
+muscle size [@currier2023]. This dose is shown
+to work, but it is not the least that works: in the same analysis, one set per exercise done two or more
+days a week also raised strength, and only one set once a week was too imprecise to call
+[@currier2023].
 
 The 2026 ACSM position stand comes from the same team. Its primary recommendation is high-effort training at least
-twice a week, engaging all major muscle groups, and it leaves the number of sets open.]); the primary recommendation alone is silent on sets. Same check for the section heading the lowest dose shown to work, which Currier's two sets or two sessions does not support as a minimum -- next compile] Its authors judge
+twice a week, engaging all major muscle groups; on volume it advises at least two sets per exercise. One set
+beats none and two beat one, and a meta-regression it cites found strength gains flattening beyond about 2-3
+sets per exercise, though the stand says the exact number that optimizes gains cannot be pinned down. Its authors judge
 four body regions (upper and lower, push and pull, as in the table above) enough coverage, an opinion
 rather than a tested rule [@acsm2026rt]. The stand's *healthy adults*
 excluded obesity, so its advice for an obese beginner is borrowed from other adults, not studied
@@ -200,12 +206,16 @@ The authors split the studies at 70%, which is not a measured threshold, and sti
 marker, not an injury outcome. Do not test a 1RM: no held source reports whether that is
 safe for an untrained adult. -> [[Tendon Adaptation to Mechanical Loading]]
 
-**Choose equipment, rest and order by convenience.** Free weights and machines showed no difference in
-strength gains [@haugen2023freeweight]. Bands or
+**Choose equipment and rest by convenience; put the lift you most want stronger first.** A meta-analysis of 13 head-to-head studies in adults aged 18-60, mostly men, found free weights and
+machines built similar strength when each group was tested in the mode it trained or on a neutral test,
+and similar muscle size in the five studies that measured it. Free-weight training gained more on
+free-weight tests; machine training only tended to gain more on machine tests. So train the movement you
+want to get stronger in [@haugen2023freeweight]. Bands or
 home training beat no training. Resting under or over a minute made no detected strength difference, so
 the old 2-3-minute advice has no support. Put the lift you most want stronger first and use full range of
-motion [@acsm2026rt]. These findings come from
-tallies of review findings without pooled effect sizes: no difference was detected, but equivalence is not proven.
+motion [@acsm2026rt]. The band, rest, order and
+range-of-motion findings come from the stand's tallies of review findings without pooled effect sizes, so
+none comes with a size; for rest, no difference was detected, but equivalence is not proven.
 -> [[Resistance Training Prescription - Load Sets and Frequency]]
 
 **Keep strength training even if you walk a lot.** In pooled cohorts, adults doing any
@@ -218,6 +228,8 @@ two 20-30-minute sessions reach. More than two sessions a week was not associate
 mortality [@saeidifard2019]. A third
 session is for strength, not survival. Function trials make the stronger healthspan case, though they
 enrolled older adults and tested exercise broadly. -> [[Muscle-Strengthening Activity and Mortality]]
+
+</div>
 
 ## Track the habit; treat fitness numbers as rough ranges
 

@@ -2,9 +2,12 @@
 type: framework
 question: How should resistance training be prescribed — load, sets, weekly frequency, equipment modality (free-weights vs machines), and the secondary dials (rest interval, time of day, exercise order, range of motion, effort/failure, progression) — for strength versus hypertrophy, what is the minimal effective dose, does the volume answer differ for adults over 60, and does any of it move a health outcome?
 aliases: [Resistance Training Prescription, RT Prescription, RTx, Load Sets Frequency, Weekly Sets, Strength vs Hypertrophy Training, Minimal Effective Dose Resistance Training, Higher Load Training, Sex Differences Resistance Training, Should Women Train Differently, RT by Sex, Free Weights vs Machines, Machine vs Free Weight Training, Equipment Modality Resistance Training, Specificity of Strength Training, DOMS, Delayed Onset Muscle Soreness, Muscle Soreness, No Pain No Gain, Is Soreness a Good Sign, Muscle Confusion, Muscle Damage and Growth, Reps at Percentage of 1RM, REPS \~ %1RM, Repetitions to Failure, RM to 1RM Conversion, Rep Max Load Gauge, Rest Between Sets, Inter-Set Rest, Time of Day Training, Morning vs Evening Training, Exercise Order, Range of Motion, Full Range of Motion, Training to Failure, Repetitions in Reserve, RIR, Progressive Overload, Periodization, ACSM Resistance Training Position Stand, Beginner Resistance Training, Novice Resistance Training]
-authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas; Nuzzo, James L; Pinto, Matheus Daros; Nosaka, Kazunori; Steele, James; D'Souza, Alysha C; Fiatarone Singh, Maria A; Lowisz, Caroline V; Rawson, Eric S; Schoenfeld, Brad J; Smith-Ryan, Abbie E; Steen, Jeremy P; Thomas, Gwendolyn A; Triplett, N Travis; Washington, Tyrone A; Werner, Timothy J; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Herbert, Rob; de Noronha, Marcos Amaral; Kamper, Steven James; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro]
+authors: [Currier, Brad S; Mcleod, Jonathan C; Phillips, Stuart M; Roberts, Brandon M; Nuckols, Greg; Krieger, James W; Haugen, Markus E; Varvik, Fredrik T; Larsen, Stian; Haugen, Arvid S; van den Tillaar, Roland; Bjornsen, Thomas; Nuzzo, James L; Pinto, Matheus Daros; Nosaka, Kazunori; Steele, James; D'Souza, Alysha C; Fiatarone Singh, Maria A; Lowisz, Caroline V; Rawson, Eric S; Schoenfeld, Brad J; Smith-Ryan, Abbie E; Steen, Jeremy P; Thomas, Gwendolyn A; Triplett, N Travis; Washington, Tyrone A; Werner, Timothy J; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Herbert, Rob; de Noronha, Marcos Amaral; Kamper, Steven James; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro; Zhang, Yiwen; Lee, Dong Hoon; Rezende, Leandro F M; Ma, Yuan; Giovannucci, Edward L.; Saeidifard, Farzane; Medina-Inojosa, Jose R; West, Colin P; Olson, Thomas P; Somers, Virend K; Bonikowske, Amanda R; Prokop, Larry J; Vinciguerra, Manlio; Lopez-Jimenez, Francisco; Momma, Haruki; Kawakami, Ryoko; Honda, Takanori; Sawada, Susumu S; Shailendra, Prathiyankara; Baldock, Katherine L; Li, L S Katrina; Bennie, Jason A; Boyle, Terry; Niemeijer, Andre; Lund, Hans; Stafne, Signe Nilssen; Ipsen, Thomas; Goldschmidt, Cathrine Luhaäär; Jørgensen, Claus Thomas; Juhl, Carsten B]
 sources: [Currier - Resistance Training Prescription NMA 2023, Roberts - Sex Differences Resistance Training Meta-Analysis 2020, Haugen - Free Weight vs Machine Strength Training 2023, Nuzzo - Repetitions at Percentages of 1RM 2023, ACSM - Resistance Training Position Stand 2026, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011,
-  Herbert - Stretching Muscle Soreness Cochrane 2011, Radaelli - Resistance Training Volume Older Adults NMA 2024]
+  Herbert - Stretching Muscle Soreness Cochrane 2011, Radaelli - Resistance Training Volume Older Adults NMA 2024,
+  Zhang - Resistance Training Duration Mortality 2026, Saeidifard - Resistance Training Mortality Meta-Analysis 2019,
+  Momma - Muscle-Strengthening Activities and Mortality 2022, Shailendra - Resistance Training Mortality Meta-Analysis 2022,
+  Niemeijer - Exercise Therapy Adverse Events 2020]
 cluster: muscle
 confidence: low
 relationships:
@@ -22,8 +25,8 @@ relationships:
     - Exercise Safety in Osteoporosis
     - Power Training and Physical Function in Older Adults
 created: 2026-08-06
-updated: 2026-10-22
-self_critiqued: 2026-10-22
+updated: 2026-10-29
+self_critiqued: 2026-10-29
 ---
 
 **Peripheral scope** (exercise-programming) — admitted on the same evidence bar as any exposure, kept
@@ -695,13 +698,15 @@ adapts more slowly than muscle), not a stand finding.
 
 
 [@acsm2026rt]
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Safety — what the stand asserts, and what it rests on
 
 «Resistance training is safe for healthy adults of all ages (5), but many adults, particularly older
 adults, avoid RT due to misperceptions about safety and injury risks (181).» The support is cited, not
 synthesized in the stand. A meta-analysis of exercise-therapy trials: «In an analysis of >38,000
 participants (>6700 RT partic- ipants), of which >11,000 were older adults, exercise did not increase the
-risk of serious adverse events.» The comparator for minor harms was aerobic exercise, not rest: «The
+risk of serious adverse events.» For minor harms the stand compares RT with aerobic exercise: «The
 risk of nonserious adverse events (e.g., pain, fatigue, bursi- tis, and edema) was not different than
 aerobic exercise in terms of injury rate or risk (182).» And in cardiac patients: «In 23 studies (n = 1174) of adults with
 coronary heart disease, all 63 nonfatal cardiovascular complications occurred during aerobic training,
@@ -710,15 +715,90 @@ tions (knee arthritis) and were resolved by changing RT intensity or body positi
 (Hollings) is co-authored by a stand author.
 [@acsm2026rt]
 
-**G-gap.** The wiki holds no safety systematic review of RT in healthy adults, so this is a guideline's
-assertion resting on unheld sources, labelled as such. The figures carry no event rates per exposure-hour and no
-breakdown for an untrained adult starting from scratch. The stand also does not address the safety of
+**What ref 182 reports (Niemeijer).** Ref 182 is a meta-analysis of RCTs drawn from Cochrane reviews of
+exercise therapy (searched to November 2015). Every contrast is exercise vs a non-exercising control
+(usual care, attention, education, nutraceuticals or placebo) in patients and healthy people alike; no
+trial compares RT with aerobic exercise head to head. Of 773 included trials, «378 primary studies
+(including 38 368 participants) reported serious adverse events and 375 studies (38 517 participants)
+reported non-serious adverse events.» A serious event is one that «leads to either death,
+hospitalisation or a serious risk of deterioration in health»; all others count as non-serious, and the
+outcome is any event during the trial, not an event attributed to exercise.
+[@niemeijer2020]
+
+| Outcome, exercise vs non-exercise control | Trials / participants | RR (95% CI) | I-squared |
+|---|---|---|---|
+| Serious AEs, all exercise types | 378 / 38,368 | 0.96 (0.90-1.02) | 0% |
+| Non-serious AEs, all exercise types | 375 / 38,517 | 1.19 (1.09-1.30) | 0% |
+| Non-serious AEs, strengthening trials | 78 / 6746 | 1.42 (1.11-1.82) | 0% |
+| Non-serious AEs, aerobic trials | 83 / 6881 | 1.03 (0.81-1.33) | 0% |
+| Non-serious AEs, healthy-participant trials | 21 / 3483 | 1.57 (1.13-2.18) | 0% |
+
+[@niemeijer2020]
+
+The stand's two sentences match the source's figures (6746 is the strengthening count; 11,467 older
+adults) but say more than the source estimates in two places. First, the serious-AE null (RR 0.96)
+covers the whole pool only, while the RT and older-adult counts beside it come from the non-serious
+pool: «As there was no increase in RR of serious adverse events (see below), only
+characteristics and results from studies reporting non-serious adverse events are presented.» There is
+no serious-AE estimate for RT. Second, the minor-harm comparison: «The RR of adverse events associated
+with participating in a strengthening exercise intervention was estimated to be 1.42 (95%CI 1.11 to
+1.82), (figure 2), but no differences between exercise types were found in a meta-regres- sion
+analysis.» So *not different than aerobic* is the between-type test, a comparison across trials, not
+within them; strengthening against no exercise did raise non-serious events. The source reports no
+injury rate, only a ratio of non-serious events [searched: `injury rate` = 0, chunk 01].
+[@niemeijer2020]
+[inferred from @niemeijer2020; @acsm2026rt]
+
+**How complete the harm data are, and how sure.** «Only 49% of all primary studies reported
+non-serious adverse events (375 out of 773 included studies).» «Very few studies used a systematic
+approach to assess adverse events.» The review did not code how events were found, and it grades no
+certainty of evidence [searched: `GRADE` / `certainty` / `quality of evidence` = 0, chunk 01]. Of the 375
+trials, 266 were at high risk of bias; the 58 low-risk trials gave a larger non-serious ratio, 1.49
+(1.16-1.91), and the authors say the overall figure «may underestimate the risk of non-serious adverse
+events». No absolute rates per arm are reported. The source's NNTH is 6 (95% CI 4 to 11): «for every
+six people who participated in an exercise intervention, one additional non-serious adverse event
+occurred in the exercise group.» On whether the gaps could move it, the authors write that «the large
+number of studies (375) and participants (38 517) in the analysis of this systematic review may
+indicate that the identified estimate of increased risk may not change» — and the abstract concludes
+«Exercise therapy may therefore be recommended as a relatively safe intervention.» Drop-out, which the
+review analyses as a proxy, rose slightly: «With the number of drop-outs clas- sified as a proxy for
+adverse events, the RR of drop-outs was estimated to be 1.08 (95%CI 1.01 to 1.14, I2: 20.4%).» For
+practice the authors add: «However, clinicians should take non-serious adverse events into account when
+planning an exercise intervention.»
+[@niemeijer2020]
+
+**Reading it for a beginner.** Serious adverse events: *no excess detected*, in the half of trials that
+reported them, with no estimate for RT. That is weaker than *safe*: citing one preliminary cohort in
+chronic obstructive pulmonary disease that showed higher mortality with high-intensity than with
+regular-intensity exercise, the authors write that, even though they found no significant increase in
+serious adverse events, the possibility «could not be fully ruled out». Non-serious adverse events (the
+most frequently reported were pain, fatigue, bursitis, low back pain and oedema; the list runs past
+ordinary soreness, but the review does not separate these from the *DOMS* above): an excess was detected. In strengthening trials the excess over no exercise is measured, within
+randomised trials, at 1.42 (1.11-1.82). What is not shown is that RT carries more than other exercise
+types: that difference did not test significant across trials. The *Healthy* group's 1.57 (the
+source's *Healthy* group also holds pregnant, overweight or obese, and postmenopausal participants, per
+its Table 1) is a condition subgroup with no between-group test reported. If the NNTH and the pooled RR
+shared one control rate, NNTH 6 with RR 1.19 would imply about 0.9 non-serious events per control
+participant over the trial (0.8 to 1.0 on matched interval ends, wider if the intervals
+are combined freely); the source states neither the control rate nor how it derived the NNTH, so this
+is the wiki's rough back-calculation. It is a count of events in trials that recorded them, not one
+person's chance. The pool is mostly patients and older adults, so transfer to a healthy novice is by
+assumption. The practical reading: start, expect more minor adverse events than with no exercise, and
+adjust the exercise when one occurs.
+[inferred from @niemeijer2020]
+
+**G-gap.** The held pooling is of exercise therapy across populations, not RT in healthy adults. It
+gives no event rate per exposure-hour, no serious-AE estimate for RT, no breakdown for an untrained
+adult starting from scratch, and no intensity analysis: «Analysis of the impact of intensity was not
+performed due to poor reporting of the intensity in the included studies.»
+[@niemeijer2020]
+The stand also does not address the safety of
 1RM or maximal testing, or warm-up [searched: "testing" = 2 hits, neither on test safety; "warm" = 0,
 across both chunks], so the *Limits* question on maximal testing stays open. The stand itself concedes
 the reporting problem: trials in the field show «poor report- ing of adverse events, and other
 shortcomings (199)».
 [inferred from @acsm2026rt]
-[@acsm2026rt] — would put the adverse-event figure on a held source, with rates and the RT subgroup.
+[@acsm2026rt]
 The 2011 ACSM quantity-and-quality stand (ref 10 here; this stand says «the recommendations of the
 previous Position Stand (10,11) may be less relevant for most adults»
 [@acsm2026rt]) does not fill the warm-up gap: its only graded warm-up statement on risk is the grade-C «may reduce the
@@ -728,19 +808,24 @@ none with a dose for injury; and it warns against
 eccentric-only training (rhabdomyolysis) -> [[Exercise Interventions and Sports Injury Prevention]].
 [@garber2011acsm]
 
-**What the held safety evidence elsewhere says about reading a *no excess harm* pooling.** The nearest
-held source is a different stratum: [[Exercise Safety in Osteoporosis]] (Kunutsor), where serious
-adverse events were also rare and the excess was minor aches, but where harms were often not recorded
-— in one updated falls review, 55 of 107 trials did not report adverse events and 26 more reported
-zero. So a trial-pooled *no increase in serious adverse events* is reassuring in
-direction and weak as a bound, whatever the population, until the pooled trials are shown to have
-recorded harms. [[Supervised vs Unsupervised Exercise]] is a different contrast (two exercise arms, not exercise vs
+**Reading a *no excess harm* pooling, across the held safety evidence.** The all-population pooling
+above and the osteoporosis review on [[Exercise Safety in Osteoporosis]] (Kunutsor) agree in shape:
+minor events increased; serious events not raised in the pooling here, and in Kunutsor, which pools no
+serious-event comparison, rare: its abstract says «Serious adverse events were rare and could not be
+attributed to the intervention», though its body names two serious events attributed to exercise in one
+falls trial, a groin strain followed by hernia surgery and a pelvic stress fracture; and harms recorded by only about half the
+trials (49% of 773 here; 55 of 107 trials in Kunutsor's updated falls review did not report adverse
+events and 26 more reported zero). So a trial-pooled *no increase in serious adverse events* is
+reassuring in direction and weak as a bound, whatever the population. The two are not independent
+checks: their trial pools probably overlap through the Cochrane reviews both draw on.
+[[Supervised vs Unsupervised Exercise]] is a different contrast (two exercise arms, not exercise vs
 none): adverse events and falls were similar with and without supervision, though possibly
 under-counted because exercise dose was not equated. For the healthy novice this supports
 starting RT, with the usual caution that light loads and gradual increases cost little (for strength,
 light loads do slow gains).
-[inferred from @acsm2026rt; @kunutsor2018adverse]
+[inferred from @niemeijer2020; @kunutsor2018adverse]
 
+</div>
 
 ## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
 
@@ -808,6 +893,8 @@ unblindable primaries, same design ceiling as Currier.
 [@roberts2020sex]
 
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## The surrogate → outcome boundary — the load-bearing honesty
 
 Strength and muscle size are **surrogates** ([[Surrogate Outcomes]]), and Currier is unusually explicit
@@ -816,10 +903,49 @@ health outcomes» and «The effects on health outcomes of various RTx remain lar
 [@currier2023] The transmission differs by
 surrogate, and the ranking of surrogates matters more than the ranking of prescriptions:
 
-- **Strength → moderate transmission.** Strength (esp. grip) and muscle-strengthening *activity* track
-  lower mortality observationally -> [[Grip Strength and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
-  (any MSA vs none: all-cause mortality RR 0.85; MSA + aerobic RR 0.60). But that is *activity/strength
+- **Strength → the stronger of the two surrogate links, but unestablished.** Strength (esp. grip) and
+  muscle-strengthening *activity* track lower mortality observationally -> [[Grip Strength and Mortality]], [[Muscle-Strengthening Activity and Mortality]]
+  (any MSA vs none: all-cause mortality RR 0.85, 0.79-0.93; MSA + aerobic RR 0.60, 0.54-0.67; Momma rates
+  the all-cause evidence «very low»)
+  [@momma2022]
+  — Shailendra prints near-identical pooled figures (0.85, 0.77-0.93; 0.60, 0.54-0.66) from an
+  overlapping study base [@shailendra2022] (label changed 2026-10-28 from *moderate transmission*, which read as GRADE
+  moderate certainty). But that is *activity/strength
   predicting death*, not *this NMA's 1RM gains reducing death* — no RCT closes it.
+  And none of this page's dials reaches the mortality evidence: the held RT-mortality cohort with repeated
+  measures (Zhang 2026, 147,374 people) measured weekly *time* only — its item «did not capture other forms of
+  strength training like calisthenics and Pilates», and «we could not assess this dimension as intensity
+  data was not collected». [@zhang2026rtmort]
+  So load, sets and %1RM are not linked to mortality by data in the held RT-mortality sources (frequency
+  only through session-count and >=2-days/week adherence contrasts on the linked page) [searched:
+  intensity / load / sets / 1RM / sessions across the Zhang, Momma, Saeidifard and Shailendra chunks].
+  Saeidifard does assert, in its Discussion, that «Some of our analysis suggest that the optimal health
+  benefits of resistance training are most likely obtained by 1–2 sessions per week and avoiding
+  high-intensity low-repetition type activities», adds that the evidence is not enough to conclude a
+  U-shape, and shows no intensity result
+  [@saeidifard2019];
+  the mortality-side dose is weekly minutes. As a labelled decision default (a reading across sources,
+  not a test), \~30 to \~120 min/week is where the held all-cause estimates sit lowest (Zhang's
+  aerobic-adjusted categories 0.87-0.91 across 30-119 min/week, observational, lower risk already at
+  1-29 min/week, 0.95, 0.92-0.97; Momma's pooled spline below 1.0 to \~140). This lower region carries the
+  same self-report and partly-shared-data caveats as the upper: in Zhang's Table 2 the 90-119 min/week
+  estimate moves from 0.66 age-adjusted to 0.76 with covariates and 0.87 with aerobic activity added, and
+  residual confounding plausibly accounts for part of what remains; how much is not shown.
+  [@zhang2026rtmort]
+  Every held
+  minutes/week all-cause estimate stays below 1.0 out to \~140; the default stops at \~120 because no held source shows
+  further all-cause benefit beyond \~120. Above \~140 the held estimates conflict: Momma's pooled spline
+  rises above the null (lower band above 1.0 from \~165, plotted to \~195), as does Shailendra's 4-study
+  spline (lower band above 1.0 from \~165-170, to 200), which re-pools a subset of Momma's studies and is
+  not independent of it, while Zhang's spline point estimate stays below 1.0 to \~270, its upper band reaching \~1.0 near
+  \~190-195 (all figure-read)
+  and its top category (open-ended, mean 204 min/week) is 0.92 (0.86-0.98). Beyond each model's last
+  knot a restricted cubic spline is constrained to be linear, so the shape there (and its band) reflects
+  the model as much as the data; the data beyond the knot still set the slope (Zhang's and Shailendra's
+  last knots are at 150 min/week, Momma's plausibly \~75-150, per the linked page). All upper tails are
+  sparse, self-reported and partly shared data, so that span is neither a harm nor a safety finding
+  -> [[Muscle-Strengthening Activity and Mortality]].
+  [inferred from @zhang2026rtmort]
 - **Strength → sports-injury reduction is one of the patient-important outcomes held at RCT-MA
   grade, not the only one.** Two others sit beside it: falls in older adults (exercise programmes cut
   the fall rate, RaR 0.77, 0.71-0.83, HIGH certainty, but the active ingredient is balance/functional
@@ -869,6 +995,10 @@ head-to-head grade. (corrected 2026-10-22: was
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Decision relevance
 
 - **The big rock is doing any resistance training at all.** Prescription choice is a second-order refinement
@@ -886,8 +1016,12 @@ head-to-head grade. (corrected 2026-10-22: was
   That page holds a broad intake region, not a settled target: its break point was not statistically
   established.
 - **Minimal effective dose:** roughly **2 sets, 2×/week** is the floor shown to work (Currier); it is not
-  shown to capture most of the available gain. For size, the ACSM 2026 stand reports a volume
-  dose-response from ≥10 sets per muscle group per week (vote-count; a secondhand plateau near \~18-20)
+  shown to capture most of the available gain. For size, the ACSM 2026 stand gives a vote-count
+  verdict that higher volumes (≥10 sets per muscle group per week) enhanced size. Its summary table
+  labels this «Volume: ≥10 sets/wk (dose-response)», yet the stand says its overview approach «prevents
+  statistical insights into the comparative effectiveness (e.g., dose- response) of individual RT
+  variables», so the label marks a direction across reviews, not an estimated curve (a secondhand
+  plateau near \~18-20). [@acsm2026rt]
   and says minimal-dose programmes need more study (see the defaults below).
 - **Equipment is a preference choice, not a lever.** Free-weights and machines showed no
   difference in strength or hypertrophy on the outcome (Haugen: all direct-comparison CIs span zero; the
@@ -953,6 +1087,19 @@ carried over, not studied.
   stand finding. Formal periodization is not shown to beat plain progressive loading.
 - **Bands or home training count.** They beat no training; standard RT did more for multicomponent
   function than bands, so bands are the easier start, not the ceiling.
+- **Expect more minor adverse events than with no exercise, and adjust rather than ignore them.** In
+  exercise-therapy trials, exercise raised non-serious events (most frequently reported: pain, fatigue,
+  bursitis, low back pain, oedema) by about a fifth over no exercise, 1.42 in strengthening trials (not
+  significantly different from other exercise types across trials, and in a pool that is mostly patients
+  and older adults, so transfer to a healthy novice is by assumption); serious events showed
+  no excess detected, in the half of trials that recorded them, with no RT-specific estimate; drop-out
+  rose slightly (RR 1.08) (see *Safety* above). The held example of what to do comes from adults with
+  coronary heart disease, whose 20 musculoskeletal complications during RT the stand puts down to
+  pre-existing knee arthritis and says «were resolved by changing RT intensity or body position»; that is
+  a patient group, so carrying it to a healthy novice is by assumption. Easing the
+  load or changing the exercise, rather than stopping training, is the wiki's labelled practice default,
+  not a trial-tested rule.
+  [inferred from @niemeijer2020; @acsm2026rt]
 
 [inferred from @acsm2026rt]
 
@@ -962,6 +1109,10 @@ low certainty; different unit, see the older-adult section), so there the
 low-volume default is a reasonable stopping point for size — a cheap-lever default, not a settled answer
 to the per-muscle-group question above.
 [inferred from @radaelli2024rtvol]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Limits
 
@@ -994,9 +1145,11 @@ to the per-muscle-group question above.
   a gap. [@radaelli2024rtvol] For
   the person who **cannot load heavy** (older, comorbid joints/bones, rehab), this dial does not apply; the
   route-(c)/(e) workaround is [[Blood Flow Restriction Training]], which reaches heavy-load-comparable
-  *hypertrophy* at light load (though below-heavy-load *strength*) — and lands the same load-dependence
-  shape from an independent team, corroborating the strength-is-load-driven / hypertrophy-is-not
-  decomposition above.
+  *hypertrophy* at light load (though below-heavy-load *strength*) — a similar load-dependence shape
+  from a different team, consistent with the strength-is-load-driven / hypertrophy-is-not decomposition
+  above; blood-flow restriction is a different exposure from plain low-load training, and author or
+  trial overlap with Currier has not been checked here, so it is not counted as independent
+  corroboration.
 - **One anchor NMA, shared lineage** — Currier is not independent of ACSM 2026 or Morton 2018
   (Phillips/McMaster); Radaelli (no shared authors) cites Currier and addresses only the >=60 volume
   cell, so `confidence: low` until an independent line lands on the general-adult questions.
@@ -1015,5 +1168,7 @@ to the per-muscle-group question above.
 
 
 [inferred from @currier2023]
+
+</div>
 
 ## References

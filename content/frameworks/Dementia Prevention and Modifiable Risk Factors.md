@@ -2,13 +2,13 @@
 type: framework
 question: Which modifiable exposures raise or lower dementia risk, over what part of the life course, and how much of dementia is attributable to them at the population level?
 aliases: [Dementia Prevention, Modifiable Dementia Risk Factors, 14 Risk Factors for Dementia, Lancet Commission Dementia, Cognitive Decline Prevention, Life-Course Model of Dementia]
-authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S; Zhang, Yaru; Zhang, Wei; Wang, Hui-Fu; Ou, Ya-Nan; Qu, Yi; Shen, Xue-Ning; Chen, Shi-Dong; Wu, Kai-Min; Zhao, Qian-Hua; Zhang, Hai-Ning; Sun, Li; Dong, Qiang; Tan, Lan; Feng, Lei; Zhang, Can; Evangelou, Evangelos; Smith, A. David; Yu, Jin-Tai; Singh-Manoux, Archana; Pentti, Jaana]
-sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Zhang - Modifiable Risk Factors Dementia Cognitive Impairment Umbrella 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Xu - Sleep Problems Cognitive Decline Dementia 2020]
+authors: [Livingston, Gill; Huntley, Jonathan; Liu, Kathy Y; Costafreda, Sergi G; Selbæk, Geir; Alladi, Suvarna; Dinu, Monica; Sofi, Francesco; Ngandu, Tiia; Kivipelto, Miia; Moll van Charante, Eric P; Richard, Edo; Coley, Nicola; Andrieu, Sandrine; Kivimaki, Mika; Nucci, Daniele; Gianfredi, Vincenza; Dibello, Vittorio; Custodero, Carlo; Panza, Francesco; Wei, Bao-Zhen; Xu, Wei; Wilker, Elissa H; Osman, Marwa; Weisskopf, Marc G; Henney, Alex E; Gillespie, Conor S; Cuthbertson, Daniel J; Smith, Megan; Watson, Pippa; Gallacher, John; Bauermeister, Sarah; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang; Peng, Yinshun; Villoz, Fanny; Filippini, Tommaso; Chocano-Bedoya, Patricia O; Iso-Markku, Paula; Kujala, Urho M; Knittle, Keegan; Polet, Juho; Vuoksimaa, Eero; Waller, Katja; Zhang, Jinhuan; Ou, Juan; Lu, Xingying; Wang, Tingyu; Dang, Wei; Ding, Liyao; Liu, Yongfeng; Xu, Jinping; Yan, Bin; Yu, Haibo; Peters, Ruth; Xu, Ying; Fitzgerald, Oisin; Aung, Htein Linn; Beckett, Nigel; Bulpitt, Christopher; Chalmers, John; Forette, Francoise; Gong, Jessica; Harris, Katie; Humburg, Peter; Staessen, Jan A; Thijs, Lutgarde; Tzourio, Christophe; Warwick, Jane; Woodward, Mark; Anderson, Craig S; Zhang, Yaru; Zhang, Wei; Wang, Hui-Fu; Ou, Ya-Nan; Qu, Yi; Shen, Xue-Ning; Chen, Shi-Dong; Wu, Kai-Min; Zhao, Qian-Hua; Zhang, Hai-Ning; Sun, Li; Dong, Qiang; Tan, Lan; Feng, Lei; Zhang, Can; Evangelou, Evangelos; Smith, A. David; Yu, Jin-Tai; Singh-Manoux, Archana; Pentti, Jaana; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [Livingston - Dementia Prevention 2024, Peters - Blood Pressure Lowering Dementia 2022, Garcia-Casares - Mediterranean Diet Alzheimer 2021, Dinu - Mediterranean Diet Umbrella Review 2018, Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Kivimaki - Cognitive Stimulation Work Dementia 2021, Nucci - Mediterranean Diet Dementia, Dibello - Periodontal Disease Cognitive Dementia Meta-Analysis 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Henney - Ultra-Processed Food Dementia 2023, Smith - Ultra-Processed Food Cognitive Outcomes 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, Peng - Dietary Flavonoids Cognitive Function 2025, Villoz - Dairy Cognitive Decline Dementia 2024, Iso-Markku - Physical Activity Dementia 2022, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Zhang - Modifiable Risk Factors Dementia Cognitive Impairment Umbrella 2022, Kivimaki - Physical Inactivity Dementia IPD 2019, Xu - Sleep Problems Cognitive Decline Dementia 2020, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-10
+updated: 2026-10-29
 self_critiqued: 2026-09-10
 relationships:
   related_to:
@@ -286,6 +286,8 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
 
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
 
 The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
@@ -384,6 +386,32 @@ cell cannot carry.
   neuroprotective slope, WITHOUT dislodging activity as a big rock — it is recommended for cardiometabolic
   reasons regardless (Kivimaki's own conclusion supports «this basic tenet of prevention in public
   health»). [inferred from @kivimaki2019inactivity; @isomarkku2022]
+- **Measured fitness rather than reported activity — one small meta-analysis, VERY LOW certainty
+  `[2026-10-28, Lang]`.** Lang's umbrella of cohort meta-analyses carries one dementia row: high vs low
+  cardiorespiratory fitness, incident dementia HR 0.36 (0.27-0.49), Lee 2021, 3 cohorts, n=11,694,
+  follow-up 6-38 years, AMSTAR2 critically low, graded VERY LOW by Lang's prognostic GRADE
+  (observational evidence started high; the main text lists only downgrade domains, and its
+  decision-rules table is an unheld supplement). Lang gives inconsistency and indirectness as the main
+  reasons incident outcomes were downgraded, the latter from «largely male populations»; it gives no
+  sex split for this row (for all-cause mortality the split is 1,858,274 men vs 180,202 women), and
+  expects more female data to raise certainty rather than change magnitude.
+  [@lang2024crf]
+  The follow-up range covers every paper in Lee's review and «may include exposures other than CRF»
+  [@lang2024crf].
+  Fitness was measured once at baseline, the follow-up range is not stratified, and Lang reports no lag
+  or early-case exclusion [searched: reverse caus / lag / exclu — srcgrep, 1 file, 0 relevant hits;
+  *exclu* hits only excluded studies], so the row
+  cannot speak to the beyond-ten-years question above. It is not the same quantity as activity's 0.80:
+  a different exposure, a high-vs-low contrast whose cut-points Lang does not define, and 3 cohorts
+  (n=11,694) against the 49 studies (n=257,983) behind Iso-Markku's all-cause 0.80
+  [@isomarkku2022]. So its distance from 1
+  does not show fitness matters more than activity; contrast
+  definition, small-study inflation, less exposure attenuation and a marker that tracks baseline health
+  could each contribute, and this cell cannot separate them. Held as a prognostic marker
+  (-> [[Cardiorespiratory Fitness and Mortality]]), best-evidenced in men, not as a second estimate of
+  the activity lever. [inferred from @lang2024crf]
+
+</div>
 
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 

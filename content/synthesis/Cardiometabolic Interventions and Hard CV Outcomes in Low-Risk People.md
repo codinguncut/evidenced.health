@@ -2,11 +2,11 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V; Rees, Karen; Stranges, Saverio]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Rees - Mediterranean Diet CVD Prevention Cochrane 2019]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V; Rees, Karen; Stranges, Saverio; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lonn, Eva M; Sundström, Johan]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Rees - Mediterranean Diet CVD Prevention Cochrane 2019, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015]
 cluster: cvd-risk-estimation
 confidence: high
-self_critiqued: 2026-10-06
+self_critiqued: 2026-10-27
 relationships:
   related_to:
     - Baseline Risk and the Relative-Absolute Split
@@ -22,8 +22,9 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Low-Fat Dietary Pattern and Cardiovascular Disease
 created: 2026-07-28
-updated: 2026-10-22
+updated: 2026-10-28
 ---
+<div class="recent-update" data-last-updated="2026-10-27">
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
 a **drug for lipids** ([[Statins for Primary Prevention and the Power of Zero CAC]]), **lifestyle weight
@@ -33,13 +34,16 @@ pattern is on none of them individually. Assembled, they make one claim that is 
 genuinely low-risk primary-prevention person, no cardiometabolic intervention the wiki holds delivers a
 large *absolute* reduction in hard cardiovascular events.** The first three are *unproven there or
 below the action threshold*; the fourth, BP-lowering, is the sharp test — its *relative* benefit **is**
-proven in primary prevention, and the claim survives only because a proven relative effect on a low
+proven in primary prevention (in BPLTTC's older, higher-risk participants without prior CVD; not directly
+confirmed in low-risk stage-1 hypertension or, overall, in HOPE-3, the intermediate-risk modern-drug trial the wiki holds), and the claim survives only because a proven relative effect on a low
 absolute baseline is still a small absolute gain. A **fifth** intervention, aspirin, is treated below
 as a distinct case: it is not one of the four sharing that question, and it reaches the same ceiling by
 a *different* mechanism — a proven relative benefit exactly cancelled by a proven bleeding harm — so it
 sharpens rather than repeats the pattern.
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The four, on the one question
 
@@ -48,17 +52,21 @@ sharpens rather than repeats the pattern.
 | **Semaglutide** (drug→weight) | MACE «hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90» — but only in **secondary prevention** (established CVD); primary prevention «were not studied» [@lincoff2023] | **Unproven.** Weight + surrogates transfer; the CV-event benefit does not |
 | **Statin** (drug→lipids) | Efficacy real and roughly constant per mmol/L; USPSTF acts only at **≥7.5–10% 10-year risk** because benefit is *proportional to risk*; CAC=0 lifts NNT to 64 vs 28 [@nasir2015] | **Small, below the threshold.** USPSTF: below \~7.5% risk, not a candidate at all [@uspstf2022] |
 | **Lifestyle weight loss** | Look AHEAD «hazard ratio 0.95; 95% CI 0.83 to 1.09» — **null** in T2D despite real weight loss and a large CRP reduction (\~42-45% with intensive lifestyle on statins, vs 14-21% usual care) [@look2013] [@belalcazar2013] | **Unproven / null via this route** |
-| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [@bplttc2021] — relative benefit **proven in primary prevention** | **Proven relative, small absolute.** \~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
+| **BP-lowering** (drug) | BPLTTC IPD: HR **0.91 (0.89-0.94) even without prior CVD**, no heterogeneity down to <120 mmHg [@bplttc2021] (held less firmly in the low-SBP no-CVD corner, where one nominal within-trial trend, HOPE-3, points the other way, below) [inferred from @lonn2016hope3] — relative benefit **proven in primary prevention** (BPLTTC's population, mean age 65); the direct trials in untreated low-risk stage-1 hypertension are low-certainty and underpowered [@wang2025mildhtn]; HOPE-3, at intermediate risk without CVD, was inconclusive (HR 0.93, 0.79-1.10) [@lonn2016hope3] | **Proven relative, small absolute** — and, at low risk and in HOPE-3's intermediate-risk trial, transported on the CV composite, not directly confirmed (in Sundström's diabetic, mostly treated half, at 7.4% five-year risk, stroke and CV death fell significantly as subgroup estimates, below). \~10% per 5 mmHg on a low baseline is a small absolute gain; the authors say treat on absolute risk |
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
 those settled findings, it does not re-derive a magnitude.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-26">
 
 ## A fifth intervention sharpens the pattern — aspirin (added 2026-08-20)
 
 
 Aspirin ([[Aspirin for Primary Prevention of Cardiovascular Disease]]) is the **sharpest** case
 because it fails the low-risk person on a *different* mechanism than the four above. The other four
-are *unproven or below threshold* in primary prevention; aspirin's **relative** CV benefit **is**
+are *unproven, below threshold, or small in absolute terms* in low-risk primary prevention; aspirin's **relative** CV benefit **is**
 proven there (composite HR 0.89, 95% CrI 0.84-0.94) — yet it still delivers no net gain, because a
 **matched, also-proven bleeding harm** cancels it. On the largest trial-level MA (13 RCTs, 164 225
 people) the composite-CV ARR is 0.41% (0.23-0.59) against a major-bleeding ARI of 0.47% (0.34-0.62)
@@ -73,6 +81,8 @@ high-risk, and diabetes strata alike (bleeding ARI >= CV ARR in every one)
 [@zheng2019aspirin]. So for aspirin, *even a
 higher-risk person is not rescued by route-(a)* — a stronger conclusion than the ceiling finding needs,
 and one the other four do not reach.
+
+</div>
 
 ## Why they converge — three shared mechanisms, not a coincidence
 
@@ -152,21 +162,116 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 
 
 
+<div class="recent-update" data-last-updated="2026-10-28">
+
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.
 Unlike the other three, its *relative* hard-outcome benefit is directly proven in primary prevention
-(BPLTTC HR 0.91 without prior CVD, no heterogeneity across baseline BP). Had the synthesis claimed *no
+(BPLTTC HR 0.91 without prior CVD, no heterogeneity across baseline BP; HOPE-3's nominal within-trial trend weakens
+the no-heterogeneity reading in the low-SBP corner, below) — in BPLTTC's older, higher-risk
+participants (mean age 65), not directly in the low-risk stage-1 tail (below). Had the synthesis claimed *no
 intervention has a proven relative effect in primary prevention*, BP-lowering would have broken it. But
 the claim is about **large absolute** benefit **for a low-risk person**, and there BP-lowering lands
 exactly where the mechanism predicts: the paper's own decision rule is *treat on absolute cardiovascular
 risk, not the blood-pressure number*, so a proven \~10%-per-5-mmHg relative effect still buys little for
-someone at low absolute risk. **The one intervention that could speak to primary prevention confirmed
-mechanism 1 rather than escaping it.**
+someone at low absolute risk. **The first intervention that could speak to primary prevention is
+consistent with mechanism 1 rather than escaping it** — by its constant relative effect and its authors'
+treat-on-absolute-risk rule, not by displaying the gradient: within its own higher-risk pool BPLTTC
+reports «The findings based on absolute risk reduction further confirmed no observable heterogeneity of
+effect by cardiovascular disease status and systolic blood pressure categories at baseline (appendix pp
+23–24).» [@bplttc2021].
 
-**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary  [@estruch2018]
+**The direct low-risk trials are the exception that explains mechanism 2.** Trials of *starting* a
+drug in untreated stage-1 hypertension with no CVD do exist — five, 9124 people, weighted mean age 50
+(mean ages 40-50 except SHEP) — and they show what running a trial where events are rare yields: total CV
+events RR 0.93 (0.69 to 1.24), control 25 vs treated 23 (17 to 31) per 1000 over 2-5 years; all-cause
+mortality RR 0.85 (0.64 to 1.14); and one signal of benefit, stroke RR 0.41 (0.20 to 0.84), control 7 vs
+treated 3 (1 to 6) per 1000, on 35 events mostly from one microalbuminuria trial. On the harm side a
+single trial (MRC 1985, the whole trial of 17,354 including people with prior CVD) gives withdrawals for
+adverse effects of control 23 vs treated 110 (95 to 128) per 1000 over 5 years (RR 4.80, 4.14 to 5.57),
+much of it headache, on drugs no longer first-line. Every outcome is low certainty
+[@wang2025mildhtn].
+The CV-event interval is wide enough to include the \~10-20% reduction BPLTTC's per-mmHg slope would
+predict (the review does not report the achieved BP difference, so the two are not the same quantity),
+so this is insufficient evidence, not a null. It does not refute the transported benefit; it shows the
+low-risk person's benefit is an *inference* from a higher-risk pool rather than an observation (the
+review partly shares trials with that pool — SHEP, PREVEND IT — so the two are not fully independent). That leaves the ceiling where it
+was and lowers its floor of certainty: for the low-risk hypertensive the honest statement is *a small
+transported benefit, unconfirmed directly, against a low-certainty, dated tolerability cost*, with a
+small low-certainty stroke signal that matters most to someone who weights stroke highly (Layer 3)
+-> [[Blood Pressure Lowering and Cardiovascular Events]].
+[inferred from @wang2025mildhtn; @bplttc2021]
+
+**HOPE-3 adds one more direct trial, at intermediate risk, and Sundström's earlier pool contains the
+low-risk trials already held; on the CV composite both are inconclusive overall `[2026-10-27]`.**
+HOPE-3 randomised 12,705 people without CVD at intermediate risk (mean age 65.7) to candesartan +
+hydrochlorothiazide or placebo, double-blind, achieving 6.0/3.0 mmHg; the placebo rate on CV death, MI or
+stroke was 0.8% a year, and the hazard ratio was 0.93 (0.79-1.10)
+[@lonn2016hope3]. BPLTTC's per-5-mmHg effect scaled to that
+difference predicts about 0.89, inside the interval (an approximate comparison: the composites differ), or
+about 5 fewer events per 1000 over 5.6 years, so the trial neither confirms nor excludes it, though it only just excludes the 22.5% reduction the
+trial was powered for (HR about 0.775, below the 0.79 floor). A
+prespecified within-trial trend across thirds of baseline SBP (P 0.02) put the upper third (mean 154 mmHg)
+at 0.73 (0.56-0.94) and the lowest (mean 122) at 1.16 (0.82-1.63)
+[@lonn2016hope3]. It is the one randomised counter-signal the wiki holds to
+BPLTTC's no-heterogeneity reading, and it stays a hypothesis whose cut-point is not located.
+
+Sundström's pool of grade-1 hypertension without CVD (15,266 people: BPLTTC individual-patient data plus
+three non-BPLTTC trials) gives a borderline CV-event OR of 0.86 (0.74-1.01). Its pooled estimates are
+significant for deaths, 0.78 (0.67-0.92), and stroke, 0.72 (0.55-0.94), and the authors conclude:
+«Conclusion: Blood pressure–lowering therapy is likely to pre- vent stroke and death in patients with
+uncomplicated grade 1 hypertension.» [@sundstrom2015mildhtn] All three results rest
+mostly on the 96%-diabetic BPLTTC half (about three-quarters of CV events and deaths, 196 of 226 strokes)
+. Its non-diabetic, untreated trials alone gave 0.97 (0.71-1.33)
+[@sundstrom2015mildhtn], about 1 fewer CV event per 1000 over 5
+years (about 7 fewer to 8 more) at their 2.4% baseline. Those trials
+are all among Wang's five, and the two reviews return near-identical estimates (CV events OR 0.97 vs RR
+0.93; deaths 0.85 vs 0.85) [@wang2025mildhtn], so this is largely the same
+direct evidence, not a second independent test.
+
+What they change here: the ceiling holds and the BP row's footing narrows. On the CV composite, relative
+benefit is directly shown in BPLTTC 2021's higher-risk pool. Sundström's diabetic, mostly treated half (the
+same collaboration's data) is borderline on CV events, 0.83 (0.69-1.00), and clear on deaths, 0.76
+(0.63-0.91) [@sundstrom2015mildhtn]. Its stroke,
+0.74 (0.55-0.99), and CV-death, 0.75 (0.57-0.98), estimates are also significant
+[@sundstrom2015mildhtn]; covariate adjustment within
+it gave a CV-event OR of 0.81 (0.66-0.98) but a CV-death OR of 0.76 (0.57-1.02). A sensitivity analysis restricted to placebo-controlled trials, which drops the 3 trials of more vs less
+intensive regimens (not named in the held text), gave 0.88 (0.74-1.03) for CV events
+[@sundstrom2015mildhtn]. The diabetic half's figures are subgroup
+estimates within one pooled analysis, and apart from total deaths their upper bounds sit near 1: direct but
+fragile hard-outcome evidence at roughly intermediate risk, for a diabetic, mostly treated stratum
+. At that half's 7.4% five-year control risk (a five-year risk on a composite that includes heart
+failure, so only roughly comparable with HOPE-3's 4.4% overall and 6.5% upper-third rates over 5.6 years
+without it), the authors' Table 2 applies the pooled OR for about 10 fewer CV events per 1000 over
+5 years (-1 to 19) [@sundstrom2015mildhtn]. Outside that half, in HOPE-3 and the
+non-diabetic, untreated grade-1 trials, every overall CV-composite estimate the wiki holds from direct
+trials is inconclusive, so there the CV-event benefit is transported.
+
+Even the favourable end of those intervals is under about 10 fewer events per 1000 over 5-6 years: HOPE-3's
+0.79 on a 4.4% placebo risk over 5.6 years counts CV death, MI or stroke, and Sundström's 0.71 at 2.4% over
+5 years counts stroke and coronary events only.
+
+Two signals point the other way and are stated, not discounted. Wang's stroke RR is 0.41 (0.20-0.84), from
+the low-risk tail's own trials but low certainty on 35 events that Wang places mostly in one
+microalbuminuria trial, about 4 fewer strokes per 1000 over 2-5 years. HOPE-3's upper SBP third (baseline
+mean 154 mmHg, above a 143.5 tertile cut, not a located threshold; no CVD) gives 0.73 (0.56-0.94) from a
+prespecified trend, about 17 fewer per 1000 at a 6.5% placebo risk. That point estimate is of the same
+order as PREDIMED's whole-trial figure (a different composite and population, so not a matched
+comparison), but it comes from a subgroup at intermediate risk, above the tail this page's claim covers.
+Neither breaks the claim. Wang's stroke result is low-certainty evidence of a small absolute benefit
+(Sundström's mostly diabetic pool points the same way), and HOPE-3's upper third is a subgroup hypothesis
+whose route-(a) expectation is about 7, not 17, per 1000; even taken at face value and carried to the \~2.4% five-year baseline of Sundström's non-diabetic,
+untreated trials (stroke and coronary events, so an approximate comparison), 0.73 buys about 6-7 per 1000
+. On the cost side HOPE-3 measured about 14 per
+1000 more stopping the drug for hypotension or dizziness, in people who had passed an active run-in
+-> [[Blood Pressure Lowering and Cardiovascular Events]].
+[inferred from @lonn2016hope3; @sundstrom2015mildhtn; @bplttc2021; @wang2025mildhtn]
+
+**PREDIMED is the second confirming test — a HIGH-risk contrast, not a counterexample.** A dietary
 *pattern* (Mediterranean diet, energy-unrestricted) cut CV events \~30% (HR 0.70) with a real absolute
-benefit of \~1.7-2.1 percentage points over 5 years ([[Mediterranean Diet and Cardiovascular Events]]).
+benefit of \~1.7-2.1 percentage points over 5 years ([[Mediterranean Diet and Cardiovascular Events]])
+[@estruch2018].
 That looks like a lifestyle intervention with a proven hard-outcome effect — but it lands exactly where
 the mechanism predicts, because its population was **high** absolute risk (\~49% T2D, \~82% hypertensive),
 and its authors say outright that generalization «to persons at lower risk requires further research».
@@ -236,12 +341,22 @@ confirmation of the held thesis, **not** independent backing — no `[E-independ
 (does not yet exist), a weight-loss-mortality review finding benefit beyond T2D, a CAC-randomized
 statin trial with benefit at CAC=0, or **a dietary-pattern RCT showing hard-outcome benefit in a
 genuinely LOW-risk population** — any would move a *large-absolute-at-low-risk* cell from *unproven*
-toward *proven*. Until then the pattern holds, and its confidence is **high**: six intervention
-classes across drug, diet-pattern and lifestyle — including the ones with the strongest
-primary-prevention evidence, and one (REDUCE-IT) that displays the baseline-risk gradient within a
-single trial — all land in the same place by the same mechanism. Aspirin adds a seventh class that
+toward *proven*. Until then the pattern holds, and its confidence is **high** for the claim as stated —
+no *proven* large lever — because the absence of proof is itself well established: the wiki holds no adequately powered
+low-risk hard-outcome trial of the table's drug classes or of diet and lifestyle (aspirin aside, below), and where low-risk or low-contrast trials do
+exist (the direct stage-1 BP trials, WHI, preDIVA) they are null or low-certainty, and the one
+intermediate-risk BP trial the wiki holds (HOPE-3) is inconclusive overall. *Null* and *inconclusive*
+mark the same interval shape here: Look AHEAD's 0.83-1.09 and HOPE-3's 0.79-1.10 each exclude a reduction
+larger than about 17-21% while containing a modest one. HOPE-3 is called inconclusive because BPLTTC's pooled
+estimate (\~0.89 scaled to its BP difference) sits inside its interval; this page has run no matching test
+for Look AHEAD. The high-risk trials
+(PREDIMED, REDUCE-IT, which displays the baseline-risk gradient within a single trial) fit the claim but
+cannot by themselves discriminate it; preDIVA and WHI are weaker instances whose nulls are over-determined
+by a thin contrast, not the same mechanism. Aspirin adds a further class that
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
+
+</div>
 
 ## References

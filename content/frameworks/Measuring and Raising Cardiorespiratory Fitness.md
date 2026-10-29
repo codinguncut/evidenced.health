@@ -2,8 +2,8 @@
 type: framework
 question: How do I measure my cardiorespiratory fitness, how much exercise raises it, and does raising it actually lower risk?
 aliases: [Measuring CRF, Raising CRF, Non-Exercise CRF, eCRF, FRIEND Standards, VO2max Measurement, CRF Vital Sign, Exercise Dose to Increase Fitness, 2-km Walk Test, UKK Walk Test]
-authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.; Khan, Sadiya S; Matsushita, Kunihiro; Sang, Yingying; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Kokkinos, Peter F.; Zhang, Jiajia; Mandsager, Kyle; Jaber, Wael; Oja, Pekka; Laukkanen, Raija; Pasanen, Matti; Tyry, Tuula; Vuori, Ilkka; Marín-Jiménez, Nuria; Sánchez-Parente, Sandra; Expósito-Carrillo, Pablo; Jiménez-Iglesias, José; Álvarez-Gallardo, Inmaculada C.; Cuenca-García, Magdalena; Castro-Piñero, José; Franklin, Barry A.]
-sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Kokkinos - FRIEND Cycle Ergometry Equation 2018, Oja - 2-km Walking Test Fitness 1991, Marin-Jimenez - 2-km Walk Test Validity Reliability 2023, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT, SCORE2-Diabetes 2023, Khan - PREVENT Equations 2024, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020]
+authors: [Ross, Robert; Blair, Steven N; Arena, Ross; Kaminsky, Leonard A; Myers, Jonathan; Poon, Eric Tsz-Chun; Gibala, Martin J; Ho, Robin Sze-Tak; O'Donoghue, Grainne; Khalafi, Mousa; Wan, Kewen; Niven, Ailsa G.; Khan, Sadiya S; Matsushita, Kunihiro; Sang, Yingying; SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Kokkinos, Peter F.; Zhang, Jiajia; Mandsager, Kyle; Jaber, Wael; Oja, Pekka; Laukkanen, Raija; Pasanen, Matti; Tyry, Tuula; Vuori, Ilkka; Marín-Jiménez, Nuria; Sánchez-Parente, Sandra; Expósito-Carrillo, Pablo; Jiménez-Iglesias, José; Álvarez-Gallardo, Inmaculada C.; Cuenca-García, Magdalena; Castro-Piñero, José; Franklin, Barry A.; Lang, Justin J.; Prince, Stéphanie A.; Merucci, Katherine; Cadenas‐Sánchez, Cristina; Chaput, Jean‐Philippe; Fraser, Brooklyn J.; Manyanga, Taru; McGrath, Ryan; Ortega, Francisco B.; Singh, Ben; Tomkinson, Grant R.]
+sources: [Ross - Cardiorespiratory Fitness Clinical Vital Sign 2016, Kokkinos - FRIEND Cycle Ergometry Equation 2018, Oja - 2-km Walking Test Fitness 1991, Marin-Jimenez - 2-km Walk Test Validity Reliability 2023, Mandsager - Cardiorespiratory Fitness and Long-Term Mortality 2018, Poon - HIIT Cardiorespiratory Fitness Umbrella 2024, ODonoghue - Exercise Prescription Body Composition, Khalafi - Exercise Type CRF Postmenopausal, Wan - Exercise Snacks Cardiometabolic, Niven - Affective Responses HIIT, SCORE2-Diabetes 2023, Khan - PREVENT Equations 2024, Franklin - Exercise-Related Acute Cardiovascular Events AHA 2020, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 cluster: fitness
 confidence: medium
 relationships:
@@ -18,16 +18,18 @@ relationships:
   extends:
     - Cardiorespiratory Fitness and Mortality
 created: 2026-07-28
-updated: 2026-10-22
+updated: 2026-10-29
 self_critiqued: 2026-10-21
 ---
+<div class="recent-update" data-last-updated="2026-10-29">
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
 scientific statement (Ross 2016) [@ross2016] supplies the three things that make CRF actionable: you can **measure**
 it cheaply, you can **raise** it a known amount with a known exercise dose, and **raising it tracks
-lower risk**. Together they move CRF from marker toward modifiable target — though, as below, still
-short of RCT-proven causality on hard outcomes.
+lower risk**. Together they move CRF from passive marker toward a measure that can be trained and tracked — though, as below, still
+short of RCT-proven causality on hard outcomes, so it is held as a tracking milestone for the activity
+lever, not a target in its own right.
 
 **Evidence-tier note (`confidence: medium`, raised from `low` 2026-08-06).** The **raise-it** leg is now
 **gold-backed**: Poon 2024, an umbrella of 24 SRs+MAs (429 primary studies, 12 967 participants), confirms
@@ -46,6 +48,10 @@ Marín-Jiménez 2023 (n=410, Spain) adds out-of-sample agreement and test-retest
 it tests that equation rather than backing it independently, so it bounds the walk route's per-person
 error without changing the grade. [inferred from @marinjimenez2023walk]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Measure it — three tiers, and a cheap one that works
 
 - **CPX (cardiopulmonary exercise test)** — direct peak VO2, the gold-standard, most accurate and
@@ -60,6 +66,21 @@ error without changing the grade. [inferred from @marinjimenez2023walk]
   per-1-MET risk reduction «7.4% to 21%» (all-cause) and «8% to 16.9%» (CVD) — bracketing the measured-CRF
   meta-analytic 13%/15% ([[Cardiorespiratory Fitness and Mortality]], Kodama). Hard caveat: eCRF
   «should not be viewed as a replacement for objective assessment of CRF» in at-risk patients.
+  A pooled eCRF figure now sits beside the ones read, by elimination, as exercise-test based: Lang's umbrella carries Qiu 2021 at HR 0.83
+  (0.78-0.88) per MET for all-cause mortality (7 cohorts, n=154,015) and 0.83 (0.80-0.86) for CVD
+  mortality (6 cohorts), both graded LOW by Lang's prognostic GRADE, with the caption noting «Qui (2021)
+  reported estimates from self-reported CRF».
+  [@lang2024crf]
+  The caption says *self-reported* where Lang's tables label the exposure eCRF (estimated non-exercise
+  CRF). The all-cause figure (17% per MET) sits inside Ross's 7.4-21% bracket; the CVD figure (17%) is
+  just above the top of Ross's 8-16.9%. Against the three exercise-test-based MAs (0.87-0.89) it is not
+  clearly steeper (0.78-0.88 vs Laukkanen's 0.86-0.92), and an eCRF slope is not the same quantity:
+  eCRF models (Qiu's pool and the Jurca/Nes models alike) bundle inputs such as age, BMI, resting heart
+  rate and self-reported activity (the input list is the wiki's reading, above) that predict
+  mortality on their own. Both bodies therefore support eCRF as a *risk-ranking* tool, and neither shows
+  how much of measured CRF's slope the exercise test itself carries; neither says how well eCRF tracks an
+  individual's change with training, which is the job a measured test does.
+  [inferred from @lang2024crf]
 
 ### Estimating VO2max from a maximal cycle test — the FRIEND equation vs the ACSM equation
 
@@ -318,6 +339,8 @@ as active adults; over-65s remain untested in both papers. On Mandsager's treadm
 average offset of a walk estimate is not settled (low in Oja's groups, near zero in Marín-Jiménez's),
 and per person the 95% band is about ±3.6 METs, so a single walk can place someone in the wrong band.
 [inferred from @oja1991walk; @marinjimenez2023walk]
+
+</div>
 
 ## Raise it — the exercise dose → CRF response
 
@@ -595,6 +618,8 @@ strength findings land on [[Menopause and the Shifting Levers]] (resistance is t
 
 
 [@ross2016]
+<div class="recent-update" data-last-updated="2026-10-29">
+
 ## Does raising it help? — the modifiability evidence
 
 This is the partial answer to the nucleus's predictor-not-lever caveat. **Within-person CRF change** (a
@@ -617,13 +642,47 @@ observational; within-person change narrows the reverse-causation worry but does
 whose health is failing get less fit), and no leg is a randomized CRF contrast — HF-ACTION's CRF-change
 result is an adjusted within-trial association in heart-failure patients, on a composite that includes
 hospitalization. The statement's own framing is calibrated: CRF «is a variable that is responsive to
-therapy», and improvement «should be communicated to patients» — a modifiable *target*, not a proven
-*cause* of longer life. The **proven lever underneath is physical activity**
-([[Physical Activity Dose and Mortality]]); CRF is best read as the **trackable, measurable outcome** of
+therapy», and improvement «should be communicated to patients» — a responsive, trackable *measure*, not
+a proven *cause* of longer life. The **modifiable lever underneath is physical activity**
+([[Physical Activity Dose and Mortality]]; trials show it raises CRF, its mortality evidence is
+observational with a dose gradient); CRF is best read as the **trackable, measurable outcome** of
 adherence to that lever.
+
+**The 1-MET target claim, and what backs it (Lang 2024).** Lang's umbrella of cohort meta-analyses
+states in its Discussion, after reading its results as ones that «may signal a causal relationship
+between CRF and future health outcomes» and noting the per-MET dose-response: «This evidence further supports 1-MET as an MCID for CRF and
+could be considered as a target for interventions.» The lineage is the prognostic slope: Kodama's meta-analysis «helped to establish the
+meaningful clinically important difference (MCID) of 1-MET for exercise trials.» Lang adds that «For
+most, a 1-MET higher level of CRF is attainable through a regular aerobic exercise programme», and that
+«Improvements in CRF through regular physical activity results in a proportional reduction in mortality
+risk». The first sentence carries no citation of its own; Lang illustrates it with an observational
+study (ref 49) in which «nearly 30% were able to increase their CRF by 1-­MET (median follow-­up was
+6.3 years)» without intervention, so the example is not an aerobic programme. The second is cited
+to the same ref 49. Neither is tested in the overview.
+[@lang2024crf]
+Under the target rule on [[Surrogate Outcomes]], a target is legitimate only when its causal
+transmission to a patient-important outcome is itself evidenced. Lang's own evidence is single-baseline
+associations graded by a prognostic GRADE (-> [[Cardiorespiratory Fitness and Mortality]], *What the
+umbrella's certainty grade certifies*), and the change-tracks-benefit evidence is the within-person
+cohort data above. So 1 MET is a consistent *prognostic step* across overlapping MAs (Lang grades the per-MET
+all-cause association LOW; across outcomes its main downgrade was indirectness from mostly male
+samples and, for incident outcomes, inconsistency as well) and a sensible MCID for designing
+exercise trials, and its use as an *intervention target* rests on the partial upgrade above, not on
+anything new in Lang. The practical default does not change: do the aerobic activity (the modifiable
+lever), and use a 1-MET gain as a cheap tracking milestone, labelled as standard practice rather than a
+trial-tested mortality benefit. [inferred from @lang2024crf]
+
+**Gap (G).** Lang's ref 49 (Kokkinos 2023, *Changes in cardiorespiratory fitness and survival in
+patients with or without cardiovascular disease*, J Am Coll Cardiol) is a within-person change cohort
+of over 90,000 people, newer than the within-person cohorts above (via Ross 2016). It is the design that would firm or
+bound the partial upgrade, and it is not held.
+[@lang2024crf] (the reference and its size) (the design reading) — the within-person change estimate
 
 
 [@ross2016]
+
+</div>
+
 ## CRF sharpens a risk estimate — but only if it reclassifies
 
 Adding CRF to a traditional risk model (age, BMI, SBP, diabetes, cholesterol, smoking) improves

@@ -21,7 +21,7 @@ relationships:
     - Sleep Apnea Treatment and Cardiovascular Risk
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-10-07
+updated: 2026-10-28
 self_critiqued: 2026-10-06
 ---
 

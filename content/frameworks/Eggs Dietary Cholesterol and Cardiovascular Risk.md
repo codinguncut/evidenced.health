@@ -42,7 +42,10 @@ witness — a **type-F** refinement plus a **type-D** headline friction, not a c
 corroboration. Details, parameter table, and pool-overlap check in *Second gold MA — mortality endpoints*
 below.
 
-## The effect estimates — near-null, outcome-specific shape [@godos2020]
+## The effect estimates — near-null, outcome-specific shape
+
+Source: [@godos2020]
+
 
 Summary relative risks (SRR) vs no consumption, from the two-stage random-effects dose-response model
 (restricted cubic splines, 3 knots). Two «arbitrarily defined» reference doses are reported for
@@ -93,7 +96,10 @@ the contrary was reported to potentially act as effect modifier toward the oppos
   conservative move is to treat eggs as a non-priority-but-watch item rather than a free food. For the
   non-diabetic general population, the reverse — no reason to restrict.
 
-## Second gold MA — mortality endpoints (Ma 2022) [@ma2022egg]
+## Second gold MA — mortality endpoints (Ma 2022)
+
+Source: [@ma2022egg]
+
 
 Ma 2022 is a dose-response SR+MA of **24 observational cohort studies / 48 reports (\~11.9 M
 participants)** restricted to **mortality** outcomes (all-cause · CVD · IHD · stroke), modelled with

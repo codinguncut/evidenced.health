@@ -694,6 +694,8 @@ guidance body found a safe threshold, the numbers below 5% rest on the thinnest 
 that a calorie-for-calorie swap cannot erase is narrow — caries and urate — not a general property of
 the sugar molecule.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Caveats
 
 - **The loop is open.** This appraises the published evidence for coherence and fidelity to its sources;
@@ -715,6 +717,9 @@ the sugar molecule.
 > | **Evidence included** | 19 sources — 11 gold, 6 high, 1 moderate, 1 method |
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Sutton (cohort, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Added%20Sugar.md) |
+
+</div>
 
 ## References

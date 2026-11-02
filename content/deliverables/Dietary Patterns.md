@@ -1377,6 +1377,8 @@ optimizing. -> [[Baseline Risk and the Relative-Absolute Split]]
 
 Several questions the evidence cannot yet answer are worth naming.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What the evidence cannot answer yet
 
 **Between patterns.** No trial has compared two named patterns on deaths or events, and none is
@@ -1416,6 +1418,9 @@ better off. The loop between the advice and what happened is open.
 > | **Evidence included** | 45 sources — 24 gold, 18 high, 1 moderate, 2 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Dehghan (cohort, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | GRADE; Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+
+</div>
 
 ## References

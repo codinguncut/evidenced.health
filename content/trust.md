@@ -34,6 +34,8 @@ bar. We hold ourselves to the *same test a reader can apply* to anyone:
 rather than a systematic one, we are working to flag it as such rather than let it borrow unearned
 authority.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Who writes it, and what they gain
 
 
@@ -41,11 +43,15 @@ authority.
 - _Relevant background and its limits:_ n/a
 - _Funding:_ None
 - _Commercial relationships / advertising / affiliate links / product sales:_ None
-- _Conflicts of interest, dated:_ None, 2026-07-31
+- _Conflicts of interest, dated:_ None, 2026-11-02
 
 A single person currently selects the questions, chooses the evidence, interprets it, and writes the
 conclusions. That concentration is the honest central weakness of the project, and no amount of
 internal method removes it — see [What it deliberately does not do](#what-it-deliberately-does-not-do).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## How sources are chosen
 
@@ -53,8 +59,8 @@ We prefer the **top of the evidence hierarchy first**: systematic reviews, meta-
 reviews, and the major guideline and consensus statements built on them — before individual studies.
 Pooling many studies is harder to fool than any single striking result.
 
-Every source carries a **tier** — from *gold* (a systematic review, umbrella review, or guideline with
-a documented evidence base) down through *high*, *moderate*, *weak*, to *mechanism* (animal or
+Every source carries a **tier**, from *gold* (a systematic review with meta-analysis, an umbrella or
+Cochrane review, or a guideline or report that contains its own systematic evidence) down through *high*, *moderate*, *weak*, to *mechanism* (animal or
 test-tube). A weak source is not deleted — it is *labelled*, because in a thin field a clearly-labelled
 weak source beats silence — but it cannot quietly prop up a confident claim.
 
@@ -84,9 +90,42 @@ first. What we are actively doing:
 - **disclosing the residual** — where the trail is only partial, or a loose selection cannot be
   repaired, we mark it rather than paper over it.
 
-Going forward, each literature search that feeds a new source is **logged** at the time — the question,
-what was searched, and what was included or excluded — so the *how-sources-were-found* trail is
-complete from here on, and partially reconstructed behind us.
+Since August 2026, selection has had more structure. A source below the top tiers is held back at
+intake unless there is a stated reason to want it. New acquisitions follow a ranked list of the gaps the
+guide cannot yet answer, rather than whatever turned up. And a deliberate search looks for newer reviews
+that *disagree* with a conclusion already held, because a search that only finds agreement cannot test
+anything. None of this makes the process a systematic review.
+
+Each literature search that feeds a new source is **logged** at the time: the question, what was
+searched, and what was included or excluded, with reasons. That is policy; web searches are logged by
+hand, so a gap is possible. Behind August 2026 the trail is partially reconstructed. The records
+themselves (search log, rejected sources, ingest reasons) are published raw under
+[Research history](research/).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
+
+## How the guide checks its own bias
+
+A claim to be unbiased cannot be tested. What can be tested is the machinery, so here is what runs:
+
+- **Expectations are written down before reading.** Before a source is read, the model records what it
+  expects the source to say. A separate blind pass scores those predictions against the source afterwards.
+  If the guide only ever finds what it expected, that is a warning about how sources are chosen, and this is
+  the one record that can show it.
+- **The writer is not the checker.** The model instance that writes up a source is never the one that
+  audits it; the auditor sees only the claims and the cited source.
+- **Regular check-ups.** About every four sources, an audit asks whether the recent work added anything a
+  search engine over the same papers would not, and scores the predictions. Every few check-ups, a separate
+  pass is meant to attack the method itself rather than the claims (it once lapsed for six check-ups).
+
+All of this checks the guide against its sources and its own past mistakes. None of it checks the advice
+against what happened to anyone who followed it (see [the first section](#the-one-thing-to-know-first)).
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## How to read a claim
 
@@ -96,8 +135,8 @@ The guide is built to let you descend from a fast read to the full evidence trai
   labelled as such. You can tell what came from a study from what we inferred.
 - **Four states, kept apart:** *benefit*, *harm*, *no meaningful effect*, and *not enough evidence to
   say*. The last two are not the same, and we never blur them.
-- **Words are calibrated** (see the table below) — *established* / *probably* / *may* /
-  *insufficient evidence* map to strength of evidence, not to how confident the writing sounds.
+- **Words aim to be calibrated** (see the table below): *established* / *probably* / *may* /
+  *insufficient evidence* are meant to track strength of evidence, not how confident the writing sounds.
 - **Certainty is not the same as a recommendation.** How sure we are about an effect is a different
   question from how strongly anyone should act on it — see the machinery in the
   [[Evidence Appraisal Hub]].
@@ -106,10 +145,15 @@ The guide is built to let you descend from a fast read to the full evidence trai
   public edit history — the "why should I believe this?" layer, with links down into the method behind
   each field.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## The words we use, and what each means
 
-To keep confidence out of the writing style and in an explicit scale, these phrases carry fixed
-meanings across the guide. They track the four evidence states — *benefit*, *harm*, *no meaningful
+To keep confidence out of the writing style and in an explicit scale, these phrases are meant to carry
+fixed meanings when they describe evidence. That is a writing rule, not a mechanical check, and the same
+words also appear in their everyday sense (*established heart disease*), so read them in context. They track the four evidence states — *benefit*, *harm*, *no meaningful
 effect*, *insufficient* — and the certainty machinery behind them ([[Rating Certainty of Evidence]],
 [[The Insufficient-Evidence Statement]]).
 
@@ -125,6 +169,10 @@ effect*, *insufficient* — and the certainty machinery behind them ([[Rating Ce
 The last two are kept firmly apart: *no meaningful effect* means we looked and found nothing worth
 acting on; *not adequately studied* means the question has not yet been asked well enough to answer.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## How to challenge it
 
 Trust is not inferred from the *absence* of corrections. It is inferred from whether criticism can be
@@ -135,15 +183,22 @@ submitted, evaluated, and traced to a visible change.
 - **The full edit history is public.** Every change to every page lives in that
   [repository](https://github.com/codinguncut/evidenced.health); each topic page also links its own
   commit history, so any revision can be inspected line by line.
-- Substantive challenges are adjudicated against the sources, not by who makes them, and the record of
-  that adjudication is kept.
+- Substantive challenges are adjudicated against the sources, not by who makes them. The record of each
+  adjudication is kept in the internal workshop files, which are not published; the resulting page changes
+  are, in the public history. One example: in November 2026 a challenge showed that an expert consensus's
+  1.0-1.2 g of protein per kg a day for adults over 65 had been read on several pages as a range to stay
+  inside. The consensus says *at least* 1.0 to 1.2. The pages were corrected.
 - As new evidence arrives, older conclusions are re-checked; the public history tracks
   conclusion-changing revisions, not just typos.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What it deliberately does not do
 
-- **It is not independently reviewed.** One person makes the calls. Where that matters most, a page
-  says *"Not independently reviewed."* We would rather state this than imply a peer-review that did not
+- **It is not independently reviewed.** One person makes the calls. Every topic page's evidence box
+  says *"Independently reviewed: No."* We would rather state this than imply a peer-review that did not
   happen.
 - **It is not exhaustive.** Targeted searches miss things. Absence of a study here is not evidence a
   study does not exist.
@@ -156,3 +211,5 @@ submitted, evaluated, and traced to a visible change.
 The aim is not to convince you the guide is trustworthy. It is to make how it is produced transparent
 enough that you can judge, for yourself, whether trust is warranted — and to keep the layers open so a
 doubter can always dig one level deeper.
+
+</div>

@@ -1769,6 +1769,8 @@ Reach each level and hold it. No study among this guide's sources shows that goi
 needs the person's full medication list and history, which makes it a prescriber's decision. The
 evidence behind this guide does not cover it. Below is a short, ordered list of things to do.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What to do, in order
 
 **If you smoke, stop; if you drink heavily, cut down** -> [[Smoking and Mortality]],
@@ -1829,6 +1831,9 @@ stop medicines already being taken, which is a prescriber's decision
 > | **Evidence included** | 119 sources — 72 gold, 41 high, 5 moderate, 1 method |
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold/high evidence bar feed this page: Song (meta-analysis, moderate); Kreider (consensus, moderate); Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Montani (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | GRADE. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+
+</div>
 
 ## References

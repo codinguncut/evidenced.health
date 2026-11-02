@@ -37,7 +37,10 @@ The exposure is specifically **cold shower, ice bath, or plunge at water tempera
 cold-water swimming (which confounds CWI with exercise). The athletic-recovery use the term is usually
 attached to is a different exposure context, kept in its own section below.
 
-## The fad gap — popularity vastly exceeds the evidence [@cain2025cwi]
+## The fad gap — popularity vastly exceeds the evidence
+
+Source: [@cain2025cwi]
+
 
 The source frames its own rationale as a popularity-evidence disconnect: «CWI has gained widespread
 popularity among the general public, despite most evidence focusing solely on its effects among
@@ -47,7 +50,10 @@ against «largely unsupported claims in mainstream media about its benefits for 
 mental wellbeing.» This is the *attention-is-an-anti-signal* pattern named explicitly by the authors:
 volume of discourse is running inversely to strength of evidence.
 
-## The evidence base — 11 RCTs, mostly single-session, mostly male, mostly surrogate [@cain2025cwi]
+## The evidence base — 11 RCTs, mostly single-session, mostly male, mostly surrogate
+
+Source: [@cain2025cwi]
+
 
 Eleven RCTs, 3177 participants, mean PEDro 6.4 (7 moderate-, 4 high-quality). Baths in 10 studies,
 showers in 1; water 7-15C; immersion 30s to 2h. Random-effects SMDs computed **between pre- and

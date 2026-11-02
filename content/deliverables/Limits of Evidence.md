@@ -442,6 +442,8 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Caveats and boundaries
 
 - **This cut carries no exposure estimates.** Every exposure above is an illustration that links out to
@@ -471,6 +473,9 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | **Evidence included** | 22 sources — 6 gold, 3 high, 1 moderate, 12 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Dehghan (cohort, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | Willett; Cochrane; USPSTF; GRADE; Ioannidis; Heuer; Anderson; Fallis; Wikipedia; Cooper; Cartwright & Hardie; Schön. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+
+</div>
 
 ## References

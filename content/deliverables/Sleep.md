@@ -348,6 +348,8 @@ death -- that expectation is not supported for either the mask or the drug. Trea
 symptoms and the daytime toll, which it genuinely does. And treat the cardiovascular risk directly,
 through the levers that carry the outcome evidence: blood pressure, lipids, and weight.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Rank sleep honestly, and act on the arms that hold
 
 Where does sleep rank among the levers? Below the biggest rocks. A person who smokes, carries excess
@@ -388,7 +390,9 @@ urgent, and your attention is better spent on the bigger rocks.
 > | **Question** | 'What is the effect of sleep (duration, quality/architecture, continuity, regularity, timing/chronotype) on each patient-important outcome, what is the dose-response shape (is the duration-mortality curve U-shaped, and is the upper arm real or an artifact?), what do sleep aids do to those outcomes, and how does sleep rank as a lever?' |
 > | **Evidence included** | 16 sources — 11 gold, 4 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Kripke (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kripke (cohort, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sleep.md) |
+
+</div>
 
 ## References

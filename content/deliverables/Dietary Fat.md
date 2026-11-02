@@ -330,6 +330,8 @@ the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plan
 genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
 **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Act on the substitution a low-risk eater can sustain
 
 A **substitution** survives every one of these uncertainties, not a target. Shift the
@@ -359,6 +361,9 @@ evidence does not offer.
 > | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
+> | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+
+</div>
 
 ## References

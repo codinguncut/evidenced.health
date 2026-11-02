@@ -1378,6 +1378,8 @@ and salt iodization are compatible.» [@who2012]
 For a low-risk stage-1 hypertensive, a drug and these levers both buy little in absolute terms;
 [[Blood Pressure Lowering and Cardiovascular Events]] makes the comparison.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Gaps: what the evidence cannot yet tell you
 
 The evidence this guide draws on leaves a few holes under the actions above. Two of them shape the whole
@@ -1443,7 +1445,10 @@ switching.
 > | **Question** | 'For an adult deciding what to do about dietary sodium and the coupled potassium: effect of sodium reduction, of raising potassium, and of the Na/K ratio on each patient-important outcome (BP surrogate; CV events + mortality endpoints); dose-response shape across the studied range; variation by stratum (baseline BP, salt-sensitivity).' |
 > | **Evidence included** | 22 sources — 13 gold, 8 high, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
+> | **Source-selection note** | All topic sources are gold or high tier. |
+> | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+
+</div>
 
 ## References

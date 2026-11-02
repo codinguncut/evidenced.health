@@ -37,7 +37,10 @@ The exposure is specifically the **three pillars** [@almahayni2024]:
 - **Commitment** — meditation/visualisation, framed as the "foundation" of the other two; never
   tested in isolation, so it contributes no evidence of its own.
 
-## The evidence base — 8 trials, tiny, male, all high risk of bias, no meta-analysis [@almahayni2024]
+## The evidence base — 8 trials, tiny, male, all high risk of bias, no meta-analysis
+
+Source: [@almahayni2024]
+
 
 Nine papers = **eight individual trials** (two papers are re-analyses of the single Kox 2014
 endotoxemia study). Designs: 5 RCT, 3 crossover RCT, 1 prospective cohort. **Sample sizes n=13-48 per
@@ -105,7 +108,10 @@ evidence base is short-term surrogates in tiny samples.
 
 </div>
 
-## Component decomposition — the breathing pillar drives the signal; cold alone is null [@almahayni2024]
+## Component decomposition — the breathing pillar drives the signal; cold alone is null
+
+Source: [@almahayni2024]
+
 
 Unlike a whole-protocol black box, this SR partially dismantles WHM. In Zwaag 2022,
 **cold-exposure-alone (CEX) was null on every cytokine** (TNF p=0.93, IL-6 p=0.73, IL-8 p=0.99, IL-10
@@ -139,7 +145,10 @@ Sauna alone reaches a hard endpoint (in one cohort, not independently replicated
 WHM reaches only high-RoB surrogates with no pooled estimate. All three stay `confidence: low`, but
 for different reasons — and WHM is the one where even the surrogate evidence cannot be pooled.
 
-## Harm — minimal in the studied (dry, supervised) protocols; a known out-of-scope hazard [@almahayni2024]
+## Harm — minimal in the studied (dry, supervised) protocols; a known out-of-scope hazard
+
+Source: [@almahayni2024]
+
 
 Within the trials: no significant between-group difference in adverse events (Buijze; one serious
 event 8 weeks post-intervention judged "unrelated"); Citherlet reported **33% of WHBM participants

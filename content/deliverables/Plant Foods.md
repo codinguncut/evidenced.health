@@ -499,6 +499,8 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What to do
 
 **Pull two levers.** Get fibre up toward \~30 g/day — by any route, a high-fibre
@@ -528,6 +530,9 @@ event benefit.
 > | **Evidence included** | 26 sources — 21 gold, 3 high, 1 moderate, 1 method |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+
+</div>
 
 ## References

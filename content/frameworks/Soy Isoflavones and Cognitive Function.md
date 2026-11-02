@@ -24,7 +24,10 @@ improvement on pooled neuropsychological test scores (SMD 0.19), driven almost e
 claim that **soy/tofu harms** cognition does **not** survive confounding scrutiny. Net: a low-rank
 candidate lever, not a big rock.
 
-## The RCT evidence — small benefit, memory-carried [@cui2020isoflavone]
+## The RCT evidence — small benefit, memory-carried
+
+Source: [@cui2020isoflavone]
+
 
 Cui 2020 pooled **16 RCTs** of ISF supplementation (doses \~80–160 mg/d; genistein/daidzein mixes, soy
 protein, soy milk, or extract; durations 6 weeks–2 y) in adults, mostly postmenopausal women with a
@@ -48,7 +51,10 @@ too short to show a difference»
 a slow-latency benefit *or* over-read a practice/placebo effect on repeated testing; the direction is
 not fixed.
 
-## The tofu-harm question — answered, and it does not hold [@cui2020isoflavone]
+## The tofu-harm question — answered, and it does not hold
+
+Source: [@cui2020isoflavone]
+
 
 A standing worry (traceable to the Honolulu-Asia Aging Study's midlife-tofu arm plus two Asian
 cross-sectional studies) held that soy **harms** cognition. Cui rebuts each on confounding: HAAS's
@@ -91,7 +97,10 @@ endpoint, Peng has no supplement arm. Cui himself calls for «more observational
 dementia». Held as a named gap. — an RCT with an incident-cognitive-outcome endpoint,
 or a cohort of supplement users, would close it.
 
-## Effect modification — equol producers (route b, unestablished) [@cui2020isoflavone]
+## Effect modification — equol producers (route b, unestablished)
+
+Source: [@cui2020isoflavone]
+
 
 **Equol** (a gut-microbial daidzein metabolite; higher ERβ affinity, produced by only \~20–30% of
 westerners vs 40–70% of Asians) is a plausible effect-modifier: two western RCTs' **post-hoc**
@@ -100,7 +109,10 @@ due to the small percentages of equol-producers in these trials (ie, <25%)»
 [@cui2020isoflavone]. A genuine **route-(b)**
 effect-modification candidate, underpowered and not established — do not personalize on it yet.
 
-## Mechanism (directional) [@cui2020isoflavone]
+## Mechanism (directional)
+
+Source: [@cui2020isoflavone]
+
 
 ISFs selectively bind **estrogen-receptor-beta (ERβ)**, densely expressed in hippocampus and
 prefrontal cortex — «the effect of ISFs was pronounced in the domain of memory. Memory is highly

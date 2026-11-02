@@ -73,7 +73,10 @@ the wiki's own appraisal, applied to the sources' reported estimates.
 
 ## The dose-response — an observational gradient in one cohort
 
-### 2015 analysis — men 42-60, four outcomes [@laukkanen2015sauna]
+### 2015 analysis — men 42-60, four outcomes
+
+Source: [@laukkanen2015sauna]
+
 
 Frequency groups (self-reported sessions/week): 1/wk (n=601), 2-3/wk (n=1513), 4-7/wk (n=201).
 Events over follow-up: 190 sudden cardiac deaths (SCD), 281 fatal coronary heart disease (CHD),
@@ -98,7 +101,10 @@ multivariable all-cause >19 min cell is printed as 0.83 (0.87-1.20), a point est
 interval, so that cell cannot be read.
 The 11-19 min band is null for SCD (0.93, 0.67-1.28); only the top duration band separates.
 
-### 2018 analysis — men and women 53-74, fatal CVD only [@laukkanen2018sauna]
+### 2018 analysis — men and women 53-74, fatal CVD only
+
+Source: [@laukkanen2018sauna]
+
 
 Same three frequency categories, once/week referent. Model 1 = age + sex; Model 3 = + BMI, smoking,
 SBP, LDL-C, alcohol, previous MI, type 2 diabetes, physical activity and socioeconomic status (the
@@ -357,7 +363,10 @@ mechanism. It gives the association directional plausibility, discounted; it doe
 [[Blood Pressure Lowering and Cardiovascular Events]] for the BP channel and
 [[Physical Activity Dose and Mortality]] for the exercise comparator the authors lean on.
 
-## Sauna frequency as a risk-prediction marker — surrogate metrics [@laukkanen2018sauna]
+## Sauna frequency as a risk-prediction marker — surrogate metrics
+
+Source: [@laukkanen2018sauna]
+
 
 Adding sauna frequency to a model of age, sex, SBP, diabetes, total cholesterol, HDL-C and smoking moved
 the C-index from 0.7716 to 0.7807 (**+0.0091, 0.0022-0.0160**, P = 0.010); categorical NRI over 10-year

@@ -1874,6 +1874,8 @@ added up. Still, **a drug that lowers blood pressure or glucose lowers activity'
 one outcome**. No drug can replace activity on all these outcomes at once, so for the inactive,
 activity stays high in this ranking ([[Layer 1 - Ranking Interventions for a Stratum]]).
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Start moving, add strength, sit less, then know when to stop
 
 **If you are inactive, start with walking and build up; every extra bit of movement counts.** The
@@ -1957,6 +1959,9 @@ against what later happened to the person who made it.
 > | **Evidence included** | 99 sources — 69 gold, 26 high, 3 moderate, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Marin-Jimenez (method, moderate). Their roles and limitations are described in the text. |
+> | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

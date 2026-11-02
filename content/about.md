@@ -17,6 +17,8 @@ maintained** — because a big part of trusting it is understanding how the page
 narrower question of *how far* to trust it — where judgment enters, and what it deliberately does not do —
 see [Can you trust this guide?](trust)
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Part 1 — What it is, and how it judges
 
 ### What makes it different
@@ -48,9 +50,14 @@ avoiding deficiency.
   stress and how it's managed — and the trade-offs inside an exercise programme (load, recovery, injury).
   These earn a page when the evidence bears on a real outcome, not because they're in fashion; most turn out
   to be small-effect and stay short.
-- **Drugs, where they're the realistic alternative.** A medication — a GLP-1 agonist, say — is often the
-  honest comparison to a lifestyle change, and leaving it out would make the comparison unfair. We appraise
-  what it does; we don't tell you to take it.
+- **Drugs, in two roles.** A medication (a GLP-1 agonist, say) is often the honest comparison to a
+  lifestyle change, and leaving it out would make the comparison unfair. The widely prescribed standard
+  drugs (statins, blood-pressure drugs, metformin, GLP-1 agonists, aspirin) are also appraised in their own
+  right: what they do, and where they fall short. We appraise; we don't tell you to take anything.
+- **Who it is for.** Mainly a reasonably healthy adult who wants to get healthier. It also covers the
+  common conditions that lifestyle can prevent or reverse (obesity, fatty liver, insulin resistance, type 2
+  diabetes, high blood pressure), as prevention and remission questions. Treating a diagnosed disease is a
+  clinician's job and stays out.
 - **What's left out:** claims that can't be tested, or that have been measured and come up empty in humans.
   A practice earns a place only through a specific, checkable claim about a human outcome — never as an
   identity, a tradition, or a philosophy on its own.
@@ -85,6 +92,10 @@ Not all evidence is equal, and we try not to pretend otherwise.
 - **The loop is open.** This grades whether the reasoning is internally sound and faithful to its sources —
   **not** whether following it made anyone better off. A clean, well-sourced page can still be wrong about
   the world. Nothing here has been tested against real outcomes, and we don't pretend otherwise.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Part 2 — How it is built and maintained
 
@@ -124,9 +135,9 @@ Andrej Karpathy: instead of a person composing articles, a large language model 
 literature and maintains an interlinked knowledge graph, under a human curator's direction. The two roles
 are kept distinct:
 
-- **The human curates.** A single maintainer chooses what to read, poses the decision-questions, reviews
-  the output, challenges it, and approves every change. The selection of questions and sources — and the
-  final judgment — are human.
+- **The human curates.** A single maintainer sets the questions and the reading queue, approves each
+  batch of work, challenges the output, and rules on disputes; routine edits are committed without
+  line-by-line sign-off. The selection of questions and sources, and the final judgment, are human.
 - **The model does the reading and the bookkeeping.** It extracts what bears on a decision, integrates it
   with what is already held, writes the cross-links, and runs the consistency checks — the labour that would
   make a hand-maintained graph of this size impossible for one person.
@@ -156,12 +167,16 @@ guide's own reasoning** — and that this is mechanically enforced, not merely i
   is labelled as inference. You can always tell which is which.
 - **Quotations are pulled from the source by tool, never retyped.** A quote is lifted directly from the
   source text so it cannot drift, get truncated before a qualifier, or be misattributed from memory.
-- **A blind re-read checks every new claim.** After a page is written, a separate pass re-reads each
-  attributed claim against *only* its cited source, with no other context, to catch anything the source
-  does not actually say. Overstatements are demoted on the spot.
-- **Pages are checked against each other.** Automated checks flag internal contradictions, claims that
-  overstate their evidence, orphaned assertions with no source, and a claim retracted on one page but left
-  standing on another.
+- **The writer is not the checker.** Each source is read and written up by one model instance; a
+  different one, which never saw that work, re-reads each attributed claim against *only* its cited source.
+  A second blind pass reads the whole page for overstatement, and for the opposite fault: a cheap, useful
+  step left without a plain recommendation or a dose. Every correction is checked again, until a blind round
+  finds nothing material.
+- **Mechanical checks catch the cheap errors.** They flag quotes that cannot be found in their source,
+  numbers on a topic page that appear in none of its cited sources, effect sizes with no source, a confident
+  claim with no strong source behind it, and a claim retracted on one page but still standing on another.
+  Contradictions between pages are looked for by the model and the maintainer when material is woven in and
+  at regular check-ups; no tool detects them automatically.
 
 None of this grades whether a claim is *true* — only whether it is faithful to its source and consistent
 with the rest. That distinction is the single most important thing on the [trust page](trust).
@@ -180,8 +195,8 @@ When good sources genuinely conflict, we do **not** quietly pick a winner:
 
 ### How source quality is weighed
 
-Every source carries a **tier** — from *gold* (a systematic review, umbrella review, or guideline with a
-documented evidence base) down through *high*, *moderate*, *weak*, to *mechanism* (animal or test-tube). A
+Every source carries a **tier**, from *gold* (a systematic review with meta-analysis, an umbrella or
+Cochrane review, or a guideline or report that contains its own systematic evidence) down through *high*, *moderate*, *weak*, to *mechanism* (animal or test-tube). A
 weak source is **labelled, not deleted** — in a thin field a clearly-marked weak source beats silence — but
 it cannot quietly prop up a confident claim. How the tiers are assigned, and an honest account of how
 sources were selected (including where selection was *not* systematic), are on the
@@ -193,3 +208,5 @@ For where judgment enters, who maintains it, the calibrated language, and how to
 [Can you trust this guide?](trust)
 
 [← Back to the guides](.)
+
+</div>

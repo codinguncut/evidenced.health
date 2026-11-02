@@ -217,6 +217,8 @@ rather than purely about their own health -> [[Should Adults Reduce Red and Proc
 question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Caveats
 
 - **Open loop.** This grades internal coherence and fidelity to its sources, never validity against the
@@ -241,7 +243,9 @@ the second is yours, weighed against your budget and priorities.
 > | **Question** | 'What does the evidence show about the "organic" label''s effect on health — pesticide/toxin residues, nutrient content, and hard outcomes — in which direction, how large, how certain, and large enough to change what someone buys? And where the label tracks something, is it the certification doing the work or an underlying exposure (feed, husbandry, soil, freshness) the label only partly captures?' |
 > | **Evidence included** | 5 sources — 4 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 5 source(s) below the gold evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 5 source(s) below the gold/high evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
+
+</div>
 
 ## References

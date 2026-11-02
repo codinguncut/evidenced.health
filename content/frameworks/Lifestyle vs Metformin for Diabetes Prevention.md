@@ -26,7 +26,10 @@ followed incident type-2 diabetes. It is a clean instance of the telos's *drug-a
 alternative* comparison — a behaviour change and a drug tested on the *same* patient-important outcome, in
 the *same* trial. The headline: **an intensive lifestyle program out-prevented the drug.**
 
-## What DPP tested [@knowler2002]
+## What DPP tested
+
+Source: [@knowler2002]
+
 
 A 3-arm RCT, «3234 nondiabetic persons with elevated fasting and post-load plasma glucose concentrations»
 (prediabetes — impaired fasting glucose + impaired glucose tolerance), randomized to:

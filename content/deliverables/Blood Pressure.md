@@ -1405,6 +1405,8 @@ stroke avoided against a dementia risk, a side effect, a daily pill or a change 
 judgement** ([[Rating Outcome Importance]]). No figure here supplies it. Several of these answers stop where the evidence stops; the last
 section names where.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## The trials leave questions open, and that limits how firm this guide can be
 
 For each gap below, the trials this guide draws on did not measure the thing, so nothing here says which way it would come out. **A gap is not a finding of
@@ -1498,6 +1500,9 @@ cognitive trajectories beside events would close it.
 > | **Evidence included** | 58 sources — 36 gold, 20 high, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Sutton (RCT, weak). Their roles and limitations are described in the text. |
+> | **Method sources** | GRADE. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+
+</div>
 
 ## References

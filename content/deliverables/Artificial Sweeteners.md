@@ -311,6 +311,8 @@ The assembled sources collectively cannot fill these holes -> [[Non-Sugar Sweete
 - **Appetite, cravings, and the microbiome-to-disease leap all sit at insufficient evidence** — real
   mechanisms, not yet findings.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Where this sits versus the official bodies (guidance-null)
 
 This appraisal **agrees with WHO** — a conditional suggestion against using sweeteners as a health
@@ -342,7 +344,9 @@ split, and the trial-versus-cohort tension all in view at once, and refusing to 
 > | **Question** | 'What does the evidence show about non-sugar / artificial sweeteners'' effect on each patient-important outcome (cancer, appetite/cravings, insulin/glucose, body weight) — in which direction, how large, how certain — always against a stated comparator (vs sugar; vs water/nothing)? How does the effect vary by comparator and across sweetener members (aspartame, sucralose, saccharin, acesulfame-K, stevia)?' |
 > | **Evidence included** | 6 sources — 2 gold, 1 high, 1 moderate, 2 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Suez (RCT, moderate); Debras (cohort, weak); Aspartame Safety Review Nutrients 2023 (narrative review, weak). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Artificial%20Sweeteners.md) |
+
+</div>
 
 ## References

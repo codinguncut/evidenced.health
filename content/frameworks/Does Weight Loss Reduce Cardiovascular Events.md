@@ -113,7 +113,10 @@ itself, prevents events in a low-risk person.
 
 
 
-## Ma 2017 — the meta-analysis generalizes the test [@ma2017]: CV-null holds, all-cause mortality falls (non-CV)
+## Ma 2017 — the meta-analysis generalizes the test: CV-null holds, all-cause mortality falls (non-CV)
+
+Source: [@ma2017]
+
 
 Look AHEAD is one (large, important) trial in one population. **The higher-tier evidence on the mortality
 question is the meta-analysis** — Ma et al. 2017 (BMJ) pools **54 RCTs, 30,206 obese adults** (mixed
@@ -158,7 +161,10 @@ benefit could travel the SFA-reduction -> LDL/apoB channel ([[LDL ApoB and Cumul
 than weight loss per se — the trials cannot separate the two.
 
 
-## SOS — the extreme-dose anchor: extreme surgical loss cuts ALL-CAUSE mortality (non-RCT grade) [@sjostrom2007]
+## SOS — the extreme-dose anchor: extreme surgical loss cuts ALL-CAUSE mortality (non-RCT grade)
+
+Source: [@sjostrom2007]
+
 
 The lifestyle trials above delivered a *modest* sustained loss. **SOS is the opposite end of the
 dose-response** — bariatric surgery in severe obesity, \~14-25% loss sustained at 10 years — and it

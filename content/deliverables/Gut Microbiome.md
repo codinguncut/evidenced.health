@@ -334,6 +334,8 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Caveats
 
 - **Open loop.** This appraisal grades the coherence and source-fidelity of the evidence, never
@@ -354,7 +356,9 @@ diversity, the boring recommendation that is already made on its own evidence.
 > | **Question** | 'Which modifiable exposures (diet/fibre, prebiotics, probiotics by strain, fermented foods, antibiotics, FMT) change the gut microbiome in a way that reaches a patient-important outcome, how good is that evidence versus a composition-shift surrogate or a mechanism-only claim, and where do microbiome claims sit across the four evidence states (benefit / harm / no meaningful effect / insufficient), including which are not testable as stated?' |
 > | **Evidence included** | 9 sources — 3 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
+
+</div>
 
 ## References

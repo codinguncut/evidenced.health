@@ -256,6 +256,8 @@ individual decision at 40–59 with a 10-year risk of 10% or more (a small net b
 *against* initiating it at 60 or older — because the absolute bleeding harm climbs steeply with age even
 though the relative effect does not [@uspstf2022aspirin].
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What to carry away
 
 The one habit worth keeping: never act on a relative effect alone. Convert it to an absolute number at
@@ -289,7 +291,10 @@ lifetime, and none has randomized statins by calcium score.
 > | **Question** | 'When an intervention has a known relative effect, what does the evidence say about how much it actually helps a given person — how does absolute benefit track baseline risk when the relative effect is roughly constant, when does stratifying by baseline risk change the decision, and how should a person read a relative risk reduction against their own starting risk?' |
 > | **Evidence included** | 13 sources — 6 gold, 6 high, 1 method |
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
+> | **Source-selection note** | All topic sources are gold or high tier. |
+> | **Method sources** | GRADE. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Baseline%20Risk%20and%20Absolute%20Benefit.md) |
+
+</div>
 
 ## References

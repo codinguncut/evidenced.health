@@ -358,6 +358,8 @@ Move from the individual drinker to the population and a second kind of evidence
 
 **Name the axis, and stop.** GBD states the clash with published advice directly: «Our results show that the safest level of drinking is none. This level is in conflict with most health guidelines, which espouse health benefits associated with consuming up to two drinks per day» [@gbd2018alcohol]. Neither side is in error; they stand in different places. A guideline body is optimizing an average outcome across a whole population, under communicability and safety-at-scale constraints, while an individual reads the same evidence against their own baseline risk and preferences. This pressure runs toward guidance permitting more than a population-minimizing rule would; the appraisal names that it exists and which direction it runs, and stops short of pricing it.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Confidence, and where this could be wrong
 
 How confident should any of this make someone? **Moderate — GRADE-certainty MEDIUM, not high.**
@@ -421,7 +423,9 @@ Four things could still change the read here:
 > | **Question** | 'What is the effect of alcohol on each patient-important outcome (all-cause and CV mortality, cardiovascular disease, cancer, liver, cognition/brain, injury) -- in which direction, how large, for whom, how certain -- and what is the dose-response shape (monotonic, U/J-shaped, or threshold, and does the shape differ by outcome)? Does drinking pattern, beverage type, or matrix modify the effect, or is total ethanol the dominant axis?' |
 > | **Evidence included** | 12 sources — 6 gold, 5 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold evidence bar feed this page: Semba (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Semba (cohort, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Alcohol.md) |
+
+</div>
 
 ## References

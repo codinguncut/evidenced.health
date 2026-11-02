@@ -299,6 +299,8 @@ something you don't — do not mistake caution for a verdict.
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Where this nets out
 
 If you are waiting for the meta-analysis before you change anything, ask first whether you are
@@ -320,9 +322,12 @@ says so.
 > | | |
 > |---|---|
 > | **Question** | 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to act on ahead of (or without) a settled meta-analysis, and how should the threshold to act scale with reversibility, cost, and the size of the lever — versus when the disciplined move is to wait?' |
-> | **Evidence included** | 8 sources — 4 gold |
+> | **Evidence included** | 8 sources — 4 gold, 3 method, 1 context |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | All sources are gold or high tier. |
+> | **Source-selection note** | All topic sources are gold or high tier. |
+> | **Method sources** | GRADE; Cochrane; USPSTF; Amrhein. These set how evidence is appraised; they are not evidence about the topic itself. |
 > | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+
+</div>
 
 ## References

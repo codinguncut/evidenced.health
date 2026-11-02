@@ -148,7 +148,10 @@ Flagged by the SR but outside its inclusion criteria: «a registry-based cohort 
 pointer to a **patient-important** endpoint (health events, not craving), but it is unappraised here. — a held appraisal of this cohort would move
 the alcohol arm from surrogate/consumption toward a hard outcome.
 
-## The human mood arm — a harm-leaning depression signal [@glp1depression2026]
+## The human mood arm — a harm-leaning depression signal
+
+Source: [@glp1depression2026]
+
 
 Bi 2026 is a systematic review and meta-analysis (six databases, RCTs + observational, adults with
 overweight/obesity, mostly T2D) of GLP-1 RA depression risk — the first pooled *human* mood outcome on
@@ -199,7 +202,10 @@ Bi and Volker measure different outcomes, and Bi's trial base overlaps the wiki'
 (STEP, LEADER, SCALE), so any GLP-1-corpus agreement is shared-trial-base, not independent backing.
 [inferred from @volker2026glp1sud; @glp1depression2026]
 
-## The severe endpoint — suicidality shows no population signal, but watch the psychiatric-comorbid stratum [@glp1suicidality2025]
+## The severe endpoint — suicidality shows no population signal, but watch the psychiatric-comorbid stratum
+
+Source: [@glp1suicidality2025]
+
 
 Bushi 2025 is the dedicated SR+MA of the one outcome that turned this from an academic mood question
 into a **regulatory event**: suicidal ideation and behaviour. GLP-1RA neuropsychiatric worry

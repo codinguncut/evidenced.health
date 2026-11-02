@@ -474,6 +474,8 @@ So where does the whole decomposition leave
 a person deciding what to eat, measured
 against the big rocks?
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## What to do — act on the components, against the big rocks
 
 **Stop shopping for the NOVA label and buy the properties instead.** The evidence licenses a short,
@@ -517,7 +519,9 @@ outcome they care about.
 > | **Question** | 'What does the evidence show about processed and ultra-processed food''s effect on each patient-important outcome — in which direction, how large, for whom, how certain — once "processed" is decomposed into the distinct aspects (matrix disruption, additives, refining/substrate change, energy density, hyper-palatability as an engineered reward property distinct from ultra-processing, processing contaminants) and the distinct categories that differ in evidence? How does the effect vary by aspect and by category, and how large is any effect that survives the observational caveats relative to the big rocks?' |
 > | **Evidence included** | 27 sources — 14 gold, 10 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Each labelled by tier; none load-bearing for the core claims. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Fazzino (cohort, moderate); Sutton (cohort, moderate); Schulte (cohort, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-10-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Processed%20Food.md) |
+
+</div>
 
 ## References

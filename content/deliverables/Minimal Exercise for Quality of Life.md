@@ -279,6 +279,8 @@ Repeat any test the same way and read the trend over months; a trend is likely m
 
 **Expect little weight loss from exercise alone.** In trials in adults with obesity, exercise without diet change lowered weight by 0.05 to 1.01 kg on average against no exercise, depending on exercise type (only types with an aerobic part were significant; the strength-only types were not) [@odonoghue2020]. People offset very different shares of the energy burned from one study to the next (mean 18%, SD 93%) [@riou2015]. The program pays off in fitness and function, which do not depend on those calories -> [[Exercise Energy Compensation]].
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Past the guideline dose, more minutes buy little for mortality; the shape of decline over decades is unmeasured
 
 **The activity-mortality curve flattens around the guideline amount.** -> [[Physical Activity Dose and Mortality]]. Mortality keeps falling as measured CRF rises, with no upper limit observed over the studied range [@mandsager2018], but most of that drop has arrived by about 10 to 12 METs [@ross2016] -> [[Measuring and Raising Cardiorespiratory Fitness]].
@@ -303,6 +305,8 @@ Repeat any test the same way and read the trend over months; a trend is likely m
 > | **Evidence included** | 36 sources — 23 gold, 9 high, 4 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Marin-Jimenez (method, moderate); Oja (method, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-22 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
+> | **Last updated** | 2026-10-26 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
+
+</div>
 
 ## References

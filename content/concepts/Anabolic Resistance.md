@@ -20,7 +20,7 @@ relationships:
     - Blood Flow Restriction Training
     - Resistance Training Prescription - Load Sets and Frequency
 created: 2026-08-06
-updated: 2026-10-22
+updated: 2026-11-02
 self_critiqued: 2026-10-22
 ---
 
@@ -99,6 +99,8 @@ causally raises it), not a dietary-harm signal -> [[Branched-Chain Amino Acids a
 Same amino acids, opposite decision roles; the confusion would wrongly read *eat more leucine for muscle*
 against *high BCAA predicts diabetes*. [inferred from @wang2017bcaa]
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Not independent backing — one research programme
 
 [inferred from @bauer2013; @moore2014; @katsanos2006]
@@ -109,13 +111,15 @@ sources are one research community, so their convergence cannot be counted as in
   consensus; Robert Wolfe's UTMB group produced Katsanos, and its members recur across the others'
   reference lists.
 - **Shared citation.** Bauer's consensus cites Katsanos; Moore cites Bauer and Katsanos as antecedents.
-  Moore's own «three times \~0.40 g/kg or \~1.20 g/kg/d» arithmetic *landing on* Bauer's 1.0-1.2 g/kg/d
-  target is therefore a **within-programme** consistency check, not two methods arriving separately.
+  Moore's own «three times \~0.40 g/kg or \~1.20 g/kg/d» arithmetic *landing on* Bauer's at-least-1.0-1.2 g/kg/d
+  floor is therefore a **within-programme** consistency check, not two methods arriving separately.
 
 The convergence raises coherence, not confidence-through-independence. Genuinely independent
 confirmation (a different school, a hard-outcome trial) is a standing gap — **now partly filled by
 Komar 2015 (below), a different-school chronic-outcome MA; it confirms the DIRECTION on mass but
 deflates the surrogate optimism on strength.**
+
+</div>
 
 ## The chronic-outcome test — does the acute MPS surrogate translate? (Komar)
 

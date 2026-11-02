@@ -26,7 +26,6 @@ created: 2026-07-27
 updated: 2026-10-28
 self_critiqued: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
 device-measured dose maxima this page carries were previously held *via* the WHO 2020 evidence-profiles
@@ -83,9 +82,7 @@ and population differences are the others). Not a banked type-E (corrected 2026-
 genuine `[E-independent]` corroboration*). An RCT-grade mortality outcome is still owed.
 [inferred from @ekelundacc2019; @mandsager2018]
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The decision this page changes
 
@@ -112,7 +109,6 @@ pattern) or spread across the week appears not to change the mortality benefit
 -> [[Weekend Warrior Activity Pattern and Mortality]] (with a session-duration floor: sub-30-min
 sessions do not bank it, at low observational certainty).
 
-</div>
 
 ## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
 
@@ -182,8 +178,6 @@ independent instrument and no `[E-independent]` token is claimed. The benefit is
 Table 1);
 walking-commuting is flagged as a sub-threshold dose, not folded into the plateau. No overclaim: the
 HRs stay Celis-Morales's, the third-route framing is.
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Where the curve bends — named maxima, device-measured
 
@@ -260,8 +254,6 @@ median total physical activity for the third quarter»
 optimum sits where the data are densest, the *apparent-optimum-equals-sampling-edge* hazard, so read
 the dose column as regions on a flat top, not point targets -> [[The Underivable Optimum]].
 
-</div>
-
 ## The very-high-volume tail in the general population — a smaller benefit, not a reversal `[2026-10-21, Franklin]`
 
 The maxima above say where the benefit flattens. A separate question is whether it *turns back* at
@@ -306,8 +298,6 @@ exception.» [@franklin2020acute]
   candidate artifact is catalogued on [[The U-Shaped Association Artifact]]. These are secondary
   citations through one statement, not primaries held here, so they bound the shape claim without
   raising this page's `confidence:`.
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
@@ -477,10 +467,6 @@ frailty, in the cohorts that recorded it, is consistent with *some* reverse caus
 main curve; its only shown figures are PIFs (no HR for these analyses in the main text), so its size is
 not a measure of how much the HR gradient moved. The check is still the weak kind.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Deaths potentially averted by small changes — a model output, not a trial effect `[2026-10-28, Ekelund 2026]`
 
 **What was computed.** Ekelund 2026 turns the consortium's adjusted spline HRs into potential impact
@@ -609,10 +595,6 @@ and selection.
   under-powered to read in the consortium, and UK Biobank's age-stratified results are reported
   «materially unchanged» without figures in the main text (above).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -663,10 +645,6 @@ above notes a sick-quitter tell), \~600-750 steps is roughly a fifth to a third 
 gap, held for a few months.
 [inferred from @paluch2022; @brickwood2019wearable; @laranjo2020] -> [[Wearable Activity Trackers and Physical Activity]]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 
 Steps/day, MVPA-min/day and sitting-hours/day are **complementary framings of one construct (total
@@ -688,10 +666,6 @@ different exposures, referents and measurement instruments). Use steps for a wea
 minutes for a guideline-aligned target, and the sitting interaction for the offset question — do not
 convert between their hazard ratios.
 [inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Strength training — an association after adjustment for aerobic activity, never ranked above aerobic
 
@@ -798,10 +772,6 @@ smokers**, Stamatakis pools 11 general-population cohorts. Different population,
 matched. Recorded here so the apparent clash is not re-filed later as a *tension*.
 [@who2020]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Sedentary time is a separate exposure with its own thresholds
 
 > «For all-cause and CVD mortality, a threshold of 6-8 h/day of total sitting and 3-4 h/day of TV
@@ -857,10 +827,6 @@ the steep part, not the onset; for most adults in these cohorts (>70% above 480 
 is in the range where it is associated with lower risk. The device onset (\~7.5-8 h) and steepening
 (\~9.5 h) bracket the self-report \~8 h change point, and the exposures differ, so no ordering of device vs
 self-report thresholds is supported. [inferred from @ekelund2026small]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Does activity OFFSET sitting? Mostly yes — the Ekelund 2016 interaction
 
@@ -959,10 +925,6 @@ cohorts (short), ≥40 y so not generalisable to younger/more active or LMIC pop
 mean «uncontrolled confounding would have to be as large in magnitude as smoking to distort our results».
 [inferred from @ekelund2020joint; @ekelundsitting2016; @ekelundacc2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Older adults — falls, which is a patient-important outcome
 
 > «Long-term exercise is associated with a reduction in falls, injurious falls, and probably fractures
@@ -999,8 +961,6 @@ prevention exercises.»
 independent backing** — the WHO annex's falls conclusion rests on largely the same RCT base the Cochrane
 SR pools, so treat the SR as bounding/mechanising the guideline claim, not corroborating it from a
 separate route. The fracture arm stays lower-certainty on both.
-
-</div>
 
 ## Second outcome — dementia (same shape: most benefit at the bottom)
 
@@ -1064,8 +1024,6 @@ person optimizing specifically for cancer risk cannot bank the mortality plateau
 Caveat symmetric with the rest of the page: WCRF's cancer grades are **observational cohort** judgements,
 so reverse causation (illness lowers activity) is not excluded by design.
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## What this page does NOT support
 
 - **No compensation analysis exists anywhere in the annex** — *now held on a sibling page.* Whether a
@@ -1094,10 +1052,6 @@ so reverse causation (illness lowers activity) is not excluded by design.
   cognitive function (b = 0.41; p = 0.002).»* That does not license "improving function improves
   cognition" for a person — the ecological-inference trap.
   [@who2020]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Sedentary behaviour is not the inverse of activity — and devices have type-specific bias `[2026-07-28, Willett ch.10]`
 
@@ -1136,9 +1090,6 @@ the estimate on this page may behave differently, and **this wiki holds no sourc
 either way**. Recorded as a caution about the *class* of instrument, not as a defect in the specific
 estimate.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Is "24 min/day" false precision? Read it as a flat-region central estimate (deliverable-critique, 2026-08-01)
 
@@ -1158,7 +1109,5 @@ beyond about 24 min/day (quotes in the first-step and plateau sections above). T
 zone drawn as increments, from largely the same cohorts and team, so it shows the largest gain per
 minute sits at the very bottom without independently confirming the \~24 min location. The figure stays a
 cut-point-specific region (\~2000 counts/min on the hip; lower back in ABC). [inferred from @ekelund2026small]
-
-</div>
 
 ## References

@@ -156,8 +156,6 @@ guidelines [@wan2025]. -> [[Exercise Snacks and Cardiometabolic Health]]
 sedentary adults [@ross2016].
 -> [[Measuring and Raising Cardiorespiratory Fitness]]
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## Two short strength sessions a week are a dose shown to work for strength
 
 **Start any strength training; the protocol matters far less than starting.** A network meta-analysis in
@@ -228,8 +226,6 @@ two 20-30-minute sessions reach. More than two sessions a week was not associate
 mortality [@saeidifard2019]. A third
 session is for strength, not survival. Function trials make the stronger healthspan case, though they
 enrolled older adults and tested exercise broadly. -> [[Muscle-Strengthening Activity and Mortality]]
-
-</div>
 
 ## Track the habit; treat fitness numbers as rough ranges
 

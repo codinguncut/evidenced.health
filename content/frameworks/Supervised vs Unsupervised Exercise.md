@@ -144,8 +144,6 @@ these outcomes [@gomezredondo2024].
 Knee extension strength is also a prognostically weighty target — it tracks ADL/function and mortality
 -> [[Grip Strength and Mortality]], [[Low Muscle Mass and Mortality]].
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Substitution framing and who this changes
 
 - **For a self-directed, reasonably capable person:** unsupervised home exercise is a sufficient
@@ -265,8 +263,6 @@ Knee extension strength is also a prognostically weighty target — it tracks AD
   acceptable default, not on supervision being unnecessary for the novice or the higher-risk person.
   [@garber2011acsm] Franklin, Barry A.
   co-authors this stand and the AHA statement above, so no independence is claimed between them.
-
-</div>
 
 ## Transportability — older adults, not middle-aged
 

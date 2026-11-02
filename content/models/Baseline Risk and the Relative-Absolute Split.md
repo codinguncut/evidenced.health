@@ -443,8 +443,6 @@ repletion) — effect-modification is real *sometimes*, and the discipline is th
 assumed, in either direction.
 [inferred from @coley2025]
 
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
@@ -616,8 +614,6 @@ The decision consequence for BP-lowering: from 55 to 84, age works through basel
 modification is not established and not excluded, so plan on \~0.91 with wider uncertainty, noting that
 at <55 this may understate the benefit and at >=85 it may overstate it, and the >=85 band cannot tell
 whether it does. BP decision consequences: [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
-
-</div>
 
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 
@@ -793,8 +789,6 @@ redundant *and* less reliable. The measure-choice tension this sits on is
 [[BMI vs Abdominal-Adiposity Markers - Which Predicts CVD]].
 [inferred from @erfc2011whr]
 
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## A small, study-level subgroup search with a single trial-feature moderator — youth warm-up programmes `[2026-10-22, Ding]`
 
 A third route-(b) absence, in a third exposure class and a weaker design than Coley or Nong. Ding's
@@ -821,10 +815,6 @@ which is the route-(b) false-positive generator at the reporting stage, inside a
 are null. Lodged toward the `[PRIOR — over-personalization is the likelier failure]`, not scored. Full
 appraisal -> [[Exercise Interventions and Sports Injury Prevention]].
 [inferred from @ding2022warmup]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A within-trial, prespecified modifier signal with no pooled support — HOPE-3 by baseline SBP `[2026-10-27, Lonn]`
 
@@ -922,10 +912,6 @@ route-(b) treatment with a within-trial modifier that a pooled analysis does not
 (*The intermediate-risk modern-drug trial* on the BP page). Full appraisal ->
 [[Blood Pressure Lowering and Cardiovascular Events]].
 [inferred from @lonn2016hope3]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## One relative effect applied to three baselines, and a split no one modifier can be read from — Sundström `[2026-10-27, Sundström]`
 
@@ -1048,10 +1034,6 @@ modifiers (the route-(a) computation and its transport caveat are the authors' o
 collaboration as Rahimi and BPLTTC 2021, with shared authors. Full appraisal ->
 [[Blood Pressure Lowering and Cardiovascular Events]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## No significant sample-feature moderator in community trials; two programme-feature moderators — exercise for falls `[2026-10-28, Sherrington 2017]`
 
 A between-trial meta-regression over 61 general-community trials of exercise for falls (69
@@ -1097,7 +1079,5 @@ Lodged toward the `[PRIOR — over-personalization is the likelier failure]` for
 nulls; the between-pool setting and condition differences are untested, direction to be assigned at the
 scoring gate. Not scored. Type: F (adds a between-trial meta-regression to the route-(b)-absence set).
 No `[E-independent]`. Full appraisal -> [[Exercise for Preventing Falls in Older Adults]].
-
-</div>
 
 ## References

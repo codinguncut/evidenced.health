@@ -233,8 +233,6 @@ still present, which is a separate claim from *does lowering BP help below 140*.
 (points 1-3 above) stands; only one supporting argument for Pole B is undercut.
 [inferred from @mente2016pure; @bplttc2021]
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## Where this leaves the decision
 
 For a **hypertensive with high intake**, both poles agree: reduce sodium (large BP effect in this
@@ -389,7 +387,5 @@ Nor does it revive Mente's *benefit only above 140* premise. Wang attributes its
 Sundström's BPLTTC analysis to «lower baseline risk for cardiovascular disease»
 [@wang2025mildhtn],
 which is a risk argument, not a BP-level one -> [[Blood Pressure Lowering and Cardiovascular Events]].
-
-</div>
 
 ## References

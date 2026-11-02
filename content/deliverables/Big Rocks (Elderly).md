@@ -128,8 +128,6 @@ updated: 2026-10-28
 concrete_subject_audited: 2026-10-22
 self_critiqued: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
-
 > [!warning] Applies to a specific group
 > This guide is written for **obese adults around 70**. If you are not in this group, the recommendations here may not apply to you — what holds for the wider population can differ.
 
@@ -196,8 +194,6 @@ The levers below help only under certain conditions, or help less.
   place, each has a limit to what it can add, and what is left to gain is small ->
   [[Vitamin and Mineral Supplements for Disease Prevention]],
   [[Multidomain Lifestyle Intervention and Cognitive Decline]].
-
-</div>
 
 ## Count falls, fractures and lost independence first, because slow benefits have fewer years to arrive
 
@@ -911,8 +907,6 @@ limited to older adults, and the lever is the same movement already ranked, not 
 Daily movement is also one of the two lifestyle routes to lower blood pressure and blood sugar, the
 subject of the next section.
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Keep blood pressure and blood sugar down; at this age, starting a statin or aspirin does less good
 
 ### Lowering blood pressure cuts major cardiovascular events by about the same relative amount from 55 to 84
@@ -1220,8 +1214,6 @@ taken are prescriber decisions outside this guide.
 
 Weight loss is the lever most people expect here; its payoff at 70 depends on what it is for and what it
 costs in muscle.
-
-</div>
 
 ## Lose weight for a named target, and protect muscle while you do it
 
@@ -1777,8 +1769,6 @@ Reach each level and hold it. No study among this guide's sources shows that goi
 needs the person's full medication list and history, which makes it a prescriber's decision. The
 evidence behind this guide does not cover it. Below is a short, ordered list of things to do.
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## What to do, in order
 
 **If you smoke, stop; if you drink heavily, cut down** -> [[Smoking and Mortality]],
@@ -1840,7 +1830,5 @@ stop medicines already being taken, which is a prescriber's decision
 > | **Overall certainty** | **Moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold/high evidence bar feed this page: Song (meta-analysis, moderate); Kreider (consensus, moderate); Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Montani (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
-
-</div>
 
 ## References

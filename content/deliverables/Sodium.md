@@ -30,8 +30,6 @@ updated: 2026-10-28
 self_critiqued: 2026-10-28
 concrete_subject_audited: 2026-10-28
 ---
-<div class="recent-page" data-last-updated="2026-10-28"></div>
-
 
 ## Less salt lowers pressure a little; only a potassium salt substitute has cut strokes and deaths in trials
 

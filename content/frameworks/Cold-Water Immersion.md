@@ -8,7 +8,7 @@ cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-10-22
+updated: 2026-11-02
 self_critiqued: 2026-10-22
 relationships:
   related_to:
@@ -178,7 +178,7 @@ CWI is the cold sibling of [[Sauna Bathing and Cardiovascular Mortality]] (heat 
 peripheral thermal-stress lifestyle levers kept peripheral by the Layer-1 ranking, both popular in
 longevity discourse, both thin on hard-endpoint evidence. But the evidence *shapes* differ and this
 is NOT a tension — they answer different questions on different exposures. Sauna has a single-cohort
-observational mortality gradient (a hard endpoint, one narrow stratum, no RCT); CWI has RCT-level
+observational mortality gradient (a hard endpoint, one Finnish cohort, the frequency gradient detected in men, women insufficient evidence, no RCT); CWI has RCT-level
 surrogate SMDs (better design, softer endpoints, no mortality data). Neither transports to the other,
 and neither is a big rock. The cross-link is structural parallelism, not a shared claim.
 

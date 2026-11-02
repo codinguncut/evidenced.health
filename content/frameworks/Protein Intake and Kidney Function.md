@@ -19,7 +19,7 @@ relationships:
     - The Estimate-to-Action Gap
     - Rating Certainty of Evidence
 created: 2026-08-07
-updated: 2026-09-23
+updated: 2026-11-02
 self_critiqued: 2026-09-23
 ---
 
@@ -98,6 +98,8 @@ raised GFR «alone is not evidence that the risk of CKD is modified».
 
 
 [@devries2018]
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Scope — how far the null reaches, and where it stops
 
 The included populations were healthy, obese, hypertensive, and **type-2-diabetic** adults with normal
@@ -107,14 +109,15 @@ yet «there was no difference in kidney function with the consumption of an HP d
 stratum — Devries notes the small subgroup n and flags caution.
 
 **Where it stops (the stratum flip):** established **CKD**, type-1 diabetes, proteinuria, or prior kidney
-impairment — none studied here, and the standing clinical rule there is protein *restriction*, not
-liberalization. The specific cutpoint is a clinical convention, not from Devries: PROT-AGE names severe
-kidney disease (eGFR <30, not on dialysis) as the exception where protein should be limited
+impairment — none studied here, and PROT-AGE grades protein in CKD by stage (a limit at severe disease, monitoring at moderate disease, intake
+per patient needs at mild disease); the other conditions listed are not staged in the held sources. The specific cutpoint is a clinical convention, not from Devries: PROT-AGE names severe
+kidney disease (eGFR <30, not on dialysis) as the exception where people «may need to limit» protein
 -> [[Protein Intake for Older Adults]] (where that boundary is source-attributed to Bauer). The route-(c)
 contraindication is real and narrow — it is a flip for a defined diseased stratum, not a general caution
 that erodes the healthy-adult target. For the drug side of the diseased stratum see
 [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 
+</div>
 
 ## The second source (Van Elswyk 2018) — same direction, different lineage, and four new arms
 
@@ -262,23 +265,33 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   [@devries2018]
 
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Decision relevance
 
 - **For a healthy adult, kidney worry is not a reason to hold protein below the muscle/older-adult
-  target.** The common objection to reaching \~1.6 g/kg (RT), \~1.0-1.2 g/kg (older maintenance), or the
+  target.** The common objection to reaching \~1.6 g/kg (RT), the older-adult floor (at least 1.0-1.2 g/kg), or the
   higher deficit-stratum figure does not survive the evidence for normal kidneys — a modest overshoot is
   low-harm on the kidney axis, which is exactly what lets [[The Estimate-to-Action Gap]] bias the target
   *up* where undershoot is costly. This page is the source for the «healthy kidneys» clause those pages
   lean on.
-- **The one hard flip is established kidney disease.** For diagnosed CKD (PROT-AGE draws the line at
-  severe disease, eGFR <30, not on dialysis — a clinical convention, see [[Protein Intake for Older Adults]]),
-  protein is *restricted*, not liberalized — a genuine route-(c) contraindication, not a soft caution.
+- **The flip is established kidney disease, graded by stage.** PROT-AGE limits protein to 0.8 g/kg (of
+  ideal body weight) in severe CKD (eGFR <30, not on dialysis), keeps >0.8 g/kg with GFR monitoring
+  twice a year at moderate CKD (eGFR 30-60), and at mild CKD raises intake per patient
+  needs; it also reports lower-intake evidence for CKD 3-4, with
+  caveats (the tiers, that evidence and their quotes are on [[Protein Intake for Older Adults]]). At severe CKD that is a genuine route-(c) contraindication, not a
+  soft caution [inferred from @bauer2013]. For **diabetic** kidney disease
+  the held guidance disagrees: ADA 2019 does not support restricting below average intake, so the limit
+  is contested in that stratum (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; quotes and the open question on [[Protein Intake for Older Adults]],
+  *Diabetes with kidney disease*) [inferred from @evert2019].
   Screening for it is a prescriber act outside this wiki's scope; the decision-relevant fact is that the
-  boundary exists and is narrow.
+  boundary exists.
 - **Don't oversell it.** The correct claim is *no evidence of GFR harm in the healthy over the studied
   horizon*, on low-certainty surrogate evidence from one research lineage with commercial funding, but
   concordant with independent guidance. That is enough to defuse the objection; it is not enough to say
   *proven safe at any dose indefinitely*.
+
+</div>
 
 ## Limits
 

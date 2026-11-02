@@ -16,8 +16,6 @@ created: 2026-10-04
 updated: 2026-10-28
 self_critiqued: 2026-10-28
 ---
-<div class="recent-page" data-last-updated="2026-10-28"></div>
-
 
 A **modality-choice** page, not a fall-prevention page. That exercise improves balance and prevents
 falls in community-dwelling older adults is high-certainty -> [[Exercise for Preventing Falls in Older Adults]]

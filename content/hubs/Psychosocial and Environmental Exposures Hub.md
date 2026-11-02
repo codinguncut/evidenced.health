@@ -2,7 +2,7 @@
 type: hub
 question: Among the peripheral-lifestyle and environmental exposures the telos admits through their physical intersection — chronic stress, social connection, sense of purpose, sun/UV, and drinking-water contaminants (fluoride, disinfection byproducts) — which move a patient-important physical outcome, by what channel, and are they levers or only markers?
 created: 2026-08-13
-updated: 2026-08-23
+updated: 2026-11-02
 ---
 
 Navigator for the **peripheral-lifestyle** cluster the telos admits on the same evidence terms as food
@@ -41,14 +41,25 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   mortality and CV events (RR 0.83) through the same cortisol channel; a marker not shown to be a lever,
   discriminant validity vs depression/connection incomplete
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Heat / sauna exposure
 
 - [[Sauna Bathing and Cardiovascular Mortality]] — nucleus of the `heat-exposure` cluster: regular hot
-  Finnish sauna associates with an inverse frequency/duration gradient for SCD, fatal CHD/CVD and
-  all-cause mortality — but the entire signal rests on ONE cohort of middle-aged Finnish men (KIHD), so
-  it is low-confidence, non-transportable (no women, no replication, no RCT), and a small peripheral
-  lever, not a big rock. The healthy-adherer check is run (survives fitness/SES adjustment) but residual
-  confounding remains.
+  Finnish sauna associates with an inverse frequency gradient for SCD, fatal CHD/CVD and all-cause
+  mortality, and a duration gradient for SCD and fatal CHD/CVD but not all-cause (men 42-60) — but every
+  estimate the wiki holds rests on ONE Finnish cohort (KIHD) analysed by one group.
+  A later KIHD analysis adding 867 women (aged 53-74, fatal CVD only) did not detect the frequency
+  association in women (2-3/wk null-centred; 0 deaths at 4-7/wk, against about 6 expected from a
+  crude count not allowing for that group's younger age, so that cell leans favourable but cannot be
+  estimated); women's weekly-duration estimates point lower but are
+  imprecise. Women = insufficient evidence, not no effect. Low-confidence, barely transportable (no
+  independent replication, no RCT), a peripheral lever of unknown causal size, not a big rock. Only the
+  weak healthy-adherer checks are run (2015 men: survives fitness/SES adjustment; no 2018 model adjusts
+  for fitness, in either sex; early-death exclusions in unheld supplements), so the gradient stays
+  unadjudicated and residual confounding remains.
+
+</div>
 
 ## Cold / cold-water exposure
 

@@ -112,8 +112,6 @@ observational-grade and from **one shared evidence base** (not independent).
 
 
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## What is EMPTY — and this is the finding
 
 | Lever | Status | Why it is empty |
@@ -123,10 +121,6 @@ observational-grade and from **one shared evidence base** (not independent).
 | **Baseline risk** | **FILLED as machinery (2026-07-26)** | [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the ESC thresholds and a read-off grid. **A stratum defined by age and condition alone cannot use it** — the chart also needs smoking status, a BP band, a cholesterol band and a region, and the ESC category moves between *high* and *very high* across plausible values. Those four are **case inputs, supplied at layer 3**, not fabric |
 | ~~**Pharmacotherapy**~~ | **FILLED 2026-07-28** | [[Semaglutide for Cardiovascular Risk in Obesity]] (SELECT+STEP-1) + [[Statins for Primary Prevention and the Power of Zero CAC]] (USPSTF+Nasir). Both the realistic drug comparators the telos names. Key finding is a ceiling, not a lever: see below |
 | ~~**Alcohol · sleep · smoking**~~ | **ALL HELD 2026-07-29** | Alcohol ([[Alcohol and Mortality and Vascular Disease]]) + sleep ([[Sleep Duration and Mortality]]) + **smoking now ingested ([[Smoking and Mortality]], Jha 2013) — the #1 dominant exposure, all-cause HR \~3.0 and a decade of life, now quantified and at the TOP of the ranked table above** |
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## What this page establishes
 
@@ -167,7 +161,8 @@ observational-grade and from **one shared evidence base** (not independent).
    ceiling itself; its measured hard-outcome benefit is a small all-cause one not routed through the
    heart. (corrected 2026-10-06: *no longer unquantified* wording aligned with the revised item 2.)
 
-</div>
+
+
 
 ## What would change the answer
 
@@ -196,8 +191,6 @@ In priority order, all from already-staged material:
   inherits that page's audit status — nothing more.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Activity enters the hierarchy with a magnitude `[2026-07-27]`
 
@@ -232,9 +225,7 @@ large: **HR 0.34 (0.27-0.43)** at the maximum for device-measured total activity
 estimate is observational and between-quartile, so reverse causation is not excluded by design. A
 large HR from cohorts does not outrank a smaller one from trials automatically.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A published ranking arrives — on the wrong axis `[2026-07-28]`
 
@@ -316,8 +307,6 @@ cancer, ischemic heart disease and type 2 diabetes»*. **So a fourth-place burde
 weak underlying association** — which is the prevalence wedge visible inside NNR's own text, and the
 cleanest available demonstration that a high rank is not a large individual effect.
 [@nnr2023]
-
-</div>
 
 ## Self-critique of the NNR/GBD addition `[run 2026-07-28, before commit]`
 
@@ -550,8 +539,6 @@ effect to rank, which is itself the placement.
 
 
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
 
 A maintainer doubt, registered as a Challenge: *the evidence for fibre is not convincing or big; the
@@ -668,9 +655,8 @@ the bias the rule exists to catch. The value added is configurative (the composi
 per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
 this section states it once instead of leaving it distributed.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-26">
+
 
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
@@ -715,7 +701,7 @@ tiers by the person's baseline risk and so is **stratum-conditional** (blood pre
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
-</div>
+
 
 ## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
 

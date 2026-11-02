@@ -45,7 +45,6 @@ relationships:
     - Excess Iodine Intake and Thyroid Disease
     - Potassium Intake and Blood Pressure
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 A cross-cutting diagnostic, not a claim about one exposure. When observational data shows a **U- or
 J-shaped** association — risk lowest at some *intermediate* exposure, higher at both zero and high —
@@ -54,7 +53,7 @@ not causal — though the artifact can occupy either arm (the nuts -> stroke and
 arms below; the muscle-strengthening upper arm is suspect, not adjudicated). Alcohol is the worked case; the same shape sits unadjudicated for sodium, and
 sleep is adjudicated at arm level below (lede updated 2026-10-28; self-critique).
 
-</div>
+
 
 ## The recipe that manufactures a false protective arm
 
@@ -81,8 +80,6 @@ disease were more prevalent among abstainers than among moderate drinkers»).
   un-prespecified U carries the same discount -> [[P-Hacking and Researcher Degrees of Freedom]].
   [@nasem2019]
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## The three adjudication routes — and what they showed for alcohol
 
 | Route | What it does | Alcohol verdict |
@@ -97,8 +94,6 @@ disease were more prevalent among abstainers than among moderate drinkers»).
 it); the referent correction and MR are the *strong* ones, and where a genetic instrument exists it is
 decisive. A protective arm that survives only the weak check has not been adjudicated.
 
-</div>
-
 ## The decision rule
 
 **A U/J-shaped observational association is not, by itself, evidence that an intermediate dose is
@@ -108,8 +103,6 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Where it applies in the wiki
 
@@ -1138,8 +1131,6 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
-
-</div>
 
 ## Corrections and revision history (dated strata)
 

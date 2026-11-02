@@ -265,8 +265,6 @@ transmission stay low-certainty. Each MA rates its own evidence low (Brickwood s
 low-to-moderate (Laranjo overall). Both carry irreducible performance bias, since a behaviour
 intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2020]
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Gaps
 
 - **Long-term (>12 month) durability of the device effect is unestablished** — the two long trials
@@ -299,10 +297,6 @@ intervention cannot be blinded. [inferred from @brickwood2019wearable; @laranjo2
   across the 4 add-on trials) (distinction below). Whether a broader self-monitoring concept is worth building is left to
   a Weave. [inferred from @madigan2015weigh]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Self-weighing — a distinction, not a weld
 
 A scale and an activity tracker both feed a person a number about themselves, so the two lines of
@@ -322,7 +316,5 @@ distinction, not a tension and not corroboration. The two lines answer different
 watching your activity raise activity, and does watching your weight lower weight. Madigan's own
 mechanism for the scale is that a person must reflect on the reading and then change eating or
 activity. Neither page's estimate transfers to the other tool.
-
-</div>
 
 ## References

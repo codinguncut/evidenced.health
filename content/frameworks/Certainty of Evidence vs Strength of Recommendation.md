@@ -17,7 +17,6 @@ relationships:
 created: 2026-07-25
 updated: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 **Nucleus of the `evidence-appraisal` cluster.** How confident you are in an effect estimate and how
 strongly you should recommend acting on it are **two separate judgments**, and neither determines the
@@ -29,8 +28,6 @@ strength, and its worked cases) is well extracted and supports more than that. T
 section (*Does the separation actually DO anything?*) supports less: it rests on a small,
 non-independent set of WHO documents (one body).
 
-</div>
-
 ## Ordinary framing
 
 Better evidence -> stronger recommendation. Grading systems that produce a single letter or star
@@ -38,8 +35,6 @@ rating collapse the two, so a reader cannot tell whether a weak recommendation r
 or a genuinely close call on well-established effects.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The reframing — certainty is ONE of four inputs to strength, and the mapping is asymmetric
 
@@ -58,8 +53,6 @@ off-diagonal cases are **not symmetric**, and the page must not flatten them:
   condition. Separately, GRADE «In general» discourages strong recommendations when confidence in
   effect estimates for critical outcomes is low or very low, and names five paradigmatic situations in which they «may be warranted»; the handbook
   does not say whether the five are exhaustive. [@grade]
-
-</div>
 
 ## Mechanism — what drives strength once certainty is fixed
 
@@ -83,8 +76,6 @@ Worked cases the handbook gives:
   observational evidence rated low, panels "would be very likely to" make a strong recommendation.
   [@grade]
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Decision relevance
 
 - **A weak recommendation is not a hedge about the science.** It is a statement that the right action
@@ -107,9 +98,7 @@ of those is high quality.) [@grade]
 - **The practical test when reading any recommendation:** ask which of the two judgments produced its
   strength. If the source does not let you tell them apart, you cannot use its strength rating.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## What sets strength, once certainty is fixed (chunk 03)
 
@@ -150,10 +139,6 @@ high- and low-risk groups» ([[Baseline Risk and the Relative-Absolute Split]]).
   of individual patients." Applying recommendations "by rote or in a blanket fashion" is explicitly
   disclaimed. [@grade]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Applied — WHO SFA 2023, and how the four determinants show up in a real rationale
 
 WHO's 2023 SFA guideline is GRADE applied by an adopting body, and it exhibits the certainty->strength
@@ -189,8 +174,6 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
   contested." Here it means "we could not rule it out and could not confirm it" — a different message
   with a different action implication.
 
-</div>
-
 ## Limits
 
 - **GRADE does not remove judgment, and says so.** "Applying the GRADE approach does not minimize the
@@ -204,8 +187,6 @@ alone: "a conservative approach was therefore taken, leading to a conditional re
 - **Source currency:** this handbook (updated October 2013) is being phased out in favour of the
   GRADE Book (2024); §§1-3 are flagged in-source as already rewritten there.
   [@grade]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A real process where appraisal and recommendation are done by DIFFERENT PEOPLE `[2026-07-27]`
 
@@ -241,10 +222,6 @@ recommendation was distorted** — NASEM reports *suggestions* of influence and 
 about the handoff; it does not document a case.
 [inferred from @nasem]
 `-> [[Which Objective Moved This Recommendation]]`
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A third axis the two-axis frame does not hold: how PRECISE is the number `[2026-07-28]`
 
@@ -346,10 +323,6 @@ the field's norms, not a converging judgment about grading's value, and no `[E-i
   is warranted by *«As with DRVs»* and by NNR issuing no recommendation grades (it grades evidence
   strength inside its SRs), but NNR never says "our numbers are
   consensus" in the first person.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Does the separation actually DO anything? The corpus's own pairings `[2026-07-28; re-scoped 2026-10-28]`
 
@@ -668,8 +641,6 @@ generalise it.
 - **Residual:** the strongest unverified step is that WHO's strength ratings across the four guidelines
   were each set independently. If one guideline group applied one implicit rule across them, the ten
   diagonal cells are closer to one observation than to ten.
-
-</div>
 
 ## A body that has NO strength axis at all — USPSTF replaces it with certainty x magnitude `[2026-07-31]`
 

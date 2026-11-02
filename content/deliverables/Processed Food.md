@@ -73,8 +73,6 @@ you are in without splitting. The first
 question the split raises is the sharpest one: does the ultra-processed label carry any causal work of
 its own, beyond the sugar, salt, fat and energy density it travels with?
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## The category average is real, but confounded and low-certainty
 
 **The category average is real: broad, consistent, and drawn from a lot of people.** Lane's umbrella
@@ -116,10 +114,6 @@ Lane defends the associations — adjusting for diet-quality *patterns* leaves t
 does not close the gap. Adjusting for a pattern is not the same as matching the sugar, salt, fat and fibre
 profile that makes a food ultra-processed and nutrient-poor at once. [@lane2024upf] An association this confounded needs a design that holds composition fixed
 — and the newest outcome arm, cognition, shows how fragile such an association can be under adjustment.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## Dementia and cognition: a fragile signal that adjustment does not settle
 
@@ -167,8 +161,6 @@ replaces* the food, not the label. [@smith2025upf]
 Feeding trials to a dementia endpoint are ethically impossible, so this arm stays observational by design.
 Intake is the one outcome where a composition-fixed design does exist — and there, processing does move
 the needle.
-
-</div>
 
 ## Processing does move how much you eat — through levers you can name
 

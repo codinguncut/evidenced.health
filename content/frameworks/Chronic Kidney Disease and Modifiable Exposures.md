@@ -87,8 +87,6 @@ honest read is *your remaining CKD-specific gains are small and uncertain*, whic
 Ranking orders *where to act*; it does not privilege any lever as *the cause* (an effect needs its whole
 support set).
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Single-exposure levers (Kelly 2020) — sodium and smoking now held, diet decomposed
 
 Kelly 2020 (SR + MA, **104 observational studies, \~2.76M participants**, GRADE) inventories
@@ -177,8 +175,6 @@ rather than cause it, and it is open to confounding like the PA rows. Read it as
 (fitness as a marker, not the activity lever): low-fit adults sit at higher CKD risk, best-evidenced in
 men. [inferred from @lang2024crf]
 
-</div>
-
 ## Route-(a) baseline-risk stratification — where absolute benefit is largest
 
 The relative effects above are roughly constant across strata; **absolute** CKD benefit scales with
@@ -231,8 +227,6 @@ Seidu's own framing agrees the levers are complementary, not rival: physical act
 piece of the puz- zle» alongside healthy diet, healthy weight, and risk-factor control.
 [@seidu2023ckd]
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Held threads / gaps
 
 - **No RCT / Mendelian-randomization / objective-PA source** for any lever -> the confounding discount
@@ -247,7 +241,5 @@ piece of the puz- zle» alongside healthy diet, healthy weight, and risk-factor 
   RR 1.59 (1.30-1.94), moderate** — the first patient-important (non-surrogate) endpoint in the cluster.
   For the *other* levers (obesity, diet, PA, sodium) the surrogate-to-hard-outcome transmission is still
   assumed, not evidenced. Narrowed gap. [@kelly2020ckd]
-
-</div>
 
 ## References

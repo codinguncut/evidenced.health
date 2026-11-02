@@ -19,7 +19,6 @@ relationships:
 created: 2026-07-29
 updated: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 DiRECT (Lancet 2018) is the first registered trial to set **remission of type 2 diabetes as a
 primary outcome** and to deliver the intervention in **routine primary care** rather than a research
@@ -55,10 +54,6 @@ T2DM.» — and the equal-readiness claim rests on Taylor's refs 30-31).
 [@taylor2015pft]
 [inferred from @taylor2015pft]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The intervention — an energy target, NOT a macronutrient one
 
 The Counterweight-Plus programme, in three phases:
@@ -86,8 +81,6 @@ haemoglobin (HbA1c) of less than 6.5% (<48 mmol/mol) after at least 2 months off
 medications, from baseline to 12 months".
 [@lean2018]
 
-</div>
-
 ## The headline result
 
 | Outcome (12 months, ITT) | Intervention | Control | Effect |
@@ -105,8 +98,6 @@ medication: at 12 months **73.6% of the intervention group were on zero oral ant
 (vs 18.2% of control), and **68% remained off antihypertensives** with no rise in mean blood
 pressure.
 [@lean2018]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The jewel — remission scales with weight loss (dose-response)
 
@@ -204,10 +195,6 @@ added kilogram causes more remission. Whether it plateaus above 15 kg is unresol
 is open-ended and the mechanism has a ceiling — remission is bounded at 100%).
 [inferred from @lean2018]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The maintenance phase — the structure the fabric lacked
 
 DiRECT is unusual in designing for maintenance "from the outset". Among engagers, weight fell sharply
@@ -235,10 +222,6 @@ Churuangsuk adds the glucose-lowering side: «Blood pressure falls with weight l
 [@lean2018]
 Both are review-with-the-clinician flags, not dosing; the drug changes themselves are the prescriber's.
 [inferred from @lean2018; @churuangsuk2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Durability at 24 months — remission tracks the weight kept off
 
@@ -354,10 +337,6 @@ and 24 months, its twin RCT (DIADEM-I) in Churuangsuk's GRADE-high cell; not tes
 stratum or beyond 2 years.
 [inferred from @lean2019; @lean2018]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Synthesis — is remission driven by WEIGHT LOSS or by CARBOHYDRATE RESTRICTION?
 
 The fabric holds a *low-carbohydrate* remission result ([[Carbohydrate Restriction and Type 2 Diabetes Remission]], Goldenberg 2021). DiRECT achieves remission on a formula
@@ -472,9 +451,6 @@ Lean 2018 does not discuss low-carbohydrate diets. Extending the point across th
 diet, low-carb, surgery), a common thread is weight/fat loss; the route-independence of that thread is
 this page's generalisation, not a source's.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Remission is a real benefit weight loss moves — but it is intermediate
 
@@ -490,10 +466,6 @@ citing a Look AHEAD post-hoc: "a 10% weight loss in the first year... was associ
 decrease in occurrence of cardiovascular outcomes" — the same >=10%-responder signal that page holds
 as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
 [@lean2018]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Limits and bias — read honestly
 
@@ -545,7 +517,5 @@ as *reported, not proven* -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
 
 [inferred from @lean2018]
-
-</div>
 
 ## References

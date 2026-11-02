@@ -698,8 +698,6 @@ adapts more slowly than muscle), not a stand finding.
 
 
 [@acsm2026rt]
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Safety — what the stand asserts, and what it rests on
 
 «Resistance training is safe for healthy adults of all ages (5), but many adults, particularly older
@@ -825,7 +823,6 @@ starting RT, with the usual caution that light loads and gradual increases cost 
 light loads do slow gains).
 [inferred from @niemeijer2020; @kunutsor2018adverse]
 
-</div>
 
 ## Sex is not a meaningful effect modifier — one prescription for both (route-b null)
 
@@ -892,8 +889,6 @@ exercise, so the authors judged standard quality scales unusable) — a `high`-t
 unblindable primaries, same design ceiling as Currier.
 [@roberts2020sex]
 
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The surrogate → outcome boundary — the load-bearing honesty
 
@@ -994,10 +989,6 @@ head-to-head grade. (corrected 2026-10-22: was
   higher per-meal protein target ([[Protein Intake for Older Adults]]: \~1.2 g/kg/day for the active
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Decision relevance
 
@@ -1110,10 +1101,6 @@ low-volume default is a reasonable stopping point for size — a cheap-lever def
 to the per-muscle-group question above.
 [inferred from @radaelli2024rtvol]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Limits
 
 - **Surrogates only** — 1RM and muscle size; no mortality/disease endpoint (Currier states this outright).
@@ -1168,7 +1155,5 @@ to the per-muscle-group question above.
 
 
 [inferred from @currier2023]
-
-</div>
 
 ## References

@@ -19,7 +19,6 @@ created: 2026-07-29
 updated: 2026-10-28
 self_critiqued: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 Strength training earns its place in a lever list on two claims: it is associated with lower mortality
 and major disease **after adjustment for aerobic activity**, and the association appears at a **small
@@ -56,11 +55,6 @@ and the cluster stays `low`. [inferred from @zhang2026rtmort]
 
 
 [@momma2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The effects — modest, broad, and adjusted for aerobic exercise
 
 Any muscle-strengthening activity (MSA) vs none, «independent of aerobic activities»:
@@ -83,11 +77,6 @@ is a refinement, not an [E-independent] convergence.
 
 
 [@saeidifard2019]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Saeidifard 2019 — the second MA, endpoint-resolved and mortality-specific
 
 Saeidifard is a SR-MA of «11 (one randomized trial and 10 cohort studies)... totaling 370,256
@@ -144,11 +133,6 @@ reading*; self-critique)
 
 
 [@shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Shailendra 2022 — the third MA: a larger cancer pool and a minutes/week dose curve
 
 Shailendra is the mortality-specific update of Saeidifard: a SR-MA of **10 prospective cohort studies**
@@ -225,11 +209,6 @@ constraint is *why* only 4 of 10 studies could enter the dose-response, and it c
 
 
 [inferred from @momma2022; @saeidifard2019; @shailendra2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The three MAs compared — same lever, mostly the same cohorts (type-F, not type-E)
 
 The op-weave parameter table, with the same-quantity column doing the work:
@@ -270,10 +249,6 @@ sufficient:
 So the triple 0.60 combined convergence, however striking, does **not** raise confidence; it is the same
 finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 [inferred from @momma2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Zhang 2026 — a repeated-measures cohort: the duration categories, the top arm, and the aerobic overlap `[2026-10-28]`
 
@@ -432,11 +407,6 @@ data, same instrument class, same healthy-user confounding), and it cites Momma 
 
 
 [@momma2022]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The dose — modest, and a J-shape whose above-null arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -590,10 +560,6 @@ beyond each model's last knot a restricted cubic spline is constrained to be lin
 slope. So neither side is a harm or a safety finding; no rise above the null in Zhang's top category (1093 deaths) is not a safety finding for
 volumes beyond it. [inferred from @zhang2026rtmort]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Decision relevance
 
 - **Add strength training — the lower mortality appears at a modest weekly volume**: \~30 to \~120
@@ -658,9 +624,6 @@ volumes beyond it. [inferred from @zhang2026rtmort]
 
 
 [inferred from @momma2022]
-
-</div>
-
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*
@@ -698,8 +661,6 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 
 
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Limits
 
 - Three meta-analyses (Momma, Saeidifard, Shailendra) over a largely shared cohort base — not
@@ -721,7 +682,6 @@ in keeping function and staying off the floor, not (on current evidence) a prove
 
 [inferred from @momma2022]
 
-</div>
 
 ## Why the diabetes curve is clean but the mortality curve is not (deliverable-critique, 2026-08-01)
 

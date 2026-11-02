@@ -19,7 +19,6 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Measuring and Raising Cardiorespiratory Fitness
 ---
-<div class="recent-update" data-last-updated="2026-10-29">
 
 Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured in METs — 1 MET =
 3.5 mL/kg/min) is a strong mortality predictor. The AHA statement says evidence shows «not only that
@@ -43,9 +42,6 @@ mortality evidence is itself observational, with a dose gradient
 ([[Physical Activity Dose and Mortality]]). A VO2max reading is a stratification metric and a trackable
 measure (milestone) of the activity lever; no held trial shows that raising CRF itself lowers mortality.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## The dose-response: steepest at the low end; a smaller residual step at the top in one referral cohort
 
@@ -132,10 +128,6 @@ for lack of data [@coenen2018paradox]. So CRF is a *candidate buffer* of the str
 operates at a lower relative workload), but it clears only the plausibility bar, not positive
 effect-modification, so it is held as an open interaction, not a finding.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## How big — low fitness carries hazards comparable to or greater than smoking and diabetes (Mandsager, one referral cohort)
 
 Mandsager's adjusted all-cause-mortality gradient (low performers' hazard relative to each higher group): «Low vs Elite ... 5.04
@@ -170,10 +162,6 @@ low CRF, «defined based on age, sex and health status», sits in the exercise-p
 spread. No absolute risks or risk differences are given [searched: absolute / risk difference / per
 1000 — 0 hits each], so none of these converts to an absolute benefit for a stated baseline.
 [inferred from @lang2024crf]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Beyond mortality — CRF and incident chronic disease (Lang 2024)
 
@@ -212,9 +200,6 @@ contrasts can sit apart (0.58 categorical, 0.97 per MET), which a single coeffic
 rest on different cohort subsets (14 vs 9, per-MET n not reported), so the gap need not be curve shape.
 [inferred from @lang2024crf]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## The target — where a given VO2max sits, by age and sex
 
@@ -240,10 +225,6 @@ peak exercise», with no conversion equation named [@mandsager2018]. Why a cycle
 land low on this grid (the cycle-vs-treadmill modality gap, plus a treadmill conversion that would over-read
 if it resembles the ACSM steady-state equations; Mandsager names none) is worked through on
 [[Measuring and Raising Cardiorespiratory Fitness]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## The load-bearing honesty — predictor, not proven cause
 
@@ -320,10 +301,6 @@ That within-person change design, larger and newer than the Ross 2016 change coh
 firm or bound the partial upgrade above; the wiki holds only Lang's one-line citation of it, so nothing
 here rests on its result. — the within-person change estimate
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Limits
 
 - **Not two independent methods.** A meta-analysis of cohorts (Kodama) and one mega-cohort (Mandsager)
@@ -363,9 +340,9 @@ here rests on its result. — the within-person change estimate
 - Coherence, not validity (R1): a strong, graded association — but not proof that acting on it
   changes a given person's life.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-29">
+
+
 
 ## CRF is a measured CAPACITY, not a behaviour - and what backs the predictor claim (deliverable-critique, 2026-08-01)
 
@@ -395,7 +372,7 @@ total-activity mortality finding, and both are real:
 So the "two dials" are real distinct channels: aerobic -> CRF, resistance -> muscle. The low-HR
 total-activity number and the CRF-predictor claim are different (both held) findings, not one restated.
 
-</div>
+
 
 ## "Per 1-MET" - what it means, and why you cannot compound it to 0.87^5 (deliverable-critique, 2026-08-01)
 
@@ -417,8 +394,6 @@ compound to a personal promise (5 METs -> 0.87^5 \~ 0.50) for two reasons:
   decision-relevant benefit sits - not as a compoundable multiplier.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## The causal discount - VO2max is part lever, part marker (deliverable-critique, 2026-08-01)
 
@@ -451,7 +426,5 @@ association and the effect of raising *your own* fitness:
 Net: VO2max is *part lever, part marker*. The decision-relevant claim survives but shrinks - **escaping the
 low-fitness bottom by training plausibly helps** (a likely smaller causal benefit, concentrated at the low end, not yet trial-proven on mortality) - it
 is NOT the between-person \~5x read as a personal promise.
-
-</div>
 
 ## References

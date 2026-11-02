@@ -73,8 +73,6 @@ patient-important outcome.
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The second criterion — does the chain actually transmit?
 
 Proximity is not the only test the handbook supplies. Immediately after the proximity passage it adds
@@ -103,8 +101,6 @@ for drug-induced lowering, but for the lifestyle and supplement routes it is ass
 the biggest office-SBP drops tend to be the ones never tested on events
 -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
-</div>
-
 ## Tests / indicators
 
 - **Is the outcome named separately from the marker?** A recommendation phrased directly in terms of
@@ -120,8 +116,6 @@ the biggest office-SBP drops tend to be the ones never tested on events
   the whole question, and it is a separate evidential claim from the intervention -> marker effect.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Prognostic marker vs modifiable lever — the same distinction, one step earlier
 
@@ -166,8 +160,6 @@ this adds: when a review's certainty grade answers *does X predict Y?*, check wh
 stay on that question before borrowing its *target* language. Detail:
 [[Cardiorespiratory Fitness and Mortality]], [[Measuring and Raising Cardiorespiratory Fitness]].
 [inferred from @lang2024crf]
-
-</div>
 
 ## The composite-index case — allostatic load predicts mortality, no lever shown `[2026-08-09, Parker]`
 

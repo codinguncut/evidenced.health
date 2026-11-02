@@ -14,7 +14,6 @@ relationships:
 created: 2026-08-21
 updated: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 **The decision this page changes:** whether, and how hard, to cut *sitting* and *TV time* — separately
 from the decision about how much to *move*. Sedentary behaviour is a **distinct exposure from physical
@@ -42,8 +41,6 @@ real, and matter most for the heaviest sitters (mortality) and for population-wi
  (corrected 2026-10-06: *independent of activity* + *accelerates past a threshold* unscoped ->
 PA-adjusted, mortality-scoped; self-critique)
 
-</div>
-
 ## Two exposures, not one — total sitting vs TV viewing `type-B`
 
 *Sedentary behaviour* names two objects with **different curves and different strengths**, and conflating
@@ -60,8 +57,6 @@ confounding/mediating patterns».
   Only the first and last make TV a *sharper causal lever*; the middle two would make it a sharper
   *signal* only. (corrected 2026-10-06: *TV is the sharper lever because of what travels
   with it* -> four candidate explanations; self-critique)
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Dose-response — an accelerating-harm knee, the MIRROR of the activity plateau
 
@@ -126,8 +121,6 @@ bracket Patterson's \~8 h, so neither curve can be said to bend first. What the 
 data add is a region: below \~8 h no signal is
 detectable, above it (>70% of these adults) a reduction is associated with lower risk that grows with
 starting level. [inferred from @ekelund2026small]
-
-</div>
 
 ## T2D is the standout — and the most caveated `type-F`
 
@@ -230,8 +223,6 @@ evidence) changes a patient-important outcome remains a **named gap** that break
 would need to close. The trials are also unblindable — you cannot blind an exercise break, so every one
 carries performance/detection risk of bias by construction (a design constraint, not a defect).
 [inferred from @loh2019]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Acting on it (layer 3)
 
@@ -337,10 +328,6 @@ carries performance/detection risk of bias by construction (a design constraint,
   within-instrument narrowing on [[Physical Activity Dose and Mortality]]. Sit less regardless of MVPA
   where sitting is above \~8 h/day (TV and T2D aside).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Provenance / independence
 
 Primary anchor, **Patterson 2018** (gold dose-response MA), plus **Ekelund 2020** as a device-measured
@@ -373,7 +360,5 @@ It does not move
 `confidence: medium`.
 [inferred from @ekelund2026small]
 [inferred from @patterson2018sedentary]
-
-</div>
 
 ## References

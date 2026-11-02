@@ -2,8 +2,8 @@
 type: framework
 question: When does an extra test change a risk estimate enough to change the decision?
 aliases: [Risk Modifiers, CAC Score, Coronary Artery Calcium, Reclassification, Grey Zone, Risk Enhancers]
-authors: [European Society of Cardiology (org); Mach, François; Blumenthal, Roger S]
-sources: [ESC - CVD Prevention Guidelines 2021, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026]
+authors: [European Society of Cardiology (org); Mach, François; Blumenthal, Roger S; Laukkanen, Tanjaniina; Kunutsor, Setor K; Khan, Hassan; Willeit, Peter; Zaccardi, Francesco; Laukkanen, Jari A]
+sources: [ESC - CVD Prevention Guidelines 2021, ESC-EAS - Dyslipidaemias Focused Update 2025, ACC-AHA - Dyslipidemia Management 2026, Laukkanen - Sauna Bathing Cardiovascular Mortality 2018]
 cluster: cvd-risk-estimation
 confidence: high
 self_critiqued: 2026-08-06
@@ -14,8 +14,9 @@ relationships:
     - Surrogate Outcomes
     - Upgrading Observational Evidence
     - Measuring and Raising Cardiorespiratory Fitness
+    - Sauna Bathing and Cardiovascular Mortality
 created: 2026-07-26
-updated: 2026-08-06
+updated: 2026-11-02
 ---
 
 A risk model gives a number; a modifier is anything proposed to adjust it. ESC sets a bar that
@@ -211,6 +212,8 @@ evidence *«less extensive than it is for CAC»*.
 
 
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Limits
 
 - One guidance body. Whether other bodies set the same bar or endorse the same shortlist is **unprobed**
@@ -218,9 +221,11 @@ evidence *«less extensive than it is for CAC»*.
 - ESC's shortlist is a **2021** reading of a fast-moving imaging literature.
 - The reclassification statistics themselves (net reclassification index values, C-statistic changes)
   are cited to references not held here, so this page carries ESC's *verdicts* and not the evidence
-  behind them.
+  behind them. (Held papers outside ESC report such statistics for some candidates; one, for sauna
+  frequency, a lifestyle exposure ESC does not discuss, is read against the criteria in the last
+  section.)
 
-
+</div>
 
 ## A modifier that DID clear the bar — with a number and a grade `[2026-07-28, ESC chunk 03]`
 
@@ -249,6 +254,8 @@ This page records ESC's five criteria and its verdict that *«very few potential
 (*«Assessment of total CVD risk may be considered»*) — a recommendation to *assess*, not a multiplier.
 **The two should not be conflated:** rheumatoid arthritis gets a number, the broader category gets a
 prompt.
+
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Lp(a) crossed the bar — ESC's own 2021→2025 reversal, and ACC-AHA agrees `[2026-08-06]`
 
@@ -294,5 +301,51 @@ Lp(a) «should be measured at least once»; «considered as a risk-enhancing fac
 backing — no `[E-independent]`. The value here is **F/class-4**: a held single-body verdict is updated
 by that body's own newer cycle, and a second family lands on the same actionable mass threshold.
 [inferred from @esceas2025; @accaha2026]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
+
+## A lifestyle exposure proposed as a modifier — sauna frequency against the five criteria
+
+ESC never discusses sauna. One held cohort paper reports reclassification statistics for sauna-bathing
+frequency, and reading it against the five criteria shows how far an in-sample gain on criterion one
+gets a candidate.
+
+**What the paper reports.** In the KIHD cohort (1688 Finnish men and women aged 53-74, 181 fatal CVD
+deaths over a median 15 years), adding sauna-bathing frequency to a model of age, sex, systolic BP,
+diabetes, total cholesterol, HDL-C and smoking moved Harrell's C-index from 0.7716 (0.7382-0.8049) to
+0.7807 (0.7486-0.8128), a change of **0.0091 (0.0022-0.0160), P = 0.010**. The categorical net
+reclassification improvement over the first 10 years, using the paper's own 10-year CVD-mortality
+categories of <1%, 1 to <5% and >=5%, was **4.14% (1.30-6.97%), P = 0.004**; the IDI was 0.0037
+(0.0002-0.0072). The Discussion states: «Our new results show that addition of information on the
+frequency of sauna bathing improved the prediction and reclassification of the long-term risk for CVD
+mortality.» [@laukkanen2018sauna]
+These categories are not ESC's SCORE2 thresholds, which count fatal and non-fatal events and vary by
+age. [inferred from @esc2021]
+
+**Read against ESC's five criteria:**
+
+| ESC criterion | What the sauna paper offers |
+|---|---|
+| 1. Improves discrimination or reclassification | In-sample only, unvalidated: C-index +0.0091, NRI 4.14%, on mortality categories that are not ESC's decision thresholds |
+| 2. Public-health impact clear (NNS, net benefit) | Not reported |
+| 3. Feasible in daily practice | A cheap questionnaire item, but self-report the authors call prone to misclassification, and studied only in a population where nearly everyone uses a sauna |
+| 4. Risk information in both directions | Partly: the hazard ratios place once a week at the higher-risk end and frequent use at the lower-risk end, but only relative to each other, with no non-user comparator (the authors were «unable to assess» it); the NRI is not split into events and non-events, so how well the marker moves risk down as well as up is not shown |
+| 5. Literature free of publication bias | Cannot be judged: one cohort, one research group |
+
+[inferred from @laukkanen2018sauna]
+
+**Why criterion one is not enough here.** The C-index gain and NRI were estimated in the same data that
+fitted both models, and no external or internal validation is reported, so they are optimistic estimates
+of a marker's sorting power. They are also **surrogates for usefulness, not effects**: a marker can
+reclassify risk without anyone's risk changing, and the paper's hazard ratios, not its NRI, are what
+bear on sauna as a lever ([[Sauna Bathing and Cardiovascular Mortality]]). On criteria two and five the
+paper is silent or cannot speak, and on criterion four its evidence is partial. Sauna frequency is a
+continuous-ish ordinal marker, so by this page's rheumatoid-arthritis reasoning it does not sidestep the
+reassurance trap. It stays a *proposed* modifier that has not cleared the bar in the wiki's reading;
+ESC has taken no position on it. [inferred from @laukkanen2018sauna]
+
+</div>
 
 ## References

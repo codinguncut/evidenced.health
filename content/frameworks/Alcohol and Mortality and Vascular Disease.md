@@ -40,8 +40,6 @@ independent methods say the protection is largely not real.
   of all three diseases than non-drinkers or heavier drinkers.»
   [@millwood2019]
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## Why the lower arm is an artifact — two independent adjudications
 
 **1. Bias-corrected observational (Stockwell).** In the pooled covariate model, adjusting for the
@@ -91,8 +89,6 @@ not mainly caused by alcohol itself, and are largely artifacts of reverse causat
 Stockwell's: «low-volume alcohol consumption has no net mortality benefit compared with lifetime
 abstention or occasional drinking.»
 [@millwood2019]
-
-</div>
 
 ## Two independent methods, one conclusion `[E-independent]`
 

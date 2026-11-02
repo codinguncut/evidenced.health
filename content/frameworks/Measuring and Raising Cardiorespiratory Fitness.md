@@ -21,7 +21,6 @@ created: 2026-07-28
 updated: 2026-10-29
 self_critiqued: 2026-10-21
 ---
-<div class="recent-update" data-last-updated="2026-10-29">
 
 [[Cardiorespiratory Fitness and Mortality]] established that CRF **predicts** mortality — but, being
 cross-sectional and observational, it could not say CRF is a **lever** rather than a marker. This AHA
@@ -47,10 +46,6 @@ a route, not a grade change. [inferred from @oja1991walk]
 Marín-Jiménez 2023 (n=410, Spain) adds out-of-sample agreement and test-retest data for Oja's equation;
 it tests that equation rather than backing it independently, so it bounds the walk route's per-person
 error without changing the grade. [inferred from @marinjimenez2023walk]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Measure it — three tiers, and a cheap one that works
 
@@ -340,8 +335,6 @@ average offset of a walk estimate is not settled (low in Oja's groups, near zero
 and per person the 95% band is about ±3.6 METs, so a single walk can place someone in the wrong band.
 [inferred from @oja1991walk; @marinjimenez2023walk]
 
-</div>
-
 ## Raise it — the exercise dose → CRF response
 
 Meeting consensus physical-activity recommendations buys «≈10% improvement in CRF in previously
@@ -618,8 +611,6 @@ strength findings land on [[Menopause and the Shifting Levers]] (resistance is t
 
 
 [@ross2016]
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Does raising it help? — the modifiability evidence
 
 This is the partial answer to the nucleus's predictor-not-lever caveat. **Within-person CRF change** (a
@@ -680,9 +671,6 @@ bound the partial upgrade, and it is not held.
 
 
 [@ross2016]
-
-</div>
-
 ## CRF sharpens a risk estimate — but only if it reclassifies
 
 Adding CRF to a traditional risk model (age, BMI, SBP, diabetes, cholesterol, smoking) improves

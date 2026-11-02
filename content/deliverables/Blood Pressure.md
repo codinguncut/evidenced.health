@@ -55,8 +55,6 @@ updated: 2026-10-28
 self_critiqued: 2026-10-28
 concrete_subject_audited: 2026-10-28
 ---
-<div class="recent-page" data-last-updated="2026-10-28"></div>
-
 
 ## Lowering blood pressure prevents heart attacks and strokes, but how much it buys depends on your risk, not your reading
 

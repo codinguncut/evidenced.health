@@ -19,7 +19,6 @@ created: 2026-07-31
 updated: 2026-10-28
 self_critiqued: 2026-10-26
 ---
-<div class="recent-update" data-last-updated="2026-10-26">
 
 The WHO-commissioned SR+MA (Aburto 2013, BMJ) behind WHO's first potassium guideline -- the **potassium
 analog of the WHO sodium evidence**, and the electrolyte partner of [[Sodium Intake and Blood Pressure]].
@@ -29,8 +28,6 @@ in those without**, had «no significant adverse effect on renal function» in t
 potassium handling, and tracks a
 lower stroke risk -- while the harder CV endpoints stay null and underpowered.
 [@aburto2013]
-
-</div>
 
 ## The effect on blood pressure -- the HIGH-certainty core
 
@@ -262,8 +259,6 @@ contraindication. What would settle it: a within-trial randomized comparison of 
 supplement doses above 60 mmol/d, in treated hypertensives.
 [inferred from @filippini2020potassium]
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## Safety -- null on lipids/catecholamines/renal (HIGH), with one contraindication
 
 Aburto's novel contribution: the first systematic search for potassium's **adverse** effects. All null,
@@ -295,8 +290,6 @@ Fresh fruit, vegetables and pulses are the named sources; food processing strips
 intakes (<70-80 mmol/day in many countries) sit far below both the guideline and ancestral (>200
 mmol/day) levels. -> [[Plant Foods]]
 
-</div>
-
 ## The exposure measure is a recovery biomarker -- like sodium, unlike most of the corpus
 
 RCTs were **required to estimate intake from 24-hour urinary potassium excretion** (conversion factor
@@ -307,8 +300,6 @@ however, mostly used dietary recall (two were dropped in sensitivity analysis fo
 exposure, stroke RR held at 0.79). Full taxonomy and why this matters:
 [[Measurement Error in Dietary Assessment]].
 [inferred from @aburto2013]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Synthesis -- the electrolyte pair is one lever, not two independent witnesses
 
@@ -683,10 +674,6 @@ not magnitude. It is strongest **where potassium moves BP** (hypertensives); it 
 hard-outcome benefit in normotensives, where the BP effect is null.
 [inferred from @aburto2013]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## What is absent -- the gaps that drive the next source
 
 - **No absolute risk, no NNT** for stroke -- the RR 0.76 (0.79 in Table 2's LOW-graded row) cannot be ranked against another exposure in the
@@ -732,8 +719,6 @@ hard-outcome benefit in normotensives, where the BP effect is null.
   BP (explicitly deferred).
 
 [inferred from @aburto2013]
-
-</div>
 
 ## Limits
 

@@ -150,8 +150,6 @@ claim — see the distinction below).
 
 
 [@noetel2024exercise]
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Lever 1 — Exercise treats depression (RCT-grade, low certainty)
 
 A Bayesian network meta-analysis of **218 RCTs / 495 arms / 14,170 participants** with major depressive
@@ -236,10 +234,6 @@ is a capacity whose own lever, exercise, is already held on RCT evidence above (
 prevention), so the row mainly says
 low-fit adults (best-evidenced in men) are a higher-risk stratum and does not change the treatment reading.
 [inferred from @lang2024crf]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Lever 2 — Diet quality tracks lower depression incidence (observational, and fragile)
 
@@ -366,9 +360,6 @@ design also rules out expectancy bias.
 
 
 [@liao2019omega3]
-
-</div>
-
 ## Lever 3 — Omega-3 (EPA): treats symptoms, but does NOT prevent (the one BLINDED lever, smallest effect)
 
 A meta-analysis of **26 double-blind randomized placebo-controlled trials / 2160 participants** of omega-3

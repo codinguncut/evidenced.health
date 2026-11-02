@@ -24,7 +24,6 @@ relationships:
 created: 2026-07-28
 updated: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-27">
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
 a **drug for lipids** ([[Statins for Primary Prevention and the Power of Zero CAC]]), **lifestyle weight
@@ -41,9 +40,7 @@ as a distinct case: it is not one of the four sharing that question, and it reac
 a *different* mechanism — a proven relative benefit exactly cancelled by a proven bleeding harm — so it
 sharpens rather than repeats the pattern.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The four, on the one question
 
@@ -56,10 +53,6 @@ sharpens rather than repeats the pattern.
 
 Each per-page cross-source comparison already carries its own parameter table; this page **configures**
 those settled findings, it does not re-derive a magnitude.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## A fifth intervention sharpens the pattern — aspirin (added 2026-08-20)
 
@@ -81,8 +74,6 @@ high-risk, and diabetes strata alike (bleeding ARI >= CV ARR in every one)
 [@zheng2019aspirin]. So for aspirin, *even a
 higher-risk person is not rescued by route-(a)* — a stronger conclusion than the ceiling finding needs,
 and one the other four do not reach.
-
-</div>
 
 ## Why they converge — three shared mechanisms, not a coincidence
 
@@ -161,8 +152,6 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
   The pattern is a statement about the **low-risk tail**, where most of the wiki's healthy strata sit.
 
 
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## What tested it — and why the test sharpened rather than broke it
 
@@ -356,7 +345,5 @@ by a thin contrast, not the same mechanism. Aspirin adds a further class that
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
-
-</div>
 
 ## References

@@ -8,7 +8,7 @@ cluster: wim-hof
 nucleus: true
 confidence: low
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-11-02
 self_critiqued: 2026-09-23
 relationships:
   related_to:
@@ -60,6 +60,8 @@ and largely **one experimental paradigm** (human endotoxemia — injecting LPS/E
 watching the cytokine response). Nine papers reduce to a handful of independent tests. No independent
 group has replicated the endotoxemia result.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Evidence state by outcome — one surrogate signal, everything else mixed or insufficient
 
 The review separated outcomes into physiological (stress, inflammation, metabolites, respiratory,
@@ -71,7 +73,8 @@ non-trained showed TNF-alpha / IL-6 / IL-8 **53% / 57% / 51% lower** and **IL-10
 2022 directionally replicated in the cold+breathing arm (TNF p=0.03, IL-6 p=0.03, IL-8 p<0.001, IL-10
 p=0.02). Mechanism: WHBM raises epinephrine -> IL-10 up -> pro-inflammatory cytokines down. **But these
 are cytokine surrogates measured mostly inside an artificial LPS challenge, not clinical outcomes** —
-a surrogate within an experimental model, two steps from any patient-important endpoint (-> [[Surrogate Outcomes]]). [@almahayni2024]
+a surrogate within an experimental model, two steps from any patient-important endpoint
+(-> [[Surrogate Outcomes]]). [@almahayni2024]
 
 **Inflammatory disease activity (axial spondyloarthritis) — one proof-of-concept, mostly surrogate.**
 Buijze 2019 (n=19, 8-week add-on): ESR, median BASDAI, ASDAS-CRP and serum calprotectin declined
@@ -100,6 +103,8 @@ potentiated the immune response (IL-10 p<0.05, epinephrine p<0.01). [@almahayni2
 trial examined a hard endpoint or long-term outcome. This is the decision-relevant void: the whole
 evidence base is short-term surrogates in tiny samples.
 
+</div>
+
 ## Component decomposition — the breathing pillar drives the signal; cold alone is null [@almahayni2024]
 
 Unlike a whole-protocol black box, this SR partially dismantles WHM. In Zwaag 2022,
@@ -126,11 +131,11 @@ effect-magnitude comparison:
 
 | Lever | Best evidence design | Endpoint type | Hard endpoint? | Held grade |
 |---|---|---|---|---|
-| Sauna | 1 observational cohort (KIHD, n=2315 men) | mortality gradient | YES (one cohort) | low |
+| Sauna | 1 observational cohort (KIHD: 2315 men; a later analysis of 1688 men + women) | mortality gradient (frequency gradient detected in men; women insufficient evidence, not no effect) | YES (one cohort) | low |
 | CWI | 11 RCTs (n=3177), pooled SMDs | surrogate / self-report | no | low |
 | WHM | 8 tiny trials, no pooling, all high RoB | surrogate (endotoxemia cytokines) | no | low |
 
-Sauna alone reaches a hard endpoint (in one un-replicated stratum); CWI reaches RCT-level surrogates;
+Sauna alone reaches a hard endpoint (in one cohort, not independently replicated); CWI reaches RCT-level surrogates;
 WHM reaches only high-RoB surrogates with no pooled estimate. All three stay `confidence: low`, but
 for different reasons — and WHM is the one where even the surrogate evidence cannot be pooled.
 

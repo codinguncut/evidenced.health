@@ -102,8 +102,6 @@ trial usual physiotherapy including injections (Table 2).
   rather than the labelled difference — recurs in [[Is the Exercise Modality Doing Any Work]].
   [inferred from @smith2017painful]
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Who it transports to
 
 «One trial included low back pain,43 72 three included shoulder pain,47 52 70 71 two included Achilles
@@ -140,8 +138,6 @@ trials where participants had a diagnosis of more widespread pain disorders like
   ref 52), and review authors wrote two of the papers the review itself cites as proponents of
   exercising into pain (refs 37, 38); competing interests are declared none. [@smith2017painful]
   This does not change the numbers, but nothing in the corpus independently replicates them.
-
-</div>
 
 ## Decision relevance
 

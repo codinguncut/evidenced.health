@@ -37,7 +37,6 @@ created: 2026-07-29
 updated: 2026-10-28
 self_critiqued: 2026-10-27
 ---
-<div class="recent-update" data-last-updated="2026-10-27">
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
 is proven to reach primary prevention** (in BPLTTC's older, \~3%/yr-risk primary-prevention population;
@@ -49,10 +48,6 @@ vanish at lower baseline blood pressure. [@bplttc2021]
 The second is held less firmly in one corner, people without CVD in the lower two thirds of one trial's baseline SBP (143.5 mmHg or less at a baseline visit; the authors' \~140 tracks the upper third's mean usual SBP, not a converted boundary), where one
 prespecified within-trial test points the other way (*The intermediate-risk modern-drug trial* below)
 [inferred from @lonn2016hope3].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## The effect, and why its independence from baseline is the point
 
@@ -76,10 +71,6 @@ alone has a **directly proven relative benefit in primary prevention**, at an IP
 31.9 events per 1000 person-years); in the younger, untreated, low-risk stage-1 tail the direct trials are
 low-certainty and underpowered, so there the benefit is a transport of the relative effect, not a direct
 finding -> *The low-risk tail* below. [inferred from @wang2025mildhtn; @bplttc2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## But the ceiling's mechanism survives — treat on absolute risk, not a BP number
 
@@ -120,8 +111,6 @@ prescription: «Measures of absolute risk are better obtained from representativ
 then be combined with relative effects from our randomised comparisons to model population-specific
 absolute risk reductions». [@bplttc2021]
 
-</div>
-
 ## What it does not settle
 
 - **Not the target.** BPLTTC standardises to a *fixed 5 mmHg reduction* and shows a consistent *relative*
@@ -131,8 +120,6 @@ absolute risk reductions». [@bplttc2021]
   named as decision inputs but not quantified — *SPRINT supplies the harm side, below*.
 
 [@bplttc2021]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## SPRINT — the intensive-target trial that operationalises *treat on absolute risk*
 
@@ -154,10 +141,6 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
   [@sprint2015] So a lower target buys real
   events in the high-risk but at a real adverse-event cost — the target decision is a net-effect
   judgement, not *lower is always better*.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
 
 ## A refutation of the observational J-curve
 
@@ -187,10 +170,6 @@ significant trend, so it does not overturn BPLTTC's pooled no-modification findi
 of HOPE-3's lower two SBP thirds (143.5 mmHg or less at baseline, a tertile cut rather than a located
 threshold) is contested, not cleanly refuted. Detail and the parameter table: *The
 intermediate-risk modern-drug trial* below.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## A dietary BP-lowering route that reached hard outcomes — SSaSS `[2026-08-04, Neal]`
 
@@ -280,8 +259,6 @@ them [@brand2022lsss], on the mechanism that people with impaired
 urinary potassium excretion «can be at risk of hyperkalaemia» [@aburto2013].
 The trial evidence there is insufficient, not shown safe and not measured as harm.
 [inferred from @brand2022lsss]
-
-</div>
 
 ## Another lifestyle BP route — alcohol reduction, and the modelled-events gap made explicit `[2026-08-20, Roerecke]`
 
@@ -398,8 +375,6 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
@@ -455,8 +430,6 @@ a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), con
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
 
-</div>
-
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
 Landry's 2024 umbrella adds a diet-pattern BP lever: pooling 16 observational studies (Benatar),
@@ -491,8 +464,6 @@ supply) the yoga-specific SBP increment is not distinguishable from zero. It ear
 low-cost adjunct for someone who will actually do it, never as a substitute for salt reduction,
 medication, or structured exercise.
 [inferred from @geiger2025yoga; @bplttc2021]
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## A sixth route — garlic, a big clean surrogate mover with no hard-outcome warrant `[2026-09-25, weave: Ried + Ma]`
 
@@ -548,8 +519,6 @@ in the hypertensive stratum for someone who will take it, never as a substitute 
 endpoint.
 
 [inferred from @ried2008; @ma2025garlic; @naci2019exercise; @geiger2025yoga; @chaddha2019; @norouzzadeh2025nitrate; @qu2017urate; @neal2021; @lai2026salt; @bplttc2021]
-
-</div>
 
 ## Held levers that barely move SBP — fibre, whole grains, sweeteners
 
@@ -612,8 +581,6 @@ significant role in many of the studies.» [@who2023nonsugar]. So the
 short-term SBP question has a moderate-certainty null, and the long-term hypertension question stays
 open.
 [inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
-
-<div class="recent-update" data-last-updated="2026-10-27">
 
 ## The low-risk tail — direct trials of starting a drug in untreated mild hypertension `[2026-10-26, Wang]`
 
@@ -783,10 +750,6 @@ PREVEND IT (212), about 13% of participants [@wang2025mildhtn], but tolerability
   next section runs the parameter table on matched trials.
 - HOPE-3, the modern-drug primary-prevention trial Wang cites, is now held through its BP-arm report:
   *The intermediate-risk modern-drug trial* below.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
 
 ## The BPLTTC grade-1 pool Wang names as conflicting — Sundström `[2026-10-27, Sundström]`
 
@@ -1019,10 +982,6 @@ patients with uncomplicated grade 1 hyperten- sion would be an important additio
 but the likelihood that such a trial will be done seems small.»)
 [@sundstrom2015mildhtn] had not appeared by
 Wang's update (*Gaps* in the low-risk tail above).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
 
 ## The intermediate-risk modern-drug trial — HOPE-3 `[2026-10-27, Lonn]`
 
@@ -1273,10 +1232,6 @@ SBP (140.9) and 130-140 cannot be placed in a third. So the case rests on route 
 the person gives an unconfirmed SBP gradient
 [inferred from @lonn2016hope3; @bplttc2021].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## By age — 0.82 under 55, 0.91 from 55 to 84, 0.99 at 85+, one borderline interaction `[2026-10-27, Rahimi]`
 
 Rahimi and colleagues re-cut the BPLTTC dataset by age at entry: 51 trials, 358,707 people aged 21-105
@@ -1446,10 +1401,6 @@ transported
 [inferred from @rahimi2021bpage; @bplttc2021].
 Peters' dementia meta-analysis (above) is a different outcome and is not compared on this scale.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## Decision relevance
 
 
@@ -1544,10 +1495,6 @@ SBP-subgroup reading cannot place such a person reliably (the thirds were cut on
 and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-drug trial* above)
 [inferred from @lonn2016hope3; @bplttc2021].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-27">
-
 ## Limits
 
 - Trials 1972-2013 — older drug regimens and co-treatment; relative (not absolute) effects are the
@@ -1576,7 +1523,5 @@ and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-d
   rosuvastatin), so they may understate harm in an unselected population. BPLTTC's per-stratum HRs below 130 mmHg in people without CVD are
   image-only and not held, so the two cannot be compared stratum by stratum.
 - Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
-
-</div>
 
 ## References

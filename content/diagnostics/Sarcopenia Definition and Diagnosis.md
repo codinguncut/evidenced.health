@@ -21,7 +21,7 @@ relationships:
     - Frailty
     - Resistance Training for Sarcopenic Obesity
 created: 2026-08-04
-updated: 2026-10-06
+updated: 2026-11-02
 self_critiqued: 2026-10-04
 ---
 
@@ -122,6 +122,8 @@ healthy-young-adult reference, usually at **-2 SD** (-2.5 SD for a conservative 
 ease of use — «minor reduction in accuracy» accepted for usability. A threshold quoted here marks the
 edge of a reference distribution, not a knee in a dose-response curve.
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Categories
 
 [@cruzjentoft2019]
@@ -130,8 +132,8 @@ edge of a reference distribution, not a knee in a dose-response curve.
   inactivity, or **inadequate energy/protein intake**) — the secondary causes are the modifiable handle
   and name the levers: activity and protein -> [[Protein and Resistance Training for Muscle and Strength]].
   The protein handle is stratum-specific here: aging raises the per-meal protein/leucine threshold
-  ([[Anabolic Resistance]]), so the older-adult target (1.0-1.2 g/kg/d, \~25-30 g protein per meal) sits
-  above the general-adult RDA -> [[Protein Intake for Older Adults]].
+  ([[Anabolic Resistance]]), so the older-adult floor (PROT-AGE: at least 1.0-1.2 g/kg/d, \~25-30 g protein per meal) sits
+  above the general-adult RDA -> [[Protein Intake for Older Adults]] [inferred from @bauer2013].
 - **Acute** (<6 months, usually acute illness/injury) vs **chronic** (≥6 months, progressive, raises
   mortality risk) — newly introduced to motivate **periodic reassessment** so decline is caught early.
 - **Sarcopenic obesity** (reduced lean mass + excess adiposity; obesity worsens sarcopenia via fat
@@ -148,6 +150,8 @@ edge of a reference distribution, not a knee in a dose-response curve.
     to support a unified definition», so the `type-G` gap narrows but stands. The intervention evidence in
     this stratum lives on [[Resistance Training for Sarcopenic Obesity]] (RT -> fat-weighted body-composition
     + function gains; muscle-mass gain not shown).
+
+</div>
 
 ## Decision relevance
 

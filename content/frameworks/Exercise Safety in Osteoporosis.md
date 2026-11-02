@@ -20,8 +20,6 @@ relationships:
 created: 2026-08-27
 updated: 2026-10-29
 ---
-<div class="recent-page" data-last-updated="2026-10-29"></div>
-
 
 **The route-(c) contraindication question for exercise in the osteoporotic/osteopenic stratum.**
 The efficacy pages ask whether exercise prevents falls and fractures

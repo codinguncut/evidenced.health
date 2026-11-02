@@ -2,8 +2,8 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -313,12 +313,13 @@ maintenance vs surgery) -> [[Comparing Obesity Drugs]]. The number is a secondar
 not Nong's own analysis; held as Nong reporting West.
 [inferred from @nong2026obesity]
 
-<div class="recent-update" data-last-updated="2026-10-29">
+<div class="recent-update" data-last-updated="2026-11-02">
 
-## Self-weighing as a maintenance tool — not tested in the held trials (Madigan 2015)
+## Self-weighing as a maintenance tool — one quasi-randomised trial, held secondhand (Madigan 2015, Zheng 2014)
 
 *Added 2026-10-29.* Whether regular self-weighing helps keep weight off is a separate question from
-whether it helps weight loss. The one held review of self-weighing RCTs cannot test that use, because it excluded maintenance trials by design:
+whether it helps weight loss. The one held pooled review of self-weighing RCTs cannot test that use, because it excluded maintenance
+trials by design:
 «Trials were excluded if they enrolled people after weight loss where the prime aim of the
 intervention was to prevent weight regain or trials that enrolled people that aimed to help prevent
 gradual weight gain.» [@madigan2015weigh]
@@ -328,7 +329,8 @@ What it does report on durability is thin. Three weight-loss trials, of three di
 types, followed people after the last contact. Two of the three found differences whose intervals exclude
 zero (-8.0 kg, -12.5 to -3.5, about 18 months after; -7.5 kg, -11.3 to -3.7, nine months after), the
 third -0.3 kg after a single session; pooled across 185 people -5.5 kg with a printed interval of
--11.4 to 4.7 and I² 86%. Mixed comparison types and three small trials do not establish durability. The maintenance associations it cites are
+-11.4 to 4.7 (lopsided around -5.5, and Table 3 prints P = 0.04 beside it, so the interval or the P
+is probably misprinted) and I² 86%. Mixed comparison types and three small trials do not establish durability. The maintenance associations it cites are
 observational, and the authors lean toward them: «Additionally because self-weighing is less
 cumbersome than recording diet and physical activity it might be a behaviour that can be continued and
 therefore help weight control in the longer term. The National Weight Control Registry has found that
@@ -340,11 +342,30 @@ themselves frequently, which makes observational data difficult to interpret [49
 [@madigan2015weigh]
 
 [inferred from @madigan2015weigh] So for the stratum maintaining a
-loss, self-weighing is **insufficient evidence** in the held fabric, not no effect: the trials that would
+loss, self-weighing was **insufficient evidence** in the held fabric before Zheng (state revised
+2026-10-29 to one low-certainty estimate, below), not no effect: the trials that would
 test it were outside this review's scope, and the observational signal points the authors' way but
 carries the motivation and reverse-causation alternatives their own caveat names. The low cost of a scale makes trying it
-reasonable; the held evidence gives no maintenance magnitude. — closes when a review pooling
+reasonable; the held evidence gives no maintenance magnitude (superseded in part 2026-10-29: one
+quasi-randomised estimate is now held secondhand, below). — closes when a review pooling
 maintenance-phase self-weighing trials is held.
+
+**Updated 2026-10-29 (Zheng 2014).** A second review, with no reported pooled value, that did include maintenance studies
+reports one trial in which weighing was the intervention. People who had recently lost weight were
+offered free scales, two phone calls and encouragement to weigh weekly (3290 people), against no
+maintenance intervention (478); over 12 months they regained 1.23 ± 5.8 kg vs 1.83 kg (printed
+«1.83-5.5 kg»), and «Adjusting for covariates resulted in a mean difference of 0.68 kg (95% CI:
+0.12-1.24) at 12-mo follow-up.» The trial was quasi-randomised (the reference title says so), and the
+arms differed at baseline (86.7% vs 68.0% women). The review's other regain findings are
+associations inside trials (STOP Regain: daily weighing with a lower risk of regaining 2.3 kg or more;
+Funk: weight entries with less regain; Sherwood 2006: less frequent weighing with weight gain), plus
+Keep It Off, where randomisation to a guided programme raised daily weighing (OR 1.97, 1.31 to 2.99)
+with no weight result in the row. The review reports no quality appraisal.
+[@zheng2014weigh]
+[inferred from @zheng2014weigh] That moves maintenance from *no held trial estimate* to *one small, imprecise estimate*:
+about 0.7 kg less regain over a year, against a control-arm regain of about 1.8 kg. The primary trial is not held and no pooled estimate exists in the fabric, so the
+AWAITS above stays open. The estimate belongs to the package (scales, two calls, a record card), not
+the scale alone; the row does not say how weight was measured.
 
 **Not the same quantity as Franz's advice-alone row.** Before reading Madigan's scale-alone trial as
 support for Franz's *advice alone: minimal at any timepoint*:
@@ -409,7 +430,7 @@ neither corroborate nor contradict each other; each stands on its own.
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
-<div class="recent-update" data-last-updated="2026-10-29">
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Synthesis
 
@@ -425,9 +446,12 @@ independent 6-month-peak-then-regain shape. The **causal mechanism** (that hormo
 regain) stays weak: one small uncontrolled VLCD study carries it, and the causal step to regain plus the
 generalization past VLCD are both inferred, not held. The dated drug arm (Franz's orlistat/sibutramine)
 does not transport to the current GLP-1 era. *Added 2026-10-29:* the behavioural-tool limb is also
-thin. Self-weighing is cheap but has no held maintenance-trial estimate; the held review
-excluded those trials, and the observational associations it cites carry the authors' own
-reverse-causation caveat on one of them (section above). [inferred from @madigan2015weigh]
+thin. Self-weighing is cheap, and its one held maintenance-trial estimate (quasi-randomised, via Zheng
+2014, for a package of scales, two calls and a record card; corrected the same day from *no held estimate*) is about 0.7 kg less regain over 12 months
+(0.12 to 1.24); the pooled review excluded maintenance trials, and the observational associations
+both reviews cite carry the reverse-causation problem Madigan's caveat names (section above). Against
+the defended-weight headwind this page describes, that is a small prop, not a structural one.
+[inferred from @madigan2015weigh; @zheng2014weigh]
 
 </div>
 

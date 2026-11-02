@@ -286,8 +286,6 @@ pooled set, different ascertainment mix — so the comparison bounds and re-grad
   Commission's air-pollution PAF slice; it neither overturns the life-course model nor displaces the
   cardiometabolic big rocks.
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## The physical-activity number, de-secondhanded (F-refinement, 2026-09-04)
 
 The *physical inactivity* cell above carries the Commission's *borrowed* activity figure — RR 0.80
@@ -410,8 +408,6 @@ cell cannot carry.
   could each contribute, and this cell cannot separate them. Held as a prognostic marker
   (-> [[Cardiorespiratory Fitness and Mortality]]), best-evidenced in men, not as a second estimate of
   the activity lever. [inferred from @lang2024crf]
-
-</div>
 
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 

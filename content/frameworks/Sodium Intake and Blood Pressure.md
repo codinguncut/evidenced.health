@@ -21,12 +21,9 @@ created: 2026-07-26
 updated: 2026-10-28
 self_critiqued: 2026-10-26
 ---
-<div class="recent-update" data-last-updated="2026-10-26">
 
 **Nucleus of the `sodium-bp` cluster.** WHO 2012, all recommendations **strong**.
 The word *conditional* does not appear in the document.
-
-</div>
 
 ## The recommendations
 
@@ -86,8 +83,6 @@ itself:
 > disease, stroke and coronary heart disease was of lower quality. Therefore, these recommendations
 > should be reviewed when more evidence... becomes available."
 [@who2012]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The published RCT meta-analysis behind the effect `[2026-07-31, He 2013]`
 
@@ -266,10 +261,6 @@ He/MacGregor lineage — a body line, not a `sources:`-padding independent backi
 rising at a larger contrast, including in its >=7-day subgroup — and the two lipid estimates turn out to
 be numerically compatible.
 [inferred from @graudal2020sodium; @he2013]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The opposing Cochrane review — same hypertensive BP effect, a compensation arm the other lineage reads as transient `[2026-10-22, Graudal 2020]`
 
@@ -505,8 +496,6 @@ carrying only refs 40-41 (renin's prognostic importance); by context it presumab
 &gt;=4-week subgroup (ref 33, not held), so the persistence claim cannot be checked here [@who2012].
 [inferred from @who2012; @graudal2020sodium]
 
-</div>
-
 ## How the gap is bridged — a disclosed surrogate transfer
 
 The bridge is explicit, and it is the guideline's most consequential methodological act:
@@ -570,8 +559,6 @@ By **baseline intake**, point estimates rise monotonically with intake (1.79 -> 
 is "independent of baseline sodium intake." **A monotone gradient declared absent on a non-significant
 interaction test is a claim about power as much as about biology.**
 [inferred from @who2012]
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The J-curve — named as the reason for the review, then never adjudicated
 
@@ -651,10 +638,6 @@ runs the confounder-immune adjudication.** GBD corroborates *unprobed, not dispr
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
 
 This page's central gap was that **hard outcomes sit at very low certainty** (all cohort evidence, the
@@ -718,10 +701,6 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
 
 ## Salt substitutes pooled — the hard-outcome benefit is mostly one trial's, with no mortality evidence from outside China `[2026-10-26, Lai]`
 
@@ -997,10 +976,6 @@ subgroup supports the BP part of it, on 693 people.
   point to the same 126 hypertensive participants entering the BP pool twice; whether Lai de-duplicated
   them is in the unheld supplement), not a finding against it.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
 
 The gap this page kept flagging — *nobody measures the low arm directly on hard outcomes* — is now
@@ -1061,10 +1036,6 @@ contaminated**, and the study cannot separate those. This is why the WHO/He surr
 g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Population-Wide or Targeted]].
 [inferred from @mente2016pure]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## What is absent (from WHO 2012)
 
 *Absolute effects are now held for salt substitutes (see the Lai and Brand sections above, both on
@@ -1093,8 +1064,6 @@ assumed or borrowed baselines); the list below is what WHO 2012 itself lacks.*
   sea/Himalayan salt is healthier makes worth stating.
 
 [inferred from @who2012]
-
-</div>
 
 ## Salt type does not change the sodium — sea and Himalayan salt carry the same BP burden `[2026-09-25, belief-harvest run 17 B2]`
 

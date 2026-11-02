@@ -32,8 +32,6 @@ Two gold SR-MAs, read together, answer the decision-relevant question no single 
 **both a potent prognostic marker AND a modifiable target** — so it is a *lever*, not merely a
 risk-stratifier.
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The emergent claim — prognosis + modifiability = a lever, not a fate
 
 [inferred from @vermeiren2016frailty; @racey2021frailtypa]
@@ -48,10 +46,6 @@ ADL, quality of life, cognition and frailty status moved, falls were not signifi
 (detail below). This is what a RAG over either
 paper alone misses — Vermeiren reads as "frailty is bad prognosis," Racey as "exercise helps the frail";
 the *act-on-it* conclusion is the composite.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## What frailty predicts (Vermeiren — prognostic leg, observational)
 
@@ -81,10 +75,6 @@ the source's overall estimates pool frail-vs-robust and prefrail-vs-robust contr
 - **Prognosis, not cause.** These are observational associations, maximally adjusted (age/sex/baseline
   health) but confounded, with high heterogeneity (I2 95-98% for mortality). Frailty here is a *risk
   marker*; the causal test is the intervention leg.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Frailty is modifiable (Racey — intervention leg, RCT/GRADE)
 
@@ -140,10 +130,6 @@ subgroup, the low start is a floor to progress from, not a ceiling.
 -> [[Resistance Training Prescription - Load Sets and Frequency]]
 [inferred from @radaelli2024rtvol; @racey2021frailtypa]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Reconciliation — target the measurable COMPONENTS, read "frailty" as the composite that moves
 
 [inferred from @racey2021frailtypa]
@@ -156,10 +142,6 @@ definitions — directly corroborates the "too ill-defined" concern. So: **train
 components; frailty-status improvement is the down-stream composite that follows, but is measured too
 rarely/inconsistently to serve as the primary endpoint.** The RR 0.58 frailty-reversal figure rests on
 a thin 4-study base and should be read with that caveat, not as a robust treat-to-target number.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Stratification and decision relevance
 
@@ -243,8 +225,6 @@ a thin 4-study base and should be read with that caveat, not as a robust treat-t
   the authors name to address it is ATEMPT (multimorbid, polymedicated)
   [@rahimi2021bpage]; no result is held. Detail:
   [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
-
-</div>
 
 ## Limits — the open loop
 

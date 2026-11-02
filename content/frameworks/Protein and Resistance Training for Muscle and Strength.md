@@ -23,7 +23,7 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-09-08
+updated: 2026-11-02
 self_critiqued: 2026-09-08
 ---
 
@@ -344,18 +344,25 @@ adequate, *when* it is eaten is not a lever worth optimizing.
 
 
 [@morton2018]
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Who it helps more, and who less
 
 - **Reduced with age:** «reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002)» — older adults
-  gain less lean mass from the *supplement* (their training still works; the added protein does less).
+  gained less lean mass from the *supplement* (their training still works), in trials that supplemented
+  them less; Morton reads this as a possibly higher need, not a lower one (quoted on
+  [[Protein Intake for Older Adults]]).
 - **Greater in the already-trained:** «more effective in resistance-trained individuals (0.75 kg (0.09,
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-02">
 
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
-Morton's age covariate (the *supplement* effect «reduced with increasing age», above) reaches its
-end-point in a meta-analysis built *only* on older adults. Choi 2021 (high-tier MA, 22 RCTs) pooled trials
+Morton's age covariate (the *supplement* effect «reduced with increasing age», above, in trials that
+supplemented older people less) is followed here by a meta-analysis built *only* on older adults. Choi 2021 (high-tier MA, 22 RCTs) pooled trials
 that compared **resistance training + a nutritional intervention against resistance training alone** in
 «healthy community-dwelling older adults», and found the added nutrition bought nothing on any outcome
 family: «The results of the meta-analysis showed no significant differences between groups in muscle mass,
@@ -371,9 +378,11 @@ muscle strength, or physical functional performance.»
   a within-arm signal on a small set, not a demonstrated superiority over protein. It aligns with the
   separate creatine evidence base -> [[Creatine Supplementation]], but does not by itself settle it.
 - **This EXTENDS Morton, it does not contradict it.** Morton's protein effect (+0.30 kg FFM) was measured
-  in a mostly-young sample and *decays with age* by his own covariate; Choi is the older-adult end-state
-  where the added-nutrition effect has decayed to null. Same *added effect over training*, different
-  stratum along one continuous age gradient — a refinement, not a clash.
+  in a mostly-young sample and was smaller in older trials, which supplemented less; Choi, in older adults
+  only, found no added effect of nutrition of any kind except creatine on lean mass, and age did not
+  predict outcomes in its meta-regression. Both see a small or null *added effect over training* in older
+  adults; neither separates age from dose or intervention type, so together they do not show that older
+  adults need less protein, or more.
 - **Choi's own reading is a ceiling in the nutrient-replete — and it PREDICTS the sarcopenic exception.**
   He reads the null as headroom: «despite the nonsignificant results, nutritional interventions may still
   be beneficial for older adults who do not lack nutrients.» And he flags the stratum where it should bite
@@ -385,6 +394,7 @@ muscle strength, or physical functional performance.»
   whole lever and added protein/co-supplements do little; the deficient or diagnosed-sarcopenic are the
   stratum where nutrition might still add** (the sarcopenic case is taken up below).
 
+</div>
 
 ## The sarcopenic exception — where nutrition may still add (grip, not mass)
 
@@ -481,6 +491,8 @@ option for confirmed hypogonadism, not a substitute for the training. (No head-t
 held — this is an evidence-weighting judgment, not a trial result.)
 
 
+<div class="recent-update" data-last-updated="2026-11-02">
+
 ## Decision relevance
 
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — around there the
@@ -496,7 +508,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
     change GFR in adults without CKD, now source-backed -> [[Protein Intake and Kidney Function]]) — so aim the upper end of the CI
     plus a margin. The up-bias has a ceiling (\~2.0-2.2 is well-supported; beyond it the evidence thins and
     the practical costs of displacement, satiety and expense rise), and it shifts *higher* in an energy
-    deficit or older age (to protect lean mass). The one stratum flip is **pre-existing renal disease**
+    deficit (to protect lean mass). For older adults \~1.6 itself is untested and the floor is PROT-AGE's
+    at least 1.2 g/kg/d -> [[Protein Intake for Older Adults]]. The one stratum flip is **pre-existing renal disease**
     (eGFR <30 / CKD), where high protein is a contraindication, not a cheap overshoot
     -> [[Protein Intake and Kidney Function]]. — the CI is Morton's
     (extracted above); the region-not-point reading and the directional bias are the wiki's, via
@@ -522,27 +535,30 @@ held — this is an evidence-weighting judgment, not a trial result.)
   adjunct on surrogates, and creatine monohydrate (3-5 g/day) is the cheap, best-evidenced form.
 
 - **Age and training status modulate it**, not whether to do it: a 46-year-old sits near the age boundary
-  (Morton splits at 45) where the supplement's edge is modestly reduced but the training's is not.
+  (Morton splits at 45) where the supplement's measured edge is modestly reduced (older trials supplemented less) but the
+  training's is not.
 - **The over-65 stratum has its own target — a different decision, not a contradiction.** This page's
   \~1.6 g/kg/d is the *hypertrophy-during-RT* number for healthy adults; the older-adult *maintenance*
-  target is 1.0-1.2 g/kg/d (1.2-1.5 in illness), set to overcome [[Anabolic Resistance]] with a raised
-  per-meal threshold (\~25-30 g protein / 2.5-2.8 g leucine per meal) -> [[Protein Intake for Older Adults]].
-  Same unit (g/kg/d), different objective and population — a ladder by goal, so an older adult *training
-  for hypertrophy* aims high while one merely *maintaining* aims 1.0-1.2. The per-meal figures are a
+  floor is at least 1.0-1.2 g/kg/d (PROT-AGE states this as a minimum; 1.2-1.5 in illness), set to overcome [[Anabolic Resistance]] with a raised
+  per-meal threshold (\~25-30 g protein per meal; the 2.5-2.8 g leucine figure is that dose's leucine content, and PROT-AGE calls the evidence on quality not yet sufficient for specific recommendations) -> [[Protein Intake for Older Adults]].
+  Same unit (g/kg/d), different objective and population: PROT-AGE's floor for an older adult who
+  exercises is at least 1.2, and for one not exercising at least 1.0-1.2. The per-meal figures are a
   different denominator again (the commensurability table lives on that page). — the
   distinction and the ladder reading are the wiki's; the 1.6 is Morton (above), the 1.0-1.2 is Bauer
   (extracted on the linked page).
-  - **The young 1.62 does NOT transport UP to older adults — it is a weak, young-population anchor.**
+  - **The young 1.62 does not transport to older adults, as a floor or as a ceiling — it is a weak, young-population anchor.**
     The break-point is statistically non-significant even in the largely-young pooled sample (p=0.079,
     above), and the supplement's own effect is «reduced with increasing age (−0.01 kg (−0.02,–0.00),
-    p=0.002)» [@morton2018] — the
-    number was measured where the effect is *strongest* and decays with age. So for an older adult \~1.6
-    is a **floor, not a ceiling**: [[Anabolic Resistance]] means old muscle needs at least as much,
-    plausibly *more per anabolic stimulus*, so a non-significant young knee is no reason to aim low in
-    the old. The older-stratum target proper comes from a different evidence base (PROT-AGE 1.0-1.2 g/kg
+    p=0.002)» [@morton2018]; the
+    older trials supplemented about half as much, and Morton reads the age result as a higher need in
+    older people, framed as speculation (quoted on [[Protein Intake for Older Adults]]). Choi's
+    older-adult meta-analysis (above) found no added benefit of a nutritional intervention on top of
+    training (creatine on lean mass the one exception), with mean age not associated with the outcomes. So \~1.6 is untested in older adults,
+    and the held evidence does not settle whether they need more or less. [[Anabolic Resistance]] is PROT-AGE's reason for its raised
+    floors, not a trial result showing that older trainees need more than \~1.6. The older-stratum target proper comes from a different evidence base (PROT-AGE at least 1.0-1.2 g/kg
     maintenance, 1.2-1.5 in illness, plus a raised \~25-30 g per-meal threshold to clear anabolic
-    resistance) -> [[Protein Intake for Older Adults]]. The honest object is a **direction + a floor,
-    not a point optimum** -> [[The Underivable Optimum]].
+    resistance) -> [[Protein Intake for Older Adults]]. The honest object is a **floor, not a point optimum**
+    -> [[The Underivable Optimum]].
 - ***From what age is resistance training essential rather than nice-to-have?*** is the wrong axis — it is
   a lifelong lever with no on/off age.** Its mortality/CVD benefit runs across adulthood at a small dose
   ([[Muscle-Strengthening Activity and Mortality]]); what rises with age is its *priority*, because muscle
@@ -577,6 +593,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
     window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
+
+</div>
 
 ## Limits
 

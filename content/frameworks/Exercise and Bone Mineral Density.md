@@ -54,8 +54,6 @@ classified as moderate at best (i.e., 0.2 to 0.5)»
 So the honest headline is a **small positive standardized effect on a surrogate**, best-evidenced and
 cleanest at the total hip, and weakest (noisiest, most bias-suspect) at the lumbar spine.
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## No significant moderator — no modification shown on the *for whom* question
 
 The update's stated purpose was to find **effect modification** — who benefits more. It found none.
@@ -85,10 +83,6 @@ between the bone- or menopause-status cohorts:
 The null is still **absence of shown modification, not evidence of no modification**: these are
 between-study subgroup comparisons, not within-trial tests. So the default is *not to personalize*
 on these axes, held as a default rather than a settled null.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The load-bearing limit: BMD is a SURROGATE, and transmission to fracture is not shown here
 
@@ -157,10 +151,6 @@ It measures the patient-important fracture outcome directly, but for **mixed** e
 being from the **same group**, it refines rather than independently corroborates.
 [inferred from @hoffmann2022]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The fracture endpoint is now held: exercise reduces major osteoporotic fractures (type-F)
 
 Hoffmann 2022 measures the patient-important outcome directly, the one the BMD above is a surrogate
@@ -221,9 +211,6 @@ through the BMD-independent falls channel.
   to separate*. On the fracture leg these are **protocol questions that remain unresolved**
   (between-study; power moderate at best by the authors' account), not a route-(b) stratum null.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The supervision discordance — null on the surrogate, a second-hand fracture signal
 
@@ -245,10 +232,6 @@ corroboration; and the held Hoffmann fracture SR does not test supervision.
 So a program feature that is **null on the BMD surrogate** may still bear on the **patient-important
 outcome** (adherence, dose fidelity, safety) — a caution against reading *no BMD difference* as *no
 decision difference*. [inferred from @mohebbi2023]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Confidence, and the non-independence caveat
 
@@ -293,8 +276,6 @@ confidence. The wiki holds **no independent research group's** exercise-BMD *or*
 meta-analysis yet — a genuine robustness gap for both the surrogate effect and its outcome
 confirmation.
 
-</div>
-
 ## The author's own verdict on meta-analytic precision here
 
 Notably, the source itself doubts that pooling delivers a prescription: «their practical application
@@ -304,8 +285,6 @@ The high between-trial heterogeneity means the *mean* SMD hides wide variation i
 protocols achieve — the pooled number says exercise-in-general nudges BMD, not which program a
 person should do. The load/impact/dose specifics live in the programming frontier
 ([[Resistance Training Prescription - Load Sets and Frequency]]), kept peripheral by Layer-1.
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Creatine adds no BMD benefit *shown* to loading (bounds the supplement space)
 
@@ -331,10 +310,6 @@ protocols showed positive signals
 trial measured **fracture**
 [inferred from @forbes2018creatine]. Full appraisal:
 [[Creatine Supplementation]] (Bone leg).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Decision relevance
 
@@ -392,7 +367,5 @@ trial measured **fracture**
   bone-stress risk — while a *high-mass* obese novice loads the skeleton heavily and plausibly has higher
   BMD, shifting their binding injury constraint to soft tissue/joint rather than bone. Same mechanism,
   opposite stratum conclusions.
-
-</div>
 
 ## References

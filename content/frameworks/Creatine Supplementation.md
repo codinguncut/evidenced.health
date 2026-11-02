@@ -90,8 +90,6 @@ similar conclusions» [@kreider2017].
   a repletion-vs-enhancement gradient (route (a)/(b)) analogous to the deficiency structure on
   [[Deficiency Repletion vs Enhancement]], though here on a surrogate, not a hard outcome.
 
-<div class="recent-update" data-last-updated="2026-10-26">
-
 ## Safety — the decision-relevant finding, and the creatinine trap
 
 The safety profile is the part of this document with the widest evidence base, and it directly answers a
@@ -123,8 +121,6 @@ negatively affects renal function in healthy or clinical populations»
 - **Symmetric-standards caveat:** the safety conclusion is stated by an industry-funded body with an
   interest in it; it rests on a genuinely large literature, but a favourable safety claim from a conflicted
   source earns the same scrutiny as an unfavourable one (see *The source caveat*).
-
-</div>
 
 ## The unestablished claims — kept out of the benefit column
 

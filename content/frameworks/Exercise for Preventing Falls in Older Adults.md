@@ -24,17 +24,12 @@ created: 2026-08-05
 updated: 2026-10-29
 self_critiqued: 2026-10-28
 ---
-<div class="recent-update" data-last-updated="2026-10-28">
 
 The nucleus of the **falls / fracture-prevention** cluster — a large, high-lever, patient-important
 outcome for the older stratum that was previously a named-but-empty gap. Falls are not a surrogate:
 at least one-third of community-dwelling people over 65 fall each year, and fall-related fracture
 (hip above all) is a direct driver of loss of independence and death. Anchor source: one gold-tier
 Cochrane SR, 108 RCTs / 23,407 participants, mean age 76 [@sherrington2019].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The headline — exercise prevents falls in community-dwelling older adults, and this is HIGH-certainty
 
@@ -68,10 +63,6 @@ removal of the trials with a high risk of bias on one or more items.»
 [@sherrington2019] (corrected 2026-10-06: *so
 non-blinding did not downgrade it* -> the source's risk-of-bias wording; self-critique). Contrast the physical-activity
 *mortality* evidence, which is observational and far softer -> [[Physical Activity Dose and Mortality]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Which exercise — the decision is NOT *exercise*, it is *balance work, at enough dose*
 
@@ -162,10 +153,6 @@ say they are «un- certain of the findings» (an increase of 14% and 34% in fall
     So the substitution warning stands (walking cannot replace balance work), while walking included in
     a programme shows no detectable between-trial difference either way. [inferred from @sherrington2017falls; @sherrington2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Fractures and injurious falls — the leg to the bone side, honestly lower-certainty
 
 The outcomes people most fear are the worst-measured (streetlight effect on the outcome side)
@@ -197,8 +184,6 @@ structurally blind to the falls channel, so BMD *under*-reads exercise's fractur
 small BMD gain does not itself guarantee a fracture reduction ([[Surrogate Outcomes]]). Frame the
 recommendation on the composite of both channels, not on either number alone.
 [inferred from @sherrington2019]
-
-</div>
 
 ## The other leg — vitamin D / calcium supplements do NOT prevent fractures in the community-dwelling
 
@@ -238,8 +223,6 @@ lever is the movement one, reversing the common intuition that the pill is the b
 Supplementation earns its place only in the confirmed-deficient / institutionalized / osteoporotic stratum
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
-
-<div class="recent-update" data-last-updated="2026-10-29">
 
 ## Who, and how much — the stratification
 
@@ -318,10 +301,6 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
     Cochrane search ended in November 2015, so the 2019 Sherrington review is not in its pool, but trials from earlier editions of that Cochrane
     series probably are; the two are therefore not independent confirmation.
     [inferred from @niemeijer2020]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Dose and programme design — the between-trial meta-regression (Sherrington 2017)
 
@@ -444,10 +423,6 @@ To reach the dose, «In situations with resource constraints, group exercise pro
 supple- mented with home exercise to achieve a higher dose of overall exercise»; the coded dose already counts prescribed home exercise
 [@sherrington2017falls].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Beyond the general community — residential care and clinical populations (Sherrington 2017)
 
 The Cochrane review covered people «living in the community» and excluded trials «focused on particular
@@ -508,10 +483,6 @@ older population (very low- certainty evidence).» [@sherrington2019]
   [@sherrington2017falls]
   [inferred from @sherrington2017falls] -> [[Frailty]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Ranking the intervention TYPES against each other — the NMA verdict (Pillay 2024)
 
 Sherrington ranks *exercise types*; it does not rank exercise against the whole menu of fall-prevention
@@ -566,8 +537,6 @@ structured-exercise focus** [@pillay2024falls]. The ordering confirms and sharpe
   That is insufficient evidence of benefit plus a harm signal, not a demonstrated null. It reinforces the
   *walk-more is not fall-prevention advice* substitution above, from a second synthesis (largely
   overlapping trials).
-
-</div>
 
 ## Two interventions that INCREASED falls — harm at the type level
 
@@ -642,8 +611,6 @@ individual rather than group sessions when feasible may be most acceptable»
 [@pillay2024falls]. Group
 delivery remains a legitimate, effective, lower-resource option. [inferred from @pillay2024falls]
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Guidance proximity — where this sits against the guidance set
 
 These reviews are *inputs to guidance*, which sharpens the guidance-null test. They fed the **CTFPHC** and
@@ -706,10 +673,6 @@ Sherrington's included trials. The agreement is attribution, not type-E.
 [@garber2011acsm]
 [@sherrington2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Where this sits in the ranking
 
 For the functionally-drifting or at-risk community-dwelling older adult, this is a **big rock**: a large effect on a
@@ -718,8 +681,6 @@ intervention. It is the strongest outcome class the activity evidence carries fo
 -> [[Physical Activity Dose and Mortality]]. The loop stays open: no operation here grades this against a
 realised outcome, and *appraise, do not prescribe* binds — programme selection, progression and
 fall-risk titration in a specific person are prescriber/coaching acts. [inferred from @sherrington2019]
-
-</div>
 
 ## Caveat — the HIGH-certainty result is for the GENERAL older adult, not the already-frail
 

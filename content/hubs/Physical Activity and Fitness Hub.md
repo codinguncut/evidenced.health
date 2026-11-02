@@ -40,8 +40,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   breast cancer (RR 0.99, 0.95-1.03), overturning a case-control-driven prior and the IARC 2A *probable
   carcinogen* reading (MEDIUM confidence; a symmetric-standards counterweight)
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Cardiorespiratory fitness — marker and lever
 
 - [[Cardiorespiratory Fitness and Mortality]] — how strongly VO2max predicts mortality and incident
@@ -64,8 +62,6 @@ whether raising them helps, and whether the energy spent on exercise is offset b
   raise VO2max and lower LDL-C, concentrated in the inactive; body composition does not move; evidence is
   surrogate-only over <=12 weeks, so a floor-above-nothing entry lever, not a demonstrated substitute for
   the full activity dose (the authors call it a complement, not a replacement)
-
-</div>
 
 ## The economics of exertion
 

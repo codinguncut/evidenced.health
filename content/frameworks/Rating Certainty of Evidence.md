@@ -438,8 +438,6 @@ distinguish them. `-> [[Was GRADE Actually Used]]`
   this session, all self-inflicted; the checker continues to outperform care.
 - **Adjudication check:** no challenge or standing-challenge row scored in this pass.
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## How the study-level risk-of-bias verdict FEEDS this domain — the crosswalk `[2026-07-31]`
 
 The "risk of bias (study limitations)" downgrade factor above is stated but not operationalized: *how*
@@ -505,8 +503,6 @@ applied to a question the authors also treat causally. A
 one label, and borrowing the first as support for acting on the exposure skips the penalty the
 intervention question would have carried -> [[Cardiorespiratory Fitness and Mortality]].
 [inferred from @lang2024crf]
-
-</div>
 
 ## GRADE's eight factors are embedded in the IOM SR standard — shared lineage, not corroboration `[2026-07-31, IOM]`
 

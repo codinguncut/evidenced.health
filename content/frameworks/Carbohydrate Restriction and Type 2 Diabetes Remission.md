@@ -22,8 +22,6 @@ BMJ 2021, 23 RCTs, n=1357, including unpublished data from five trials. Low-carb
 broader reviews such as Naude 2022.
 [@naude2022]
 
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The answer depends entirely on what "remission" means
 
 | Definition | 6 months | 12 months |
@@ -72,10 +70,6 @@ design-selected set. Goldenberg ties the shrinkage to medication permission: «F
 That 7 matches the count for the separate medication-reduction outcome (7 studies at six months, Table 3),
 not the 5-trial remission row.
 [inferred from @goldenberg2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Most benefits attenuate by 12 months — but not all
 
@@ -127,10 +121,6 @@ medication permitted, the insulin split gives 0.51 vs 0.14 and the trial-length 
 partitions of the pool are not identical. The paper's supplementary tables would settle it; the wiki does not
 hold them.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Medication is handled four ways at once, and this is the transferable move
 
 Not adjusted for -- **co-reported**. The review's stated reasoning:
@@ -152,9 +142,6 @@ trials permitted it and reported usable data, so the bias is trial-dependent.
 measured while the co-intervention is allowed to fall in one arm is biased toward the null, and the fix
 is to report the co-intervention change as its own outcome rather than to adjust it away.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## Harms, and how firm they are
 
@@ -169,8 +156,6 @@ is to report the co-intervention change as its own outcome rather than to adjust
 - Adverse events: «Although no significant or clinically important increase in total or serious adverse events was identified, these outcomes were poorly reported among trials and the certainty of evidence for safety ranges from low to very low.»
   [@goldenberg2021]
 
-</div>
-
 ## What the review tells clinicians to do
 
 > *"clinicians might consider short term LCDs for management of type 2 diabetes, while actively
@@ -180,8 +165,6 @@ is to report the co-intervention change as its own outcome rather than to adjust
 Two conditions attached -- **short term**, and **active medication management**. Note the reason for the
 time limit is partly *external* to this review's own evidence: it cites a cohort review suggesting
 long-term low-carbohydrate diets are associated with increased mortality.
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The summary box vs the body — reconciled on weight and adverse events, not on insulin resistance
 
@@ -214,10 +197,6 @@ and insulin resistance met or surpassed their threshold at six months. HbA1c is 
 counting the outcomes rather than concluding it unknowable because the main text does not say so
 directly.
 [inferred from @goldenberg2021]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The mechanism this review does not isolate — weight loss appears first; carbohydrate's added role unresolved
 
@@ -345,10 +324,6 @@ long as an energy-controlled one with the same maintenance support. Both reading
 durability tracking maintained weight loss; neither tests carbohydrate share against it.
 [inferred from @goldenberg2021; @lean2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## The umbrella review sharpens the reading — on Churuangsuk's count, no low-carb RCT pre-specified remission as its outcome `[2026-08-04]`
 
 Goldenberg pools low-carb weight and glycaemic outcomes in T2D, and reports remission under its four
@@ -400,10 +375,6 @@ Churuangsuk's count none was designed with remission as its pre-specified outcom
   ketogenic diets»). Shared MA base -> a restatement (F/corroboration at most), not [E].
   [@szczerba2023] [@szczerba2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## What this means for a decision
 
 - **If on insulin or other glucose-lowering drugs, arrange a medication review with the prescriber
@@ -422,10 +393,6 @@ Churuangsuk's count none was designed with remission as its pre-specified outcom
 
 [inferred from @goldenberg2021; @evert2019]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
-
 ## Limits
 
 - Small numbers behind the headline: the 6-month remission estimate is **8 trials, n=264**; by 12 months
@@ -440,10 +407,6 @@ Churuangsuk's count none was designed with remission as its pre-specified outcom
 
 - Guidance benchmark: both ADA 2019 and EASD-DNSG 2023 are held (below). The cross-body emphasis
   type-D on very-low-carb is filed on [[Diets for Weight Management in Type 2 Diabetes]].
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The US guidance benchmark — ADA 2019 `[2026-09-16]`
 
@@ -476,10 +439,6 @@ reading and adds nothing that shifts the effect estimates.**
   VLC interventions (where <26% of calories came from carbohydrate) at 3 and 6 months but not at 12
   and 24 months» [@evert2019] — the same
   attenuation-by-12-months the low-carb evidence shows elsewhere.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-10-28">
 
 ## The EU guidance benchmark — EASD-DNSG 2023, and the emphasis type-D resolved `[2026-09-16]`
 
@@ -515,7 +474,5 @@ support for weight-first traces largely to one trial programme: DiRECT itself; C
 PI Lean on the byline; EASD, which cites DiRECT (refs 44, 45) and Churuangsuk (ref 27), with Churuangsuk
 among its authors; and ADA, which cites DiRECT. The trial and three bodies citing it are one line of evidence, not four.
 [inferred from @dnsg2023; @churuangsuk2022]
-
-</div>
 
 ## References

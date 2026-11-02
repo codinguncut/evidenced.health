@@ -542,8 +542,6 @@ inactive stratum, inactivity is the big rock and stays the big rock. They add a 
   reported (srcgrep scope in the screening subsection). It is a consensus rule built on event rarity, the
   habitual-activity gradient and an assumed lower risk at light-to-moderate intensity.
 
-<div class="recent-update" data-last-updated="2026-10-29">
-
 ## Gaps
 
 - **Expectancy test:** an RCT with exercise-triggered death as the outcome is infeasible at
@@ -571,7 +569,5 @@ inactive stratum, inactivity is the big rock and stays the big rock. They add a 
   episodes: events were not attributed to exercise, serious events were not split by population, and
   about half the trials did not report adverse events at all. That is a scope limit of the pooled design, not a null for
   bout-triggered events. [inferred from @niemeijer2020]
-
-</div>
 
 ## References

@@ -508,6 +508,8 @@ effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a findin
 - **BP-lowering in the elderly is cognitively safe.** preDIVA is a large, long RCT showing intensive
   vascular care caused no cognitive or disability harm -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
+<div class="recent-update" data-last-updated="2026-11-03">
+
 ## Open (G-gaps)
 - **RCT effect on dementia/AD *incidence* of the FINGER 4-component bundle** — preDIVA answers the
   *vascular-care-only* version (null); FINGER's own 7-yr extended follow-up (the 4-component bundle on
@@ -534,6 +536,8 @@ of them close each other, and the surrogate-to-incidence link is itself unproven
 The one thing the pool *does* settle is the responder question for these trials (route-b null). A validated
 multidomain dementia-prevention claim now awaits an incidence result for the full FINGER 4-component bundle
 () and, beyond it, a higher-intensity or earlier-window trial.
+
+</div>
 
 ## Self-critique `[run 2026-09-05, before commit — Mendes NMA weave]`
 

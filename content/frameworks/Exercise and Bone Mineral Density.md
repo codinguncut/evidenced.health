@@ -151,6 +151,8 @@ It measures the patient-important fracture outcome directly, but for **mixed** e
 being from the **same group**, it refines rather than independently corroborates.
 [inferred from @hoffmann2022]
 
+<div class="recent-update" data-last-updated="2026-11-03">
+
 ## The fracture endpoint is now held: exercise reduces major osteoporotic fractures (type-F)
 
 Hoffmann 2022 measures the patient-important outcome directly, the one the BMD above is a surrogate
@@ -211,6 +213,7 @@ through the BMD-independent falls channel.
   to separate*. On the fracture leg these are **protocol questions that remain unresolved**
   (between-study; power moderate at best by the authors' account), not a route-(b) stratum null.
 
+</div>
 
 ## The supervision discordance — null on the surrogate, a second-hand fracture signal
 

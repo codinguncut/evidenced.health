@@ -2,8 +2,8 @@
 type: framework
 question: Can an energy-restricted total-diet-replacement programme put type 2 diabetes into remission, does remission scale with weight loss, and does it last?
 aliases: [DiRECT, DiRECT Trial, Counterweight-Plus, Total Diet Replacement Diabetes, Formula Diet Diabetes Remission, TDR Remission, Weight Loss Diabetes Remission Dose-Response, DiRECT 2-year, Diabetes Remission Durability]
-authors: [Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy]
-sources: [Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
+authors: [Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy; Purcell, Katrina]
+sources: [Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Churuangsuk - Diabetes Diets Umbrella Review 2022, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014]
 cluster: weight-loss-diets
 confidence: medium
 self_critiqued: 2026-10-28
@@ -17,7 +17,7 @@ relationships:
     - Surrogate Outcomes
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-07-29
-updated: 2026-10-28
+updated: 2026-11-03
 ---
 
 DiRECT (Lancet 2018) is the first registered trial to set **remission of type 2 diabetes as a
@@ -223,6 +223,8 @@ Churuangsuk adds the glucose-lowering side: «Blood pressure falls with weight l
 Both are review-with-the-clinician flags, not dosing; the drug changes themselves are the prescriber's.
 [inferred from @lean2018; @churuangsuk2022]
 
+<div class="recent-update" data-last-updated="2026-11-03">
+
 ## Durability at 24 months — remission tracks the weight kept off
 
 The 24-month report of the same trial (same 298 ITT participants, same definitions, same team — so
@@ -336,6 +338,43 @@ is worth offering — expect about 1 in 3 in remission at 2 years, roughly 3 peo
 and 24 months, its twin RCT (DIADEM-I) in Churuangsuk's GRADE-high cell; not tested outside this
 stratum or beyond 2 years.
 [inferred from @lean2019; @lean2018]
+
+**Does a fast, large formula-diet loss itself raise regain? (added 2026-11-02).** A meta-regression of regain after
+mostly diet-induced loss (drug, surgical and moderate-to-vigorous-exercise loss excluded) names this
+setting. Its authors read an amount-by-rate interaction as suggesting that
+someone planning a large loss «may wish to consider a more conservative method, whereas if only a
+small amount of weight loss is planned, the rate at which it is lost may not affect subsequent
+regain», and add: «In
+particular, this could be have implications in areas where large amounts of weight lost by VLCD are
+recommended, such as in diabetes treatment [89].» The interaction was «(p=0.042) (figure 1), although
+this reduced to a trend after adjustment for BMI (p=0.09).» Faster loss went with more regain on its
+own (p=0.049), but rate was no longer a significant predictor of regain once amount was adjusted for
+(p=0.42). The only covariate is baseline BMI; the authors could not adjust for exercise, diet
+composition, or behaviour-change interventions and their dose in some studies.
+[@turicchi2019regain]
+[inferred from @turicchi2019regain] That is a between-study
+association in group-level data from studies selected for having regained, with no diabetes subgroup
+and no remission outcome, so it does not move the plain action above. DiRECT's own within-trial
+regain and rescue data are the more direct evidence on regain and remission in this stratum, though
+DiRECT has no slower-loss arm and so cannot test rate. Its diet is «total diet replacement
+(825–853 kcal/day formula diet for 3–5 months)» [@lean2018]. Whether a slower loss to the same weight would keep more people in
+remission is untested in the held fabric
+-> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
+*Updated 2026-11-03.* One randomised trial now compares a fast formula loss with a slower one to the
+same target, but **outside this stratum**: Purcell 2014 excluded diabetes («the presence of clinically
+signiﬁ cant disease (including diabetes)»). A 12-week VLCD (450-800 kcal/day) got 78% of starters to a
+&gt;=12.5% loss against 51% on a 36-week diet with one or two shakes a day (6 vs 18 dietitian visits in
+the loss phase, so the arms differ as packages, not by pace alone), and among those who reached
+the target and completed 144 weeks of maintenance, regain was 10·3 vs 10·4 kg (difference 0·09 kg,
+-2·8 to 2·6). [@purcell2014rate]
+[inferred from @purcell2014rate] For non-diabetic adults it gives no support to
+*fast formula loss raises regain*, within a post-randomisation subgroup that the two arms filled at
+different rates. It has no diabetes participants and no remission outcome, and its fast arm (450-800
+kcal/day for 12 weeks) is deeper and shorter than DiRECT's (825-853 kcal/day for 3-5 months), so it does
+not move the plain action above; transport to type 2 diabetes is an assumption, not a finding.
+
+</div>
 
 ## Synthesis — is remission driven by WEIGHT LOSS or by CARBOHYDRATE RESTRICTION?
 

@@ -154,6 +154,8 @@ Discussion's "about 4 to 6 kg" is a translation of a criterion already on the re
 and HbA1c** thresholds appear only in the Discussion. Disclosed either way, and still not the same
 instrument as pre-specification.
 
+<div class="recent-update" data-last-updated="2026-11-03">
+
 ## When the values evidence actually exists — a worked instance (2026-08-28)
 
 GRADE's fallback when values-and-preferences evidence is missing is panel experience (§3.3), which the
@@ -177,6 +179,8 @@ studies, mostly EQ-5D, mostly from people who experienced the event) put disutil
   the person cares about. The full worked chain lives on
   [[Exercise for Preventing Falls in Older Adults]].
   [inferred from @pillay2024falls]
+
+</div>
 
 ## Limits
 

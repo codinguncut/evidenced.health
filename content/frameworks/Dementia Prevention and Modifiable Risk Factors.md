@@ -409,6 +409,8 @@ cell cannot carry.
   (-> [[Cardiorespiratory Fitness and Mortality]]), best-evidenced in men, not as a second estimate of
   the activity lever. [inferred from @lang2024crf]
 
+<div class="recent-update" data-last-updated="2026-11-03">
+
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
 The *hypertension* cell above carries the Commission's **observational risk-factor** figure — untreated
@@ -488,6 +490,8 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
   and the author lists overlap (Chalmers, Woodward, Anderson — George Institute), so the shared RCT
   substrate defeats independence on the BP-lowering *mechanism*. What is new is the OUTCOME (dementia), a
   new-endpoint extension of the same trials, not a second independent witness. [inferred from @peters2022bp; @bplttc2021]
+
+</div>
 
 ## What the framework changes about what to do
 

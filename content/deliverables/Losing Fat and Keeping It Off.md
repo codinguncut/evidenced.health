@@ -4,27 +4,18 @@ title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
 created: 2026-09-09
-updated: 2026-10-20
-self_critiqued: 2026-10-20
-concrete_subject_audited: 2026-10-06
-question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
+updated: 2026-11-03
+self_critiqued: 2026-11-03
+concrete_subject_audited: 2026-11-03
+question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else changes (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
 sources:
-  - AASLD - MASLD Practice Guidance 2023
   - Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024
   - Careau - Energy Compensation Adiposity 2021
-  - Churuangsuk - Diabetes Diets Umbrella Review 2022
   - de Santana - Low Muscle Mass Mortality 2021
-  - EASL - MASLD Clinical Practice Guidelines 2024
-  - Estruch - PREDIMED Mediterranean Diet 2018
   - Franz - Weight-Loss Outcomes 1-Year SR-MA 2007
-  - Gardner - DIETFITS Low-Fat vs Low-Carb 2018
   - Ge - Named Diets Weight Cardiovascular Network MA 2020
   - Goldenberg - Low Carbohydrate Diets T2D Remission 2021
-  - Gordon - Evidence for Food Addiction Systematic Review 2018
   - Hall - Obesity Energetics Diet Composition 2017
-  - Hall - Ultra-Processed Diets Inpatient RCT 2019
-  - Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022
-  - Jiang - Maximal Fat Oxidation Training
   - Kim - Protein Body Composition After Weight Loss 2016
   - Laverde - GLP-1 Muscle Health Meta-Analysis 2026
   - Lean - DiRECT Durability 2 Years 2019
@@ -32,445 +23,703 @@ sources:
   - Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023
   - Liu - Calorie Restriction Time-Restricted Eating 2022
   - Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013
-  - Lowe - Time-Restricted Eating TREAT 2020
   - Ma - Weight Loss Interventions Mortality 2017
-  - Malhotra - SURMOUNT-OSA Tirzepatide 2024
+  - Madigan - Self-Weighing Weight Loss Meta-Analysis 2015
+  - Moore - Protein Requirement Older vs Younger 2014
   - Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022
   - NICE - NG246 Evidence Review F
   - Nong - Obesity Drugs Comparative Network Meta-Analysis 2026
   - ODonoghue - Exercise Prescription Body Composition
   - Polo-Ferrero - Resistance Training Sarcopenic Obesity
+  - Purcell - Rate of Weight Loss RCT 2014
   - Recchia - Exercise Caloric Restriction Visceral Adiposity 2023
-  - Refalo - Protein Fat-Free Mass Energy Restriction 2025
   - Riou - Energy Compensation Exercise 2015
   - Sardeli - Resistance Training Caloric Restriction
-  - Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025
   - Sjostrom - SOS Bariatric Surgery Mortality 2007
   - Sumithran - Hormonal Adaptation Weight Loss 2011
-  - Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015
+  - Turicchi - Weight Loss Rate Regain Meta-Regression 2019
   - Wilding - Semaglutide STEP-1 Weight Management 2021
   - Wilding - Semaglutide STEP-1 Withdrawal 2022
-  - Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020
   - Wycherley - Energy-Restricted High-Protein Weight Loss 2012
   - Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026
-  - Zou - Weight Cycling Diabetes 2020
+  - Zheng - Self-Weighing Weight Management Systematic Review 2014
   - Zou - Weight Fluctuation Cardiovascular Disease 2019
 ---
+<div class="recent-page" data-last-updated="2026-11-03"></div>
 
-For an adult setting out to lose fat, most methods take off similar amounts once the energy deficit is the same. **They differ in what else leaves with the fat, whether they change a hard outcome, and whether the loss lasts.**
+## Lose fat with a deficit you can keep, then plan to keep it off
 
-- **The size and persistence of the deficit set how much comes off.** Diet labels, macronutrient splits and eating windows change the amount very little; the diet you can keep is the one that works ([[Named Diet Programs Compared]]). No held trial has tested deficit sizes to find an optimum for general dieters; the large drug trials gave their lifestyle arms 500 kcal a day below estimated needs. In type 2 diabetes, a very-low-energy diet lost more than a low-energy one at 3 months, on low-certainty evidence.
-- **Which foods fill the plate matters through intake.** In one small, two-week inpatient trial, 20 adults ate about 508 kcal a day more on an ultra-processed diet than on a matched unprocessed one ([[Ultra-Processed Food and Health Outcomes]]).
-- **Exercise does more for the body than for the scale.** Alone it moves weight by about a kilogram in people with obesity, partly because people make up some of what they burn, by eating more or moving less. In non-randomised comparisons, diet-plus-exercise programmes lost a little more than diet alone. It takes off some visceral fat and waist, and resistance training kept lean mass during a diet in older adults ([[Exercise Modality for Body Composition in Obesity]], [[Exercise Energy Compensation]]).
-- **Formula diets and the newer obesity drugs produce the largest losses short of surgery.** The drugs hold the loss only while you keep taking them ([[Comparing Obesity Drugs]]).
-- **Few methods have been shown to change a hard outcome.** Intensive lifestyle loss did not lower heart attacks and strokes in its one large trial, though pooled trials point to fewer deaths. The drug trials that cut cardiovascular events enrolled people with type 2 diabetes or existing heart disease. Surgery holds a large loss for a decade, on non-randomised evidence ([[Does Weight Loss Reduce Cardiovascular Events]]).
-- **Diets and drugs take some lean mass with the fat.** Resistance training and protein reduce that share. No held study has tested whether keeping that lean mass changes function or survival, or whether losing slowly spares it ([[GLP-1 and Lean Mass]]).
-- **Much of the lost weight returns over a few years.** Appetite hormones were still shifted toward eating a year after a loss, and the thin evidence held suggests rising appetite pushes back harder than a slower metabolism. That is a reason to plan the maintenance, not to avoid trying ([[Weight-Loss Maintenance and Metabolic Adaptation]]).
+You have already decided to lose fat; this guide covers how to lose it and whether the loss lasts. Whether your body fat is worth acting on is a separate question -> [[Body Fat]]. Type 2
+diabetes as a disease outcome sits in [[Type 2 Diabetes]]. A prescriber decides which obesity drug to take, and at what dose -> [[GLP-1 Drugs]], [[Comparing Obesity Drugs]].
 
-## Make the deficit big enough and sustainable; stop choosing between diet labels
+**The deficit you keep sets the loss; the macronutrient split does not.** In adults without diabetes,
+low-carbohydrate diets lost 0.93 kg more than balanced ones at one to two years (0.04 to 1.81; 14
+trials); the reviewers concluded that they «probably result in little to no diﬀerence»
+[@naude2022].
 
-**How much weight comes off is set by the size of the energy deficit and how long a person keeps it up.** The diets people argue about — low-carb, low-fat, the branded programmes, an eating window — are different ways of delivering that deficit. Head to head, they differ by around a kilogram, under the 2 kg the largest comparison set in advance as the smallest difference worth noticing. The choice between them comes down to which one a person will keep.
+**Much of lifestyle loss comes back.** Diet plus exercise took off 7.9 kg by 6 months and
+held 3.9 kg at 36-48 months; food-based programmes held about 3-4 kg at 2-4 years. These are completer
+figures, so a typical person should expect less
+[@franz2007]. **Plan maintenance as its own
+phase** -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
-### Low-carb against a balanced diet
+**Losing more tends to leave more off, and the fast VLCD package changed how many reached the target.** Between studies, each
+extra kg lost brought about 0.5 kg (0.25-0.74) back
+[@turicchi2019regain]. Roughly half stayed
+off, a figure the regain-selected sample probably flatters. In the one randomised pace
+trial this guide draws on, a 12-week VLCD package got 78% of starters to a 12.5% loss. A 36-week
+gradual package got 51%; it also used formula shakes and had 18 rather than 6 dietitian visits
+[@purcell2014rate].
 
-A Cochrane review pooled 61 randomised trials and 6,925 people. In adults without type 2 diabetes, **the low-carbohydrate arm lost about 1 kg more than the balanced-carbohydrate arm, a gap the review rated as little to no difference**. The figures were 1.07 kg more (95% CI 0.59 to 1.55) at 3 to under 12 months across 37 trials, and 0.93 kg more (0.04 to 1.81) at 12 months or longer across 14 trials, both moderate certainty. In people with type 2 diabetes the 12-month gap was 0.33 kg, with an interval running from 2.13 kg in favour of low-carb to 1.46 kg against. [@naude2022]
+**Every method takes some lean mass with the fat.** In obese adults with a mean age over 57,
+**resistance training (RT) during the deficit kept about 0.8 kg of lean mass (0.36-1.27)**, with no
+significant difference in fat or weight lost (six trials, 12-24 weeks)
+[@sardeli2018]. Higher protein also kept lean
+mass -> [[Protein Intake During Energy Restriction]]. Past 60, lean mass is most worth keeping. Lean mass
+is a surrogate: whether keeping it protects function or lifespan has not been shown either way.
 
-The review placed its bar for a meaningful loss within an arm, not between arms: «reductions from around the middle of these ranges (about 4 to 6 kg in most trials) would start to become clinically meaningful» [@naude2022]. **That 4-6 kg is weight lost within each arm; the \~1 kg is the difference between arms.** They are different quantities and should not be set against each other; the review judged the \~1 kg gap not clinically important.
+**A GLP-1-class drug takes off far more weight, but only while you take it.** At one year, against
+lifestyle alone, subcutaneous semaglutide removed about 10 percentage points more body weight (-9.8%,
+-10.6 to -9.1) and tirzepatide about 15 points (-14.9%, -16.0 to -13.9)
+[@nong2026obesity]. When STEP-1
+stopped semaglutide and its lifestyle programme together, **people regained two-thirds of the loss
+within a year**, leaving a net 5.6% of body weight off against 0.1% on placebo (exploratory)
+[@wilding2022].
 
-**Even that kilogram depends on how the trials set energy intake.** At 3 to under 12 months, in the 27 trials that gave both arms a similar energy prescription, low-carb's edge shrank to 0.48 kg (0.85 to 0.11), with no heterogeneity left (I2 = 0%). In the 7 trials that let the low-carb arm eat freely while the control arm restricted energy, the gap was 1.84 kg (3.07 to 0.62); in 3 small trials where neither arm had an energy prescription, it was 2.71 kg (4.20 to 1.22). [@naude2022] [@naude2022]
+In people without diabetes, the one confirmatory hard-outcome trial result is SELECT's, for semaglutide, in people who already have heart disease: major cardiovascular events fell, HR 0.80 (0.72-0.90), over about 3.3 years [@lincoff2023]. In type 2
+diabetes, the class cut both events and deaths
+[@badve2024glp1].
 
-The review itself read the subgroup spread as no important clinical difference [@naude2022]. These subgroups overlap heavily with the review's split by depth of carbohydrate restriction, so no share of the gap can be pinned on either ([[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]). Where energy intake was not matched, a larger loss cannot be credited to the food category over the larger deficit ([[Is the Food Category Doing Any Work]]).
+Four decisions move the outcome: **choose a deficit you can keep, plan maintenance as a separate phase,
+defend lean mass with RT and enough protein, and in some groups add a drug.** Diet composition moves
+the loss by about 1.5 kg at six months, and by about 1 kg or less after a year on the firmer evidence.
+That ceiling is a useful result: past it, you can stop optimizing. A time window added no detectable
+loss, though a modest benefit is not ruled out. Pace changed who reached the target; a difference in
+regain has not been shown. The ranking behind this order is in
+[[Layer 1 - Ranking Interventions for a Stratum]].
 
-Two further limits shrink the kilogram. Cutting carbohydrate sheds 2 to 3 kg of body water as glycogen is used up, and the water returns when carbohydrate is eaten again, so an early drop on the scale is partly hydration [@naude2022]. And **no trial in the review reported death, heart attack or stroke** [@naude2022]; none reported outcomes beyond two years, and 60% lasted six months or less [@naude2022].
+## Pick the diet you will stick to: the deficit sets the loss, not the macronutrient split
 
-A large trial built to match a diet to a person found that neither of the two predictors it tested worked. DIETFITS randomised 609 adults to healthy low-fat or healthy low-carb for 12 months; weight loss differed by 0.7 kg (−0.2 to 1.6), and neither a genotype pattern nor insulin secretion picked the better diet: «neither of the 2 hypothesized predisposing factors was helpful in identifying which diet was better for whom» [@gardner2018]. **On a gap this small, low-carb is not a meaningfully better weight-loss diet** — and it is the poorer one for someone watching LDL, which it barely lowers ([[Named Diet Programs Compared]]).
+**The popular diets all beat usual eating, and none beats another on weight by enough to change the
+choice.** So pick the one you can keep eating. Only one diet form, total diet replacement (TDR), has a
+large, trial-tested effect, and the trials tested it as a programme with maintenance attached.
+A common starting deficit is about 500 kcal a day below estimated needs; STEP-1 prescribed it to both
+its arms [@wilding2021]. That is a trial
+convention, not a tested optimum. NICE dropped its own 600 kcal target as «an arbitrarily specific
+number» [@nice]. NICE did not show the number wrong by dropping it.
 
-### The branded programmes
+### Most diet comparisons differ by about 1.5 kg or less at six months, and less by a year
 
-A network meta-analysis compared 14 named programmes (Atkins, DASH, Zone, Weight Watchers, Mediterranean and others), also grouped into three macronutrient patterns, against three control diets: 121 randomised trials, 21,942 adults with overweight or obesity. **Against usual diet, every macronutrient pattern produced a loss that cleared the pre-set 2 kg importance bar at 6 months** — low-carb and low-fat almost identically: «low carbohydrate and low fat diets had a similar effect at six months on weight loss (4.63 v 4.37 kg, both moderate certainty)» [@ge2020].
+A Cochrane review compared low-carbohydrate with balanced-carbohydrate diets. In adults without
+diabetes, **low-carb lost 0.93 kg more at one to two years (0.04 to 1.81; 14 trials)**; the reviewers concluded that low-carb diets «probably result in little to no diﬀerence»
+[@naude2022].
+-> [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]
 
-**Between diets, the differences typically fell under that bar.** The authors' summary: «Differences between diets were typically small to trivial and often based on low certainty evidence» [@ge2020]. For instance, Atkins against Zone came to only 1.38 kg (95% credible interval 0.15 to 2.62) at six months [@ge2020].
+A network meta-analysis ranked 14 branded diets. Low-carb and low-fat eating each beat usual diet by
+about 4.5 kg at 6 months. **The gaps between diets were «generally small at six months and negligible at 12 months»**: low-carb patterns lost 1.57 kg more than
+moderate-macronutrient ones at six months (95% credible interval 0.86 to 2.29).
+The authors concluded that «people can choose the diet they prefer from among many of the available
+diets (fig 6) without concern about the magnitude of benefits.»
+[@ge2020]
+These are peaks; the 2-4 year figures come in the next section. -> [[Named Diet Programs Compared]]
 
-**The advantage over usual diet also shrinks with time.** Across the named diets (all but paleolithic), the estimated loss relative to usual diet was on average 1.5 kg smaller at 12 months than at 6 months, and «At 12 months the effects on weight reduction and improvements in cardiovascular risk factors largely disappear» [@ge2020]. The Mediterranean diet was the one label with a residual 12-month signal, on LDL rather than weight ([[Named Diet Programs Compared]]). Every outcome in this network is a surrogate, and none runs past 12 months.
+NICE's 2025 review found a very-low-carbohydrate diet (under 50 g a day) **may take off 2.38 kg more at
+1 year (0.55 to 4.22), but the evidence is very uncertain and the gap was not sustained at 2 years**.
+NICE made no recommendation for or against any macronutrient-defined diet
+[@nice] -> [[Diets for Weight Loss - What NICE Recommends]].
 
-### Why the macronutrient split adds so little
+Controlled-feeding studies show why the split matters so little: at equal calories, swapping
+carbohydrate for fat does not speed fat loss
+-> [[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]].
 
-Controlled-feeding studies test the claim that cutting carbohydrate burns extra energy at equal calories. Pooling 32 controlled-feeding studies, the edge ran the other way: «both energy expenditure (26 kcal/d; P <.0001) and fat loss (16 g/d; P <.0001) were greater with lower fat diets» [@hallguo2017]. The author's reading was that the effect is too small to matter in either direction: «for all practical purposes “a calorie is a calorie”» for body fat [@hallguo2017]. **Isocaloric feeding does not support the carbohydrate-insulin model's prediction of a fat-loss advantage for low-carb.** What survives of that model is an effect on appetite and intake, which acts through the deficit, not around it ([[What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model]]).
+### Total diet replacement takes off far more, inside a programme that plans for regain
 
-Processing is where intake moves. In an inpatient crossover, 20 weight-stable adults ate two weeks of an ultra-processed diet and two weeks of a matched unprocessed one, as much or as little as they wanted: «Energy intake was greater during the ultra-processed diet (508 ± 106 kcal/day; p = 0.0001)» [@hall2019]. Participants gained 0.9 kg on the ultra-processed diet and lost 0.9 kg on the unprocessed one, and the authors conclude: «Limiting consumption of ultra-processed foods may be an effective strategy for obesity prevention and treatment.» [@hall2019] That is a short trial in a small group, on intake rather than long-run weight, but it points at the same lever: the food a person chooses matters through how easily it lets them hold the deficit ([[Energy Density]]).
+NICE says to *consider* a nutritionally complete TDR of **800-1200 kcal a day for at most 12 weeks**, for
+people with obesity or with overweight plus type 2 diabetes. NICE places it inside a specialist service with
+long-term support, and says it should never be a long-term strategy. NICE kept the recommendation weak because rapid regain and
+weight cycling can do harm — a harm no trial in its review measured
+[@nice].
 
-### An eating window delivers a deficit; it is not a separate lever
+DiRECT tested this in UK primary care: adults aged 20-65, BMI 27-45, type 2 diabetes diagnosed within 6
+years, not on insulin. They took an 825-853 kcal formula for 3-5 months, stepped food back in over 2-8
+weeks, then attended monthly maintenance visits.
 
-One 12-month trial in 139 adults with obesity gave both arms the same calorie target and varied only whether eating was confined to 8:00 a.m. to 4:00 p.m. Both arms lost weight, 8.0 kg (95% CI 6.4 to 9.6) on the window and 6.3 kg (4.7 to 7.8) on plain calorie restriction. **The window added no significant loss** — «net difference, −1.8 kg; 95% CI, −4.0 to 0.4; P = 0.11» [@liu2022]. Intake equality rested on prescribed targets and food logs, not measured expenditure ([[Time-Restricted Eating]]).
+- **Weight at 12 months:** adjusted difference **-8.8 kg (-10.3 to
+  -7.3)** [@lean2018].
+- **Weight at 24 months:** adjusted difference **-5.43 kg (-6.87 to -3.99)**
+  [@lean2019].
+- **Remission, an intermediate outcome:** 46 vs 4 per 100 at 12 months
+  [@lean2018]; **35.6 vs 3.4 per 100 at 24 months**
+  [@lean2019].
 
-Pooled across 99 trials of intermittent fasting, alternate-day fasting was the only form to beat continuous calorie restriction, by 1.29 kg (0.59 to 1.99), below the review's 2.0 kg importance bar [@semnaniazad2025]. **In trials of 24 weeks or more, no fasting form beat continuous restriction**: «with no differences between intermittent fasting strategies and CER in these moderate-to-long term studies». Only 17 trials reached that length, and the authors say the lost difference «may be due to an insufficient number of studies available», or to adherence fading and metabolic adaptation in longer trials [@semnaniazad2025]. Whether a window costs lean mass is taken up in the section on muscle.
+**Keeping the loss took repeated rescue.** About half the intervention arm needed
+at least one relapse phase in two years — a brief return to formula, with orlistat offered
+[@lean2019]. DiRECT did not test a 12-week course with no relapse plan, and no remission data run past 2 years.
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]]; remission as a disease outcome ->
+[[Type 2 Diabetes]]
 
-### Guidance reached the same place
+**Anyone on glucose- or blood-pressure-lowering drugs should review them with their prescriber before
+starting.** DiRECT stopped all oral diabetes and blood-pressure drugs on day 1, under supervision; the
+blood-pressure drugs went because blood pressure falls fast on a low-energy formula
+[@lean2018].
 
-England's NICE reviewed the same trial literature and recommended no specific macronutrient-defined diet, while noting that lowering a specific macronutrient is one way to reach a deficit. It found that, for almost all outcomes, low-carbohydrate diets «did not result in improvements in weight, BMI, waist circumference, or HbA1c, relative to conventional (usually low-fat) diets, apart from a small improvement in waist circumference for females» — very-low-carbohydrate diets did reduce weight at one year, but not at two [@nice]. **NICE also dropped its old 600 kcal/day deficit target**, «because they felt this was an arbitrarily specific number», and now says only that an approach «should maintain an energy deficit» [@nice]. The committee had queried the evidence base for the 600 kcal figure, so it was withdrawn as arbitrary, not disproved ([[Diets for Weight Loss - What NICE Recommends]]).
+### DiRECT's formula was high in carbohydrate share but low in grams
 
-**No held trial has tested deficit sizes to find an optimum for general dieters.** The closest, a very-low-energy against a low-energy diet in type 2 diabetes, found the larger deficit lost more at 3 months, on low-certainty evidence (see the diabetes section below). For a starting point, use the figure the large drug trials gave their lifestyle arms: STEP-1 counselled both arms to eat «a reduced-calorie diet (500-kcal defi- cit per day relative to the energy expenditure estimated at the time they underwent random- ization)», with 150 minutes a week of activity encouraged [@wilding2021]. SURMOUNT-1 used the same 500-calorie deficit [@jastreboff2022].
+DiRECT's formula took **59% of its energy from carbohydrate**, a high share
+[@lean2018]. At 825-853 kcal that is about 122-126 g a day
+, just under the 130 g a day that low-carb trials use as a cut-off
+[@goldenberg2021]. During the formula phase, low energy and low
+carbohydrate grams go together, so the trial cannot separate them. Remission rose with kilograms lost,
+and was measured after people had returned to food at about 50% carbohydrate
+[@lean2018]. Weight loss looks like the main driver; whether
+cutting carbohydrate adds anything beyond the weight it removes is not shown either way.
 
-That is a trial protocol, not a tested dose. On it, with regular counselling, the placebo arms lost 2.4% of body weight at 68 weeks and 3.1% at 72 ([[Semaglutide for Cardiovascular Risk in Obesity]], [[The Disease Model of Obesity]]). Refalo's authors, writing about trained non-obese dieters, advise that «indi- viduals seeking to avoid FFM losses at all costs should likely implement mod- est energy restriction.» They cite Murphy and colleagues' suggestion that a deficit of about 500 kcal a day prevented lean-mass gains [@refalo2025]. That figure is second-hand, from a different research group, so read it as a hint, not a ceiling.
+Remission figures sit on [[Type 2 Diabetes]] and
+[[Carbohydrate Restriction and Type 2 Diabetes Remission]].
 
-This is a case where current guidance and the trial evidence agree, for the same reason. The one diet NICE does recommend, a formula-based total diet replacement, is defined by energy, not macronutrients; it belongs to the section on larger losses.
+### Eating within a time window adds nothing detectable over the same deficit
 
-### The missing term is adherence
+One 12-month trial gave adults with obesity, none with diabetes, the same calorie target; half also
+ate only between 8 am and 4 pm. **The window group lost 8.0 kg and the calorie-only group 6.3 kg, a
+difference of -1.8 kg (-4.0 to 0.4) that was not significant**
+[@liu2022]. The interval runs to about
+4 kg of extra loss, so a modest benefit is not ruled out. Use a window if it makes the deficit easier to
+keep, not as a lever of its own. -> [[Time-Restricted Eating]]
 
-**The diet that works is the one a person keeps, and the trials say little about which diets people keep.** The named-diet network had little adherence data, and its authors suggest that, if adherence was low, «our results describe what is likely to happen for average adherence by patients» [@ge2020]. In the Cochrane review, about a quarter of trial arms reported nothing on whether the assigned diet was followed ([[Low-Carbohydrate vs Balanced-Carbohydrate Diets]]). So the numbers above are the effect of being *assigned* a diet at the adherence trials achieved. So pick the pattern a person will sustain and size the deficit; searching for the right label buys little.
+## Expect much of the loss to return, and treat maintenance as its own phase
 
-If the deficit is what counts, the obvious move is to widen it by burning more energy. On the scale, that works less well than the arithmetic suggests.
+**On every lifestyle method, people regain much of the peak loss within two to four years: food-based programmes kept about 3-4 kg, very-low-energy diets 5.6 kg at 36 months** [@franz2007]. The body pushes back against the
+lower weight, probably mostly through appetite. So you need a separate plan for maintenance, not more of the diet that produced the loss. -> [[Weight-Loss Maintenance and Metabolic Adaptation]]
 
-## Exercise for where the fat comes from and what stays, more than for the scale
+### Every lifestyle method converges on a few kilograms kept
 
-**On its own, exercise is a weak tool for weight. Added to a diet, it adds somewhat to the loss, and it does more for waist and visceral fat than for the scale.** Every claim below about its weakness is a claim about weight.
+Franz pooled 80 RCTs of overweight and obese adults followed for at least a year. **No group went all the way back to baseline** [@franz2007]:
 
-### Exercise alone moves weight by about a kilogram
-
-A network meta-analysis of 45 RCTs in 3,566 adults with a BMI of 30 or more ranked six exercise programmes against each other and against no exercise. **No programme moved weight by much more than a kilogram:** «exercise as an independent intervention, irrespective of which prescription, induced at best, a small reduction in weight loss (mean weight loss ranged from −0.05 to −1.01 kg).» [@odonoghue2020] The trials ran a mean of about 20 weeks, mostly three 45-minute sessions a week. The result holds for that dose and that group, not beyond it ([[Exercise Modality for Body Composition in Obesity]]).
-
-Waist and body-fat percentage responded better than weight. **Combined aerobic plus resistance training ranked at or near the top on waist and body fat, and low-to-moderate-load resistance training alone ranked last**; on waist, programmes with an aerobic component beat resistance-only. The best arm for waist, combined low-to-moderate training, took off 2.76 cm (95% CI 1.00 to 4.52 cm) against no exercise [@odonoghue2020]. The finer order among the leading programmes is not established: their confidence intervals overlapped, and none of the programmes produced a significant gain in VO2max. «Taken together, more than 70% (n = 33) of the included trials were judged as being at moderate to high ROB.» [@odonoghue2020] Only 27% used intention-to-treat analysis. Every outcome here is a surrogate ([[Surrogate Outcomes]]).
-
-### The body makes up part of what exercise burns
-
-Weight barely moves partly because people compensate. A review of 61 exercise studies found that «The overall mean energy compensation was 18% ± 93%.» [@riou2015] The ±93% is a standard deviation across study groups, not a range: **some groups compensated more than they burned and some not at all, so the average says little about any one programme**. The studies also did not measure enough to tell whether the compensation came from eating more or from moving less. Part of that 18% is not biology at all — under-delivered or over-estimated exercise inflates it. The share compensated grows with the length of the programme and «approached 84%» at about 80 weeks [@riou2015], but that figure comes from a fitted trend resting on a few long studies ([[Exercise Energy Compensation]]).
-
-A doubly-labelled-water study of 1,754 free-living adults found that part of the compensation is metabolic, not only extra eating: «energy compensation by a typical human averages 28% due to reduced BEE» — basal energy expenditure [@careau2021]. People at the 10th percentile of BMI compensated 27.7% of activity calories; people at the 90th compensated 49.2% [@careau2021]. **The heaviest people may get the least weight change per calorie burned.** Treat that as a caution, not a law: it is a comparison between people, and the exercise-trial review found the opposite direction for initial fat mass among younger participants in short studies [@riou2015] [inferred from @careau2021; @riou2015].
-
-### Compensation is usually partial in short studies
-
-**The two averages measure different things.** Careau's reading of the 28% figure is that «only 72% of the extra calories we burn from additional activity translates into extra calories burned that day» [@careau2021]. That 28% counts only the drop in basal expenditure, not any extra eating. Riou's figure is inferred from the change in body fat and lean mass, so it nets every route, and its fitted trend approached 84% at about 80 weeks (above) [inferred from @careau2021; @riou2015]. Careau's one within-person analysis, in 68 people aged 70 to 90, found compensation close to total [@careau2021]. That subset is small and elderly, but an individual can fare worse than the average ([[Exercise Energy Compensation]]). Franz's pooled arms show the scale result, though the two sets of arms used different diets. In Franz's review of 80 trials, diet-plus-exercise arms lost 7.9 kg at about six months against 4.9 kg for diet-alone arms, and kept 3.9 kg against 3.0 kg at 48 months [@franz2007].
-
-Those figures are simple averages of separate study arms, not a randomised test of adding exercise to the same diet. The arms also ate differently: the diet-alone studies cut about 500 kcal or more below estimated need, while the diet-plus-exercise studies generally prescribed 1,200 kcal for women and 1,500 for men [@franz2007], so part of the 3 kg peak gap may be the diet. Franz's own 24-month comparison favoured diet plus exercise by 1.3 kg [@franz2007]. In this non-randomised arm comparison the direction favours diet plus exercise, and the size is modest ([[Weight-Loss Maintenance and Metabolic Adaptation]]). The one randomised add-on held tested resistance training, not aerobic work: added to a diet in older adults, it kept lean mass but did not add weight or fat loss [@sardeli2018] ([[Resistance Training During Caloric Restriction]]). **Exercise does not replace the deficit; its case in a diet rests on lean mass, visceral fat and fitness more than on the scale** [inferred from @franz2007; @sardeli2018].
-
-### Adjusted for the size of the deficit, exercise takes off more visceral fat
-
-Does the source of the deficit matter for where the fat comes from? A meta-analysis of 40 RCTs in 2,190 adults with overweight or obesity gives two answers that point opposite ways ([[Exercise vs Caloric Restriction for Visceral Fat]]). Unmatched, the caloric-restriction arms cut visceral fat more than the exercise arms (standardized effect −0.53 vs −0.28 against control); larger deficits in the diet trials may explain this. **Once the size of the weekly deficit was adjusted for, across trials, exercise came out ahead:** «exercise had a superior dose–response effect on reducing visceral fat compared with caloric restriction (ES −0.18 (−0.33 to −0.04); p=0.012).» [@recchia2023] Each extra 1,000 kcal a week spent through exercise bought more visceral-fat loss. The diet slope was flat, but it rested on 16 effects against 46, so it may reflect too few studies.
-
-Three limits keep this modest. The numbers are standardized effect sizes, not litres or square centimetres of fat; the only absolute figure is waist, 3.15 cm with exercise and 4.67 cm with diet. **The deficit was prescribed, not measured**, so compensation could have shrunk the exercise arms' real deficit. And the authors call the effect small: «the overall effect of exercise as well as its dose–response effect on visceral fat were small, which limits the interpretation of our results.» [@recchia2023] Visceral fat is a strong predictor of cardiometabolic disease, but it is a surrogate; nobody here counted heart attacks or deaths.
-
-How the two findings fit together: compensation refills part of the calorie gap, which blunts exercise's effect on weight. Exercise's effect on visceral fat appears partly independent of weight lost, so the same refilled calories do not erase it ([[Exercise Energy Compensation]]).
-
-### Training in the *fat-burning zone* has not been shown to beat other exercise
-
-FATmax training sets aerobic intensity at the point where a person burns fat fastest, measured in a lab test; in adults with overweight or obesity that lands at a low intensity, about 42-49% of VO2max. A meta-analysis of 19 RCTs found −3.66 kg of body weight against **non-exercise or diet-only controls** [@jiang2026] — much more than the kilogram above. The two results used different comparisons, so they do not contradict each other. Some trials included a diet co-intervention, the population included adolescents and people with diabetes or fatty liver, and **no trial pitted FATmax against ordinary moderate aerobic exercise** ([[FatMax Training for Body Composition and Cardiometabolic Health]]).
-
-The prediction intervals for BMI, body-fat percentage and waist «crossed zero» [@jiang2026], so a new group might see no effect. FATmax beats doing nothing, as other aerobic exercise does. **Whether picking the fat-burning intensity adds anything is untested in this pool.**
-
-### What the evidence does not say
-
-Exercise's case for keeping muscle during a diet rests elsewhere. The visceral-fat review offers it only as background from earlier literature («exercise might stimulate fat loss while maintaining muscle mass» [@recchia2023]), not as a measured result. **No held trial compares diet against exercise at a matched deficit on lean mass** — only on visceral fat. A step-counter or wearable can help people move more, but the held evidence on it reports activity, not weight ([[Wearable Activity Trackers and Physical Activity]]).
-
-Some people need a much larger loss than a diet change or exercise can deliver. For them, three bigger tools exist: a formula diet, a drug, and surgery.
-
-## Reach for formula diets, drugs or surgery when the loss needed is large — and read their numbers on one comparator
-
-A change of diet or more exercise typically takes off a few kilograms. **Three tools take off much more: a formula diet that replaces all food for a few months, the newer obesity drugs, and bariatric surgery.** Each comes with its own costs, and the published numbers are measured against different comparators, so they cannot be lined up as one league table. [[Comparing Obesity Drugs]]
-
-### Total diet replacement
-
-DiRECT put adults with type 2 diabetes on a **825-853 kcal/day formula diet for 3 to 5 months**, followed by stepped food reintroduction and a monthly maintenance programme. At 12 months the intervention group had lost a mean 10.0 kg against 1.0 kg in usual care (adjusted difference -8.8 kg, 95% CI -10.3 to -7.3). Diabetes remission reached 46% against 4% (about 42 more remissions per 100 people started [inferred from @lean2018]), in a group aged 20-65 with BMI 27-45, diagnosed within 6 years and not on insulin. [@lean2018]
-
-**Remission tracked the kilograms, not the formula.** Pooling both arms, none of 76 people who gained weight went into remission, against 7% of those who lost 0-5 kg, 34% at 5-10 kg, 57% at 10-15 kg and 86% (31 of 36) at 15 kg or more. The formula itself was 59% carbohydrate, so the remissions did not require a low-carbohydrate diet. This is a within-trial association, not the randomised contrast, and people who lose more may differ in other ways. [@lean2018] [[Total Diet Replacement and Type 2 Diabetes Remission]]
-
-In people who already have type 2 diabetes, an umbrella review finds that **no macronutrient profile beats another**: differences between intervention and control diets are commonly 0-2 kg, which the review calls of little clinical significance. Formats that control energy do better. A very-low-energy diet (VLED, 400-500 kcal for 8-12 weeks) lost 6.6 kg more than a low-energy diet at 3 months (95% CI -9.5 to -3.7), but the review grades that low certainty: two trials, completers only. Formula meal replacement lost 2.4 kg more (-3.3 to -1.4) over 12-52 weeks, at moderate certainty. [@churuangsuk2022] [@churuangsuk2022] On remission, **total diet replacement is the one diet the review grades at high certainty**: «Remissions at 1 year were reported for a median 54% of participants in RCTs including initial low-energy total diet replacement (low-risk-of-bias study, GRADE high), and 11% and 15% for meal replacements and Mediterranean diets, respectively (some concerns for risk of bias in studies, GRADE moderate/low).» [@churuangsuk2022]
-
-Rapid loss aggravates postural hypotension in people taking diuretics or blood-pressure drugs, and hypoglycaemia is possible if glucose-lowering drugs continue [@churuangsuk2022] — **so anyone on those drugs needs them reviewed first**. [[Diets for Weight Management in Type 2 Diabetes]]
-
-NICE says to **consider a low-energy total diet replacement (800-1200 kcal/day) for at most 12 weeks**, for people with obesity or with overweight plus type 2 diabetes, inside a specialist programme with long-term support. It made the recommendation weak because rapid regain and weight cycling could cause harm, and it is explicit about duration: «the committee recommended that low-energy diets should not be used as a long-term strategy to manage obesity.» [@nice] [[Diets for Weight Loss - What NICE Recommends]] DiRECT tested the formula as the front end of a maintenance programme, not as a one-off 12-week course. [[Total Diet Replacement and Type 2 Diabetes Remission]]
-
-### The drugs, one comparator per row
-
-Drug trials report weight loss in three different ways, and the three are not interchangeable. **Each figure below is labelled with what it was measured against.** [[Comparing Obesity Drugs]] [[Semaglutide for Cardiovascular Risk in Obesity]]
-
-| Comparator | Tirzepatide | Semaglutide (weekly injection) |
+| Method | Mean loss at 6 months | Still off later |
 |---|---|---|
-| **vs lifestyle** (network meta-analysis, \~1 yr) | -14.9% (-16.0 to -13.9) | -9.8% (-10.6 to -9.1) |
-| **placebo-adjusted** (SURMOUNT-1 wk 72; STEP-1 wk 68) | -11.9 pts (5 mg) to -17.8 pts (15 mg) | -12.4 pts (-13.4 to -11.5) |
-| **within-arm** (drug arm vs placebo arm) | -15.0% (5 mg) to -20.9% (15 mg) vs -3.1% | -14.9% vs -2.4% |
-
-Sources: vs-lifestyle row [@nong2026obesity]; tirzepatide trial rows [@jastreboff2022]; semaglutide trial rows [@wilding2021].
-
-STEP-1 and SURMOUNT-1 both enrolled adults with a BMI of 30 or more, or 27 or more with a weight-related condition, and no diabetes, with lifestyle advice in both arms [@wilding2021] [@jastreboff2022]. The SURMOUNT-1 authors warn that the two trials cannot be compared directly, since populations and designs differed [@jastreboff2022]. SELECT's -9.39% against -0.88% at 104 weeks comes from an older population with heart disease, in a cardiovascular trial, and is not a weight-trial result. [@lincoff2023]
-
-**On the top agents, a third to a half of people lose 20% or more within a year**, against about 2% on lifestyle alone. [@nong2026obesity] In STEP-1, 32.0% of the semaglutide arm reached a 20% loss against 1.7% on placebo; in SURMOUNT-1, 57% on the 15 mg dose did against 3%. [@wilding2021] [@jastreboff2022]
-
-### Bigger losses come with more side effects and more stopping
-
-Across 19 drugs, Nong's network meta-analysis states the pattern plainly: «Greater weight loss was consistently accompanied by higher rates of adverse events and treatment discontinuation, indicating a clear benefit- harm trade-off.» [@nong2026obesity] Within that pattern, drugs with similar weight loss can differ widely in how many people stop. Against lifestyle, **stopping because of side effects rose by 28 per 1,000 people over a year on tirzepatide (RR 1.9, 1.5 to 2.5), the same as oral semaglutide, and by 20 per 1,000 on injected semaglutide (RR 1.7, 1.4 to 2.0)**. That 20 is the lowest among the drugs with substantial weight loss at moderate-to-high certainty. Orforglipron, with similar weight loss to injected semaglutide (-9.9% vs -9.8%), added 94 per 1,000. [@nong2026obesity]
-
-The single trials show the same signal. In STEP-1, 7.0% on semaglutide against 3.1% on placebo stopped because of adverse events, 4.5% against 0.8% because of gastrointestinal ones; serious adverse events were 9.8% against 6.4%. [@wilding2021] In SURMOUNT-1, 4.3%, 7.1% and 6.2% stopped on 5, 10 and 15 mg tirzepatide against 2.6% on placebo. [@jastreboff2022] Real-world data suggest roughly half of patients stop within the first year. [@nong2026obesity]
-
-**Quality of life barely moved.** On a 36-item scale where 10 points is the smallest difference patients notice, every drug with moderate-to-high certainty scored under 5: tirzepatide 3.9 (2.3 to 5.5), injected semaglutide 2.9 (1.7 to 4.0) [@nong2026obesity]. Across the GLP-1 drug class, an umbrella of 60 meta-analyses finds **gastrointestinal effects the most consistent harm (nausea OR 2.47, 1.84 to 3.34)**; gallbladder or biliary disease may rise (OR 1.34, 1.16 to 1.55), a signal the umbrella rates exploratory. Fracture odds were, if anything, lower (OR 0.67, 0.52 to 0.87), a possible signal that did not reach the umbrella's credibility threshold. [@yang2026] [[GLP-1 Non-Cardiometabolic Effects and Safety]] The strongest agents also take the most lean mass with the fat, which the muscle section takes up. [[GLP-1 and Lean Mass]]
-
-### Surgery
-
-**In the held evidence, bariatric surgery is the one route with a large loss held for a decade.** In the Swedish Obese Subjects study, weight loss stabilised at 25%, 16% and 14% of baseline after 10 years for gastric bypass, vertical banded gastroplasty and banding. The study enrolled people with severe obesity (BMI 34 or more for men, 38 or more for women) and was not randomised. [@sjostrom2007] [[Does Weight Loss Reduce Cardiovascular Events]]
-
-### No test picks the right drug for a given person
-
-Nong's analysis looked for differences in relative effect by obesity severity, type 2 diabetes, baseline cardiovascular disease and trial length, and found none credible except larger semaglutide losses in longer trials. [@nong2026obesity] So **who gains most is decided by baseline risk, not by a known responder type**: the same relative effect buys more for someone at higher risk. Without individual patient data, this is *no modifier found*, not *none exists*. [[Baseline Risk and the Relative-Absolute Split]] Ranking the agents for a prescription is outside this appraisal. [[Comparing Obesity Drugs]]
-
-**No held trial compares a drug, an intensive lifestyle programme and surgery head to head**, so their relative merits rest on separate trials with different comparators. [[Semaglutide for Cardiovascular Risk in Obesity]]
-
-A larger number on the scale is not yet a longer or healthier life. The next question is which of these methods has been shown to change a hard outcome.
-
-## Separate the methods that reached a hard outcome from those that moved a marker
-
-Weight is a surrogate. The outcomes people care about are **hard outcomes** (heart attacks, strokes, death), with **intermediate outcomes** (type 2 diabetes remission, fatty-liver resolution) in between. Only a handful of trials of weight-loss methods counted hard outcomes at all, and **they rank the methods differently from the scale** ([[Surrogate Outcomes]]).
-
-| Method | Highest outcome reached | Design | Population |
-|---|---|---|---|
-| Intensive lifestyle loss | all-cause death down; CV events not | RCTs, meta-analysis | obese adults; T2D in Look AHEAD |
-| Bariatric surgery | all-cause death down | matched, non-randomised | severe obesity |
-| Semaglutide | CV events down | one RCT | established CVD, no diabetes |
-| Tirzepatide | weight; heart-failure signal | RCTs on weight, network meta-analysis | obesity |
-| Mediterranean diet, no calorie target | CV events down | one RCT | high-risk primary prevention |
-
- — the table condenses the sections below; each row is sourced there.
-
-### Intensive lifestyle loss: fewer deaths, but not fewer heart attacks
-
-Look AHEAD randomised 5,145 adults with type 2 diabetes and overweight or obesity to an intensive lifestyle programme or to diabetes education. The programme won on weight (8.6% vs 0.7% within-arm at one year), but **cardiovascular events did not fall**: «hazard ratio 0.95; 95% CI 0.83 to 1.09, p=0.505», or 18.3 vs 19.2 events per 1,000 person-years. «The trial was stopped early based on a futility analysis when median follow-up was 9.6 years.» By then the weight gap between arms had narrowed to about 2.5 points (6.0% vs 3.5%), so the trial ended up testing a modest sustained difference, not large loss against none [@look2013] ([[Does Weight Loss Reduce Cardiovascular Events]]).
-
-A meta-analysis of 54 RCTs (30,206 adults with obesity, almost all on low-fat weight-reducing diets, follow-up of at least a year), which includes Look AHEAD, agrees on cardiovascular events and adds a benefit on death. New cardiovascular events: «risk ratio 0.93, 95% confidence interval 0.83 to 1.04». All-cause death: **«risk ratio 0.82, 95% confidence interval 0.71 to 0.95»**, «six fewer deaths per 1000 participants (95% confidence interval two to 10)», rated high quality. Look AHEAD carried 54.6% of the weight, but removing it left the death benefit in place: «risk ratio 0.78, 95% confidence interval 0.63 to 0.96; I2=0%» [@ma2017].
-
-The two results are not in conflict; they measure different endpoints. **Lifestyle weight loss probably lowers deaths without measurably lowering cardiovascular events** (Ma's authors: it «may reduce» premature death), so the death benefit should not be read as a heart benefit, nor the heart null as no benefit. Because the diets were mostly low in saturated fat, the trials cannot separate weight loss from a change in fat quality ([[Does Weight Loss Reduce Cardiovascular Events]]).
-
-A larger loss may matter. A post-hoc Look AHEAD analysis, reported by the DiRECT authors, found that «a 10% weight loss in the first year ... was associated with a 21% decrease in occurrence of cardiovascular outcomes» [@lean2018]. This is a responder subgroup, not a randomised contrast, and the primary paper is not held — it unlocks whether the ≥10% threshold survives its own analysis.
-
-### Bariatric surgery: fewer deaths, on non-randomised evidence
-
-The Swedish Obese Subjects study followed 2,010 people who chose surgery and 2,037 matched controls with severe obesity for about 11 years. There were 101 deaths after surgery and 129 among controls; **the adjusted «hazard ratio ... was 0.71 (P = 0.01)»**, 95% CI 0.54 to 0.92 in the study's adjusted table [@sjostrom2007]. Crudely, that is about 50 vs 63 deaths per 1,000 over the follow-up (arithmetic on the death counts, unadjusted).
-
-Two limits travel with this number. «The main limitation of our study was the ab- sence of randomization»: people who wanted surgery may differ in ways matching cannot remove. And **mortality showed no significant difference by how much weight people lost**, though the authors note that the low death count hindered detection of modest differences: «we did not find significant differences in mortality (starting at year 2) according to the degree of weight loss during the first year» [@sjostrom2007]. The benefit is shown for the operation, not provably for the kilograms.
-
-Still, surgery and the lifestyle meta-analysis reach the same answer on all-cause death by unrelated routes: different designs, different authors, and no shared trials `[E-independent]`. **That convergence makes a death benefit from these interventions in obesity more credible** than either source alone. It does not show that the kilograms are the cause, and it says nothing new about cardiovascular events ([[Does Weight Loss Reduce Cardiovascular Events]]).
-
-### Semaglutide: fewer cardiovascular events, in people who already had heart disease
-
-SELECT gave semaglutide or placebo to 17,604 adults aged 45 or over with a BMI of 27 or more, established cardiovascular disease and no diabetes. A first heart attack, stroke or cardiovascular death occurred in «569 of the 8803 patients (6.5%) in the semaglutide group and in 701 of the 8801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% confidence interval, 0.72 to 0.90; P<0.001)» [@lincoff2023]. That is **about 15 fewer events per 1,000 people over a mean 3.3 years**, a number needed to treat of about 67 (arithmetic on the two event rates) ([[Semaglutide for Cardiovascular Risk in Obesity]]).
-
-**SELECT tested secondary prevention only.** The trialists say so: «The effects of semaglutide on primary prevention of cardiovascular events in persons with overweight or obesity but with- out previous atherosclerotic disease were not studied.» [@lincoff2023]
-
-Only the main composite is confirmed. Cardiovascular death came next in the testing order and missed (hazard ratio 0.85; 95% CI 0.71 to 1.01), so «superiority testing was not performed for the remaining confirmatory secondary end points». **All-cause death (0.81, 0.71 to 0.93) is therefore a point estimate, not a confirmed effect**, and non-fatal stroke was not significantly reduced (0.93, 0.74 to 1.15) [@lincoff2023]. A 2026 network meta-analysis reports the same death estimate, «largely informed by cardiovascular outcome trials in high risk populations» — in effect it re-pools SELECT [inferred from @nong2026obesity], so it does not lift that caveat [@nong2026obesity] ([[Comparing Obesity Drugs]]).
-
-### Tirzepatide: the most weight, no cardiovascular-outcome trial yet
-
-In the network meta-analysis, tirzepatide produced more weight loss than semaglutide against lifestyle (-14.9% vs -9.8%) [@nong2026obesity], but its pivotal trials measured weight and risk markers, not events. In two 52-week trials in sleep apnoea and obesity it lowered systolic blood pressure and CRP, and the authors state that «the design and shorter duration of the current trials does not support the assessment of long-term cardiovascular outcomes» [@malhotra2024surmount]. The network meta-analysis finds a heart-failure reduction («0.49, 0.27 to 0.88») but no demonstrated reduction in death or heart attack [@nong2026obesity]. **SELECT's benefit should not be borrowed for a different molecule**; the dedicated trial is pending — it settles whether the dual agonist cuts cardiovascular events at all ([[Semaglutide for Cardiovascular Risk in Obesity]]).
-
-### The yardstick reorders the methods
-
-Judged by the scale, tirzepatide and surgery lead and lifestyle trails. Judged by hard outcomes, the order changes. **Among the drugs, the one that removes the most weight has the least outcome evidence.** Semaglutide has confirmed event reduction only in people who already had heart disease, and lifestyle and surgery share a death benefit without a proven cardiovascular one ([[Does Weight Loss Reduce Cardiovascular Events]]).
-
-Weight change is not the only route to fewer events. PREDIMED gave high-risk adults a Mediterranean diet with no calorie target — «No total calorie restriction was advised, nor was physical activity promoted» — and cardiovascular events fell (hazard ratio 0.69, 95% CI 0.53 to 0.91, with olive oil; 0.72, 0.54 to 0.95, with nuts); five-year risk was 36 and 40 vs 57 per 1,000 [@estruch2018]. **Diet composition can lower events where weight loss did not**, though the populations differ, so this is a cross-trial contrast ([[Mediterranean Diet and Cardiovascular Events]]).
-
-**No weight-loss method has been shown to cut cardiovascular events in people with obesity who have neither heart disease nor type 2 diabetes.** The lifestyle trials were null on events (their benefit was on all-cause death), and no held randomised drug or surgical trial has tested events in that group ([[Semaglutide for Cardiovascular Risk in Obesity]], [[Does Weight Loss Reduce Cardiovascular Events]]). For someone at low baseline risk, any benefit that did transfer would also be smaller in absolute terms ([[Baseline Risk and the Relative-Absolute Split]]). How BMI relates to death is a separate question from what losing weight achieves ([[BMI and All-Cause Mortality]]).
-
-### What the loss does reach: intermediate outcomes
-
-Large enough losses reach some intermediate outcomes. Type 2 diabetes remission scales with kilograms lost (see the formula-diet section above). The proposed mechanism is fat leaving the liver and pancreas: Taylor's group reports that people with recent-onset diabetes «could regain normal glucose control and normal β-cell function when the fat content of the liver and the pancreas was decreased by a weight loss diet- ary regimen» [@taylor2015pft] ([[Ectopic Fat and Depot-Specific Risk]]).
-
-Fatty liver follows a dose ladder. European guidance says loss «should aim at a sus- tained reduction of >−5% to reduce liver fat, 7-10% to improve liver inﬂammation, and >−10% to improve ﬁbrosis» [@easl2024]. The ladder rests on one histology trial [@easl2024], and **the same guidance says its effect on liver-related outcomes and death is still unknown**: «Further follow-up studies are needed to determine the long- term effectiveness ... on clinical liver-related outcomes and liver-related mortality» [@easl2024] ([[Fatty Liver MASLD and Weight Loss]]). Remission and liver fat are real gains; they are not yet hard outcomes.
-
-**For the liver, unlike the scale, the type of fat matters at equal calories.** A meta-analysis of isocaloric trials found: «Replacing dietary fat with carbohydrates did not result in changes in liver fat (12 comparisons, SMD 0.01 (95% CI −0.36; 0.37)). Unsaturated fat as compared with saturated fat reduced liver fat content (4 comparisons, SMD −0.80 (95% CI −1.09; −0.51)).» [@winterseekelen2020] These are standardized effects, not a percentage of liver fat removed, and the fat-type result rests on four comparisons ([[Fatty Liver MASLD and Weight Loss]]).
-
-## Count the muscle that leaves with the fat, and protect it with training and protein
-
-**Diets and drugs that take fat off also take some lean mass** — the cost the scale does not show. The studies below measure lean mass by DXA or as fat-free mass, which includes water and organ tissue, so a kilogram of *lean* is not a kilogram of muscle. **Lean mass is a surrogate**: it stands in for muscle, which in turn stands in for strength and independence, and none of the weight-loss trials here measured those directly ([[Surrogate Outcomes]], [[GLP-1 and Lean Mass]]) [inferred from @lowe2020; @laverde2026].
-
-### How much of the loss is lean, by method
-
-**On an ordinary diet, roughly a fifth to three-tenths of the weight lost is lean.** The TREAT authors give the band: «Loss of lean mass during weight loss typically accounts for 20% to 30% of total weight loss.» [@lowe2020]. It is the authors' reference figure from earlier studies, not a pooled estimate, but it is the yardstick the other numbers here are read against ([[Protein and Resistance Training for Muscle and Strength]]).
-
-**GLP-1 drugs sit near that band on average, with semaglutide reaching above it in some trials.** A meta-analysis of 7 RCTs at obesity doses (821 patients) found two things at once. Lean mass rose as a *share* of body weight, by 1.81% (95% CI 1.1 to 2.52), because fat went faster. Absolute lean mass fell, by 1.74 kg (95% CI −3.04 to −0.45; I² = 98%), and by 5.44 kg over 52 weeks on semaglutide [@laverde2026] [@laverde2026]. In the included trials, lean mass made up 14-22% of the loss on liraglutide, about 26% on tirzepatide and up to 45% on semaglutide; the authors call this consistent with an earlier meta-analysis that put the class at about 30% [@laverde2026] ([[GLP-1 and Lean Mass]]).
-
-The authors add that the gain in lean share, though statistically significant, «may not be clinically signiﬁcant» [@laverde2026], and they conclude that lean-mass loss «should not be considered a limitation for the use of these drugs in patients with obesity» [@laverde2026]. A 19-drug network meta-analysis gives the same ranking against lifestyle comparators: **the drugs that take off the most weight take off the most lean mass** — tirzepatide −8.3% of lean mass (95% CI −12.9 to −3.7) and subcutaneous semaglutide −5.8% (−8.7 to −2.9), both moderate certainty [@nong2026obesity]. These are a different comparator and scale from the placebo-controlled figures above, so they confirm the order, not the size ([[Comparing Obesity Drugs]]).
-
-**One eating pattern pushed the lean fraction well above the band.** In the TREAT trial, adults told to eat freely within an 8-hour window lost 1.70 kg on average in the DXA sub-cohort, and 1.10 kg of it (about 65%) was lean. Total lean mass did not differ significantly from the control arm (−0.75 kg; 99.7% CI −1.96 to 0.45), but appendicular lean mass, the arms and legs, did: −0.47 kg (95% CI −0.82 to −0.12) [@lowe2020].
-
-**Read the 65% with care**: it sits on a small loss in one sub-cohort. When Liu's 12-month trial matched calories between a window and a daily deficit and gave both arms a protein shake for six months, lean mass did not differ between groups [@liu2022]. Low protein intake inside a short window is the leading explanation, but neither trial tested it ([[Time-Restricted Eating]]) [inferred from @lowe2020; @liu2022].
-
-### Resistance training keeps lean mass during a diet
-
-**In older adults, adding resistance training to a diet keeps about 0.8 kg of lean mass that the diet alone would remove — and leaves fat and weight loss unchanged.** A meta-analysis of 6 RCTs in older adults with obesity (mean age above 57) compared calorie restriction with and without RT. The diet-only arms lost 0.76 kg of lean mass; the RT arms held steady (+0.05 kg). The pooled difference was 0.819 kg (95% CI 0.364 to 1.273), with «the LBM loss in the CRRT group was 93.5% less than the CR group» [@sardeli2018]. Fat loss (−3.86 vs −3.73 kg) and weight loss (−4.16 vs −4.73 kg) did not differ ([[Resistance Training During Caloric Restriction]]).
-
-Two limits bound that result. **It is a tested finding for older adults, not for dieters in general**: the one trial in young adults was left out of the pool, so it says nothing about them directly (the case for younger dieters is taken up below). And function stayed a trend: the authors saw «a trend towards the increase in whole body muscle quality when RT was added to CR (p = 0.07)», in a study they say «was not designed to test muscle function» [@sardeli2018].
-
-In older adults who already have sarcopenic obesity and are not dieting, RT against no exercise, mostly for 12 weeks, improved a composite of body-composition measures (SMD 0.35, 95% CI 0.12 to 0.57; moderate certainty) and physical performance (SMD 0.36, 0.03 to 0.69; low to very low certainty) [@poloferrero2025]. **The body-composition gain came mostly from lower body fat; the muscle-mass measures did not change significantly** ([[Resistance Training for Sarcopenic Obesity]]). This is a different question from RT during a diet, and its numbers do not add to the 0.8 kg above.
-
-### Protein helps less than training, and its number depends on who is dieting
-
-**Higher protein during a deficit keeps a little more lean mass and does not change how much weight comes off.** The evidence comes from three groups of dieters, and each figure belongs to its own group ([[Protein Intake During Energy Restriction]]):
-
-| Who | Protein contrast | Lean mass kept (higher vs lower protein) | Source |
-|---|---|---|---|
-| Adults, mostly with overweight or obesity, no structured exercise | \~1.25 vs \~0.72 g/kg/d, same calories | +0.43 kg (95% CI 0.09 to 0.78) | [@wycherley2012] |
-| Adults aged 50+, mostly overweight or obese | ≥1.0 vs <1.0 g/kg/d | +0.83 kg (95% CI 0.47 to 1.19); body weight no different | [@kim2016] |
-| Non-obese, resistance-trained dieters | dose-response across 0.8-3.2 g/kg/d | lean loss reaches zero, on average, near 1.9 g/kg/d (2.5 g/kg of fat-free mass) | [@refalo2025] |
-
-The first two rows are randomized contrasts at modest intakes. Kim's review, of 20 RCTs, concludes that it supports «older overweight and obese adults to consume protein intakes 1.0 g/kg/d to help preserve lean mass» [@kim2016]. In Wycherley's 24 trials, the higher-protein arms also lost 0.87 kg more fat and 0.79 kg more weight, small differences that may partly reflect misreported intake [@wycherley2012].
-
-**The 1.9 g/kg figure is not a target for people with obesity.** It is the point where a straight trend line crosses zero, not a threshold: the line kept rising up to 3.2 g/kg with no knee shown, and the slope's own interval reaches zero. The authors call their findings «exploratory rather than conﬁrmatory», and the review included only non-obese, trained people [@refalo2025]. For a dieter with obesity, the evidence supports the direction (more protein keeps a little more lean mass) but no optimum, because no held source tested a range of doses in that group ([[The Underivable Optimum]]).
-
-**A usable default is about 1.0 to 1.25 g of protein per kg of body weight a day.** Those are the higher intakes that beat lower ones in the two randomized pools: about 1.25 g/kg in Wycherley's trials (no BMI restriction; mostly overweight or obese adults; structured exercise excluded), and at least 1.0 g/kg in Kim's adults aged 50 and over [@wycherley2012] [@kim2016]. The figure is directional: it shows that this much did better than the lower arms (about 0.72 g/kg in Wycherley's pool, under 1.0 g/kg in Kim's), not that it is enough or that more would not help ([[Protein Intake During Energy Restriction]]) [inferred from @wycherley2012; @kim2016].
-
-**Training comes first, protein second.** Refalo's authors judge a robust RT stimulus likely more important for keeping fat-free mass than protein intake, and say the size of the deficit also matters [@refalo2025]. The two may stack. In Sardeli's pool, the one trial whose diets were higher in protein (30% of energy, against 15% in the other trials) kept more lean mass with RT (1.3 kg) than the authors' stated main effect of 0.6 kg. That 0.6 kg does not match the 0.819 kg pooled result above, and the paper does not explain the gap. This is one trial compared with the others, not a randomised test of protein [@sardeli2018].
-
-### Low muscle predicts early death; keeping it during a diet has not been shown to help
-
-**Older adults with less muscle die sooner, but no trial shows that adding muscle extends life.** In 9 studies of non-frail adults aged 65 and over (10,028 people), those who died had less appendicular muscle at baseline than those who survived — a small difference, SMD −0.18 (95% CI −0.23 to −0.12) [@santana2021]. The design is observational: low muscle may mark an illness that does the killing. It makes muscle mass a predictor, not a proven target ([[Low Muscle Mass and Mortality]]).
-
-**Whether keeping lean mass during weight loss changes strength, falls or survival has not been tested in the held trials.** The GLP-1 meta-analysis states that its trials «did not evaluate functional outcomes, such as muscle strength or physical capacity» [@laverde2026]; the RT-during-diet pool found only a non-significant trend; and the protein reviews measured soft tissue alone. The case for protecting muscle rests on its value for function and independence, and on low muscle predicting death — not on a trial that closed the loop.
-
-### Who should care most
-
-**Older adults and people on a GLP-1 drug carry the largest stake.** Older adults are already losing muscle with age, and their muscles need more protein per meal to respond ([[Anabolic Resistance]]). A GLP-1 drug cuts appetite, and probably with it protein intake, at the moment the need goes up [inferred from @laverde2026]. The GLP-1 trials mostly enrolled «relatively young populations with a low burden of comorbidities», so the older, multimorbid group is untested; the authors conclude «it is essential to accompany drug treatment with nutritional and physical exercise interventions to preserve or improve muscle mass» [@laverde2026] [@laverde2026].
-
-For a younger adult with obesity and plenty of muscle, the stake is smaller and the improving lean share is the more relevant finding ([[GLP-1 and Lean Mass]]) [inferred from @laverde2026]. **Resistance training is still worth doing at any age while dieting.** It is cheap, low-harm and easy to stop. The diet-trial evidence comes from older adults; in younger dieters it is an extrapolation by mechanism. Refalo's authors, writing about non-obese dieters who already train, judged a robust training stimulus likely more important than protein for keeping fat-free mass [@refalo2025] ([[Resistance Training During Caloric Restriction]]) [inferred from @sardeli2018; @refalo2025].
-
-If some methods cost more muscle than others, the natural suspect is speed. The evidence on speed is thinner than the advice.
-
-## Treat speed of loss as unanswered, not as a known muscle cost
-
-**No study the wiki holds compares fast with slow loss of the same amount by the same method.** So whether a slower rate of loss spares lean mass is an open question, not a finding. The familiar advice to *lose slowly to keep muscle* leans on nearby evidence, and each piece measures something other than rate:
-
-- **Deficit size.** In Refalo's meta-regression of non-obese, resistance-trained dieters, the link between protein intake and lean-mass change looked the same with deficits under and over 300 kcal/d. An earlier meta-regression of 52 studies, reported second-hand through Refalo, found that larger deficits cost more lean mass even with RT. Refalo's authors advise a modest deficit for anyone who must avoid lean-mass loss [@refalo2025] ([[Protein Intake During Energy Restriction]]). A bigger daily deficit does mean faster loss, but none of these studies held the total loss fixed, so **they cannot separate speed from amount**.
-- **Method and protein.** The lean fraction of weight lost differs by method and by protein intake, as the muscle section above shows ([[GLP-1 and Lean Mass]], [[Time-Restricted Eating]]); none of those trials varied the rate.
-- **The appetite defence.** The one held study that tracked appetite hormones a year after loss used a 500-550 kcal/day formula diet [@sumithran2011]. Whether a slower, food-based loss provokes a weaker defence has not been tested ([[Mitigations of the Defended Setpoint]], [[Weight-Loss Maintenance and Metabolic Adaptation]]).
-
-**If keeping lean mass matters to you, a modest deficit with resistance training and enough protein (the 1.0 to 1.25 g/kg default above) is the low-regret choice.** It costs little and fits the deficit-size evidence above. The only lean-mass deficit threshold held is that second-hand 500 kcal figure; Refalo's own 300 kcal split found no difference and is not a threshold. As a labelled default, that puts *modest* at about 500 kcal a day or less. It is a hedge against an unanswered question, not a tested answer about speed.
-
-Speed is still open. What happens after the loss is better known: for most people, much of it comes back.
-
-## Plan for regain from the start, because the body defends the lost weight
-
-**Most people regain much of the weight they lose, and no diet method changes that very much.** Weight loss peaks at around six months, then drifts back to a modest net loss that lasts. **The method changes the peak far more than the plateau.** The drugs are the exception: they hold the loss while you take them and stop holding it when you stop. The body pushes back through appetite and, less certainly, a slower metabolism; the thin evidence held points to appetite as the larger push, and shows nothing that wears it down over time. That is a reason to plan the maintenance before the loss, not a reason to skip the attempt ([[Weight-Loss Maintenance and Metabolic Adaptation]], [[Mitigations of the Defended Setpoint]]).
-
-### Every lifestyle method peaks early, then settles at a few kilograms
-
-Franz pooled 80 RCTs of overweight and obese adults followed for at least a year (26,455 enrolled). Diet, diet plus exercise, meal replacements and the drugs of the day all produced 5 to 8.5 kg (5-9%) by six months, then levelled off: «In studies extending to 48 months, a mean 3 to 6 kg (3% to 6%) of weight loss was maintained with none of the groups experiencing weight regain to baseline.» The review's next sentence sets two arms apart: advice alone and exercise alone lost little at any time point [@franz2007].
-
-| Method (Franz) | Peak, \~6 months | Latest reported |
-|---|---|---|
-| Diet alone | 4.9 kg (5%) | 3.0 kg (3%) at 48 mo |
-| Diet + exercise | 7.9 kg (8.5%) | 3.9 kg (4%) at 36 and 48 mo |
-| Very-low-energy diet (VLED, formula) | 17.9 kg (16%) | 5.6 kg (5%) at 36 mo |
-| Orlistat + diet (pre-GLP-1 drug) | 8.3 kg (8%) | 5.8 kg (5.3%) at 48 mo |
-| Exercise alone | 2.4 kg (2.7%) | 1.0 kg (1%) at 24 mo |
+| Diet alone | 4.9 kg | 3.0 kg at 48 months |
+| Diet + exercise | 7.9 kg | 3.9 kg at 36-48 months |
+| Very-low-energy diet | 17.9 kg | 5.6 kg at 36 months |
 
 [@franz2007]
 
-**The formula diet makes the biggest peak and loses the most of it.** Exercise alone stays smallest throughout, as a weight tool; that says nothing about its value for fitness or health. Added to a diet, exercise deepened the peak and left about a kilogram more at 48 months, across separately pooled, non-randomised arms (see the exercise section above). The orlistat row predates the GLP-1 drugs and understates what current drugs do ([[Weight-Loss Maintenance and Metabolic Adaptation]]).
+The rows come from different trials, so diet alone and diet plus exercise were not randomised against
+each other.
 
-Read these maintained figures as a best case. **Most of Franz's outcomes come from people who finished the trials** — «Most weight-loss outcomes were based on study com- pleters.» — and about 30% dropped out. If dropouts regained more, which the review did not measure, a typical person keeps less than the table shows. The descriptive trajectories are also simple averages across studies, not weighted pooled estimates [@franz2007].
+Across food-based programmes, Franz puts the loss kept at 24, 36 and 48 months at about 3-4 kg (3-4.3%
+of body weight). **Treat that figure as a ceiling, not an average.** Most figures come from people who
+finished the trials, while about three in ten dropped out. If dropouts regained more, as they usually
+do, a typical starter keeps less. Franz also notes that once the loss plateaus, people who continue the programme do not start losing again, and stopping it entirely brings regain [@franz2007]. You have to hold the deficit to
+keep the result, long after it stops producing new loss.
+[inferred from @franz2007]
 
-Franz also records why the plateau frustrates people. Holding or deepening the diet does not restart the loss — «This appears not to happen even when weight-loss interventions are contin- ued.» — yet dropping the programme altogether brings the weight back [@franz2007]. **The deficit stops paying out at the plateau but still has to be held.**
+### The body defends the lower weight, probably mostly through appetite
 
-Newer trials show the same fade: the named-diet network's advantage over usual diet shrinks between six and twelve months, as the diet section above sets out ([[Named Diet Programs Compared]]). In type 2 diabetes, low-carbohydrate diets beat comparison diets by 3.46 kg (95% CI 1.67-5.25) at six months; by twelve the difference was trivial and non-significant, with low-carb 0.29 kg behind (95% CI 1.60 kg behind to 1.02 kg ahead), and the remission advantage faded with it [@goldenberg2021] ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
+Sumithran put 50 adults with overweight or obesity on an eight-week very-low-energy diet and analysed
+the 34 who completed it and lost at least 10%. A year later, after partial regain, **leptin was still
+35.5% below baseline, the satiety hormones were still suppressed, and hunger was still raised**
+[@sumithran2011].
 
-### Total diet replacement held better, with repeated rescue
+Hall's review ranks the two parts of that defence using **one modelled study**. Its subjects had type 2
+diabetes and took an SGLT2 inhibitor; their calorie loss was not deliberate dieting. Intake rose by
+about 100 kcal/day for each kilogram lost, more than three times the drop in energy expenditure
+[@hallguo2017]. The study points to appetite as
+the larger driver, but it does not settle the ranking for deliberate dieting.
+[inferred from @hallguo2017]
 
-DiRECT, a trial of total diet replacement (TDR) in people with type 2 diabetes, followed the same 298 people to two years. Remission fell from 46% of the intervention arm at twelve months to 35.6% at twenty-four, against 3.4% in usual care: **about 32 more remissions per 100 people started on the programme** [inferred from @lean2018; @lean2019] [@lean2018] [@lean2019]. The share keeping off at least 15 kg roughly halved, from 24% (36 of 149) to 11.4% (17 of 149), and the weight gap over usual care narrowed from 8.8 kg to 5.43 kg (95% CI 3.99-6.87) ([[Total Diet Replacement and Type 2 Diabetes Remission]]).
+At one year Sumithran's participants were still about 8 kg lighter, and only leptin was shown to stay
+low after adjusting for the smaller fat mass. **For the other hormones, a defence beyond the smaller
+body is assumed, not shown**, and the study had no control group
+[@sumithran2011]. Most people regain after a diet, and their biology measurably pushes them toward it. The evidence does not support reading
+it as a personal failure.
 
-**Holding that result took active rescue.** About half of participants needed at least one relapse plan — a short return to TDR, with orlistat offered — and only 71 of 143 (49.7%) never needed one [@lean2019]. Across the entire study population (both arms pooled), remission at two years was reached by 8 of 154 people (5.2%) who lost less than 5 kg and in 14 of 20 (70.0%) who lost 15 kg or more [@lean2019].
+### Losing more still leaves more off
 
-**That is an association, not proof that remission lasts only while the weight stays off.** Four of the 50 people who gained weight (gains of 0-2 kg) were still in remission at both 12 and 24 months, though all four started with HbA1c only just above the diabetes threshold (6.5-6.63%). Among people in remission at 12 months, those who relapsed regained 7.09 kg on average against 4.25 kg in those who stayed in remission, a difference that was not statistically significant (p=0.073) [@lean2019]. The two-year figures come from the authors' final manuscript, and the published version may differ slightly ([[Total Diet Replacement and Type 2 Diabetes Remission]]).
+Turicchi pooled 43 studies (mostly diet-induced loss) and asked whether a bigger loss
+brings more regain. **Each extra kilogram lost went with about 0.5 kg regained (0.25 to 0.74), so
+roughly 0.26 to 0.75 kg of each extra kilogram stayed off.** The mean loss was 10.1 kg, followed up for a
+median of 44 weeks [@turicchi2019regain]. This guide worked out the net-kept figure from that slope.
+[inferred from @turicchi2019regain]
 
-### The drugs hold the loss only while you take them
+The slope compares studies, not people randomised to lose different amounts. Turicchi admitted only
+studies with at least 5% loss and at least 2% regain, a selection that probably flatters the net-kept
+figure. The authors adjusted for baseline BMI only, and they excluded loss from drugs, surgery and
+moderate-to-vigorous exercise
+[@turicchi2019regain]. **So the slope gives no
+regain-based reason to aim for a smaller diet-driven loss, and it says nothing about weight lost on a
+drug.** [inferred from @turicchi2019regain]
 
-STEP-1 stopped semaglutide 2.4 mg at week 68 and followed a subset of 327 participants for a further year, in analyses the authors call exploratory. In that subset, weight loss went from 17.3% at week 68 to a net 5.6% at week 120: **«participants regained two-thirds of their prior weight loss, with similar changes in cardiometabolic variables»** [@wilding2022]. Blood pressure returned to baseline, and most other markers drifted back ([[Semaglutide for Cardiovascular Risk in Obesity]]).
+### What counters the defence
 
-The trial withdrew the lifestyle programme at the same time, and its authors say that «may also have contributed to the trajectory of weight regain» [@wilding2022]. So STEP-1 fits a defended weight reasserting itself, but cannot separate the drug's withdrawal from the loss of support. A class-wide figure — about 0.4 kg regained per month after stopping, back to baseline in roughly 1.7 years — comes from a 37-study review (West 2026) that the wiki holds only as reported inside Nong's network meta-analysis, not first-hand [@nong2026obesity] [@nong2026obesity] ([[Comparing Obesity Drugs]]).
+The three options this guide holds target the defended weight, each in a different way
+-> [[Mitigations of the Defended Setpoint]]:
 
-### Appetite may do most of the defending
+- **Override it:** a GLP-1-class drug supplies a missing satiety signal for as long as it is taken.
+  -> [[Comparing Obesity Drugs]].
+- **Lower it durably:** bariatric surgery in severe obesity. In the non-randomised SOS cohort, loss held
+  at 25%, 16% and 14% of body weight after 10 years, depending on the procedure. Adjusted all-cause
+  death was lower, HR 0.71 (0.54-0.92) over 10.9 years. The study detected no difference by
+  first-year weight loss, but the authors note «the low cumulative mortality in our study hindered the detection of
+  modest differences» [@sjostrom2007].
+- **Reduce the provocation:** resistance training and protein keep lean mass, and with it some resting expenditure; this guide infers, without a test, that this eases the defence.
 
-**In one study Hall reports, intake rose much more than metabolism slowed.** Hall's review reports a study of patients with type 2 diabetes losing weight on an SGLT2 inhibitor, which spills glucose into the urine; they «progressively increase average energy intake by about 100 kcal/d per kilogram of lost weight – an effect more than 3-fold larger than the cor- responding energy expenditure adaptations to weight loss.» [@hallguo2017] That intake was calculated from repeated weight measurements with a mathematical model, not measured, in a drug-driven loss the patients did not notice [@hallguo2017]. It is one study, held only second-hand, so the ranking of appetite over metabolism is a lead, not a settled finding.
+**No study in this guide shows that holding the new weight for longer resets the defended weight.**
+Sumithran found the hormone shift still present at one year -> [[Mitigations of the Defended Setpoint]].
 
-The hormones point the same way. In a study that enrolled 50 adults, the 34 who finished lost 13.5 kg in a 10-week programme built on an eight-week formula diet; a year later their leptin was still 35.5% below baseline, hunger hormones stayed up and satiety signals stayed down [@sumithran2011]. That study had no control group and analysed only completers who had lost at least 10%. Participants were also still about 8 kg lighter, so only the leptin drop is shown to exceed what a smaller body would produce ([[Weight-Loss Maintenance and Metabolic Adaptation]]).
+### Weight cycling is not a reason to avoid trying
 
-Some people read that pull as an addiction. A systematic review concludes: «The results of the current systematic review generally support the validity of food addiction as a diagnostic construct, particularly as it relates to foods high in added sweeteners and reﬁned ingredients.» [@gordon2018foodaddiction] The same review opens by calling the construct «a highly controversial subject» [@gordon2018foodaddiction]. It tested whether the construct is valid, not what it does to weight or health, and no held study links it to weight change apart from ordinary overeating. **The label adds no step beyond eating fewer highly processed, energy-dense foods** ([[Food Addiction]]).
+Zou pooled 23 cohort studies. Weight that went up and down was associated with higher
+all-cause mortality, **RR 1.18 (1.05 to 1.32) after correcting for publication bias**; the review gives
+no baseline rate, so no absolute figure can be attached. Restricted to intentional weight loss, the
+analysis detected no association with all-cause or cardiovascular mortality, but only three reports
+covered that subgroup [@zou2019fluctuation].
 
-**Whether metabolism stays slowed is not settled.** The slower-metabolism arm of the defence, adaptive thermogenesis, «may continue for years», Hall writes, «although controversy remains regarding its persistence» [@hallguo2017]. On the one estimate held, it is also the smaller arm. Two common beliefs fit this evidence poorly. One is that eating too little stalls fat loss, yet the formula diets above produced the largest losses. The other is that dieting permanently damages metabolism, yet persistence is contested and the slowdown looks like the smaller arm ([[Weight-Loss Maintenance and Metabolic Adaptation]]). Body weight behaves as a regulated quantity, but regulated does not mean fixed. Genes explain much of why people in the same environment differ, while the rise in obesity over recent decades tracks the food environment ([[The Disease Model of Obesity]]).
+For death outcomes, that is insufficient evidence of harm from intentional cycling, not proof that it is
+harmless. Zou's authors «cannot conclude whether obese individuals should be deterred» from weight
+control by cycling hazards [@zou2019fluctuation].
+**Put the effort into maintenance rather than into avoiding weight loss**.
+-> [[Weight Cycling and Cardiometabolic Risk]], [[Diets for Weight Loss - What NICE Recommends]].
 
-### Waiting does not wear the defence down; a few things counter it
+## Choose the pace you can finish; in the one randomised pace trial the fast VLCD package got more people to target
 
-The held evidence sorts the counters by what they do ([[Mitigations of the Defended Setpoint]]):
+The one randomised pace trial this guide draws on gives a firm answer on **who reaches the target, not
+on who regains**.
 
-- **Drugs override the defence** by resupplying satiety signals, and lose the effect when stopped.
-- **Bariatric surgery durably lowers weight**, in severe obesity, on non-randomised evidence (figures in the surgery section above). Whether it resets the defended level is not shown.
-- **Holding a lower weight for months shows no sign of weakening the defence.** The one measurement, at twelve months, found the hormonal shift still present.
-- **Protein and resistance training may blunt one arm** by keeping lean mass, and a gentler deficit might provoke less defence; both are inferred, not tested.
-- **Avoiding the gain in the first place** sidesteps the defence entirely — a mechanism-based expectation, not a trial result.
+Purcell randomised 204 non-diabetic adults, aged 18-70 with a BMI of 30-45, to lose about 15% of their
+weight in 12 weeks or in 36 [@purcell2014rate]. **The arms differ as packages, not by pace
+alone.** The fast arm replaced all three daily meals with a VLCD formula (450-800 kcal a day) and saw
+the dietitian 6 times. The gradual arm ate a food diet 400-500 kcal a day below needs plus one or two
+formula shakes a day, and saw the dietitian 18 times [@purcell2014rate].
 
- on the sorting; surgery and drug figures from [[Mitigations of the Defended Setpoint]].
+**The randomised result favours the fast package.** Of everyone who started, 78% of the fast arm
+reached at least 12.5% loss against 51% of the gradual arm, and 3% vs 18% dropped out during the loss
+[@purcell2014rate].
 
-### Trying and partly regaining is not shown to be worse than not trying
+**The regain result comes from those who reached the target (a non-randomised comparison).** Only
+they entered maintenance, and the gradual reachers were the more selected group. At week 144 of
+maintenance, the fast and gradual completers had regained 70.5% and 71.2% of the weight they
+lost, a difference of 0.09 kg (95% CI -2.8 to 2.6) [@purcell2014rate].
+**Among those who reached the target, the interval rules out a regain difference larger than about
+2.6-2.8 kg either way, not a smaller one.** The trial reports no three-year weight
+for everyone randomised, so it cannot say which package leaves a starter lighter at three years
+.
 
-Weight cycling does carry an association with harm in cohorts. Zou's review of 23 cohorts (441,199 people) found, across the 20 that reported deaths, all-cause mortality RR 1.18 (95% CI 1.05-1.32) after correcting for publication bias, down from 1.41 [@zou2019fluctuation]. **But in the few reports that separated the two (three each), intentional weight fluctuation showed no significant link** with all-cause (P=0.49) or CVD mortality (P=0.12). Unintentional fluctuation, which often signals illness, did show a link (all-cause P=0.016), though on only 2,975 people, which the authors say limits that conclusion. A second review by the same group, on diabetes, points the other way for intentional loss. In three reports, people with intentional weight cycling had a higher risk of diabetes (P < 0.001), though «the small number of studies limits the conclusion drawn based on these studies». In people with BMI 30 or more, that review found no significant association [@zou2020cycling] ([[Weight Cycling and Cardiometabolic Risk]]).
+**One gallbladder case was the only serious harm judged diet-related.** One person in the fast arm
+had acute cholecystitis, which the authors rated probably related to the diet
+[@purcell2014rate]. The trial detected no excess harm
+beyond that case, which is not the same as showing the VLCD is free of risk: a trial of 204 people
+cannot estimate a gallstone rate.
 
-The authors draw the decision line themselves: «Hence, we cannot conclude whether obese individuals should be deterred from eﬀorts to control their body weight by concerns about the hazards of weight cycling.» [@zou2019fluctuation] Two caveats come before that sentence. Most studies cannot tell why weight was lost, which narrows the harm signal. And the CVD-mortality link was absent at BMI 30 or more, which the authors read as obesity carrying a similar risk of its own. Stopping a GLP-1 drug and regaining is, in effect, a planned cycle; no held source has studied it as one. [inferred from @zou2019fluctuation]
+**Pooled studies do not settle the speed question either.** Turicchi pooled 43 mostly diet-based
+studies with rates from 0.1 to 1.8 kg a week. Faster loss went with more regain on its own (p=0.049),
+but «After adjustment for the amount of weight lost, the rate of weight loss was no longer a significant
+predictor of weight regain (p=0.42).» Because amount and rate interacted (p=0.042; a trend, p=0.09,
+after BMI adjustment), the authors suggest a more conservative method for anyone attempting a
+substantial loss [@turicchi2019regain].
+**Whether speed adds regain beyond the amount lost is not shown either way**.
 
-### What the evidence cannot yet say
+Nor is it known whether pace changes how much of the loss is lean mass. Turicchi's between-study data
+show no significant link, though weight-matched comparisons the authors cite found more fat-free-mass
+loss with rapid loss [@turicchi2019regain].
+Those comparisons give a direction, not a settled answer, and Purcell's body-composition readings are
+not trustworthy -> [[GLP-1 and Lean Mass]].
 
-- How weight holds over five to ten years on a GLP-1 drug: not in the held evidence.
-- Lifestyle durability beyond about four years: only Franz, and only from completers.
-- Regain after stopping the drugs, from primary data: held only secondhand, via Nong.
+**Pick the pace you can complete.** For non-diabetic adults aged 18-70 with a BMI of 30-45, otherwise
+healthy, non-smokers and not on weight-altering drugs, a supervised 12-week VLCD is a legitimate route
+for those who want it. In Purcell it got more starters to the target and lost fewer on the way. The
+evidence in this guide supports neither *slow and steady keeps it off* nor *fast is better for
+maintenance*. The trial ran in a hospital unit whose authors note that its retention and
+weight outcomes may exceed other settings [@purcell2014rate].
+Nestlé supplied the VLCD formula, and the senior author had chaired its Optifast advisory committee
+(2005-10) [@purcell2014rate].
+Hormone follow-up and the full regain analysis sit on
+[[Weight-Loss Maintenance and Metabolic Adaptation]] and [[Mitigations of the Defended Setpoint]].
 
-The newer drugs take off as much as any non-surgical method but hold it only while taken. The last question is what lifestyle effort still adds for someone who could take one.
+## Exercise for the waistline and fitness, not for the scale
 
-## Rank lifestyle against the drug on each outcome, net of what the drug costs
+**Exercise on its own barely moves the scale, but it does shrink the waist, lower body-fat percentage and
+raise fitness.** Do it for those outcomes, and rely on the diet for the weight loss.
 
-An effective drug weakens the case for a lifestyle lever only on the outcomes the drug itself moves, and only after you subtract what the drug costs: side effects, stopping, lifelong use, and the regain that follows when it ends. This appraisal ranks every lever that way ([[Layer 1 - Ranking Interventions for a Stratum]]). Applied outcome by outcome, **the GLP-1 drugs and lifestyle effort split the territory rather than compete for all of it**. No trial has compared them head to head, so this ranking is assembled from separate bodies of evidence.
+### Exercise alone takes off about a kilogram
 
-### Heart, kidney and survival: the drug can stand in, mainly in type 2 diabetes
+A network meta-analysis of 45 RCTs in adults aged 18 to under 65 with obesity (BMI >30, or body fat
+&gt;30% in women and >25% in men) compared aerobic, resistance and combined
+programmes with no exercise [@odonoghue2020]. Across every type of exercise, «Overall, weight loss was
+minimal, with mean values ranging from −0.05 to −1.01 kg.»
+[@odonoghue2020]
+**That verdict covers scale weight only.**
 
-A pooled analysis of 11 placebo-controlled cardiovascular-outcome trials (85,373 people, ten of the trials in type 2 diabetes plus SELECT) found that **the GLP-1 drug class lowers hard outcomes at high certainty**. In type 2 diabetes, major cardiovascular events fell by HR 0.87 (95% CI 0.81-0.93) and death from any cause by HR 0.88 (0.83-0.93); median follow-up across the 11 trials was 25.2 months (range 15.9-64.8) [@badve2024glp1]. The reported numbers needed to treat, 74 for an event and 101 for a death over 25.1 months, work out to roughly 14 fewer cardiovascular events and 10 fewer deaths per 1,000 people treated for about two years (arithmetic on Badve's NNTs). The class also lowered hard kidney outcomes, though the absolute gain is small outside people at high kidney risk ([[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]).
+In the same trials, **combined aerobic-plus-resistance training cut waist circumference by 2.76 cm (95% CI
+1.00 to 4.52) in the low-to-moderate-intensity arm and lowered body-fat percentage by 2.82 points (0.14 to
+5.50) in the high-intensity arm, against no exercise**
+[@odonoghue2020].
+The programmes averaged about 20 weeks, mostly three
+45-minute sessions a week, and more than 70% of the trials were at moderate-to-high risk of bias. Every
+outcome here is a surrogate; no trial counted heart attacks or deaths. The modality ranking and its
+uncertainty sit on [[Exercise Modality for Body Composition in Obesity]].
 
-The result does not reach everyone. **SELECT is the only trial in the pool without diabetes, and it enrolled people who already had heart disease.** The result is strong for type 2 diabetes and rests on one trial for anyone else ([[Semaglutide for Cardiovascular Risk in Obesity]]). Tirzepatide was excluded by design. And these were glucose-lowering trials with modest weight loss. The benefit may owe as much to the drug as to the weight lost, and the meta-analysis does not separate the two, so it does not show that losing weight prevents heart attacks ([[Does Weight Loss Reduce Cardiovascular Events]]).
+### The body offsets part of what exercise burns
 
-Where the drug does stand in, for someone with type 2 diabetes and high cardiovascular risk, a lifestyle programme no longer has to carry the heart and survival case alone. **On type 2 diabetes remission and liver fat, nothing held shows that lifestyle does what a drug cannot.** Both track the kilograms lost ([[Total Diet Replacement and Type 2 Diabetes Remission]]), and no held trial compares drug and lifestyle on remission. For the liver, AASLD reports a phase 2b trial of daily semaglutide in 320 people with NASH resolved it in 59% against 17% on placebo, without a significant reduction in fibrosis, although «a dose-dependent decrease in progression was observed» [@aasld2023]. For neither route does the held evidence show an effect on liver-related outcomes or death ([[Fatty Liver MASLD and Weight Loss]]). The channel the drug clearly does not replace is muscle and function.
+A doubly-labelled-water study of free-living adults found that **people offset about 28% of the
+calories they burn in activity**, all of it measured as lower basal expenditure, so only about 72% shows
+up as extra daily burn. The offset rose from 27.7% at the 10th percentile of BMI to 49.2% at the 90th
+[@careau2021].
+On that reading, the people with the most fat to lose get the least weight off each workout. Treat
+that with caution: the data compare different people at one time point, the authors leave the direction of cause
+open, and short trials point the other way [[Exercise Energy Compensation]].
 
-### Muscle and function: no prescription replaces training
+Riou measures a different quantity from Careau's basal-only 28%: total compensation, which sets the
+change in body energy against the estimated exercise expenditure, so missed sessions count too. Across
+61 study groups the mean was 18% ± 93% (the spread is between study groups). In a between-study model, compensation grew with
+programme length, to near 84% at about 80 weeks; because the model compares studies, treat that figure as
+indicative [@riou2015].
+**Do not budget weight loss on exercise.**
 
-On these outcomes the drug does not substitute; it adds a cost. **The agents that take off the most weight also take off the most lean mass**, as the muscle section above shows. None of those with moderate-to-high certainty evidence lifted quality of life by a margin patients notice ([[Comparing Obesity Drugs]]).
+### Per unit of deficit, exercise may take more visceral fat (low confidence)
 
-Exercise alone moves weight by about a kilogram in people with obesity; added to a diet it adds somewhat to the loss, and it shifts the loss slightly toward visceral fat. Resistance training kept lean mass during a deficit in older adults ([[Exercise Modality for Body Composition in Obesity]], [[Resistance Training During Caloric Restriction]]). **On muscle and function, training keeps its full rank whether or not someone takes a drug**, though the held trials measured lean mass more often than function, and the obesity exercise trials found no significant gain in VO2max. Someone on a drug has more reason to train, not less ([[GLP-1 and Lean Mass]]) [inferred from @laverde2026].
+A meta-analysis of 40 RCTs (adults with overweight or obesity) compared exercise and calorie
+restriction on visceral fat, the deep abdominal fat linked to cardiometabolic risk. Unadjusted, **calorie
+restriction cut visceral fat more**: effect size −0.53 (−0.71 to −0.35) against −0.28 (−0.37 to −0.19)
+for exercise. After the authors adjusted across trials for the size of the weekly deficit, **exercise came
+out ahead**, effect size −0.18 (−0.33 to −0.04)
+[@recchia2023].
 
-### The drug's costs enter the ranking
+This guide holds the finding at low confidence because of four limits. The numbers are standardised effect sizes, not cm² of fat. The
+adjustment compares different trials; no trial matched the deficit between arms. The deficits were
+prescribed, not measured, so compensation blurs them. And the authors call the exercise effect small.
+Visceral fat is a surrogate too; no trial here measured a heart attack or a death
+[[Exercise vs Caloric Restriction for Visceral Fat]].
 
-**Stopping shrinks the drug's value as a substitute.** Across the pooled trials (not split by diabetes status), 12.7% of people on a GLP-1 drug stopped for adverse events against 9.2% on placebo, RR 1.51 (1.18-1.94), about 35 more per 1,000 (arithmetic on the two rates), though heterogeneity was very high (I² 96%) [@badve2024glp1]. The obesity-drug figures in the section on formula diets and drugs come from a different population and measure; only their direction is shared ([[Comparing Obesity Drugs]]).
+### What to do
 
-The side effects are set out with the drugs above ([[GLP-1 Non-Cardiometabolic Effects and Safety]]), and **the benefit does not appear to last without continued treatment** [@nong2026obesity]; the regain after stopping is set out under *Plan for regain from the start*. Price and lifelong use sit on an affordability axis this appraisal does not weigh. The trade-off exists, and the person weighs it ([[Which Objective Moved This Recommendation]]).
+**Exercise for the waist, body fat and fitness; do not count its calories toward the loss.** If body
+composition is the goal, combined aerobic and resistance training has the best support;
+low-to-moderate load resistance training on its own «was deemed to be the least effective»
+[@odonoghue2020]. Exercise brings its fitness and mortality benefits by routes other than the calories the body compensates for, so a drug that beats exercise on the scale does not replace them [[Physical Activity Dose and Mortality]].
 
-This ranking sizes the levers; it does not choose between them. Whether to take the drug, train and eat to a deficit, or do both depends on which outcomes a person cares about most, how well they tolerate the drug, and whether they expect to keep taking it ([[Comparing Obesity Drugs]]). That leaves a short list of what to do.
+The *fat-burning zone* is a measured intensity of aerobic exercise, not a separate fat-loss lever [[FatMax Training for Body Composition and Cardiometabolic Health]].
+Activity trackers raise step counts in the short term, a different question from weighing yourself
+[[Wearable Activity Trackers and Physical Activity]].
 
-## Act on the deficit, protect muscle, plan the maintenance
+## Defend your muscle with resistance training and protein, especially past 60
 
-The levers that do the most are plain, and **the open questions are about muscle and the long run, not about which diet to pick**.
+Of all kinds of exercise, only resistance training (RT) changes what you lose. It does not change how
+much weight comes off; **it changes what the lost weight is made of.**
 
-**Choose the eating pattern you can keep, and size the deficit.** Switching between diet labels buys little ([[Named Diet Programs Compared]]); where calories were not matched, credit the deficit, not the food ([[Is the Food Category Doing Any Work]]). A starting figure is 500 kcal a day below estimated needs, the deficit the large drug trials prescribed; it is a trial convention, not a tested optimum [@wilding2021] ([[Semaglutide for Cardiovascular Risk in Obesity]]).
+**Every way of losing weight takes some lean mass along with the fat.** Across 52 study groups losing
+weight mostly by diet, fat-free mass made up 19.6% of the loss [@turicchi2019regain].
+The 19.6% is a ratio of average changes, not a modelled estimate, and the studies were selected for at
+least 5% loss and 2% regain.
 
-**Eat fewer ultra-processed, energy-dense foods.** In one inpatient crossover, 20 adults ate about 508 kcal a day more on an ultra-processed diet and gained 0.9 kg in two weeks. The trial was small, short and run on a metabolic ward, and it measured intake and weight, not long-run loss [@hall2019] ([[Ultra-Processed Food and Health Outcomes]], [[Energy Density]]).
+GLP-1-class figures run from similar to higher: 14-22% of the loss for
+liraglutide, about 26% for tirzepatide, and up to 45% at the top of semaglutide's thinly sampled range
+[@laverde2026]. The two sets differ in loss
+size, duration and measurement, so **whether a drug takes more lean mass per kilogram than a diet has
+not been shown either way** -> [[GLP-1 and Lean Mass]].
 
-**Train for the body first and the scale second.** Add resistance training at any age (tested in older dieters, extrapolated to younger ones) and about 1.0 to 1.25 g of protein per kg of body weight a day, the higher intakes that kept more lean mass in dieting trials of mostly overweight or older adults; treat the figure as directional [@wycherley2012] [@kim2016]. In non-randomised comparisons, diet-plus-exercise programmes lost a little more than diet alone; exercise does more for visceral fat and waist ([[Resistance Training During Caloric Restriction]], [[Protein Intake During Energy Restriction]], [[Exercise Energy Compensation]]).
+Fat goes faster than lean on both routes, so lean mass as a share of body weight usually rises even as
+its absolute amount falls. **Which of those two numbers matters depends on who is losing the
+weight.** For a younger adult with plenty of muscle, the ratio matters most. For an older
+adult, or anyone already weak, the absolute loss is a potential harm (callout below).
 
-**Match the tool to the size of the loss you need.** If it is large or your risk is high, formula diets, drugs and surgery are the methods with the size to match ([[Total Diet Replacement and Type 2 Diabetes Remission]]). Weigh a drug's hard-outcome evidence by whether you resemble the trial population, and weigh its side effects and the regain when you stop ([[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]).
+### Resistance training keeps about 0.8 kg of lean mass
 
-**Plan the maintenance from the first week.** Keep the eating pattern going after the loss stops, because the lower intake still has to be held. Franz's review warns that «if weight-loss interventions are discontin- ued entirely, weight regain is likely to occur» [@franz2007]. Set a regain trigger in advance, as DiRECT did: 2 to 4 weeks of partial meal replacement after more than 2 kg regained, a return to the formula diet after more than 4 kg; about half its participants needed at least one [@lean2019]. That trigger was part of DiRECT's protocol in type 2 diabetes and was not tested on its own [inferred from @lean2019]. Keep regular check-ins (DiRECT's were monthly) [@lean2018]. Expect appetite to push back, and treat stopping a drug as a decision with a known regain ([[Weight-Loss Maintenance and Metabolic Adaptation]], [[Total Diet Replacement and Type 2 Diabetes Remission]], [[Mitigations of the Defended Setpoint]]).
+Six randomised trials put obese or overweight older adults (mean age above 57) on calorie restriction
+alone or with RT [@sardeli2018]. The diet-only
+groups lost 0.76 kg of lean mass; the RT groups held near zero. **Adding RT preserved 0.82 kg of lean
+mass (0.36 to 1.27)**: «the LBM loss in the CRRT group was 93.5% less than the CR group». Fat loss (about
+3.8 kg) and total weight loss did not differ significantly between the arms, so RT protects the
+composition of the loss without slowing it. The trials ran RT three times a week for 12 to 24 weeks,
+two or three sets of 8-15 repetitions at 65% or more of one-repetition maximum
+[@sardeli2018] -> [[Resistance Training During Caloric Restriction]].
 
-**Do not let fear of regaining stop you from trying.** In the few studies that separate it out, weight cycling from intentional loss was not linked to higher mortality, though three reports linked it to more diabetes ([[Weight Cycling and Cardiometabolic Risk]]).
+**The trials did not show function improving**: muscle quality, the closest thing to a function measure, only trended upward (p = 0.07). And the pool was older and small, so the
+result has not been tested in younger dieters
+[@sardeli2018].
 
-Three questions remain open: whether losing slowly spares muscle, whether keeping muscle during a loss changes function or survival, and what five to ten years on a GLP-1 drug look like ([[Weight-Loss Maintenance and Metabolic Adaptation]]).
+### Higher protein also keeps lean mass
+
+Wycherley pooled 24 randomised trials in overweight and obese adults, with structured exercise excluded.
+On the same prescribed calories, people eating about 1.25 rather than 0.72 g protein per kg body weight
+a day **kept 0.43 kg more fat-free mass (0.09 to 0.78)**, and lost 0.79 kg more weight (0.08 to 1.50)
+and 0.87 kg more fat (0.48 to 1.26)
+[@wycherley2012]. Kim's 20 trials in
+adults aged 50 and over found higher protein kept 0.45 kg more lean mass (0.20 to 0.71) when defined as
+&gt;=25% of energy, and 0.83 kg more (0.47 to 1.19) when defined as >=1.0 g/kg a day, with no difference in
+total weight lost [@kim2016]. Kim
+shares trials with Wycherley, so the two are not independent confirmations.
+
+**The trials showed the benefit at modest intakes, about 1.0-1.5 g/kg a day.** These trials do not show
+whether eating more buys more in dieters of this kind. [[Protein Intake During Energy Restriction]] and [[Protein and Resistance Training for Muscle and Strength]] cover that question and the energy-balance figures from trained lean adults. The equal calories were prescribed, not
+verified: Wycherley notes that intake differences too small for food records to detect may explain part
+of the weight and fat gap [@wycherley2012].
+
+The RT and protein figures come from different trials in different people, so they do not rank the two
+levers. No trial in this guide tested whether they add up. Do both.
+
+### Lean mass predicts death, but keeping it is not a proven target
+
+In nine cohorts of non-frail adults aged 65 and over, people who died had carried 0.18 standard
+deviations less appendicular muscle mass than survivors (-0.23 to -0.12)
+[@santana2021]. That is a small, observational
+association. **No trial shows that keeping muscle during weight loss changes function, falls or
+survival**, for diet loss or for drug loss. On those outcomes the evidence is insufficient, not null
+-> [[Low Muscle Mass and Mortality]]. Every lean-mass figure in this section is a surrogate
+measured by scans or impedance, and lean mass is not the same as skeletal muscle.
+
+> **Older adults and anyone at risk of sarcopenia.** Past about 60, or if you are already weak, the
+> muscle a diet removes is muscle you may not get back. Here lean loss is a potential harm to strength
+> and independence, not a cosmetic ratio. Sarcopenia criteria live on
+> [[Sarcopenia Definition and Diagnosis]].
+>
+> - **Do RT three times a week during any deficit, whether diet or drug drives it.** That is the dose
+>   Sardeli's six trials tested during a diet (12-24 weeks, 8-15 repetitions at 65% or more of
+>   one-repetition maximum) [@sardeli2018];
+>   during a drug-driven deficit it is untested -> [[Resistance Training Prescription - Load Sets and Frequency]].
+> - **Eat at least 1.0 g protein per kg body weight a day**, the level Kim's older-adult trials tested
+>   [@kim2016].
+> - **Spread it across meals.** In an acute tracer analysis of healthy older men at rest, given single
+>   doses of 0-40 g, muscle protein synthesis plateaued at 0.40 ± 0.19 g/kg body weight per meal (95% CI)
+>   [@moore2014]. For a 70 kg person that
+>   plateau sits somewhere around 15-41 g. This is a synthesis-rate surrogate, not an
+>   outcome trial -> [[Anabolic Resistance]].
+> - **On a GLP-1-class drug, check that you still reach that protein.** The drug cuts appetite while the
+>   protein need stays high; that conflict is inferred from mechanism, not measured
+>   -> [[GLP-1 and Lean Mass]].
+>
+> In sarcopenic obesity, RT without any diet improved physical performance slightly: SMD 0.36 (0.03 to
+&gt; 0.69), low to very low certainty
+> [@poloferrero2025]
+> -> [[Resistance Training for Sarcopenic Obesity]]. **Whether RT and protein during weight loss protect
+> function or lifespan has not been shown either way.**
+
+## A GLP-1-class drug takes off far more weight, but only while you take it
+
+**A GLP-1-class drug takes off about 10-15 percentage points more body weight than lifestyle alone at a
+year. About two-thirds of the loss returns within a year of stopping.** Examples are
+semaglutide and tirzepatide, which also acts on a second gut-hormone receptor. In people without
+diabetes, the one confirmatory hard-outcome trial result is SELECT's, for semaglutide, in people who already have heart disease. In
+type 2 diabetes, the class cut events and deaths.
+
+### The weight comes off while the drug is taken
+
+In STEP-1, adults with obesity (or overweight plus a weight-related condition) and without diabetes
+took semaglutide on top of a lifestyle programme. **They lost 14.9% of body weight at 68 weeks against
+2.4% on placebo with the same programme, a difference of 12.4 percentage points (11.5 to 13.4)**
+[@wilding2021]. A network meta-analysis
+compared each drug with lifestyle alone at about one year: tirzepatide -14.9% (-16.0 to -13.9),
+subcutaneous semaglutide -9.8% (-10.6 to -9.1)
+[@nong2026obesity]. One figure is
+placebo-adjusted at 68 weeks, the other versus lifestyle at one year, so they do not rank against each
+other.
+
+On tirzepatide and cagrilintide-semaglutide, a third to a half of people lose 20% or more within a
+year, against about 2% on lifestyle alone
+[@nong2026obesity]
+-> [[Comparing Obesity Drugs]]. A loss that large matters most in class II/III obesity, though this
+guide holds no separate result for that class. **These losses too hold only while the drug is
+prescribed.** Surgery is the route that holds its loss without a drug, on non-randomised evidence (see
+the maintenance section) -> [[Mitigations of the Defended Setpoint]].
+
+### People who stop regain about two-thirds within a year
+
+STEP-1's extension stopped both semaglutide and the lifestyle programme at week 68. It followed a
+327-person subset for a year; that subset's semaglutide arm had lost 17.3% by week 68. **The
+semaglutide group regained 11.6 percentage points of body weight, against 1.9 on placebo: two-thirds
+of the loss. Most cardiometabolic gains drifted back toward baseline**
+[@wilding2022]. The extension withdrew the
+lifestyle support too, so part of the regain traces to losing that support. A year after stopping, a
+net 5.6% was still off, against 0.1% on placebo. All the extension's analyses were exploratory
+[@wilding2022].
+
+Nong adds two secondhand figures. A 37-study review found about 0.4 kg regained per month after
+stopping, with a projected return to baseline within about 1.7 years. And real-world data show roughly
+half of users stopping within the first year
+[@nong2026obesity]. **On the evidence
+here, the benefit lasts as long as the prescription.** The longest on-drug data cover \~3.3 years
+(SELECT). No data here cover 5-10-year maintenance for people on a drug, whether they stay on it or stop
+-> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
+### Without diabetes, the confirmed hard-outcome benefit is in people who already have heart disease
+
+SELECT randomised adults aged 45 or over with established cardiovascular disease, a BMI of 27 or more
+and no diabetes, on top of standard care. Over a mean 39.8 months, **major cardiovascular events
+(cardiovascular death, heart attack or stroke) fell from 80 to 65 per 1,000 on semaglutide versus
+placebo: HR 0.80 (0.72-0.90), 15 fewer per 1,000**
+[@lincoff2023].
+
+The result counts everyone randomised
+[@lincoff2023]. So it estimates
+the effect of being prescribed the drug, not of taking it without a break. No trial in this guide
+measures events after people stop for good.
+
+SELECT tested its endpoints in a fixed order, and cardiovascular death came second and failed: HR 0.85
+(0.71-1.01). **All-cause death (HR 0.81, 0.71-0.93) is therefore a non-confirmatory estimate, not a
+demonstrated reduction** [@lincoff2023].
+
+Nong reports fewer heart-failure events on semaglutide (RR 0.43, 0.21-0.84) and tirzepatide (RR 0.49,
+0.27-0.88), moderate to high certainty
+[@nong2026obesity]. Tirzepatide and
+cagrilintide-semaglutide, the biggest weight movers, show no demonstrated reduction in death or heart
+attack [@nong2026obesity].
+Tirzepatide's outcome trial is pending
+-> [[Semaglutide for Cardiovascular Risk in Obesity]].
+
+The SELECT trialists name their own important limitation: they did not study people without existing
+cardiovascular disease [@lincoff2023].
+**For an obese person without heart disease, the hard-outcome benefit is not shown either way.** This guide works on the assumption that absolute benefit scales with baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
+
+Lifestyle trials answer the same question differently, in different people (a between-study contrast). In Look AHEAD, in adults with type 2 diabetes, **cardiovascular events did not fall over a
+median 9.6 years: HR 0.95 (0.83-1.09)**
+[@look2013].
+
+Ma pooled trials of weight-reducing diets lasting a year or more, nearly all of them low-fat. Ma could
+not show an effect on cardiovascular events (RR 0.93, 0.83-1.04) but found **all-cause death lower, RR
+0.82 (0.71-0.95), six fewer per 1,000 (2 to 10)**. Look AHEAD carries 54.6% of that death analysis, so
+the two are not separate lines of evidence. The result held without it (RR 0.78, 0.63-0.96)
+[@ma2017]
+-> [[Does Weight Loss Reduce Cardiovascular Events]].
+
+### In type 2 diabetes, the class cuts events and deaths
+
+In placebo-controlled outcome trials in type 2 diabetes (median follow-up about 25 months), **the
+GLP-1 class cut major cardiovascular events (HR 0.87, 0.81-0.93) and all-cause death (HR 0.88,
+0.83-0.93)** [@badve2024glp1].
+These figures compare randomised groups, and more people stopped for adverse events on the drug than
+on placebo [@badve2024glp1].
+So they are not on-drug-only figures
+-> [[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]], [[Type 2 Diabetes]].
+
+### The costs run for as long as the drug does
+
+In SELECT, **16.6% stopped semaglutide because of adverse events, against 8.2% on placebo**, over a
+mean 39.8 months, mostly for gastrointestinal effects
+[@lincoff2023]. An umbrella
+review, mostly in type 2 diabetes, found gallbladder or biliary disease more common on the class than
+on control over 3 months to 5.4 years: odds ratio 1.34 (1.16-1.55). The authors say this signal «did
+not meet stringent credibility thresholds and should be considered exploratory»
+[@yang2026]. People who stop for
+side effects then face the STEP-1 regain -> [[GLP-1 Non-Cardiometabolic Effects and Safety]].
+
+Against lifestyle at about one year, semaglutide reduced lean mass by 5.8% (2.9 to 8.7) and
+tirzepatide by 8.3% (3.7 to 12.9, one trial)
+[@nong2026obesity]. **No drug improved
+quality of life by a margin a patient would notice.** On the SF-36, where the minimal important
+difference is 10 points, semaglutide gained 2.9 (1.7-4.0) and tirzepatide 3.9 (2.3-5.5) against
+lifestyle at about one year. Nong calls this «little to no effects on quality of life»
+[@nong2026obesity].
+
+### On weight the drug adds to lifestyle; on fitness and muscle it cannot replace it
+
+Against lifestyle alone, the drug adds about 10-15 percentage points of body weight at a year, but only
+while taken. Most of that returns within a year of stopping
+[@nong2026obesity]
+[@wilding2021].
+
+**Whether the drug can stand in for lifestyle depends on the outcome.** The drug does not replace
+exercise's effect on fitness and waist, or resistance training's defence of lean mass. Lifestyle keeps
+its own value for diabetes remission (see the TDR section), fatty liver
+([[Fatty Liver MASLD and Weight Loss]]) and function
+-> [[Does Weight Loss Reduce Cardiovascular Events]].
+
+This guide does not weigh price, availability or the burden of indefinite use against the health
+findings. Nong calls high cost a major barrier
+[@nong2026obesity].
+
+## Weigh yourself as a cheap add-on, then act on the summary
+
+The cheapest habit is stepping on a bathroom scale. **Inside a weight-loss programme, adding self-weighing went with about 1.7 kg more loss
+(-2.6 to -0.8; prediction interval -7.5 to 4.1)**, measured at programme end between 10 weeks and 7.2
+months. Those trials also offered diet and activity recording or weight feedback, so the scale's own
+share is not isolated. All but one told people to weigh daily; in the multicomponent trials, daily and
+less-than-daily weighing showed no significant difference [@madigan2015weigh].
+
+**Whether a scale works on its own is not shown either way**: one 3-month trial found -0.5 kg (-1.3 to
+0.3) [@madigan2015weigh].
+
+For keeping weight off, this guide holds one quasi-randomised trial, reported through a second review. A package
+of free scales, two phone calls and a record card for weekly weighing cut regain by 0.68 kg (0.12 to
+1.24) over 12 months, against about 1.8 kg regained without it. **That is a small direction, not a sized
+effect.** [@zheng2014weigh] On harm,
+a few small studies in adults with overweight or obesity looked for body dissatisfaction, low mood and
+disordered eating. **They detected no excess harm, which is not the same as safe.** No included study
+sampled teenagers, people with or at risk of an eating disorder, or people not seeking treatment; for
+them, harm is not shown either way -> [[Self-Weighing for Weight Loss]].
+
+**The routine below is standard practice, cheap, and not tested as a package.** Weigh daily or weekly, whichever
+you will keep doing. Keep weighing at least weekly after a loss. Stop if it distresses you. It is a small
+add-on inside a programme, not a lever by itself. -> [[Self-Weighing for Weight Loss]]
+
+### Each method, on the same five questions
+
+The rows come from different trial types, comparators and time windows, so read across a row, not down
+a column; no row is ranked against another.
+
+| Method | Weight lost | Held at 2-4 yr | Lean mass or composition | Hard outcome | Main cost |
+|---|---|---|---|---|---|
+| Food diet | 4.9 kg alone, 7.9 kg with exercise (6-mo peak); diets differ by \~1.5 kg at 6 mo, \~1 kg or less by 1 yr | 3.0-3.9 kg (completers; optimistic) | \~20% of non-drug loss is lean (between-study) | mostly low-fat diets: all-cause death RR 0.82 (0.71-0.95), \~6 fewer per 1,000; no CV-event reduction detected | most of the loss returns |
+| TDR, T2D <6 yr (DiRECT) | -8.8 kg vs control (-10.3 to -7.3) at 12 mo | -5.43 kg vs control (-6.87 to -3.99) at 2 yr | — | remission 46% at 1 yr, 36% at 2 yr (an intermediate outcome); nothing past 2 yr | about half needed relapse management |
+| VLCD, fast pace | 17.9 kg peak (Franz); 78% vs 51% reached >=12.5% loss (Purcell, randomised) | 5.6 kg at 36 mo (Franz); 70.5% vs 71.2% of loss regained among reachers (non-randomised) | pace vs lean share not shown either way | — | one probably related cholecystitis; no excess harm detected beyond it |
+| Exercise alone | about 0-1 kg | — | combined training (low-to-moderate intensity): waist -2.76 cm (-4.52 to -1.00) | outside this guide -> [[Body Fat]] | \~28% of the extra burn offset (more at high BMI, cross-sectional) |
+| RT during the deficit | no significant difference in fat or weight lost | — | +0.82 kg lean kept (0.36-1.27) | muscle quality trend only (p=0.07); hard outcome not shown | time; tested at 3 sessions/wk for 12-24 wk |
+| Protein, \~1.25 vs 0.72 g/kg/day | -0.79 kg (-1.50 to -0.08) | — | +0.43 kg lean (0.09-0.78); fat -0.87 kg | not shown | — |
+| Self-weighing in a programme | -1.7 kg (-2.6 to -0.8), co-delivered, by 10 wk-7.2 mo | 0.68 kg less regain (0.12-1.24) at 12 mo, one quasi-randomised trial | — | — | no excess harm detected in a few small studies |
+| GLP-1-class drug | -9.8% (semaglutide, -10.6 to -9.1) to -14.9% (tirzepatide, -16.0 to -13.9) vs lifestyle at 1 yr | only while taken: two-thirds back within 1 yr of stopping, net 5.6% vs 0.1% still off (STEP-1, exploratory) | lean -5.8% (-8.7 to -2.9) / -8.3% (-12.9 to -3.7) vs lifestyle | no diabetes: MACE HR 0.80 (0.72-0.90), established CVD only; T2D: MACE HR 0.87, death HR 0.88 | 16.6% vs 8.2% stopped for side-effects; gallbladder OR 1.34 (1.16-1.55, exploratory); indefinite use; price |
+| Bariatric surgery (SOS, non-randomised, severe obesity) | 14-25% of body weight, held at 10 yr | — | — | adjusted all-cause death HR 0.71 (0.54-0.92) over \~11 yr | outside this guide |
+
+A dash means this guide carries no figure; the linked pages hold the detail. The rows draw on
+[[Weight-Loss Maintenance and Metabolic Adaptation]], [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]],
+[[Total Diet Replacement and Type 2 Diabetes Remission]],
+[[Exercise Modality for Body Composition in Obesity]], [[Exercise Energy Compensation]],
+[[Resistance Training During Caloric Restriction]] and [[Protein Intake During Energy Restriction]].
+They also draw on [[GLP-1 and Lean Mass]], [[Self-Weighing for Weight Loss]], [[Comparing Obesity Drugs]],
+[[Semaglutide for Cardiovascular Risk in Obesity]], [[GLP-1 Non-Cardiometabolic Effects and Safety]],
+[[Does Weight Loss Reduce Cardiovascular Events]] and [[Mitigations of the Defended Setpoint]].
+
+### What to do
+
+Each line condenses a section above; the sources sit with the figures there.
+
+**The deficit, maintenance and pace:**
+
+- **Diet:** start about 500 kcal a day below estimated needs, a trial convention, not a tested optimum.
+  For weight, choose any diet you can keep; diets differ by about 1 kg or less after 12 months.
+- **Type 2 diabetes under 6 years, aged 20-65, not on insulin, BMI 27-45:** consider a supervised
+  formula TDR with a relapse plan. In DiRECT 46% were in remission at 1 yr
+  and 36% at 2 yr. Review glucose- and BP-lowering drugs with your prescriber first.
+- **Maintenance:** plan it as its own phase; expect about 3-4 kg held at 2-4 yr from lifestyle alone
+  (completers; a typical starter keeps less). DiRECT's rule, part of its T2D protocol and not tested on
+  its own: monthly visits; over 2 kg regained, 2-4 weeks of partial meal replacement; over 4 kg, back to
+  full formula [@lean2019].
+- **Pace:** pick what you can finish; a 12-week VLCD package got more starters to target (78% vs 51%).
+
+**Body composition, monitoring and the drug:**
+
+- **Exercise:** do it for waist and fitness, not for the scale (about 0-1 kg alone); the trials mostly
+  ran three 45-minute sessions a week for about 20 weeks.
+- **RT during the deficit:** three sessions a week, the tested dose; keeps about 0.8 kg lean
+  (0.36-1.27), tested in overweight or obese older adults (mean age above 57).
+- **Protein:** about 1.0-1.5 g/kg/day during the deficit (lean +0.4 to +0.8 kg in trials). Whether more
+  buys more is untested in dieters with obesity; in non-obese resistance-trained dieters, fat-free mass
+  tracked intake linearly from 0.8 up to 3.2 g/kg between studies (exploratory)
+  -> [[Protein Intake During Energy Restriction]]. Past 60, spread it across meals (an acute synthesis
+  study puts the per-meal plateau at roughly 15-41 g for 70 kg).
+- **Scale:** daily or weekly inside a programme, at least weekly afterwards; stop if it distresses you.
+- **GLP-1-class drug:** about 10-15 percentage points of body weight more than lifestyle at 1 yr, held
+  only while taken. Hard outcomes: in type 2 diabetes it cut events and deaths; without diabetes,
+  confirmed only in established CVD (MACE HR 0.80). Budget for side-effects, lean loss and indefinite use; the prescriber chooses the agent -> [[GLP-1 Drugs]].
+- **Stop optimising the macronutrient split** (about 1 kg or less after a year). A time window showed
+  no added loss (a modest benefit not ruled out). The fast VLCD package changed how many reached the
+  target; no regain effect is shown.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
-> | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else is lost (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
-> | **Evidence included** | 46 sources — 22 gold, 22 high, 2 moderate |
+> | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else changes (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
+> | **Evidence included** | 35 sources — 16 gold, 18 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Lowe (RCT, moderate); Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-20 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
 
 ## References

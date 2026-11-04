@@ -2,8 +2,8 @@
 type: framework
 question: When a GLP-1 drug drives rapid weight loss, how much of what is lost is muscle, does it exceed ordinary weight loss, and what defends against it?
 aliases: [GLP-1 Muscle Loss, GLP-1 Lean Mass, GLP-1 Sarcopenia, Semaglutide Muscle Loss, Ozempic Muscle, GLP-1 Body Composition, GLP-1 Muscle Preservation]
-authors: [Laverde, Ligia Patricia; Munoz, Oscar Mauricio; Alfonso, Diana; Gomez Medina, Ana Maria; Nong, Kailei; Li, Sheyu; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina]
-sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014]
+authors: [Laverde, Ligia Patricia; Munoz, Oscar Mauricio; Alfonso, Diana; Gomez Medina, Ana Maria; Nong, Kailei; Li, Sheyu; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina; Refalo, Martin C; Trexler, Eric T; Helms, Eric R]
+sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Refalo - Protein Fat-Free Mass Energy Restriction 2025]
 cluster: glp1
 confidence: low
 relationships:
@@ -20,7 +20,7 @@ relationships:
     - Surrogate Outcomes
     - Big Rocks (Elderly)
 created: 2026-08-06
-updated: 2026-11-03
+updated: 2026-11-04
 self_critiqued: 2026-10-06
 ---
 <div class="recent-update" data-last-updated="2026-11-02">
@@ -215,7 +215,7 @@ So a reassuring lean-mass ratio does **not** prove function is spared, and a sca
 unmeasured on both sides. Held as **insufficient evidence on function**, not as *safe* or *harmful*.
 
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## The muscle-preservation bridge — the same machinery the muscle cluster already holds
 
@@ -230,22 +230,30 @@ muscle mass», and «resistance exercise and adequate protein intake during GLP1
   -> [[Protein and Resistance Training for Muscle and Strength]] (RT the driver, protein a modest adjunct;
   break point \~1.6 g/kg/day at energy balance). Exercise also spares muscle while a deficit runs
   -> [[Exercise vs Caloric Restriction for Visceral Fat]].
-- **Adequate protein — and the deficit RAISES the target, directionally.** GLP-1 weight loss IS an
-  energy deficit, and a deficit raises the FFM-retention protein requirement above the \~1.6 g/kgBM
-  energy-balance figure -> [[Protein Intake During Energy Restriction]] (Refalo 2025, exploratory).
-  Refalo's \~1.9 g/kgBM / \~2.5 g/kgFFM is a **directional prior only, not a transportable number here**:
-  its cohort is *nonobese and resistance-trained*, whereas the typical GLP-1 user is obese and often
-  untrained — off Refalo's support on both counts (the source page fences the obese off Refalo
-  explicitly). That stratum is not unstudied on protein, though (corrected 2026-11-02; self-critique):
-  the same page holds Wycherley 2012 (24 RCTs in energy-restricted adults, no BMI restriction,
-  structured exercise excluded) and Kim 2016 (adults aged 50 and older), where higher protein spared
-  fat-free mass (Wycherley) and lean mass (Kim) modestly at a lower achieved dose (\~1.25 g/kg/d in
-  Wycherley's high-protein arms, \~1.0-1.5 in Kim's) -> [[Protein Intake During Energy Restriction]].
-  [inferred from @refalo2025] The
-  robust point is the *direction and the collision*: the drug cuts intake exactly when the muscle-sparing
-  protein target has gone *up*, not down. Per-meal protein must also clear the anabolic threshold
+- **Adequate protein — a deficit may raise the requirement, but no held study measures by how much.**
+  GLP-1 weight loss is an energy deficit. Refalo and colleagues suggest that «During energy restriction, resistance- trained individuals may beneﬁt from higher dietary protein intakes than cur- rently advised during states of energy balance or surplus (1.6 g/kgBM/day or higher), particularly when maximal FFM preservation is of utmost impor- tance (Table 3).»
+  [@refalo2025]. That is a suggestion,
+  not a measured shift. The \~1.6 figure is Morton's fitted knee on total body weight, 1.62 g/kg/d (95%
+  CI 1.03-2.20), not significant (p=0.079), from trials that excluded energy restriction; Refalo's \~1.9
+  g/kgBM is where an exploratory meta-regression crosses zero fat-free-mass change in nonobese,
+  resistance-trained adults. The two are different constructs in different populations, and Helms
+  co-authored both, so they do not form an independent before-and-after comparison
+.
+  The typical GLP-1 user is obese and often untrained, off Refalo's support on both counts (the source
+  page fences the obese off Refalo explicitly). That stratum is not unstudied on protein, though
+  (corrected 2026-11-02; self-critique): the same page holds Wycherley 2012 (24 RCTs in energy-restricted
+  adults, no BMI restriction, structured exercise excluded) and Kim 2016 (adults aged 50 and older), where
+  higher protein spared fat-free mass (Wycherley) and lean mass (Kim) modestly at a lower achieved dose
+  (\~1.25 g/kg/d in Wycherley's high-protein arms, \~1.0-1.5 in Kim's) -> [[Protein Intake During Energy Restriction]].
+
+  The robust point is the *collision*, not a number: the drug cuts intake during a deficit, and in a
+  deficit held trials find that higher protein spares some lean mass; whether the target itself rises,
+  and by how much, is open for this stratum. **A labelled default: at least about 1.0-1.25 g/kg/d.**
+  That is the achieved high-protein dose in diet-induced weight-loss trials (Wycherley \~1.25 vs \~0.72 achieved;
+  Kim's high-protein cut-off >=1.0, achieved \~1.0-1.5, adults 50 and older), not in GLP-1 users, and no ceiling was located; whether more buys more
+  in this stratum is untested -> [[Protein Intake During Energy Restriction]]. The default assumes normal
+  kidney function; established CKD is the route-(c) exception, graded by stage on PROT-AGE's older-adult table, and for diabetic kidney disease the held guidance may disagree -> [[Protein Intake and Kidney Function]]. Per-meal protein must also clear the anabolic threshold
   -> [[Anabolic Resistance]].
-  [inferred from @refalo2025]
 
 The composite beats either alone: Laverde says *lose muscle unless defended*; the muscle cluster says *how*
 to defend it — together they specify the complete strategy (drug + RT + protein), which is a net-effect
@@ -259,17 +267,19 @@ beyond it is the open magnitude.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Where the cost inverts — older adults, and a mechanism collision
 
 [inferred from @laverde2026]
 Laverde's population is the wrong one for the worry: «relatively young populations with a low burden of
 comorbidities ... the effects in patients with diabetes, as well as in older and multimorbid populations,
 should be evaluated in future studies, as these individuals are at high risk for muscle deterioration».
-That is exactly the sarcopenia-risk stratum where absolute muscle loss flips from a cosmetic ratio to a
+That is the sarcopenia-risk stratum where absolute muscle loss plausibly flips from a cosmetic ratio to a
 patient-important harm (falls, fractures, loss of independence) -> [[Sarcopenia Definition and Diagnosis]],
 [[Big Rocks (Elderly)]].
 
-And in that stratum the drug's own mechanism **works against the defense**: a GLP-1 RA suppresses appetite
+And in that stratum the drug's own mechanism **plausibly works against the defense** (the wiki's inference; untested in GLP-1 users): a GLP-1 RA suppresses appetite
 and total intake — but defending muscle in an older adult requires a *higher* per-meal protein dose to
 clear the raised anabolic-resistance threshold ([[Anabolic Resistance]]). So the drug cuts the very
 protein intake the older muscle needs more of — an appetite-suppression / anabolic-threshold collision
@@ -283,6 +293,7 @@ older stratum — which is losing muscle anyway, sharpening rather than softenin
 the wiki's inference (corrected 2026-10-06: the 0.3-1%/yr was presented as the placebo arms'
 loss -> a literature rate Laverde offers as the likely explanation; self-critique).
 
+</div>
 
 <div class="recent-update" data-last-updated="2026-11-02">
 
@@ -298,7 +309,7 @@ Laverde as a second route to *semaglutide causes large weight loss*.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Decision relevance
 
@@ -307,10 +318,16 @@ Laverde as a second route to *semaglutide causes large weight loss*.
 
   (corrected 2026-10-06: *minor and recoverable* -> smaller in relative importance, recovery untested;
   self-critique).
-- **Older / sarcopenia-risk / multimorbid adult:** the absolute face governs — the muscle cost is a
-  front-line patient-important harm, the appetite-suppression collision is real, and any GLP-1 weight loss
-  must be paired with resistance training and deliberate protein, monitored on function not just weight
-  -> [[Big Rocks (Elderly)]]. This is where the drug decision is genuinely contingent on the defense.
+- **Older / sarcopenia-risk / multimorbid adult:** the absolute face matters more here, but the held
+  evidence does not establish the harm in this stratum: Laverde studied mostly younger adults, this page
+  holds function as insufficient evidence, and the appetite-protein collision is the wiki's inference.
+  Because muscle loss in this group plausibly costs function, pair any GLP-1 weight loss with resistance
+  training and deliberate protein (PROT-AGE, consensus: at least 1.2 g/kg/d for older adults who exercise,
+  or 1.2-1.5 with acute or chronic disease; the exception is severe CKD, eGFR <30 and not on dialysis,
+  where PROT-AGE limits intake to 0.8 g/kg of ideal body weight -> [[Protein Intake for Older Adults]]), and watch function, not just weight
+  -> [[Big Rocks (Elderly)]]. That is
+  a cheap, low-harm hedge (standard practice, not trial-tested in GLP-1 users). This is where the drug
+  decision most plausibly depends on the defense.
 - **The complete strategy, not the drug alone:** judge net effect — GLP-1 + RT + adequate protein — never
   the drug's naive body-composition number. Function is unmeasured, so monitor it directly where it matters.
 

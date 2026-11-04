@@ -22,10 +22,10 @@ relationships:
     - Dairy and Bone Health
     - Exercise and Bone Mineral Density
 created: 2026-08-06
-updated: 2026-11-02
+updated: 2026-11-04
 self_critiqued: 2026-11-02
 ---
-<div class="recent-page" data-last-updated="2026-11-02"></div>
+<div class="recent-page" data-last-updated="2026-11-04"></div>
 
 
 The **target** side of the protein question for the over-65 stratum: how much, and distributed how,
@@ -211,7 +211,7 @@ severe-CKD row had no amount and the moderate/mild CKD tiers of Bauer's Table 6 
 only at severe renal impairment*. Bauer's Table 6 limit is *to* 0.8, not below it; amended same day: the
 ideal-body-weight basis and the 0.6 g/kg CKD 3-4 evidence were added.)
 
-### Diabetes with kidney disease — the two held sources disagree
+### Diabetes with kidney disease — the two held sources may disagree, most clearly at severe CKD
 
 PROT-AGE's diabetes section says «someone with diabetes and severe kidney nephropathy may need to follow
 a protein-restricted diet», its Table 6 limits severe CKD (eGFR <30, not on dialysis) to 0.8 g/kg/d, and
@@ -240,11 +240,24 @@ DKD need to restrict protein intake to less than the average protein intake.»
 [@evert2019]
 
 [inferred from @bauer2013; @evert2019]
-For diabetic kidney disease the two held sources disagree on what to do: PROT-AGE says restriction may be
+For diabetic kidney disease the two held sources may disagree on what to do, most clearly at severe CKD (PROT-AGE also relays KDOQI's 0.8 g/kg/d for
+adults with CKD and diabetes, with no stage band): PROT-AGE says restriction may be
 needed and limits severe CKD to 0.8 g/kg/d; ADA 2019 says people with DKD do not need to go below average
 intake. PROT-AGE's limit is *to* the RDA, and ADA's consensus sentence is about going *below* it, so the
 conflict sits in ADA's second sentence. The quoted ADA sentences name non-dialysis DKD without an eGFR band, so whether the disagreement
 holds at eGFR <30 specifically is not settled by the text. The page does not pick a side.
+**Not filed as a tension (decided 2026-11-04).** The two bodies overlap only in older adults with
+diabetes and non-dialysis kidney disease. There PROT-AGE limits severe CKD (GFR <30) to 0.8 g/kg of ideal
+body weight, while ADA's text says people with DKD need not restrict below average intake, having just given
+1-1.5 g/kg/d as the typical intake for diabetes without kidney disease. At GFR 30-60 PROT-AGE's own table is compatible with ADA (more than 0.8 g/kg/d of ideal body weight is
+safe, with GFR monitored twice a year), so
+on PROT-AGE's own table any clash sits mainly at severe CKD (the KDOQI 0.8 g/kg/d it relays carries no
+stage band, so read against ADA it may also clash at moderate CKD), and whether the severe-CKD clash is real cannot be settled from the held text,
+because ADA gives no eGFR band. Choosing a protein intake inside a diagnosed kidney disease
+is a treatment decision for a clinician, outside this wiki's scope, so the fabric records the
+possible disagreement and stops. If it is real, its cause is not classified: ADA 2019 is six years
+newer than PROT-AGE 2013, so lag or a different evidence base could explain it as readily as a
+disagreement on the same evidence. [inferred from @bauer2013; @evert2019]
 
 ## The number this replaces — and why the RDA is a floor, not a target
 
@@ -363,7 +376,7 @@ available». For healthy kidneys PROT-AGE adds no caution at its recommended int
 caution is **graded by CKD stage**, per Bauer's Table 6 (chunk 02): at **severe** kidney disease (eGFR
 <30, not on dialysis) these individuals «may need to limit protein intake» (abstract) or «need to limit
 protein intake» (key-recommendations box, chunk 04) — to 0.8 g/kg/d, the RDA (route (c) contraindication;
-for diabetic kidney disease ADA 2019 disagrees, though ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; *Diabetes with kidney disease*, above); at **moderate** CKD (GFR 30-60) «Protein >0.8 g/kg BWy/d is safe, but GFR
+for diabetic kidney disease ADA 2019 may disagree, though ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; *Diabetes with kidney disease*, above); at **moderate** CKD (GFR 30-60) «Protein >0.8 g/kg BWy/d is safe, but GFR
 should be monitored 2x/year»; at mild CKD (GFR >60) intake rises per patient needs. Bauer also reports
 two separate cohorts at the mild end. In one (ref 110; women mostly >60, none >79) older women «with normal
 or slightly impaired kidney function» on \~1.1 g/kg/d «did not experience a reduction in renal function».
@@ -618,7 +631,7 @@ that contrast, but a weak one.
 - **With diabetes, protein advice is individual.** PROT-AGE says sarcopenic obesity may benefit from more
   protein, and the ADA's 2019 consensus sets no ideal protein share (the >20%-of-energy caution PROT-AGE
   relays is the ADA's 2002 statement; *Floors, not ceilings*, above). For diabetic kidney disease the two
-  held sources disagree on whether to restrict (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; *Diabetes with kidney disease*, above). The renal reviews'
+  held sources may disagree on whether to restrict (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; *Diabetes with kidney disease*, above). The renal reviews'
   diabetes data are on [[Protein Intake and Kidney Function]].
 - **The move is raising the daily total**; spreading it across meals is a cheap default PROT-AGE leans
   toward, not a settled requirement. PROT-AGE notes that «older adults often consume less protein than do
@@ -643,8 +656,8 @@ that contrast, but a weak one.
 - **The one flip down is severe renal disease** — PROT-AGE limits it to 0.8 g/kg/d of ideal body weight,
   the RDA; at moderate CKD (eGFR 30-60) >0.8 g/kg/d of ideal body weight stays but with GFR monitoring
   2x/year (Bauer Table 6, above; Bauer's lower-intake CKD 3-4 evidence and its caveats are under
-  *Lower-intake evidence in CKD*, above). For **diabetic** kidney disease the held sources disagree: ADA
-  2019 says people with DKD do not need to restrict below average intake, so PROT-AGE's limit is contested
+  *Lower-intake evidence in CKD*, above). For **diabetic** kidney disease the held sources may disagree: ADA
+  2019 says people with DKD do not need to restrict below average intake, so PROT-AGE's limit may be contested
   in that stratum (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; *Diabetes with kidney disease*, above). (corrected 2026-10-22: was *The one hard flip
   down is severe renal disease*.)
 - **Protein quality and timing: PROT-AGE says the evidence does not yet support a recommendation.** Its

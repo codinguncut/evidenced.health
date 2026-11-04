@@ -3,371 +3,489 @@ type: deliverable
 title: Protein Intake
 aliases: [Protein, Protein Intake, Dietary Protein, Protein Requirements, How Much Protein, Protein Source]
 question: 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?'
-authors: [Morton, Robert W; Tagawa, Ryoichi; Bauer, Jürgen; Naghshi, Sina; Budhathoki, Sanjeev; Moore, Daniel R; Katsanos, Christos S; Food and Agriculture Organization of the United Nations (org); Choi, MoonKi; Song, Zhenzhen; Refalo, Martin C; Wycherley, Thomas P; Kim, Jung Eun; Devries, Michaela C; de Santana, Felipe M; Nachvak, Seyed Mostafa; Sardeli, Amanda Veiga]
-sources: [Morton - Protein Supplementation and Resistance Training 2018, Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020, Bauer - PROT-AGE Protein Older Adults 2013, Naghshi - Dietary Protein Mortality 2020, Budhathoki - Animal Plant Protein Mortality 2019, Moore - Protein Requirement Older vs Younger 2014, Katsanos - Leucine Muscle Protein Synthesis Elderly 2006, FAO - Dietary Protein Quality Evaluation 2013, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Kim - Protein Body Composition After Weight Loss 2016, Devries - Higher Protein Kidney Function Meta-Analysis 2018, de Santana - Low Muscle Mass Mortality 2021, Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019, Kelly - Modifiable Lifestyle Factors CKD Prevention 2020, Sardeli - Resistance Training Caloric Restriction]
-confidence: medium
+sources:
+  - Morton - Protein Supplementation and Resistance Training 2018
+  - Coelho-Junior - Relative Protein Intake Physical Function Meta-Analysis 2018
+  - Song - Nutritional Supplementation Resistance Training Sarcopenia Meta-Analysis 2023
+  - Naghshi - Dietary Protein Mortality 2020
+  - Schoenfeld - Protein Timing Muscle Strength Hypertrophy
+  - Wirth - Protein Timing Body Composition
+  - Bauer - PROT-AGE Protein Older Adults 2013
+  - Devries - Higher Protein Kidney Function Meta-Analysis 2018
+  - Tagawa - Protein Muscle Mass Dose-Response Meta-Analysis 2020
+  - Komar - Leucine-Rich Protein Elderly
+  - Choi - Resistance Training Nutritional Intervention Older Adults 2021
+  - de Santana - Low Muscle Mass Mortality 2021
+  - Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019
+  - Weaver - Dietary Protein Bone Density Fracture 2021
+  - Refalo - Protein Fat-Free Mass Energy Restriction 2025
+  - Budhathoki - Animal Plant Protein Mortality 2019
+  - Seidelmann - Carbohydrate Intake Mortality 2018
+  - Ma - Dietary Macronutrient Intake Cardiovascular 2024
+  - Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019
+  - Lin - Dietary Lifestyle Nephrolithiasis 2020
+  - Nachvak - Soy Isoflavones Protein Mortality Meta-Analysis 2019
+  - FAO - Dietary Protein Quality Evaluation 2013
+  - Lowe - Time-Restricted Eating TREAT 2020
+  - Liu - Calorie Restriction Time-Restricted Eating 2022
+  - ADA - Nutrition Therapy for Diabetes 2019
+  - Wycherley - Energy-Restricted High-Protein Weight Loss 2012
+  - Kim - Protein Body Composition After Weight Loss 2016
+  - Sardeli - Resistance Training Caloric Restriction
+  - Kelly - Modifiable Lifestyle Factors CKD Prevention 2020
+  - Van Elswyk - Protein Renal Health 2018
+  - Wang - Insulin Resistance BCAA Mendelian Randomization 2017
+  - Moore - Protein Requirement Older vs Younger 2014
+confidence: low
 created: 2026-08-10
-updated: 2026-10-06
-self_critiqued: 2026-10-06
-concrete_subject_audited: 2026-10-02
+updated: 2026-11-03
+self_critiqued: 2026-11-03
+concrete_subject_audited: 2026-11-03
 ---
+<div class="recent-page" data-last-updated="2026-11-03"></div>
 
-Ask how much protein to eat and you are really asking four questions at once: how much, from which
-foods, at what times of day, and whether any of it applies to you. Each has a different answer, and
-each rests on its own evidence.
 
-If you lift weights, protein earns a place. Reaching a modest daily target lets the training build a
-little more muscle than it otherwise would — and that target is a floor to reach, not a ceiling to
-fear. Eating past it is nearly harmless for a healthy person and adds almost nothing; without the
-training, extra protein on its own builds little. For how long you live, the amount barely moves the
-needle. What does, modestly, is the source: shifting the protein on your plate from animal toward
-plant tracks slightly lower mortality, though only in observational data.
+## Reach a floor for your situation; past it, protein decisions are small
 
-Who you are changes the answer most of all. An older adult who already resistance-trains gains
-little from piling on protein or supplements beyond the training itself; the one thin exception is a
-weak grip-strength signal in diagnosed muscle-wasting. An older adult eating too little should still
-raise and spread out their protein. One caveat sits under all of it: almost every number here is
-measured on muscle size and strength, not on whether people live longer or better. And the kidney
-scare that makes some people ration protein is unfounded unless the kidneys are already diseased.
+Protein comes down to five decisions: how much to eat for muscle, whether eating more buys function or
+years, which foods supply it, when to eat it, and how your situation moves the floor. **Past your floor,
+the protein choices left are small**, and no held evidence shows that going further changes a hard
+outcome. Once you are past it, you can stop optimizing.
 
-## Muscle: a floor worth reaching, a ceiling not worth chasing
+**Muscle.** In resistance-training (RT) trials, extra protein added +0.30 kg fat-free mass (95% CI
+0.09-0.52) and +2.49 kg on a one-repetition maximum (0.64-4.33) on top of training, both surrogates. The fitted break point (the knee), 1.62 g/kg/d of total body weight (95% CI 1.03-2.20), was not significant (p=0.079), and energy-restricted trials were excluded [@morton2018]. **Treat it
+as a soft floor, not a ceiling or a settled target**. For older adults, people with obesity and anyone in an energy deficit, this knee is untested ->
+[[Protein and Resistance Training for Muscle and Strength]]
 
-Start with the muscle question, because it is the one most people mean. The lever that builds muscle
-is the training, not the protein. Morton pooled 49 resistance-training trials. Adding protein on top
-of the lifting bought a further 0.30 kg of lean mass and 2.49 kg on a one-rep-max over weeks of
-training [@morton2018] — real, but
-small increments on what the training already delivered. It moved neither total body weight nor
-maximal voluntary contraction at all
-[@morton2018]. Protein does not build
-muscle; it lets the training build slightly more.
+**Function and survival.** In older adults (observational), function differed significantly only in comparisons against intakes below 0.8 g/kg/d [@coelhojunior2018protein]. In
+older adults with sarcopenia, supplements (mostly protein-based, often with vitamin D) added to training
+gave a borderline pooled grip gain (WMD 1.87, 0.01-3.74, P=0.049); pooled gait speed (P=0.098) and
+muscle mass did not improve. Grip and gait speed rose only in the protein-plus-vitamin-D subgroup
+[@song2023],
+a subgroup finding and so a hypothesis.
+**Nothing held shows that going above the floor improves function or lengthens life.** ->
+[[Protein Intake for Older Adults]], [[Surrogate Outcomes]]
 
-How much protein feeds that adjunct? Morton's dose-response points at roughly 1.6 g per kilogram of
-body weight per day, above which «Protein supplementation beyond total protein intakes of 1.62
-g/kg/day resulted in no further RET-induced gains in FFM»
-[@morton2018]. Two things
-about that number matter more than the number itself.
+**Source and timing.** In cohorts, people eating the most plant protein had lower all-cause mortality, 0.92 (0.87-0.97), and animal protein as a nutrient showed no association (observational, relative) [@naghshi2020]. **You act on this by swapping foods, mainly away from red and processed meat**, and the benefit may belong to fibre and pulses. Schoenfeld
+detected no timing effect on muscle size or lean mass once total protein was accounted for
+[@schoenfeld2013], and Wirth found none
+across timing subgroups [@wirth2020].
 
-First, the denominator is total body weight as the scale reads it — grams of protein per kilogram of
-whole-body mass, not per kilogram of lean mass. Morton regressed the change in fat-free mass against
-baseline intake in g/kg of total body mass; fat-free and fat mass are the outcomes being predicted,
-not the yardstick the dose is measured against
-[@morton2018]. In a lean
-person, total and lean weight sit within about 15-20% of each other, so \~1.6 g/kg of total weight is
-usable as-is. In someone with obesity the two diverge roughly two-fold, and the gram target is
-undefined until you say which kilogram you mean.
+**Your situation.** Older adults have consensus floors of at least 1.0-1.2 g/kg/d, at least 1.2 if
+active [@bauer2013]; an energy deficit
+appears to raise the floor in nonobese trainees. **Severe chronic kidney disease flips the
+advice.** Below eGFR 30 (not on dialysis), PROT-AGE limits older adults to at most 0.8 g/kg of ideal body weight, and a clinician makes the call [@bauer2013] ->
+[[Protein Intake and Kidney Function]]
 
-Second, the knee is soft. The break-point of 1.62 carries a wide confidence interval of 1.03-2.20
-and was not statistically significant (p=0.079)
-[@morton2018] — it is
-essentially the midpoint of that interval, not a demonstrated threshold. On Morton's own
-baseline-intake axis, a straight line fit the data significantly better than a knee. An independent
-Japanese meta-analysis (Tagawa, 138 trials, no shared authors) placed its diminishing-returns
-inflection lower, at 1.3 g/kg, on a curve that kept rising out to 3.5 g/kg and never flattened
-[@tagawa2020]. Different
-populations, different estimators, no plateau anyone could pin down: the honest object is a wide
-region, not a point -> [[The Underivable Optimum]].
+> **What this guide cannot tell you.** Trial evidence on function is thin: in older adults with
+> sarcopenia, supplements, mostly protein-based, added to training gave at best a borderline
+> pooled grip gain (WMD 1.87, P=0.049); grip and gait speed rose in a
+> protein-plus-vitamin-D subgroup, a hypothesis. No held trial links raising protein to fracture,
+> survival or kidney failure. This guide checks that its
+> reasoning is coherent and faithful to its sources, not whether following it leaves anyone better off.
+>
 
-So treat \~1.6 g/kg as a floor to reach, not a ceiling to fear. The failure that costs you muscle is
-undershooting; overshooting merely wastes a little protein, and for a healthy person, eating well
-past the target does not harm the kidneys (see the strata below). Most people who already
-resistance-train sit near the 1.4 g/kg that Morton's trial participants averaged — about 75% above
-the RDA — so the practical move is topping up into the region, not loading far beyond it.
-[@morton2018]
+## If you train, treat about 1.6 g/kg of body weight as a soft floor, not a target
 
-Where the person leaves Morton's lean, weight-stable, trained sample, the target is not simply
-lower — it is unknown. People with obesity, older adults, and anyone in a caloric deficit sit off
-the evidence's support. Morton reported no obese stratum and no baseline body-fat, so the right move
-is to name the denominator and treat the target as a genuine gap — not to scale a lean number
-downward. A tempting shortcut is to dose on lean mass instead. But that does not even settle its own direction:
-heavier people often carry more absolute lean mass, which pushes the gram target up, while anabolic
-resistance may raise the per-kilogram requirement, which pushes it the other way.
-Sign-uncertain, so hold it as mechanism, not a finding.
+Morton pooled 49 RCTs and 1,863 healthy adults (mean age 35±20) doing RT at least twice a week. Most were
+untrained (10 of the 49 studies used resistance-trained participants), and none was energy-restricted.
+**Added to training, protein raised one-repetition-maximum (1RM) strength by 2.49 kg (0.64 to 4.33) and
+fat-free mass (FFM) by 0.30 kg (0.09 to 0.52)**, but not maximal voluntary contraction or total body mass
+[@morton2018]. These gains are
+small (RCT pool, surrogate), and Morton judges how the training is programmed to matter much more than
+the supplement [@morton2018].
+Across trials with or without RT, Tagawa found protein added lean mass either way (below).
 
-The 1.6 that matters for muscle is not the only number people quote — and the others answer
-different questions.
+### The knee is soft, and a second analysis answers a different question
 
-## The famous numbers each answer a different question
+Morton fitted a knee at 1.62 g/kg/d (95% CI 1.03 to 2.20). Below it, more protein added FFM; above it,
+the method fixed the second line flat (slope set to zero), so the fit could not show further gains
+[@morton2018]. **The knee was not
+statistically significant:** on 42 study arms the two-segment fit beat a straight line, but not
+significantly (p=0.079, R2 0.19), and against baseline intake a straight line fit significantly better.
+The intake axis is grams per kg of **total body weight as measured** (g/kg body mass/day), not lean mass
+[@morton2018]. The protein groups
+ate 1.4±0.4 g/kg/d before the trials and 1.8±0.7 during them, controls about 1.3
+[@morton2018], so the knee sits
+inside the sampled intakes.
 
-Three protein numbers circulate, all in the same units — grams per kilogram of body weight per day —
-which is exactly why they get confused. They are not competing estimates of one right answer. They
-answer different questions.
+Tagawa pooled 138 trials and 5,866 people, with or without RT. **The spline's slope dropped at about 1.3
+g/kg/d, from 0.39 kg to 0.12 kg of lean body mass (LBM) per 0.1 g/kg step, but stayed positive across
+the studied 0.5 to 3.5 g/kg/d.** Above 1.3, gains kept rising with RT and fell off without it. Protein
+without RT still added about 0.53 kg LBM (0.36-0.76), no less than with RT. Five of the seven authors
+work for Meiji, a dairy and protein company
+[@tagawa2020]. That conflict of
+interest casts more doubt on the size of the effect than on its direction.
 
-The RDA of 0.8 g/kg is the lowest of the three and the most misread. It is a deficiency floor — the
-single figure every guideline sets for all adults, derived from nitrogen-balance studies — and
-PROT-AGE judges it «too low for older people»
-[@bauer2013]. It was never meant as a
-target to aim for, and deploying it as one — the way a food label's *% Daily Value* invites —
-undershoots anyone trying to build or hold muscle. In one 14-week study, older adults eating exactly
-the RDA «resulted in the loss of mid-thigh muscle area» even as their whole-body composition looked
-stable [@bauer2013].
+**Tagawa's 1.3 is an all-trials slope drop, not a rival estimate of Morton's knee**: different
+populations, different estimators, and neither established a plateau. From a non-significant break point with a wide interval, you cannot read off a single best intake -> [[The Underivable Optimum]].
 
-The gym maxim *a gram per pound* lands near 2.2 g/kg once converted — at or above the top of the
-muscle-building region, past the point where more protein reliably adds lean mass. It is not so much
-wrong as redundant: it buys the upper-end margin discussed above and little beyond it.
+### Reach about 1.6 during training, as a floor
 
-Between them sits \~1.6 g/kg, the region where resistance training's protein benefit flattens. Line
-the three up and the pattern is plain: 0.8 answers *how little keeps me out of deficiency*, 1.6
-answers *how much helps me build muscle while I train*, and 2.2 is a rule of thumb sitting at the
-ceiling of that second question. Same unit, three different constructs — preventing deficiency
-versus building muscle — not three tries at one number. And every one of them is grams per kilogram
-of total body weight, so the denominator has to be named each time or the figures stop meaning
-anything.
+**During RT, reach about 1.6 g/kg/d of total body weight as a soft floor (CI 1.03 to 2.20, not
+significant), not a ceiling.** Given that interval, Morton suggests about 2.2 g/kg/d for those seeking to
+maximise RT gains in FFM, as a pragmatic estimate
+[@morton2018].
 
-All three numbers are about amount; for how long you live, the evidence points at source instead.
+If your goal is hypertrophy, you may hedge against undershooting an uncertain knee by biasing toward 1.8-2.2. The
+hedge does not claim that more protein raises the average gain. Devries's higher-protein kidney arms
+averaged 1.81±0.60 g/kg/d (some at 2.1-3.3) against 0.93, with no GFR-change difference in healthy
+kidneys (very low certainty)
+[@devries2018]. So the kidney evidence
+thins above about 1.8, and it comes from a review that shares authors with Morton (kidney section). Well above the sampled intakes, satiety, expense and the foods extra protein displaces also weigh.
 
-## For how long you live, the source matters and the amount barely does
+### The number belongs to one kind of person
 
-All three famous numbers ask *how much* protein. For mortality, the evidence points somewhere else
-entirely — at *what kind*. Naghshi's meta-analysis pooled 32 prospective cohorts and found that raising
-*total* protein tracks only a weak drop in all-cause death (RR «0.94 ... 0.89 to 0.99»), with no signal
-at all on cardiovascular or cancer mortality [@naghshi2020]. When
-the total splits by source, the picture sharpens: **animal protein is flatly null on every outcome**
-(all-cause «1.00 ... 0.94 to 1.05»), and **plant protein carries the whole signal** — all-cause «0.92 ...
-0.87 to 0.97», CVD «0.88 ... 0.80 to 0.96» [@naghshi2020]. The one
-significant dose-response is small: «an additional 3% of energy from plant proteins a day is associated
-with a 5% lower risk of death from all causes» [@naghshi2020].
+Morton's soft knee of 1.62 g/kg/d on total body weight comes from healthy adults doing RT outside an
+energy deficit, and Morton's main text reports no BMI or body-fat data for the pooled sample
+[@morton2018]. **For a person with
+obesity, a g/kg target is undefined until you say which kilogram counts**: total and lean mass diverge, and
+no held study locates the target on either basis. Nor does the knee carry over to older adults or an energy deficit (stratum section). Programming ->
+[[Resistance Training Prescription - Load Sets and Frequency]]; creatine -> [[Creatine Supplementation]].
 
-So the lever here is not a target to hit — it is a **swap**. Shift protein-bearing foods from animal
-toward plant (legumes, nuts, whole grains, soy); the daily gram count does little on its own. This is a
-substitution decision, not a dose decision.
+## Do not expect extra protein above your floor to buy function or years: the trials are thin
 
-Two cautions keep the swap honest. First, the animal-protein null is a fact about the *nutrient*, not a
-green light for the *foods* -> [[Is the Food Category Doing Any Work]]. The animal bucket pools red meat
-with fish, poultry, eggs and dairy. Budhathoki's Japanese cohort, where fish supplies most animal
-protein, shows why the aggregate reads null: protective fish and harmful red and processed meat cancel
-inside one label — a discrepancy the authors trace to «a difference in the main dietary source of animal
-protein» [@budhathoki2019]. Read *animal protein is null* as
-*name the food* — not as *red meat is fine*.
+**On function, sarcopenia, bone and survival, held studies find their signal mainly at the low-intake edge or in people already losing muscle.** No held RCT links raising protein above adequacy to fracture or survival:
+insufficient evidence, not evidence of no effect -> [[Protein Intake for Older Adults]]
 
-Soy carries the same trap, and it is a food this section steers you toward. Nachvak's meta-analysis pulls
-soy protein out of that plant bucket: it comes back flat on cardiovascular mortality (0.99, 0.84-1.17)
-where the pooled plant nutrient protects, and with too few studies to estimate all-cause at all
-[@nachvak2019soy]. Soy's protein fraction earns
-no all-cause or CVD mortality credit of its own, so the plant-swap benefit likely tracks the whole-food
-matrix — fibre, the pulse package — not the protein. Read the swap as *eat more plants*, not *soy protein
-is the lever*.
+**Function (observational, unadjusted).** Coelho-Junior pooled 7 observational studies of 8,754
+community-dwelling adults aged 60 and over. At least 1.2 g/kg/d scored slightly better on lower-limb
+function than below 0.8: SMD 0.18 (95% CI 0.01 to 0.35). **Function differed significantly only against the below-0.8 bin**; higher bins did not separate, and grip did not differ. The pool rests on crude group
+means, and two arms of one cohort carry much of the weight, so the result is fragile
+[@coelhojunior2018protein].
 
-Second, hold the whole finding loosely. Every estimate is observational, and Naghshi's own leading caveat
-is confounding by diet pattern and social class. Plant-protein foods are also the fibre-bearing foods the
-wiki already credits with lower mortality, so *plant protein* may be the fibre and pulse lever wearing
-another name — a gap this evidence cannot close -> [[Dietary Fibre and Health]]. And no second, genuinely
-independent cohort backs it up: Budhathoki sits *inside* Naghshi's 32-cohort pool, and Seidelmann's
-carbohydrate-substitution study shares Willett's authorship and the same NHS/HPFS cohorts. Agreement
-across shared data is not independent replication, so the page stays `confidence: low` — no lift, no
-`[E-independent]` claim.
+**Mass in older adults (RCT pool, surrogate).** Komar pooled 16 trials in 999 adults aged 65 and over on
+leucine-rich supplements. In the 10 RCTs reporting it, lean body mass rose 0.99 kg (0.43 to 1.55).
+**The gain was significant only in the sarcopenic subgroup (+1.14 kg)**; the healthy subgroup's -0.05 kg
+(-1.55 to 1.46) is too imprecise to read as a null. Grip and knee extension did not move
+[@komar2015]. The strength results rest on pools
+of 4 and 6 trials: insufficient evidence, not evidence of no effect. A mass gain significant only in
+sarcopenic people looks like repletion ->
+[[Deficiency Repletion vs Enhancement]]
 
-Amount and source together set the daily total. Two second-order dials — *when* you eat protein and *what
-quality* it is — matter mainly at the margins, and mainly for older adults.
+**On top of training (RCT pools).** Choi pooled 22 RCTs in healthy community-dwelling older adults
+comparing RT plus a nutritional intervention with RT alone: «The results of the meta-analysis showed no
+significant differences between groups in muscle mass, muscle strength, or physical functional
+performance.» Creatine on lean mass was the one subgroup exception, in 4 trials
+[@choi2021]. **For a
+replete older adult who trains, training is the lever**. Song's smaller pool (12 trials, 713 older adults with diagnosed sarcopenia) is weighted below Choi [@song2023], and the difference between the two meta-analyses **raises a hypothesis that the stratum matters; it does not show effect modification** -> [[Protein and Resistance Training for Muscle and Strength]]
 
-## Spread protein across meals, and let quality matter only until you hit the target
+**Mass and strength as predictors (observational).** People who died carried slightly less appendicular
+muscle mass than survivors (ASMI SMD -0.18, -0.23 to -0.12)
+[@santana2021], a predictor, not a proven target
+. EWGSOP2 ranks strength above mass as a predictor
+[@cruzjentoft2019], so Morton's 1RM gain is
+arguably the more relevant surrogate -> [[Low Muscle Mass and Mortality]], [[Sarcopenia Definition and Diagnosis]]
 
-Timing earns its place through one mechanism: [[Anabolic Resistance]]. An older muscle needs a larger
-per-meal stimulus to switch on the same building response a younger one reaches easily. Moore's tracer
-work puts the muscle-protein-synthesis plateau near **0.40 g/kg of body mass per meal in older men,
-\~68% above younger men** [@moore2014]. Katsanos
-found that a **2.8 g leucine** bolus restored a synthesis response that a 1.7 g one did not
-[@katsanos2006]. The wiki carries this as a
-practical **\~25-30 g of protein (about 2.5-2.8 g of leucine) per meal** to clear the raised threshold
+**Mortality and amount (observational).** Across Naghshi's 32 cohorts, the highest total-protein intakes
+tracked slightly lower all-cause mortality, 0.94 (0.89 to 0.99); the association lost significance in
+studies adjusted for fat and carbohydrate, and there was no significant linear trend (0.99, 0.97-1.00,
+per extra 3% of energy from protein; P=0.10) [@naghshi2020].
+**The held cohorts do not make raising total protein a mortality lever** ->
+[[Dietary Protein and Mortality]]
+
+**Bone (one cohort, observational).** In 2,160 adults (mean age 73.5) over 5 years, the top protein
+tertile started with 1.8-6.0% higher hip and spine bone density, but density *change* over follow-up did
+not differ. The top tertile had fewer clinical vertebral fractures, HR 0.36 (0.14 to 0.97), on 8 vs 14 events, but
+not fewer fragility fractures overall, HR 0.71 (0.45 to 1.11); hip fractures ran the other way, HR 1.82
+(0.54 to 6.11), on too few events (5 to 8 per tertile) to inform. Confounding is unresolved
+[@weaver2021protein]. Low confidence.
+
+**On hard outcomes the evidence supports two moves and no more:** get out of the below-0.8 range, and
+replete people who are deficient or sarcopenic. It does not show a payoff from going higher.
+
+## Match each quoted number to the question it answers
+
+**Each number answers its own question, in its own population, on its own denominator; they are not points on one curve.** Only PROT-AGE's daily rows form a ladder.
+
+| Number | What it answers | Population | Basis | Source |
+|---|---|---|---|---|
+| 0.8 g/kg/d (RDA) | deficiency prevention in 97% | general adults; too low for older people per PROT-AGE | g/kg body weight/day | [@bauer2013] |
+| at least 1.0-1.2; at least 1.2 if active; 1.2-1.5 ill; up to 2.0 severe illness | older-adult floors (consensus, on surrogates) | over 65 | g/kg body weight/day | [@bauer2013] |
+| about 1.3 | slope drop; gains kept rising above it with RT (studied 0.5-3.5) | mixed, with or without RT | g/kg body weight/day | [@tagawa2020] |
+| 1.62 (95% CI 1.03-2.20), p=0.079 | soft, non-significant FFM knee; a floor, not a ceiling | healthy adults doing RT, mostly untrained, not energy-restricted, mean age 35 | g/kg body mass/day (total body weight) | [@morton2018] |
+| about 1.9 / 2.5 | zero-crossing of a linear FFM fit (exploratory; studied 0.8-3.2 g/kgBM) | nonobese, resistance-trained, energy deficit | g/kgBM / g/kgFFM per day | [@refalo2025] |
+| 25-30 g; 0.40 g/kg (±0.19); 2.5-2.8 g leucine | per-meal threshold; per-meal MPS breakpoint (older men); leucine in 25-30 g | older adults | per meal | [@bauer2013] [@moore2014] |
+| *1 g/lb* (about 2.2 g/kg) | no curve feature; near Morton's \~2.2, the upper CI bound, suggested for those maximising gains in fat-free mass | n/a | conversion | [@morton2018] |
+
+**The per-meal row mixes three denominators (leucine per meal, protein per kg per meal, protein per kg
+per day)**, linked by [[Anabolic Resistance]] but not equal. Three meals of Moore's 0.40 g/kg give about
+1.2 g/kg/d, a consistency check inside one research programme, not independent confirmation
+[inferred from @moore2014; @bauer2013].
+Refalo's two values (per kg body mass, per kg FFM) show that **a
+gram target stays undefined until someone names the kilogram** -> [[Protein Intake During Energy Restriction]].
+
+**A recommended intake such as the RDA is a coverage figure, not an optimum.** Treat any guideline
+number first as a hypothesis about where the evidence thins ->
+[[The Descriptive-Normative Category Error]].
+
+## If you shift protein, shift foods: in cohorts, plant protein in place of red and processed meat goes with lower mortality
+
+### Mortality: plant protein tracks lower death rates; animal protein shows no association
+
+Naghshi pooled 32 cohorts with 715,128 people (observational, highest vs lowest).
+**People eating the most plant protein had lower all-cause mortality, 0.92 (0.87-0.97), and lower CVD
+mortality, 0.88 (0.80-0.96). Animal protein showed no association on all-cause, CVD or cancer
+mortality: all-cause 1.00 (0.94-1.05).** Each extra 3%E from plant protein a day went with 0.95
+(0.93-0.98), about 5% lower all-cause mortality, relative
+[@naghshi2020].
+
+Most cohorts are Western [@naghshi2020], and Naghshi
+notes that protein intake may mark overall diet pattern or even social class
+[@naghshi2020]. **Confidence is low**; the agreeing
+analyses share cohorts or authors with Naghshi, so they are not independent.
+
+For an absolute scale, one Japanese cohort (JPHC), itself one of Naghshi's 32, modelled replacing 3%E of
+red-meat protein with plant protein: **a 3.60% (2.10-4.86) lower absolute risk of death over 15 years**
+(model output, observational). Fish made up 47% of animal protein there. **Read it as scale, not a
+treatment effect.** [@budhathoki2019]
+
+### The nutrient null does not clear red or processed meat
+
+Naghshi's animal-protein bucket mixes fish, dairy, eggs, poultry and meat, and the authors say so:
+«Therefore, findings for animal meat and animal protein could be different.»
+[@naghshi2020] **A null average over that mix says
+nothing reassuring about red or processed meat**. Seidelmann found that swapping carbohydrate for animal-derived fat or protein went with higher all-cause mortality, 1.18 (1.08-1.29) (observational substitution pattern), an estimate that mixes fat and pattern in with protein [@seidelmann2018] -> [[Is the Food Category Doing Any Work]]
+
+### Other outcomes give other answers
+
+- **CVD events (observational).** On first CVD events, Ma found animal protein 0.77 (0.63-0.92), plant
+  0.85 (0.77-0.95) and total 0.90 (0.84-0.97); the animal and plant cells rest on five cohorts and 4,175
+  cases, with no split by food source. A different endpoint, not a contradiction
+  [@ma2024macro].
+- **Lipoproteins (feeding trial, surrogate).** In 113 healthy adults, red and white meat both raised LDL-C
+  and apoB against nonmeat protein, at high and low SFA alike, and did not differ from each other. The
+  rise sat in large LDL particles, so the authors suggest LDL-C may overstate the CVD effect
+  [@bergeron2019] ->
+  [[Lean Red Meat and Atherogenic Lipoproteins]].
+- **Kidney stones (incidence, observational).** Total meat went with RR 1.24 (1.12-1.39) and animal
+  protein with a borderline RR 1.1 (1.02-1.19); **this sets no cap on total protein**
+  [@lin2020] -> [[Kidney Stone Recurrence Prevention]].
+
+### The plant signal may belong to the foods, not the protein
+
+Plant-protein foods are largely legumes, whole grains and nuts, whose benefit the fibre evidence already counts -> [[Dietary Fibre and Health]]. Soy protein alone showed no CVD-mortality
+association: 0.99 (0.84-1.17) (observational, one cell)
+[@nachvak2019soy] ->
+[[Soy Products and Health]]. **The soy result makes the whole-food package a somewhat likelier source of the benefit, without settling it.** Do not count plant protein as a large benefit of its own, separate from fibre and pulses -> [[Whole Grains Refined Grains and Pulses]]
+
+### Protein quality matters mostly below adequacy
+
+FAO's DIAAS scores, computed against the child (6 months to 3 years) reference pattern, put wheat at 40,
+peas at 64 and whole milk powder at 122
+[@fao2013]. **A mostly plant diet needs more
+grams, or mixed sources, to reach the same target.** But DIAAS is a surrogate. No held evidence shows
+that higher-DIAAS protein helps someone already at target -> [[Protein Quality and the DIAAS Score]],
+[[Antinutrients in Plant Foods]]
+
+**So shift protein-bearing foods plant-ward, above all away from red and processed meat** (observational,
+modest, low confidence). Meat advice driven by cancer risk is a separate, contested question
+ ->
+[[Should Adults Reduce Red and Processed Meat]].
+
+## Get the daily total right; timing added nothing detectable once total protein was accounted for, and even spread is a cheap default
+
+Schoenfeld pooled 23 studies of muscle size (CSA) and lean mass, mostly in untrained people. Protein
+within an hour of a session first looked better (hypertrophy effect-size difference 0.24, 0.04-0.44),
+but **the edge vanished once total protein was accounted for statistically**: the timing groups ate
+more, 1.66 vs 1.33 g/kg/d. Only 3 studies matched total protein and only 4 enrolled trained people
+[@schoenfeld2013]. The result
+argues against a narrow one-hour window but cannot settle timing; the authors say a lack of matched
+studies makes firm conclusions difficult
+[@schoenfeld2013].
+
+Wirth reviewed 65 studies with 2,907 people, older adults included. The review cites Schoenfeld and
+overlaps its trials, so it corroborates rather than independently confirms: protein raised LBM at every
+timing, and **the timings did not differ (P = 0.76)**. In adults with overweight or obesity (n = 104, mean BMI
+27.2-33.5), even vs skewed supplementation did not differ in lean mass, MD -0.29 kg (-1.20 to 0.62)
+[@wirth2020]. Both reviews measured surrogates, and a review that detects no difference has not proved there is none. Eat the daily total; you do not need to time
+protein to a narrow window around training.
+
+**Older adults.** PROT-AGE says older people appear to need more protein per meal than young adults to
+stimulate muscle protein synthesis (anabolic resistance): 25 to 30 g protein, about 2.5 to 2.8 g
+leucine. It calls the evidence on timing and quality not yet sufficient for specific recommendations.
+The two pattern comparisons it tabulates favoured pulse feeding (most protein at midday), on surrogates
+[@bauer2013]. **No held study settles whether even spread helps; three protein-bearing meals are a cheap default, not a proven optimum** ->
+[[Protein Intake for Older Adults]].
+
+**Short eating windows.** In TREAT's in-person cohort, with ad libitum eating, appendicular lean mass
+fell 0.47 kg more than in controls (-0.82 to -0.12)
+[@lowe2020]. In Liu's trial, with equal calorie
+restriction in both arms and a protein shake for the first 6 months, lean mass did not differ at 12
+months (-1.7 vs -1.4 kg) [@liu2022].
+Neither trial randomized protein, so protein is one candidate explanation; **keep the daily total up inside any short window**
+ -> [[Time-Restricted Eating]].
+
+## Set the floor by stratum: older adults, trained, deficit, and kidneys each change the number
+
+Each group changes the number in one of three ways: a different baseline risk, an effect that itself differs (which needs interaction evidence), or a harm that occurs only in that group. **A number applies to another group only when you can name which of these three ways links them.** -> [[Baseline Risk and the Relative-Absolute Split]]
+
+### Older adults: at least 1.0-1.2 g/kg/d, and at least 1.2 if you train
+
+PROT-AGE, a consensus panel, sets the floors in the table above for people over 65
+[@bauer2013]. **They are floors, not
+ceilings:** PROT-AGE writes *at least* and states no upper limit for healthy kidneys.
+
+**For an older adult who trains, the floor is PROT-AGE's at least 1.2 g/kg/d**
+[@bauer2013]. **Morton's soft knee of about
+1.6 on total body weight is untested in older adults, and the held evidence does not settle whether they
+need more or less.** Across Morton's 49 RT trials, the supplement added less lean mass with each year of
+age (-0.01 kg per year, p=0.002). But the older trials also gave smaller supplements (20±18 vs 42±32
+g/day) on a lower baseline intake (1.2±0.2 vs 1.5±0.4 g/kg/d). Morton reads the result as a possibly
+higher need and frames it as speculation
+[@morton2018].
+
+[[Anabolic Resistance]], the age-blunted muscle protein synthesis response, is PROT-AGE's reason for its
+higher floors, **not a trial showing that older trainees need Morton's soft \~1.6 knee on total body
+weight.** PROT-AGE's 25-30 g meal carries its 2.5-2.8 g of leucine, on protein-quality evidence it calls not yet sufficient [@bauer2013]. For a 50 kg person, three
+25-30 g meals give 1.5-1.8 g/kg/d, while Moore's per-kg figure gives 1.2; the sources do not reconcile
+them [inferred from @bauer2013; @moore2014].
+
+For people with diabetes, PROT-AGE individualizes protein advice
+[@bauer2013], and ADA 2019 sets no ideal protein
+share [@evert2019]. Kidney trials near 1.8 g/kg ran
+in mostly middle-aged adults, so **over-65 data at high intakes are thin: insufficient evidence on harm,
+not evidence of harm.** The older-adult floor rests on consensus plus mechanism; hold it loosely
+ -> [[Protein Intake for Older Adults]]
+
+### Younger adults, trained or not: use the training floor
+
+In Morton's subgroups the supplement added 1.05 kg FFM (0.61 to 1.50) in resistance-trained people and
+0.15 kg (-0.02 to 0.31, p=0.08) in untrained ones
+[@morton2018]. The meta-regression
+put the trained-minus-untrained difference at 0.75 kg (0.09 to 1.40, p=0.03)
+[@morton2018]. **In untrained
+people the effect was smaller and not significant.** No held source sets a dedicated target for
+younger untrained adults, so anyone doing RT can use the soft \~1.6 floor on total body weight
 .
 
-So spread protein across the day's meals rather than loading it into dinner: a meal that falls short
-of the threshold is a dose partly wasted, so how you distribute the protein matters as much as the
-daily total.
+### Energy deficit: train first, then raise protein
 
-Quality is the second dial, and DIAAS is how it is scored — a food's *limiting* amino acid times how much
-is digested. FAO's own worked numbers rank plant below animal: wheat scores **40**, peas **64**, whole
-milk powder **122** [@fao2013]. So hitting a protein
-target from low-DIAAS plant sources takes more grams, or deliberate complementation (cereal plus legume
-covers each other's limiting amino acid) -> [[Protein Quality and the DIAAS Score]].
+**Nonobese, resistance-trained people dieting.** Across Refalo's 29 studies, an exploratory linear fit
+crossed zero FFM change at about 1.9 g/kg body weight (2.5 g/kg FFM, preferred where FFM can be
+estimated). Above that, FFM change rose linearly to the highest intake analysed (3.2 g/kgBM), but the
+per-body-weight slope's interval included zero (b = 0.07, 95% HDI -0.01 to 0.14; per FFM 0.06, 0.01 to
+0.12). The authors' exploratory Table 3 tiers advice by two things, the risk of FFM loss and how much
+keeping FFM matters: up to 1.9 g/kg when both are low, at least 1.9 when moderate, 1.9-3.2 when high. They call the effect
+small next to training; lean people may need more
+[@refalo2025]. **So 1.9 is a tiered,
+exploratory reference, not a floor for everyone** -> [[Protein Intake During Energy Restriction]].
 
-But the quality gap is a **surrogate advantage that shrinks as you approach the target**. DIAAS predicts
-how well a protein *could* meet amino-acid demand; it moves no muscle or strength outcome the wiki holds
-evidence for once total daily protein is matched and above adequacy. Whey's edge is real but
-acute and per-gram — largest in a single dose, not across a diet. For someone hitting the amount from a
-mixed diet with any animal protein or deliberate complementation, the limiting-amino-acid problem is
-already solved at the diet level, and which source supplied the protein barely registers.
+**Overweight and obese dieters without structured exercise, and adults over 50.** Wycherley pooled 24
+RCTs in overweight and obese adults that excluded concurrent structured exercise; higher-protein (HP)
+arms at about 1.25 g/kg/d (range 1.07-1.60) vs 0.72 kept 0.43 kg more FFM (0.09, 0.78)
+[@wycherley2012]. In Kim's 20 RCTs of
+adults 50 and older, HP of at least 1.0 g/kg/d kept 0.83 kg more lean mass (0.47, 1.19)
+[@kim2016]. **RT protects lean mass on
+its own:** in 6 RCTs of obese elderly people, adding RT to a diet preserved 0.82 kg (0.36, 1.27)
+[@sardeli2018]. All of these measured
+surrogates ->
+[[Resistance Training During Caloric Restriction]], [[Resistance Training for Sarcopenic Obesity]].
 
-These two dials sit on **different axes from the source decision, and you satisfy both at once**.
-Biasing protein toward plants serves longevity (the mortality section above); ensuring quality serves
-muscle. The two do not pull against each other, and they meet in a single plan: reach the amount, bias
-the sources plant-ward, and complement for quality where the plants are low-DIAAS. The
-plant shift costs a few extra grams or a pairing, not a compromise on either goal.
+Start with RT and a modest deficit, then eat at least about 1.2-1.3 g/kg/d. If you are nonobese and
+trained, place yourself on Refalo's exploratory tiers around 1.9 by your risk of losing muscle and how
+much keeping it matters. **No held study locates a dose-response target for people with obesity,
+though Wycherley's contrast includes them.** Neither Morton's soft 1.6 knee on total body weight nor Refalo's 1.9 crossing applies to obese untrained people, GLP-1 users included. Only the direction
+carries over, and an appetite-suppressing drug works against a raised target ->
+[[GLP-1 and Lean Mass]], [[Losing Fat and Keeping It Off]]
 
-Who these dials matter for is not uniform. The amount, the timing, and whether supplements help at all
-depend hard on the stratum.
+### Kidneys: healthy kidneys showed no GFR harm; diagnosed CKD changes the advice
 
-## Who needs more, and who can stop optimizing
+Devries pooled 28 trials in adults without chronic kidney disease (CKD), aged 23-72 (mean 49), with HP
+diets averaging 1.81±0.60 vs 0.93 g/kg/d. In the 19 RCTs with pre/post data (n=1,547), GFR change did not
+differ, SMD 0.11 (-0.05, 0.27), at very low certainty (randomization reporting, heterogeneity,
+imprecision); the type 2 diabetes subgroup was also null, on a surrogate
+[@devries2018]. For incident CKD,
+protein showed OR 1.08 (0.91-1.28), observational, very-low certainty
+[@kelly2020ckd]; it corroborates the
+direction only. Over 21 years in ARIC, neither total nor animal protein
+was associated with kidney disease [@vanelswyk2018].
 
-The daily number is not one number. Who should raise protein, who has already pulled the lever, and
-who should leave it alone depend on a person's age, whether they train, whether they are dieting, and
-the state of their kidneys. Age, training, dieting, and kidney health are the same effect-modification question seen from four
-sides — each held on positive evidence rather than mechanism alone, and each resolving differently.
+**The held studies detected no GFR harm over the studied horizon, which is not proof of safety.** No RCT
+measures hard kidney outcomes, and the evidence thins above about 1.8. Devries shares
+several authors with Morton 2018, and Phillips reports research funding, travel support and honoraria
+from dairy and beef bodies in Devries
+[@devries2018] and from the US
+National Dairy Council in Morton
+[@morton2018]. The Beef Checkoff
+funded Van Elswyk [@vanelswyk2018].
 
-### The undershooting older adult: raise the total, spread it across meals
+If you have diagnosed CKD at any stage, including eGFR below 30, treat protein as a caution specific to your condition and leave the call to a clinician.
+PROT-AGE caps older adults at 0.8 g/kg of ideal body weight below eGFR 30 (not on dialysis) and calls
+more than 0.8 safe with monitoring at 30-60
+[@bauer2013]. For non-dialysis diabetic kidney
+disease, ADA 2019 finds no benefit in cutting below the RDA of 0.8 g/kg body weight
+[@evert2019]. Below eGFR 30 both land on 0.8, on
+different terms: PROT-AGE's is a cap per kg of ideal body weight, ADA's a floor per kg of body weight with
+no ideal-weight adjustment stated. For a heavy person the two would differ -> [[Protein Intake and Kidney Function]],
+[[Chronic Kidney Disease and Modifiable Exposures]].
 
-Most older adults eat too little protein, not too much, so the common failure in this stratum is
-undershoot. PROT-AGE sets the healthy-older target at 1.0-1.2 g per kg of body weight per day, 1.2 for
-those who are active, and 1.2-1.5 during acute or chronic illness
-[@bauer2013]. The total is not enough on its own. Old
-muscle needs roughly 25-30 g of protein at each meal to clear the raised anabolic threshold, so the
-move is to spread protein across breakfast, lunch and dinner rather than back-load it at night
-([[Anabolic Resistance]]) [@bauer2013].
+### Two groups that keep the general number
 
-For an older adult training for hypertrophy, the muscle-building number — about 1.6 g per kg of total
-body weight, as measured on a scale — is a **floor to reach, not a ceiling to fear**. Morton's 1.62
-g/kg break-point is a soft, non-significant knee, fit largely from an almost entirely young sample,
-and the supplement effect it rests on decays with age
-[@morton2018]. So the young knee does not
-transport down to justify aiming low in the old; anabolic resistance means older muscle plausibly needs
-at least as much per stimulus, not less.
+- **Menopause.** No held source shows a menopause-specific higher requirement, so the general default
+  applies -> [[Menopause and the Shifting Levers]].
+- **Insulin resistance.** Mendelian randomization shows insulin resistance raises blood BCAA levels, and
+  dietary BCAAs correlate only weakly with blood levels
+  [@wang2017bcaa]. So a high reading is
+  no reason by itself to cut dietary protein -> [[Branched-Chain Amino Acids and Insulin Resistance]].
 
-Undershoot forfeits the muscle a person is training for. So biasing the intake toward the upper end of
-that wide interval hedges against missing the target — a Layer-3 decision the person makes under the
-uncertainty, not a claim that more protein raises the average lean-mass effect.
+## What to do
 
-### The older adult who already resistance-trains: training is the whole lever
+**By who you are:**
 
-Here the answer flips, and it is the decision-changing refinement. For a healthy, community-dwelling
-older adult who already lifts, adding protein or other nutrition on top of the training buys nothing.
-Choi 2021 (high-tier, 22 RCTs) pooled trials of resistance training plus a nutritional intervention
-against resistance training alone and found «no significant differences between groups in muscle mass,
-muscle strength, or physical functional performance»
-[@choi2021]. The one exception
-was creatine on lean body mass (n = 4, MD 2.61, 95% CI 0.51 to 4.72), but the between-subgroup test was
-not significant, so read it as a within-arm signal on a handful of trials, not a demonstrated edge over
-protein [@choi2021].
+- **Everyone: do not sit below about 0.8 g/kg/d of body weight.** The RDA prevents deficiency and
+  marks no optimum. The one held function analysis found worse function in this bin, against higher intakes (observational, adults 60+) -> [[Protein Intake for Older Adults]].
+- **Training for muscle: reach about 1.6 g/kg/d of total body weight, a soft floor, not a ceiling**
+  (RCT pool, surrogate). The knee is not significant (95% CI 1.03-2.20, p=0.079). For hypertrophy, you may hedge with 1.8-2.2; the kidney evidence thins above about 1.8, and its review shares authors with Morton, including Phillips, who declares dairy funding in both [@devries2018] [@morton2018] ->
+  [[Protein and Resistance Training for Muscle and Strength]].
+- **Over 65: at least 1.0-1.2 g/kg/d, and at least 1.2 if you exercise.** PROT-AGE's per-meal
+  threshold is about 25-30 g (consensus; timing and quality evidence not yet sufficient). Morton's soft
+  \~1.6 knee on total body weight is untested here -> [[Protein Intake for Older Adults]].
+- **Losing weight: RT and a modest deficit first, then at least about 1.2-1.3 g/kg/d** (overweight and
+  obese dieters without structured exercise, RCT pool). Nonobese trainees in a deficit: Refalo's
+  exploratory fit crosses zero fat-free-mass change near 1.9 g/kg. The authors tier intake by risk of
+  muscle loss and the importance of keeping muscle, from up to about 1.9 (both low) to 1.9-3.2 (both
+  high). **No held study locates a target for people with obesity**
+  -> [[Protein Intake During Energy Restriction]].
 
-This does not contradict *raise and distribute* — the two answer different decisions, and the sources
-themselves say so. Whether an undershooting older adult who reaches adequacy does better is one
-question; whether extra protein or supplements add anything for someone already training and already
-nutrient-replete is another. Choi reads the null as headroom in the replete and predicts the
-stratum where nutrition should still bite: those with a deficiency to repair
-[@choi2021].
+**Kidneys: normal kidney function is no reason to stay below these floors.** Trials at about 1.8 vs 0.9
+g/kg/d detected no GFR-change difference (very uncertain, marker-level). **Diagnosed CKD, including
+eGFR below 30, is a clinician's decision** (PROT-AGE's cap for older adults below eGFR 30, not on
+dialysis: 0.8 g/kg ideal body weight) -> [[Protein Intake and Kidney Function]].
 
-That predicted stratum is diagnosed sarcopenia, and there the signal is weak and confined to grip, not
-mass. Song 2023 (moderate-tier, 713 diagnosed-sarcopenic older adults) ran the same contrast and found
-supplementation «might further enhance grip strength rather than muscle mass»
-[@song2023].
-Hold that grip result loosely: it is borderline (WMD 1.87, 95% CI 0.01-3.74, P = 0.049), high in
-heterogeneity, sits entirely in the compound protein-plus-vitamin-D arm, and depends on the diagnostic
-criterion used [@song2023].
-It is a between-analysis contrast across two strata, not a within-study interaction test, so it does not
-lift Choi's higher-tier null to a benefit.
+**Across strata:**
 
-### In a caloric deficit, the target rises to protect lean mass
+- **Sources: swap red and processed meat toward legumes, nuts, whole grains and soy.** People eating the most plant protein had lower all-cause mortality, 0.92 (0.87-0.97), highest vs lowest (observational); the fibre and pulses may account for it. In one Japanese cohort (JPHC), a model swapping 3% of energy
+  from red-meat protein for plant protein, calorie for calorie, gave about 36 fewer deaths per 1,000
+  over 15 years (21 to 49). Read that as scale, not a treatment effect. On a mostly plant diet, eat more grams or mix sources
+  (DIAAS, a surrogate) -> [[Dietary Protein and Mortality]].
+- **Timing: get the daily total right.** Schoenfeld detected no timing effect on muscle size or lean
+  mass once total protein was accounted for; Wirth's timing subgroups did not differ either (P = 0.76, an
+  unadjusted comparison across subgroups). Schoenfeld judges the early
+  edge probably came from eating more (1.66 vs 1.33 g/kg/d). You need not time protein to a narrow
+  window around training; in a short eating window, keep protein up -> [[Time-Restricted Eating]].
+- **Stop here.** Past your floor, with RT in place, **further refinements make small differences, have thin evidence on function and are untested on fracture or survival**, so you can stop optimizing.
 
-Dieting raises the requirement. Refalo's meta-regression finds that «increasing protein intake up to
-1.9 g/kgBM/day or 2.5 g/kgFFM/day, on average, is associated with less FFM loss» — the intake at which
-the trend line crosses from fat-free-mass loss to hold
-[@refalo2025]. The authors call this exploratory,
-and two other pools confirm the direction at a lower dose: Wycherley in sedentary overweight and obese
-dieters and Kim in adults over 50 both resolve a small lean-mass-sparing benefit at roughly 1.2 g/kg
-[@wycherley2012]
-[@kim2016].
+**What would change these actions:**
 
-Two bounds matter. Resistance training and a modest (not steep) deficit do more for lean mass than the
-protein dial, so the training comes first and protein is the adjunct
-[@refalo2025]. And leaner people gain more per
-gram — they burn more body protein under restriction — so the target scales inversely with body fat;
-the obese sit off the studied support and are not evidence that they need less
-[@refalo2025]. Because undershoot is costlier
-here than in energy balance, biasing the intake up is the same hedge as above — a decision under the
-wide interval, not a higher mean effect, and whose loss sets it is the dieter's.
-
-The pooled trial evidence cited here on training during a diet comes only from older adults. Sardeli's
-meta-analysis of six RCTs in obese older adults (mean age over 57) found that adding resistance training
-to a calorie-restricted diet kept 0.82 kg more lean mass than the diet alone (95% CI 0.36 to 1.27 kg),
-while fat loss and weight loss came out about the same
-[@sardeli2018]. That is lean mass, not
-function: the study was not designed to test muscle function, and strength per kilogram of lean mass
-only trended better with training (p = 0.07, not significant)
-[@sardeli2018].
-
-The case for stacking protein on training is thinner still. In the one pooled trial that fed more
-protein (the authors give 30% against 15%), training saved about 1.3 kg of lean mass, against 0.6 kg
-across the rest [@sardeli2018]. That is a
-comparison between trials, not a randomised test of protein, and the authors' 0.6 kg does not match
-their own 0.82 kg pooled figure. No younger dieters were pooled
- -> [[Resistance Training During Caloric Restriction]].
-
-### Healthy kidneys are not a reason to hold protein back
-
-The standing worry is that higher protein damages the kidneys. For normal kidneys it does not. Devries
-pooled 28 RCTs and, on the change-from-baseline analysis that nets out the arms' starting difference,
-found no effect of higher protein on glomerular filtration rate — «a nonexistent or trivial effect of
-HP consumption on GFR in individuals with normal kidney function»
-[@devries2018]. The small GFR rise higher
-protein does produce is benign functional reserve, not damage, so kidney fear is not a reason to hold a
-healthy person below the muscle or older-adult target.
-
-Devries clears the surrogate; a second review clears the endpoint it stands in for. Kelly's 2020 SR of
-modifiable factors for *incident* chronic kidney disease finds higher protein intake carries no signal,
-OR 1.08 (95% CI 0.91 to 1.28), in a reasonably-healthy general population.
-[@kelly2020ckd] So the reassurance does not
-rest on the filtration marker alone: neither GFR (Devries) nor the disease it would predict (Kelly) moves
-with protein in people whose kidneys start healthy. Kelly grades that estimate very-low certainty, so it
-corroborates the direction rather than settling it. This is primary prevention, a different stratum from
-the established-CKD flip below -> [[Chronic Kidney Disease and Modifiable Exposures]].
-
-The one hard flip is established chronic kidney disease. At severe impairment (eGFR below 30, not on
-dialysis), protein is restricted, not liberalized — a genuine route-(c) contraindication that fires for
-a defined diseased stratum and does not erode the healthy-adult target
-[@devries2018]
-[@bauer2013].
-
-### The obese target is a named gap, not a scaled-down number
-
-For an obese person the gram target is undefined until the kilogram is named. Morton's number is grams
-per kg of total body weight, and total and lean mass diverge about twofold in obesity, so «1.62 g/kg»
-does not specify a dose until the denominator is stated
-[@morton2018]. The obese sit off the
-support of every trial pooled here — Morton, Refalo, Wycherley's dose-response — so the honest object is
-a gap, not a scaled-down lean or reference target. Any per-stratum lean scaling is discounted mechanism,
-sign-uncertain, and never a finding: the obese carry more absolute lean mass, which pushes a per-lean
-target up, not down.
-
-## The evidence is mostly on surrogates — the honest ceiling
-
-Almost every number in this appraisal measures a stand-in, not the thing you care about. Muscle mass,
-strength, fat-free mass, the glomerular filtration rate, a protein's DIAAS score — all are surrogates
-for the outcomes that actually matter, physical function and length of life -> [[Surrogate Outcomes]].
-The one arm that reaches a hard outcome, protein source and mortality, is observational, not a trial. No
-randomized trial has ever assigned people a protein target and then measured whether their function held
-or their lives lengthened, so the loop stays open.
-
-The kidney reassurance rests on the same
-footing: trials track GFR over weeks, not kidney failure over years, and no protein-to-hard-kidney-outcome
-trial exists [@devries2018]. The muscle
-case carries its own gap. Low muscle mass independently predicts mortality — a link de Santana found is
-not fully explained by muscle strength [@santana2021] — but
-that *raising* mass lowers it is unproven.
-
-## What to do — and the question none of it answers
-
-If you resistance-train, aim to reach about 1.6 g of protein per kg of total body weight, built from
-roughly 25-30 g a meal rather than one large serving — a floor worth hitting, not a ceiling to fear
-. For a longer life the lever is source, not amount: shift protein-bearing foods from animal
-toward plant. The stratum decides the rest:
-
-- Older and already lifting: the training is the lever, and added protein or supplements buy little on
-  top of it — don't chase them, the one exception being a weak grip signal in diagnosed sarcopenia
-.
-- Eating too little, older and undershooting, or in an energy deficit: raise the total and spread it
-  across the day.
-- Healthy kidneys: kidney worry is no reason to hold protein below target; established chronic kidney
-  disease is the one place to restrict.
-
-One honest caveat covers all of it: no trial yet shows that hitting any of these targets changes how
-you function or how long you live.
+- Trial evidence on function is thin; no RCT links raising protein to fracture, mortality or kidney
+  failure.
+- No obese target on a named denominator.
+- No dose-finding test above 1.2 g/kg/d for older adults who train; no dedicated intake target for
+  younger untrained adults.
+- No outcome test of protein quality (DIAAS).
+- Plant protein vs the fibre and pulse foods carrying it: unresolved.
+- Harm above about 2 g/kg/d in over-65s: insufficient evidence, not evidence of harm.
+- *1 g/lb* (about 2.2 g/kg) marks no curve feature in any held source.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'For an adult deciding how much protein to eat and from what source: what is the effect of protein amount, type, timing, and source on each patient-important outcome (muscle mass and physical function, all-cause and cause-specific mortality), what is the dose-response shape, and how does the effect vary by stratum (younger, older, resistance-trained, energy-deficit, renal)?' |
-> | **Evidence included** | 18 sources — 11 gold, 4 high, 2 moderate, 1 weak |
-> | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate); Katsanos (RCT, weak); Song (meta-analysis, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Evidence included** | 32 sources — 20 gold, 9 high, 3 moderate |
+> | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
+> | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Song (meta-analysis, moderate); Lowe (RCT, moderate); Moore (RCT, moderate). Their roles and limitations are described in the text. |
+> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
 
 ## References

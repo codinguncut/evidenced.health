@@ -19,7 +19,7 @@ relationships:
     - The Estimate-to-Action Gap
     - Rating Certainty of Evidence
 created: 2026-08-07
-updated: 2026-11-02
+updated: 2026-11-04
 self_critiqued: 2026-09-23
 ---
 
@@ -265,7 +265,7 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   [@devries2018]
 
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Decision relevance
 
@@ -279,10 +279,10 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   ideal body weight) in severe CKD (eGFR <30, not on dialysis), keeps >0.8 g/kg with GFR monitoring
   twice a year at moderate CKD (eGFR 30-60), and at mild CKD raises intake per patient
   needs; it also reports lower-intake evidence for CKD 3-4, with
-  caveats (the tiers, that evidence and their quotes are on [[Protein Intake for Older Adults]]). At severe CKD that is a genuine route-(c) contraindication, not a
-  soft caution [inferred from @bauer2013]. For **diabetic** kidney disease
-  the held guidance disagrees: ADA 2019 does not support restricting below average intake, so the limit
-  is contested in that stratum (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; quotes and the open question on [[Protein Intake for Older Adults]],
+  caveats (the tiers, that evidence and their quotes are on [[Protein Intake for Older Adults]]). At severe CKD that is, on PROT-AGE's reading (older adults), a genuine route-(c) contraindication, not a
+  soft caution (for diabetic kidney disease see the next sentence) [inferred from @bauer2013]. For **diabetic** kidney disease
+  the held guidance may disagree: ADA 2019 does not support restricting below average intake, so the limit
+  may be contested in that stratum (ADA's sentences give no eGFR band or age group, so whether this reaches severe CKD in over-65s is open; quotes and the open question on [[Protein Intake for Older Adults]],
   *Diabetes with kidney disease*) [inferred from @evert2019].
   Screening for it is a prescriber act outside this wiki's scope; the decision-relevant fact is that the
   boundary exists.

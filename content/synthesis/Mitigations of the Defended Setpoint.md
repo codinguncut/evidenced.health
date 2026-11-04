@@ -2,15 +2,15 @@
 type: synthesis
 aliases: [Setpoint Mitigation, Countering the Defended Setpoint, Does Maintaining Weight Reset the Setpoint, Resetting the Body-Weight Setpoint, Setpoint Reset]
 authors: [Sumithran, Priya; Sjöström, Lars; Lincoff, A Michael; Wilding, John P H; Turicchi, Jake; Purcell, Katrina]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Sjostrom - SOS Bariatric Surgery Mortality 2007, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Withdrawal 2022, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Sjostrom - SOS Bariatric Surgery Mortality 2007, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Wilding - Semaglutide STEP-1 Withdrawal 2022, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Purcell - Rate of Weight Loss RCT 2014 Appendix]
 cluster: weight-management
 question: What actually counters a defended body-weight setpoint, and does maintaining reduced weight over time weaken it?
 relationships:
   related_to: [Weight-Loss Maintenance and Metabolic Adaptation, The Disease Model of Obesity, Semaglutide for Cardiovascular Risk in Obesity, Does Weight Loss Reduce Cardiovascular Events, GLP-1 and Lean Mass]
 confidence: medium
 created: 2026-08-22
-updated: 2026-11-03
-self_critiqued: 2026-11-03
+updated: 2026-11-04
+self_critiqued: 2026-11-04
 ---
 
 The defended-setpoint model (why diet-induced loss is resisted and regain is the norm) is held on
@@ -31,7 +31,7 @@ The held evidence supports override and (for one intervention) a durable loss th
 standing prop; it gives **no** support for *reset by attrition* — the defended level weakening merely
 because reduced weight is maintained over time.
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Does holding weight low weaken the setpoint over time? [EXTRACTED]
 
@@ -115,26 +115,53 @@ this page will not assert a permanent defense either
   day, 18 vs 6 dietitian visits in phase 1, so a different package, not only a slower pace) ghrelin
   also rose (29·1% vs 40·0% after the VLCD), not significantly different between arms at
   any timepoint; at week 144 it was 10·1% (-5·8 to 26·0; n=24) after slow loss and 15·5% (2·4-28·6;
-  n=34) after the VLCD. Leptin fell more after the fast loss (-16·2 vs -11·8 ng/mL, p=0·03; n=75 rapid
-  / 49 gradual), though fat mass fell slightly less in that arm (-12·7 vs -14·1 kg, p=0·15), and the
-  authors set it beside evidence that leptin secretion responds to energy intake as well as fat mass; the arms were not significantly different at week 48 (percentage
+  n=34) after the VLCD [@purcell2014rate].
+  Leptin fell more after the fast loss (end of phase 1: week 12 rapid, week 36 gradual; -16·2 vs
+  -11·8 ng/mL, p=0·03; n=75 rapid / 49 gradual), though BIA fat mass fell slightly less in that arm
+  (-12·7 vs -14·1 kg, p=0·15) [@purcell2014rate];
+ in the same target-reacher table, fat plus fat-free mass
+  falls 3·0 kg short of the rapid arm's weight change and 0·7 kg short of the gradual arm's (wiki
+  arithmetic), a 2·3 kg between-arm difference in unaccounted mass (3·0 - 0·7) against a 1·4 kg
+  fat-mass gap, so these readings cannot show which arm lost more fat; the authors set it beside evidence that leptin secretion responds to energy intake as well as fat mass; the arms were not significantly different at week 48 (percentage
   difference -23·6%, -49·0 to 1·9, p=0·06) or week 144, when the gap ran the other way (rapid +43·6%
-  vs gradual +23·2%; difference 20·5%, -6·3 to 47·2, p=0·13). Every between-arm hormone figure here
+  vs gradual +23·2%; difference 20·5%, -6·3 to 47·2, p=0·13)
+  [@purcell2014rate]. Every between-arm hormone figure here
   comes from people who had reached >=12.5% loss, in hormone subsets (Table 2's phase-1 columns are
   target-reachers; Figure 5's n fit within the maintenance subsets, and only target-reachers entered
-  maintenance); the held text does not say which
-  participants the appetite ratings cover (they are in the unheld appendix). The hormone comparisons
-  are therefore conditional on a post-randomisation outcome, not randomised contrasts. Hunger did not
+  maintenance); neither the paper nor its appendix says which participants the per-arm appetite
+  ratings cover, or how many [searched: Table S2 caption, headers and footnote, appendix chunk 01,
+  rendered pp 6-8] (the paper's combined hunger analysis is in completers of both groups). Those hormone
+  comparisons are therefore conditional on a post-randomisation outcome, not randomised contrasts. The
+  appendix's Table S1 prints leptin -16.0 vs -11.6 ng/mL (p=0.03) under a header for all participants
+  at the end of phase 1 (week 12 rapid, week 36 gradual; rapid n=97, gradual n=103), but footnotes the same column's ghrelin row as a
+  36 / 24 subset [@purcell2014rateappx];
+  its leptin values and interval widths almost repeat the target-reacher figures above, so the
+  header's population is not shown to apply to that row and it is not read here as a randomised contrast
+  [inferred from @purcell2014rateappx]. Hunger did not
   rise significantly during phase 1 in either arm, and
   rose significantly at weeks 48 and 144 of maintenance within the rapid arm only (a within-arm test);
-  the one between-arm appetite difference was higher prospective consumption in the *gradual* arm at
+  the one between-arm appetite difference (*superseded 2026-11-04 in part:* the one the paper counts as
+  significant; the appendix adds a borderline hunger difference, below) was higher prospective consumption in the *gradual* arm at
   the end of phase 1, which the authors say «might have arisen by chance»
-  [@purcell2014rate]. After a part-formula diet, then,
+  [@purcell2014rate]. *Updated 2026-11-04:* the appendix
+  table also prints end-of-phase-1 hunger higher in the gradual arm (44·0 vs 31·5 mm, p=0·05), which
+  the paper does not count as significant, after week-0 ratings of 29·5 vs 25·0 mm; the medians of
+  the individual changes were near-equal (+3·0 vs +2·5 mm) while the median ratings rose 14·5 vs 6·5 mm,
+  and the footnote does not say whether its p compares ratings or changes, so whether the hunger
+  response differed is not settled. Prospective consumption changed in opposite directions (+7·0 vs
+  -6·5 mm), neither change significant within its arm (p=0·18 and 0·07). End of phase 1 is week 36 for the
+  gradual arm and week 12 for the rapid arm, and no between-arm item differs at week 48 or 144
+  [@purcell2014rateappx]; those
+  week-48 and 144 cells can only come from phase-2 participants, people who had reached >=12.5% (a
+  post-randomisation subgroup), so those between-arm comparisons are conditional, not randomised
+. After a part-formula diet, then,
   ghrelin rises either way with no shown between-arm difference, leptin drops more after the fast loss
   (which the authors set beside evidence that leptin also responds to energy intake; not significant
-  at week 48, and reversed, also not significantly, at week 144), and hunger shows no between-arm difference in either direction beyond
-  one possibly-chance item, so the bound is narrowed, not closed, with the hormone readings only
-  among people who reached the loss target.
+  at week 48, and reversed, also not significantly, at week 144), and the appetite items show no between-arm difference in either direction beyond
+  one possibly-chance prospective-consumption item and one borderline hunger difference (both at the
+  end of the loss phase, population and n unstated), so the bound is narrowed, not closed, with the
+  hormone readings and the maintenance-phase appetite comparisons among people who reached the loss
+  target (conditional, not randomised).
   [inferred from @purcell2014rate]
 - **The drug mirror shows override, not reset.** Stopping semaglutide after a year of suppression
   releases the weight back up (below), which is what an *un-reset, merely-overridden* setpoint does.
@@ -151,7 +178,7 @@ is not established in anything the fabric holds.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## The mitigation taxonomy — sorted by what each does to the setpoint
 
@@ -221,17 +248,22 @@ head-to-head of drug vs sustained lifestyle vs surgery on hard outcomes is held.
   144 weeks, regain was 10·3 kg after a 12-week VLCD vs 10·4 kg after a 36-week diet (difference
   0·09 kg, -2·8 to 2·6), the same when phase-2 dropouts were set back to baseline weight (76·3% of lost
   weight regained in both arms) and, by the authors' account, in sensitivity analyses whose results are
-  not reported. On the adaptation side, ghrelin was not significantly different between arms at any
-  timepoint, while leptin fell more after the fast loss (-16·2 vs -11·8 ng/mL, p=0·03), the one
-  between-arm hormone difference shown, although fat mass fell slightly less in that arm (-12·7 vs
-  -14·1 kg, p=0·15; Table 2). The authors read the larger fall as «consistent with previous evidence that leptin secretion is not only aﬀ ected by adipose tissue mass, but also energy intake».
-  The arms were not significantly
+  not reported [@purcell2014rate]. On the adaptation side, ghrelin was not significantly different between arms at any
+  timepoint, while leptin fell more after the fast loss (end of phase 1, week 12 vs week 36; -16·2 vs
+  -11·8 ng/mL, p=0·03), the one between-arm hormone difference shown, although BIA fat mass fell
+  slightly less in that arm (-12·7 vs -14·1 kg, p=0·15; Table 2)
+  [@purcell2014rate], on readings that cannot show which
+  arm lost more fat (VLCD bullet above). The authors read the larger fall as «consistent with previous evidence that leptin secretion is not only aﬀ ected by adipose tissue mass, but also energy intake»
+  [@purcell2014rate]. The arms were not significantly
   different at week 48 (percentage difference -23·6%, -49·0 to 1·9, p=0·06) or week 144, when the gap
-  ran the other way (rapid +43·6% vs gradual +23·2%; difference 20·5%, -6·3 to 47·2, p=0·13). The regain and
+  ran the other way (rapid +43·6% vs gradual +23·2%; difference 20·5%, -6·3 to 47·2, p=0·13)
+  [@purcell2014rate]. The regain and
   hormone comparisons are among people who reached the target, selected after randomisation, so they
   are conditional comparisons, not randomised contrasts. The randomised contrasts are phase 1: the
-  gentler package reached the target less often (51% vs 78% of starters) and lost more people in
-  phase 1 (18% vs 3%), outcomes of the whole package (pace, full vs partial formula, visit count), not
+  gentler package reached the target less often (51% vs 78% of starters), lost more people in
+  phase 1 (18% vs 3%) [@purcell2014rate] and, among all 200 who started (103 gradual, 97 rapid), had lost less weight by
+  the end of its loss phase (-8.9 vs -13.0 kg, at week 36 vs week 12; missing-data handling not stated)
+  [@purcell2014rateappx], outcomes of the whole package (pace, full vs partial formula, visit count), not
   of pace alone. The trial was powered for a regain difference above 5 kg. The senior author chaired
   the VLCD maker's advisory committee (2005-2010) and Nestlé supplied the Optifast; the paper names
   the NHMRC and a medical research foundation as funders and states
@@ -239,9 +271,18 @@ head-to-head of drug vs sustained lifestyle vs surgery on hard outcomes is held.
   and that the «study was not commercially sponsored, and there were no agreements regarding conﬁ dentiality of the data between the sponsor and the authors or their institutions.»
   [@purcell2014rate]. A regain difference under about
   2.6-2.8 kg is not excluded and no three-year weight for all starters is held, so on regain this is
-  *no difference detected*, not a shown absence; on adaptation it is one leptin difference at the end
+  *no difference detected*, not a shown absence; on the hormones it is one leptin difference at the end
   of the loss phase, a larger fall after the VLCD that the authors set beside evidence that leptin also
-  responds to energy intake, not significant at week 48 and reversed, also not significantly, at week 144; and slower
+  responds to energy intake, not significant at week 48 and reversed, also not significantly, at week 144;
+  on appetite it is one end-of-phase-1 difference, prospective consumption lower after the VLCD
+  (p=0·01 in the appendix table [@purcell2014rateappx]),
+  which the paper counts as «The only signiﬁ cant diﬀ erence in median appetite ratings» and the
+  authors flag as possibly chance [@purcell2014rate], beside a
+  borderline hunger item (p=0·05) that the paper does not count as significant and whose medians of
+  the individual changes were near-equal (+2·5 mm after the VLCD vs +3·0 mm)
+  [@purcell2014rateappx], so whether the hunger
+  response differed is not settled (week 12 vs week 36, population and n unstated; VLCD bullet above);
+  and slower
   *formula-free* loss is untested.
   [inferred from @purcell2014rate]
 - **Prevention — the cheapest mitigation.** The defense is provoked by weight *gain* and then guards
@@ -261,11 +302,11 @@ better than *weakening it by waiting*. Drugs **override** it (and revert on stop
 provoking** it. None of these is a *reset by maintenance duration*, and the direct question —
 does six months at reduced weight wear the defense down? — has no held support and a 12-month
 measurement (in people who had first lost >=10%, a partly-regaining cohort) showing the defense not
-yet gone; the same group's
+yet gone [@sumithran2011]; the same group's
 three-year ghrelin and hunger measurement (Purcell 2014, all in people who had first reached >=12.5%
 loss) is mostly in people who had regained, shows ghrelin falling over maintenance but still above
 baseline and leptin above baseline in both arms at week 144, and its one held-weight reading (a leptin
-level in 15 low regainers, post-hoc) cannot separate a defended setpoint from a smaller fat mass.
+level in 15 low regainers, post-hoc) [@purcell2014rate] cannot separate a defended setpoint from a smaller fat mass.
 
 This inverts the intuitive plan. *Hold the line long enough and it gets easier* is the reset model;
 the evidence fits an **override / durably-lower** model instead, where either you keep a standing prop
@@ -277,7 +318,7 @@ willpower model, applied to the *time* axis: duration has no held support as the
 completers — and the hormone panel is conditioned on >=10% achieved loss, so it is measured only in
 strong responders, who then partly regained), a same-group three-year follow-up (Purcell; panel
 conditioned on >=12.5% loss within the allotted time) whose held-weight
-reading is a post-hoc n=15 leptin band, plus RCTs never designed to test setpoint reset; the *adaptation over and above
+reading is a post-hoc n=15 leptin band [@purcell2014rate], plus RCTs never designed to test setpoint reset; the *adaptation over and above
 current body size* is established only for leptin, by Sumithran's fat-mass adjustment at one year,
 and Purcell, which ran no such adjustment, shows no sign of it in three-year completers on an
 informal comparison only (leptin above baseline in both arms against a still-lower BIA fat mass,

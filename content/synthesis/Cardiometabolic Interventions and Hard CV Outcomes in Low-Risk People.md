@@ -2,8 +2,8 @@
 type: synthesis
 question: For a low-risk, primary-prevention person, does any cardiometabolic intervention have a proven large reduction in hard cardiovascular events?
 aliases: [Primary Prevention CV Benefit Gap, Cardiometabolic Intervention Hard Outcomes, No Proven CV Lever Low Risk, Intervention CV Outcome Pattern]
-authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V; Rees, Karen; Stranges, Saverio; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lonn, Eva M; Sundström, Johan]
-sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Rees - Mediterranean Diet CVD Prevention Cochrane 2019, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015]
+authors: [Lincoff, A Michael; US Preventive Services Task Force (org); Nasir, Khurram; Look AHEAD Research Group (org); Blood Pressure Lowering Treatment Trialists Collaboration (org); Estruch, Ramon; Belalcazar, L Maria; Bhatt, Deepak L; Moll van Charante, Eric P; Richard, Edo; Zheng, Sean L; Roddick, Alistair J; Howard, Barbara V; Rees, Karen; Stranges, Saverio; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lonn, Eva M; Sundström, Johan; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter]
+sources: [Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, USPSTF - Statin Use Primary Prevention 2022, Nasir - Coronary Artery Calcium Statin Candidates MESA 2015, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Estruch - PREDIMED Mediterranean Diet 2018, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Zheng - Aspirin Primary Prevention Meta-Analysis 2019, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Rees - Mediterranean Diet CVD Prevention Cochrane 2019, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix]
 cluster: cvd-risk-estimation
 confidence: high
 self_critiqued: 2026-10-27
@@ -22,7 +22,7 @@ relationships:
     - Vitamin and Mineral Supplements for Disease Prevention
     - Low-Fat Dietary Pattern and Cardiovascular Disease
 created: 2026-07-28
-updated: 2026-10-28
+updated: 2026-11-04
 ---
 
 Four intervention pages — a **drug for weight** ([[Semaglutide for Cardiovascular Risk in Obesity]]),
@@ -153,6 +153,8 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 
 
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.
@@ -185,7 +187,15 @@ The CV-event interval is wide enough to include the \~10-20% reduction BPLTTC's 
 predict (the review does not report the achieved BP difference, so the two are not the same quantity),
 so this is insufficient evidence, not a null. It does not refute the transported benefit; it shows the
 low-risk person's benefit is an *inference* from a higher-risk pool rather than an observation (the
-review partly shares trials with that pool — SHEP, PREVEND IT — so the two are not fully independent). That leaves the ceiling where it
+review partly shares trials with that pool — SHEP, PREVEND IT — so the two are not fully independent; ANBP
+is also a row of the trial list of BPLTTC's age-stratified analysis, with arms of 1721 and 1706
+[@rahimi2021bpageappx], which match the
+original-trial totals in the review's Table 2 (that list belongs to the 51-trial age
+analysis; whether ANBP is among BPLTTC 2021's 48 trials is not stated), while the review
+uses a subset of it, 958 + 874 of the review's 4593 + 4531 participants, in its Table 2 of the «Number of participants
+included in the present study versus total from the original trial populations»
+[@wang2025mildhtn], about a fifth
+[inferred from @wang2025mildhtn]). That leaves the ceiling where it
 was and lowers its floor of certainty: for the low-risk hypertensive the honest statement is *a small
 transported benefit, unconfirmed directly, against a low-certainty, dated tolerability cost*, with a
 small low-certainty stroke signal that matters most to someone who weights stroke highly (Layer 3)
@@ -345,5 +355,7 @@ by a thin contrast, not the same mechanism. Aspirin adds a further class that
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
+
+</div>
 
 ## References

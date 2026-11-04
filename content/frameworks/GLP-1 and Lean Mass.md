@@ -3,7 +3,7 @@ type: framework
 question: When a GLP-1 drug drives rapid weight loss, how much of what is lost is muscle, does it exceed ordinary weight loss, and what defends against it?
 aliases: [GLP-1 Muscle Loss, GLP-1 Lean Mass, GLP-1 Sarcopenia, Semaglutide Muscle Loss, Ozempic Muscle, GLP-1 Body Composition, GLP-1 Muscle Preservation]
 authors: [Laverde, Ligia Patricia; Munoz, Oscar Mauricio; Alfonso, Diana; Gomez Medina, Ana Maria; Nong, Kailei; Li, Sheyu; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina; Refalo, Martin C; Trexler, Eric T; Helms, Eric R]
-sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Refalo - Protein Fat-Free Mass Energy Restriction 2025]
+sources: [Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Purcell - Rate of Weight Loss RCT 2014 Appendix, Refalo - Protein Fat-Free Mass Energy Restriction 2025]
 cluster: glp1
 confidence: low
 relationships:
@@ -57,7 +57,7 @@ turns on **which face matters for whom** — the ratio for a young obese adult w
 absolute loss for anyone whose muscle is already the binding constraint (below).
 
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Is GLP-1 muscle loss worse than ordinary weight loss? The held comparison cannot settle it
 
@@ -199,6 +199,25 @@ nor cancels the two weight-matched studies Turicchi cites (its refs 13 and 17, 5
 loss; Purcell is ref 12, a different study)
 [@turicchi2019regain].
 Speed stays insufficient evidence.
+*Updated 2026-11-04:* the appendix's intention-to-treat table, whose column header covers all 200 who started the
+diet rather than only the target-reachers (rapid n=97, gradual n=103), shows the same pattern at the
+end of the loss phase (week 12 vs week 36): fat-free mass +1.3 kg (0.4 to 2.2) in the rapid arm and
++1.3 kg (0.3 to 2.2) in the gradual arm, p=0.97, alongside weight -13.0 vs -8.9 kg (the table does
+not say how the missing readings of the 21 phase-1 dropouts
+[@purcell2014rate] were handled)
+[@purcell2014rateappx].
+[inferred from @purcell2014rateappx] Fat-free mass rising in both arms during
+a large loss leaves the BIA readings as doubtful for lean share among all starters as among
+target-reachers. Fat plus fat-free mass also falls 3 kg short of the rapid arm's weight change (the
+gradual arm's comes within 0.3 kg; wiki arithmetic), so the table's rows cannot be combined. The
+shortfall is about 3 kg in the rapid arm and small in the gradual arm both here and in the paper's
+target-reacher Table 2 (3·0 vs 0·7 kg, wiki arithmetic)
+[@purcell2014rate]. Row-specific n is footnoted only for the hormone rows
+(Table 2: ghrelin 34/24 and leptin 75/49 in phase 1
+[@purcell2014rate];
+Table S1: ghrelin 36/24 [@purcell2014rateappx]), not for the weight and
+body-composition rows, which carry only the column-header n (the Table S1 leptin row is not shown to follow its header: its values almost repeat Table 2's target-reacher leptin row); the held text does not say how the scale derives fat-free mass, so it does not show whether differing row samples, device error or
+something else produces that arm-specific pattern. The starter-level table does not move the speed question either way.
 
 </div>
 

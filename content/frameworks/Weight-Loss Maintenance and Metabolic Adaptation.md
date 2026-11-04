@@ -3,7 +3,7 @@ type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
 authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina; Prendergast, Luke A.; Bouniu, Celestine J.; Delbridge, Elizabeth]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Purcell - Rate of Weight Loss RCT 2014 Appendix]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -23,7 +23,7 @@ relationships:
     - Self-Weighing for Weight Loss
 self_critiqued: 2026-11-03
 created: 2026-07-31
-updated: 2026-11-03
+updated: 2026-11-04
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -419,7 +419,7 @@ hormones, so the VLCD-specific limit on Sumithran's persistence finding (Limits)
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Rate of loss, randomised (Purcell 2014)
 
@@ -485,27 +485,99 @@ different after week 48* leaves open whether the arms differed earlier; no test 
 rapid arm's from the first weeks of maintenance to about week 96-108, the gap widening to about week 12
 and narrowing after, with the 95% error bars apart only to about week 12, so any early gap ran toward
 *more* regain after slow loss, the opposite of the rate hypothesis (a figure read, no test, and the gradual arm's maintenance began
-24 weeks later after randomisation).
+24 weeks later after randomisation)
+[@purcell2014rate].
 The held text gives **no end-of-trial weight for everyone randomised** (the 4 who withdrew before
 starting, the 50 phase-1 completers who missed the target, the 2 gradual participants excluded for
-losing 15% within 12 weeks, and the 21 who dropped out in phase 1 have no reported 144-week weight; the
-appendix is not held). The authors' headline, «The rate of weight loss does not aﬀ ect the proportion of weight
+losing 15% within 12 weeks, and the 21 who dropped out in phase 1 have no reported 144-week weight)
+[@purcell2014rate].
+*Updated 2026-11-04 (appendix held):* the appendix's intention-to-treat table covers two populations,
+in its own words «for all participants at the end of phase one and for all participants who commenced
+phase two» [@purcell2014rateappx]. At
+the end of phase 1, among the 200 who started the diet (97 rapid, 103 gradual), weight change from
+baseline was -13.0 kg (-13.8 to -12.1) rapid vs -8.9 kg (-10.1 to -7.6) gradual, p<0.0001; at the end
+of phase 2, among the 127 phase-2 entrants only (76 / 51, **conditional on reaching >=12.5%**), -2.5 kg
+(-3.9 to -1.2) vs -1.7 kg (-2.6 to -0.9), p=0.31
+[@purcell2014rateappx]. So among
+everyone who started, the fast arm had lost about 4 kg more by the end of its loss phase (a difference
+in change from baseline, wiki arithmetic), though *end of phase 1* is week 12 in one arm and week 36 in the
+other; no table or figure gives an end-of-trial weight for all starters [searched: the whole appendix,
+chunk 01 and the rendered pp 1-8], so that gap stands. The appendix does not state how Table S1
+handled missing data; the paper's methods say «We did analyses of bodyweight on two datasets: one for
+completers only, and one for intention to treat, in which missing data from participants who
+discontinued the study were replaced with baseline measures.» [@purcell2014rate]
+The appendix does not print the 76·3% / 76·3% return-to-baseline figures, and its phase-2
+entrant weights (-2.5 / -1.7 kg) are smaller than the about -3.3 / -3.6 kg (wiki arithmetic) that
+the completers' -4.1 / -4.3 kg would give with the 15 / 8 phase-2 dropouts counted at zero
+[@purcell2014rate]; the source does
+not explain the difference. The appendix's Figure S1, «Intention-to-treat-analysis of mean
+weight change (% change, 95% CI) during phase two for phase one successful participants.»
+[@purcell2014rateappx], prints no
+values or tests; read by eye, both arms end near -3.5% of baseline weight at week 144, closer to the
+arithmetic (at a mean starting weight of about 97 kg) than to Table S1, and the curves repeat, among
+all phase-2 entrants, the pattern of the paper's Figure 3 (completers)
+[@purcell2014rate]: gradual above rapid (less net loss) to about week
+96, error bars apart only to about week 12, crossing near week 108 (a figure read, no
+test). Either way the between-arm contrast in entrants at the end of phase 2 (week 144) reads the
+same: no difference detected (p=0.31 in Table S1).
+[inferred from @purcell2014rateappx]
+The authors' headline, «The rate of weight loss does not aﬀ ect the proportion of weight
 regained within 144 weeks» [@purcell2014rate], states a
 no-difference-detected within a conditional subgroup as if it were a shown absence for all. Who the
 result covers: non-diabetic, non-smoking adults with BMI 30-45, in a specialist unit whose staff, the
 authors note, may have raised retention and outcomes above other settings («the weight outcomes and
 participant retention might have been greater than those reported in other settings»
-[@purcell2014rate]).
+[@purcell2014rate]). The appendix's full criteria narrow the
+stratum further: weight-stable for three months; recent quitters out with smokers («Any recent (less
+than six months) cessation of smoking and current smokers»); and «Subjects who were obese in early
+childhood were excluded to avoid monogenetic obesity»; ages «18-70», with no age distribution or count
+over 65 in the appendix [@purcell2014rateappx]
+(mean age about 50 per arm in the parent's Table 1 [@purcell2014rate]).
+On drugs taken currently, the texts record four things. The paper's methods list among its key
+exclusion criteria «current use of drugs known to aﬀ ect bodyweight» and say «The appendix shows full
+inclusion and exclusion criteria.» [@purcell2014rate]. Its trial profile (Figure 1) puts
+«319 excluded 27 smokers 40 taking drugs known to cause weight ﬂuctuations 33 BMI >45 kg/m2» between
+«525 potential participants were screened by telephone contact» and the 206 screened on site
+[@purcell2014rate]. Its Discussion names «the exclusion of people who smoked, had
+diabetes, took weight-altering drugs, or were severely obese» as a weakness [@purcell2014rate]. The
+appendix's list, applied «at Visit 1 (screening)», has no item in those words [searched: bodyweight/body
+weight, appendix chunk 01] and names «Use of anti-depressant and antiepileptic medications known to
+have weight gaining effect», while allowing an oral contraceptive, hormone replacement or thyroid
+hormone at a dose stable for three months [@purcell2014rateappx].
+The paper also places its criteria at screening («Eligible patients at screening were obese»
+[@purcell2014rate]) and calls the appendix's list the full criteria. So the
+open question is one of wording: whether the paper's general phrase (methods, Figure 1, Discussion)
+summarises the appendix's specific drug items or reaches wider. The texts do not settle it, and
+neither says which drugs the 40 were taking. Both texts exclude weight-loss drugs in the previous three months (the paper's «weight loss drugs in the previous 3
+months», the appendix's «weight lowering drugs in the past three months»)
+[@purcell2014rate] [@purcell2014rateappx].
 
-**Secondary outcomes (hormones: target-reachers, subsets small; appetite ratings' population in the
-unheld appendix).** Leptin fell more with fast loss at the end of phase 1 (-16·2 vs -11·8 ng/mL,
-p=0·03; n=75 rapid / 49 gradual), though fat mass fell slightly less in that arm (-12·7 vs -14·1 kg,
-p=0·15), and the authors read the larger fall as «consistent with previous evidence that leptin secretion is not only aﬀ ected by adipose tissue mass, but also energy intake»;
-there was no significant difference at
+**Secondary outcomes (hormones: target-reachers, subsets small; per-arm appetite ratings: population
+and n not stated in the paper or its appendix).** Leptin fell more with fast loss at the end of phase 1 (week 12 rapid, week 36 gradual; -16·2 vs
+-11·8 ng/mL, p=0·03; n=75 rapid / 49 gradual), though BIA fat mass fell slightly less in that arm
+(-12·7 vs -14·1 kg, p=0·15) [@purcell2014rate];
+ in the same target-reacher table, fat plus fat-free mass
+falls 3·0 kg short of the rapid arm's weight change (-11·6 vs -14·6 kg) and 0·7 kg short of the
+gradual arm's (-13·6 vs -14·3 kg; wiki arithmetic), a 2·3 kg between-arm difference in unaccounted
+mass (3·0 - 0·7) against a 1·4 kg fat-mass gap, so these readings cannot show which arm lost more fat; the authors read the larger fall as «consistent with previous evidence that leptin secretion is not only aﬀ ected by adipose tissue mass, but also energy intake»
+[@purcell2014rate];
+*updated 2026-11-04:* the appendix's Table S1 prints leptin -16.0 (-18.5 to -13.5) vs -11.6 (-14.7 to
+-8.5) ng/mL, p=0.03, in its column headed for all participants at the end of phase 1 (week 12 rapid, week 36 gradual;
+rapid n=97, gradual n=103), and footnotes that column's ghrelin row as «n=36, n=24, in RWL and GWL group
+respectively in phase one» [@purcell2014rateappx];
+the paper's methods say «We used linear mixed eﬀ ects to analyse percentage changes in fasting
+hormones in individuals who completed phase 1.» [@purcell2014rate]
+[inferred from @purcell2014rateappx] The leptin values and interval widths
+almost repeat Table 2's target-reacher figures, so the row is not shown to cover all the
+starters its header names; it is not read here as a randomised contrast.
+In the paper's maintenance subsets, there was no significant difference at
 weeks 48 and 144 (percent-change difference at week 48 -23·6%, -49·0 to 1·9, p=0·06; at week 144 the
-gap ran the other way, rapid +43·6% vs gradual +23·2%, difference 20·5%, -6·3 to 47·2, p=0·13); ghrelin and
+gap ran the other way, rapid +43·6% vs gradual +23·2%, difference 20·5%, -6·3 to 47·2, p=0·13)
+[@purcell2014rate]; ghrelin and
 appetite ratings were not significantly different between arms at any timepoint, apart from one
-appetite rating the authors flag as possibly chance; within each arm, hunger rose significantly during
+appetite rating the authors flag as possibly chance (*superseded 2026-11-04 in part:* the appendix's
+Table S2 also shows a borderline end-of-phase-1 hunger difference, p=0·05,
+[@purcell2014rateappx], below); within each arm, hunger rose significantly during
 maintenance in the rapid arm only. BIA body composition showed no significant difference in fat-free
 mass (p=0·48). Steps rose more in the rapid arm among all phase-1 completers (difference 1147,
 123-2170, p=0·02), not among target-reachers. One acute cholecystitis with cholecystectomy in the
@@ -522,6 +594,38 @@ cholecystitis is one case, not a safety finding. The BIA readings are hard to be
 mass rose in the rapid arm (+1·1 kg, interval above zero) and pointed upward in the gradual arm during
 a \~14.5 kg loss -> [[GLP-1 and Lean Mass]]. The trial measured cholecystokinin, insulin and glucose but
 did not report them here.
+*Added 2026-11-04 (appendix):* the appetite table gives six fasting VAS items as «Median (IQR) visual
+analogue scale fasting ratings of appetite, and changes from baseline (p-values in parentheses) at
+week 0, end of phase one, and weeks 48 and 144 of phase two» and states no n or population for the
+per-arm columns in caption, headers or footnote [searched: Table S2, chunk 01 and rendered pp 6-8]
+(the paper's methods place its combined hunger analysis in completers of both groups
+[@purcell2014rate]); the week-48
+and 144 cells can only come from phase-2 participants, people who had reached >=12.5% (a
+post-randomisation subgroup), so those between-arm comparisons are conditional, not randomised. Of 24 between-arm p-values (6 of them week-0
+balance checks), two are at or below 0·05, both at the end of phase 1. Prospective consumption was
+43·5 (rapid) vs 49·0 mm (gradual), p=0·01, after week-0 ratings of 48·0 vs 41·5 mm (p=0·20) and
+changes of -6·5 vs +7·0 mm [@purcell2014rateappx]:
+the item the authors flag as possibly chance [@purcell2014rate]. Hunger was 31·5 vs 44·0 mm,
+p=0·05, not counted as significant in the paper, after week-0 ratings of 25·0 vs 29·5 mm (p=0·68) and
+changes of +2·5 (p=0·22) vs +3·0 mm (p=0·09)
+[@purcell2014rateappx]. The table's footnote does not say whether its
+between-arm p compares ratings or changes; the paper's text speaks of a difference «in median appetite
+ratings» [@purcell2014rate]. Every other between-arm p is 0·12 or higher. Within the rapid arm, hunger (weeks 48 and
+144), urge (48, 144), desire (144) and preoccupation with food (144) rose from baseline; within the
+gradual arm only preoccupation at week 48 did; fullness did not change in either arm.
+[@purcell2014rateappx]
+[inferred from @purcell2014rateappx] The end-of-phase-1 ratings compare week
+12 (rapid) with week 36 (gradual). The medians of the individual hunger changes were near-equal, but
+the median ratings rose 6·5 mm (rapid) vs 14·5 mm (gradual) and the footnote does not say what its p compares, so whether
+the hunger response differed is not settled. Prospective consumption changed in opposite directions,
+neither change significant within its arm (p=0·18 gradual, 0·07 rapid)
+[@purcell2014rateappx]. Neither result
+tests the authors' suggestion that the rapid arm's higher ketone levels during the loss (a 40-person
+subset; the difference was not significant by the end of phase 1) «raises the possibility that
+the rapid weight loss participants might have been less hungry during the weight loss phase than were
+those following the gradual diet» [@purcell2014rate]. The phase-2 pattern is the same within-arm difference in
+significance as for maintenance hunger, not a between-arm contrast: no item differs between arms at
+week 48 or 144 (p 0·19 or higher; conditional on reaching >=12.5%). Population unstated, many tests, medians.
 
 **Against Turicchi's rate slope.** Before reading Purcell as confirming or contradicting Turicchi:
 
@@ -683,7 +787,7 @@ neither corroborate nor contradict each other; each stands on its own.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## What it licenses, and the limits that bound it
 
@@ -723,12 +827,16 @@ neither corroborate nor contradict each other; each stands on its own.
   association in regaining studies, adjusted for baseline BMI only.
   *Updated 2026-11-03 (Purcell 2014, section above):* in the randomised trial (non-diabetic, BMI
   30-45, specialist unit, dietitian-supervised), a 12-week VLCD got 78% of starters to a >=12.5% loss
-  against 51% on a 36-week diet with one or two shakes a day, with fewer phase-1 dropouts (3% vs 18%);
+  against 51% on a 36-week diet with one or two shakes a day, with fewer phase-1 dropouts (3% vs 18%)
+  [@purcell2014rate];
   the arms also differed in diet form and dietitian visits, so the contrast is a package, not speed
   alone. Among those who reached the target and completed 144 weeks,
-  regain was 10·3 vs 10·4 kg (difference 0·09 kg, -2·8 to 2·6), a conditional subgroup in which a
+  regain was 10·3 vs 10·4 kg (difference 0·09 kg, -2·8 to 2·6) [@purcell2014rate], a conditional subgroup in which a
   difference above about 2.6-2.8 kg is excluded and a smaller one is not. No end-of-trial weight for
-  all randomised is held. So for this stratum, *lose slowly to avoid regain* has no support in the
+  all randomised is held; the appendix reports all starters only at the end of phase 1 (-13.0 vs
+  -8.9 kg, measured at week 12 vs week 36; missing-data handling not stated)
+  [@purcell2014rateappx], not at 144 weeks (*updated 2026-11-04*, section above).
+  So for this stratum, *lose slowly to avoid regain* has no support in the
   held trial at three years, whose regain comparison is among target-reachers, a post-randomisation
   subgroup rather than a randomised contrast (the held signals the other way are Turicchi's between-study
   ones, above: a rate slope significant alone but not after adjusting for amount, and a weak
@@ -776,25 +884,38 @@ neither corroborate nor contradict each other; each stands on its own.
   and was still up at week 48 of maintenance (22·1%, 6·1-38·0), not significantly at week 144 (10·1%,
   -5·8 to 26·0), against the fast arm's 40·0% after loss, 21·7% at week 48 and 15·5% (2·4-28·6) at
   week 144; ghrelin was not significantly different between arms at any timepoint (n 24 vs 34-36).
-  Leptin fell more after the fast loss (-16·2 vs -11·8 ng/mL, p=0·03), though fat mass fell slightly
-  less in that arm (-12·7 vs -14·1 kg, p=0·15), and the authors set it beside evidence that leptin
+  Leptin fell more after the fast loss (end of phase 1, week 12 vs week 36; -16·2 vs -11·8 ng/mL,
+  p=0·03), though BIA fat mass fell slightly less in that arm (-12·7 vs -14·1 kg, p=0·15; readings
+  that cannot show which arm lost more fat, section above), and the authors set it beside evidence that leptin
   secretion responds to energy intake as well as fat mass; the arms were not
   significantly different at week 48 (percent-change difference -23·6%, -49·0 to 1·9, p=0·06) or week
   144, when the gap ran the other way (rapid +43·6% vs gradual +23·2%; 20·5%, -6·3 to 47·2, p=0·13).
   Hunger did not rise significantly in phase 1 in either arm and rose significantly at weeks 48 and
   144 of maintenance within the rapid arm only; appetite ratings did not differ between arms apart from
-  one item, higher in the gradual arm, that the authors flag as possibly chance.
-  [@purcell2014rate] So the ghrelin rise is not
+  one item, higher in the gradual arm, that the authors flag as possibly chance (the week-48 and 144
+  comparisons are among phase-2 participants, people who had reached >=12.5%, a post-randomisation
+  subgroup, so conditional, not randomised; section above).
+  [@purcell2014rate] *Updated 2026-11-04:* the appendix
+  table also prints end-of-phase-1 hunger (week 36 gradual, week 12 rapid) higher in the gradual arm
+  (44·0 vs 31·5 mm, p=0·05), which
+  the paper does not count as significant, after week-0 ratings of 29·5 vs 25·0 mm and median
+  individual changes of +3·0 vs +2·5 mm; per-arm population and n unstated (Table S2, section above).
+  [@purcell2014rateappx] So the ghrelin rise is not
   VLCD-specific in that one trial; the only shown between-arm hormone difference is a larger leptin
   drop after the fast loss, which the authors set beside evidence that leptin also responds to energy intake,
   not significant at week 48 (p=0·06) and reversed, also not significantly, at week 144, alongside no detected
   regain difference (no analysis links the two), and
-  the hunger result is a within-arm difference in significance, not a between-arm contrast. The slow arm
-  still used formula and had 18 vs 6 dietitian visits, the subsets are small, every hormone reading here is among people who
+  the maintenance hunger result is a within-arm difference in significance, not a between-arm contrast
+  (*scope marked 2026-11-04:* the end-of-phase-1 hunger gap above is a borderline between-arm
+  difference, p=0·05). The slow arm
+  still used formula and had 18 vs 6 dietitian visits, the subsets are small, every hormone reading here
+  is among people who
   reached >=12.5% (Table 2's phase-1 columns are target-reachers, and only they entered maintenance; these
-  are post-randomisation subgroups, so the between-arm comparisons are conditional, not randomised),
-  the held text does not say which participants the phase-1 appetite ratings cover (unheld
-  appendix), and the reported panel is narrower than Sumithran's
+  are post-randomisation subgroups, so the between-arm comparisons are conditional, not randomised; the
+  appendix's Table S1 leptin row, under an *all participants* header, almost repeats the target-reacher
+  figures and is not shown to follow that header, section above),
+  neither the paper nor its appendix says which participants the per-arm phase-1 appetite ratings
+  cover, or how many, and the reported panel is narrower than Sumithran's
   (ghrelin, leptin and appetite; CCK measured but not reported; no PYY or GLP-1), so the rest of the
   profile stays untested after slower loss. Same-group, not independent of Sumithran.
   [inferred from @purcell2014rate]
@@ -855,7 +976,7 @@ neither corroborate nor contradict each other; each stands on its own.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-03">
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Synthesis
 
@@ -897,9 +1018,11 @@ below Franz's VLCD peak.
 Its arms differ as packages, not by pace alone: full meal replacement for 12 weeks with 6 dietitian
 visits, against a food-based diet with one or two shakes a day for 36 weeks with 18 visits. Reaching
 the target: randomised, and the fast VLCD arm did better (78% vs 51% of starters reached >=12.5%; 3%
-vs 18% dropped out). Regain after reaching it: no difference detected at week 144 (10·3 vs 10·4 kg,
-difference 0·09 kg, -2·8 to 2·6), but only among completers who reached the target, a subgroup the two
-arms filled at different rates. Net weight for everyone who started: not reported in the held text.
+vs 18% dropped out) [@purcell2014rate]. Regain after reaching it: no difference detected at week 144 (10·3 vs 10·4 kg,
+difference 0·09 kg, -2·8 to 2·6) [@purcell2014rate], but only among completers who reached the target, a subgroup the two
+arms filled at different rates. Net weight for everyone who started: reported only at the end of the
+loss phase (-13.0 vs -8.9 kg, at week 12 vs week 36; missing-data handling not stated)
+[@purcell2014rateappx], not at three years.
 So the trial does not show faster loss driving regain at three years among those who reached the
 target, a conditional comparison rather than a randomised one; the between-study data give weak,
 confounded support for a speed effect only at large

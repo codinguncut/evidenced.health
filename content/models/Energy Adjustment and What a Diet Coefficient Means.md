@@ -14,17 +14,19 @@ relationships:
     - Saturated Fat Intake and Replacement
     - Measurement Error in Dietary Assessment
 created: 2026-07-25
-updated: 2026-08-08
-self_critiqued: 2026-08-04
+updated: 2026-11-04
+self_critiqued: 2026-11-04
 ---
+<div class="recent-update" data-last-updated="2026-11-04">
 
 **Nucleus of the `nutrition-methods` cluster.** The comparator problem
 ([[Framing a Decision Question]]) has a technical form in nutrition that has no analogue in most
 fields: **the analytic model silently decides what the nutrient is being compared against.** Two
 studies can report "the effect of saturated fat" and mean different comparisons.
+[inferred from @willett]
 
+</div>
 
-[@willett]
 ## Why energy must be handled at all
 
 Three reasons, per Willett: energy intake may itself cause disease; individual differences in total
@@ -74,53 +76,78 @@ The load-bearing quotes:
   the macronutrient not included in the model), with total energy held constant."
   [@willett]
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Failure modes
 
 - **Nutrient density used alone, where energy predicts disease.** A density is the nutrient times the
-  *inverse* of energy, so it "tend[s] to be associated with disease in the direction opposite to that
-  of total caloric intake, even when the nutrient itself has no association." The reductio: "any
-  random variable divided by total energy intake would be positively associated with risk of coronary
-  heart disease." The general principle — "dividing by a variable does not necessarily remove or
-  'control for' the effect of that variable."
+  *inverse* of energy: «Because a nutrient density variable contains the inverse of energy intake as
+  a component, nutrient densities tend to be associated with disease in the direction opposite to that
+  of total caloric intake, even when the nutrient itself has no association with disease independent
+  of energy intake.» The reductio: "any random variable divided by total energy intake would be
+  positively associated with risk of coronary heart disease." The general principle — "dividing by a
+  variable does not necessarily remove or 'control for' the effect of that variable."
+  [@willett]
 - **Reading a partition-model coefficient as a substitution.** It is an addition model; the
   substitution question requires the *difference* between the nutrient's coefficient and that for
-  other calories.
+  other calories (Willett: "the appropriate focus should be b5–b6").
+  [@willett]
 - **Unstated comparators in meta-analysis.** Willett's diagnosis of the Siri-Tarino 2010
   meta-analysis: "the unstated comparison was with other calories in the diet, because most studies
   did not specifically compare saturated fat with another source of energy; in most countries, these
   other... calories would be predominately derived from refined grains and sugar **but would also
   include protein and other types of fat**."
   [@willett]
-- **Heteroscedasticity manufacturing a shape.** Uncorrected, residuals at both extremes carry the
-  highest energy intakes, which "would create a U-shaped relation between energy-adjusted intake
-  (residuals) and disease risk" — a curve produced by the analysis, not the biology. Directly relevant
-  to any U/J-shaped dose-response claim.
+- **Heteroscedasticity manufacturing a shape.** When residuals from heteroscedastic data are cut into
+  categories, the highest and lowest categories both tend to carry the highest energy intakes; if
+  energy is positively associated with disease, this "would create a U-shaped relation between
+  energy-adjusted intake (residuals) and disease risk" — a curve produced by the analysis, not the
+  biology. Including energy in the model controls that confounding, though the extreme categories
+  then stay dominated by high-energy subjects. Directly relevant to any U/J-shaped dose-response
+  claim built on categorized residuals.
+  [@willett]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Decision relevance
 
 - ***The effect of nutrient X* is incomplete until the model is named.** This is the comparator rule
   with teeth: the substitution is chosen by an analytic decision the reader usually cannot see.
+  [inferred from @willett]
 - **A null for a nutrient may be a null *for one particular swap*.** Saturated fat versus
   unspecified other calories in a typical Western diet is largely saturated fat versus refined starch
-  and sugar — which is why the same data give RR 0.97 against carbohydrate and RR 1.25 against
+  and sugar. Willett reports the swap-dependence from the Jakobsen 2009 pooled analysis of cohort data
+  (the analysis he cites just before the Siri-Tarino meta-analysis): per 5% of energy, saturated fat
+  gave RR 0.97 (95% CI 0.81–1.16) against carbohydrate and RR 1.25 (95% CI 1.01–1.56) against
   polyunsaturated fat ([[Saturated Fat Intake and Replacement]]).
+  [@willett]
 - **Where energy balance is not stable, the framing changes.** Willett's case for composition-as-
   exposure presumes long-run balance. He names *"**one of the few exceptions**"* — *"when **adiposity
   or weight change** is the outcome"* — explicitly signalling the list is not exhaustive, plus the
   "overcontrol" case where caloric excess is itself the exposure. The chapter does **not** treat a
   reduce-without-replacement regime. [inferred from @willett]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Limits
 
 - Model interchangeability breaks for **categorical** analyses: "the statistical interchangeability of
   the standard multivariate, energy partition, and residual models does not apply", and categorical
   analyses on the standard-multivariate and partition models "are probably best avoided."
+  [@willett]
 - Energy adjustment does not fully remove energy confounding when energy itself is measured with
-  error: "control of confounding may not be complete."
+  error: "control of confounding may not be complete".
+  [@willett]
 - 2012 source; the modelling conventions are stable but the worked examples predate the current
-  literature.
+  literature. [inferred from @willett]
 
+</div>
 
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Energy adjustment's effect on measurement error is two-sided `[2026-07-28, Willett ch.3 + ch.11; scoped 2026-07-30 self-critique]`
 
@@ -137,11 +164,14 @@ measurement are needed to place a person correctly. **Raising it means the same 
 individual-level exposure estimate** — so energy adjustment buys interpretability at a price paid in
 attenuation.
 
-**The direction is not universal, and the exception is instructive.** On Willett's own Table 3-6 the
-ratio rises for total fat (1.70 -> 1.94), monounsaturated fat (1.80 -> 2.12), polyunsaturated fat
-(2.27 -> 2.34) and carbohydrate (1.13 -> 1.39), but **falls** for protein (2.01 -> 1.79) and
-cholesterol (2.61 -> 2.55). The full table sits on
-[[Measurement Error in Dietary Assessment]] with the ratio arithmetic shown.
+**The direction is not universal, and the exceptions are instructive.** Willett's Table 3-6 reports
+within- and between-person **coefficients of variation**; their ratio (CVw/CVb — the variance ratio
+is its square, same direction) rises after calorie adjustment for total fat (1.70 -> 1.94),
+monounsaturated fat (1.80 -> 2.12), polyunsaturated fat (2.27 -> 2.34) and carbohydrate
+(1.13 -> 1.39), but **falls** for protein (2.01 -> 1.79), cholesterol (2.61 -> 2.55), crude fiber
+(1.41 -> 1.35), vitamin A (3.42 -> 3.28) and potassium (1.39 -> 1.36) — 5 of the 16 nutrients shown.
+[@willett]
+The full table sits on [[Measurement Error in Dietary Assessment]] with the ratio arithmetic shown.
 
 **And Willett records the benefit running the other way, in the same book.** By holding diet composition
 within a narrow energy range, energy adjustment «can also reduce measurement error, sometimes
@@ -157,6 +187,8 @@ honest statement is a trade with effects on both sides, not a pure cost:** adjus
 coefficient means*, can cancel correlated error, and can *also* raise the within-to-between ratio for
 some nutrients — the sign of that last effect varies by nutrient (Table 3-6 above).
 [inferred from @willett]
+
+</div>
 
 ## The adjustment term stops meaning what its label says `[2026-07-28, Willett ch.13]`
 
@@ -182,6 +214,8 @@ the quantity it estimates have come apart, silently.
   scanning a table for *"total fat: RR 0.98"* is reading the effect of **unsaturated** fat. **Reading
   the covariate list is not optional bookkeeping; it is where the comparator is defined.**
   [inferred from @willett]
+
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## A displayed dose-response can show the model rather than the data `[2026-07-28, Willett ch.13]`
 
@@ -231,16 +265,27 @@ been checked for the four sources involved.** This neither restores the prior no
 falsification; it identifies a check that was never run. Handle for whoever scores it: the
 dose-response `[PRIOR]` in CLAUDE.md.
 
+*Status since (2026-11-04):* the check was run when the prior was re-scored at Gate 55. Three of the four
+original curves used displays that could not show a knee, the *zero knees* falsification was withdrawn,
+and the prior is now held as CONTESTED, in conditional form (protective exposures plateau, harm-reduction
+curves do not).
+
 **Also held from this chapter, bearing on the same question:** «Extreme values are primarily at the
 high end of the distribution due to the skewed distributions of most nutrients, and they can be
 heavily influential when nutrients are considered as continuous variables» — so the tail that would
 locate a knee is both sparse and high-leverage.
 [@willett]
 
-## A positive plateau claim — and it cuts the other way from chunk 18 `[2026-07-28, ESC]`
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-04">
+
+## A positive plateau claim, from a different kind of input than chunk 18 `[2026-07-28, ESC]`
 
 The section above records a mechanism by which an apparently **monotone** display can be an artifact.
-**ESC supplies a datum pointing the opposite direction: an explicit plateau, from a Tier-A body.**
+**ESC supplies a different kind of input bearing the same way — against a flat monotone reading: an
+explicitly stated plateau, from a Tier-A body.**
+[inferred from @esc2021]
 
 The sentence is split across a page break in the source; both fragments locate:
 
@@ -255,7 +300,7 @@ The sentence is split across a page break in the source; both fragments locate:
 - **All-cause mortality** — **«not reduced further»** beyond **five servings**. That is a plateau
   claim, located, with a number.
 
-**This is the corpus's first explicitly stated plateau**, and it is outcome-specific — the same
+**This was the first explicitly stated plateau the corpus held (2026-07-28)**, and it is outcome-specific — the same
 structure the Willett whole-grain sentence hinted at and could not resolve.
 
 **Recorded against the dose-response `[PRIOR]`, NOT scored.** Stating the position precisely, because
@@ -275,5 +320,7 @@ meta-analysis, with **no interval, no certainty rating, and no reference to the 
 and *«not reduced further»* in a guideline sentence may reflect the studied range ending near five
 servings rather than a true flattening — **the same ambiguity flagged on the Willett whole-grain
 sentence, and unresolved for the same reason.**
+
+</div>
 
 ## References

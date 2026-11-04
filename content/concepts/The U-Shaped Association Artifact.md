@@ -18,7 +18,7 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-28
+updated: 2026-11-04
 self_critiqued: 2026-10-27
 relationships:
   related_to:
@@ -103,6 +103,8 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
+
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Where it applies in the wiki
 
@@ -201,9 +203,13 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     is a consequence of the sleep-inducing effects of the inflammatory state»* (reverse causation).
     [@shan2015] Shan runs only the
     *weak* check (multivariable adjustment, which the long arm survives); no referent-correction or MR,
-    so the long-sleep -> T2D arm stays **unadjudicated**. Not an independent witness to Cappuccio —
-    overlapping cohorts + shared Hu/Jackson lineage -> **type-F** (same reverse-causation mechanism, new
-    outcome) -> [[Sleep and Metabolic Health]].
+    so the long-sleep -> T2D arm stays **unadjudicated**. Not an independent witness to Cappuccio: the
+    two pools probably share the Gangwisch NHANES I cohort (Shan 2007 row, Cappuccio 2008 row; same group,
+    ages 32-86, 8-10 y follow-up), though the author lists do not overlap -> **type-F** (same
+    reverse-causation mechanism, new outcome) -> [[Sleep and Metabolic Health]].
+    [@shan2015]
+    [@cappuccio2010]
+
   - **Third sleep instance — the per-hour curve QUANTIFIES the asymmetry `[2026-08-13, Yin]` `type-F`.**
     Yin 2017's dose-response SR+MA (3.58 M participants; restricted-cubic-spline, 7 h reference) resolves
     the mortality U per discrete hour and the asymmetry the concept predicts is now *measured*, not just
@@ -1131,6 +1137,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+</div>
 
 ## Corrections and revision history (dated strata)
 

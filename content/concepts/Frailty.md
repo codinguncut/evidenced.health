@@ -3,7 +3,7 @@ type: concept
 question: What is frailty, what does it predict, and is it a modifiable target or only a prognostic marker?
 aliases: [Frail, Prefrail, Prefrailty, Frailty Syndrome, Fried Phenotype, Frailty Phenotype, Frailty Index, Physical Frailty]
 authors: [Vermeiren, Sofie; Vella-Azzopardi, Roberta; Bautmans, Ivan; Racey, Megan; Sherifali, Diana; Keller, Heather; Radaelli, Régis; Rech, Anderson; Molinari, Talita; Markarian, Anna Maria; Petropoulou, Maria; Granacher, Urs; Hortobágyi, Tibor; López, Pedro; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Sherrington, Catherine; Michaleff, Zoe A; Fairhall, Nicola; Paul, Serene Sulyn; Tiedemann, Anne; Whitney, Julie; Cumming, Robert Graham; Herbert, Rob; Close, Jacqueline; Lord, Stephen R.]
-sources: [Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Radaelli - Resistance Training Volume Older Adults NMA 2024, Rahimi - BP Lowering by Age BPLTTC 2021, Sherrington - Exercise Falls Prevention Meta-Regression 2017]
+sources: [Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, Racey - Physical Activity Interventions Frailty Meta-Analysis 2021, Radaelli - Resistance Training Volume Older Adults NMA 2024, Rahimi - BP Lowering by Age BPLTTC 2021, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, Sherrington - Exercise Falls Prevention Meta-Regression 2017]
 cluster: frailty
 nucleus: true
 confidence: medium
@@ -20,8 +20,8 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Intrinsic Capacity and Multidimensional Healthspan
 created: 2026-08-08
-updated: 2026-10-28
-self_critiqued: 2026-10-28
+updated: 2026-11-04
+self_critiqued: 2026-11-04
 ---
 
 Nucleus of the `frailty` cluster. Frailty is the older-adult syndrome of **reduced physiological
@@ -143,6 +143,8 @@ components; frailty-status improvement is the down-stream composite that follows
 rarely/inconsistently to serve as the primary endpoint.** The RR 0.58 frailty-reversal figure rests on
 a thin 4-study base and should be read with that caveat, not as a robust treat-to-target number.
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Stratification and decision relevance
 
 - **Route (a) — baseline risk (the safe workhorse).** Frailty identification places a person in a
@@ -202,7 +204,28 @@ a thin 4-study base and should be read with that caveat, not as a robust treat-t
   eligibility criteria of RCTs, other groups such as those with a high multimorbidity and polypharmacy
   burden, frail individuals, and individuals living in institutions have been under-represented.» and «The
   generalisability of the findings to these highly relevant and growing patient groups remains
-  uncertain.» [@rahimi2021bpage] So the *more to
+  uncertain.» [@rahimi2021bpage] The appendix's
+  trial list shows what the restricted eligibility was. No trial's listed criteria name frailty,
+  institutions, care homes, multimorbidity or polypharmacy [searched: frail / institution / care home /
+  residential / multimorbid / polypharmacy / nursing across the appendix, chunk 01]. Some exclude conditions
+  that overlap frailty: dementia (HYVET, SYST-EUR, ANBP2), «disorders prohibiting standing position»
+  (SYST-EUR), «limited 5-year survival» (PEACE), «severe disability after the qualifying stroke»
+  (PROFESS) and «terminal disease, and illness resulting in confinement to bed.» (HDFP, an age 30-69
+  trial). Many trials also exclude serious illness in general terms. Ten use the words «serious» or
+  «severe concurrent» for illness in general (VALISH's «serious arrhythmia» names a specific condition),
+  for example «Serious illness» (ANBP2), «other serious illness» (ACCORD), «serious nonvascular
+  disease» (PART 2) and «severe concurrent illness» (UKPDS); others word it differently, such as
+  PREVENT's «other major illness», SYST-EUR's «severe CVD/non-CVD» and SHEP's «competing risk of SHEP
+  primary endpoint or presence of medical management exclusions». MOSES's «age >85 years» is an age cap, not a condition
+  [@rahimi2021bpageappx]
+  [searched: serious / severe concurrent across Table S2, chunk 01, giving the ten (AASK, ACCORD, ANBP, ANBP2, CARDIO-SIS, CONVINCE, ONTARGET, PART 2, UKPDS, VHAS; VALISH's «serious arrhythmia» not counted); wording outside those terms was found by reading, so the full count is not established].
+  The table records no frailty measure for the people enrolled, so it cannot show how many frail people
+  got in; it shows only that frailty was not an entry criterion. Nor was it an analysed
+  subgroup: the paper tested «prespecified subgroups of age categories and systolic and diastolic blood
+  pressure at baseline» [@rahimi2021bpage], and
+  frailty appears in the paper only in a Discussion sentence on under-representation and in one
+  reference title
+  [searched: frail across the parent's chunks 01-02 and the appendix: 2 hits, both in chunk 02, one in the Discussion, one in the References]. So the *more to
   gain per unit of a working lever* reading above is established only where the lever's relative effect
   has been estimated in people like this; in this pool frail people were under-represented and not analysed
   separately, so the estimate is transported to them. The analysis pools no adverse-event outcome at all [searched: adverse / orthostatic / syncope /
@@ -223,8 +246,10 @@ a thin 4-study base and should be read with that caveat, not as a robust treat-t
   relative-absolute split held in the same data (relative effect no larger, absolute effect larger
   in older bands); frailty is a separate stratum the age bands do not capture. The trial
   the authors name to address it is ATEMPT (multimorbid, polymedicated)
-  [@rahimi2021bpage]; no result is held. Detail:
+  [@rahimi2021bpage]; no result is held — its result would test the transport to frail people. Detail:
   [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
+
+</div>
 
 ## Limits — the open loop
 

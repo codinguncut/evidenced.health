@@ -3,7 +3,7 @@ type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP, on age, or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
 authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org); Di Federico, Silvia; Filippini, Tommaso; Whelton, Paul Kieran; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Vinceti, Marco; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lai, Honghao; Nesrallah, Gihad E.; Guyatt, Gordon H; Vernooij, Robin W.M.; Liu, Jiayi; Zhao, Weilong; Hou, Liangying; Pan, Bei; Huang, Jiajie; Campbell, Norm R. C.; Tian, Jinhui; Yang, Kehu; Ge, Long; Johnston, Bradley C.; Brand, Amanda; Visser, Marianne E; Schoonees, Anel; Naude, Celeste E.; Aburto, Nancy J; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Rahimi - BP Lowering by Age BPLTTC 2021, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lai - Salt Substitute Network Meta-Analysis 2026, Brand - Low-Sodium Salt Substitutes Cochrane 2022, Aburto - Potassium Cardiovascular 2013, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Rahimi - BP Lowering by Age BPLTTC 2021, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lai - Salt Substitute Network Meta-Analysis 2026, Brand - Low-Sodium Salt Substitutes Cochrane 2022, Aburto - Potassium Cardiovascular 2013, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -34,7 +34,7 @@ relationships:
     - Non-Sugar Sweeteners
     - The Nocebo Component of Drug Side-Effects
 created: 2026-07-29
-updated: 2026-10-28
+updated: 2026-11-04
 self_critiqued: 2026-10-27
 ---
 
@@ -375,6 +375,8 @@ glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
 Hypertension is one of the 14 modifiable dementia risk factors, and the treatment lever carries over
@@ -396,7 +398,9 @@ points, i.e. an NNT of \~250 over the median follow-up [inferred from @peters202
 because the trials stopped early on the CV endpoint (dementia accrues slower). This is **NOT an `[E-independent]` corroboration** of
 this page's CV-events evidence: Peters' five trials sit inside BPLTTC's 48-trial base and the author lists
 overlap (Chalmers, Woodward, Anderson — George Institute), so the shared RCT substrate defeats independence
-on the BP-lowering *mechanism* — what is new is the OUTCOME (dementia), a new-endpoint extension. Full
+on the BP-lowering *mechanism* — what is new is the OUTCOME (dementia), a new-endpoint extension.
+All five are rows of the trial list of the sibling age-stratified BPLTTC analysis (Rahimi's 51 trials),
+which confirms the overlap for that pool [@rahimi2021bpageappx]. Full
 facets (mediation 53%, no effect-modification, cognitive-decline null) on
 [[Dementia Prevention and Modifiable Risk Factors]].
 [inferred from @peters2022bp; @bplttc2021]
@@ -429,6 +433,8 @@ HR 0.54 (0.32-0.92) [@mollvancharante2016],
 a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), consistent with this page's
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
+
+</div>
 
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
@@ -582,6 +588,8 @@ short-term SBP question has a moderate-certainty null, and the long-term hyperte
 open.
 [inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## The low-risk tail — direct trials of starting a drug in untreated mild hypertension `[2026-10-26, Wang]`
 
 BPLTTC's primary-prevention benefit was measured in an older, higher-risk population: «Mean age at
@@ -667,6 +675,18 @@ BPLTTC 2021:
 [@bplttc2021]
 [@sundstrom2015mildhtn] (ANBP as non-BPLTTC aggregate data)
 
+*ANBP row refined 2026-11-04.* The trial list of the sibling age-stratified BPLTTC analysis has ANBP as its
+own placebo-controlled row («ANBP7 Placebo- controlled Australia 3.6 2289 964 174 0 0 Diuretic»), with
+inclusion «Age 30-69 years with mild hypertension (DBP 95-110 mmHg and SBP <200 mmHg)», arms Diuretic
+(1721) and Placebo (1706), and reference «7 Doyle AE. The Australian National blood pressure study.». It is
+listed separately from ANBP2 [@rahimi2021bpageappx].
+Those arm sizes equal the whole-trial ANBP denominators in Wang's Table 2 (958/874 of 1721/1706)
+[@wang2025mildhtn]. So Wang's ANBP
+participants come from a trial inside Rahimi's 51-trial BPLTTC pool. Whether ANBP is among BPLTTC 2021's 48
+trials is still not stated, though the shared collaboration makes it likely. MRC and VA-NHLBI are not in
+Rahimi's list [searched: MRC / VA-NHLBI across the appendix, chunk 01]
+[inferred from @rahimi2021bpageappx; @wang2025mildhtn].
+
 The population, contrast, metric and baseline-risk rows all read NO, so this is **not a filed tension**: the not-joined check (ii) fires — the two
 answer the question at different scope (a \~5-6x lower-risk, younger, untreated stratum vs a pooled
 higher-risk one), and Wang's interval does not exclude BPLTTC's estimate, so no observable clash is
@@ -750,6 +770,8 @@ PREVEND IT (212), about 13% of participants [@wang2025mildhtn], but tolerability
   next section runs the parameter table on matched trials.
 - HOPE-3, the modern-drug primary-prevention trial Wang cites, is now held through its BP-arm report:
   *The intermediate-risk modern-drug trial* below.
+
+</div>
 
 ## The BPLTTC grade-1 pool Wang names as conflicting — Sundström `[2026-10-27, Sundström]`
 
@@ -1232,6 +1254,8 @@ SBP (140.9) and 130-140 cannot be placed in a third. So the case rests on route 
 the person gives an unconfirmed SBP gradient
 [inferred from @lonn2016hope3; @bplttc2021].
 
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## By age — 0.82 under 55, 0.91 from 55 to 84, 0.99 at 85+, one borderline interaction `[2026-10-27, Rahimi]`
 
 Rahimi and colleagues re-cut the BPLTTC dataset by age at entry: 51 trials, 358,707 people aged 21-105
@@ -1274,13 +1298,78 @@ across prespecified subgroups of age categories and systolic and diastolic blood
 used likelihood-ratio tests for interactions.» [@rahimi2021bpage]),
 the design the route-(b) rule accepts for its within-trial part; what mainly keeps the modification from
 clearing the bar is its strength (adjusted p=0.050, the authors' chance caveat, no meaningful interaction
-for ischaemic heart disease or heart failure). For the oldest band the comparison with younger bands is partly
-between trials (elderly-only trials such as HYVET, very likely in the pool though not confirmed, see below, may
-supply much of it). The authors checked one part of the trial mix: an unstandardised sensitivity analysis of the
-age-stratified effects, also stratified by the three trial designs, was «broadly similar to the main results» [@rahimi2021bpage]. By-trial
-composition of the bands is not reported, so between-trial differences could still push the 85+ contrast
-in either direction. So the default at 85+ stays the common \~0.91, applied with wider
-uncertainty;
+for ischaemic heart disease or heart failure). This page first read the oldest band's comparison with
+younger bands as partly between trials, with elderly-only trials such as HYVET perhaps supplying much
+of it. The appendix counts below (2026-11-04) put numbers on that reading: HYVET, the only trial with
+nobody under 75, supplies about 22% of the band, and trials with an entry age of 60 or more about 31%
+overall but 66% within the placebo-controlled design; the comparison stays partly between trials
+.
+The appendix gives each trial's participants by age band. Of the 4788 people aged 85 or
+more, HYVET supplies 1049 (about 22%), ALLHAT 833, INVEST 695 and SPRINT 394; 27 of the 51 analysed trials
+contribute anyone to the band
+[@rahimi2021bpageappx]
+.
+Nine trials' entry criteria set a minimum age of 60 or more; COLM and VALISH have nobody aged 85 or more,
+and the other seven (HYVET, SHEP, SYST-EUR, EWPHE, STOP-2, ANBP2, NICS-EH) hold 1499 of the 4788 (about 31%), so most of the band comes from mixed-age
+trials. Within the placebo-controlled design the picture reverses: HYVET, SHEP, SYST-EUR and EWPHE hold
+1420 of the 2156 participants (about 66%). Every trial with anyone aged 85 or more also has people aged
+75-84, and all but HYVET also have people under 75 (3739 of the 4788, about 78%), so most of the band's
+participants come from trials that also supply younger bands. The reverse does not hold at the young
+end: trials with anyone aged 85 or more hold about 81% of the 75-84 band but only about 31% of the <55
+band (13,395 of 42,960)
+.
+The model had «fixed treatment effects» and was «stratified by baseline hazard functions for each trial
+to satisfy the proportional hazards assumption» [@rahimi2021bpage];
+stratifying the baseline hazard does not by itself confine the age comparison to within-trial
+contrasts. So the 85+ vs 75-84 comparison could draw largely on the same trials, while the comparison
+with the youngest band leans on different trials, and neither the paper nor the appendix says how much
+of the reported age interaction comes from within trials rather than between them.
+The authors checked one part of the trial mix: an unstandardised sensitivity analysis of the
+age-stratified effects, also stratified by the three trial designs, was «broadly similar to the main results» [@rahimi2021bpage].
+The appendix prints it. For major CV events at 85+ the unstandardised hazard ratios are 1.07 (0.89 to 1.29)
+in placebo-controlled trials, 0.76 (0.45 to 1.28) in intensity trials and 0.93 (0.78 to 1.11) in drug-class
+comparisons. The adjusted p for interaction with age (adjusted by Hommel's method, per the paper's Methods)
+is 0.15, 1 and 0.70 (unadjusted 0.03, 0.66 and
+0.14). At 75-84 the placebo-controlled estimate is 0.89 (0.83 to 0.95)
+[@rahimi2021bpageappx].
+Pooled across designs the unstandardised 85+ estimate is 0.99 [0.88; 1.12], adjusted p-interaction 0.05
+[@rahimi2021bpageappx].
+These are effects per trial contrast, not per 5 mmHg, so they are not the same quantity as the headline
+0.99 (0.87-1.12). HYVET supplies 1049 of the 2156 placebo-controlled participants aged 85 or more in
+Table S2 (about 49% of the participants). Its weight in the 1.07 need not match that share: a Cox
+estimate is weighted by events, and the appendix gives no events by trial, only by cell (227 and 219 in this one, Table S3)
+[searched: «events» across chunk 01 of the appendix, 17 hits, all in the Table S3 header and outcome labels or in reference titles].
+HYVET's «Follow-up duration (years)» in Table S2 is 2.1, shorter than SHEP's 5.0, ACTIVE I's 4.1 or
+PROFESS's 2.5; each trial's 85+ count times its whole-trial follow-up puts HYVET at roughly 35% of the
+cell's person-years.
+Which trials drive the 1.07 is not reported. The favourable intensity-trial 85+ cells (0.76 for major CV
+events here, 0.72 for all-cause death below) come from two trials, and SPRINT has 394 of their 404
+participants aged 85 or more in Table S2.
+The placebo-controlled 85+ cell is the drug-versus-placebo contrast (some of its trials started treatment,
+others added it), and its point estimate sits least easily with the default. Its 14 contributing trials'
+whole-trial SBP differences run from 0.9 mmHg in DIABHYCAR to 22.4 in EWPHE, with 13.1 in HYVET
+[@rahimi2021bpageappx];
+weighted by each trial's 85+ count they average about 9.9 mmHg.
+A contrast of that size would, at the common \~0.91 per 5 mmHg, predict a hazard ratio of about 0.83,
+outside the 1.07 (0.89 to 1.29) interval. Run the same way on all 15 design-by-age cells for major CV
+events in Table S3, the point prediction falls outside the observed interval in five, in both
+directions. Three show more benefit than predicted: placebo-controlled <55 (predicted about 0.91,
+observed 0.76, 0.67 to 0.87), placebo-controlled 55-64 (about 0.92; 0.86, 0.81 to 0.91) and drug-class
+<55 (about 0.97; 0.83, 0.72 to 0.94). Two show less: intensity 65-74 (predicted 0.806, just below the
+lower limit of the observed 0.92, 0.81 to 1.05) and the placebo-controlled 85+ cell. It fits the other ten, among them the other two 85+
+cells (the intensity cell's weighted 14.6 mmHg, nearly all SPRINT's 14.9, predicts about 0.76 for its
+observed 0.76; drug-class about 0.98 for
+0.93). The predictions also ignore the uncertainty in the 0.91 itself
+.
+A check that misses in a third of the cells does not single out the 85+ placebo-controlled cell, so it is
+not used below as a reason. The 85+ subgroups' own BP contrasts are not reported in the appendix
+[searched: Table S2's «SBP difference» and «DBP difference» columns are per whole trial; Figures S1-S4 rows are age bands or BP categories; the parent's image-only figures are not held, so this covers the appendix only].
+The placebo design's interaction with age, 0.03 unadjusted, is 0.15 after adjustment. The paper did not report by-trial
+composition [2026-10-27]. The appendix reports it as counts, but it gives no trial-level estimate within a
+band [searched: «Hazard ratio» across chunk 01 of the appendix, 7 hits, all in Table S3 and the figure captions; the four image-only Figures S1-S4 inspected on the rendered pages, every row an age band or a BP category].
+So between-trial differences could still push the 85+ contrast
+in either direction. The default at 85+ therefore stays the common \~0.91, applied with wider
+uncertainty and with the placebo-controlled cell above as an unresolved counter-signal;
 the band's own 0.99 (0.87-1.12) is compatible with it and can neither confirm nor overturn it, since its
 interval runs from 0.87, a larger benefit than the 55-84 point estimates, to 1.12, a possible harm. The 85+ data
 cannot confirm the benefit by themselves, and they do not show it is absent: *insufficient evidence* in
@@ -1312,10 +1401,30 @@ approach holds with 0.91 per 5 mmHg and an age-appropriate baseline.
 **No evidence of a baseline-BP threshold inside an age band.** Within each band the authors found no
 evidence that the relative effect varied across baseline SBP from <120 to >=170 mmHg («all adjusted
 p-interaction\>0·070»; for the oldest band «adjusted p-interaction=1·00»), and none by DBP, down to <70
-mmHg [@rahimi2021bpage]. This extends the pooled *no J-curve
-in randomised data* finding above to age bands up to 84 (the within-trial HOPE-3 counter-signal in the no-CVD corner is noted in the J-curve section). At 85 and over it is close to uninformative: only
+mmHg [@rahimi2021bpage]. For major CV events in age bands up to
+84 this is consistent with the pooled *no J-curve in randomised data* finding above, but a null interaction
+test is no evidence of variation, not evidence that low-BP cells benefit: for all-cause death (a different
+outcome) the lowest-DBP cells below sit at or above 1 in three of the four bands up to 84, while the
+lowest-SBP cells sit below 1 in the three youngest bands (the within-trial HOPE-3 counter-signal in the no-CVD corner is
+noted in the J-curve section). At 85 and over it is close to uninformative: only
 121 people in that band started below 120 mmHg [@rahimi2021bpage],
 and where the band's overall estimate is near 1, *no variation* cannot show benefit at low BP either
+. For all-cause death the authors report «no evidence of diminishing relative effects in lower
+systolic (appendix p 9) or diastolic blood pressure categories (appendix p 10).» [@rahimi2021bpage]
+The appendix plots (image-only; printed values read from the rendered pages) show every adjusted
+p-interaction by baseline SBP at 1.00, in all five bands. At 85+ below 120 mmHg there were 21 of 53 vs 23 of
+68 deaths, 1.02 [0.46; 2.26] per 5 mmHg; at 75-84 below 120 mmHg, 1.08 [0.82; 1.42], the least favourable
+of that band's seven categories. In the younger bands the below-120 cells are 0.74 [0.44; 1.23] under 55,
+0.92 [0.72; 1.17] at 55-64 and 0.88 [0.73; 1.07] at 65-74 (Figure S2, p 9). By baseline DBP every adjusted p is 1.00 except at
+65-74: adjusted 0.02, unadjusted 0.004. That band's lowest category, <70 mmHg, has the most favourable
+estimate, 0.79 [0.67; 0.94] per 3 mmHg DBP. In the other four bands the <70 estimate is at or above 1:
+2.28 [0.77; 6.74] under 55, 1.00 [0.75; 1.34] at 55-64 and 1.10 [0.94; 1.28] at 75-84, each the least
+favourable of its band's six categories, and 1.08 [0.80; 1.46] at 85+, where the >=110 mmHg category is
+higher at 1.24 [0.38; 4.04] (Figure S3, p 10).
+[@rahimi2021bpageappx]
+The one interaction under 0.05 therefore does not point to smaller effects at low DBP. In the other bands
+the lowest-DBP cells sit at or above 1 in every band but 65-74, not only in the oldest, but every one of those
+intervals includes 1 and the interaction tests are null, so they neither show nor exclude a J-shape
 .
 
 **All-cause death and harms are hedged, not settled.** «We found that the proportional risk reduction for
@@ -1324,6 +1433,33 @@ than 75 years.» The authors caution that all-cause effects are sensitive to the
 with more competing non-CV death would show diluted proportional effects, and they read the
 absence of excess deaths as «the lack of excess mortality risk in older groups suggests that harmful fatal
 effects of the treatment are unlikely in any age group.» [@rahimi2021bpage]
+The appendix puts numbers on *no obvious effect* in two forms. Its Figure S1 is captioned «Effects of
+diastolic blood pressure-lowering treatment on primary and secondary outcomes, stratified by age categories.»
+and gives all-cause hazard ratios per 3 mmHg diastolic reduction of 0.85 [0.77; 0.94] under 55, 1.00
+[0.95; 1.06] at 75-84 and 0.99 [0.89; 1.11] at 85+, with adjusted p-interaction 0.05
+[@rahimi2021bpageappx].
+The per-5-mmHg systolic all-cause estimates pooled by age band sit in the paper's image-only figure 2, which
+is not held; the appendix's Figure S2 gives per-5-mmHg estimates only within baseline-systolic categories.
+Pooled across designs, the unstandardised (per trial contrast) all-cause hazard ratios are 0.85 [0.77; 0.93] under 55, 1.03
+[0.99; 1.08] at 75-84 and 1.00 [0.90; 1.11] at 85+, with adjusted p-interaction 0.05
+[@rahimi2021bpageappx].
+By design at 85+ they are 1.09 (0.93 to 1.29) in placebo-controlled trials, 0.72 (0.44 to 1.17) in
+intensity trials and 0.97 (0.84 to 1.12) in drug-class comparisons. At 75-84 they are 0.97 (0.90 to 1.05),
+0.91 (0.69 to 1.20) and 1.07 (1.01 to 1.13), and every adjusted p-interaction with age is 1
+[@rahimi2021bpageappx].
+Of these six cells, the one interval that excludes 1 is the drug-class 1.07 at 75-84. Drug-class trials
+compare two drug classes at nearly the same BP. The SBP difference is 2.0 mmHg in ALLHAT, 2.1 in STOP-2,
+0.1 in INVEST and 1.9 in ONTARGET, the four largest drug-class contributors to the 75-84 band (ALLHAT and
+INVEST are also the two largest at 85+)
+[@rahimi2021bpageappx].
+So that cell, and the drug-class 85+ cells (0.93 for major CV events, 0.97 for all-cause death), say
+little about BP lowering itself. Intensity trials also compare two active regimens; SPRINT,
+which supplies 394 of the 404 intensity-trial participants aged 85 or more, has an SBP difference of 14.9
+mmHg (same column). Elsewhere in the table the intensity-trial all-cause intervals under 55 and at 55-64
+also exclude 1, in favour of more intensive lowering. At 75-84 the placebo-controlled all-cause cell, 0.97
+(0.90 to 1.05), shows no all-cause benefit and excludes neither a reduction of about 10% nor an excess of about 5%. At 85+ the pooled interval runs from about 10% fewer to 11% more deaths. That neither
+shows a mortality benefit nor excludes a modest benefit or a modest excess: *insufficient evidence* for the
+band, which fits the authors' *no obvious effect*.
 That is a *suggests unlikely* about *fatal* harm, and it is no estimate of non-fatal harm. Falls, syncope
 and tolerability are not pooled by age in this paper [searched: adverse / syncope / falls across chunks
 01-02]. The authors write that «Health-related quality of life and prevention of harms might be of equal
@@ -1348,6 +1484,17 @@ older», 3845 people with SBP 160 or higher, with 30% fewer strokes and 23% fewe
 reports it [@rahimi2021bpage]. Its principal
 investigator is on the BPLTTC roster of both papers, so its data are very likely inside this pool and it
 would not be an independent check; the trial list (appendix) is not held to confirm.
+*Confirmed 2026-11-04, appendix now held.* Table S2, the list of trials «included in the analysis», has the
+row «HYVET28 Placebo- controlled Multi-country 2.1 0 0 0 2794 1049 Diuretic». That is follow-up 2.1 years,
+no one in the three bands under 75, 2794 in the column «Aged 75 to 85 years» and 1049 in «Aged 85 years
+or higher». The «No. of participants» cells give the arms as Diuretic (1933) and Placebo (1912), and the
+row's inclusion cell reads «Age ≥80y years, sustained SBP ≥160 mmHg»
+[@rahimi2021bpageappx]. The arms sum
+to 3845, the paper's figure above. The band cells sum to 3843, and the table gives no reason for the
+2-person difference. So HYVET is inside the pool and is not an independent check
+on its age bands. Its 80-84-year-olds, nearly three-quarters of its participants, fall in the 75-84 band
+(the column labelled «75 to 85» sums to the paper's 75-84 n). So HYVET's whole-trial result is not a
+result for the 85+ band, and its 85+ participants are about a fifth of that band.
 
 **What the authors conclude.** «In conclusion, we found no evidence to substantiate the common approach of
 withholding antihypertensive treatment for older adults, in particular when their blood pressure is not
@@ -1379,7 +1526,8 @@ small despite the higher risk; their shorter-treatment explanation would make th
 someone with a short horizon. The band cannot tell these apart, so starting is reasonable to consider and
 is held less firmly than at 55-84; neither reading is established. For *frail, multimorbid or
 institutionalised* people at any old age, the relative effect is transported to a group the trials
-under-represented, so starting is an individual trade-off (Layer 3). The authors' continuation default is
+under-represented, so starting is an individual trade-off (Layer 3); the trial the authors name to
+address this has no held result. The authors' continuation default is
 stated in exactly that context: right after naming the under-represented groups and ATEMPT they write
 «We acknowledge that clinical decisions cannot be deferred until such evidence emerges.» and then advise
 continuing a well-tolerated drug (quoted above) [@rahimi2021bpage].
@@ -1394,12 +1542,20 @@ held trial tests stopping at 85+. Unpooled non-fatal harms are not an 85+-specif
 unpooled at every age. The authors go further, without restricting it to any subgroup: starting should be considered even at 80 or older, with BP
 thresholds that do not differ by age; they also frame initiation and continuation as individual harm-benefit trade-offs and call
 transport to the under-represented groups uncertain. The wiki agrees for the trial-eligible, with the
-85+ uncertainty stated in both directions, and for the frail it keeps the authors' continuation default
+85+ uncertainty stated in both directions (the band's 0.99, 0.87-1.12, and the appendix's placebo-controlled
+85+ cell for major CV events, 1.07, 0.89 to 1.29 per trial contrast, a point estimate above 1 though its
+adjusted age interaction is p 0.15, with HYVET about half of its participants and its share of events
+not reported; the favourable intensity cell, 0.76, 0.45 to 1.28, has SPRINT's 394
+of its 404 participants), and for the frail it keeps the authors' continuation default
 while leaving starting as an individual trade-off: a narrower reading than the authors' unrestricted
 *should be considered*, compatible with their individual-trade-off framing, made because the effect is
 transported
 [inferred from @rahimi2021bpage; @bplttc2021].
 Peters' dementia meta-analysis (above) is a different outcome and is not compared on this scale.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Decision relevance
 
@@ -1436,7 +1592,12 @@ Peters' dementia meta-analysis (above) is a different outcome and is not compare
   over the default relative effect is
   \~0.91, carried with wider uncertainty because the band's own estimate is imprecise (HR 0.99,
   0.87-1.12) and is compatible with the same benefit, a smaller one or none (its interval also reaches a
-  larger benefit and a possible harm): for the trial-eligible,
+  larger benefit and a possible harm), and because the appendix's placebo-controlled 85+ cell for major
+  CV events, 1.07 (0.89 to 1.29) per trial contrast, has a point estimate above 1 (adjusted age
+  interaction p 0.15; HYVET about half of its participants, its share of events not reported; the favourable intensity cell, 0.76, 0.45 to 1.28, has SPRINT's 394 of its 404
+  participants; the authors call the design-stratified analysis «broadly similar to the main results»
+  [@rahimi2021bpage]; *By age*): for
+  the trial-eligible,
   starting is reasonable to consider, held less firmly; for the frail, multimorbid or institutionalised,
   starting is an individual trade-off, and continuing a well-tolerated drug defaults to the authors'
   continue-if-well-tolerated, with the effect extrapolated (the review triggers are the wiki's reading,
@@ -1495,6 +1656,10 @@ SBP-subgroup reading cannot place such a person reliably (the thirds were cut on
 and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-drug trial* above)
 [inferred from @lonn2016hope3; @bplttc2021].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-04">
+
 ## Limits
 
 - Trials 1972-2013 — older drug regimens and co-treatment; relative (not absolute) effects are the
@@ -1504,6 +1669,9 @@ and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-d
   mostly 1970s-80s, low certainty, and too small (\~180 CV events) to confirm or exclude a BPLTTC-sized
   effect, so they cannot test the transport of its relative effect to that stratum; they also partly
   share trial data with BPLTTC (SHEP, PREVEND IT; ANBP possibly), so they are not fully independent of it.
+  ANBP is a row of the sibling Rahimi pool's trial list (2026-11-04; detail under the Wang parameter
+  table). ANBP alone is about a fifth of Wang's participants (1832 of 9124), so for that pool the overlap
+  is larger than SHEP and PREVEND IT suggest.
 - Wang's pool is nested in Sundström's BPLTTC grade-1 analysis (9117 of 9124 participants), so the two are
   one data set on the untreated, non-diabetic question, not two. Sundström's pooled benefit comes mostly
   from a 96%-diabetic half of which 55-61% were already treated (55% if two trials' listed zeros are
@@ -1515,7 +1683,13 @@ and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-d
   only inside the diabetic BPLTTC half, so neither shows nor excludes a different relative effect in the
   non-diabetic, untreated stratum
   [inferred from @sundstrom2015mildhtn; @wang2025mildhtn].
-- The >=85 relative effect rests on about 1000 events over a median 2.8 years and is not settled either way; frail,
+- The >=85 relative effect rests on about 1000 events over a median 2.8 years and is not settled either way.
+  The band's 4788 people come from 27 trials, with no trial-level estimate within it; HYVET supplies about
+  a fifth of the band's participants. The placebo-controlled 85+ cell for major CV events (1.07, 0.89 to
+  1.29, per trial contrast; HYVET supplies about half of its participants, and its share of the events is
+  not reported; age interaction p 0.15 after adjustment) is an unresolved counter-signal to the
+  transported \~0.91, and the favourable intensity-trial cell (0.76, 0.45 to 1.28) has SPRINT's 394 of its
+  404 participants; both intervals include 1 (*By age* above) [inferred from @rahimi2021bpageappx]. Frail,
   multimorbid and institutionalised people are under-represented, so transport to them is uncertain by
   the authors' own statement (*By age* above).
 - HOPE-3 is one trial: its SBP-third gradient is a nominal test among three hypothesis-based subgroups,
@@ -1523,5 +1697,7 @@ and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-d
   rosuvastatin), so they may understate harm in an unselected population. BPLTTC's per-stratum HRs below 130 mmHg in people without CVD are
   image-only and not held, so the two cannot be compared stratum by stratum.
 - Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
+
+</div>
 
 ## References

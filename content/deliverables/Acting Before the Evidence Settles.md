@@ -3,11 +3,11 @@ type: deliverable
 title: Should I Act Before the Meta-Analysis Exists?
 icon: material-symbols-light:balance
 question: 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to act on ahead of (or without) a settled meta-analysis, and how should the threshold to act scale with reversibility, cost, and the size of the lever — versus when the disciplined move is to wait?'
-sources: [GRADE - Handbook, Cochrane - Handbook for Systematic Reviews 6.5, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Amrhein - Retire Statistical Significance 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, EASD - DNSG Dietary Management of Diabetes 2023, ADA - Nutrition Therapy for Diabetes 2019]
+sources: [GRADE - Handbook, Cochrane - Handbook for Systematic Reviews 6.5, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Amrhein - Retire Statistical Significance 2019, WHO - Saturated and Trans Fatty Acid Intake 2023, EASD - DNSG Dietary Management of Diabetes 2023, ADA - Nutrition Therapy for Diabetes 2019, Rahimi - BP Lowering by Age BPLTTC 2021, Lonn - HOPE-3 BP Lowering 2016, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021]
 confidence: medium
 created: 2026-08-26
-updated: 2026-10-02
-self_critiqued: 2026-10-02
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 ---
 
@@ -37,14 +37,22 @@ every section below: the loop is open. This guide can tell you whether a well-in
 *would* act this way; it can never tell you whether the person who did ended up better off.
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## "How good is the evidence?" and "should I act?" are different questions
 
 Ordinary advice runs two separate judgments together. Pull them apart and the rest falls into
 place: first, how sure you are that an effect is real and about this big; second, how hard you
 should act on it. GRADE built its method on keeping exactly these two apart. They do not track each
-other. Strong evidence routinely pairs with a *weak* recommendation, because the right choice turns
-on the person's own values; weak evidence can justify strong action when benefit so outweighs harm
-that the uncertainty barely matters. Certainty feeds the decision; it is not the decision.
+other.
+
+Strong evidence can pair with a *weak* recommendation when the right choice turns on the
+person's own values. Low-certainty evidence is not a reason to stay silent either: **GRADE asks
+panels to recommend anyway, and expects those recommendations to be weak**
+[@grade]. A *strong* recommendation on low-certainty evidence is the
+narrow exception. GRADE discourages it in general and names five situations where it may be
+warranted, framed as cases where the panel would feel little regret if later evidence proved it wrong
+[@grade]. Certainty feeds the decision; it is not the decision.
 -> [[Certainty of Evidence vs Strength of Recommendation]]
 
 Real bodies act this out. EASD's 2023 diabetes guidance grades each recommendation's certainty but attaches
@@ -92,6 +100,48 @@ way to act where a population recommendation is silent: you need to know your ow
 claim the treatment works differently inside you. Claiming *that* — that the relative effect itself
 is different for you — is the expensive route, and it demands direct evidence of an interaction,
 not just a plausible mechanism. -> [[Baseline Risk and the Relative-Absolute Split]]
+
+**Blood-pressure drugs show what acting on that default looks like.** Trials pooled by age at entry
+found the same relative effect from 55 to 84: HR 0.91 for major cardiovascular events per 5 mmHg
+lower systolic pressure in each band, with larger absolute reductions in the older bands
+[@rahimi2021bpage]. The pool mixes people with and
+without prior cardiovascular disease, and some of its trials compared drug classes or treatment
+intensities rather than drug against placebo, so 0.91 is not a primary-prevention estimate.
+The same trialists' collaboration (BPLTTC) gives the same point estimate for people without prior
+cardiovascular disease, across all ages: HR 0.91 (0.89-0.94) per 5 mmHg
+[@bplttc2021].
+-> [[Blood Pressure Lowering and Cardiovascular Events]]
+
+The ends drift: 0.82 under 55, and 0.99 (0.87-1.12) at 85 and over, with a borderline age
+interaction (p=0.050) [@rahimi2021bpage]. **The authors
+keep two readings open.** The drift may be chance: ischaemic heart disease and heart failure showed no
+meaningful interaction by age, and the relative effect was consistent for most participants. Or the
+*relative* benefit may really shrink with age: interaction tests are conservative, large
+epidemiological studies show the same pattern, and the oldest group was treated for about half as
+long as the youngest, after longer exposure to raised pressure and with more clustered risk factors
+[@rahimi2021bpage].
+
+Neither reading is established. So plan on about 0.91, with wider uncertainty at the ends: under 55
+that may understate the relative benefit, and at 85 and over it may overstate it, even though
+absolute reductions were larger in the older bands.
+
+**One trial found a modifier signal, and a larger pooled test did not confirm it.** HOPE-3 gave
+intermediate-risk people without cardiovascular disease candesartan plus hydrochlorothiazide or
+placebo, and prespecified a split by starting systolic pressure. Events were nominally significantly
+lower only in the top third (above 143.5 mmHg: HR 0.73, 0.56-0.94), against 1.16 and 1.08 in the
+lower thirds, intervals spanning no effect; stroke showed no such pattern
+[@lonn2016hope3]. An individual-participant meta-analysis of 48
+trials, analysed separately for people with and without prior cardiovascular disease, found no
+reliable modification by baseline systolic pressure
+[@bplttc2021].
+
+So HOPE-3 does not overturn the pooled finding. Nor is it cleanly refuted for people starting at
+143.5 mmHg or less, HOPE-3's lower two thirds (a tertile cut, not a treatment threshold).
+The default stays your own baseline risk. A further within-trial or individual-participant test that
+confirmed the gradient would change it.
+-> [[Blood Pressure Lowering and Cardiovascular Events]]
+
+</div>
 
 ## A direction can be sound without a pooled magnitude
 
@@ -170,6 +220,8 @@ but often leaves a thinner evidence base for each sub-component than the aggrega
 the three manufactures a pooled magnitude; each turns a muddled question into an answerable one,
 which is what a decision needs first.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Waiting has a cost too
 
 **"We cannot say" and "we can say it does not help" are different states, and confusing them is how
@@ -200,7 +252,12 @@ Two questions, asked out loud, tell them apart: **is a defensible direction actu
 triangulated, human-corroborated, marked as direction — and **is the cost of waiting being
 counted?** Waiting is never neutral; it is a decision to keep the current exposure, whose own risks
 accrue in the meantime. A high certainty grade is not the price of admission to act, and an absent
-grade is not a licence to do nothing.
+grade is not a licence to do nothing. GRADE's default for panels, set out in the first
+section, points the same way. It treats making no recommendation as unusual, allowed for instance
+when confidence is so low that any recommendation would be speculation, and asks the panel to say why
+[@grade].
+
+</div>
 
 ## Reading a signal that stops at the null
 
@@ -299,7 +356,7 @@ something you don't — do not mistake caution for a verdict.
   comparator already exist and asks which quantile to act on; **this page asks the prior question —
   whether to act at all when the pooled evidence is silent, and how a direction is even reached.**
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Where this nets out
 
@@ -322,11 +379,11 @@ says so.
 > | | |
 > |---|---|
 > | **Question** | 'When is a lifestyle choice well-founded enough for an INDIVIDUAL to act on ahead of (or without) a settled meta-analysis, and how should the threshold to act scale with reversibility, cost, and the size of the lever — versus when the disciplined move is to wait?' |
-> | **Evidence included** | 8 sources — 4 gold, 3 method, 1 context |
+> | **Evidence included** | 11 sources — 6 gold, 1 high, 3 method, 1 context |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All topic sources are gold or high tier. |
 > | **Method sources** | GRADE; Cochrane; USPSTF; Amrhein. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Acting%20Before%20the%20Evidence%20Settles.md) |
 
 </div>
 

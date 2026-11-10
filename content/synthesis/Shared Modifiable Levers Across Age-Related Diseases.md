@@ -6,7 +6,7 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund Internatio
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-09-10
+updated: 2026-11-10
 self_critiqued: 2026-09-10
 relationships:
   related_to:
@@ -181,6 +181,8 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 
  The table above is built from disease-*incidence* bodies. The wiki now also holds
@@ -217,5 +219,7 @@ outcome-specific efficacy break-points: osteoporosis is the clean instance — t
 flexion is substituted with extension to spare the vertebral-fracture tail
 -> [[Exercise Safety in Osteoporosis]]. So the shared lever transfers, and its *safe application* is
 what gets tuned per condition.
+
+</div>
 
 ## References

@@ -2,8 +2,8 @@
 type: framework
 question: Across the popular named diet programmes, is any clearly superior for weight and cardiovascular risk factors, and does the benefit last?
 aliases: [Comparing Named Diets, Are Named Diets Interchangeable, Diet Program Comparison, Best Named Diet, Atkins DASH Zone Ornish Comparison, 14 Named Diets Network Meta-Analysis, Which Diet Is Best]
-authors: [Ge, Long; Johnston, Bradley C; Guyatt, Gordon H]
-sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022]
+authors: [Ge, Long; Johnston, Bradley C; Guyatt, Gordon H; Jensen, Michael D; Ryan, Donna H]
+sources: [Ge - Named Diets Weight Cardiovascular Network MA 2020, Churuangsuk - Diabetes Diets Umbrella Review 2022, Jensen - AHA ACC TOS Obesity Guideline 2014]
 cluster: weight-loss-diets
 confidence: medium
 relationships:
@@ -16,9 +16,9 @@ relationships:
     - Surrogate Outcomes
     - Rating Certainty of Evidence
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
-self_critiqued: 2026-09-25
+self_critiqued: 2026-11-06
 created: 2026-07-31
-updated: 2026-10-07
+updated: 2026-11-09
 ---
 
 Ge 2020 (BMJ) is a **network meta-analysis of 121 randomised trials (21 942 overweight/obese adults)**
@@ -201,6 +201,8 @@ across 61 trials from the Cochrane review's fidelity field
 two sets of *advice at achievable adherence*, and the one they will actually sustain wins on the term
 that dominates.
 
+<div class="recent-update" data-last-updated="2026-11-09">
+
 ## Ge and Naude corroborate — but they are NOT independent
 
 Ge broadens the pairwise low-carb-vs-balanced result to the whole named-diet network; the two reviews
@@ -231,9 +233,111 @@ Ge's search window), so corroboration, not independent backing.
 
 Ge's own external corroborations are also shared-standpoint, not independent witnesses: it aligns with
 the 2014 AHA/ACC/TOS guideline «concluding that evidence was inadequate to recommend any particular diet»
-[@ge2020] and with NICE leaving every
+[@ge2020] (a fair reading of the
+guideline's position on choosing a diet; only two of its weight contrasts, ES5a (High, no time horizon
+stated) and ES4a (Moderate, 6 to 12 months), are firmer no-difference findings than *inadequate*
+conveys: see the next section; it is
+titled the 2013 guideline and printed in Circulation in 2014) and with NICE leaving every
 macronutrient-defined diet without a recommendation
 ([[Diets for Weight Loss - What NICE Recommends]]) — all appraising largely the same RCT base.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-09">
+
+## The 2013 AHA/ACC/TOS guideline read directly — which evidence state it actually assigns
+
+*Appended 2026-11-06: the guideline was held only through Ge's one-line relay above; it is now held
+directly.* The 2013 AHA/ACC/TOS obesity guideline (Expert Panel evidence review; diet-trial search 1998-2009 plus
+large later RCTs) answers the diet question in its CQ3 with graded evidence statements (ESs). On
+weight loss with an achieved deficit its framing is positive; for the best approach to sustain weight
+loss over the long term, its own gaps section says the evidence is not there yet (below). After ES1 (an energy deficit is required), ES2 states: «All of the following dietary approaches
+(listed in alphabetical order) are associated with weight loss if reduction in dietary energy intake is
+achieved:» — followed by about 15 named approaches (higher-protein, Zone-type, lacto-ovo-vegetarian,
+low-carbohydrate <20 g/d, low-fat vegan, low-glycemic-load, Mediterranean, AHA Step 1 and others),
+graded High [@jensen2014obesity]. The recommendation built
+on it is Grade A (Strong): «Prescribe a calorie-restricted diet, for obese and overweight individuals
+who would benefit from weight loss, based on the patient’s preferences and health status, and
+preferably refer to a nutrition professional* for counseling.» (rec 3b) [@jensen2014obesity]
+
+**The per-contrast grades are not uniform**, which a one-line relay cannot carry
+[@jensen2014obesity]:
+
+| Contrast (calorie-restricted unless noted) | Guideline ES | Grade | Evidence state |
+|---|---|---|---|
+| Protein 25% vs 15% of energy, on weight | ES5a: «results in weight loss equivalent to that achieved with a typical protein diet (15% of total calories)» | High | no meaningful difference |
+| Lower-fat (<30%) vs higher-fat (>40%), weight at 6-12 mo | ES4a: «comparable weight loss at 6 to 12 months» | Moderate | no meaningful difference |
+| Lower-fat vs higher-fat, lipids | ES4b: lower-fat gives «Greater reduction in LDL-C», lesser TG fall, lesser HDL rise | Moderate | a difference, on lipids |
+| Low-carbohydrate (20 g/d start; instructed carbohydrate restriction, not a prescribed calorie target) vs calorie-restricted low-fat, weight at 6 mo | ES6a: «there are no differences in weight loss at 6 months» | Low | no difference, low certainty |
+| Low-carbohydrate, CV risk factors | ES6b: «There is insufficient evidence to comment on the cardiovascular risk factor effects of low-carbohydrate diets.» | — | insufficient |
+| High vs low glycemic load (ES8 states no energy prescription); calorie-restricted named patterns (Mediterranean, vegetarian/vegan, high-dairy) vs a lower-fat pattern (ES9) | ES8: comparable weight loss; ES9: «weight loss and cardiovascular benefits that are comparable» | Low | no difference, low certainty |
+
+*Header corrected 2026-11-09:* the table first read *all calorie-restricted*. That is wrong for the
+low-carbohydrate row. ES6a's arm is «instructions to consume a carbohydrate-restricted diet», compared
+with a calorie-restricted low-fat diet, and ES2 lists the approach as «• Low-carbohydrate diet
+(initially <20 g/d carbohydrate) without formal prescribed energy restriction but with a realized
+energy deficit.» [@jensen2014obesity]
+
+**Ge's secondhand relay: a defensible gloss, with a narrow fidelity point on two weight
+contrasts.** Ge summarises the guideline as «concluding that evidence was inadequate to recommend any
+particular diet» [@ge2020]. The
+wording is Ge's, not the guideline's [searched: "particular diet" across Jensen chunks 01-06, 0 hits;
+"inadequate" hits only methods and surgery contexts]. *Rescoped 2026-11-09:* an earlier version of
+this paragraph read Ge's gloss as a type-B misstatement of the guideline's overall evidence state
+(*insufficient* where the guideline holds *no meaningful difference*). Read against the guideline's own
+counter-passages, that does not hold for most of CQ3:
+
+- The CQ3 research-gaps section says the long-term question is open: «More research is needed to
+  inform future guidelines about dietary interventions for weight loss.» and «Because long-term dietary
+  adherence is problematic in weight management, to determine the best dietary approach to sustain
+  weight loss over the long term, studies are needed that:»
+  [@jensen2014obesity]
+- Where one approach does beat another at 6 months, the longer-term evidence is stated as missing:
+  «ES10a: In overweight and obese women, the use of liquid and bar meal replacements is associated with
+  increased weight loss at up to 6 months, in comparison with a balanced deficit diet using only
+  conventional food. Longer-term evidence of continued weight loss advantage is lacking.» (Low)
+  [@jensen2014obesity]
+- Most of the no-difference contrasts are graded Low (ES6a, ES8, ES9), and the guideline's scale
+  defines Low as «Low certainty about the estimate of effect.» «Further research is likely to have an
+  impact on our confidence in the estimate of effect and is likely to change the estimate.»
+  [@jensen2014obesity] (Table 3)
+
+So *evidence inadequate to recommend any particular diet* is a fair reading of the guideline's stated
+position on which diet to choose, especially for sustaining weight loss over the long term (the gaps
+section's phrase). What survives
+is narrow. Two contrasts are no-meaningful-difference findings at better than Low certainty: ES5a,
+protein 25% vs 15% (High), and ES4a, lower-fat vs higher-fat at 6-12 months (Moderate, which the scale
+defines as «Further research may have an impact on our confidence in the estimate of effect and may
+change the estimate.» [@jensen2014obesity]). (ES5a states no
+time horizon; ES4a's window spans what the guideline's lifestyle-intervention statements label
+short-term, 6 months in CQ4 ES2a, and intermediate-term, 1 year in CQ4 ES2b
+[@jensen2014obesity].) For those two weight contrasts, *inadequate* undersells what the guideline holds: the comparison was
+run and came out near-equal. That is a type-B point scoped to two statements, not to the guideline's
+diet position as a whole. Its decision consequence is small: neither reading names a preferred diet,
+and rec 3b (Grade A) leaves the choice to preference and health status.
+[inferred from @jensen2014obesity; @ge2020]
+
+**Parameter table (op-weave 2a) — Jensen CQ3 vs Ge on the two shared contrasts.**
+
+| Parameter | Jensen 2013 guideline | Ge 2020 network MA | Same quantity? |
+|---|---|---|---|
+| Evidence window | search Jan 1998-Dec 2009, plus large RCTs (>100 per arm) after 2009; CQ3 = 17 trials (23 articles) | RCTs to September 2018; 121 trials | NO, different windows; trial pools overlap |
+| Low-carb vs low-fat, weight, 6 mo | no difference, head to head (ES6a, Low) | 4.63 v 4.37 kg, each vs usual diet (each moderate certainty) | NEAR / YES: both are a low-carb vs low-fat difference at 6 months (Jensen head to head; Ge's network league-table estimate 0.26 kg, -0.92 to 1.45, Fig 3, its certainty shown only by figure shading) |
+| Lower-fat vs higher-fat or low-carb, LDL | lower-fat gives greater LDL-C reduction (ES4b, Moderate), direction only | low-fat 7.08 vs low-carb 1.01 mg/dL vs usual diet | PARTLY: Jensen's higher-fat arm (>40% fat) includes but is wider than low-carb; direction agrees |
+| Independent backing? | — | — | NO: same RCT class, later pool. F (broadening), not E |
+
+[@jensen2014obesity] (search window);
+[@jensen2014obesity] (CQ3 ESs); Ge figures as extracted
+above, plus [@ge2020] (Fig 3 league
+table, 0.26 kg).
+On the low-carb weight contrast both find near-equality on the same quantity. The certainty labels in
+Ge's text attach to each diet against usual diet, not to the 0.26 kg difference, so they cannot be set
+against Jensen's Low for the head-to-head contrast, and no grade gap is read from them. The ES4b
+lipid differential is the guideline-layer face of *Low-carb costs LDL what it buys elsewhere* below,
+reached from a shared trial class, so it adds no independent confidence.
+[inferred from @jensen2014obesity; @ge2020]
+
+</div>
 
 ## The same null holds in the type-2-diabetes stratum (F-broadening, shared evidence)
 

@@ -17,8 +17,6 @@ relationships:
     - What Drives Fat Gain - Energy Balance vs the Carbohydrate-Insulin Model
     - Measurement Error in Dietary Assessment
 ---
-<div class="recent-page" data-last-updated="2026-11-04"></div>
-
 
 A facet of the `sleep` cluster (nucleus [[Sleep Duration and Mortality]]), on a **different outcome set**
 — incident type 2 diabetes and adiposity, rather than mortality. Two 2015 meta-analyses answer two

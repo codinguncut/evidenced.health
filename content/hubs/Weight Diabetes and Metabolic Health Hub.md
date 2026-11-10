@@ -90,8 +90,6 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   metformin with far fewer GI side effects (7% vs 53%) — a tolerability substitution, surrogate-bounded.
   Diet/weight-loss/exercise PCOS levers are named gaps
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Why maintenance is hard, and drug/monitoring routes
 
 - [[Weight-Loss Maintenance and Metabolic Adaptation]] — why maintaining diet-induced loss is hard and
@@ -102,6 +100,10 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   0.7 kg less regain), and psychological harm (no excess detected in adults trying to lose or keep off
   weight; neither review's psychological evidence covers adolescents, eating-disorder samples or
   normal-weight people not trying to lose weight)
+- [[Lifestyle Weight-Loss Programme Intensity and Delivery]] — how often and how long a lifestyle
+  programme must meet (2013 AHA/ACC/TOS graded statements): less than monthly unreliable, weekly start
+  up to \~8 kg at 6 months, GP advice alone not shown effective, phone/web smaller, ≥1 year maintenance
+  with regain of 1-2 kg/y; dated, one guidance family
 - [[Comparing Obesity Drugs]] — the 19-drug network meta-analysis: how the class ranks on weight, hard
   outcomes, harms and QoL — and why the biggest weight loss is not the best-evidenced drug
 - [[Semaglutide for Cardiovascular Risk in Obesity]] — whether treating obesity with a drug reduces CV
@@ -119,5 +121,3 @@ Nucleus of the weight side: [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]].
   and what outcome it actually changes
 - [[Continuous Glucose Monitoring as a Health Intervention]] — whether wearing a CGM to guide eating
   improves outcomes, especially in people without diabetes
-
-</div>

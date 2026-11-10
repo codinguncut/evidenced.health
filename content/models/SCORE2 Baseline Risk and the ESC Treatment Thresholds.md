@@ -15,7 +15,7 @@ relationships:
     - Which Objective Moved This Recommendation
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
-updated: 2026-10-07
+updated: 2026-11-10
 self_critiqued: 2026-08-27
 ---
 
@@ -218,6 +218,8 @@ treat-to-target number once a stratum is fixed -> [[LDL Lowering and Cardiovascu
 guidance-null reading of that convergence is on [[Which Objective Moved This Recommendation]].
 [inferred from @accaha2026; @esceas2025]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## PREVENT vs the Pooled Cohort Equations — the derivation source quantifies a PCE overprediction the fabric held only from guidance `[2026-08-27]`
 
 The section above compares PREVENT with the *European* instrument (SCORE2). This one holds the
@@ -303,6 +305,8 @@ where competing death is common.
 effect against. What stays out of scope is the prescriber act it feeds (agent selection, titration);
 what is IN is that the instrument choice **sizes the baseline** and thereby the absolute benefit of every
 lever and drug in the corpus.
+
+</div>
 
 ## SCORE2-Diabetes — the instrument for the stratum the base model excluded `[2026-08-26]`
 

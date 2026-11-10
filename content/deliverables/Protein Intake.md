@@ -42,8 +42,6 @@ updated: 2026-11-03
 self_critiqued: 2026-11-03
 concrete_subject_audited: 2026-11-03
 ---
-<div class="recent-page" data-last-updated="2026-11-03"></div>
-
 
 ## Reach a floor for your situation; past it, protein decisions are small
 

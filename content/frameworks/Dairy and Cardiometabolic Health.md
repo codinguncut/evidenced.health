@@ -22,7 +22,7 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-10-07
+updated: 2026-11-10
 self_critiqued: 2026-10-07
 ---
 
@@ -291,6 +291,8 @@ channel, not a demonstrated one.
 
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Confidence, decision-relevance, and gaps
 
 - **`confidence: medium`** — two gold observational MAs converging on *small effects* (neutral CVD/
@@ -325,7 +327,7 @@ channel, not a demonstrated one.
   - **`G (needs aggregation)`:** a pooled dairy-fat -> CVD-events effect that adjusts for the Michaelsson
     artifact across designs — a magnitude the fabric cannot compute from these two non-commensurable MAs.
 
-
+</div>
 
 ## Self-critique `[run 2026-08-06, before commit]`
 

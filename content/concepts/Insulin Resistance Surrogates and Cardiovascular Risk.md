@@ -8,7 +8,7 @@ cluster: ir-surrogates
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-09-23
+updated: 2026-11-10
 self_critiqued: 2026-08-09
 relationships:
   related_to:
@@ -310,6 +310,8 @@ decisions in this section (use-to-place-not-treat, prompt-to-check-apoB, weight-
 wiki's application of Liu's effect estimates and FRS/causation findings, and of Zhang's direct-measure
 mortality estimates, quoted above — not additional source claims.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Limits
 
 - **All observational, causation disclaimed; no RCT.** 12 cohorts, mostly Asian (10/12), 2014–2021;
@@ -339,10 +341,10 @@ above) — the direct measures fasting insulin / HOMA-IR against mortality. It *
 TyG-specific-vs-general split from the direct-measure side: the mortality-null is not uniform across
 readouts, since the HOMA-IR composite retains a modest mortality signal (RR 1.34) where fasting insulin
 alone and TyG are null-to-borderline — HOMA-IR-composite-specific and fragile, not flat across IR
-readouts (measure-vs-population attribution unidentified).
-
-AWAITS a TG/HDL-ratio outcome source — to lift the cluster from two IR readouts (TyG, direct
+readouts (measure-vs-population attribution unidentified). a TG/HDL-ratio outcome source — to lift the cluster from two IR readouts (TyG, direct
 insulin/HOMA-IR) to the neutral question across surrogates, and to test the incidence/mortality split
 on the TG/HDL ratio arm specifically (Zhang covered the direct-insulin arm, not TG/HDL).
+
+</div>
 
 ## References

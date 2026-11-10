@@ -141,6 +141,8 @@ net of the alternative's own harms).
   decay untested.)
 
 
+<div class="recent-update" data-last-updated="2026-11-09">
+
 ## Synthesis — Layer-1 sizing: what this shrinks, and what it does NOT
 
 **The class summary.** GLP-1 receptor agonists are, on this evidence, «the first and only class of
@@ -179,6 +181,7 @@ must be relied on to deliver at the margin.
 takes the drug, the lifestyle lever, or both is elicited against adherence, cost, GI tolerability and
 reversibility.
 
+</div>
 
 ## Independence — this is refinement (F), NOT independent backing (E)
 

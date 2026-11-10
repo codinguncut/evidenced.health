@@ -34,8 +34,6 @@ bar. We hold ourselves to the *same test a reader can apply* to anyone:
 rather than a systematic one, we are working to flag it as such rather than let it borrow unearned
 authority.
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Who writes it, and what they gain
 
 
@@ -48,10 +46,6 @@ authority.
 A single person currently selects the questions, chooses the evidence, interprets it, and writes the
 conclusions. That concentration is the honest central weakness of the project, and no amount of
 internal method removes it — see [What it deliberately does not do](#what-it-deliberately-does-not-do).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## How sources are chosen
 
@@ -102,10 +96,6 @@ hand, so a gap is possible. Behind August 2026 the trail is partially reconstruc
 themselves (search log, rejected sources, ingest reasons) are published raw under
 [Research history](research/).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## How the guide checks its own bias
 
 A claim to be unbiased cannot be tested. What can be tested is the machinery, so here is what runs:
@@ -122,10 +112,6 @@ A claim to be unbiased cannot be tested. What can be tested is the machinery, so
 
 All of this checks the guide against its sources and its own past mistakes. None of it checks the advice
 against what happened to anyone who followed it (see [the first section](#the-one-thing-to-know-first)).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## How to read a claim
 
@@ -144,10 +130,6 @@ The guide is built to let you descend from a fast read to the full evidence trai
   tier), the overall certainty, a note flagging any weaker sources, and a link to the page's full
   public edit history — the "why should I believe this?" layer, with links down into the method behind
   each field.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## The words we use, and what each means
 
@@ -169,10 +151,6 @@ effect*, *insufficient* — and the certainty machinery behind them ([[Rating Ce
 The last two are kept firmly apart: *no meaningful effect* means we looked and found nothing worth
 acting on; *not adequately studied* means the question has not yet been asked well enough to answer.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## How to challenge it
 
 Trust is not inferred from the *absence* of corrections. It is inferred from whether criticism can be
@@ -191,10 +169,6 @@ submitted, evaluated, and traced to a visible change.
 - As new evidence arrives, older conclusions are re-checked; the public history tracks
   conclusion-changing revisions, not just typos.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## What it deliberately does not do
 
 - **It is not independently reviewed.** One person makes the calls. Every topic page's evidence box
@@ -211,5 +185,3 @@ submitted, evaluated, and traced to a visible change.
 The aim is not to convince you the guide is trustworthy. It is to make how it is produced transparent
 enough that you can judge, for yourself, whether trust is warranted — and to keep the layers open so a
 doubter can always dig one level deeper.
-
-</div>

@@ -7,8 +7,8 @@ authors: [Reynolds, Andrew; Veronese, Nicola; Milajerdi, Alireza; Brown, Lisa; V
 sources: [Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, Veronese - Dietary Fibre Health Umbrella 2018, WCRF - Diet Nutrition Activity Cancer 2018, Milajerdi - Dietary Fiber Fruit Vegetable IBD Risk Meta-Analysis 2020, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, ESC - CVD Prevention Guidelines 2021, Valdes - Gut Microbiota Nutrition and Health 2018, Valisoltani - Fiber Intake COPD Dose-Response Meta-Analysis 2023, WGO - Probiotics and Prebiotics Global Guideline 2023, Wastyk - Fermented Foods Microbiota Immune RCT 2021, SACN - Carbohydrates and Health 2015, Petroski - Antinutrients Narrative Review 2020, NNR - Nordic Nutrition Recommendations 2023, Wang - Resistant Starch Glucose Insulin 2019]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-06
-self_critiqued: 2026-10-02
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 ---
 
@@ -28,6 +28,8 @@ that land on different outcomes.
 The practical upshot is simple even though the evidence is not: **eat more fibre from real food --
 whole grains, beans and lentils, fruit and vegetables -- and stop expecting a miracle from it.**
 The downsides are real but small, and mostly settled in the kitchen.
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The impressive numbers come from watching eaters; the proof-grade effect is small
 
@@ -83,11 +85,11 @@ effect -- the healthy-user pattern, the other fibre fractions, or residual confo
 grade inflation.** Reynolds argues the case: «The consistency between the trial and prospective
 study results, together with the dose-response relationships, provide support that the effect on
 cardiometabolic diseases is likely to be causal and not a consequence of confounding variables.»
-[@reynolds2019] A monotone
-dose-response plus a concordant trial arm is a legitimate way to raise confidence above bare
-correlation ([[Upgrading Observational Evidence]]). But it is still cohorts of self-reported
-eaters, which is why this sits at moderate certainty -- and the causal *mechanism* is firmest
-exactly where the *effect* is smallest.
+[@reynolds2019] A dose-response
+gradient (linear for several of the outcomes) plus a concordant trial arm is a legitimate way to
+raise confidence above bare correlation ([[Upgrading Observational Evidence]]). But it is still
+cohorts of self-reported eaters, which is why this sits at moderate certainty -- and the causal
+*mechanism* is firmest exactly where the *effect* is smallest.
 
 **A bias screen thins the long list of benefits to a robust core.** Veronese's umbrella review of
 18 prior meta-analyses ran credibility diagnostics on top of the pooled estimates and found that
@@ -102,6 +104,10 @@ The all-cause mortality and CVD magnitudes agree with Reynolds (mortality RR 0.8
 [@veronese2018] -- but this is the same cohort
 literature re-pooled -- corroboration, not an independent second witness. **The robust core
 is mortality and cardiovascular disease; the long cancer list is weaker.**
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Which fibre you eat decides which outcome moves
 
@@ -118,12 +124,20 @@ distinction is not academic -- it is why a bowl of oats and a bran cracker do di
 - **Fermentable fibre** is the substrate gut bacteria turn into short-chain fatty acids, and it is
   the microbiome lever (below).
 
-**Because the mechanisms differ, so do the curves.** Brown's LDL-surrogate effect is nonlinear,
-flattening toward the top of the practical 2-10 g/day range, while Reynolds' hard-outcome curves
-keep climbing with no plateau in the data. *Fibre has no ceiling* is true of the outcomes and false
-of the cholesterol marker. The shape depends on the endpoint you pick -- which is exactly why a
-plateau seen on a surrogate must not be read across to the outcome ([[Surrogate Outcomes]])
+**The cholesterol curve and the outcome curves have different shapes.** Brown fitted the LDL
+effect only up to 10 g/day of soluble fibre, where it looked linear, and found it bending at higher
+doses. Brown offers two explanations: a biological maximum, or people sticking less well to the
+higher doses [@brown1999].
+Reynolds describes many of its hard-outcome curves as linear, with no plateau shown within the
+available data [@reynolds2019].
+
+The two curves also measure different exposures: soluble fibre added in trials, against total
+fibre eaten in cohorts. So a bend somewhere above 10 g of added soluble fibre says nothing about
+where, or whether, the outcome curves flatten. A plateau seen on a surrogate must not be read
+across to the outcome ([[Surrogate Outcomes]])
 .
+
+</div>
 
 ## The supplement grades better because it can be tested, not because it is better
 
@@ -277,17 +291,39 @@ care: low iron stores and tannin timing, recurrent kidney-stone formers and oxal
 marginal-iodine status and goitrogens. But these are stratum-specific cautions, not a reason for
 the general population to eat less fibre ([[Antinutrients in Plant Foods]]).
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Thirty grams marks the edge of the data, not a biological threshold
 
-**Every guidance figure near 25-30 g is best read as where the evidence thins, not where the curve
-turns.** Reynolds' outcome curves are «many of which are linear with no sign of a plateau within
-the available data». The paper finds «the greatest benefits ... for individuals consuming 25-29 g
-per day» and recommends «no less than 25-29 g per day with additional benefits likely to accrue
-with higher intakes.»
-[@reynolds2019] The outcome data locate no
-knee; the numbers mark the top of the sampled range. That is why the honest
-default is *more within the studied range still helps* rather than *aim for exactly 30*
-([[The Underivable Optimum]]).
+**The guidance figures near 25-30 g mark where benefit is well shown, or where the evidence thins
+-- not where the curve turns.** Reynolds' outcome curves are «many of which are linear with no sign
+of a plateau within the available data». The paper finds «the greatest benefits ... for
+individuals consuming 25-29 g per day» and recommends «no less than 25-29 g per day with additional
+benefits likely to accrue with higher intakes.»
+[@reynolds2019] The outcome data locate
+no knee. Reynolds' 25-29 g is a floor, not the top of its data: the review set comparison
+categories up to 35-39 g a day, and it reads its dose-response data as pointing to added benefit
+above 30 g a day [@reynolds2019].
+
+SACN's 30 g is the clearer case of a number set at the edge of the data. SACN read curves
+reproduced from earlier cohort pools and set its value where «The confidence intervals widen at
+intakes of 30g/day or more and the health risks are lower at 30g/day than at lower levels of
+intake.» [@sacn2015]
+
+**The curves could not have shown every plateau, so *no plateau* means *none shown*, not *none
+there*.** Reynolds fitted a straight line plus a restricted cubic spline with three knots, at the
+10th, 50th and 90th percentiles of intake
+[@reynolds2019]. A spline of that kind
+runs straight beyond its outer knots, so a flattening that began above the 90th percentile could
+not appear. The plotted axes run to roughly 35-45 g/day, but the paper does not state the lowest
+and highest intakes its cohorts covered ([[Dietary Fibre and Health]])
+.
+
+That is why the honest default is *more fibre probably still helps, up to roughly 35 g a day*
+rather than *aim for exactly 30*. The 35 g is approximate: the plotted axes end at about
+35-45 g/day, the diabetes cohorts below stop near 35 g, and nothing here promises benefit past
+that ([[The Underivable Optimum]])
+.
 
 **In people who already have diabetes, the direction holds, but the mortality figure rests on two
 cohorts.** The same research team re-ran the question for adults with prediabetes, type 1 or type 2
@@ -297,18 +333,20 @@ put highest-versus-lowest fibre at an all-cause mortality RR of 0.55 (95% CI 0.3
 authors measured that reduction only up to the highest intake their cohorts covered
 [@reynolds2020].
 
-So 35 g is again where the data stop, not a located optimum. And the 0.55 is not evidence of a bigger
-effect: the general-population 0.85 sits inside its wide interval, and a review by the same team is
-a refinement, not independent confirmation
+So 35 g, like SACN's 30 g, is where the data stop, not a located optimum. And the 0.55 is not
+evidence of a bigger effect: the general-population 0.85 sits inside its wide interval, and a
+review by the same team is a refinement, not independent confirmation
 .
 
-**Two forces keep the curve from ever handing over a clean optimum.** Self-reported intake is
-measured badly enough to flatten a real gradient -- a doubly-labelled-water substudy found
+**Self-reported intake also keeps the curve from handing over a clean optimum.** People report
+what they eat badly enough to flatten a real gradient -- a doubly-labelled-water substudy found
 «reported energy intake in adults aged 16-64 years was, on average, 34% lower than total energy
-expenditure» [@sacn2015] -- and that error can hide
-a knee but cannot manufacture one. So a measured plateau is weak evidence of a true one, and the
-safe reading is that overshooting a hidden ceiling merely fails to help
-([[Measurement Error in Dietary Assessment]]).
+expenditure» [@sacn2015]. That error cuts both
+ways on shape. It can hide a real knee, and error that grows with intake can flatten the top of the
+range and produce a plateau that is not there. So **self-reported curves cannot settle the true
+shape in either direction**. Up to that rough 35 g edge, overshooting a hidden ceiling merely
+fails to help ([[Measurement Error in Dietary Assessment]])
+.
 
 **The shortfall is what turns *eat more fibre* into a real behaviour change.** SACN notes that
 «Setting the dietary reference value for AOAC fibre at 30g/day for adults means that current mean
@@ -316,6 +354,8 @@ intakes would be 10-11g below the dietary reference value for men and 13g below 
 [@sacn2015] That is a roughly 40% gap,
 population-wide -- so getting to target is a substantial shift in what someone eats, and a smaller
 increase actually sustained beats a bigger one abandoned.
+
+</div>
 
 ## Where this lands against official guidance
 
@@ -342,13 +382,16 @@ shared-evidence agreement, not independent corroboration
 magnitude; the events half is associational. So a daily portion of beans or lentils moves LDL by a
 stated amount and plausibly tracks lower heart-disease risk.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The bottom line
 
 **Do the few things that matter and skip the rest:**
 
 - **Aim for roughly 25-30 g of fibre a day from real food** -- whole grains, beans and lentils,
   fruit and vegetables -- knowing most people start about 40% short, so this is a real change worth
-  making. More is fine and probably slightly better; the outcomes show no ceiling.
+  making. More, up to roughly 35 g a day where the data run out, is fine and probably slightly
+  better.
 - **Get your fibre from a variety of foods, not a supplement**, because the three fibre types do
   different jobs and whole foods carry all of them plus a matrix an isolate does not.
 - **Use viscous fibre (oats, psyllium, a daily portion of pulses) as a small cholesterol adjunct,
@@ -359,6 +402,10 @@ stated amount and plausibly tracks lower heart-disease risk.
 - **Rank fibre honestly: a genuine supporting lever, not a big rock.** If you smoke, carry excess
   visceral fat, drink heavily or barely move, those levers dominate and no amount of fibre changes
   that.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Caveats
 
@@ -393,6 +440,8 @@ stated amount and plausibly tracks lower heart-disease risk.
 > | **Evidence included** | 15 sources — 9 gold, 4 high, 2 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Valdes (narrative review, moderate); Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fibre.md) |
+
+</div>
 
 ## References

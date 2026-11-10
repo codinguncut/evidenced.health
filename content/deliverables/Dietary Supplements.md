@@ -4,12 +4,12 @@ title: Dietary Supplements
 aliases: [Supplements, Dietary Supplements, Vitamins and Minerals, Multivitamin, Supplement Stack, Are Supplements Worth It]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-07
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
-authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T; Sherrington, Catherine]
+authors: [Manson, JoAnn E; LeBoff, Meryl S; US Preventive Services Task Force (org); Bjelakovic, Goran; Omenn, Gilbert S; Martineau, Adrian R; Falkingham, Martin; Bougma, Karim; De-Regil, Luz Maria; Yao, Pang; Kahwati, Leila C; Bolland, M J; Morton, Robert W; Phillips, Stuart M; Food and Agriculture Organization of the United Nations (org); Brown, Lisa; World Gastroenterology Organisation (org); Kreider, Richard B; Jha, Prabhat; World Cancer Research Fund (org); Zhang, Yu; Sesso, Howard D; Gencer, Baris; Pawlak, Roman; Pittas, Anastassios G; Evans, Jennifer; Harding, Kimberly B; Pena-Rosas, Juan Pablo; Webster, Angela C; Yap, Constance M Y; Payne, Beth A; Ota, Erika; Zhang, Xi; Dibaba, Daniel T; Sherrington, Catherine; Choi, MoonKi; Bauer, Jürgen]
 question: What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks?
-sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019, Sherrington - Exercise Preventing Falls 2019]
+sources: [Manson - VITAL Vitamin D 2019, Manson - VITAL Marine Omega-3 2019, LeBoff - VITAL Vitamin D Fractures 2022, USPSTF - Vitamin Mineral Multivitamin Supplements 2022, Bjelakovic - Antioxidant Supplements Mortality 2007, Omenn - CARET Beta Carotene Lung Cancer 1996, Martineau - Vitamin D Respiratory Infections IPD Meta-Analysis 2017, Falkingham - Iron Supplementation Cognition Meta-Analysis 2010, Bougma - Iodine Child Mental Development Meta-Analysis 2013, De-Regil - Folate Supplementation Birth Defects Cochrane 2015, Yao - Vitamin D Calcium Fracture 2019, Kahwati - Vitamin D Calcium Fractures Evidence Review 2018, Bolland - Calcium Vitamin D Cardiovascular 2011, Myung - Calcium Supplements Cardiovascular, Morton - Protein Supplementation and Resistance Training 2018, FAO - Dietary Protein Quality Evaluation 2013, Brown - Cholesterol-Lowering Dietary Fiber Meta-Analysis 1999, WGO - Probiotics and Prebiotics Global Guideline 2023, Kreider - Creatine Safety and Efficacy ISSN Position Stand 2017, Jha - Smoking Hazards Cessation Benefits 2013, WCRF - Diet Nutrition Activity Cancer 2018, Zhang - Vitamin D Mortality Meta-Analysis 2019, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Evans - Antioxidant Supplements AMD Progression Cochrane 2023, Harding - Iodine Supplementation Pregnancy 2017, Katagiri - Excess Iodine Thyroid Diseases 2017, Zhang - Magnesium Supplementation Blood Pressure 2016, Dibaba - Magnesium Supplementation Blood Pressure 2017, Hu - Marine Omega-3 Cardiovascular Disease 2019, Sherrington - Exercise Preventing Falls 2019, Choi - Resistance Training Nutritional Intervention Older Adults 2021, Bauer - PROT-AGE Protein Older Adults 2013]
 ---
 
 **For an adult who already eats reasonably well, the supplements that fill most shopping baskets —
@@ -393,6 +393,8 @@ fracture signal is low-certainty (fall-related fractures RR 0.73, 0.56-0.95, 10 
 for the **institutionalized / deficient / low-calcium** stratum, daily D+Ca is a small, defensible
 hip-fracture lever [inferred from @yao2019; @kahwati2018; @bolland2011].
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Protein and creatine work on the gym floor, not in the medicine cabinet
 
 Two supplements have solid randomized evidence — but on **surrogates** (muscle mass, strength,
@@ -417,14 +419,53 @@ it would be a category error [inferred from @kreider2017; @morton2018] -> [[Surr
   clinical claims (neuroprotection, neurodegenerative disease) is *insufficient / animal / null* — the
   stand's own large trials found no benefit in Parkinson's or ALS — and the source is an industry-funded
   position stand, so the page is held at `confidence: low`
-  [@kreider2017]. One useful
-  decision-change: creatine raises serum creatinine without harming the kidney, so disclose it before a
-  creatinine test [inferred from @kreider2017]. Detail: [[Creatine Supplementation]].
+  [@kreider2017].
 
-For the elderly, where muscle and strength are themselves patient-important (sarcopenia), both rise in
-rank — creatine plus resistance training beat training alone on muscle, strength and function
-[@kreider2017]. Still an adjunct;
-the training is the driver.
+**Creatine and the creatinine test.** The body breaks some creatine down to creatinine
+[@kreider2017], and creatinine is
+the blood marker clinicians use to estimate kidney function.
+So a user's creatinine reading could rise with no kidney harm, but that rise is an inference
+from the chemistry, not a finding: Kreider's own 21-month trial found no significant change in creatinine or
+creatinine clearance, and the high-creatinine reports are uncontrolled case studies
+[@kreider2017].
+
+If the rise does occur, a clinician who does not know about the supplement could read it as kidney damage, so mention
+creatine before a creatinine test; it costs nothing
+[inferred from @kreider2017]. Detail: [[Creatine Supplementation]].
+
+For older adults, muscle and strength are themselves patient-important (sarcopenia), but the two
+adjuncts do not earn the same place. **In healthy older adults, creatine is the one add-on with trial
+support.** Two meta-analyses cited in Kreider's stand found creatine plus resistance training beat training
+alone on muscle, strength and function [@kreider2017].
+Choi pooled 22 RCTs in healthy community-dwelling older adults and found creatine the only nutritional
+add-on to beat training alone on lean body mass: MD 2.61 (0.51-4.72). That estimate rests on just 4
+trials, and Choi rated only grip strength and the chair-stand test moderate certainty, the other
+outcomes low. Most of Choi's creatine
+trials gave 5 g a day alongside training two or three times a week
+[@choi2021].
+
+**Extra protein probably buys little over the training itself in a healthy older adult.** Across Choi's
+pool, adding nutrition to training made no significant difference to muscle mass, strength or physical
+function, with the same low certainty on most outcomes. The trials ran 8 to 24 weeks, and Choi suggests a
+nutritional effect might show only over a longer horizon. That idea rests on one long cohort study; in
+Choi's own pool, trial length did not predict the effect size
+[@choi2021]. In Morton's
+trials the supplement's fat-free-mass effect shrank with age
+[@morton2018].
+
+Morton fitted the \~1.6 g/kg knee on young and older participants together
+[@morton2018] and did not estimate
+it for older adults alone, so it is untested in them, and the evidence does not settle whether they need
+more or less [inferred from @morton2018] -> [[Protein Intake for Older Adults]].
+The expert-consensus PROT-AGE paper sets a floor of at least 1.2 g/kg/day for older adults who exercise
+[@bauer2013].
+
+For older adults who are nutrient-deficient or diagnosed with sarcopenia, added nutrition may still help on
+top of training; that case is weaker and is appraised at
+[[Protein and Resistance Training for Muscle and Strength]]
+[inferred from @choi2021]. In every case the training is the driver.
+
+</div>
 
 ## Fibre and probiotic supplements are small or strain-specific levers, not tonics
 
@@ -478,6 +519,8 @@ These are named gaps — absence of held evidence, not evidence of absence
   any single endpoint. The repletion instances above each read the deficient-benefit arm on outcomes
   their replete-arm evidence does not directly test.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The bottom line
 
 #### The general-population defaults
@@ -512,7 +555,12 @@ These are named gaps — absence of held evidence, not evidence of absence
   [@evans2023amdsupp]. The benefit is
   stratum-specific, not a general supplement case. -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 - **Treat protein and creatine as training adjuncts on surrogates**, not disease-prevention supplements —
-  useful if you resistance-train (and if muscle preservation is the goal in older age), inert otherwise.
+  useful if you resistance-train, inert otherwise. In a healthy older adult, creatine (5 g/day in most
+  trials) is the add-on with trial support; extra protein probably adds little over the training.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Caveats
 
@@ -533,9 +581,11 @@ These are named gaps — absence of held evidence, not evidence of absence
 > | | |
 > |---|---|
 > | **Question** | What does the evidence show about dietary supplements — where, for whom, and how large is any effect on patient-important outcomes, and how do they rank against the big rocks? |
-> | **Evidence included** | 33 sources — 18 gold, 14 high, 1 moderate |
+> | **Evidence included** | 35 sources — 18 gold, 16 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kreider (consensus, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Supplements.md) |
+
+</div>
 
 ## References

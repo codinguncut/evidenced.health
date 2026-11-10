@@ -7,7 +7,7 @@ sources: []
 cluster: estimate-to-action
 confidence: medium
 created: 2026-08-06
-updated: 2026-10-22
+updated: 2026-11-10
 self_critiqued: 2026-09-05
 relationships:
   related_to:
@@ -33,6 +33,8 @@ best dose*). Three distinct structural routes each terminate in *no observed pea
 one honest output: **name a data-supported range or direction bounded by a floor and a harm-ceiling, and
 disclaim the point-optimum.** No single method rule or concept page states this; it is induced across
 them.
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Three routes to *no peak* — each holds for a different reason
 
@@ -178,7 +180,7 @@ harm-ceiling or a logistical cap, not by an optimum.
   withdrawn: error that grows with intake can flatten the top of a self-reported range (Aune concedes
   it for fruit/veg -> [[Fruit and Vegetable Intake and Health]]), so error can hide a knee **or**
   manufacture a plateau. What survives of this guard: route 1 still fires only where a flat region is
-  observed, and a *measured* plateau is still weak evidence of a *true* one — now for both reasons.
+  observed, and a *measured* plateau is still weak evidence of a *true* one — now for both reasons.] \~L209-211 ("does not exclude"); (2) "a measured plateau is still weak evidence of a true one" sits against CLAUDE.md's protective-side rule that a located plateau with its studied range is a stop signal — reconcile — surfaced by the Limits of Evidence P-frame compile 2026-11-10, deliverable-layer op cannot repair]
 
   - **A worked FOOD instance of both halves of the guard — nuts -> mortality `[2026-08-13]`.** Aune 2016's
     nut dose-response is genuinely *observed* to flatten at \~15-20 g/day for CHD/CVD/all-cause (a real
@@ -201,6 +203,8 @@ harm-ceiling or a logistical cap, not by an optimum.
     intake* — the boundary-as-target launder is absent here, so the honest object (a knee-region with its
     studied range, read as a floor for most of the benefit) survives on the page as written.
     [inferred from @gijsbers2016]
+
+</div>
 
 ## What survives — BOUNDED, not nihilism
 

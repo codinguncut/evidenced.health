@@ -334,8 +334,6 @@ named strain, a named indication, and a dose, never to "probiotics" as a class. 
 The largest real lever the microbiome offers is also the least marketed one: fibre and dietary
 diversity, the boring recommendation that is already made on its own evidence.
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Caveats
 
 - **Open loop.** This appraisal grades the coherence and source-fidelity of the evidence, never
@@ -358,7 +356,5 @@ diversity, the boring recommendation that is already made on its own evidence.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Valdes (narrative review, moderate); Suez (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Gut%20Microbiome.md) |
-
-</div>
 
 ## References

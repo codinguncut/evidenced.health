@@ -7,7 +7,7 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: red-meat
 nucleus: true
 confidence: medium
-updated: 2026-10-06
+updated: 2026-11-10
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -79,6 +79,8 @@ The parameter table's "shared base / low grade" rows were previously abstract; t
   null-but-indirect + cohort very-small, both low-certainty) — it is about whether that warrants a public
   reduce-recommendation. -> [[Certainty of Evidence vs Strength of Recommendation]].
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## It decomposes — one legitimate difference, one genuine tension
 
 **Not the whole thing is a clash (the not-joined checks apply to one axis).** The **standpoint** row is
@@ -103,6 +105,8 @@ association warrant a reduce-recommendation at all?* Here they genuinely clash o
   is judging a small, uncertain effect insufficient to override preference. WCRF's grade-to-recommendation
   bridge never asks that question, because a "probable" cause "generally justifies" a recommendation by
   construction.
+
+</div>
 
 ## The hidden insight
 

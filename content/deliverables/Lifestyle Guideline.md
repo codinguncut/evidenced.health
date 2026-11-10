@@ -7,8 +7,8 @@ authors: [Jha, Prabhat; Ekelund, Ulf; Yin, Jiawei; Taylor, Roy]
 sources: [Jha - Smoking Hazards Cessation Benefits 2013, Ekelund - Accelerometer Physical Activity Mortality 2019, Yin - Sleep Duration Mortality Dose-Response 2017, Laukkanen - Sauna Bathing Fatal Cardiovascular Mortality, Cain - Cold-Water Immersion Wellbeing 2025, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015]
 confidence: medium
 created: 2026-08-18
-updated: 2026-10-03
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 ---
 
@@ -21,6 +21,8 @@ same few levers lower risk across heart disease, dementia, diabetes and cancer a
 separate anti-cancer or anti-dementia diet to run. This card ranks and points. The derivation lives in
 the two analytic cuts it fronts -- [[Big Rocks (Median)]] (18-65) and [[Big Rocks (Elderly)]] (65+). ->
 [[Shared Modifiable Levers Across Age-Related Diseases]]
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The five levers, biggest first
 
@@ -35,8 +37,9 @@ just leaving the least-active group, and it is mostly light, everyday movement -
 being on your feet -- not workouts. Going from barely moving to modestly active is linked to roughly
 halving your risk of dying [@ekelundacc2019], then
 the curve flattens: past a modest daily amount, more buys little. Long sitting is a separate risk, but
-an hour or so of daily movement largely cancels it. Add one or two short strength sessions a week -- a
-small weekly total, not four trips to the gym. -> [[Physical Activity Dose and Mortality]],
+an hour or so of daily movement largely cancels it. Add strength work a couple of times a week; the
+benefit appears to flatten past a modest weekly total (observational, very low certainty). ->
+[[Physical Activity Dose and Mortality]],
 [[Muscle-Strengthening Activity and Mortality]], [[Big Rocks (Median)]]
 
 **Don't carry excess belly fat -- clear it, don't chase a number.** The risk is not weight on the
@@ -44,22 +47,30 @@ scale but fat stored in your liver, pancreas and around your organs. One researc
 proposes that each person has a personal fat threshold, unrelated to BMI, above which excess
 fat is stored in the liver and pancreas -- a hypothesis, not a measured cut-off
 [@taylor2015pft]. Steer by the self-verifiable endpoint -- waist coming down, blood sugar and liver markers
-back in range -- which for many people is a modest loss, not a fixed percentage. Keep muscle while you
-do it, with strength work and enough protein. Pull this for blood sugar, liver and function, not on a
-promise it prevents heart attacks -- the trials have not shown that. If you are already lean and
-metabolically healthy, there is nothing here to do. -> [[Ectopic Fat and Depot-Specific Risk]],
-[[Fatty Liver MASLD and Weight Loss]], [[Big Rocks (Median)]]
+back in range -- which for many people is a modest loss, not a fixed percentage. For help losing
+weight, pick a structured programme: weekly contact at first, never less than monthly, kept up
+for at least a year after the loss.
+
+Keep muscle while you do it, with strength work and enough protein. Pull this for blood sugar, liver
+and function, not on a promise it prevents heart attacks -- the trials have not shown that. If you
+are already lean and metabolically healthy, there is nothing here to do. ->
+[[Ectopic Fat and Depot-Specific Risk]], [[Fatty Liver MASLD and Weight Loss]],
+[[Lifestyle Weight-Loss Programme Intensity and Delivery]], [[Big Rocks (Median)]]
 
 **Keep alcohol low -- less is better, with no safe threshold.** The old finding that moderate drinkers
-outlive abstainers is largely an artifact: correct how the comparison group is built, or read the
-genetic evidence, and the protection disappears. Cancer and vascular risk rise from low intake with no
-safe floor, so this lever is only ever a harm to cut, never a rock to add. ->
+outlive abstainers is largely an artifact of how abstainers were counted and studies designed;
+genetic evidence for stroke shows no protective dip. Cancer risk rises from low intake with no safe
+floor, stroke risk rises with intake too, and heart-attack risk is unresolved. ->
 [[Alcohol and Mortality and Vascular Disease]], [[Big Rocks (Median)]]
 
 **Get enough sleep -- the fix is not running chronically short.** Aim for more than about six hours a
 night [@yin2017]. The penalty is small
-until sleep drops well below that and bites hardest under about five hours. Sleeping long is a marker
-of underlying illness, not a habit to trim. -> [[Sleep Duration and Mortality]], [[Big Rocks (Median)]]
+until sleep drops well below that and bites hardest under about five hours. Long sleep most plausibly
+marks illness: get checked, do not trim it. -> [[Sleep Duration and Mortality]], [[Big Rocks (Median)]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The smaller levers add a little
 
@@ -69,8 +80,10 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   fish rather than butter) might help a little, mostly against heart attacks -- and "a little" is the
   honest size of it. The swap sets the sign: saturated-for-unsaturated helps, saturated-for-refined-
   carbohydrate does not. -> [[Saturated Fat Intake and Replacement]]
-- **Salt.** Only if your blood pressure is drifting up; then cutting some brings pressure down a
-  little, and the higher it already sits, the more the cut is worth. ->
+- **Salt.** Only if your blood pressure is drifting up; cutting some lowers it a little, more so
+  the higher it sits. A potassium-enriched salt substitute cut strokes in high-risk rural Chinese
+  adults; with kidney disease, diabetes or potassium-raising medicine, discuss with your doctor.
+ ->
   [[Blood Pressure Lowering and Cardiovascular Events]]
 - **Protein.** For older adults and anyone in a deliberate calorie deficit -- keep it up while you
   keep lifting, to protect muscle and bone. For a younger person eating normally, it is not a lever
@@ -79,6 +92,8 @@ Everything below the five is genuinely small -- worth a sentence, not a campaign
   with healthier eating generally; only the viscous kind (oats, psyllium) has a clean, small trial
   effect on cholesterol, and a supplement is no substitute for the food pattern. ->
   [[Dietary Fibre and Health]]
+
+</div>
 
 ## Things to look out for
 
@@ -101,6 +116,8 @@ lever harder *and* discuss with your doctor. This page never names or doses a dr
 
 None of these is a sixth lever -- they are the dials on the five you already have.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Where it stops being worth the effort
 
 Once you have handled the five big levers -- you don't smoke, you move daily, you are not carrying
@@ -116,29 +133,38 @@ evidence supports a component-level, measurable handle -- apoB and metabolic mar
 pattern label. -> [[Dietary Patterns]]
 
 
-**Heat and cold exposure** are this section's fads: heavy discourse, thin evidence, ranked low. Heat has
-the better endpoint, the worse design. One Finnish cohort of middle-aged men tied frequent sauna to
-lower all-cause mortality (HR 0.60 at 4-7 sessions a week versus one), surviving fitness and income
-adjustment; but one cohort, one demographic, one self-report cannot establish cause.
-[@laukkanen2015sauna] Cold has the better
-design, softer endpoints: eleven trials measure only surrogates, mostly in men, and the one robust
-finding runs against the pitch: cold immersion *raises* short-term inflammation (SMD 1.03 immediately
-post).
+**Heat and cold exposure** are fads: heavy discourse, thin evidence, ranked low. Heat has
+the better endpoint, the worse design. One Finnish cohort tied frequent sauna to lower mortality in
+middle-aged men, and its authors advise anyone prone to blood-pressure drops on standing to take
+saunas cautiously; one cohort and self-report cannot establish cause.
+[@laukkanen2015sauna] Evidence in women is
+insufficient.
+
+Cold has the better design, softer endpoints: eleven trials measure only surrogates, and only one
+included women. Its two best-graded findings pull opposite ways. Inflammation markers *rise* in the
+first hour (later hours unresolved), and stress scores fall at 12 hours but at no other timepoint.
 [@cain2025cwi] Neither moves a hard outcome or
-substitutes for the five levers. If you enjoy one already, the harm is small: keep it or skip it, not a
-lever to add.
+substitutes for the five levers. If you enjoy one already, the harm is small: keep it or skip it.
 -> [[Sauna Bathing and Cardiovascular Mortality]], [[Cold-Water Immersion]]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## After about 65, the stack shifts
 
 The levers do not change on your birthday, but their order does. Balance and footwork become the
-surest lever against falls -- one of the best-evidenced moves in the whole guide. Train balance
-specifically, because resistance training alone is not proven to prevent falls. Protein and strength
-work move up too. Ageing blunts the muscle's response to protein and makes muscle and bone harder to
-hold, so keeping both up matters more than it did at 40. Some things that look protective can flip to
-harm in older adults -- testosterone, calcium-plus-vitamin-D when you are not deficient, the tightest
+surest lever against falls: join a programme that safely challenges balance, at least three hours
+of exercise a week in total, kept up. Neither walking nor resistance training alone is proven to prevent
+falls.
+
+Protein and strength work move up too. Ageing blunts the muscle's response to protein and makes
+muscle and bone harder to hold, so keeping both up matters more. Some things that look protective
+can flip to harm in older adults -- testosterone, calcium-plus-vitamin-D when you are not deficient, the tightest
 blood-pressure targets, edge-of-evidence statins. Leave those to a clinician working from your labs. -> [[Big Rocks (Elderly)]],
 [[Exercise for Preventing Falls in Older Adults]], [[Protein and Resistance Training for Muscle and Strength]]
+
+</div>
 
 ## The bottom line
 
@@ -162,6 +188,8 @@ it is the goal.
   sources -- not whether following them makes you better off. Treat it as well-sourced reasoning,
   not a guarantee.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Where the evidence lives
 
 Every directive here is derived elsewhere. The effect sizes, confidence intervals, studied ranges,
@@ -179,6 +207,8 @@ The per-lever claim pages linked from each directive carry the rest.
 > | **Evidence included** | 6 sources — 3 gold, 2 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Lifestyle%20Guideline.md) |
+
+</div>
 
 ## References

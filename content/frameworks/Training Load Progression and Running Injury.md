@@ -2,10 +2,11 @@
 type: framework
 question: Does ramping running training load too fast cause running-related injury, and is the popular 10% rule (and acute-chronic workload approach) evidence-based?
 aliases: [10% Rule, Ten Percent Rule, Training Load and Running Injury, Running Volume Progression Injury, Too Much Too Soon Running, Sudden Training Load Change Injury, Running Related Injury Training Load, Acute Chronic Workload Ratio Running]
-authors: [Damsted, Camma; Glad, Simone; Nielsen, Rasmus Oestergaard; Sorensen, Henrik Toft; Malisoux, Laurent; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.]
-sources: [Damsted - Training Load Running Injury, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011]
+authors: [Damsted, Camma; Glad, Simone; Nielsen, Rasmus Oestergaard; Sorensen, Henrik Toft; Malisoux, Laurent; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Wu, Han; Brooke-Wavell, Katherine S. F.; Fong, Daniel Tik-Pui; Paquette, Max Robert; Blagrove, Richard C.]
+sources: [Damsted - Training Load Running Injury, Garber - ACSM Quantity and Quality of Exercise Position Stand 2011,
+  Wu - Injury Prevention Endurance Runners 2024]
 confidence: low
-self_critiqued: 2026-10-22
+self_critiqued: 2026-11-05
 relationships:
   related_to:
     - Tendon Adaptation to Mechanical Loading
@@ -15,7 +16,7 @@ relationships:
     - Measuring and Raising Cardiorespiratory Fitness
     - Measurement Error in Dietary Assessment
 created: 2026-10-04
-updated: 2026-10-22
+updated: 2026-11-04
 ---
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important**: a running-related
@@ -63,7 +64,10 @@ directions consistent but each estimate individually weak or uncorrected:
   three supporting findings is a re-analysis, not an original result, which weakens the independent-study
   count further.
 
-## The 10% rule is unsupported — and the one study built to test it falsifies its special status
+## The 10% rule is unsupported — and the one trial built to test it found no difference from 24%
+
+(Heading restated 2026-11-04; earlier *the one study built to test it falsifies its special status*. A
+non-significant HR with CI 0.6-1.3 does not falsify; it fails to support.)
 
 The SR is unambiguous: «no evidence exists for the use of the so-called "10% rule", which is commonly
 used by runners, coaches and clinicians as a guideline for a maximum increase in training load per
@@ -78,6 +82,10 @@ load of 24% may not be sufficiently large to reflect the mechanism of running to
 novice runners.» [@damsted2018] So the 10% cut has no
 demonstrated privileged status: a novice can apparently more than double it (to 24%) without a measured
 excess risk, and the hazardous zone — if one exists — sits well above 10%, nearer 30%, not at it.
+(Superseded in part by the 2026-10-22 correction below: *nearer 30%* is a composite across designs, and
+*without a measured excess risk* is not a shown equivalence. Restated 2026-11-04: *go further than
+unproven* and *indistinguishable* overstate a non-significant HR, CI 0.6-1.3; the two increases were
+not distinguished, not shown equal.)
 
 **Correction (2026-10-22, self-critique): this is a between-study contrast, not a within-study one.** An
 earlier version of this paragraph said one study produced both results. It did not. The 10%-vs-24% null
@@ -122,7 +130,8 @@ findings [inferred from @damsted2018]:
   load measurement could show a gradient we have not yet seen). It is emphatically **not** a
   *no-effect* finding: the SR does not say ramping fast is safe, it says the evidence cannot yet
   adjudicate.
-- The **10% rule specifically** is closer to refuted-as-a-number: the one direct test found no
+- The **10% rule specifically** has no support as a number, which is not the same as refuted
+  (restated 2026-11-04; earlier *closer to refuted-as-a-number*): the one direct test found no
   difference between 10% and 24% (HR 0.8, CI 0.6-1.3; not a shown equivalence), so the figure has no support. That is a decision-change — it licenses dropping slavish
   adherence to the 10% cut — without licensing the opposite (fast ramping is not thereby endorsed).
 - **The conservative default survives on other grounds.** Three directionally-consistent studies plus a
@@ -151,9 +160,11 @@ Damsted supplies the **epidemiological counterpart** Bohm lacks (Bohm measured n
 confirms the other's number. Kept as convergence, not pooled evidence.
 [inferred from @damsted2018]
 
-The separate causal-grade evidence that **strength training** reduces injury (RR 0.315, overuse almost
-halved) lives on [[Exercise Interventions and Sports Injury Prevention]] — a different lever (build
-tolerance) from this page's question (manage the ramp), and a stronger evidence base.
+The separate causal-grade evidence that **strength training** reduces injury (RR 0.315 for strength; overuse injury, all exercise types pooled,
+almost halved) lives on [[Exercise Interventions and Sports Injury Prevention]] — a different lever (build
+tolerance) from this page's question (manage the ramp), and a stronger evidence base in the athletes,
+recruits and youth it was tested in. In runners, this page's population, the held runner MA finds no
+clear reduction for programmes (scoped 2026-11-04; see the levers bullet below).
 
 ## Transportability — who was studied, and who was not
 
@@ -237,20 +248,41 @@ than those recommended here without adverse sequelae». [@garber2011acsm]
   are the risk window. For a novice whose goal is general fitness, starting with walking is a cheap
   default; for a would-be runner, the same idea is a walk-to-run start. (from the ACSM 2011
   section above)
-- **The stronger injury lever is building tolerance**
-  ([[Exercise Interventions and Sports Injury Prevention]]: strength training), a better-evidenced
-  route than load-ramp management alone.
+  (2026-11-04) One RCT bears on the walk-first start: Bredeweg's novices did four weeks of walking and
+  hopping before a running programme, against no preparation, and injury risk and rate did not differ
+  (log RR -0.10, -0.57 to 0.38; log IRR 0.03, -0.48 to 0.55, from 26 injuries in 839 h vs 32 in 1067 h;
+  Table 3 prints 31 vs 32 per 1000 h, which would put it slightly below 0,; unsupervised,
+  self-reported injury).
+  [@wu2024exercise]
+ That is one imprecise trial of a preparation phase, not a test of walk-to-run
+  progression itself, so the default stays a practice-level one: not supported by a trial, and not
+  refuted.
+- **For a runner, neither injury lever is shown; building tolerance is the separate one**
+  ([[Exercise Interventions and Sports Injury Prevention]]: strength training). Restated 2026-11-04: the
+  earlier lead, *The stronger injury lever is building tolerance ... a better-evidenced route than
+  load-ramp management alone*, holds only for the game-sport, recruit and youth trials behind it. Wu's MA of running RCTs finds
+  no clear reduction from exercise programmes, and strength work in it is sparse: «only four studies in
+  this review utilized strength-based exer- cises, and these were of relatively low volume and
+  intensity [42, 44, 47, 49].»
+  [@wu2024exercise]
+  Pooled, the risk ratio is 0.81 (0.63-1.05) and the rate ratio 0.86 (0.64-1.16), exponentiated from
+  Wu's log estimates. For a runner, both levers (ramp management and a prevention
+  programme) are *insufficient evidence* in what they show; the programme evidence is randomised and the
+  ramp evidence mostly observational (Damsted: three cohorts and Buist's unblinded RCT), a difference in
+  design, not in result.
 
-## Sibling cell — the bone-stress-injury counterpart (distinction + convergence)
+## Sibling cell — the bone-stress-injury counterpart (distinction + juxtaposition)
 
 [inferred from @damsted2018] — the *bone* overuse injury (stress fracture) has
 its own risk-factor SR-MA on [[Stress Fracture Risk Factors in Runners]] (Wright 2016). It is a
 **distinction, not a tension**: this page's exposure is the *rate of change* of load -> *any* RRI, Wright's
-is *absolute volume* + host factors -> *bone* stress fracture (parameter table on that page). But the two
-**converge** on a structural claim neither makes alone: the popular training-load injury heuristics lack
+is *absolute volume* + host factors -> *bone* stress fracture (parameter table on that page). Set side by side,
+the two show the same pattern: the popular training-load injury heuristics lack
 an evidence base — here the *10% rule* (ramp rate), on Wright's page the widespread anecdote that higher
 mileages cause stress fracture and that cutting volume prevents them (Wright's own verbatim wording lives
-on that page). Two different load rules, both received wisdom without support — a type-A convergence, not
-a permission to ramp freely (both are insufficient-evidence verdicts).
+on that page). Two different load rules, both received wisdom without support — two separate
+verdicts (restated 2026-11-04 from *a type-A convergence*, *converge on a structural claim neither makes
+alone* and a heading reading *distinction + convergence*; the pattern is a juxtaposition, not a claim
+either source supports), not a permission to ramp freely (both are insufficient-evidence verdicts).
 
 ## References

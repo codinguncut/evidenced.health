@@ -409,8 +409,6 @@ cell cannot carry.
   (-> [[Cardiorespiratory Fitness and Mortality]]), best-evidenced in men, not as a second estimate of
   the activity lever. [inferred from @lang2024crf]
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
 The *hypertension* cell above carries the Commission's **observational risk-factor** figure — untreated
@@ -493,8 +491,6 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
   trial list of the sibling age-stratified BPLTTC analysis (Rahimi's 51 trials), so the overlap is
   confirmed for that pool
   [@rahimi2021bpageappx]. [inferred from @peters2022bp; @bplttc2021]
-
-</div>
 
 ## What the framework changes about what to do
 

@@ -18,7 +18,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Acute Carbohydrate Effects on Mood
 created: 2026-07-26
-updated: 2026-10-06
+updated: 2026-11-10
 nosplit: 2026-10-06@single-exposure nucleus (how much free sugar, which outcome); the fruit-FORM decision (whole/blended/juiced) split out to [[Whole Fruit Smoothies and Fruit Juice]]; remaining length is four guidance families on one decision
 self_critiqued: 2026-10-06
 ---
@@ -596,6 +596,8 @@ NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independen
 counting rule as *Why WHO and its own reviews are one source, not three* above. It extends this page's
 substitution frame; it does not add an independent backing.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The beverage limb — SSB dose-response to cardiometabolic outcomes `[2026-08-06, Qin 2020]`
 
 The body-weight rows above are the guideline's own free-sugars-%E evidence. The **beverage vehicle** —
@@ -613,7 +615,7 @@ meta-analysis of 39 articles in total; each outcome rests on a subset — the SS
 | All-cause mortality | 1.04 (1.01-1.07) | linear (Pnon-lin 0.259) |
 
 **Every SSB curve is monotone-linear over the studied range — no knee, no plateau**, a fresh instance of
-the falsified knees-and-plateaus prior -> [[The U-Shaped Association Artifact]]. Two things this does and
+the falsified knees-and-plateaus prior -> [[The U-Shaped Association Artifact]]."; the link targets a different prior — surfaced by the Big Rocks (Median) keyframe compile 2026-11-10, deliverable-layer op cannot repair] Two things this does and
 does NOT license:
 
 - **It is the ADDITIVE (ad-libitum) arm, not the isocaloric one.** Qin measures SSB *as consumed*, which
@@ -644,6 +646,8 @@ does NOT license:
   association as an ASB *effect*; it is the artifact-suspect arm -> [[The U-Shaped Association Artifact]],
   [[Non-Sugar Sweeteners]].
 [@qin2020]
+
+</div>
 
 ## A fourth body sets NO number at all — EFSA's risk assessment could find no threshold `[2026-08-06, EFSA 2022]`
 

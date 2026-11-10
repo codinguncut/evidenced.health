@@ -23,7 +23,7 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-11-02
+updated: 2026-11-10
 self_critiqued: 2026-09-08
 ---
 
@@ -344,8 +344,6 @@ adequate, *when* it is eaten is not a lever worth optimizing.
 
 
 [@morton2018]
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Who it helps more, and who less
 
 - **Reduced with age:** «reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002)» — older adults
@@ -355,9 +353,8 @@ adequate, *when* it is eaten is not a lever worth optimizing.
 - **Greater in the already-trained:** «more effective in resistance-trained individuals (0.75 kg (0.09,
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
-</div>
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
@@ -491,8 +488,6 @@ option for confirmed hypogonadism, not a substitute for the training. (No head-t
 held — this is an evidence-weighting judgment, not a trial result.)
 
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Decision relevance
 
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — around there the
@@ -593,8 +588,6 @@ held — this is an evidence-weighting judgment, not a trial result.)
     window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
-
-</div>
 
 ## Limits
 

@@ -7,7 +7,7 @@ sources: [Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weig
 cluster: ectopic-fat
 confidence: moderate
 created: 2026-08-08
-updated: 2026-10-06
+updated: 2026-11-10
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -136,6 +136,8 @@ are not joined (they cannot be the same quantity). They do converge weakly in th
 strongest harm signal in the frankly obese, which is the population the decision is about.
 [inferred from @zou2019fluctuation; @montani2015cycling]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The T2D-incidence arm — a second gold SR/MA (same group, different outcome)
 
 Zou 2020 pools **14 cohort studies / 253,766 participants / 8,904 new-onset diabetes events** (21 reports,
@@ -230,6 +232,8 @@ dose-response curve is estimable: weight cycling is categorical with «no single
 low-amplitude (>4%) cohort (Yokomichi) drove the null reports — the authors offer low amplitude, low
 Japanese diabetes prevalence, and ethnicity as candidate explanations, so amplitude is one possibility
 among three, not a locatable knee (corrected 2026-10-06: *a hint that amplitude matters*; self-critique).
+
+</div>
 
 ## The proposed mechanism — *repeated overshoot* (a theory, not an outcome)
 

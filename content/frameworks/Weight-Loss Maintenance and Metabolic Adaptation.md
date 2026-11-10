@@ -2,8 +2,8 @@
 type: framework
 question: Why is maintaining diet-induced weight loss so hard, and does the body physiologically defend the higher weight?
 aliases: [Metabolic Adaptation, Weight Regain, Hormonal Defense of Body Weight, Set-Point Defense, Appetite Hormones After Weight Loss, Adaptive Thermogenesis, Why Weight Loss Rebounds, Starvation Mode, Metabolic Damage]
-authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina; Prendergast, Luke A.; Bouniu, Celestine J.; Delbridge, Elizabeth]
-sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Purcell - Rate of Weight Loss RCT 2014 Appendix]
+authors: [Sumithran, Priya; Proietto, Joseph; Hall, Kevin D; Guo, Juen; Wilding, John P H; Nong, Kailei; Li, Sheyu; Franz, Marion J; VanWormer, Jeffrey J; Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.; Turicchi, Jake; O’Driscoll, Ruairi; Finlayson, Graham; Beaulieu, Kristine; Deighton, Kevin; Stubbs, R. James; Purcell, Katrina; Prendergast, Luke A.; Bouniu, Celestine J.; Delbridge, Elizabeth; Lundgren, Julie R.; Janus, Charlotte; Jensen, Simon B.K.; Juhl, Christian R.; Olsen, Lisa M.; Christensen, Rasmus M.; Svane, Maria S.; Bandholm, Thomas; Bojsen-Moller, Kirstine N.; Blond, Martin B.; Jensen, Jens-Erik B.; Stallknecht, Bente M.; Holst, Jens J.; Madsbad, Sten; Torekov, Signe S.; Jensen, Michael D; Ryan, Donna H]
+sources: [Sumithran - Hormonal Adaptation Weight Loss 2011, Hall - Obesity Energetics Diet Composition 2017, Wilding - Semaglutide STEP-1 Withdrawal 2022, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Purcell - Rate of Weight Loss RCT 2014 Appendix, Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021, Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix, Jensen - AHA ACC TOS Obesity Guideline 2014]
 cluster: weight-management
 confidence: medium
 relationships:
@@ -21,9 +21,10 @@ relationships:
     - Testosterone Adiposity and Muscle
     - Weight Cycling and Cardiometabolic Risk
     - Self-Weighing for Weight Loss
-self_critiqued: 2026-11-03
+    - GLP-1 and Lean Mass
+self_critiqued: 2026-11-06
 created: 2026-07-31
-updated: 2026-11-04
+updated: 2026-11-09
 ---
 
 **The decision this reframes:** how much to expect of lifestyle weight-loss *maintenance*, and why a
@@ -123,8 +124,6 @@ needed to prevent obesity relapse»
 [@sumithran2011] — i.e. maintenance is a distinct
 problem from loss, and one that unaided willpower is structurally disadvantaged against.
 
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## *Starvation mode* — the real kernel and the two over-statements
 
 The folk *starvation mode* belief bundles a true mechanism with two false corollaries, and separating them
@@ -162,8 +161,6 @@ larger than it, a ranking from one modelled SGLT2-inhibitor study in type 2 diab
 to dieting is untested, see above; so the held picture is a smaller, possibly lasting expenditure headwind beside a larger
 appetite one, not a ruined metabolism) — it is the **structural-leverage** posture the reframe already licenses
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
-
-</div>
 
 ## The empirical anchor — what sustained loss to expect across methods (Franz 2007)
 
@@ -252,7 +249,8 @@ for cardiovascular harm, so its row is of historical interest only. And the mode
 «the addition of weight-loss medications somewhat enhances weight-loss maintenance» (a \~2-5 kg edge over
 diet-and-exercise at 24 months) badly understates the current drug landscape
 -> [[Comparing Obesity Drugs]], [[Semaglutide for Cardiovascular Risk in Obesity]]. Franz bounds the
-*old* lifestyle-vs-modest-drug decision, not the lifestyle-vs-GLP-1 one.
+*old* lifestyle-vs-modest-drug decision, not the lifestyle-vs-GLP-1 one. (Added 2026-11-06: one GLP-1-era
+maintenance arm, liraglutide after a diet, is sized in *Drug, exercise or both*, below.)
 
 **Exercise-alone is weak for weight *loss* — a statement about scale, not about exercise as a health
 lever.** Franz found exercise-alone «did not result in successful weight loss, although no further weight
@@ -263,6 +261,9 @@ sensitivity ... and all-cause mortality and cardiovascular disease mortality»
 [@franz2007]. Exercise is simply not the
 weight-loss lever, which does not make it a weak *health* lever -> [[Exercise vs Caloric Restriction for Visceral Fat]],
 [[Physical Activity Dose and Mortality]].
+(Labelled 2026-11-06: as a *maintenance* lever after a diet, one held trial found a vigorous,
+well-kept programme held off about 4 kg of regain against placebo; a different phase and outcome
+from Franz's row, *Drug, exercise or both*, below.)
 
 **Cross-source: the plateau-then-partial-regain SHAPE is corroborated by the MASLD literature, but the
 percentage *ladders* are a different quantity (a distinction, not a weld).** Before the contrast, matched
@@ -281,8 +282,6 @@ answer different questions — how much a person keeps vs how much a person must
 marker -> [[Fatty Liver MASLD and Weight Loss]]. Do not read the ladder's rungs as achievable-maintenance
 targets: Franz's data say the modal sustained loss (\~3-6%) sits at or below the ladder's *lowest* (steatosis)
 rung, so the fibrosis rung (>=10% sustained) is above what most lifestyle maintainers hold.
-
-<div class="recent-update" data-last-updated="2026-11-03">
 
 ## Amount vs rate of loss as correlates of regain (Turicchi 2019)
 
@@ -416,10 +415,6 @@ lost by VLCD are recommended, such as in diabetes treatment [89].»
 most weak between-study support for a speed effect at large losses, through an interaction
 significant unadjusted (p=0.042) and a trend with BMI (p=0.09), and does not show that speed is harmless at VLCD-sized losses. Turicchi measures no
 hormones, so the VLCD-specific limit on Sumithran's persistence finding (Limits) stays open.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Rate of loss, randomised (Purcell 2014)
 
@@ -667,10 +662,6 @@ not excluded. Agreement between them is same-group replication, never type-E.
 [@purcell2014rate]
 [@sumithran2011]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## Why this is the mechanistic keystone for the drug route (GLP-1) — a synthesis
 
 [inferred from @sumithran2011]
@@ -715,9 +706,222 @@ maintenance vs surgery) -> [[Comparing Obesity Drugs]]. The number is a secondar
 not Nong's own analysis; held as Nong reporting West.
 [inferred from @nong2026obesity]
 
-</div>
+## Drug, exercise or both to hold off a diet-induced loss — one randomised trial (Lundgren 2021)
 
-<div class="recent-update" data-last-updated="2026-11-02">
+*Added 2026-11-06.* S-LiTE put 215 adults aged 18-65 with BMI 32-43 and no diabetes on an 8-week
+800 kcal diet; the 195 who lost at least 5% (a mean 13.1 kg among them) were randomised to placebo,
+exercise + placebo, liraglutide 3.0 mg or both for 52 weeks, and all were to attend 12 individual
+dietetic consultations
+[@lundgren2021healthy].
+So the randomised population is diet responders, not everyone who starts a diet.
+Weight change from randomisation, the primary end point: placebo +6.1, exercise +2.0, liraglutide
+−0.7, both −3.4 kg; against placebo, exercise −4.1 kg (95% CI −7.8 to −0.4), liraglutide −6.8
+(−10.4 to −3.1), both −9.5 (−13.1 to −5.9); both against exercise −5.4 (−9.0 to −1.7), both against
+liraglutide −2.7 (−6.3 to 0.8; P = 0.13)
+[@lundgren2021healthy].
+The placebo arm's regain was «equivalent to 45% of the weight that they had initially lost»
+[@lundgren2021healthy],
+the regain-is-modal pattern above, inside one year, on dietetic support alone.
+Every arm's estimate comes from the same intention-to-treat model, with missing data assumed missing
+at random; 40 to 45 of each arm's 48 or 49 attended week 52
+[@lundgren2021healthy],
+and «The three supplementary analyses of the primary and sec- ondary end points supported the results
+of the primary analysis (Tables S9 and S10).»
+[@lundgren2021healthy];
+those tables are in the trial's Supplementary Appendix. Per protocol (39 / 26 / 36 / 30
+analysed, placebo / exercise / liraglutide / both), exercise vs placebo was −5.3 kg (−9.4 to −1.2)
+and both vs liraglutide −4.1 (−8.1 to 0.0); with multiple imputation, −4.2 (−8.0 to −0.5) and
+−2.8 (−6.4 to 0.8)
+[@lundgren2021healthyappx];
+the imputation pooled the participants missing at week 52 with the placebo group
+[@lundgren2021healthyappx].
+In the two supplementary analyses quoted here, exercise vs placebo stays below zero. Both vs
+liraglutide is not distinguished from zero with imputation, and per protocol its upper bound sits
+at 0.0, the edge of distinguishable; the per-protocol set is chosen after randomisation and keeps
+only 26 of 48 in the exercise arm, so its larger estimates are the weaker evidence. Neither
+analysis turns an ITT reading round.
+**What each weight comparison was tested as.** The appendix lists the eight hypotheses and their
+claims under a hierarchical procedure in which «all subsequent tests would be regarded as
+descriptive if a test failed to confirm a given hypothesis»; all eight were claimed. Exercise vs
+placebo on weight was a **non-inferiority** hypothesis (upper limit below +4 kg), claimed «in favor
+of exercise»; combination vs liraglutide on weight was also non-inferiority with the same margin
+(upper limit below +4 kg), claimed on an observed interval of −6.3 to 0.8 kg; the superiority
+hypotheses on weight were combination vs placebo, liraglutide vs
+placebo and combination vs exercise
+[@lundgren2021healthyappx].
+The superiority rule for a weight comparison was a point difference of −4 kg or more with an
+interval excluding zero: «Superiority is claimed if the estimated difference between the changes in
+total body weight for the two groups (delta for exercise + liraglutide from V1 to V3 – delta for
+placebo from V1 to V3) favors the exercise + liraglutide group (difference in change ≤ ‐4kg) and the
+CI95% for the estimated difference does not include 0.»
+[@lundgren2021healthyappx].
+So the exercise arm's −4.1 kg (−7.8 to −0.4) meets that rule's numbers, but the comparison was
+registered as non-inferiority, and superiority of exercise over placebo on weight is not among the
+claimed hypotheses: the numbers are as strong as a superiority result, the confirmatory status is
+not.
+
+**The exercise arm and Franz's exercise-alone row are different quantities.** Matched first:
+
+| Parameter | Franz 2007, exercise alone | Lundgren 2021, exercise + placebo | Same quantity? |
+|---|---|---|---|
+| Phase | exercise as the weight-loss method (Franz table above) | maintenance after an 8-week diet (Methods p 1720) | **No** |
+| Outcome | mean kg lost from baseline, simple pooling, reported primarily for completers | model-estimated kg difference in regain vs a randomised placebo arm, ITT | **No** |
+| Exercise | studies with «exercise alone (speciﬁc guidelines for exercise, no speciﬁc recommendations for diet) as the primary weight-loss intervention»; intensity and volume not given in the held text | vigorous interval cycling + circuit and individual cycling, running or walking, \~118 min/wk at \~78% HRmax, \~2.5 times a week (Results p 1725) | Unknown |
+| Follow-up | 6 to 24 months | 12 months | Partly |
+
+Franz cells [@franz2007]; Lundgren cells
+[@lundgren2021healthy].
+So Franz's *minimal* and S-LiTE's −4.1 kg do not clash: one says exercise alone takes little weight
+off, the other that a vigorous, well-kept programme held off about 4 kg of regain after a diet
+(not-joined check (ii), different phase and outcome; a distinction, not a tension).
+The trial's authors make the same contrast with earlier maintenance trials: «Exercise (walking or
+resistance train- ing) as a weight-loss maintenance strategy after diet-induced weight loss was
+previously reported as having a minor effect (<3 kg)31 or no effect.32 In contrast, the exercise
+program in this trial was predominantly of vigorous intensity, both at group sessions and individual
+sessions (mostly cycling and running) and with high adherence to WHO recommendations regarding
+physical activity volume.» [@lundgren2021healthy]
+Reference 31 (Fogelholm 2000) is not held. Reference 32 (Borg 2002) is a row of Franz's table: 90 men
+(68 completed) put through a 2-month very-low-energy diet, then walking, resistance training or
+diet-only follow-up, had lost 12.3, 14.9 and 12.1 kg from baseline at 12 months and 4.0, 6.1 and
+5.3 kg at the final visit, 134 weeks after the start, with no intervals
+[@franz2007];
+Franz reports group means «primarily for study completers»
+[@franz2007].
+Borg asks S-LiTE's question, exercise to maintain a diet loss, with walking or resistance training
+and a longer follow-up, but its figures are total loss from the pre-diet baseline, not change from
+randomisation against a placebo arm, so they include any difference the groups already had after the
+diet. On that basis, at 12 months walking was level with diet only and resistance training 2.8 kg
+ahead; at the final visit walking was 1.3 kg behind and resistance training 0.8 kg ahead, so neither
+arm's advantage is resolved and neither number compares directly with S-LiTE's −4.1 kg
+[inferred from @franz2007].
+Franz also cites, secondhand, an earlier review of weight-reduction trials: «Fogelhom and
+Kukkonen-Harjula (95) re- ported that at a mean 20-month follow-up, the difference between exercise
+and control groups’ mean weight regain was 1.8 kg.»
+[@franz2007].
+S-LiTE's −4.1 kg point estimate is larger than that 1.8 kg and the authors' «<3 kg», but its
+interval (0.4 to 7.8 kg) contains both, and none of the three is shown to be the same quantity
+(regain difference at 20 months, an unspecified earlier effect, and a 12-month ITT model contrast),
+so the held figures do not rank them.
+
+Adherence in S-LiTE was high on average: 118 and 111 minutes a week in the exercise and combination
+arms, 119±70% and 113±71% of the WHO volume
+[@lundgren2021healthy],
+and the authors caution that their results «may not be generalizable to» several groups, among them
+«persons who have low adherence to participation in a moderate-to-vigorous–intensity exercise
+program» [@lundgren2021healthy].
+*Updated 2026-11-06 (Supplementary Appendix).* The averages are observed means among completers (exercise
+40, combination 45), and the spread is wide: SD about 70 points of the WHO volume; 27 (68%) and
+32 (71%) reached at least 75% of it, 5 (12%) and 4 (9%) fell below 25%. Group sessions averaged
+0.81 and 0.74 days a week, against 2.47 and 2.42 exercise days a week in all
+[@lundgren2021healthyappx].
+The protocol let participants trade one for the other: «To fulfill the WHO recommendations,
+participants were encouraged to attend instructed group exercise sessions two times per week and
+perform exercise individually two times per week. The exercise intervention was carried out using a
+flexible approach, meaning that participants could substitute group exercise with individual
+exercise or vice versa and/or reduce exercise frequency if the duration of exercise sessions were
+prolonged or intensity increased correspondingly.» The next sentence bounds it: «Such
+modifications were made in agreement between the participant and study personnel if deemed more
+feasible in order to reach a sufficient exercise volume to adhere to WHO recommendations.»
+[@lundgren2021healthyappx]
+So low group attendance alone does not show a shortfall, since an agreed swap to individual
+sessions was allowed, but it does not show an agreed swap either; the volume rows are the
+adherence measure, and on them 13 of 40 and 13 of 45 completers fell short of 75%.
+So *high adherence* holds for the mean and for about seven in ten completers; counted against
+everyone randomised to exercise, 27 of 48 (56%) are known to have reached 75% of the WHO volume,
+since the 8 non-completers have no week-52 measure; the −4.1 kg is the ITT effect across that
+spread.
+The drug contrast was double-blind; the exercise contrast was not, and it adds supervised group
+sessions, an instructor and heart-rate monitoring to the exercise itself, against usual activity
+[@lundgren2021healthy];
+«In both groups, approximately one third of the exercise was performed during group sessions and the
+remaining exercise was performed individually, with a similar mean in- tensity in the group and
+individual exercise ses- sions (Table S7).»
+[@lundgren2021healthy].
+So the −4.1 kg is the effect of a structured, monitored programme, exercise and contact together,
+with most of the exercise done individually; it does not show what the same exercise would buy with
+no instructor, group sessions or monitoring, and it says little about someone unlikely to keep such
+a programme up. The interval's upper end, −0.4 kg, admits almost no effect.
+
+**A GLP-1-era drug arm, beside Franz's pre-GLP-1 one.** Liraglutide ended the year 6.8 kg lighter
+than placebo, about 6.1 kg of prevented regain plus 0.7 kg of further loss, a maintenance figure,
+where Franz's orlistat added about 3 kg over diet alone (above)
+[inferred from @lundgren2021healthy].
+Liraglutide is a daily, older GLP-1 drug; the weekly agents' larger effects are on
+[[Comparing Obesity Drugs]]. Its harms in the same trial, none of them tested between arms: gastrointestinal adverse events in 86% of
+the liraglutide arm against 45% on placebo (nausea 32 of 49 against 8 of 49), and the liraglutide
+arm's six serious adverse events included acute cholelithiasis in two and pancreatitis due to
+cholelithiasis in one, against two serious events and no gallstone event on placebo
+[@lundgren2021healthy]
+(refined 2026-11-06: the appendix lists the six as participants with eight serious events in all,
+gallstone disease in three of them with five events
+[@lundgren2021healthyappx]);
+«After 1 year, liraglutide treatment alone was associated with an increased resting heart rate; this
+finding was not observed with the com- bination strategy (Figs. 2F and S3).»
+[@lundgren2021healthy].
+Resting heart rate is one of the prespecified end points without hypotheses, which the paper says
+are unadjusted for multiple testing and cannot support definite inferences, the same footing as the
+trial's lean-mass and fitness results
+[@lundgren2021healthy].
+*Updated 2026-11-06 (Supplementary Appendix).* Against placebo, ITT model: liraglutide +5.3 beats a minute
+(1.2 to 9.4), the combination +1.6 (−2.4 to 5.6), exercise −0.5 (−4.6 to 3.6); within the
+liraglutide arm, +4.4 (1.5 to 7.3) from randomisation
+[@lundgren2021healthyappx].
+So the drug-alone rise has an interval excluding zero on that no-hypothesis footing, and the
+combination's is no difference detected, not a shown absence.
+The combination arm's own harms in Table 2: gastrointestinal adverse events in 71% (nausea 26 of 49)
+and one acute cholelithiasis among four serious events; the exercise + placebo arm had
+gastrointestinal events in 65% (nausea 15 of 48) and four serious events
+[@lundgren2021healthy].
+The authors' reading of the table: gastrointestinal events, decreased appetite and dizziness were
+more frequent in the two liraglutide groups than in the other two, and «The inci- dence of other
+adverse events was similar among the trial groups.»
+[@lundgren2021healthy]
+That reading does not compare exercise with placebo on the events it sets aside; Table 2 also shows
+abdominal pain in 13 of 48 on exercise + placebo against 3 of 49 on placebo, and pen discontinuation
+for an adverse event 3 against 0, untested like the drug arms' excesses
+[@lundgren2021healthy].
+*Updated 2026-11-06 (Supplementary Appendix).* The full lists add rows the main table leaves out, again
+untested and self-reported at 13 visits. Accidents and injuries: placebo 3 (6%), exercise 6 (12%),
+liraglutide 3 (6%), both 13 (27%), of them related to exercise 1, 2, 0 and 5 (10%);
+musculoskeletal and connective-tissue disorders 10 (20%), 15 (31%), 7 (14%) and 11 (22%)
+[@lundgren2021healthyappx].
+Serious events by participants and events: placebo 2 and 2; exercise 4 and 4 (abdominal pain in
+two, ileus, autoimmune hepatitis); liraglutide 6 and 8 (cholelithiasis in two, with three events;
+acute pancreatitis «Due to cholelithiasis» in one, with two events; appendicitis; gastroenteritis;
+abdominal pain); both 4 and 4 (cholelithiasis, abdominal pain in two, and a road traffic accident
+that «Resulted in a broken shoulder»)
+[@lundgren2021healthyappx].
+So the *six serious adverse events* above are six participants with eight events, three of them
+with gallstone disease (five events). On the exercise side, the combination arm's
+13 accidents and injuries are mostly unrelated to exercise (8 of 13), but exercise-related injuries
+ran 7 of 97 in the two exercise arms against 1 of 98 in the two without, and 5 of 49 on the
+combination against 0 of 49 on liraglutide; musculoskeletal disorders ran 31% on exercise + placebo
+against 20% on placebo
+[inferred from @lundgren2021healthyappx].
+These excesses are untested, like the drug arms' gastrointestinal and gallstone excesses, and the
+injury and gallstone counts are small, so the trial neither shows nor rules out an injury cost of
+the programme, just as it neither shows nor rules out its drug harms.
+The trial was «Funded by the Novo Nordisk Foundation and others», and Novo Nordisk supplied the
+drug and placebo pens; the funders are stated to have taken no part in the trial's
+conduct, analysis or reporting
+[@lundgren2021healthy].
+The combination's further −2.7 kg over liraglutide alone is not distinguished from zero (P = 0.13);
+its interval runs from 6.3 kg more lost to 0.8 kg less, so a sizeable extra effect is not ruled out
+. Its body-fat percentage fell 1.9 points more than on liraglutide alone (95% CI −3.3
+to −0.5) [@lundgren2021healthy].
+Body-fat percentage is a surrogate, and the eight hypotheses were tested hierarchically in an order
+given in the unheld analysis plan, so the held text cannot show whether this comparison still counts
+as confirmatory given that the combination-vs-liraglutide weight comparison failed.
+(Superseded 2026-11-06 by the Supplementary Appendix: the combination-vs-liraglutide weight comparison did not
+fail; it was a non-inferiority hypothesis, claimed. All eight hypotheses were claimed, and this
+body-fat comparison is hypothesis 6, a superiority test with a point minimum of −1.5 points (not a
+margin), claimed, so it is
+confirmatory
+[@lundgren2021healthyappx].
+The surrogate caveat stands.) Body composition and lean
+mass by arm are on [[GLP-1 and Lean Mass]] (*S-LiTE*). The trial ended at 52 weeks on treatment, so
+it says nothing about regain after stopping either the drug or the exercise, the problem the GLP-1
+keystone above turns on.
 
 ## Self-weighing as a maintenance tool — one quasi-randomised trial, held secondhand (Madigan 2015, Zheng 2014)
 
@@ -785,9 +989,72 @@ support for Franz's *advice alone: minimal at any timepoint*:
 [inferred from @madigan2015weigh] No cell matches, so the two
 neither corroborate nor contradict each other; each stands on its own.
 
-</div>
+<div class="recent-update" data-last-updated="2026-11-09">
 
-<div class="recent-update" data-last-updated="2026-11-04">
+## Maintenance programmes — what the 2013 AHA/ACC/TOS guideline graded
+
+*Added 2026-11-06.* The US obesity guideline graded the regain pattern and the value of continued
+contact. Its programme statements are on [[Lifestyle Weight-Loss Programme Intensity and Delivery]];
+the maintenance-relevant ones:
+
+- **Continued contact slows regain but does not stop it (High).** «ES2c (Long-Term Weight Loss):
+  Comprehensive lifestyle interventions that, after the first year, continue to provide bimonthly or
+  more frequent intervention contacts, are associated with gradual weight regain of 1 to 2 kg/y (on
+  average) from the weight loss achieved at 6 to 12 months. Long-term (>1 y) weight losses, however,
+  remain larger than those associated with usual care.»
+  [@jensen2014obesity]
+- **A maintenance programme reduces regain; its best length is unknown (Moderate).** ES8a: a programme
+  on site or by phone for up to 2.5 years after the loss reduces regain against usual care, and «The
+  optimal duration of weight loss maintenance programs has not been determined.» ES8b: 35-60% of those
+  in a high-intensity long-term programme keep off ≥5% of their starting weight at ≥2 years (Moderate).
+  [@jensen2014obesity]
+- **After a very-low-calorie diet stops, part of the loss returns within months (High).** ES7a:
+  14.2-21.0 kg lost over 11-14 weeks on a supervised VLCD (<800 kcal/d); ES7b: 3.1-3.7 kg regained over
+  the next 21-38 weeks of non-intervention follow-up (about 15-26% of the loss, wiki arithmetic on
+  unpaired ranges). [@jensen2014obesity]
+- **Moderate exercise added after a VLCD did not reduce regain (Low).** «ES7c: The prescription of
+  various types (resistance or aerobic training) and doses of moderate-intensity exercise training (eg,
+  brisk walking 135 to 250 min/wk) delivered in conjunction with weight loss maintenance therapy does not
+  reduce the amount of weight regained after the cessation of the very– low-calorie diet, compared with
+  weight loss maintenance therapy alone.» [@jensen2014obesity]
+- **The recommendation (Grade A):** a maintenance programme for ≥1 year, with monthly or more contact,
+  200-300 min/wk of activity, weighing weekly or more and a reduced-calorie diet (recs 4f, 4g).
+  [@jensen2014obesity]
+
+**ES7c and S-LiTE's exercise arm — matched before reading them together.**
+
+| Parameter | Guideline ES7c | Lundgren 2021, exercise + placebo (above) | Same quantity? |
+|---|---|---|---|
+| Preceding diet | supervised VLCD (<800 kcal/d), 11-14 weeks in the ES7a trials | 8-week 800 kcal/d diet, which Lundgren calls a low-calorie diet | PARTLY (corrected 2026-11-09 from *NEAR, both very low energy*): both are large, rapid deficits, but 800 kcal/d sits just outside the guideline's own VLCD definition (<800 kcal/d) and at the bottom of NICE's 800-1200 kcal/d low-energy band ([[Diets for Weight Loss - What NICE Recommends]]); the ES7c trials' VLCD length is not stated in ES7c itself |
+| Exercise | moderate intensity, e.g. brisk walking 135-250 min/wk, resistance or aerobic | vigorous intervals, \~118 min/wk at \~78% HRmax | **NO** — different intensity |
+| Comparator | maintenance therapy alone | placebo arm with the same 12 dietetic consultations | PARTLY (both are support without the exercise) |
+| Result | no reduction in regain (Low) | −4.1 kg (−7.8 to −0.4) vs placebo, ITT, not a pre-specified superiority test | a null vs a favourable estimate |
+| Evidence date | statements from trials searched to 2009 (plus large later RCTs) | published 2021 | **NO** — Lundgren postdates the guideline |
+
+[@jensen2014obesity] (ES7a, ES7c);
+[@jensen2014obesity] (search window); Lundgren cells as
+extracted above. The exercise row fails the same-quantity test, so not-joined check (ii) fires: a
+moderate-exercise null and a favourable vigorous-exercise estimate (outside the trial's pre-specified
+superiority hypotheses) are a **distinction by intensity**, not a
+[[tension]]. The pair is consistent with an intensity-dependent effect of exercise on regain, but one
+trial against a Low-graded statement cannot establish that; it is a hypothesis, and the trial's own
+authors draw the contrast with earlier moderate-exercise maintenance trials (quoted above). The guideline
+could not have seen S-LiTE (lag), so this is not a disagreement on shared evidence.
+[inferred from @jensen2014obesity; @lundgren2021healthy]
+
+**The regain trajectory agrees with Franz, on overlapping trials.** The guideline's diet statement
+(CQ3 ES3, High) reads 4-12 kg at 6 months, 4-10 kg at 1 year, 3-4 kg at 2 years
+[@jensen2014obesity]; Franz's food-strategy bands above
+are about 4.5-7.5 kg at 12 months and 3-4 kg at 24-48 months. Same shape (peak at 6 months, partial
+regain, a few kg kept), but not quite the same quantity (corrected 2026-11-09): Jensen's ES3 is a range
+across trials at fixed time points, while Franz's maintained figures are completer-based, simple-pooled
+means by intervention category at 24, 36 and 48 months (caveats above), so the numbers agree in rough
+size, not as matched estimates. The
+guideline does not cite Franz [searched: "Franz" across Jensen chunks 01-06, 0 hits], but both pool RCTs
+of the same era and kind, so the agreement is not independent backing (not type-E).
+[inferred from @jensen2014obesity; @franz2007]
+
+</div>
 
 ## What it licenses, and the limits that bound it
 
@@ -803,6 +1070,61 @@ neither corroborate nor contradict each other; each stands on its own.
   -> [[Layer 1 - Ranking Interventions for a Stratum]] (structural > point-optimization).
 - **The lever is the biggest one and it is defended** — which is exactly why the drug route earns its
   place in the ranking for this stratum rather than being dismissed as *the easy way out*.
+- **After a diet loss, both on-treatment props have a randomised size; neither has an off-treatment
+  one.** [inferred from @lundgren2021healthy] *Added
+  2026-11-06.* For a diet responder (lost at least 5% on an 8-week 800 kcal diet), one year of
+  daily liraglutide 3.0 mg ended 6.8 kg (3.1 to 10.4) lighter than placebo and both together
+  9.5 kg (5.9 to 13.1), each a claimed superiority hypothesis; a structured, monitored programme of
+  mostly vigorous cycling, running and circuit work, about a third of it in group sessions, at about
+  118 minutes over about 2.5 exercise days a week at about 78% of maximum heart rate, ended 4.1 kg
+  (0.4 to 7.8) lighter, a comparison the trial tested for non-inferiority only (superiority of
+  exercise over placebo on weight was not a claimed hypothesis). Exercise's own claimed superiority
+  result is on body fat: 2.2 percentage points less than placebo (0.7 to 3.8), on a surrogate. The
+  combination ended 5.4 kg (1.7 to 9.0) lighter than exercise alone, a claimed superiority
+  hypothesis, and 2.7 kg lighter than liraglutide alone with an interval from 6.3 kg more to 0.8 kg
+  less, claimed only as non-inferior; its body-fat percentage fell 1.9 points (0.5 to 3.3) more than
+  on liraglutide alone, a claimed superiority hypothesis on the same surrogate
+  [@lundgren2021healthy]
+  [@lundgren2021healthyappx].
+  The harms on both sides are untested: on liraglutide, gastrointestinal events in 86% against 45%
+  on placebo, gallstone disease as a serious event in three of 49 (five events; corrected
+  2026-11-06 from *three gallstone-related serious events*) against none on placebo, and resting
+  heart rate 5.3 beats a minute above placebo (1.2 to 9.4), a no-hypothesis marker whose interval
+  excludes zero; on the combination, gastrointestinal events in 71% and one gallstone event among
+  four serious events; on exercise + placebo, exercise-related injuries in 2 of 48 against 1 of 49
+  and musculoskeletal disorders in 31% against 20%, beside the Table 2 excesses below
+  [@lundgren2021healthy]
+  [@lundgren2021healthyappx].
+  The exercise programme is the drug-free one, so for someone maintaining a diet loss
+  (the trial's stratum: 18-65, BMI 32-43, no diabetes) it is worth starting, with three labels. The
+  4.1 kg comes from mostly vigorous exercise: the authors credit vigorous intensity, together with
+  high adherence to the WHO volume, for the gap with earlier walking or resistance-training
+  maintenance trials that found «a minor effect (<3 kg)» or none, and the held Borg row has walking
+  level with diet only at 12 months (section above;
+  [@franz2007]), so a
+  moderate-intensity programme at the WHO 150-minute volume is not shown to buy 4 kg. The figure
+  comes from a structured programme with an instructor, group sessions and heart-rate monitoring that
+  most completers kept up (68% and 71% of completers in the two exercise arms reached three-quarters
+  of the WHO volume, 12% and 9% fell below a quarter; updated 2026-11-06 from *the group kept up*),
+  and exercise without that structure is not shown to buy the same. On harms, the
+  authors attribute the excess gastrointestinal events, decreased appetite and dizziness to the two
+  liraglutide groups and call other adverse events similar, but they do not compare exercise with
+  placebo; Table 2 shows untested excesses on exercise + placebo over placebo (gastrointestinal
+  events 65% against 45%, abdominal pain 13 of 48 against 3 of 49, pen discontinuation for an adverse
+  event 3 against 0, serious events 4 against 2), so the trial neither shows nor rules out an
+  exercise harm, as its drug-arm excesses are likewise untested. Whether to add the drug is the person's trade of weight against
+  side effects, cost and a lean-mass difference (2.9 kg less lean than placebo, −4.4 to −1.4, a
+  no-hypothesis end point
+  [@lundgren2021healthyappx];
+  mostly lean the placebo arm regained rather than lean lost; [[GLP-1 and Lean Mass]]),
+  and a prescriber's call. Nothing here is shown after stopping either
+  (section *Drug, exercise or both*, above); the lean-mass side of the same trial is on
+  [[GLP-1 and Lean Mass]] (*S-LiTE*)
+  [@lundgren2021healthy].
+  The non-inferiority status, the exercise days, the gallstone participant/event count, the
+  injury and musculoskeletal rows and the adherence spread are from the Supplementary Appendix;
+  exercise-related injuries ran 5 of 49 on the combination against 0 of 49 on liraglutide, untested
+  [@lundgren2021healthyappx].
 - **Expect more kg back after a bigger loss, but on the held amount-only slope not a worse net
   result; on pace, in the one held randomised trial, a 12-week VLCD (6 dietitian visits) reached the
   target more often than a 36-week diet with one or two shakes a day (18 visits), and regain at three
@@ -974,10 +1296,6 @@ neither corroborate nor contradict each other; each stands on its own.
   long-term cohort (Biggest Loser 6-year resting-metabolic-rate follow-up) was assessed and **cut as below
   the quality bar** (n=14, self-selected, uncontrolled), so this arm stays single-study rather than type-E.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Synthesis
 
 [inferred from @sumithran2011] The unit-of-analysis shift this page
@@ -996,7 +1314,15 @@ the loss rather than a randomised contrast, to week 48 though not significantly 
 week 144, which narrows the second gap for one hormone; the causal step is untested causally, and the
 one held ghrelin-regain association check, a post-hoc split by regain, found no significant ghrelin difference between
 high and low regainers). The dated drug arm (Franz's orlistat/sibutramine)
-does not transport to the current GLP-1 era. *Added 2026-10-29:* the behavioural-tool limb is also
+does not transport to the current GLP-1 era. *Added 2026-11-06:* one randomised GLP-1-era maintenance
+trial (S-LiTE, daily liraglutide, one year on treatment after a diet) gives, against placebo: drug
+−6.8 kg (95% CI −10.4 to −3.1), a structured, mostly vigorous exercise programme −4.1 kg (−7.8 to −0.4;
+tested for non-inferiority only, its claimed superiority result being body fat −2.2 percentage
+points, −3.8 to −0.7, a surrogate), both −9.5 kg (−13.1 to −5.9), with no data after stopping, so
+it sizes the on-treatment props without touching the rebound question
+[@lundgren2021healthy]
+[@lundgren2021healthyappx]
+[inferred from @lundgren2021healthy]. *Added 2026-10-29:* the behavioural-tool limb is also
 thin. Self-weighing is cheap, and its one held maintenance-trial estimate (quasi-randomised, via Zheng
 2014, for a package of scales, two calls and a record card; corrected the same day from *no held estimate*) is about 0.7 kg less regain over 12 months
 (0.12 to 1.24); the pooled review excluded maintenance trials, and the observational associations
@@ -1039,7 +1365,5 @@ independent backing. At week 144 leptin was above baseline in both arms (gradual
 post-hoc), which cannot separate a defence from a smaller body, and its post-hoc regain split gives no
 association support for hormones driving regain.
 [inferred from @purcell2014rate]
-
-</div>
 
 ## References

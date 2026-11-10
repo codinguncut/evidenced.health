@@ -3,27 +3,32 @@ type: deliverable
 title: Dairy
 question: 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options — add, keep, swap, or cut a dairy food — can be weighed against the big rocks?'
 aliases: [Dairy, Milk and Dairy, Cheese and Butter and Milk]
-authors: [Guo, Jing; Zhang, Kui; Zhang, Yu; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke; Vissers, Linda E T; Thorning, Tanja Kongerslev; Mente, Andrew; Villoz, Fanny]
-sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Mente - PURE Healthy Diet Score 2023, Villoz - Dairy Cognitive Decline Dementia 2024, Thorning - Whole Dairy Matrix 2017, Bian - Dairy Hip Fracture Meta-Analysis 2018]
+authors: [Guo, Jing; Zhang, Kui; Zhang, Yu; Mishali, Moshe; Malmir, Hanieh; Astrup, Arne; Bechthold, Angela; Schwingshackl, Lukas; Gijsbers, Lieke; Vissers, Linda E T; Thorning, Tanja Kongerslev; Mente, Andrew; Villoz, Fanny; World Cancer Research Fund International (org)]
+sources: [Guo - Milk Dairy Cardiovascular Mortality Meta-Analysis 2017, Zhang - Fermented Dairy Cardiovascular Meta-Analysis 2019, Zhang - Butter Plant Oils Mortality 2025, Mishali - Dairy Type 2 Diabetes Cardiovascular Meta-Analysis 2019, Malmir - Milk Dairy Osteoporosis Fracture Meta-Analysis 2019, Astrup - Saturated Fats Reassessment 2020, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Gijsbers - Dairy Type 2 Diabetes Dose-Response 2016, Vissers - Dairy Type 2 Diabetes Mendelian Randomization 2019, Mente - PURE Healthy Diet Score 2023, Villoz - Dairy Cognitive Decline Dementia 2024, Thorning - Whole Dairy Matrix 2017, Bian - Dairy Hip Fracture Meta-Analysis 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-07
-self_critiqued: 2026-10-03
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 Milk, cheese, butter and yoghurt carry similar saturated fat, yet the outcomes they touch — heart
 disease, early death, diabetes, bone fracture, cancer, dementia — point in different directions.
 Read one food and one outcome at a time, and almost every effect turns out small.
 
 **For heart disease, stroke and early death, dairy is close to a wash.** Eating more, or less, barely
-moves the needle, and full-fat versus low-fat is not the fault-line that guidance implies. **The one
+moves the needle (total dairy and all-cause death: RR 0.99, 0.96-1.03, per 200 g/day
+[@guo2017]), and full-fat versus low-fat is not the fault-line that guidance implies. **The one
 diabetes signal is real but small, and it belongs to yoghurt and low-fat dairy** — milk, cheese and
 high-fat dairy show nothing, and a genetic study confirms milk has no causal effect. **The scary
 *milk shortens your life* result is a statistical artifact**, traceable to a single Swedish cohort that
 takes the association with it when removed. Dairy does not build bone or protect the brain either.
-Cancer is the one endpoint this evidence cannot settle. None of this makes dairy a lever worth much
-worry — the noise around it runs far ahead of the effect.
+Cancer splits by site: dairy probably lowers colorectal cancer risk, while a weaker signal points to
+higher prostate cancer risk. None of this makes dairy a lever worth much worry — the noise around it
+runs far ahead of the effect.
+
+</div>
 
 ## Dairy is several foods, not one — judge each category and endpoint on its own
 
@@ -40,9 +45,11 @@ Guo's meta-analysis is the worked case: it splits dairy five ways and the answer
 while the aggregate *total dairy* hides them [@guo2017]. So a whole-milk finding must never be read as a yoghurt finding, nor a
 butter finding as a cheese finding. Every claim below attaches to a named category and a single endpoint.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## For heart disease and early death, dairy barely moves the needle
 
-Across roughly 940,000 people, Guo found **total dairy neutral for both death and cardiovascular
+Across 938,465 participants, Guo found **total dairy neutral for both death and cardiovascular
 disease**: per 200 g/day, all-cause mortality RR 0.99 (95% CI 0.96-1.03) and CVD RR 0.97 (0.91-1.02)
 [@guo2017]. Milk alone was
 null too (per 244 g/day, RR 1.00 for mortality), though with extreme study-to-study heterogeneity
@@ -87,6 +94,8 @@ part-funded by dairy-industry councils, exactly where such a sponsor would push
 [@mente2023pure]. It nudges the range toward
 neutral-to-mildly-favourable for whole-fat dairy; it does not license a *full-fat dairy is
 cardioprotective* claim.
+
+</div>
 
 ## The *milk shortens your life* scare is a single-cohort artifact
 
@@ -163,10 +172,12 @@ signal lives, and this genetic test cannot refute it. Reading the milk-null as s
 would be the category error the whole decomposition exists to prevent. So the composite is: milk has no
 causal diabetes effect, yoghurt keeps a small observational one, and neither is a big lever.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Milk is not a bone-fracture lever
 
 The intuitive story — dairy is rich in calcium and protein, so more dairy means stronger bones — does not
-survive the strongest study designs. Malmir pooled 34 studies (616,000 people for fracture) and
+survive the strongest study designs. Malmir pooled 34 studies (616,420 people across all its included studies) and
 found the protective associations **only in cross-sectional and case-control studies**, the designs most
 prone to reverse causation; in prospective cohorts, dairy and milk were null for both osteoporosis and
 hip fracture [@malmir2019]. The
@@ -198,6 +209,8 @@ where the supplement route does. Calcium plus vitamin D is also null for fractur
 neither the glass of milk nor the pill moves fracture risk in someone already well-nourished
 ([[Deficiency Repletion vs Enhancement]]). Exercise prevents falls and fractures in older adults; dairy intake does not.
 
+</div>
+
 ## Dairy is not a brain-health lever either
 
 Villoz pooled the only dose-response evidence on dairy and the brain (15 cohorts, 312,580 people, no
@@ -215,17 +228,31 @@ dairy reads as a marker of a healthier diet, not a cause
 [@villoz2024dairy]. For a reasonably healthy adult in
 a Western intake range, there is nothing here to worry about or optimize ([[Dairy and Cognitive Decline]]).
 
-## Dairy and cancer is the one endpoint this evidence can't answer
+<div class="recent-update" data-last-updated="2026-11-10">
 
-This is a genuine gap, not a null. The dairy chapters of the major cancer report were never extracted into
-this fabric, so no magnitude for either cancer is held here. What is known at the grading level runs in
-**two opposite directions**, and they must stay un-netted. The World Cancer Research Fund grades dairy and
-dietary calcium as *probably protective* against colorectal cancer, and dairy as *probably associated with
-higher* prostate cancer risk ([[Red and Processed Meat and Cancer]]). No dose-response magnitude is held
-for either, and the weighing of a colorectal benefit against a prostate risk is the person's, not the
-evidence's ([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]).
-Anyone using dairy to weigh a personal cancer decision needs the underlying reviews, which this cut does
-not yet hold.
+## Dairy probably lowers colorectal cancer risk; a weaker prostate signal runs the other way
+
+The World Cancer Research Fund's cancer report grades dairy differently for colorectal and prostate
+cancer. **For colorectal cancer, it concludes that dairy products probably protect** — the *probable*
+grade, one step below *convincing*
+[@wcrf2018]. **For prostate cancer, the
+signal points to higher risk but is weaker**: WCRF rates the evidence that dairy raises prostate cancer
+risk as *limited – suggestive*, below the bar it sets for recommendations
+[@wcrf2018].
+
+That weaker signal still shaped the advice. The panel declined to base a recommendation on the colorectal
+evidence because of the prostate evidence
+[@wcrf2018]. So keeping dairy in the diet
+is a reasonable default with a colorectal basis, but it is not a WCRF recommendation, and men have a
+weak reason for caution ([[Red and Processed Meat and Cancer]]).
+
+This page carries WCRF's grades but no effect size for either cancer. The two directions stay
+un-netted. How a colorectal benefit weighs against a possible prostate risk is the person's call, not
+the evidence's
+([[The Weighting Problem - Why Population Guidance Is Ill-Posed and Individual Advice Is Not]]). Anyone
+weighing a personal cancer decision needs the effect sizes, which this page does not give.
+
+</div>
 
 ## Does the food matrix change what the saturated fat does?
 
@@ -263,14 +290,16 @@ carries its own industry and design caveats. The saturated-fat verdict itself be
 This cut carries only the dairy-specific matrix nuance, which for now points in a plausible direction on a
 surrogate endpoint and no further.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What to actually do about dairy
 
 Dairy is a small lever, and the attention it gets runs far ahead of the effect. If the big rocks —
 smoking, excess weight, inactivity, poor sleep, heavy alcohol — are still in play, dairy is not where the
 gains are ([[Layer 1 - Ranking Interventions for a Stratum]]). Within dairy, the realistic moves net small:
 
-- **Keep or add, without worry:** milk (causally null for diabetes, artifact-only for mortality), cheese,
-  and full-fat dairy. The full-fat versus low-fat distinction guidance emphasizes is not supported by the
+- **Keep or add:** milk (causally null for diabetes, artifact-only for mortality), cheese, and full-fat
+  dairy. The full-fat versus low-fat distinction guidance emphasizes is not supported by the
   hard-outcome evidence.
 - **A mild nudge, if you want one:** yoghurt and low-fat dairy carry a small diabetes benefit that
   saturates around one pot of yoghurt a day. It is real but modest, and observational.
@@ -278,19 +307,23 @@ gains are ([[Layer 1 - Ranking Interventions for a Stratum]]). Within dairy, the
   a substitution worth making, though it is the oil earning the credit as much as the butter losing it.
 - **Do not eat dairy to build bone or protect the brain:** neither endpoint responds to it.
 
-Cancer is the open question — two graded directions, no magnitude held here, and the trade-off is
-personal. For everything else, the number worth watching is not your dairy intake. Every estimate above is
-observational apart from the milk genetic study; no long-term trial of whole dairy on hard outcomes
-exists, and none is likely, so these verdicts are calibrated small effects, not settled certainties.
+Cancer runs two ways: a probable colorectal benefit and a weaker, below-recommendation prostate signal.
+No magnitude is given here for either, and the trade-off is personal; for men, the prostate signal is a
+reason for caution, not an established harm. For everything else, the number worth watching is not
+your dairy intake. Every estimate above is observational apart from the milk genetic study; no
+long-term trial of whole dairy on hard outcomes exists, and none is likely, so these verdicts are
+calibrated small effects, not settled certainties.
 
 > [!info] Evidence box
 >
 > | | |
 > |---|---|
 > | **Question** | 'What does the evidence show about dairy''s effect on each patient-important outcome (CV events, all-cause mortality, type-2 diabetes, bone/fracture, cancer, cognition/dementia) — in which direction, how large, for whom, how certain — once "dairy" is decomposed by category (fermented vs unfermented; cheese vs butter vs cream; full-fat vs low-fat)? Does the food matrix change what the saturated fat does, and how do the endpoints and categories vary, so the realistic options — add, keep, swap, or cut a dairy food — can be weighed against the big rocks?' |
-> | **Evidence included** | 16 sources — 11 gold, 3 high, 1 moderate, 1 weak |
+> | **Evidence included** | 17 sources — 12 gold, 3 high, 1 moderate, 1 weak |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 2 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak); Thorning (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dairy.md) |
+
+</div>
 
 ## References

@@ -2,11 +2,11 @@
 type: framework
 question: What does regular stretching do for an adult — which outcomes does it move, at what dose and timing, and does it prevent injury, low back pain or soreness?
 aliases: [Flexibility Training, Stretching, Static Stretching, PNF Stretching, Range of Motion Training, Stretch Hold Duration, Stretching Before Exercise, Flexibility Exercise, Stretching for Muscle Soreness, Stretching and DOMS]
-authors: [Lauersen, Jeppe Bo; Bertelsen, Ditte Marie; Andersen, Lars Bo; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping; Herbert, Rob; de Noronha, Marcos Amaral; Kamper, Steven James; Dupuy, Olivier; Douzi, Wafa; Theurot, Dimitri; Bosquet, Laurent; Dugué, Benoit]
+authors: [Lauersen, Jeppe Bo; Bertelsen, Ditte Marie; Andersen, Lars Bo; Garber, Carol Ewing; Blissmer, Bryan J.; Deschenes, Michael R.; Franklin, Barry A.; LaMonte, Michael J.; Lee, I-min M; Nieman, David Christopher; Swain, David P.; Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping; Herbert, Rob; de Noronha, Marcos Amaral; Kamper, Steven James; Dupuy, Olivier; Douzi, Wafa; Theurot, Dimitri; Bosquet, Laurent; Dugué, Benoit; Liddle, Nathan; Taylor, Jonathan M.; Chesterton, Paul; Atkinson, Greg]
 sources: [Garber - ACSM Quantity and Quality of Exercise Position Stand 2011, Lauersen - Exercise Interventions Prevent Sports Injuries Meta-Analysis 2013,
   Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022,
   Herbert - Stretching Muscle Soreness Cochrane 2011,
-  Dupuy - Post-Exercise Recovery Techniques Meta-Analysis 2018]
+  Dupuy - Post-Exercise Recovery Techniques Meta-Analysis 2018, Liddle - Injury Prevention Adult Recreational Athletes 2023]
 confidence: medium
 relationships:
   related_to:
@@ -17,24 +17,28 @@ relationships:
     - Knee Osteoarthritis and Modifiable Levers
     - Training Load Progression and Running Injury
 created: 2026-10-22
-updated: 2026-10-22
-self_critiqued: 2026-10-22
+updated: 2026-11-05
+self_critiqued: 2026-11-05
 ---
 
 **Peripheral scope** (exercise programming). The outcome the evidence actually measures here is **joint
 range of motion (ROM)**, an intermediate outcome, not a patient-important one in its own right. It matters
 to a person only through function (reaching, dressing, gait) or through an injury, pain or soreness claim.
-The held evidence does not test ROM's transmission to function; it measures near-nulls for injury and for
-stretching around a single session on soreness (with one small field effect for a 12-week routine); and
+The held evidence does not test ROM's transmission to function; it shows no benefit for injury (*insufficient evidence*,
+restated 2026-11-04 from *near-nulls*) and near-nulls for stretching around a single session on soreness (with one small field effect for a 12-week routine); and
 low back pain is unproven. So this page ranks low in Layer 1: a dose is held for the ROM goal, and the
 commonly believed benefits are mostly unsupported.
  (ROM-as-intermediate is the wiki's classification, per [[Surrogate Outcomes]]; the source
 does not grade ROM's transmission to function.)
 
-**Evidence-tier note (`confidence: medium`, split by claim: drop-levers medium, dose/timing/ROM low).**
+**Evidence-tier note (`confidence: medium`, split by claim: soreness drop-lever medium; injury drop-lever, dose/timing/ROM low).**
 The two drop-lever claims (injury, soreness) rest on RCT meta-analyses, the soreness one on a Cochrane
 review whose pooled before-or-after estimates are near zero with quite precise CIs (GRADE low; moderate
-only for the single 12-week field trial; the smaller pre-exercise-only pools are wide); see their sections below. The dose and ROM claims are weaker: they
+only for the single 12-week field trial; the smaller pre-exercise-only pools are wide); see their sections below.
+(Restated 2026-11-04.) The injury drop-lever is graded low here, as on
+[[Exercise Interventions and Sports Injury Prevention]]: its MA state is *insufficient evidence*, and the advice not to rely on stretching
+stands because it costs nothing, not because a null is shown. The page's `medium` rests on the soreness
+claim. The dose and ROM claims are weaker: they
 rest on one source, the 2011 ACSM position stand, a `high`-tier guideline that grades each recommendation with the NHLBI A-D categories (A = RCTs, rich data; B = RCTs,
 limited data; C = nonrandomized or observational; D = panel consensus). It gives grades but no pooled
 effect sizes, no confidence intervals and no studied ranges for its dose numbers.
@@ -136,7 +140,7 @@ off that list. Read the stand as *not asserting* an injury benefit for stretchin
   and dynamic in four of the five specified); the programmes cut injury rates by about a third (IRR 0.64).
   [@ding2022warmup]
  So a stretching-based warm-up is the *comparator* there, and the benefit comes from adding
-  other content, which fits the stretching null in the Synthesis below; the trial design cannot show that stretching
+  other content, which fits the stretching injury result in the Synthesis below (no benefit shown); the trial design cannot show that stretching
   contributes nothing, since five of the programmes also contained stretches.
 
 ## Stretching against muscle soreness: a measured near-zero effect
@@ -288,7 +292,7 @@ source page carries the full rows and the table's other transcription slips.
 
 **The stand and an RCT meta-analysis agree on injury, with shared backing, so not independent
 confirmation.** The held RCT meta-analysis on [[Exercise Interventions and Sports Injury Prevention]]
-pools three stretching trials to a null for injury: «no beneficial effect for stretching (RR 0.963
+pools three stretching trials to no benefit shown for injury: «no beneficial effect for stretching (RR 0.963
 (0.846–1.095))»; its discussion reports the same estimate with slightly different figures, «RR=0.961 (0.836–1.106)». [@lauersen2013injury]
 The stand's «no consistent link» points the same way. Parameter check before comparing:
 
@@ -309,8 +313,10 @@ share backing: Lauersen says its stretching result «corresponds to earlier revi
 reviews (Thacker 2004; Herbert & Gabriel 2002, Lauersen refs 17-18) are also cited by the stand (refs 355,
 164); Herbert also co-authors Pope 2000 and Garber refs 163-164. [@lauersen2013injury]
 [@garber2011acsm]
-Read it as type-F: the later RCT-MA turns the stand's hedged «no consistent link» into a measured null for
-injury in recruits and general adults, and the stand adds the outcomes the MA did not cover (low back
+Read it as agreement (restated 2026-11-04; the page earlier read it as type-F, the later RCT-MA turning
+the stand's hedged «no consistent link» into a measured result, and that reading is withdrawn). Re-judged
+as *insufficient evidence* by stratum on the injury page, the MA reaches the stand's own state; it adds
+stratum detail (recruits, general adults), and the stand adds the outcomes the MA did not cover (low back
 pain, DOMS), at guideline grade only.
 
 **In knee and hip osteoarthritis, a mixed flexibility/skill category beat usual care (low certainty; it
@@ -344,14 +350,33 @@ single session. The one 12-week routine showed a small effect; routines longer t
 
 **One trial carries both general-adult results.** The field trial behind the soreness estimate
 (Jamtvedt 2010, internet-run, adults doing recreational exercise) is also one of the three trials in
-Lauersen's pooled injury null, and the review's first author co-authored it. So for general adults outside
+Lauersen's pooled injury estimate, and the review's first author co-authored it. So for general adults outside
 the laboratory, *stretching around exercise prevents neither injury nor meaningful soreness* rests largely
 on one 12-week trial reporting two outcomes, not on two independent bodies of evidence.
+(Restated 2026-11-04.) For injury the state is *insufficient evidence* (the injury page's re-judge), so
+the reading is *not shown to prevent injury, nor meaningful soreness*; the no-effect form is withdrawn
+for injury.
 [@lauersen2013injury]
 [@herbert2011stretch]
 The laboratory near-null on soreness after a standardised eccentric bout rests on the ten small lab
-trials, not on Jamtvedt; the field estimate for everyday training (a small benefit) and the injury null in
-general adults both rest on Jamtvedt.
+trials, not on Jamtvedt; the field estimate for everyday training (a small benefit) and the injury result in
+general adults (no benefit shown) both rest on Jamtvedt.
+
+**A third MA reads the same trial differently** (2026-11-04). Liddle's adult-recreational
+meta-analysis pools Jamtvedt as HR 0.75 (0.59-0.96) (read off its Figure 3) and lists the outcome as
+«Overall Injuries & Soreness»; Lauersen's Table 1 counts 339 of 1079 vs 348 of 1046 for «Lower limb +
+trunk injury», a crude RR of about 0.94.
+[@liddle2023effects]
+[@lauersen2013injury]
+[inferred from @lauersen2013injury; @liddle2023effects]
+Lauersen's analysis covers each trial's primary outcome, which its Table 1 names for Jamtvedt, and
+Liddle's hazard ratios are those trials reported from survival analyses; which Jamtvedt outcome Liddle
+took is not stated, and Jamtvedt is not held, so the page does not choose. If Liddle's number is an injury-only hazard ratio, the general-adult no-benefit-shown result
+rests on one trial whose own analysis may point the other way; if it includes soreness, it is the soreness
+benefit above showing up again. Liddle pools no stretching estimate (its HR set pools Jamtvedt with two
+warm-up routines and a foot-ankle programme), so the no-benefit-shown result is not contradicted, only
+less settled; the injury page re-judges it as *insufficient evidence*, no benefit shown (2026-11-04). Detail:
+[[Exercise Interventions and Sports Injury Prevention]].
 
 **Soreness: the recovery-technique meta-analysis agrees on direction, in a unit that cannot be lined up
 with the Cochrane points.** Parameter check:
@@ -388,8 +413,8 @@ holds for older adults), after a workout or on its own, about 10 minutes for the
 3-4 weeks and expect to lose them within 4-8 weeks of stopping. This is a graded B/C guideline dose, not
 a measured optimum. (operationalizes the Table 2 rows above).
 
-**Do not count on stretching to prevent injury.** The RCT meta-analysis found a null in recruits and
-general adults. If injury prevention is the aim of a warm-up, the held evidence favours a structured
+**Do not count on stretching to prevent injury.** The RCT meta-analysis showed no benefit in recruits and
+general adults (*insufficient evidence*, not a tight null, by the injury page's 2026-11-04 re-judge). If injury prevention is the aim of a warm-up, the held evidence favours a structured
 strength/balance/jumping warm-up programme over the usual warm-up (the review's example: running and
 stretching), with about a third fewer injuries (IRR 0.64) in sport participants aged 18 or under (the Ding section above); for adults see
 [[Exercise Interventions and Sports Injury Prevention]]. For back pain the guideline found no consistent link: unproven, not shown useless.
@@ -401,6 +426,11 @@ pools (no primary pooled point estimate exceeds 2.5 points; the combined CIs rea
 benefit, the small pre-exercise-only pools 11-16). In young healthy adults after a laboratory eccentric
 bout this is a measured near-zero effect (indirect for everyday training), not missing evidence.
  (operationalizes the Herbert estimates above).
+(2026-11-05) That *near-zero* verdict holds for the combined pools, and rests on Herbert's own judgment
+of clinical importance, since the review sets no minimal important difference. The pre-exercise-only
+pools, whose CIs still admit 11-16 points of benefit, are *insufficient evidence* under the rule the
+injury page applies to an imprecise interval. The action is the same either way: skipping a single bout
+costs nothing.
 
 **A standing before-and-after routine: a small effect, worth it only if you value the trade.** Over 12
 weeks it cut the share of weeks with bothersome soreness from about 32% to 25%, for at least about 7

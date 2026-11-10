@@ -8,7 +8,7 @@ cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-11-02
+updated: 2026-11-10
 self_critiqued: 2026-10-22
 relationships:
   related_to:
@@ -69,6 +69,8 @@ estimate). Load-bearing limitations, all stated by the source:
 - **Five of eleven applied CWI after exercise**, confounding the effect with post-exercise recovery.
 - **Sleep, mood, inflammation-narrative and sickness-absence rest on single moderate-quality studies**
   — interpret more cautiously than the pooled outcomes.
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Effect estimates — magnitude, CI, timepoint, certainty grade
 
@@ -149,6 +151,8 @@ so the mechanism is unclear and the outcome is soft. **Sleep quality** and **qua
 improved in single moderate-quality studies (the sleep study measured a 1-5 Likert score in males
 after heat training — confounded by the post-exercise recovery context). **Mood: no significant
 difference.** None of these is a pooled or controlled estimate.
+
+</div>
 
 ## Honest read — what CWI does and does not buy
 

@@ -19,7 +19,6 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Measuring and Raising Cardiorespiratory Fitness
 ---
-<div class="recent-update" data-last-updated="2026-11-03">
 
 Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured in METs — 1 MET =
 3.5 mL/kg/min) is a strong mortality predictor. The AHA statement says evidence shows «not only that
@@ -43,7 +42,6 @@ mortality evidence is itself observational, with a dose gradient
 ([[Physical Activity Dose and Mortality]]). A VO2max reading is a stratification metric and a trackable
 measure (milestone) of the activity lever; no held trial shows that raising CRF itself lowers mortality.
 
-</div>
 
 ## The dose-response: steepest at the low end; a smaller residual step at the top in one referral cohort
 

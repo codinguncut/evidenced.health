@@ -143,8 +143,6 @@ components; frailty-status improvement is the down-stream composite that follows
 rarely/inconsistently to serve as the primary endpoint.** The RR 0.58 frailty-reversal figure rests on
 a thin 4-study base and should be read with that caveat, not as a robust treat-to-target number.
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Stratification and decision relevance
 
 - **Route (a) — baseline risk (the safe workhorse).** Frailty identification places a person in a
@@ -248,8 +246,6 @@ a thin 4-study base and should be read with that caveat, not as a robust treat-t
   the authors name to address it is ATEMPT (multimorbid, polymedicated)
   [@rahimi2021bpage]; no result is held — its result would test the transport to frail people. Detail:
   [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
-
-</div>
 
 ## Limits — the open loop
 

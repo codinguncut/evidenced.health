@@ -2,8 +2,8 @@
 type: framework
 question: In people with prediabetes, does an intensive lifestyle program or metformin better prevent progression to type 2 diabetes?
 aliases: [Diabetes Prevention Program, DPP, Metformin for Diabetes Prevention, Preventing Type 2 Diabetes, Prediabetes Intervention, Lifestyle vs Drug for Diabetes Prevention]
-authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Tuomilehto, Jaakko; Lindström, Jaana; Pan, Xiao-Ren; Hamman, Richard F; Pittas, Anastassios G]
-sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Pittas - Vitamin D Type 2 Diabetes IPD 2023]
+authors: [Diabetes Prevention Program Research Group (org); Knowler, William C; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Tuomilehto, Jaakko; Lindström, Jaana; Pan, Xiao-Ren; Hamman, Richard F; Pittas, Anastassios G; Jensen, Michael D; Ryan, Donna H]
+sources: [Knowler - Diabetes Prevention Program DPP 2002, Goldberg - DPPOS Cardiovascular Events 2022, Tuomilehto - Finnish DPS 2001, Pan - Da Qing IGT Study 1997, Hamman - DPP Weight Loss Mediation 2006, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Jensen - AHA ACC TOS Obesity Guideline 2014]
 cluster: t2d-prevention
 nucleus: true
 confidence: high
@@ -16,8 +16,8 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Statins and New-Onset Diabetes
 created: 2026-08-07
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-06
 ---
 
 The Diabetes Prevention Program (DPP) is the landmark head-to-head: in people with prediabetes, it
@@ -77,6 +77,8 @@ BMS stock, yet the finding runs *against* the drug the funder sells (the study m
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
 This is the decision-relevant subgroup structure, and the two arms behave differently:
@@ -124,6 +126,8 @@ more obese, more hyperglycemic; near-null point estimates, with wide intervals, 
 broad-spectrum lever** that works across strata. The route-(b) machinery this instantiates is worked on
 [[Baseline Risk and the Relative-Absolute Split]] (one trial showing an arm with modified relative effect
 beside an arm with a roughly constant one). [inferred from @knowler2002]
+
+</div>
 
 ## Outcome scope — diabetes incidence is shown; CV/mortality is NOT this trial
 
@@ -286,6 +290,8 @@ lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage t
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
 
+<div class="recent-update" data-last-updated="2026-11-09">
+
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
 Metformin and lifestyle reduced fasting glucose similarly, but lifestyle did more on post-load glucose and
@@ -357,6 +363,48 @@ mechanism that sustains weight loss once achieved. This connects to the weight-l
 ([[Does Weight Loss Reduce Cardiovascular Events]]) as mechanism, not as evidence that weight loss *per se*
 is the *sole* mediator.
 [inferred from @hamman2006; @tuomilehto2001]
+
+### The guideline layer — the 2013 AHA/ACC/TOS guideline grades the prevention effect High, on reviews that very likely pool these trials
+
+*Appended 2026-11-06.* The US obesity guideline states the prevention effect as a weight-loss range:
+«ES1: In overweight and obese adults at risk for type 2 diabetes, average weight losses of 2.5 kg to 5.5
+kg at ≥2 years achieved with lifestyle intervention (with or without orlistat) reduce the risk of
+developing type 2 diabetes by 30% to 60%.» (Strength of Evidence: High)
+[@jensen2014obesity]
+ES1 is a CQ1 statement, and CQ1 drew only on reviews: «CQ1 was restricted to systematic reviews and
+meta-analyses» (refs 12-39) [@jensen2014obesity].
+
+Knowler 2002 (ref 116) and Tuomilehto 2001 (ref 77) are in the reference list
+[@jensen2014obesity], inside the range cited for the
+programme question CQ4 (refs 22, 23, 69-138), not CQ1's
+[@jensen2014obesity].
+
+The reviews behind ES1 very likely pool these same trials, so the High grade is most probably a panel's
+reading of the trial class this page holds directly. The reference numbers do not show the overlap, but
+the titles support it: CQ1's own list includes a 2005 Cochrane review by Norris and colleagues (ref 24),
+«Long-term non-pharmacological weight loss interventions for adults with prediabetes.»
+[@jensen2014obesity], the review class that pools trials
+like DPP and DPS. Whether it pools these two is not stated in the held text, so the overlap stays
+inferred, though on more than reference-number placement. On that reading it is shared-evidence agreement, not independent backing (not
+type-E). What it adds is a guideline-level statement of the range already quoted, and a Grade A
+recommendation. [inferred from @jensen2014obesity]
+
+Rec 2a counsels overweight and obese adults with cardiovascular risk factors that a sustained 3-5% loss «is likely to result in
+clinically meaningful reductions in» triglycerides, glucose, HbA1c «and the risk of developing type 2
+diabetes» [@jensen2014obesity].
+
+| Parameter | Guideline ES1 | DPP / Finnish DPS (above) | Same quantity? |
+|---|---|---|---|
+| Outcome | relative reduction in T2D incidence | Cox RRR on incident diabetes, ITT | YES on the outcome; but ES1's exposure is lifestyle «with or without orlistat», so its range can include drug-assisted arms, while the DPP/DPS RRRs are lifestyle-only |
+| Effect | 30-60% | 58% (DPP), 58% (DPS) | PARTLY: a range across pooled estimates (some possibly with orlistat) vs single-trial lifestyle-only RRRs; both trials sit near the top of the range |
+| Weight loss | 2.5-5.5 kg at ≥2 years | \~5.6 kg (DPP lifestyle arm) | NEAR; DPP sits just above the range |
+| Independent? | — | — | probably NO: ES1 rests on CQ1's reviews (refs 12-39), which very likely pool these trials (inferred) |
+
+The guideline's ES is about weight loss achieved by lifestyle; like DPP, it does not separate the weight
+from the diet and activity that produced it.
+[inferred from @jensen2014obesity; @knowler2002]
+
+</div>
 
 ## Adherence and adverse events
 

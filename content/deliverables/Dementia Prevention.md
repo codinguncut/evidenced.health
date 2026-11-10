@@ -4,11 +4,11 @@ name: Dementia Prevention
 title: Dementia Prevention
 question: 'For an adult who wants to lower their risk of dementia: which modifiable exposures change dementia incidence versus only a cognitive-test score, what does a dedicated multidomain brain-health bundle do relative to acting on single cardiometabolic levers, how large is each effect in absolute terms, and does a person''s baseline risk change what the bundle achieves?'
 confidence: low-moderate
-authors: [Livingston, Gill; Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Mendes, Augusto J; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Cui, Chendi; Wei, Bao-Zhen; Zhang, Jinhuan; Villoz, Fanny; Barnes, Lisa L; Huang, Liyan; Kivimaki, Mika; Wilker, Elissa H]
-sources: [Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Barnes - MIND Diet Trial Cognitive Decline, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Henney - Ultra-Processed Food Dementia 2023, Huang - MIND Diet Cognitive Function Decline, Iso-Markku - Physical Activity Dementia 2022, Kivimaki - Cognitive Stimulation Work Dementia 2021, Kivimaki - Physical Inactivity Dementia IPD 2019, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Livingston - Dementia Prevention 2024, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Ngandu - FINGER Multidomain Cognitive Decline 2015, Peng - Dietary Flavonoids Cognitive Function 2025, Peters - Blood Pressure Lowering Dementia 2022, Villoz - Dairy Cognitive Decline Dementia 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
+authors: [Livingston, Gill; Ngandu, Tiia; Andrieu, Sandrine; Moll van Charante, Eric P; Coley, Nicola; Mendes, Augusto J; Peters, Ruth; Kuate Defo, Alvin; Iso-Markku, Paula; Yu, Ruan-Ching; Lin, Frank R; Henney, Alex E; Zhou, Yuhan; Peng, Yinshun; Cui, Chendi; Wei, Bao-Zhen; Zhang, Jinhuan; Villoz, Fanny; Barnes, Lisa L; Huang, Liyan; Kivimaki, Mika; Wilker, Elissa H; Lang, Justin J.; Rahimi, Kazem]
+sources: [Andrieu - MAPT Multidomain Omega-3 Cognitive 2017, Barnes - MIND Diet Trial Cognitive Decline, Coley - Multidomain Dementia MAPT preDIVA Pooled 2025, Cui - Isoflavone Cognition RCT Meta-Analysis 2020, Henney - Ultra-Processed Food Dementia 2023, Huang - MIND Diet Cognitive Function Decline, Iso-Markku - Physical Activity Dementia 2022, Kivimaki - Cognitive Stimulation Work Dementia 2021, Kivimaki - Physical Inactivity Dementia IPD 2019, Kuate Defo - Diabetes Medications Dementia Umbrella 2023, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024, Lin - ACHIEVE Hearing Cognitive Decline RCT 2023, Livingston - Dementia Prevention 2024, Mendes - Single- and Multidomain Lifestyle Cognitive Decline 2025, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Ngandu - FINGER Multidomain Cognitive Decline 2015, Peng - Dietary Flavonoids Cognitive Function 2025, Peters - Blood Pressure Lowering Dementia 2022, Rahimi - BP Lowering by Age BPLTTC 2021, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, Villoz - Dairy Cognitive Decline Dementia 2024, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, Wilker - Ambient Air Pollution Dementia Meta-Analysis 2023, Yu - Hearing Loss Cognitive Impairment Dementia Meta-Analysis 2024, Zhang - Sleep Disorders Cognitive Decline Dementia 2025, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 created: 2026-09-09
-updated: 2026-10-03
-self_critiqued: 2026-10-03
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 ---
 
@@ -86,6 +86,8 @@ dementia incidence**
 [@mendes2025multidomain]. The bundle's
 appeal is theoretical; the evidence does not reward the stack.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The single levers, ranked by what each actually moves
 
 ### Blood pressure — the one randomized win on the disease
@@ -94,10 +96,41 @@ Pooling five trials of blood-pressure-lowering in older adults, Peters found an 
 (95% CI 0.75-0.99)** for incident dementia
 [@peters2022bp]. This is the **only** modifiable
 lever with randomized evidence on the disease itself, and it
-is **route (a)** — the relative effect is roughly uniform, so absolute benefit rises with baseline
-risk. In absolute terms the effect is small: on the order of **0.4 percentage points over \~4 years
-(NNT \~250)**. Real, worth having, already indicated for the heart — not a brain-specific
-add-on.
+is **route (a)**: Peters found no interaction by age, baseline blood pressure or past stroke, so the
+relative effect looks uniform and absolute benefit rises with baseline risk
+[@peters2022bp].
+
+In absolute terms the effect is small: on the order of **0.4 percentage points over \~4 years
+(NNT \~250)**. Real, worth having, and already indicated for the heart. All five of
+Peters' trials are among the 51 that the blood-pressure trialists' collaboration pools for heart
+outcomes
+[@rahimi2021bpage]
+[@rahimi2021bpageappx], so the dementia
+benefit comes with the same treatment. It is not a brain-specific add-on.
+
+**At 85 and over the heart case is less certain, not absent.** In the collaboration's age-split
+analysis, the hazard ratio for major cardiovascular events per 5 mmHg lower systolic pressure was 0.91
+(0.87-0.96) at 75-84 and 0.99 (0.87-1.12) at 85 and over, a borderline age interaction (p=0.050).
+Absolute reductions went the other way and were larger in older groups (p-interaction 0.024)
+[@rahimi2021bpage]. These bands pool people with and
+without prior heart disease, and drug-versus-drug and intensity trials as well as placebo-controlled
+ones.
+
+The authors keep chance open as an explanation for the shrinking relative effect, but they also note
+that interaction tests are conservative and offer a possible reason for a real decline: the oldest
+group was treated for only about half as long as the youngest
+[@rahimi2021bpage]. On that reading the 0.99 is the
+relevant figure for someone with a short horizon. In placebo-controlled trials alone, the
+85+ estimate for major cardiovascular events was 1.07 (0.89 to 1.29), per trial contrast rather than
+per 5 mmHg
+[@rahimi2021bpageappx].
+
+For people past 85 who resemble trial participants, starting treatment is reasonable to consider but
+held less firmly than at 55-84. The trials under-represented frail people, people with
+many conditions and medicines, and care-home residents
+[@rahimi2021bpage]; for them, starting is an individual
+trade-off -> [[Frailty]]. These bands count heart events, not dementia
+-> [[Blood Pressure Lowering and Cardiovascular Events]].
 
 Peters tested for non-linearity and found none substantive
 [@peters2022bp], so the observational hint that
@@ -122,8 +155,21 @@ contested. Iso-Markku's meta-analysis finds the association survives long follow
 individual-participant analysis finds it **vanishes beyond ten years (HR 1.01, 0.89-1.14)**, consistent
 with reverse causation — the dementia prodrome makes people less active years before diagnosis
 [@kivimaki2019inactivity]. The clean evidence in both
-nearly converges on the null -> [[Does Physical Activity Protect Against Dementia Beyond Ten Years]]. Be
-active regardless — the vascular warrant is not in dispute; the brain-specific one is insufficient.
+nearly converges on the null -> [[Does Physical Activity Protect Against Dementia Beyond Ten Years]].
+
+Measured fitness shows a larger association on a much smaller evidence base. In Lang's umbrella
+review, people with high rather than low cardiorespiratory fitness had **HR 0.36 (0.27-0.49)** for
+incident dementia, a row Lang grades **very low** certainty
+[@lang2024crf].
+
+That row rests on one meta-analysis of 3 cohorts (n=11,694) with follow-up of 6-38 years, and Lang
+downgraded such incident outcomes partly for largely male samples
+[@lang2024crf].
+The follow-up is not split by length and Lang reports no exclusion of early cases, so the figure cannot
+rule out the same reverse causation. It is a different contrast from the activity estimate and
+**does not show that fitness matters more than activity** ->
+[[Cardiorespiratory Fitness and Mortality]].
+Be active regardless — the vascular warrant is not in dispute; the brain-specific one is insufficient.
 
 ### Hearing loss — a large marker, a weak treatment lever
 
@@ -144,6 +190,8 @@ Higher cognitive engagement across life is associated with lower risk — mental
 -> [[Cognitive Stimulation at Work and Dementia]]. These support the
 **cognitive-reserve** idea but are observational and hard to separate from
 lifelong confounders. Reasonable to favor, weak as a claimed intervention.
+
+</div>
 
 ## Diet and single foods: the signal fades at the diagnosis
 
@@ -204,6 +252,8 @@ them at the certainty the evidence supports, not above it.
 - **The loop is open** (R1): no source here grades a lever against a realized dementia outcome under a
   lifetime of intervention. A clean appraisal is not a validated promise.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What to do
 
 **Pull the cardiometabolic rocks early and keep them pulled** — blood pressure, glucose, weight, LDL,
@@ -221,9 +271,11 @@ starting at high cardiovascular risk — worth doing, honestly small.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult who wants to lower their risk of dementia: which modifiable exposures change dementia incidence versus only a cognitive-test score, what does a dedicated multidomain brain-health bundle do relative to acting on single cardiometabolic levers, how large is each effect in absolute terms, and does a person''s baseline risk change what the bundle achieves?' |
-> | **Evidence included** | 23 sources — 16 gold, 7 high |
+> | **Evidence included** | 26 sources — 19 gold, 7 high |
 > | **Overall certainty** | **Low-moderate** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dementia%20Prevention.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dementia%20Prevention.md) |
+
+</div>
 
 ## References

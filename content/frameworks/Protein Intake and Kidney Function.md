@@ -98,8 +98,6 @@ raised GFR «alone is not evidence that the risk of CKD is modified».
 
 
 [@devries2018]
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Scope — how far the null reaches, and where it stops
 
 The included populations were healthy, obese, hypertensive, and **type-2-diabetic** adults with normal
@@ -117,7 +115,6 @@ contraindication is real and narrow — it is a flip for a defined diseased stra
 that erodes the healthy-adult target. For the drug side of the diseased stratum see
 [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
 
-</div>
 
 ## The second source (Van Elswyk 2018) — same direction, different lineage, and four new arms
 
@@ -265,8 +262,6 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   [@devries2018]
 
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Decision relevance
 
 - **For a healthy adult, kidney worry is not a reason to hold protein below the muscle/older-adult
@@ -290,8 +285,6 @@ consistent with the healthy-kidney null, and if anything nudging the source ques
   horizon*, on low-certainty surrogate evidence from one research lineage with commercial funding, but
   concordant with independent guidance. That is enough to defuse the objection; it is not enough to say
   *proven safe at any dose indefinitely*.
-
-</div>
 
 ## Limits
 

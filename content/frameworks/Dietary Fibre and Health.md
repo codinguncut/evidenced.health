@@ -22,7 +22,7 @@ relationships:
     - Dietary Patterns and COPD Risk
     - Low-FODMAP Diet for IBS
 created: 2026-07-29
-updated: 2026-10-22
+updated: 2026-11-10
 self_critiqued: 2026-10-06
 ---
 
@@ -34,6 +34,8 @@ strongest evidence sits on the smallest effect.**
 
 
 [@reynolds2019] [@brown1999]
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The bottom line
 
 - **The big, impressive numbers are observational.** Highest-vs-lowest fibre intake tracks a **15-30%
@@ -62,6 +64,8 @@ strongest evidence sits on the smallest effect.**
 - **So: eat enough fibre, don't expect a miracle.** It is a genuine supporting lever — worth reaching
   \~25-30 g/day — but its measured causal effect (on the surrogate we can trial) is modest, and the large
   mortality numbers should not be read as if they were RCT-proven.
+
+</div>
 
 ## The two legs are DIFFERENT quantities (BLOCKING parameter table — op-weave 2a)
 

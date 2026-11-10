@@ -19,7 +19,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-10-22
+updated: 2026-11-10
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -370,6 +370,8 @@ Willett gives the formula (Beaton) `n = (Z_alpha x CV_w / D)^2` [@willett]; work
 at CV_w = 62% — it comes to **about 37 days of records**. **That is the scale of the problem** — and it is why a single 24-hour
 recall cannot support an individual-level exposure claim, however large the study.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Differential error, quantified — the underreporting gradient runs with adiposity `[2026-07-28, Willett ch.4]`
 
 This page holds the non-differential/differential split as a distinction. **Chapter 4 supplies the
@@ -473,6 +475,8 @@ against a cutpoint. **The two failures the wiki should keep separate:** a thresh
 located (a claim about the evidence) *or* well located and unmeasurable in practice (a claim about the
 instrument). **Chapter 4 speaks only to the second.**
 [inferred from @willett]
+
+</div>
 
 ## A validity coefficient is itself biased — correlated error inflates it `[2026-07-28, Willett ch.6]`
 

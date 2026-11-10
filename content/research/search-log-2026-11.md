@@ -161,3 +161,110 @@ title: "Search log: November 2026"
 - **Acquisition-requested:** none fetched in this pass. OA routes: Edwards (BMJ PDF), Wu (Springer PDF),
   Díaz Goñi (Nature PDF), Liddle (Teesside repository), Kjaergaard (PMC12012764). Maintainer-drop: Takeuchi
   2024, Eisa 2026.
+- [2026-11-04] openalex fetch "10.1136/bjsports-2022-106503 10.1007/s40279-024-01993-7 10.1038/s44220-026-00599-4 10.1007/s40279-023-01950-w 10.1210/clinem/dgae393" -> 0 hits: (none)
+- **[2026-11-04] sweep-10 OA fetch (acquisition update to the record above).** `openalex.py fetch` on the
+  five OA routes: Wu 2024 (Springer PDF, 19pp) and Díaz Goñi 2026 (Nature PDF, 18pp) -> `inbox/`, first
+  pages verified. Edwards 2023: OpenAlex `pdf_url` and local `fetch_browser.py --download` both returned
+  the BMJ article HTML page, not a PDF (deleted; no paper HTML). Kjaergaard 2024: Europe PMC
+  `fullTextXML` -> HTTP 500 (not in the OA XML subset); `europepmc.org/articles/PMC12012764?pdf=render` ->
+  403 (curl and local Chromium). Liddle 2023: OpenAlex has no PDF; the Teesside repository's accepted
+  manuscript (`research.tees.ac.uk/files/62554152/...pdf`) -> 403 (curl and local Chromium). Maintainer-drop:
+  Edwards, Kjaergaard, Liddle, plus the paywalled Takeuchi 2024 and Eisa 2026.
+
+## [2026-11-04] SELECTION RECORD — process inbox (sweep-10 folds; maintainer drop + manual supplement fetch)
+
+- **Query:** no search. Manual channel (hand-logged): one direct fetch of the Edwards 2023 BJSM supplement at
+  `https://bjsm.bmj.com/content/bjsports/57/20/1317/DC1/embed/inline-supplementary-material-1.pdf` (the BMJ DC1
+  pattern), after the main text arrived without a league table.
+- **Results:** HTTP 200, 44pp PDF (Tables S5-S14: SUCRA and node-split network contrasts with CrIs). Maintainer drop:
+  Edwards 2023 main text (11pp), Eisa 2026 (10pp), Liddle 2023 accepted manuscript (36pp). Already in `inbox/` from
+  the OA fetch: Wu 2024, Díaz Goñi 2026.
+- **Adjudication:** all six STAGED to `raw/binary/papers/` with gold registry rows (the appendix as its own
+  `<slug> Appendix` row, same work as the parent, never type-E against it). Plan-queue #28 verdicts: INGEST 37-41,
+  DEFER 42 (Díaz Goñi: no decision flips; G recorded). None cut.
+- **Acquisition-requested:** still maintainer-drop: Kjaergaard 2024 (`10.1210/clinem/dgae393`) and Takeuchi 2024
+  (`10.1007/s11332-024-01213-9`).
+- [2026-11-05] openalex search "Pagonas isometric handgrip aerobic hypertension" -> 0 hits: (none)
+- [2026-11-05] openalex search "home-based isometric handgrip endurance training hypertension" -> 0 hits: (none)
+- [2026-11-05] openalex search "Healthy weight loss maintenance with exercise liraglutide or both combined" -> 3 hits: https://doi.org/10.1056/nejmoa2028198; https://doi.org/10.1056/nejmc2109509; https://doi.org/10.3410/f.740056883.793591402
+- [2026-11-05] openalex search "Aerobic versus isometric handgrip exercise in hypertension" -> 2 hits: https://doi.org/10.1097/hjh.0000000000001445; https://doi.org/10.1097/hjh.0000000000001566
+- [2026-11-05] openalex search "comparing home-based isometric handgrip exercise versus endurance training for blood pressure management" -> 1 hits: https://doi.org/10.1016/j.jash.2018.01.007
+- [2026-11-05] openalex fetch "10.1016/j.jash.2018.01.007" -> 0 hits: (none)
+- [2026-11-05] openalex fetch "10.1056/NEJMoa2028198" -> 0 hits: (none)
+
+## [2026-11-05] SELECTION RECORD — DOI resolution for the Gate 62 maintainer-acquisition items
+
+**Query (1).** OpenAlex `search` (title, no type filter), five queries plus two `fetch` calls, listed in the auto-log
+lines just above. Targets: Pagonas 2017 and Goessler 2018 (the direct isometric-handgrip-in-hypertension trials, Gate
+62 corrective 6) and Lundgren 2021 (S-LiTE, exercise vs liraglutide vs both for weight-loss maintenance).
+
+**Results (2).** The two paraphrased queries (*Pagonas isometric handgrip aerobic hypertension*, *home-based isometric
+handgrip endurance training hypertension*) returned 0. Attribution: a **tool artifact** (OpenAlex title-search
+strictness on paraphrase), not literature absence. Both trials are cited by Edwards (refs 62 and 63); re-querying
+with the exact titles from that reference list (located with `srcgrep.py`) returned each trial first.
+
+**Adjudication (3).**
+
+- SELECTED `10.1097/HJH.0000000000001445` — Pagonas, J Hypertens 2017;35:2199-2206. The trial itself.
+- REJECTED `10.1097/hjh.0000000000001566` — a commentary on Pagonas in the same journal, not the trial.
+- SELECTED `10.1016/j.jash.2018.01.007` — Goessler, J Am Soc Hypertens 2018. The trial itself.
+- SELECTED `10.1056/NEJMoa2028198` — Lundgren, NEJM 2021;384:1719-1730. The trial itself.
+- REJECTED `10.1056/nejmc2109509` — correspondence on Lundgren, not the trial.
+- REJECTED `10.3410/f.740056883.793591402` — a Faculty Opinions recommendation entry, not the trial.
+
+DOIs written into the three placeholder registry rows (`sources.md`, rows still `[NOT YET HELD]`).
+
+**Acquisition (4).**
+
+- Goessler: FETCHED to `inbox/` (accepted manuscript, KU Leuven Lirias repository, 25 pp). Awaits *process inbox*.
+- Pagonas: no OA copy found; paywalled -> maintainer-drop.
+- Lundgren: `openalex fetch` HTTPError; `fetch_browser.py --download` HTTP 403 (NEJM bot wall, not defeated) ->
+  maintainer-drop, URL handed to the maintainer.
+
+## [2026-11-05] SELECTION RECORD — process inbox (Gate 62 acquisition items)
+
+**Query (1) / results (2).** No new search; intake of the three trials resolved in the record above.
+
+**Adjudication (3).**
+
+- SELECTED, STAGED `Pagonas - Aerobic vs Isometric Handgrip Hypertension RCT 2017` (maintainer drop, published J
+  Hypertens PDF, 8pp). 3-arm RCT, n=75 hypertensives. Tier `moderate` [downgrade: small single RCT], admitted by
+  override as the direct head-to-head test the indirect Edwards network lacks.
+- SELECTED, STAGED `Goessler - Isometric Handgrip vs Endurance Training RCT 2018` (self-fetched AAM). Correction to the
+  record above and to the registry placeholder: the population is 60 healthy adults (mean BP 126.9/84.7), not
+  hypertensives, so it bears on the normal/high-normal stratum. Tier `moderate`, override as for Pagonas.
+- SELECTED, STAGED `Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021` (maintainer drop, published NEJM PDF,
+  12pp). 4-arm RCT, n=195; lean mass reported in the main paper's tables. Tier `high`. Supplementary Appendix not held.
+
+**Acquisition (4).** All three in `raw/binary/papers/`. Kjaergaard 2024 and Takeuchi 2024: maintainer could not
+obtain; parked (see `ingest-queue.md` block I).
+
+## [2026-11-06] SELECTION RECORD — S-LiTE Supplementary Appendix (parent cold-audit C1)
+
+**Query (1).** No search; direct fetch of the NEJM supplement for `10.1056/NEJMoa2028198` via `fetch_browser.py --download`,
+URL `https://www.nejm.org/doi/suppl/10.1056/NEJMoa2028198/suppl_file/nejmoa2028198_appendix.pdf` (NEJM supplement pattern).
+
+**Results (2).** HTTP 403 (NEJM bot wall, same as the main paper on 2026-11-05). Not defeated.
+
+**Adjudication (3).** SELECTED `Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix` (placeholder row,
+`[NOT YET HELD]`): the paper states end points without hypotheses, lean mass among them, are reported with 95% CIs, and
+the held main text prints SE bars only, so the lean intervals the flip test on [[GLP-1 and Lean Mass]] needs are probably
+there. Also holds Tables S7-S10 and the RAND-36 physical-functioning values by arm.
+
+**Acquisition (4).** Blocked -> maintainer-drop, URL handed to the maintainer.
+
+## [2026-11-06] SELECTION RECORD — process inbox (Carlson 2016, S-LiTE appendix)
+
+**Query (1) / results (2).** No new search; maintainer drops answering the Carlson `[AWAITS]` (Goessler ref 23) and the
+appendix request in the record above.
+
+**Adjudication (3).**
+
+- SELECTED, STAGED `Carlson - Isometric Handgrip Training RCT 2016` (Medicine 2016;95:e5791, DOI
+  10.1097/MD.0000000000005791, OA, 7pp). 2-arm RCT, n=40 hypertensives, 30% vs 5% MVC. Tier `moderate` [downgrade:
+  tiny-n], admitted by override as the second sham-controlled handgrip trial. Lineage note: last author Smart co-wrote
+  the Cornelissen & Smart 2013 MA that Goessler builds on.
+- SELECTED, STAGED `Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix` (NEJM supplement, 39pp).
+  Tier `high`, same work as the held main paper.
+
+**Acquisition (4).** Both in `raw/binary/papers/`. The NEJM 403 above is resolved by the maintainer drop.

@@ -63,8 +63,6 @@ and largely **one experimental paradigm** (human endotoxemia — injecting LPS/E
 watching the cytokine response). Nine papers reduce to a handful of independent tests. No independent
 group has replicated the endotoxemia result.
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Evidence state by outcome — one surrogate signal, everything else mixed or insufficient
 
 The review separated outcomes into physiological (stress, inflammation, metabolites, respiratory,
@@ -105,8 +103,6 @@ potentiated the immune response (IL-10 p<0.05, epinephrine p<0.01). [@almahayni2
 **Patient-important physical outcomes (mortality, CV events, incident disease) — NOT MEASURED.** No
 trial examined a hard endpoint or long-term outcome. This is the decision-relevant void: the whole
 evidence base is short-term surrogates in tiny samples.
-
-</div>
 
 ## Component decomposition — the breathing pillar drives the signal; cold alone is null
 

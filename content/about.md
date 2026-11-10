@@ -17,8 +17,6 @@ maintained** — because a big part of trusting it is understanding how the page
 narrower question of *how far* to trust it — where judgment enters, and what it deliberately does not do —
 see [Can you trust this guide?](trust)
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Part 1 — What it is, and how it judges
 
 ### What makes it different
@@ -92,10 +90,6 @@ Not all evidence is equal, and we try not to pretend otherwise.
 - **The loop is open.** This grades whether the reasoning is internally sound and faithful to its sources —
   **not** whether following it made anyone better off. A clean, well-sourced page can still be wrong about
   the world. Nothing here has been tested against real outcomes, and we don't pretend otherwise.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Part 2 — How it is built and maintained
 
@@ -208,5 +202,3 @@ For where judgment enters, who maintains it, the calibrated language, and how to
 [Can you trust this guide?](trust)
 
 [← Back to the guides](.)
-
-</div>

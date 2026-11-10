@@ -23,6 +23,7 @@ sources:
   - Kunutsor - Adverse Events Exercise Osteoporosis Osteopenia Systematic Review 2018
   - Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024
   - Lauersen - Exercise Interventions Prevent Sports Injuries Meta-Analysis 2013
+  - Liddle - Injury Prevention Adult Recreational Athletes 2023
   - Marin-Jimenez - 2-km Walk Test Validity Reliability 2023
   - Momma - Muscle-Strengthening Activities and Mortality 2022
   - Niemeijer - Exercise Therapy Adverse Events 2020
@@ -37,16 +38,15 @@ sources:
   - Sherrington - Exercise Preventing Falls 2019
   - Silva - Implementation Intentions Physical Activity Meta-Analysis 2018
   - WHO - Physical Activity Web Annex Evidence Profiles 2020
+  - Wu - Injury Prevention Endurance Runners 2024
   - Zhang - Resistance Training Duration Mortality 2026
   - Zheng - Interventions Prolong Healthspan RCT Systematic Review 2026
 confidence: low
 created: 2026-10-05
-updated: 2026-11-03
+updated: 2026-11-06
 concrete_subject_audited: 2026-11-03
 self_critiqued: 2026-11-03
 ---
-<div class="recent-page" data-last-updated="2026-11-03"></div>
-
 
 ## Walk most days and lift twice a week, and build both slowly over the first three months
 
@@ -234,14 +234,27 @@ against usual care. The effect did not differ detectably between trials with a m
 
 **Things to watch: injury and safety**
 
-- Stretching does not prevent injury, RR 0.963 (0.846-1.095)
+- Stretching is not shown to prevent injury. Three trials pooled to RR 0.963 (0.846-1.095)
   [@lauersen2013injury],
-  and does not meaningfully relieve next-day soreness
+  an interval running from about a 15% cut to a 10% rise. Most of those injuries come from
+  one trial in general adults, and Lauersen's counts for it give a crude ratio of about 0.94.
+  Liddle gives the same trial HR 0.75 (0.59-0.96), and its table lists the trial's outcome as overall
+  injuries and soreness
+  [@liddle2023effects].
+  Which outcome that HR covers is not stated, so the two readings stay unresolved: insufficient evidence,
+  not a tight null. Stretching does not meaningfully relieve next-day soreness
   [@herbert2011stretch].
   No held source sets a warm-up dose. -> [[Flexibility Training and Stretching]]
 - Avoid eccentric-only sessions at the start: they can cause severe muscle damage and soreness
   [@garber2011acsm].
   -> [[Exercise Interventions and Sports Injury Prevention]]
+- With osteoporosis, swap repeated forward-bending exercises of the spine for extension work, on what the
+  authors call limited evidence of fracture harm
+  [@kunutsor2018adverse];
+  if frail, start lower, ideally with guidance. -> [[Exercise Safety in Osteoporosis]], [[Frailty]]
+
+**Running, if you take it up**
+
 - Leave running out of the first months: a practice default for unconditioned tissue.
   Higher BMI (aOR 1.17 per unit, 1.10-1.24) and a past knee injury (aOR 2.67, 1.41-5.05) raise the odds of radiographic knee OA
   [@duong2025kneeoa]. Hip or knee OA in
@@ -252,10 +265,16 @@ against usual care. The effect did not differ detectably between trials with a m
   insufficient evidence rather than a null.
   [@damsted2018]
   -> [[Training Load Progression and Running Injury]]
-- With osteoporosis, swap repeated forward-bending exercises of the spine for extension work, on what the
-  authors call limited evidence of fracture harm
-  [@kunutsor2018adverse];
-  if frail, start lower, ideally with guidance. -> [[Exercise Safety in Osteoporosis]], [[Frailty]]
+- A runner may try an injury-prevention programme as this card's optional default, not a tested one
+. Wu finds such programmes do not appear to reduce injury, and calls supervised sessions
+  two to four times a week most likely to help. Only four of nine trials used strength exercises, at
+  relatively low volume; Baltich, the one low-risk-of-bias trial, had more injuries in the programme
+  arm, its interval crossing no effect; no harms outcome is reported
+  [@wu2024exercise]. Exponentiated, risk is RR 0.81
+  (0.63-1.05; 7 trials), rate IRR 0.86 (0.64-1.16; 6 trials): insufficient evidence, not a null. The
+  supervised split is post hoc and tied to compliance, so a hypothesis; silence on harms is not proof
+  of safety.
+  -> [[Exercise Interventions and Sports Injury Prevention]]
 
 ## Pick the mode you will keep doing; add intervals later, for time, not because you must
 
@@ -448,9 +467,9 @@ what happens to people who follow it, and it covers health only.
 > | | |
 > |---|---|
 > | **Question** | 'For a median obese, sedentary, untrained, inactive middle-aged adult in a developed country whose objectives are quality of life, functional capacity, and a function-held-then-rapid-decline trajectory (the centenary decathlon): what does the evidence show about aerobic AND resistance training, as co-led questions, for cardiorespiratory fitness, strength, and function together; what is the SIMPLEST weekly program that could plausibly be adequate — the minimum that could work — if a dose threshold is even the right framing, across acquisition and maintenance, accounting for modality, frequency / volume / intensity and measurement, adherence, connective-tissue conditioning, injury, impact, and compensation?' |
-> | **Evidence included** | 35 sources — 23 gold, 8 high, 4 moderate |
+> | **Evidence included** | 37 sources — 25 gold, 8 high, 4 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Marin-Jimenez (method, moderate); Oja (method, moderate); Ross (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
+> | **Last updated** | 2026-11-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Minimal%20Exercise%20for%20Quality%20of%20Life.md) |
 
 ## References

@@ -99,8 +99,6 @@ causally raises it), not a dietary-harm signal -> [[Branched-Chain Amino Acids a
 Same amino acids, opposite decision roles; the confusion would wrongly read *eat more leucine for muscle*
 against *high BCAA predicts diabetes*. [inferred from @wang2017bcaa]
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Not independent backing — one research programme
 
 [inferred from @bauer2013; @moore2014; @katsanos2006]
@@ -118,8 +116,6 @@ The convergence raises coherence, not confidence-through-independence. Genuinely
 confirmation (a different school, a hard-outcome trial) is a standing gap — **now partly filled by
 Komar 2015 (below), a different-school chronic-outcome MA; it confirms the DIRECTION on mass but
 deflates the surrogate optimism on strength.**
-
-</div>
 
 ## The chronic-outcome test — does the acute MPS surrogate translate? (Komar)
 

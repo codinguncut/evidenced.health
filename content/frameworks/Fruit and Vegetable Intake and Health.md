@@ -3,13 +3,13 @@ type: framework
 question: How is fruit and vegetable intake associated with cardiovascular disease, cancer, all-cause mortality and cognitive outcomes — magnitude per unit intake, dose-response shape and studied range, for whom, and does the association differ by type or form?
 aliases: [Fruit and Vegetable Intake, Fruits and Vegetables, Fruit and Vegetables, F&V Intake, Five a Day, 5 a Day, Ten a Day, Fruit Intake, Vegetable Intake, Fruit and Vegetable Consumption]
 authors: [Aune, Dagfinn; Giovannucci, Edward; Boffetta, Paolo; Fadnes, Lars T; Keum, NaNa; Norat, Teresa; Greenwood, Darren C; Riboli, Elio; Vatten, Lars J; Tonstad, Serena; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Schlesinger, Sabrina; Zhou, Yuhan; Wang, Jieyuan; Cao, Limin; Shi, Mengyuan; Liu, Huiyuan; Zhao, Yuhong; Xia, Yang]
-sources: [Aune - Fruit Vegetable Mortality 2017, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
+sources: [Aune - Fruit Vegetable Mortality 2017, Aune - Fruit Vegetable Mortality 2017 Appendix, NNR - Nordic Nutrition Recommendations 2023, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022]
 cluster: plant-foods
 nucleus: true
 confidence: low
 created: 2026-08-13
-updated: 2026-10-22
-self_critiqued: 2026-10-22
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 relationships:
   related_to:
     - Nut Consumption and Mortality
@@ -68,27 +68,42 @@ layered in; and *potatoes/legumes handled as subtypes*, but legumes do not appea
   -> [[Dietary Fibre and Health]], [[Potassium Intake and Blood Pressure]].
 
 [@aune2017fv]
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Dose-response SHAPE — outcome-specific, and the "lowest risk" is the study-edge
 
 Display: nonlinear dose-response from restricted cubic splines (three knots), on a studied range whose
 upper end is \~800 g/day. Lowest observed risk: **total cancer at 550-600 g/day (7-7.5 servings)** with
-«little evidence of further reductions» above — the one *located* plateau on the combined exposure;
+«little evidence of further reductions» above, a plateau on point estimates whose 800 g/day interval
+still fits a shallow gradient (*The intervals behind the point reads*, below);
 **CHD, stroke, CVD and all-cause reach their lowest at 800 g/day (10 servings)**, «which was at the
 high end of the range of intake across studies»
 [@aune2017fv]
 — *«a level of intake that is double the five servings per day (400 g/day) currently recommended»*
 [@aune2017fv]
+(refined 2026-11-10: the combined-F&V spline tables print rows to 900 g/day for CHD, stroke, CVD and
+total cancer and to 830 g/day for all-cause, and in the incidence/mortality columns the lowest printed
+CHD, stroke and CVD rows are the 900 g/day rows; intervals in *The intervals behind the point reads*, below.)
+[@aune2017fvappx]
+Aune places 800 g/day «at the high end of the range of intake across studies», which puts it inside the
+high end, not at a stated maximum. The rows past 800 g/day probably rest on few studies, so they do not
+move the studied-range edge, which stays \~800 g/day. How few is not checked here: the
+appendix study-characteristics tables (Supplementary Tables 2-7) that could count them are not
+extracted (refined 2026-11-10). (superseded 2026-11-10: the opener previously called cancer *the one
+located plateau on the combined exposure*; by the interval rule below cancer fits a plateau and a
+shallow gradient alike.)
 
 | Outcome (F&V combined) | Reduction at 500 g/day | at 800 g/day | Share of the 800 g reduction reached by 500 g | Nonlinearity |
 |---|---|---|---|---|
 | CHD | 16% | 24% | \~2/3 | **none** (P 0.30) |
 | Stroke | 28% | 33% | \~85% | yes |
 | CVD | 22% | 28% | \~80% | yes |
-| Total cancer | 13% | 14% | \~93% (lowest at 550-600 g) | yes |
+| Total cancer | 13% | 14% | \~93% (lowest point estimate at 550-600 g) | yes |
 | All-cause | 27% | 31% | \~87% | yes |
 
 Reductions are vs 0-40 g/day, read off the splines [@aune2017fv];
-point estimates only — the CIs sit in Aune's Supplementary Tables 8-18, not held. The share column is
+point estimates only — the CIs sit in Aune's Supplementary Tables 8-18, not held (superseded
+2026-11-10: the intervals from Supplementary Tables 8-18 are in the subsection below). The share column is
 this page's arithmetic on those points. Both cancer figures appear in the source: the Discussion gives 13% at 500 and 14% at 800 g/day, and the
 Results give 14% «for intakes of 550– 600 g/day», with «little evidence of further reduc- tions in risk
 with higher intakes». [@aune2017fv]
@@ -96,11 +111,16 @@ with higher intakes». [@aune2017fv]
 g/day* wrong; it is supported by the Results sentence, and the 500/800 g figures come from the
 Discussion. Share for cancer also corrected from \~90% to \~93%.)
 
-- **800 g/day is the sampling edge, not a demonstrated optimum.** It is where the studied range thins
-  out, so read it as the upper edge of the studied range — the lowest *observed* risk, not a
-  demonstrated optimum and not a point-target — the [[The Underivable Optimum]] rule. (corrected
-  2026-10-22: previously *a floor-for-most-benefit region*, which read literally put most of the
-  benefit at \~800 g and contradicted the low-end-steepness reading below.)
+- **The lowest risk sits at the sampling edge, not at a demonstrated optimum.** Aune reports it at
+  800 g/day, where the studied range thins out, so read it as the upper edge of the studied range —
+  the lowest *observed* risk, not a demonstrated optimum and not a point-target — the
+  [[The Underivable Optimum]] rule. (corrected 2026-10-22: previously *a floor-for-most-benefit
+  region*, which read literally put most of the benefit at \~800 g and contradicted the low-end-steepness
+  reading below.) The appendix tables print rows to 830-900 g/day, and for CHD, stroke and CVD the
+  lowest printed RR is the 900 g/day row, the last one. That row lies past the 800 g/day that Aune
+  places at the high end of the intake range, so the printed minimum is simply the end of the
+  tabulation: the studied-range edge is \~800 g/day and the tabulation runs a little beyond it, on
+  probably few studies and the spline's straight tail.
 - **Where the curve is steep at the low end, and where it is not — outcome-specific.** For all-cause,
   stroke and cancer most of the reduction to 800 g is reached by \~500 g/day (this page's
   arithmetic on the table above; all-cause steepest up to \~400 g/day), so the 9th-10th serving adds
@@ -114,28 +134,135 @@ Discussion. Share for cancer also corrected from \~90% to \~93%.)
   spline in Aune's supplementary tables (not held), so until then the formal combined test (P 0.30)
   stands. (corrected 2026-10-22: previously called *the anomaly* and dismissed as *a
   per-food-group display artifact as much as a biology claim*, untagged and untested.)
-- **A second team, same CHD reading for vegetables.** In the DIfE series, vegetables -> CHD showed no
+  (superseded 2026-11-10: the combined spline table, Supplementary Table 8, prints Pnonlinearity 0.30 for
+  incidence/mortality, 0.81 for incidence and 0.06 for mortality; the incidence/mortality column runs
+  from 0.84 (0.81-0.86) at 500 g/day to 0.73 (0.71-0.76) at 900 g/day, against a 35.6 g/day reference.
+  [@aune2017fvappx]
+  Fruits and vegetables separately are nonlinear for CHD (both <0.0001); in their incidence/mortality
+  columns fruits run 0.81 (0.76-0.87) at 500 g/day to 0.79 (0.70-0.90) at their 800 g/day top row, and
+  vegetables 0.72 (0.68-0.76) at 400 g/day to 0.70 (0.65-0.74) at their 600 g/day top row.
+  [@aune2017fvappx]
+  Read row by row, the combined column falls by about 0.01-0.02 per 50 g over its whole range, so the
+  combined curve is near-linear in the table as well as in the test; past its outer knot (the 90th
+  percentile of intake, a g/day value the held text does not give) a restricted cubic spline is
+  straight by construction, so the top rows probably could not bend. Why the combined curve keeps
+  falling while each separate curve flattens at its top is not explained in the held text: a named gap,
+  type-G.)
+  (refined 2026-11-10: the contrast is partly explicable from rows on this page. A given combined intake
+  splits between fruit and vegetables, so each component sits lower on its own axis than the combined
+  total does on the combined axis. The fruit column's flattening is a pooled column whose
+  mortality-only counterpart keeps falling (0.69 at 800, p nonlinearity 0.95; fruit and CHD
+  *incidence*, below).
+  [@aune2017fvappx]
+  And on point estimates a pooled column need not lie between its two halves: in the fruit -> stroke
+  table, at the 700 g/day row that all three columns print, the pooled column reads 0.84 (0.74-0.97),
+  above both the incidence column's 0.77 (0.67-0.90) and the mortality column's 0.55 (0.43-0.70).
+  [@aune2017fvappx]
+  The pooled and incidence intervals each contain the other's point, so the interval rule does not
+  show that ordering; it only shows that the pooled column cannot be assumed to blend its halves,
+  which fits each column pooling a different set of studies, and curves fitted on different study
+  sets cannot be compared as a biological contrast. What remains is
+  narrower: whether the combined and separate CHD shapes differ on a common study set is not testable
+  from the tables, type-G.)
+- **A second team, the same vegetables -> CHD shape to 480-500 g/day, at a smaller magnitude.** (superseded 2026-11-10:
+  the lead previously claimed *the same CHD reading for vegetables*; the matched table below shows
+  the same shape to 480-500 g/day, a smaller reduction and a different result on the nonlinearity test.)
+  In the DIfE series, vegetables -> CHD showed no
   nonlinearity (pnon-linearity 0.19, 13 studies) and «Additional beneﬁt for increasing intake is
   apparent above this value for CHD but not for stroke», the value being \~400 g/d; fruit -> CHD/stroke
   flattened at \~200 g/d («No beneﬁt for increasing intake was apparent above this value»; fruit ->
   stroke showed no formal nonlinearity, pnon-linearity 0.54). Points read off splines; no CI in the
-  text. The spline figures' x-axes run \~0-600 g/d (vegetables and fruit), so the CHD reading is bounded
+  text (Bechthold's Table 1 tabulates the CHD curves with CIs; matched table below). The spline
+  figures' x-axes run \~0-600 g/d (vegetables and fruit), so the CHD reading is bounded
   there; the wider 0-1,300 g/d (vegetables) and 0-1,820 g/d (fruit) are the overall intake ranges of
-  the studies in the high-vs-low analyses, not the curve's display range. (corrected 2026-10-22: previously gave only the
+  the studies in the high-vs-low analyses, not the curve's display range. (corrected 2026-10-22:
+  previously gave only the
   pooled high-vs-low ranges, which read as the curve's studied range.)
   [@bechthold2019]
   Not independent of Aune: the two pool heavily overlapping cohorts.
-- **So *protective exposures plateau* is outcome-specific here.** A plateau is *located* for total
-  cancer (550-600 g/day, combined), for fruit-alone on all-cause and CHD (\~200-300 g/d, DIfE series)
+
+  Matched on the same exposure (vegetables -> CHD), with Bechthold's cells taken from its Table 1,
+  the parameters are:
+
+  | Parameter | Aune, vegetables -> CHD | Bechthold, vegetables -> CHD | Same quantity? |
+  |---|---|---|---|
+  | Model | restricted cubic spline, three knots at the 10th, 50th and 90th percentiles [@aune2017fv] | restricted cubic spline, three fixed knots at 10%, 50% and 90% of the reported intake [@bechthold2019] | yes |
+  | Outcome | pooled column: incidence and mortality studies; separate incidence column [@aune2017fvappx] | studies reporting only fatal outcomes excluded [@bechthold2019] | incidence column: the closer match; pooled column: no |
+  | Reference, unit | 0 g/day (pooled and incidence columns) [@aune2017fvappx] | 0 servings/day; 1 serving = 80 g/d [@bechthold2019] | yes, at 80 g a serving |
+  | RR at 400 g/day | pooled 0.72 (0.68-0.76); incidence 0.79 (0.74-0.84) [@aune2017fvappx] | 5 servings: 0.88 (0.83-0.92) [@bechthold2019] | incidence cell: yes, intervals overlap at 0.83-0.84; pooled cell: no (Outcome row), its interval does not overlap |
+  | RR near 500 g/day | 500: pooled 0.71 (0.67-0.75); incidence 0.78 (0.73-0.83) [@aune2017fvappx] | 6 servings (480 g/d): 0.87 (0.82-0.92) [@bechthold2019] | approximately (500 vs 480 g/day) |
+  | Top tabulated row | pooled 600: 0.70 (0.65-0.74); incidence 550: 0.77 (0.72-0.82) [@aune2017fvappx] | 6 servings (480 g/d), the table's last column [@bechthold2019] | no: different tabulated ranges |
+  | Test for nonlinearity | <0.0001 (pooled and incidence) [@aune2017fvappx] | 0.19, 13 studies [@bechthold2019] | yes (same test type); the results differ |
+
+  Bechthold's words for the cells: «There was no evidence of a non-linear dose-response associ- ation
+  for CHD (pnon-linearity D 0.19, n D 13 studies), but there was for stroke (pnon-linearity D 0.03, n D
+  8 studies). The risk of CHD and stroke decreased by approximately 12% with increas- ing intake of
+  vegetables up to »400 g/d.» [@bechthold2019]
+  (In the extracted text `»` stands for *approximately* and `D` for `=`.)
+
+  Shape, over the range both tables print: from \~400 to 480-500 g/day both tabulated curves fall by
+  about 0.01 (Bechthold 0.88 to 0.87 at 480; Aune 0.72 to 0.71 at 500), so the point-estimate shapes
+  agree there, and each later interval contains the 400 g/day point, so neither table shows a
+  further step.
+  [@bechthold2019]
+  [@aune2017fvappx]
+  Bechthold's *additional benefit apparent above this value* rests on its spline figures, not its
+  table: «Additional beneﬁt for increasing intake is apparent above this value for CHD but not for
+  stroke (Figure 2 and 3).»
+  [@bechthold2019]
+  The figures run to \~600 g/d and Table 1 stops at 480 g/d, so the 480-600 g/d stretch Bechthold's
+  sentence covers is neither tabulated nor read here; agreement in shape is shown only to 480-500
+  g/day, and Bechthold's verbal claim of benefit above 400 g/d stands as its own reading of the
+  figure.
+  Magnitude: at 400 g/day the reduction is 28% in Aune's pooled column and 21% in his incidence column,
+  against 12% in Bechthold's (this page's arithmetic on the cells above, which also match Bechthold's
+  text, about 12% up to \~400 g/d).
+  [@aune2017fvappx]
+  [@bechthold2019]
+  Bechthold itself names its
+  exclusion of studies on overall CVD and on outcome-specific mortality as a possible explanation of
+  differences from other meta-analyses
+  [@bechthold2019].
+  Matching the outcome narrows the gap but does not close it: on the incidence column the reductions
+  are 21% and 12%, and the two 400 g/day intervals overlap only at 0.83-0.84.
+  [@aune2017fvappx]
+  [@bechthold2019]
+  The held tables show no cause for that remainder. Study selection is the possible explanation
+  Bechthold offers, and the tables cannot test it; the weak overlap, not a shown cause, is why this
+  is held as an unexplained magnitude difference rather than a joined tension. The two
+  nonlinearity tests also disagree on curves whose tabulated
+  shapes agree from \~400 to 480-500 g/day; the held text does not say why. The *same CHD
+  reading* of the earlier lead held only across exposures: Aune's combined-F&V test beside DIfE's
+  vegetables test. (superseded 2026-11-10: this paragraph previously read the matched
+  exposure as a shape disagreement and filed it as type-G, with Bechthold's reference unchecked; Table
+  1 tabulates the reference and the curve to 480 g/d, while the above-400 sentence cites the figures.)
+  [@bechthold2019]
+
+- **So *protective exposures plateau* is outcome-specific here.** A plateau is read for total
+  cancer on point estimates (550-600 g/day, combined; interval reading at the end of this bullet),
+  for fruit-alone on all-cause and CHD (\~200-300 g/d, DIfE series)
   and for vegetables-alone on all-cause (\~300 g/d, DIfE series; nonlinear splines, no CI in the text,
   all-cause display range not recoverable from the held text; the overall intake ranges of the
   studies in the high-vs-low analyses are 0-626 g/d fruit and 5-663 g/d vegetables, so the plateaus'
   upper support is probably no more than about 630 g/d (fruit) and 660 g/d (vegetables))
   [@schwingshackl2017mort]
   [@bechthold2019];
-  for all-cause, stroke and CVD the combined curve flattens but its lowest point is the studied-range
-  edge; for CHD no plateau is shown within the studied range (to \~800 g/day). *None is shown* is not
-  *there is none*.
+  for all-cause and stroke the combined curve flattens but its lowest point is the studied-range
+  edge, and CVD's interval reading is a gradient like CHD's but weaker (*The intervals behind the
+  point reads*, below); for CHD no plateau is shown within the studied range (to \~800 g/day). *None is shown* is not
+  *there is none*. (superseded 2026-11-10: the combined splines are tabulated to 900
+  g/day, and the cancer rows are flat from 550 to 900 g/day at 0.86 (0.84-0.88 or 0.84-0.89).
+  [@aune2017fvappx]
+  For CHD on the combined curve still none is shown in the printed rows (on point estimates Aune's
+  separate vegetables CHD columns flatten, and so does the pooled fruit column, though the fruit
+  mortality column keeps falling;
+  Decision relevance below); Aune's own fruit-alone and vegetables-alone all-cause
+  curves are nearly flat from 300 g/day to their 600 g/day top rows, with intervals that also fit a
+  shallow gradient (*The intervals behind the point reads*, below); part of the cancer flat run
+  probably lies in the spline's straight tail.)
+  (refined 2026-11-10: the cancer *located* plateau is a point-estimate reading, Aune's and the flat
+  run's. By the interval rule below, the cancer 800 g/day interval contains the 500 g/day point, so
+  the interval fits a plateau and a shallow gradient alike, as for stroke and all-cause.)
 - **Measurement error cuts both ways on this curve — the two readings are not contradictory
   `[2026-10-22]`.** Aune names both effects in consecutive sentences: «This suggests that both
   measurement error and re- gression dilution bias may have attenuated the observed risk estimates. We
@@ -161,8 +288,124 @@ Discussion. Share for cancer also corrected from \~90% to \~93%.)
   sentence, truncated before «in the assessment of fruit and vegetable intake».)
   -> [[Measurement Error in Dietary Assessment]], [[The U-Shaped Association Artifact]].
 
+### The intervals behind the point reads (Supplementary Tables 8-18)
+
+RR (95% CI) from Aune's restricted-cubic-spline tables for F&V combined, incidence/mortality columns
+(all-cause: mortality), each against its own table's reference row (RR 1.00):
+
+| Outcome | Reference (g/day) | 500 g/day | 800 g/day | Top tabulated row | p nonlinearity |
+|---|---|---|---|---|---|
+| CHD | 35.6 | 0.84 (0.81-0.86) | 0.76 (0.73-0.78) | 900: 0.73 (0.71-0.76) | 0.30 |
+| Stroke | 34.3 | 0.72 (0.66-0.77) | 0.67 (0.60-0.75) | 900: 0.66 (0.58-0.74) | <0.0001 |
+| CVD | 35.6 | 0.78 (0.73-0.82) | 0.72 (0.68-0.76) | 900: 0.70 (0.66-0.75) | <0.0001 |
+| Total cancer | 40 | 0.87 (0.84-0.90) | 0.86 (0.84-0.88) | 900: 0.86 (0.84-0.88) | <0.0001 |
+| All-cause | 0 | 0.73 (0.70-0.77) | 0.69 (0.66-0.73) | 830: 0.69 (0.66-0.73) | <0.0001 |
+
+[@aune2017fvappx]
+(The parent paper's Results give the cancer test as 0.02; both values say nonlinear.)
 [@aune2017fv]
+
+- **Design check.** Every number in this table is a nonlinear spline estimate, not the linear
+  per-200 g estimate of the first table, and its comparator is the lowest-intake row (0-40 g/day), not
+  400 or 500 g/day. Outcomes are incidence and mortality pooled, except all-cause. The tables print no
+  study counts, case counts or footnotes (direct read of PDF pp 158-168).
+  [@aune2017fvappx]
+  The 500 and 800 g/day percentages in the shape table above are these columns' cells (e.g. CHD 0.84
+  and 0.76 are the 16% and 24%). The splines have «three knots at 10%, 50% and 90%
+  percentiles of the distribution» [@aune2017fv]; past
+  the outer knot a restricted cubic spline is straight by construction. The knot's g/day value is not
+  given in the held text, so the top rows (the cancer flat run, the CHD fall to 900) probably carry the
+  model's form as well as data from few studies, past the 800 g/day that Aune places at the high end of
+  the intake range; the study count behind those rows is not checked here (Supplementary Tables 2-7
+  not extracted).
+- **What the intervals can and cannot show.** The 500 and 800 g/day rows are two points on one fitted
+  curve, from the same studies against the same reference, so their intervals are correlated. Whether
+  they overlap is not a test of the 500-to-800 increment, and the appendix reports no such test
+  [searched: compared with 500 / difference between / test for difference / pairwise, 0 hits across
+  appendix chunks 01-06; *500 grams per day*, 2 hits, both the attributable-fraction reference
+  category]. The verdicts below describe the intervals; none is a significance result.
+- **Stop test, outcome by outcome: does the 800 g/day interval reach the 500 g/day point?** This is
+  a descriptive rule, not a test. Because the two rows are positively correlated, the interval of their
+  difference is narrower than the overlap suggests, so *fits both* can under-call a real gradient, and
+  an interval's width can decide a verdict as much as the curve's shape (stroke's 800 g/day interval,
+  0.60-0.75, is the widest of the five below). (corrected 2026-11-10: the width example
+  previously cited the I2 of the linear per-200 g stroke estimate, a different model from these
+  splines.) CHD: no,
+  the 800 interval (0.73-0.78) lies wholly below the 500 interval (0.81-0.86), and the curve keeps
+  falling to 0.73 at its 900 row.
+  [@aune2017fvappx]
+  *Stop* stays unlicensed for CHD by this rule, though the rows past 800 g/day probably lie in the
+  spline's straight tail. CVD: the intervals overlap, but
+  the 800 interval (0.68-0.76) excludes the 500 point (0.78).
+  [@aune2017fvappx]
+  A gradient reading like CHD's but weaker, on a curve that is formally nonlinear (<0.0001), unlike
+  CHD's (0.30).
+  [@aune2017fvappx]
+  CVD and stroke fall by similar amounts from 500 to 800, and stroke's wider interval is what
+  separates their verdicts. Stroke: the 800 interval (0.60-0.75) contains the 500
+  point (0.72).
+  [@aune2017fvappx]
+  The interval fits both a plateau and a continuing gradient. All-cause: the 800
+  interval's upper bound (0.73) equals the 500 point, and the 830 top row is unchanged from 800.
+  [@aune2017fvappx]
+  The interval fits both, and the minimum is the printed edge. This is the boundary case
+  of the rule: the upper bound and the 500 point tie at two decimals, so the verdict rests on rounding
+  and could go either way on unrounded values. Total cancer: the 800 interval (0.84-0.88)
+  contains the 500 point (0.87), and every row from 550 to 900 g/day is 0.86 (0.84-0.88 or 0.84-0.89).
+  [@aune2017fvappx]
+  By this rule the interval fits both a plateau and a shallow gradient, the same verdict as stroke and
+  all-cause. A second, weaker reading rests on a different criterion: the point estimates
+  are flat at 0.86 from 550 g/day on, the run Aune describes as little evidence of further reductions.
+  [@aune2017fvappx]
+  [@aune2017fv]
+  That flat run supports a cancer *stop* on point estimates only, and part of it may lie in the
+  spline's straight tail past its outer knot. (corrected 2026-11-10: this verdict
+  previously read *stop holds by this rule*; the rule's interval pattern for cancer matches stroke's and
+  all-cause's.)
+- **Fruit and vegetables separately (incidence/mortality columns; all-cause: mortality).** All-cause:
+  fruits 0.82 (0.79-0.84) at 300 g/day and 0.81 (0.76-0.85) at the 600 top row; vegetables 0.77
+  (0.73-0.82) and 0.75 (0.70-0.80) at the same rows, reference 0 for both.
+  [@aune2017fvappx]
+  CHD (reference 0): fruits 0.83 (0.80-0.87) at 300 and 0.79 (0.70-0.90) at the 800 top row;
+  vegetables 0.72 (0.68-0.76) at 400 and 0.70 (0.65-0.74) at the 600 top row.
+  [@aune2017fvappx]
+  CVD: fruits (reference 0) 0.77 (0.73-0.82) at 500 and 0.73 (0.67-0.80) at the 800 top row;
+  vegetables (reference 13.7) 0.75 (0.72-0.78) at 500 and 0.72 (0.68-0.76) at the 600 top row.
+  [@aune2017fvappx]
+  Each separate curve's top-row interval contains the earlier row's point, so each fits both a plateau
+  and a shallow gradient; the all-cause pair is nearly flat from about 300 g/day, the same reading as
+  the DIfE series, which pools overlapping cohorts and is not independent.
+- **Fruit and CHD *incidence* turns up.** In the incidence-only column fruit is lowest at 150-200
+  g/day (200: 0.83, 0.80-0.86), then 0.94 (0.85-1.05) at 500 and 1.03 (0.86-1.22) at the 700 top row,
+  while the mortality-only column (reference 5.7) keeps falling to 0.69 (0.62-0.77) at 800.
+  [@aune2017fvappx]
+  An upper arm like this must survive a referent correction or an objective or genetic check before it
+  is believed (-> [[The U-Shaped Association Artifact]]). By this page's interval rule the rise is
+  shown descriptively, since the 500 and 700 g/day intervals both exclude the 200 g/day point (0.83);
+  but both upper intervals include 1.00, so neither row is shown to sit above zero intake, and no
+  held text explains the incidence-mortality split. Shown on the table, not believed under the
+  artifact guard: a hypothesis and a named gap, type-G, not a harm finding. In the
+  fruit -> stroke table, on point estimates, the pooled column moves
+  from 0.80 (0.78-0.83) at
+  200 g/day to 0.85 (0.73-1.00) at the 800 top row; the incidence column moves from 0.83 (0.81-0.85)
+  at 200 to 0.77 (0.67-0.90) at its 700 top row; the mortality column (reference 5.7) falls from 0.64
+  (0.55-0.75) at 200 to 0.57 (0.48-0.69) at 350 and then stays within 0.55-0.57 to 0.55 (0.42-0.71)
+  at 800.
+  [@aune2017fvappx]
+  Each column's last interval contains its 200 g/day point, so by this page's interval rule the
+  pooled rise is not shown, any more than a plateau is; unlike the CHD incidence column, the stroke
+  table adds no second rising arm that the intervals support.
+- **The intervals measure sampling only.** Intake is self-reported in observational cohorts: error
+  that grows with intake can manufacture the high-end flattening, and classical error can hide a knee
+  (bullet above). A tight interval at 800-900 g/day says nothing about either bias, and none of these
+  associations is shown to be causal.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Specific types — the pooled benefit is NOT uniform, and the "superfoods" are the thin cells
+[@aune2017fv]
 
 Per 100 g/day dose-response (or high-vs-low where noted). **CHD and stroke cells** (Tables 2-3): the
 tight, steep inverse signals there sit with **leafy greens** (and citrus for stroke), NOT the
@@ -229,6 +472,9 @@ all-cause high-vs-low cells.)
   concern lives -> [[Free Sugars Intake]]; the fruit-form decision as a whole -> [[Whole Fruit Smoothies and Fruit Juice]].
 
 [@aune2017fv]
+
+</div>
+
 ## Measurement error and regression dilution — attenuation in the two studies that corrected for it
 
 Only two studies (EPIC, via two publications, and China Kadoorie) corrected for measurement error /
@@ -306,6 +552,8 @@ one-study-out and to region stratification), but the causal reading is capped:
   design cannot remove.
 
 [@aune2017fv]
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The population-absolute expression — attributable deaths (causal assumption flagged)
 
 The relative effects become an absolute quantity only via baseline risk. Aune's population layer,
@@ -316,6 +564,63 @@ Discussion — the abstract states 5.6) and **7.8 million**
 World Health Survey prevalence x GBD 2013 mortality), inheriting the causal, no-confounding and
 generalizability assumptions Aune names -> [[Baseline Risk and the Relative-Absolute Split]]. It is not
 a per-person effect and not a validated projection.
+
+The cause-specific counts used the mortality-only spline estimates, first with >=800 g/day as the
+reference: «For coronary heart disease, stroke, cardiovascular disease, and total cancer we
+used the relative risks from the analyses with mortality as the outcome (incidence-based studies were
+excluded) because even though the test for heterogeneity was not significant when analyses were
+stratified by whether the outcome was incidence or mortality, the associations tended to be stronger
+for mortality than for incidence, and because the attributable risk was calculated as the number of
+deaths from these outcomes. For convenience we inverted the relative risk estimates using ≥800 grams
+per day of intake as the optimal level of fruit and vegetable intake (as the reference category).»
+[@aune2017fvappx]
+The passage then gives the second reference: «As 800 grams per day is a substantial level of intake
+we also repeated these calculations for a more moderate intake using 500 grams per day as a reference
+category.» [@aune2017fvappx]
+So the 7.8 million count treats 800 g/day, the reporting point, as the zero-excess-risk level and the
+5.4 million count treats 500 g/day that way.
+The two references give two sets of cause-specific counts: below 800 g/day, 1.34 million CHD, 2.68
+million stroke, 2 270 000 CVD and 660 000 cancer deaths; below 500 g/day, 710 000 CHD, 1.47 million
+stroke, 1 260 000 CVD and 560 000 cancer deaths (the Discussion rounds the CVD pair to 2.26 and 1.25
+million).
+[@aune2017fv]
+Those counts use the mortality columns. At 800 g/day these read CHD 0.73 (pooled column 0.76),
+stroke 0.49 (0.67) and CVD 0.75 (0.72).
+[@aune2017fvappx]
+So the cause-specific counts rest on steeper RRs than this page's pooled columns for CHD and stroke and
+on a slightly shallower one for CVD. The headline all-cause counts, 7.8 million and 5.4
+million, are a different calculation: the Methods speak of applying the all-cause mortality data,
+except in Sub-Saharan Africa, where applying the all-cause data «might lead to an overestimation of
+the avoidable deaths» and counting only cause-specific deaths «would likely lead to an underestimation
+of the avoidable deaths as well».
+[@aune2017fvappx]
+There the counts start
+from the cause-specific deaths:
+«To try to avoid both over and underestimation, we first only counted the cause-specific deaths
+(coronary heart disease, stroke, cardiovascular disease, and cancer) for this region, and then applied
+the average ratio of the cause- specific deaths to the number of all-cause deaths (0.600 and 0.508 at
+800 and 500 g/d) from all the remaining regions.»
+[@aune2017fvappx]
+A conservative sensitivity analysis counted only the cause-specific deaths for that region.
+[@aune2017fvappx]
+Table 7 reports the all-cause counts in a column of its own
+[@aune2017fv].
+The all-cause spline has a single, mortality column, 0.69 (0.66-0.73) at 800 g/day.
+[@aune2017fvappx]
+So outside Sub-Saharan Africa the 7.8 million and 5.4 million counts rest on the all-cause spline,
+not on the steeper cause-specific mortality columns; the Sub-Saharan component runs through those
+columns, converted to all-cause deaths with the other regions' ratio. The headline
+counts are not the sum of the cause-specific counts either (CHD, stroke and cancer together are
+4.68 million below 800 g/day). Table 7's header states
+its basis as studies on CHD, stroke, CVD and cancer mortality, excluding incidence studies.
+[@aune2017fv]
+That describes the cause-specific columns, since the all-cause studies are mortality studies
+throughout. (corrected 2026-11-10: this paragraph previously said
+both all-cause counts used the CHD, stroke and CVD mortality columns.)
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Decision relevance
 
@@ -331,10 +636,22 @@ a per-person effect and not a validated projection.
   of the curve. Aune's lowest observed risk is at \~800 g/day, «which was at the high end
   of the range of intake across studies» (combined-F&V axes labelled to 900 g/d; 800 for stroke)
   [@aune2017fv].
+  (The stroke table itself prints rows to 900 g/day, added 2026-11-10.)
+  [@aune2017fvappx]
   Individual cohorts report higher intakes — in the DIfE CHD meta-analysis the high-vs-low ranges reach
   0-1,300 g/d (vegetables) and 0-1,820 g/d (fruit)
   [@bechthold2019]
-  — but no curve is estimated out there. (corrected 2026-10-22: an earlier version of this
+  — but no curve is estimated out there. (refined 2026-11-10: Aune's combined-F&V
+  spline tables print rows to 900 g/day for CHD, stroke and CVD; for CHD the 900 row is 0.73
+  (0.71-0.76) against 0.76 (0.73-0.78) at 800.
+  [@aune2017fvappx]
+  Those rows lie past the 800 g/day that Aune places at the high end of the intake range and probably
+  rest on few studies (not counted here), so they do not widen the studied range. None of
+  Aune's spline tables read for this page (Supplementary Tables 8-11 and 14-18, PDF pp 158-161,
+  164-168) prints a row above 900 g/day; the separate fruit and vegetable tables stop at 500-800 g/day.
+  [@aune2017fvappx]
+  The subtype tables (Supplementary Tables 19 onward) and the DIfE all-cause display range were not
+  checked.) (corrected 2026-10-22: an earlier version of this
   pass said *Above \~800 g/day there are no data*, which the wider cohort ranges contradict; later
   versions attached the ranges to Aune untagged, then cited an all-cause range of *5-2,663 g/d* that
   was a PDF glyph misread — the true DIfE all-cause ranges are 5-663 g/d vegetables and 0-626 g/d
@@ -343,9 +660,26 @@ a per-person effect and not a validated projection.
   curve steepest at low intake — moving from \~0-2 servings to >=500 g/day is where most of the
   associated all-cause, stroke and cancer reduction lies (all-cause 27% at 500 vs 31% at 800 g/day, vs
   0-40 g/day; point estimates). For **CHD/CVD** the curve keeps falling to the 800 g/day edge (CHD
-  Pnonlinearity 0.30, 16% -> 24%; DIfE vegetables -> CHD: additional benefit above \~400 g/d, on a spline
-  displayed over \~0-600 g/d), so the 5->10 servings gap buys less for all-cause mortality but not
-  clearly less for CHD. Rank below the big rocks and below RCT/MR-backed levers. (corrected 2026-10-22: previously *most of the
+  Pnonlinearity 0.30, 16% -> 24%; DIfE's vegetables -> CHD sentence of additional benefit above \~400
+  g/d rests on its spline figure, displayed over \~0-600 g/d, and is not shown in its table, which stops
+  at 480 g/d — superseded note below), so the 5->10 servings gap buys less for all-cause mortality but not
+  clearly less for CHD. Rank below the big rocks and below RCT/MR-backed levers.
+  (superseded 2026-11-10: with intervals, all-cause is 0.73 (0.70-0.77) at 500 and 0.69 (0.66-0.73)
+  at 800 g/day, and CHD 0.84 (0.81-0.86) at 500, 0.76 (0.73-0.78) at 800 and 0.73 (0.71-0.76) at the
+  900 g/day row.
+  [@aune2017fvappx]
+  The rows past 800 g/day probably rest on few studies at the top of the intake range. The all-cause
+  intervals fit both a flattening and a shallow gradient; the CHD intervals at 500 and 800 g/day do
+  not overlap. Both readings describe intervals from one fitted curve, not a test of the 500-to-800
+  increment, and they measure sampling only: self-report error can flatten or hide a gradient at the
+  top of the range (*The intervals behind the point reads*, above). The DIfE
+  *additional benefit above \~400 g/d* is, in DIfE's own table, 0.88 (0.83-0.92) at 400 g/day and 0.87
+  (0.82-0.92) at 480 g/day, its last tabulated intake.
+  [@bechthold2019]
+  So it adds about one point of relative risk within the tabulated range, and the 480 g/day interval
+  contains the 400 g/day point, so no further vegetable-specific CHD benefit is shown there; DIfE's
+  own sentence cites its figures, and the 480-600 g/d stretch they display is not tabulated or read
+  here.) (corrected 2026-10-22: previously *most of the
   associated benefit reached in the first few servings … the 5->10 servings gap buys progressively
   less*, stated for all outcomes.)
 - **Prefer whole forms and leafy greens; citrus, cruciferous and cooked vegetables as weaker or
@@ -367,8 +701,49 @@ a per-person effect and not a validated projection.
   itself be partly a measurement artifact; see the measurement-error bullet under Dose-response SHAPE).
   For CHD/CVD the data do not show a
   plateau within the studied range (to \~800 g/day), so *stop* is not licensed for a CHD-focused
-  stratum; there the cheap move is toward \~800 g/day, vegetables included (DIfE: the vegetable, not the
-  fruit, curve continues for CHD, within its \~0-600 g/d spline display). (corrected 2026-10-22: previously *For someone already
+  stratum; there the cheap move is toward \~800 g/day of fruit and vegetables in total, not vegetables
+  in particular (column-by-column reading below). (superseded 2026-11-10: this sentence
+  previously read *toward \~800 g/day, vegetables included (DIfE: the vegetable, not the fruit, curve
+  continues for CHD)*; neither DIfE's Table 1 nor Aune's vegetables columns show further
+  vegetable-specific CHD benefit above \~400 g/day.)
+  (superseded 2026-11-10: with intervals, the all-cause 800 g/day row is 0.69 (0.66-0.73) against 0.73
+  (0.70-0.77) at 500 and is unchanged at the 830 g/day top row; CHD is 0.76 (0.73-0.78) at 800 against
+  0.84 (0.81-0.86) at 500, and CVD 0.72 (0.68-0.76) against 0.78 (0.73-0.82).
+  [@aune2017fvappx]
+  So the all-cause *stop* is a small-remaining-lever reading whose interval also fits a shallow
+  gradient, not a located plateau; for CHD and CVD *stop* stays unlicensed by the same descriptive rule. These are
+  overlapping intervals from one spline, not a test of the 500-to-800 increment.
+  Read across Aune's pooled, incidence and mortality columns alike, the combined CHD curve keeps
+  falling from 500 to 800 g/day in all three: pooled 0.84 to 0.76, incidence 0.84 (0.81-0.87) to 0.75
+  (0.73-0.78), mortality 0.80 (0.75-0.85) to 0.73 (0.68-0.79) and 0.72 (0.67-0.78) at its 850 top row.
+  [@aune2017fvappx]
+  Fruit's pooled column flattens, 0.81 (0.76-0.87) at 500 and 0.79 (0.70-0.90) at 800, but its
+  mortality column keeps falling, 0.79 (0.73-0.85) at 500 to 0.69 (0.62-0.77) at 800.
+  [@aune2017fvappx]
+  On point estimates vegetables are nearly flat from 400 g/day in every column: pooled 0.72
+  (0.68-0.76) to 0.70 (0.65-0.74) at the 600 top row, incidence 0.79 (0.74-0.84) to 0.77 (0.72-0.82)
+  at the 550 top row, mortality (reference 11.4) 0.66 (0.60-0.73) to 0.64 (0.58-0.70) at 600.
+  [@aune2017fvappx]
+  Each vegetables top-row interval contains the 400 g/day point, so by the interval rule each column
+  fits a plateau and a shallow gradient alike, as for cancer. DIfE's tabulated vegetables
+  curve reads the same way, 0.88 (0.83-0.92) at 400 and 0.87 (0.82-0.92) at 480 g/day (vegetables ->
+  CHD table above).
+  [@bechthold2019]
+  Fruit's pooled 800 g/day interval also contains its 500 g/day point, while its mortality 800 g/day
+  interval excludes it.
+  [@aune2017fvappx]
+  The pooled column cannot be assumed to blend the other two (*a pooled column need not lie between
+  its two halves*, under Dose-response SHAPE), so the pooled flattening is not traced to the incidence
+  upturn, which stays a hypothesis (*Fruit and CHD incidence turns up*, above).
+  So *keep going toward \~800 g/day for CHD* rests on the combined curve in all three columns and on
+  fruit's mortality column; neither source's tables show further CHD benefit from vegetables alone
+  above \~400 g/day, and neither rules out a shallow one (DIfE's sentence of benefit above \~400 g/d
+  rests on its figure, unread here). For a CHD-focused stratum the cheap
+  move is toward \~800 g/day of fruit and vegetables in total, not vegetables in particular; the
+  separate curves are fitted on different study sets from the combined one, so their flattening does
+  not cancel the combined gradient. The same caveats hold as for every reading here: intervals from
+  fitted curves, not tests of an increment, and self-reported intake. (corrected 2026-10-22:
+  previously *For someone already
   at \~5 servings … a licence to stop optimizing here*; \~5 servings = 400 g sat below NNR's 500 g floor
   and the CHD curve.)
 - **Open loop:** nothing grades F&V intake against a realized outcome in a randomized design; the causal
@@ -382,6 +757,10 @@ a per-person effect and not a validated projection.
 infrastructure. Any future *consistency across Aune's plant-food MAs* is same-lab **type-F / shared
 lineage**, NOT independent type-E backing -> [[Nut Consumption and Mortality]],
 [[Whole Grains Refined Grains and Pulses]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## A guidance family sets a recommended range and reports the same shape — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -402,19 +781,52 @@ page into a guidance-anchored recommendation.
   fruits and vegetables per day.» [@nnr2023] —
   steepest at low intake, CVD benefit extending to \~800 g, the same two features Aune's splines show.
 
-**One mild divergence on where all-cause mortality plateaus.** Aune places the all-cause nadir at
+**An apparent divergence on where all-cause mortality plateaus, which on matched curve features is a
+difference of terms (below).** (superseded 2026-11-10: this lead previously read *One mild divergence
+on where all-cause mortality plateaus*.) Aune places the all-cause nadir at
 **800 g/day (10 servings)**; NNR (citing Rosell & Fadnes 2023) reports all-cause mortality «inverse
 associations with all-cause mortality, levelling off at 5-6 servings of fruits and vegetables per day»
 (\~400-500 g). [@nnr2023] Both are drawn off
-observational splines at the thinning edge of the data — a difference in *which underlying MA* set the
-plateau point, not a contradiction about direction (more F&V, lower risk, flattening somewhere in the
-400-800 g region). It sharpens the page's existing caveat that the high-intake flattening may be a
-measurement artifact rather than a located knee. The DIfE CHD MA states the same kind of divergence
-for fruit and attributes it to study sets, not biology: «While we detected no further risk reduction
+observational splines at the thinning edge of the data, and they agree on direction (more F&V,
+lower risk, flattening somewhere in the 400-800 g region); the matched table below shows they name different curve features.
+(superseded 2026-11-10: this sentence previously read the gap as a difference in *which underlying MA*
+set the plateau point.) Both features sit at the thinning edge, so the page's caveat that high-intake
+flattening may be a measurement artifact rather than a located knee applies to each. A
+different disagreement, on whether fruit's risk reduction continues at all past \~250 g/day, is stated
+by the DIfE CHD MA, which attributes it to study sets, not biology: «While we detected no further risk reduction
 beyond intake of 250 g fruits per day, another current meta-analysis showed reductions in risk up to
 800 g per day. This difference could be explained by the greater number of studies (due to inclusion of
 studies on cause-speciﬁc mortality and overall CVD) included by Aune et al.»
 [@bechthold2019]
+
+**Matched on curve features, the two name different things.** Matched on the all-cause curve for F&V
+combined:
+
+| Parameter | Aune 2017 | NNR 2023 | Same quantity? |
+|---|---|---|---|
+| Feature named | *lowest risk observed at* 800 g/day | *levelling off at* 5-6 servings/day | no: a minimum vs the onset of flattening |
+| Analysis behind it | restricted cubic spline, reference 0 g/day, tabulated to 830 g/day | recent meta-analyses, via Rosell & Fadnes 2023 (not held) | not established |
+| Serving size | 80 g | not stated in the quoted sentence | not established |
+
+Aune: «for coronary heart disease, stroke, cardiovascular disease and all- cause mortality the lowest
+risk was observed at 800 g/day (10 servings/day), which was at the high end of the range of intake
+across studies.» [@aune2017fv]
+NNR: «Recent meta-analyses also show inverse associations with all-cause mortality, levelling off at
+5-6 servings of fruits and vegetables per day, or 2-3 servings of fruits per day and 3-4 servings of
+vegetables per day (Rosell & Fadnes, 2023).» [@nnr2023]
+Aune's all-cause column is 0.76 (0.73-0.79) at 400, 0.73 (0.70-0.77) at 500, 0.72 (0.69-0.75) at 600
+and 0.69 (0.66-0.73) at 800 and 830 g/day.
+[@aune2017fvappx]
+A curve can flatten and still have its minimum at the printed edge, so the gap is terminological,
+type-B: *levelling off* and *lowest at* name different curve features. Matched on onset,
+Aune's all-cause column falls by 0.04 per 50 g up to 200 g/day, by 0.02-0.03 per 50 g from 200 to
+350, and by 0.00-0.02 per 50 g from 350 g/day on.
+[@aune2017fvappx]
+So Aune's flattening starts between about 200 and 400 g/day, at or before NNR's 400-480 g/day (5-6
+servings at Aune's 80 g a serving; NNR's serving size unchecked); on onset the two are compatible,
+and no residual divergence is shown beyond the type-B one. (superseded 2026-11-10: this
+paragraph previously held a residual small divergence on where the flattening starts, because Aune's
+column still falls from 400 to 800 g/day; a continuing fall is the minimum feature, not the onset.)
 
 **Not independent backing, and confidence stays low.** NNR2023 is a guideline synthesis resting on the
 same observational F&V literature (Rosell & Fadnes 2023, WCRF/AICR 2018, Fogelholm 2012, Stanaway 2022 —
@@ -424,6 +836,10 @@ concrete: NNR's F&V background paper is Rosell & Fadnes 2023, and Lars T Fadnes 
 2017. It confirms *direction and shape* by a
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
@@ -451,8 +867,12 @@ was eliminated «after adjustment for BMI (potential overadjust- ment)».
 **Where the curves flatten — outcome-specific.** Fruit: no further reduction above \~200 g/d for CHD
 and stroke (stroke curve not formally nonlinear) and above \~250-300 g/d for all-cause. Vegetables:
 all-cause flattens at \~300 g/d, but for **CHD «Additional beneﬁt for increasing intake is apparent
-above this value»** (\~400 g/d; the CHD spline figure's x-axis runs \~0-600 g/d). Points read off
-nonlinear splines; no CIs in the text. The CHD spline display range is \~0-600 g/d; the all-cause
+above this value»** (\~400 g/d; the CHD spline figure's x-axis runs \~0-600 g/d; in the tabulated
+curve the step is 0.88 (0.83-0.92) at 400 to 0.87 (0.82-0.92) at 480 g/d, an interval pair that fits
+a plateau and a shallow gradient alike
+[@bechthold2019]). Points read off
+nonlinear splines; no CIs in the text, though the CHD and stroke tables carry them. The CHD spline display range is \~0-600 g/d
+[@bechthold2019]; the all-cause
 spline display range cannot be recovered from the held text (Schwingshackl's Figure 2 carries no axis
 labels in the extraction), so the upper support of the all-cause fruit and vegetable plateaus is
 unknown beyond this: the overall intake ranges of the studies in the high-vs-low analyses (34 fruit,
@@ -473,6 +893,8 @@ corroboration. (corrected 2026-10-22: previously *Both plateau at \~200-400 g/d*
 dropped the CHD qualifier for vegetables; and *T2D 0.98* and *null for adiposity* sat untraced to a
 cited source — now tagged to the T2D and overweight/obesity MAs.) Full cross-outcome grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## Cognition / dementia outcome arm — a second observational lever, weaker than the CVD arm (2026-09-04)
 

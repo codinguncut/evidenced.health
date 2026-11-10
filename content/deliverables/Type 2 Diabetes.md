@@ -255,10 +255,11 @@ sources:
   - Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024
 confidence: medium
 created: 2026-09-09
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-06
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 > [!warning] Applies to a specific group
 > This appraisal is written for **adults with prediabetes or otherwise at high risk of type 2 diabetes,
@@ -281,15 +282,18 @@ from developing, and whether diabetes caught early can be put into remission.
  put diabetes into remission.** On a structured formula-diet programme, about half were in remission
  at one year and about a third at two. The more weight people kept off, the more likely remission was
  ([[Total Diet Replacement and Type 2 Diabetes Remission]]).
-- **Which diet produces the deficit matters much less than whether it is produced and kept.**
- Low-carb diets lower blood glucose and drug use at six months; by a year the advantage has
- faded or become uncertain. They have not been shown to add remission beyond the weight they take off
+- **For weight and blood glucose, which diet produces the deficit matters much less than whether it
+ is produced and kept.** Low-carb diets lower blood glucose and drug use at six months; by a year the
+ advantage has faded or become uncertain. For remission, weight loss looks like the main driver;
+ whether low-carb adds anything beyond the weight it takes off is unresolved
  ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
 - **In diagnosed diabetes, GLP-1 drugs carry high-certainty evidence on heart attacks and death, and
  moderate-certainty evidence on kidney failure;** lifestyle weight loss has not shown a heart-event
  benefit there. The drugs have not been shown to deliver the drug-free remission that weight loss can ([[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]]).
 
 Start with prevention, where the evidence is oldest and strongest.
+
+</div>
 
 ## An intensive lifestyle programme cuts the rate of new diabetes by a third to a half
 
@@ -655,6 +659,8 @@ Metformin's prevention effect on diabetes was concentrated in heavier, more hype
 
 For someone already diagnosed, the question changes from delay to reversal.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Losing 10-15 kg soon after diagnosis can put diabetes into remission
 
 ### What counts as remission
@@ -667,14 +673,24 @@ looser definitions appear later in this guide, labelled as such ([[Total Diet Re
 
 ### The DiRECT trial
 
-DiRECT randomised 49 UK primary-care practices, not individual patients, and enrolled 298 people **aged
+DiRECT randomised 49 UK primary-care practices, not individual patients, and recruited 306 people (149 per arm in the intention-to-treat analysis) **aged
 20-65, diagnosed within the past six years, with a BMI of 27-45 and not on insulin**. Nearly all were
 white (98-99% in each arm). The intervention arm stopped all diabetes and blood-pressure tablets on day one;
 the control arm received best-practice care and kept its drugs [@lean2018].
 
 The programme had three phases. A **formula total diet replacement (TDR) of 825-853 kcal a day** replaced
-all food for 3 months (up to 5). Its macronutrients were 59% carbohydrate, 13% fat and 26% protein, so
-this was a low-energy diet, not a low-carb one. Food came back in steps over 2-8 weeks, followed by
+all food for 3 months (up to 5). Its macronutrients were 59% carbohydrate, 13% fat and 26% protein
+[@lean2018].
+
+**That is a high carbohydrate share but a modest amount**: at this energy it comes to about 122-126 g
+a day, and fat to about 12 g. A low-carb
+meta-analysis defines a low-carb diet as under 130 g a day, or under 26% of energy on a 2,000 kcal
+basis [@goldenberg2021]. A diet of about
+840 kcal stays under that gram line unless more than about 62% of it is carbohydrate. The formula
+cut energy, carbohydrate grams and fat grams together, and no arm varied composition, so the trial
+cannot separate energy from composition ([[Total Diet Replacement and Type 2 Diabetes Remission]]).
+
+Food came back in steps over 2-8 weeks, followed by
 monthly visits to hold the weight off: «All oral antidiabetic and antihypertensive drugs were
 discontinued on day 1 of the weight management programme, with standard protocols for drug reintroduction
 under national clinical guidelines, if indicated by regular monitoring of blood glucose and blood
@@ -712,7 +728,10 @@ lost — the rate rose at every step, with no plateau shown; above 15 kg the ban
 
 These band rates are **not what one person should expect** from starting the programme. They sort
 people by the weight they ended up losing, which is not a randomised contrast: those who lost the most
-may differ in ways that also favour remission. The trial's randomised answer is the 46% vs 4% above.
+may differ in ways that also favour remission. The bands also track the programme: all 36 people who
+lost 15 kg or more were in the formula arm, and no one in the control arm did
+[@lean2018]. So the gradient cannot separate the weight
+from the programme or its diet. The trial's randomised answer is the 46% vs 4% above.
  from [[Total Diet Replacement and Type 2 Diabetes Remission]].
 
 A separate design points the same way. In ADDITION-Cambridge, a cohort of 867 newly diagnosed people
@@ -795,6 +814,10 @@ trial data [@nice].
 
 A one-year rate says what is possible; the two-year data say what lasts.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Remission lasts about as long as the weight stays off
 
 ### The two-year result
@@ -832,9 +855,19 @@ in the same people, because each visit re-sorts people into bands. And neither f
 starting the programme should expect; the ITT rate of about one in three is that number.
  -> [[Total Diet Replacement and Type 2 Diabetes Remission]]
 
-The people who relapsed point the same way, but weakly. Among 63 remitters with weight at both visits,
+The people who relapsed point the same way, but weakly. Among remitters with weight at both visits,
 **the 48 who stayed in remission regained 4.25 kg in year two, the 15 who relapsed 7.09 kg**
-(p=0.073, short of conventional significance). [@lean2019] Weight was not the whole story either: 4 of the 50 people who gained weight stayed in
+(p=0.073, short of conventional significance). [@lean2019]
+
+A post-hoc model over all 298 participants, adjusted for treatment arm, found a significant link
+between 24-month remission and weight change from 12 to 24 months (adjusted odds ratio 1.11 per kg
+gained, 1.03-1.21, p=0.010) [@lean2019]. Read literally,
+more regain raised the odds of remission, the opposite of the relapser result above, so the paper's
+coding of direction is unclear. It is also an association
+among people who differed in how much they regained, not a randomised result
+([[Total Diet Replacement and Type 2 Diabetes Remission]]).
+
+Weight was not the whole story: 4 of the 50 people who gained weight stayed in
 remission at both visits, all with small gains and a baseline HbA1c just above the threshold
 (6.5-6.63%). [@lean2019]
 
@@ -893,13 +926,17 @@ reason to skip the attempt**.
 
 If the kilograms decide remission, does it matter which diet takes them off?
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## No diet composition beats energy control; low-carb is one route to the deficit
 
 **Which diet takes the weight off matters far less than whether it comes off and stays off.** That
-holds for weight, for HbA1c and for remission, in people who already have type 2 diabetes. Low-carb
-diets do one thing better for a while: they lower blood glucose and drug use at six months, an edge
-that has faded or become uncertain by a year.
-They have not been shown to add remission beyond the weight they remove
+holds for weight and for HbA1c in people who already have type 2 diabetes. Low-carb diets do one
+thing better for a while: they lower blood glucose and drug use at six months, an edge that has faded
+or become uncertain by a year. For remission, weight loss looks like the main driver; whether low-carb
+adds remission beyond the weight it removes is unresolved, not shown and not ruled out
 ([[Diets for Weight Management in Type 2 Diabetes]],
 [[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
 
@@ -954,7 +991,7 @@ individuals» (moderate certainty), and graded triglycerides -0.30 mmol/L (-0.43
 certainty [@szczerba2023].
 
 The HbA1c figure needs reading twice. **The -0.47% is the whole effect of being on the diet,
-including the weight it takes off.** How much of it survives without the weight loss is unmeasured
+including the weight it takes off.** [@goldenberg2021] How much of it survives without the weight loss is unmeasured
 (insufficient evidence, not a null), as the umbrella review's caveat above says
 [@churuangsuk2022]. Among the meta-analysis's
 secondary markers, only triglycerides and insulin resistance cleared its threshold for a clinically
@@ -985,10 +1022,16 @@ and they disagree:
 **Only the second row is remission in the sense used elsewhere here, and it is null at both
 timepoints.** The first row counts people still taking glucose-lowering drugs, so it is not a
 remission rate. One stratum differs: in trials that excluded insulin users, drug-free remission at six
-months was RD 0.20 (0.03 to 0.38), about 1 extra remission for every 5 people. That result exists
-only at six months; no 12-month split was reported, so it says nothing about durability. Only 7 of
-the 23 trials allowed medication to be reduced and reported usable data
-[@goldenberg2021].
+months was RD 0.20 (0.03 to 0.38), about 1 extra remission for every 5 people, against 0.00 (-0.07 to
+0.07) in trials that included them [@goldenberg2021].
+
+The review planned this split in advance and rated it credible, but it compares
+trials, not patients within a trial. Shorter trials also showed larger effects in a post-hoc split by
+trial length, and on the drug-free definition that split gives the same figures, so the two may be one
+finding. That result exists only at six months; no 12-month split was reported, so it says nothing
+about durability. Only 7 of the 23 trials allowed medication to be reduced and reported usable data
+[@goldenberg2021]
+ ([[Carbohydrate Restriction and Type 2 Diabetes Remission]]).
 
 **No randomized trial has tested low-carb with remission as its primary outcome.** The umbrella
 review's words: «No RCT has evaluated LCDs/ketogenic diets for type 2 diabetes remission.» The
@@ -996,15 +1039,27 @@ often-cited ketogenic figure comes from a non-randomized study reporting 20% rem
 (GRADE very low, serious risk of bias)
 [@churuangsuk2022].
 
-### The weight explains the remission, not the carbohydrate share
+### Weight loss looks like the main driver; an added carbohydrate effect is unresolved
 
-DiRECT's remission result came on a formula diet that was not low-carb (its macronutrients are given
-above) [@lean2018]. Low-carb's remission signal and its weight
-advantage fade together between six and twelve months. Both facts fit one reading: **carbohydrate
-restriction is not necessary for remission; it is one way to lose the weight that drives it.**
- ([[Carbohydrate Restriction and Type 2 Diabetes Remission]])
+DiRECT cannot show remission without cutting carbohydrate grams, or fat grams: at about 840 kcal a day
+its formula cut energy, carbohydrate and fat together (above). Every loss of 15 kg or
+more in its weight gradient also came from the formula arm
+[@lean2018]. The reading that diet type does not matter
+rests mainly on the umbrella review quoted above, which is co-authored by DiRECT's lead investigator
+and hedges for residual confounding in the non-randomised studies it pools
+[@churuangsuk2022].
 
-That reading does not exclude an extra effect of cutting carbohydrate. The meta-analysis checked
+On the looser, medication-allowed measure, low-carb's edge and its weight advantage both fade by twelve
+months. But the twelve-month weight and remission figures come from small pools that share only one
+trial, so the two were not seen fading together in the same trials. In some of the remission trials the
+diet may already have ended. The fade fits waning adherence to the diet as well as waning weight loss.
+On the held evidence,
+**weight loss looks like the main driver of remission and carbohydrate restriction one way to produce
+it; whether cutting carbohydrate adds remission beyond the weight it removes is unresolved, neither
+shown nor ruled out.** ([[Carbohydrate Restriction and Type 2 Diabetes Remission]],
+[[Total Diet Replacement and Type 2 Diabetes Remission]])
+
+The closest test of an extra carbohydrate effect is weak. The meta-analysis checked
 whether calorie-matched trials behaved differently and «identified no evidence of credible effect
 modification based on caloric matching or lack thereof»
 [@goldenberg2021]. But calories were
@@ -1082,6 +1137,8 @@ hard-outcome result. ([[The Certainty-Importance Inversion]])
 
 Exercise sits beside the diet in established diabetes, with a narrower evidence base.
 
+</div>
+
 ## In diagnosed diabetes, exercise reliably raises fitness; its glucose edge is small
 
 The one review held on exercise in diagnosed type 2 diabetes asks which kind, not whether. It pooled
@@ -1110,6 +1167,8 @@ The case for being active at all rests on the prevention trials and the general 
 on this comparison. **No review held tests exercise against no exercise for glucose control in
 diagnosed diabetes**; that is an open gap.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## In diagnosed diabetes, the heart and kidney evidence comes from drugs, not lifestyle weight loss
 
 Remission and glucose are what lifestyle demonstrably moves. Heart attacks and kidney failure are where
@@ -1125,8 +1184,8 @@ cardiovascular deaths and hospitalised angina were no less common**: 403 vs 418 
 100 person-years, HR 0.95 (95% CI 0.83-1.09). The trial stopped for futility at a median 9.6 years
 [@look2013].
 
-The null is bounded, not proof of no effect. The weight gap between arms shrank from about 8 percentage
-points to about 2.5, so the trial ended up testing a modest sustained difference. It was powered to detect
+The null is bounded, not proof of no effect. Weight loss was 8.6% vs 0.7% of body weight at one year and
+6.0% vs 3.5% at the end, so the trial ended up testing a modest sustained difference. It was powered to detect
 an 18% reduction, so a smaller true benefit could pass unseen [@look2013]. Both arms' physicians also adjusted
 medications as usual, which may narrow any gap between them
 ([[Does Weight Loss Reduce Cardiovascular Events]]).
@@ -1243,6 +1302,8 @@ people, where most of these interventions show no hard-outcome benefit, see
 
 That leaves several decisions the evidence cannot yet settle.
 
+</div>
+
 ## What the evidence cannot yet tell you
 
 Each item below is a hole in the held evidence, not a finding of no effect: **the answer is missing,
@@ -1287,6 +1348,8 @@ not negative.**
 
 **Within those limits, the held evidence already supports a short list of actions.**
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What to do with this
 
 - **Prediabetes or high risk: start with an intensive programme** aimed at losing about 7% of body
@@ -1306,8 +1369,9 @@ not negative.**
 - **Exercise for fitness and as part of the programme.** In diagnosed diabetes, interval training
  raised fitness more than steady cardio in short trials (11-16 weeks), with no firm glucose edge
  ([[HIIT vs Continuous Training for Type 2 Diabetes]]).
-- **Still open:** whether remission lasts beyond two years, how surgery or GLP-1 drugs compare as
- remission routes, and whether remission prevents complications.
+- **Still open:** whether remission lasts beyond two years, whether low-carb adds remission beyond the
+ weight it takes off, how surgery or GLP-1 drugs compare as remission routes, and whether remission
+ prevents complications.
 
 Changes to glucose-lowering or other medication belong with your clinician, especially before starting a
 formula or low-carb diet: keeping the same doses during rapid weight loss risks low blood sugar or
@@ -1324,6 +1388,8 @@ the people who followed it.
 > | **Evidence included** | 42 sources — 21 gold, 20 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Type%202%20Diabetes.md) |
+
+</div>
 
 ## References

@@ -6,8 +6,8 @@ question: What does the evidence show about meat's effect on each patient-import
 sources: [Bastide - Heme Iron Colorectal Cancer Meta-Analysis 2011, Baye - Low AGE Diet Cardiometabolic 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, Budhathoki - Animal Plant Protein Mortality 2019, Etemadi - Meat Heme Iron Nitrate Nitrite Mortality 2017, Guasch-Ferre - Red Meat Comparison Diets Cardiovascular Risk Factors Trials 2019, Kim - Meat Stroke Incidence Mortality Meta-Analysis 2017, Li - Red Processed Meat CVD T2D Mendelian Randomization 2024, Liu - Iron Status Heart Disease Stroke Diabetes Mendelian Randomization 2024, Lupoli - White Meat All-Cause Mortality Cardiovascular Meta-Analysis 2021, Naghshi - Dietary Protein Mortality 2020, NutriRECS - Red and Processed Meat Recommendations 2019, Ramel - White Meat Cardiovascular Diabetes Meta-Analysis 2023, Roussell - Beef Optimal Lean Diet BOLD 2012, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WCRF - Diet Nutrition Activity Cancer 2018, WCRF - Meat Fish and Dairy Products and Cancer 2018, Yang - Heme Iron Coronary Heart Disease Meta-Analysis 2013, Zhao - Body Iron Stores Heme Iron Type 2 Diabetes 2012, Zhong - Processed Red Meat Poultry Fish CVD Mortality 2020]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-06
-self_critiqued: 2026-10-02
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 ---
 
@@ -87,25 +87,49 @@ association. No feeding trial tests meat against diabetes either, so the cell st
 directions. -> [[The Observational-Trial Discordance]],
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The cancer question splits two expert bodies
 
-Two guideline families read **the same cohort evidence** and issued opposite instructions. This
-disagreement is the finding — do not average it away.
+Two guideline families read **largely overlapping (not identical) cohort evidence** and
+issued opposite instructions: WCRF says limit red and processed meat
+[@wcrf2018ter], while NutriRECS suggests adults
+continue their current intake (a weak recommendation)
+[@nutrirecs2019]. This disagreement is
+the finding — do not average it away.
 
-For colorectal cancer, WCRF reports processed meat **RR 1.16 (1.08-1.26) per 50 g/day** and grades
-it a *convincing* cause; unprocessed red meat is **1.12 (1.00-1.25) per 100 g/day** and graded
-*probable*. But note the red-meat number: WCRF's own dose-response «showed no statistically
-significant association between the risk of colorectal cancer and consumption of red meat (RR 1.12
-[95% CI 1.00-1.25], per 100 grams increase per day)»
+For colorectal cancer, WCRF reports processed meat **RR 1.16 (1.08-1.26) per 50 g/day**, with low
+heterogeneity across the cohorts in that dose-response analysis, and grades it a *convincing* cause.
+It calls the evidence *generally* consistent rather than consistent; of two published pooled analyses
+outside that meta-analysis, one reported a significant increase and the other no significant association
+[@wcrf2018]. Unprocessed red meat is
+**1.12 (1.00-1.25) per 100 g/day** and graded *probable*. But note the red-meat number: WCRF's own
+dose-response «showed no statistically significant association between the risk of colorectal cancer
+and consumption of red meat (RR 1.12 [95% CI 1.00-1.25], per 100 grams increase per day)»
 [@wcrf2018] — the lower bound touches 1.00.
 
-NutriRECS looked at the same evidence, graded it **low-to-very-low certainty**, and put the absolute
-size in plain terms: cutting unprocessed red meat by three servings a week averts about **7 cancer
-deaths per 1000 people over a lifetime (low certainty)**
-[@nutrirecs2019]. **Same numbers, opposite
-grade** — the split is about how much observational evidence warrants, sharpened by a values judgment
-(most meat-eaters are unwilling to change for a small uncertain benefit), not about the effect size.
--> [[Certainty of Evidence vs Strength of Recommendation]]
+NutriRECS ran its own meta-analyses, graded the evidence **low-to-very-low certainty**, and put the
+absolute size in plain terms. Cutting unprocessed red meat by three servings a week may reduce
+**overall cancer mortality by about 7 deaths per 1000 people over a lifetime (9 to 6 fewer; low
+certainty)**. That was the one significant result among nine cancer outcomes; colorectal-cancer
+incidence was among the eight nulls
+[@nutrirecs2019]. So this figure and
+WCRF's colorectal RR measure different endpoints and cannot be set side by side.
+
+**Both bodies grade causation, but on different scales and inputs.** WCRF's grade counts mechanistic
+evidence; for processed meat it cites robust mechanisms operating in humans
+[@wcrf2018]. NutriRECS uses GRADE, where
+observational evidence starts low, and it declined to rate up for dose-response because of residual
+confounding [@nutrirecs2019].
+
+**NutriRECS names three reasons for the split, not one.** The first is that grading difference: the
+other guidelines did not use GRADE. Second, they did not calculate, or did not highlight, how small
+the absolute harm is. Third, they paid little attention to why people eat meat and whether they would
+cut back for a small, uncertain benefit
+[@nutrirecs2019]. So the disagreement is
+less about the size of the effect than about what that evidence warrants and what a small absolute
+benefit is worth. -> [[Red and Processed Meat and Cancer]],
+[[Certainty of Evidence vs Strength of Recommendation]]
 
 The mechanism points at a within-category attribute. **Heme iron is roughly ten times higher in red
 meat than in white meat**, catalyses the formation of carcinogenic N-nitroso compounds in the gut,
@@ -134,6 +158,8 @@ A single iron channel cannot be harmful for both, so whatever raises coronary ri
 observational heme data most likely runs through a non-iron route rather than iron burden itself. And
 the natural experiment instruments *systemic* iron, not dietary heme, so it narrows this question
 without closing it. -> [[Heme Iron and Cardiometabolic Risk]]
+
+</div>
 
 ## Preparation matters less than the headlines
 
@@ -336,6 +362,8 @@ The realistic options, ranked by the size of the win each buys:
 The weighting of length of life against cancer risk against the pleasure and convenience of meat is
 yours to set; the evidence only names which way each option moves each outcome.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What the evidence still cannot say
 
 - **Cooking-method hard outcomes** — whether a low-temperature preparation changes any
@@ -372,6 +400,8 @@ cited here.
 > | **Evidence included** | 24 sources — 15 gold, 9 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meat.md) |
+
+</div>
 
 ## References

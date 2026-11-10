@@ -4,14 +4,15 @@ title: Meal Timing and Fasting
 subject: What manipulating when and whether you eat -- time-restricted eating, one-meal-a-day, alternate-day and whole-day fasting, and prolonged therapeutic fasting -- adds beyond the calorie deficit it creates, and where a long fast flips to net harm
 question: For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm?
 aliases: [Fasting, Intermittent Fasting, Fasting Benefits and Risks, Time-Restricted Eating Deliverable, Meal Timing, Is Meal Timing a Life Hack, ADF, 5:2, OMAD, Skipping Breakfast, Prolonged Fasting, Fasting-Mimicking Diet, Autophagy Fasting, Meal Frequency, Grazing, Small Frequent Meals]
-authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Zou, Huajie; Yu, Xuefeng; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael; Sardeli, Amanda Veiga]
-sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Sardeli - Resistance Training Caloric Restriction]
+authors: [Lowe, Dylan A; Sutton, Elizabeth F; Semnani-Azad, Zhila; European Association for the Study of the Liver (org); Lean, Michael EJ; Liu, Deying; Refalo, Martin C; Sumithran, Priya; Montani, Jean-Pierre; Zou, Huajie; Yu, Xuefeng; Capers, Patrice L; Wilding, John P H; Lincoff, A Michael; Sardeli, Amanda Veiga; Goldenberg, Joshua Z; Turicchi, Jake; Purcell, Katrina; Wycherley, Thomas P; Churuangsuk, Chaitong]
+sources: [Lowe - Time-Restricted Eating TREAT 2020, Sutton - Early Time-Restricted Feeding eTRF 2018, Semnani-Azad - Intermittent Fasting Cardiometabolic Meta-Analysis 2025, EASL - MASLD Clinical Practice Guidelines 2024, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Liu - Calorie Restriction Time-Restricted Eating 2022, Refalo - Protein Fat-Free Mass Energy Restriction 2025, Sumithran - Hormonal Adaptation Weight Loss 2011, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weight Fluctuation Cardiovascular Disease 2019, Zou - Weight Cycling Diabetes 2020, Capers - Sleep Duration Adiposity Energy Balance Meta-Analysis 2015, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Sardeli - Resistance Training Caloric Restriction, Goldenberg - Low Carbohydrate Diets T2D Remission 2021, Turicchi - Weight Loss Rate Regain Meta-Regression 2019, Purcell - Rate of Weight Loss RCT 2014, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Churuangsuk - Diabetes Diets Umbrella Review 2022]
 confidence: low
 created: 2026-08-05
-updated: 2026-10-06
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 **When you eat is a smaller lever than almost anyone selling it believes.** When trials hold calories
 steady and vary only the clock, the eating window adds no significant weight loss to what the calorie
@@ -24,13 +25,15 @@ every outcome touched so far is a surrogate, not a heart attack avoided or a yea
 
 **The one place a long, hard deficit becomes a genuine therapy has nothing to do with intermittent
 timing.** A sustained, medically supervised near-fast can put recently-diagnosed diabetes into
-remission -- because it is deep and sustained, not because meals were skipped on a schedule.
+remission. The programme that did it was a deep deficit eaten every day, not a schedule of skipped
+meals.
 
 **Pushed the wrong way, restricting when you eat may cost you muscle and set up regain.** In one trial a
 short window took a large share of its small weight loss from lean tissue; and after any large loss the body defends the old
 weight with a hormonal headwind that persists for at least a year. And for the biggest weight lever of
 all, a drug now beats anything fasting can deliver.
 
+</div>
 
 ## Holding calories constant, the eating window adds no significant weight loss
 
@@ -117,6 +120,8 @@ regimen label is second-order: pick the pattern you will actually adhere to, bec
 schedule, is what the deficit rides on -> [[Time-Restricted Eating]].
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## A short eating window may cost you muscle
 
 The window can add a specific harm the scale hides. In TREAT (Lowe 2020), the weight a late 16:8 window
@@ -133,11 +138,35 @@ is a candidate cause, not a proven one.
 [inferred from @lowe2020; @liu2022]
 
 The countermeasure is dietary, and the target *rises* under a deficit. Refalo 2025 (meta-regression, 29
-studies, resistance-trained adults) finds that «increasing protein intake up to 1.9 g/kgBM/day or 2.5
-g/kgFFM/day, on average, is associated with less FFM loss» -- above the \~1.6 g/kgBM energy-balance
-target. [@refalo2025] The authors call
-their own numbers exploratory, and the resistance-training stimulus matters more than the protein dial
--- but the direction is clear: in any window, keep protein up and train
+studies, non-obese resistance-trained adults) finds that «increasing protein intake up to 1.9
+g/kgBM/day or 2.5 g/kgFFM/day, on average, is associated with less FFM loss» -- above the \~1.6
+g/kgBM energy-balance target. [@refalo2025]
+
+**Read \~1.9 as a point on a rising line, not a plateau.** It is where the trend line crosses zero
+lean-mass change. The best-fitting curve was a straight line across the studied 0.8-3.2 g/kgBM
+(0.9-4.2 g/kgFFM), with no knee shown, so intakes above it went with lean-mass gain up to the top of
+that range. The direction is probable rather than certain: per extra g/kg of body mass, the slope's
+95% interval was -0.01 to 0.14, which includes zero; per extra g/kg of fat-free mass it was 0.01 to
+0.12, which does not.
+[@refalo2025] The analysis compared
+straight and curved fits but fitted no breakpoint, so a knee is not shown rather than ruled out
+.
+
+**The 1.9 figure comes from non-obese, resistance-trained dieters, and many people trying a fasting
+schedule are neither.** Refalo admitted only non-obese participants (body fat up to 27.8% in men and
+39.7% in women); its body-fat subgroups, tentatively, suggested leaner people may benefit more from
+higher intakes.
+[@refalo2025] The obese were excluded,
+so they are unstudied, not shown to need more or less. Where lean mass can be estimated, the per-kg
+fat-free-mass figure (\~2.5 g/kgFFM) is the better-scaled way to size a target for a heavier person,
+but for the obese it is a reasoned transfer, not a tested one.
+
+In overweight and obese dieters without structured exercise, a separate meta-analysis found that
+achieved protein of about 1.25 g/kg/day, against 0.72, kept 0.43 kg more fat-free mass (95% CI 0.09 to 0.78). It excluded
+very-low-energy diets, so it does not cover a formula near-fast.
+[@wycherley2012] The Refalo authors
+call their own numbers exploratory, and the resistance-training stimulus matters more than the
+protein dial -- but the direction is clear: in any window, keep protein up and train
 -> [[Protein Intake During Energy Restriction]].
 
 Training has its own pooled evidence. Sardeli's meta-analysis of six RCTs in obese older adults (mean
@@ -152,17 +181,37 @@ case rests on a single, non-randomised comparison between trials.
 so whether the same protection holds in younger dieters was not tested
 -> [[Resistance Training During Caloric Restriction]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## A deep, sustained deficit is a real therapy -- and that is about magnitude, not timing
 
 The one eating-pattern change that moves a patient-important outcome is not intermittent at all. DiRECT
 (Lean 2018) delivered a continuous \~825-853 kcal/day formula diet for 3-5 months, then structured
 maintenance, and put type 2 diabetes into remission in 46% of the intervention group versus 4% of
-controls (OR 19.7, 95% CI 7.8-49.8) -- with remission rising monotonically with weight kept off:
+controls (OR 19.7, 95% CI 7.8-49.8). With both arms pooled, remission rose with weight kept off:
 «86% of participants with at least 15 kg weight loss, and 73% of those with weight loss of 10 kg or
-more». [@lean2018] The operative variable is kilograms
-lost, on a 59%-carbohydrate formula -- so the lever is the depth and durability of the deficit, not the
-macronutrient mix and not any fasting schedule -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+more». [@lean2018] **That gradient cannot separate
+kilograms from the programme.** Every loss of 15 kg or more was in the formula arm
+[@lean2018], so weight band and programme rise together,
+and the bands are an association, not the randomised contrast.
+
+**The formula was high in carbohydrate share but low in grams.** It took 59% of its energy from
+carbohydrate [@lean2018]. At 825-853 kcal that is about
+122-126 g a day, just under the 130 g a day that low-carb trials use as a cut-off
+[@goldenberg2021]. Low energy and low
+carbohydrate grams went together, so the trial cannot separate them either.
+
+An umbrella review of diabetes diets judged weight loss the apparent main contributor to
+remission, whatever the diet type, while cautioning about residual confounding in the non-randomised studies
+[@churuangsuk2022]. DiRECT's lead author
+co-wrote that review, so it is not an independent check
+[@churuangsuk2022]. Whether cutting carbohydrate
+adds anything beyond the weight it removes is not shown either way. The trial does settle
+one thing: the formula was eaten every day, so no fasting schedule was involved
+-> [[Total Diet Replacement and Type 2 Diabetes Remission]],
+[[Carbohydrate Restriction and Type 2 Diabetes Remission]].
 
 The remission fades with time but does not vanish. At 24 months, 53 of 149 people who started the
 intervention (35.6%) were in remission, against 5 of 149 controls (3.4%), counting everyone randomised.
@@ -182,6 +231,7 @@ weight loss (>=5% reduces liver fat, 7-10% improves inflammation, >=10% improves
 on liver fat. [@easl2024] Both sources point
 one way: the deficit is the medicine; the timing is packaging.
 
+</div>
 
 ## Prolonged fasting and autophagy are a separate exposure the evidence does not cover
 
@@ -195,10 +245,11 @@ longevity review is a **named gap**. The **fasting-mimicking diet** (a periodic 
 protocol) is likewise a distinct exposure, not appraised here for lack of a held human-outcome source
 .
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Where a long fast turns against you: muscle, regain, and the wrong person
 
-Aggressive restriction has real costs, and they scale with how deep and how fast it goes. Three sit on
-the harm side of the ledger.
+Aggressive restriction has real costs. Three sit on the harm side of the ledger.
 
 **Regain is defended physiology, not weak resolve.** After an 8-week very-low-energy diet, Sumithran
 2011 measured appetite hormones a full year later and found the satiety signals still suppressed and
@@ -208,8 +259,28 @@ physiological basis and is not simply the result of the voluntary resumption of 
 [@sumithran2011] Maintenance is a distinct
 problem against a biological headwind -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
+**A bigger loss goes with more regain in kilograms; whether a faster one adds regain is
+unsettled.** Across 43 studies selected for having regained, groups regained about 0.50 kg per extra
+kg lost (95% CI 0.25 to 0.74). Faster loss also went with more regain on its own (2.06 kg per kg/week,
+0.01 to 4.11), but not once the amount lost was in the model (p=0.42). Speed mattered more at larger
+losses (interaction p=0.042), a signal that weakened to a trend after adjustment for BMI (p=0.09).
+The authors keep rate in their conclusion and suggest a more conservative method for anyone planning
+a substantial loss. [@turicchi2019regain]
+These are between-study associations. Because the slope sits below 1, groups that lost more also kept
+more, but selecting studies on regain probably flatters that net figure, and follow-up length was not
+adjusted.
+
+In the randomised trial of pace held here, non-diabetic adults with a BMI of 30-45 aimed to lose 15%
+either fast, over 12 weeks on a very-low-energy diet, or slowly, over 36 weeks. More of the fast arm
+reached the 12.5% target (78% vs 51% of those randomised). Among those who reached it, regain at 144
+weeks was 10.3 vs 10.4 kg, a difference of 0.09 kg (95% CI -2.8 to 2.6).
+[@purcell2014rate] That comparison covers only people who
+reached the target, a group the two arms filled unequally, and the arms also differed in diet form and
+dietitian visits. It rules out a large speed penalty in that group, not a small one, so whether speed
+adds regain stays insufficient evidence.
+
 **Muscle is the first casualty of a protein-poor window** (the TREAT/Refalo finding above) -- the
-reason to keep protein high and the deficit modest rather than maximal.
+reason to keep protein high whatever the size of the deficit.
 
 **No held source shows weight cycling should deter an obese person from trying to lose weight.**
 Montani 2015 (a narrative review, held as a labelled counterweight) finds some potential harms of
@@ -247,6 +318,7 @@ inconsistent effects on integrated energy balance as operationalized by weight c
 compensates; a timing change's naive prediction routinely fails to survive it
 -> [[Sleep and Metabolic Health]].
 
+</div>
 
 ## A drug now dwarfs the biggest effect fasting can offer
 
@@ -281,6 +353,8 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 [inferred from @semnaniazad2025]
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The bottom line
 
 - **Do not choose a fasting schedule for the timing.** Choose the eating pattern -- any pattern --
@@ -288,11 +362,13 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 - **If you run a window, put it earlier in the day and keep it modest** (an 8-hour or wider early
   window, not a punishing 6-hour one). The early-timing benefit is weak and surrogate-only, but it is
   the better-supported direction and the wider window is the one people can keep.
-- **Protect muscle: keep protein high (aim \~1.9 g/kgBM/day under a deficit) and keep training.** A
-  short, protein-poor window is where fasting may cost muscle.
+- **Protect muscle in a deficit: keep protein up and train.** Non-obese trained: \~1.9 g/kgBM/day,
+  no plateau to 3.2. Obese: unstudied; size by lean mass (\~2.5 g/kgFFM). Untrained overweight/obese,
+  moderate deficit: \~1.25 g/kg beat \~0.72. A short, protein-poor window may cost muscle.
 - **Reserve a deep, sustained, supervised deficit for a real indication** (early type 2 diabetes,
   fatty liver) where its magnitude earns a patient-important outcome -- and design the maintenance
-  phase from the start, because regain is defended physiology, not weak will.
+  phase from the start, because regain is defended physiology, not weak will. Whether fast loss adds
+  regain here is unsettled.
 - **Fear of yo-yoing is not, on the held evidence, a reason to avoid attempting weight loss** if you are
   metabolically at risk. No held source supports that deterrent, though none shows the attempt is free of
   a cycling penalty either.
@@ -320,9 +396,11 @@ chronic sleep loss). Rank it by expected marginal impact, not by how loudly it i
 > | | |
 > |---|---|
 > | **Question** | For an adult considering any eating-schedule change -- time-restricted eating, one-meal-a-day, alternate-day or whole-day fasting, or a prolonged/therapeutic fast -- what does it add beyond the calorie deficit it creates, on patient-important outcomes, and where does a long fast flip to net harm? |
-> | **Evidence included** | 17 sources — 6 gold, 8 high, 2 moderate, 1 weak |
+> | **Evidence included** | 22 sources — 9 gold, 10 high, 2 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Lowe (RCT, moderate); Sutton (RCT, weak); Montani (narrative review, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Meal%20Timing%20and%20Fasting.md) |
+
+</div>
 
 ## References

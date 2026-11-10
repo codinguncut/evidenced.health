@@ -638,8 +638,6 @@ runs the confounder-immune adjudication.** GBD corroborates *unprobed, not dispr
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
 
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
 
 This page's central gap was that **hard outcomes sit at very low certainty** (all cohort evidence, the
@@ -703,8 +701,6 @@ dilution + a single-day recovery-biomarker + Huang's short-trial underestimate �
 reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
 between sodium, potassium and dilution is **not identified** by this trial.
 [inferred from @neal2021; @bplttc2021]
-
-</div>
 
 ## Salt substitutes pooled — the hard-outcome benefit is mostly one trial's, with no mortality evidence from outside China `[2026-10-26, Lai]`
 

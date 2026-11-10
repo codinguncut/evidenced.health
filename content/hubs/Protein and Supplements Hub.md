@@ -11,8 +11,6 @@ and function* side (sarcopenia, grip, resistance training, fracture) moved to
 [[Musculoskeletal Health and Physical Function Hub]]; protein's role in building muscle is cross-referenced
 there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Protein — how much, which source, and mortality
 
 - [[Protein Intake for Older Adults]] — how much protein an older adult needs, daily (at least 1.0-1.2 g/kg/d, a floor not a ceiling,
@@ -29,8 +27,6 @@ there. Nucleus of the quality side: [[Protein Quality and the DIAAS Score]].
   objection to a higher target, defused for the healthy — with a hard stratum flip for established CKD
 - [[Protein Intake During Energy Restriction]] — how much protein retains fat-free mass during a
   deficit in a resistance-trained adult, and why that target runs higher than the energy-balance one
-
-</div>
 
 ## Supplements — worth taking or not
 

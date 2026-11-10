@@ -2,8 +2,8 @@
 type: framework
 question: Which dietary approach to weight loss should be offered, to whom, and for how long?
 aliases: [NICE Weight Loss Diets, Total Diet Replacement, Low Energy Diets, TDR, NG246 Diets, Weight Loss Diet Comparison]
-authors: [National Institute for Health and Care Excellence (org); Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy]
-sources: [NICE - NG246 Evidence Review F, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019]
+authors: [National Institute for Health and Care Excellence (org); Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy; Jensen, Michael D; Ryan, Donna H]
+sources: [NICE - NG246 Evidence Review F, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Jensen - AHA ACC TOS Obesity Guideline 2014]
 cluster: weight-loss-diets
 confidence: medium
 relationships:
@@ -12,9 +12,9 @@ relationships:
     - Carbohydrate Restriction and Type 2 Diabetes Remission
     - Rating Outcome Importance
     - Baseline Risk and the Relative-Absolute Split
-self_critiqued: 2026-10-06
+self_critiqued: 2026-11-06
 created: 2026-07-26
-updated: 2026-10-06
+updated: 2026-11-09
 ---
 
 NICE NG246 Evidence Review F, January 2025. **The wiki's first source that names an intervention, a
@@ -55,6 +55,49 @@ maintain an energy deficit and this can be achieved by lowering specific macronu
 **No evidence in the review tested 600 against any other deficit.** A number can be withdrawn for
 having no warrant, without anything having shown it wrong — a distinct move from a refuted claim, and
 one the telos's four evidence-states should record as such.
+
+<div class="recent-update" data-last-updated="2026-11-09">
+
+## A second guidance family: the 2013 AHA/ACC/TOS guideline, matched parameter by parameter
+
+*Appended 2026-11-06.* The US 2013 AHA/ACC/TOS obesity guideline (Jensen and colleagues) is now held,
+so this page's recommendation has a second guidance family to set against. NICE did look at it: Review
+F's excluded-studies appendix lists the guideline's executive summary as checked for inclusion and
+excluded as «Not a relevant study design» [@nice].
+The two documents are therefore not built one on the other, but they draw on the same class of diet RCTs,
+so agreement between them is shared-evidence agreement, not independent backing (not type-E).
+[inferred from @nice; @jensen2014obesity]
+
+**Parameter table (op-weave 2a).**
+
+| Parameter | NICE NG246 Review F (2025) | AHA/ACC/TOS (2013) | Same quantity? |
+|---|---|---|---|
+| A deficit is required | «dietary approaches to support weight loss should maintain an energy deficit» | CQ3 ES1 (High): «To achieve weight loss, an energy deficit is required.» | **YES — agree** |
+| A stated deficit number | 600 kcal/d removed as «arbitrarily specific» | rec 3a (Grade A) keeps a menu: 1200-1500 / 1500-1800 kcal/d, or «Prescribe a 500-kcal/d or 750-kcal/d energy deficit», or an evidence-based restrictive diet | **PARTLY** — both describe what trials used; NICE objects to one fixed number, the US text lists several as options |
+| Very low energy (<800 kcal/d) | defined as «less than 800 calories per day»; «very-low-energy diets should only be considered as part of a multicomponent overweight and obesity management strategy offered within specialist overweight and obesity management services and should be followed for a maximum of 12 weeks, with ongoing clinical support and supervision including advice on food re-introduction» | rec 4e (NHLBI Grade A; ACC/AHA COR IIa‡): «Use a very-low-calorie diet (defined as <800 kcal/d) only in limited circumstances and only when provided by trained practitioners in a medical care setting where medical monitoring and high-intensity lifestyle intervention can be provided.» | **YES — agree** on the band and the setting: both restrict it to specialist or medical settings with supervision; NICE adds a 12-week cap the US text lacks. (NICE's separate low-energy band, 800-1200 kcal/d, has no matching US recommendation. ES10a, Low, is not one: it compares liquid and bar meal replacements with a conventional-food deficit diet, in overweight and obese women, which is a different quantity from an energy band) |
+| Low-carbohydrate | low-carb: no improvement; very-low-carb: weight reduction at 1 year, not sustained at 2 | ES6a (Low): no difference in weight at 6 months vs low-fat | **NO** — different horizons (6 months vs 1-2 years) and evidence windows |
+| Long-term support after loss | «long term support», structure unspecified | rec 4f (Grade A): maintenance programme ≥1 year; rec 4g: monthly or more contact | **PARTLY** — the US text specifies what NICE leaves open; NICE's review question does not cover programme structure |
+| Programme intensity / contact frequency | not asked in Review F | ≥14 sessions in 6 months, Grade A | **— (no NICE cell)** — a G-gap, not a contrast |
+
+[@nice] (NICE cells, as extracted above);
+[@nice] (very-low-energy definition and committee
+statement, discussion of the evidence);
+[@jensen2014obesity] (ES1, ES6a, ES10a);
+[@jensen2014obesity] (recs 3a, 4e, 4f, 4g)
+
+**What the table licenses.** The two families agree on what both state plainly: a deficit is required,
+no macronutrient pattern is singled out, and a diet under 800 kcal/d belongs in a supervised specialist
+or medical setting. The apparent differences are either a different quantity (the low-carb horizon) or
+a difference in how specifically to write the prescription. On the stated deficit number the live
+reading is standpoint: a prescriptive menu of numbers vs a deliberately non-numeric formulation. Lag
+(12 years apart) is not supported on this row, because NICE dropped its own 600 kcal figure for being
+arbitrary, not because newer evidence tested it (section above). No [[tension]] is filed: the
+not-joined check (ii) fires on the low-carb row, and the deficit row is a difference of wording over
+overlapping trial practice. The programme-structure questions the US guideline
+answers are on [[Lifestyle Weight-Loss Programme Intensity and Delivery]].
+[inferred from @nice; @jensen2014obesity]
+
+</div>
 
 ## Low carbohydrate: assessed, and left without a recommendation
 

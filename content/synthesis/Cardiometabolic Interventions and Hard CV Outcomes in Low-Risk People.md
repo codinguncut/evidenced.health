@@ -153,8 +153,6 @@ glycemia, diabetes prevention, MASLD, function, and — for higher-risk people �
 
 
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## What tested it — and why the test sharpened rather than broke it
 
 BP-lowering was the candidate refutation, and it is instructive that it **refined** the claim instead.
@@ -355,7 +353,5 @@ by a thin contrast, not the same mechanism. Aspirin adds a further class that
 reaches the *same* place by a **different** route — a proven relative benefit cancelled by a matched,
 also-proven bleeding harm — so the ceiling holds even where a low-risk primary-prevention benefit *is*
 demonstrable, which strengthens rather than dilutes the finding.
-
-</div>
 
 ## References

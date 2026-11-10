@@ -25,8 +25,6 @@ created: 2026-08-06
 updated: 2026-11-04
 self_critiqued: 2026-11-02
 ---
-<div class="recent-page" data-last-updated="2026-11-04"></div>
-
 
 The **target** side of the protein question for the over-65 stratum: how much, and distributed how,
 to maintain and regain lean mass and function. The lever is [[Anabolic Resistance]]: PROT-AGE reports

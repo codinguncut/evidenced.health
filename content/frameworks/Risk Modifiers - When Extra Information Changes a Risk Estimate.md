@@ -212,8 +212,6 @@ evidence *«less extensive than it is for CAC»*.
 
 
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Limits
 
 - One guidance body. Whether other bodies set the same bar or endorse the same shortlist is **unprobed**
@@ -225,7 +223,7 @@ evidence *«less extensive than it is for CAC»*.
   frequency, a lifestyle exposure ESC does not discuss, is read against the criteria in the last
   section.)
 
-</div>
+
 
 ## A modifier that DID clear the bar — with a number and a grade `[2026-07-28, ESC chunk 03]`
 
@@ -254,8 +252,6 @@ This page records ESC's five criteria and its verdict that *«very few potential
 (*«Assessment of total CVD risk may be considered»*) — a recommendation to *assess*, not a multiplier.
 **The two should not be conflated:** rheumatoid arthritis gets a number, the broader category gets a
 prompt.
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Lp(a) crossed the bar — ESC's own 2021→2025 reversal, and ACC-AHA agrees `[2026-08-06]`
 
@@ -302,10 +298,6 @@ backing — no `[E-independent]`. The value here is **F/class-4**: a held single
 by that body's own newer cycle, and a second family lands on the same actionable mass threshold.
 [inferred from @esceas2025; @accaha2026]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## A lifestyle exposure proposed as a modifier — sauna frequency against the five criteria
 
 ESC never discusses sauna. One held cohort paper reports reclassification statistics for sauna-bathing
@@ -345,7 +337,5 @@ paper is silent or cannot speak, and on criterion four its evidence is partial. 
 continuous-ish ordinal marker, so by this page's rheumatoid-arthritis reasoning it does not sidestep the
 reassurance trap. It stays a *proposed* modifier that has not cleared the bar in the wiki's reading;
 ESC has taken no position on it. [inferred from @laukkanen2018sauna]
-
-</div>
 
 ## References

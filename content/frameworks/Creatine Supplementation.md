@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-10-26
+updated: 2026-11-10
 self_critiqued: 2026-09-24
 ---
 
@@ -150,6 +150,8 @@ are **insufficient / not-yet / null**, and must not be laundered into the ergoge
   (high-dose creatine improves outcomes), distinct from supplementing a replete person
   [@kreider2017].
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Older adults — the one clinical stratum where the surrogate benefit is decision-relevant
 
 The ergogenic benefit becomes more than athletic in the elderly, where muscle/strength/function are
@@ -171,6 +173,8 @@ corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
 ([[Big Rocks (Elderly)]]), creatine is a small, evidenced adjunct **on top of** the resistance training
 that remains the driver — never a substitute for it
 [inferred from @kreider2017].
+
+</div>
 
 ## Bone — the adjunct benefit does NOT extend to BMD (a within-exposure dissociation)
 

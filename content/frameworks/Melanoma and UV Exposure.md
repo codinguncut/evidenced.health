@@ -15,8 +15,6 @@ relationships:
     - Diet Physical Activity and Cancer Prevention
     - The U-Shaped Association Artifact
 ---
-<div class="recent-page" data-last-updated="2026-11-04"></div>
-
 
 **The decision-critical fact: *sun exposure* is not one exposure for melanoma.** In the observational
 evidence the pattern matters more than the dose. Intermittent, intense, burning exposure is associated

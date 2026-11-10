@@ -17,15 +17,12 @@ created: 2026-07-25
 updated: 2026-11-04
 self_critiqued: 2026-11-04
 ---
-<div class="recent-update" data-last-updated="2026-11-04">
 
 **Nucleus of the `nutrition-methods` cluster.** The comparator problem
 ([[Framing a Decision Question]]) has a technical form in nutrition that has no analogue in most
 fields: **the analytic model silently decides what the nutrient is being compared against.** Two
 studies can report "the effect of saturated fat" and mean different comparisons.
 [inferred from @willett]
-
-</div>
 
 ## Why energy must be handled at all
 
@@ -76,8 +73,6 @@ The load-bearing quotes:
   the macronutrient not included in the model), with total energy held constant."
   [@willett]
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Failure modes
 
 - **Nutrient density used alone, where energy predicts disease.** A density is the nutrient times the
@@ -107,10 +102,6 @@ The load-bearing quotes:
   claim built on categorized residuals.
   [@willett]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Decision relevance
 
 - ***The effect of nutrient X* is incomplete until the model is named.** This is the comparator rule
@@ -129,10 +120,6 @@ The load-bearing quotes:
   "overcontrol" case where caloric excess is itself the exposure. The chapter does **not** treat a
   reduce-without-replacement regime. [inferred from @willett]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Limits
 
 - Model interchangeability breaks for **categorical** analyses: "the statistical interchangeability of
@@ -144,10 +131,6 @@ The load-bearing quotes:
   [@willett]
 - 2012 source; the modelling conventions are stable but the worked examples predate the current
   literature. [inferred from @willett]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Energy adjustment's effect on measurement error is two-sided `[2026-07-28, Willett ch.3 + ch.11; scoped 2026-07-30 self-critique]`
 
@@ -188,8 +171,6 @@ coefficient means*, can cancel correlated error, and can *also* raise the within
 some nutrients — the sign of that last effect varies by nutrient (Table 3-6 above).
 [inferred from @willett]
 
-</div>
-
 ## The adjustment term stops meaning what its label says `[2026-07-28, Willett ch.13]`
 
 This page's core claim is that the analytic model decides the comparator. **Chapter 13 shows the same
@@ -214,8 +195,6 @@ the quantity it estimates have come apart, silently.
   scanning a table for *"total fat: RR 0.98"* is reading the effect of **unsaturated** fat. **Reading
   the covariate list is not optional bookkeeping; it is where the comparator is defined.**
   [inferred from @willett]
-
-<div class="recent-update" data-last-updated="2026-11-04">
 
 ## A displayed dose-response can show the model rather than the data `[2026-07-28, Willett ch.13]`
 
@@ -276,10 +255,6 @@ heavily influential when nutrients are considered as continuous variables» — 
 locate a knee is both sparse and high-leverage.
 [@willett]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## A positive plateau claim, from a different kind of input than chunk 18 `[2026-07-28, ESC]`
 
 The section above records a mechanism by which an apparently **monotone** display can be an artifact.
@@ -320,7 +295,5 @@ meta-analysis, with **no interval, no certainty rating, and no reference to the 
 and *«not reduced further»* in a guideline sentence may reflect the studied range ending near five
 servings rather than a true flattening — **the same ambiguity flagged on the Willett whole-grain
 sentence, and unresolved for the same reason.**
-
-</div>
 
 ## References

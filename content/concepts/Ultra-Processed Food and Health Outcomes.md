@@ -19,8 +19,9 @@ relationships:
     - Hyper-Palatable Foods
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-31
-updated: 2026-09-03
+updated: 2026-11-10
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
 composed of chemically modified substances extracted from foods, along with additives»* — packaged
@@ -41,6 +42,8 @@ low-certainty layer. See *The causal foothold* below.
 [inferred from @hall2019; @lane2024upf]
 
 [inferred from @lane2024upf; @nnr2023]
+
+</div>
 
 ## What Lane 2024 is — and is not
 

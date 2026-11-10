@@ -154,8 +154,6 @@ is unambiguous added risk.
   pharmacotherapy, behavioural support) is **out of scope by design**: those are prescriber and
   treatment-selection acts. This deliverable appraises the *value of quitting*, not the *method*.
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Bottom line — what to do
 
 - **If you smoke, quitting is the top priority — ahead of every diet, exercise, or sleep change.** It is
@@ -177,7 +175,5 @@ is unambiguous added risk.
 > | **Overall certainty** | **High** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Skotsimara (meta-analysis, moderate). Their roles and limitations are described in the text. |
 > | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Smoking.md) |
-
-</div>
 
 ## References

@@ -4,11 +4,11 @@ title: Body Fat
 aliases: [Body Fat, Obesity, Adiposity, Should I Lose Weight, Is My Fat Dangerous, Body Fat Percentage, Visceral Fat, Body Composition, Metabolically Healthy Obesity]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-07
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 question: 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)'
-sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018]
+sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014, Duong - Risk Factors Knee Osteoarthritis Lifespan 2025, EASL - MASLD Clinical Practice Guidelines 2024, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, Estruch - PREDIMED Mediterranean Diet 2018, Global BMI - BMI All-Cause Mortality 2016, Goldberg - DPPOS Cardiovascular Events 2022, Jayedi - Central Fatness All-Cause Mortality Dose-Response 2020, Kramer - Metabolically Healthy Obesity Benign Meta-Analysis 2013, Lean - DiRECT T2D Remission 2018, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Messier - Intensive Diet Exercise Knee Osteoarthritis IDEA 2013, Opio - Metabolically Healthy Overweight Obesity Cardiovascular Risk 2020, Peng - Lifestyle Metabolic Syndrome NAFLD Umbrella 2022, Rausch Osthoff - Exercise Physical Activity Arthritis EULAR Meta-Analysis 2018, Sjostrom - SOS Bariatric Surgery Mortality 2007, Taylor - Personal Fat Threshold Normal Weight Type 2 Diabetes 2015, WCRF - Diet Nutrition Activity Cancer 2018, Wade - BMI Mortality Mendelian Randomization 2018, Winters-van Eekelen - Dietary Macronutrients Liver Fat 2020, Yusuf - INTERHEART Obesity Myocardial Infarction 2005, Ambikairajah - Fat Mass Changes Menopause Meta-Analysis 2019, Mantovani - NAFLD Incident Type 2 Diabetes 2018, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026]
 ---
 
 ## Where fat sits matters more than how much of it there is
@@ -28,6 +28,8 @@ outcome, whether the loss lasts -- those live in [[Losing Fat and Keeping It Off
 
 
 
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Where fat sits carries the risk — read the depot, not the scale
 
@@ -80,7 +82,7 @@ durably benign (RR **1.24 (1.02-1.55)** versus metabolically-healthy normal weig
 years' follow-up — «there is no healthy pattern of increased weight»), while metabolically-*unhealthy*
 normal weight carries RR **3.14 (2.36-3.93)**. [@kramer2013mho]
 
-Opio 2020 refines this on a larger base (23 prospective cohorts, n=4.49M) and answers the sub-question
+Opio 2020 refines this on a larger base (23 prospective cohorts, 4,492,723 participants) and answers the sub-question
 Kramer could not: the excess CVD risk holds even with *zero* metabolic risk factors — metabolically-
 healthy overweight RR **1.51 (1.21-1.88)**, metabolically-healthy obesity RR **2.18 (1.28-3.71)** — and
 does not require a decade of latency (present at both <10y and >=10y, subgroup-difference p=0.98).
@@ -147,11 +149,15 @@ read on the heart, now on death.
 [@jayedi2020central]
 
 The shape of that curve sharpens the artifact reading above. Where the BMI curve carries a substantial
-protective-looking lower arm — the obesity paradox — the central-fat curves barely dip: waist-to-hip ratio
-is monotone, «Overall the relations were monotonic with little evidence of sharp changes at particular
-cut-off points». The frailty and low-lean-mass confound that manufactures BMI's paradox does not
-load the low-waist end -> [[The U-Shaped Association Artifact]].
+protective-looking lower arm — the obesity paradox — the central-fat curves barely dip. Waist-to-hip
+ratio is monotone over the plotted range, with no knee shown: «Overall the relations were monotonic
+with little evidence of sharp changes at particular cut-off points». The frailty and low-lean-mass
+confound that manufactures BMI's paradox does not load the low-waist end
+-> [[The U-Shaped Association Artifact]].
 [@jayedi2020central]
+That shape holds over the range Jayedi plotted, a waist-to-hip ratio of roughly 0.6 to 1.2 read off the
+figure axis; the paper does not state its studied range, and the curve says nothing beyond it.
+
 
 Jayedi lands a third position on the which-marker debate, distinct from INTERHEART's *switch to WHR* and
 ERFC's *BMI is adequate*: «measures of central adiposity could be used as a supplementary approach, in
@@ -194,23 +200,37 @@ not a number.** Read depot (waist/WHR); treat any total-adiposity cutpoint, BMI 
 coarse screen, not a target.
 [inferred from @taylor2015pft; @yusuf2005interheart]
 
-### The Personal Fat Threshold — and why reversal happens below BMI 25
+### The Personal Fat Threshold — why diabetes below BMI 25 may still answer to weight loss
 
 Taylor's model gives the individual-versus-population gap a name, the personal fat threshold (PFT),
 defined at the organ level: «It is hypothesized that each individual has a PFT (dotted line) above which excess fat is stored within the liver and the pancreas.» — and «the hypothesized PFT is independent of BMI».
-[@taylor2015pft] The data bear
-the reframe out — **36% of newly-diagnosed T2DM occurred at BMI <25** (against 64% below 25 in the
-contemporaneous UK population), so diabetes does not require obesity, only carrying more fat than *you*
-can store safely. The threshold itself shifts by ethnicity (BMI 30 in a Caucasian is matched at 25.2 in
-South Asians, 27 in African/Caribbeans). [@taylor2015pft]
+[@taylor2015pft]
 
-The reversal arm is the sharpest decision-change here: a normal-weight person with T2D is above their
-PFT even at BMI <25, and responds to weight loss — at a *smaller* required loss. In Taylor's cohort, at
-a presenting glucose of 8-10 mmol/l, «normoglycaemia was achieved with a mean weight loss of 13% if body
-weight was normal, whereas a mean weight loss of 21% of body weight was required to achieve this in the
-whole cohort». [@taylor2015pft]
-This is the stratum the remission trials routinely exclude (DiRECT required BMI >=27), yet the depot
-lens says to offer them the lever -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+The UKPDS cohort, people diagnosed in the 1970s and 1980s, fits the threshold idea: **36% of people
+newly diagnosed with T2DM had a BMI under 25** (against 64% below 25 in the UK adult population of the
+time), so diabetes does not require obesity, only carrying more fat than *you* can store safely. The
+threshold itself shifts by ethnicity (BMI 30 in a Caucasian is matched at 25.2 in South Asians, 27 in
+African/Caribbeans). Taylor notes that higher BMIs are now more common, and that the link between
+obesity and T2DM is much more evident today.
+[@taylor2015pft]
+
+The share of new cases at normal weight is therefore likely smaller now than in UKPDS.
+[inferred from @taylor2015pft]
+
+On Taylor's model, a normal-weight person with T2D is above their own threshold despite a BMI under 25,
+so weight loss should still help them — and the UKPDS data suggest it takes less. In UKPDS's 3-4 month
+diet-only run-in, at a presenting glucose of 8-10 mmol/l, «normoglycaemia was achieved with a mean weight
+loss of 13% if body weight was normal, whereas a mean weight loss of 21% of body weight was required to
+achieve this in the whole cohort». That endpoint is fasting normoglycaemia (fasting glucose under 6.0
+mmol/l), not DiRECT-style remission off drugs.
+[@taylor2015pft]
+
+The remission trials routinely exclude this stratum (DiRECT required BMI >=27), so **offering them the
+same energy-deficit lever is a mechanism-grade, directional call, not a trial result.** Taylor states
+the threshold as a hypothesis, and his statement that reversal is «achievable equally readily by people
+with lower initial BMI» rests on two earlier studies he cites.
+[@taylor2015pft]
+
 
 ### Menopause is where read-the-waist bites hardest
 
@@ -247,6 +267,9 @@ whatever delivers it, drawing the intra-organ and visceral depots back down — 
 benefits how much then runs through baseline risk -> [[Baseline Risk and the Relative-Absolute Split]].
 [inferred from @taylor2015pft; @yusuf2005interheart; @kramer2013mho]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Losing fat reliably moves the markers; it moves hard outcomes only by some routes
 
@@ -342,10 +365,25 @@ while the lifestyle weight-loss route's CV-event null still stands
 
 Tirzepatide reaches surgical-scale loss (SURMOUNT-OSA: body-weight treatment difference
 **-16.1%, 95% CI -18.0 to -14.2**) and moves the CV *risk markers* (systolic BP -7.6 mm Hg, -10.5 to
--4.8; hsCRP down) plus the OSA-severity surrogates — but it is **surrogate-only**, with no powered CV
-endpoint, no deaths, and a 52-week horizon. Do not borrow SELECT's benefit for it; its hard-outcome
-evidence AWAITS SURMOUNT-MMO.
+-4.8; hsCRP down) plus the OSA-severity surrogates — but that trial is **surrogate-only**, with no
+powered CV endpoint, no deaths, and a 52-week horizon.
 [@malhotra2024surmount]
+
+A network meta-analysis of 19 obesity drugs (262 RCTs, 99 791 people, every drug estimated against
+lifestyle modification alone as the common reference) finds the same split across the class: **the drugs
+that take off the most weight are not the drugs with the mortality evidence.** Tirzepatide (-14.9% body
+weight at one year, -16.0 to -13.9) and CagriSema (-14.8%, -16.9 to -12.7) lead on weight but show no
+demonstrated reduction in death or heart attack. Subcutaneous semaglutide, mid-table on weight (-9.8%,
+-10.6 to -9.1), is the only drug with a high-certainty fall in all-cause death (RR 0.81, 0.72-0.93) and
+myocardial infarction (RR 0.72, 0.61-0.85). On heart failure the two drugs share a signal, rated
+moderate-to-high certainty for both: semaglutide RR 0.43 (0.21-0.84; six trials, 19 889 participants)
+and tirzepatide RR 0.49 (0.27-0.88; three trials, 2240 participants).
+[@nong2026obesity]
+
+That semaglutide signal is SELECT and similar high-risk outcome trials pooled again, not an independent
+confirmation, so it applies to people at high cardiovascular risk. Do not borrow it for tirzepatide,
+whose effect on major cardiovascular events and death awaits the SURMOUNT-MMO outcome trial.
+[inferred from @nong2026obesity]
 
 ### The lifestyle hard-outcome null in low-risk people — DPPOS over 21 years
 
@@ -419,6 +457,7 @@ lowering it does reduce events — not all surrogates are equal -> [[Surrogate O
   with a demonstrated MACE benefit, or a high enough baseline risk, is where the hard-CV rock is
   largest ([[Baseline Risk and the Relative-Absolute Split]]).
 
+</div>
 
 ## The pathogenic fat is inside the organs — draw it down and the liver ladder reverses in dose
 
@@ -593,6 +632,8 @@ benefit at once — which is why depot-drawdown, not any single-disease diet, is
 
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The decision: read the depot, target it, and know what losing it buys
 
 Put together, the *state* of a person's body fat settles three things and hands off a fourth. **Where the
@@ -623,9 +664,11 @@ named gaps as bounds on the evidence, not a guarantee about your case.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult across the body-fat range: does where fat is stored change its effect on patient-important outcomes more than how much there is, is a given person''s fat actually raising their risk, and does losing it reach hard outcomes rather than only surrogates — so that the depot, not the scale number, is the thing to read and to target? (How to lose fat and keep it off is a separate decision -> [[Losing Fat and Keeping It Off]].)' |
-> | **Evidence included** | 30 sources — 15 gold, 14 high, 1 moderate |
+> | **Evidence included** | 31 sources — 16 gold, 14 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Taylor (mechanism, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Body%20Fat.md) |
+
+</div>
 
 ## References

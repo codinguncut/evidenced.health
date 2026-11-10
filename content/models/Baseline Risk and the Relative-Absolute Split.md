@@ -2,11 +2,11 @@
 type: model
 question: Why can one relative effect apply to everyone while the recommendation still differs by group?
 aliases: [Relative vs Absolute Effect, Relative vs Absolute Risk, Baseline Risk, Absolute Risk Difference, Relative Risk Constancy, Risk Stratification]
-authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org); Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Blood Pressure Lowering Treatment Trialists Collaboration (org); Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona; Chalmers, John; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Sherrington, Catherine; Michaleff, Zoe A; Fairhall, Nicola; Paul, Serene Sulyn; Tiedemann, Anne; Whitney, Julie; Cumming, Robert Graham; Herbert, Rob; Close, Jacqueline; Lord, Stephen R.]
+authors: [Schünemann, Holger; Brożek, Jan; Guyatt, Gordon; Oxman, Andrew; World Health Organization (org); Scientific Advisory Committee on Nutrition (org); US Preventive Services Task Force (org); Bhatt, Deepak L; Di Giuseppe, Daniela; Wolk, Alicja; Goldberg, Ronald B; Orchard, Trevor J; Crandall, Jill P; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Nong, Kailei; Li, Sheyu; Khan, Sadiya S; Matsushita, Kunihiro; Pittas, Anastassios G; Wormser, David; Di Angelantonio, Emanuele; Danesh, John; Cholesterol Treatment Trialists' Collaboration (org); Ding, Liyi; Luo, Jianfeng; Smith, Daniel M.; Mackey, Marcia J; Fu, Haiqing; Davis, Matthew M.; Hu, Yanping; Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Blood Pressure Lowering Treatment Trialists Collaboration (org); Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona; Chalmers, John; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Sherrington, Catherine; Michaleff, Zoe A; Fairhall, Nicola; Paul, Serene Sulyn; Tiedemann, Anne; Whitney, Julie; Cumming, Robert Graham; Herbert, Rob; Close, Jacqueline; Lord, Stephen R.; Edwards, Jamie J.; Cooper, Nicola J.; O'Driscoll, Jamie M.]
 sources: [GRADE - Handbook, Rahimi - BP Lowering by Age BPLTTC 2021, WHO - Saturated and Trans Fatty Acid Intake 2023, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022, SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, ESC - CVD Prevention Guidelines 2021, USPSTF - Procedure Manual 2022, Bhatt - REDUCE-IT Icosapent Ethyl 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Knowler - Diabetes Prevention Program DPP 2002, Di Giuseppe - Smoking Rheumatoid Arthritis Dose-Response Meta-Analysis 2014, Goldberg - DPPOS Cardiovascular Events 2022, Naci - Exercise vs Antihypertensive Drugs 2019, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Khan - PREVENT Equations 2024, Pittas - Vitamin D Type 2 Diabetes IPD 2023, Emerging Risk Factors Collaboration - BMI Abdominal Adiposity Cardiovascular 2011, CTT - Statin Therapy Older People 2019,
   Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022, Lonn - HOPE-3 BP Lowering 2016, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021,
   Sundstrom - BP Reduction Mild Hypertension 2015, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025,
-  Sherrington - Exercise Falls Prevention Meta-Regression 2017]
+  Sherrington - Exercise Falls Prevention Meta-Regression 2017, Edwards - Exercise Training Resting Blood Pressure NMA 2023]
 cluster: cvd-risk-estimation
 nucleus: true
 relationships:
@@ -19,8 +19,8 @@ relationships:
     - Surrogate Outcomes
     - Reading a Confidence Interval
 created: 2026-07-25
-self_critiqued: 2026-10-28
-updated: 2026-10-28
+self_critiqued: 2026-11-06
+updated: 2026-11-10
 ---
 
 ## The decomposition
@@ -128,7 +128,7 @@ Therefore:
 > "When easily identifiable patient characteristics confidently permit classifying patients into
 > subpopulations at appreciably different risk, absolute differences in outcome between intervention
 > and control groups will differ substantially between these subpopulations. This may well warrant
-> **differences in recommendations across subpopulations, rather than downgrading the quality of
+> **differences in recommendations across subpopulations, rather than downgrading the quality
 > evidence for inconsistency** in effect size." [@grade]
 
 That is an explicit routing rule: varying absolute benefit across risk strata is a reason to
@@ -191,12 +191,14 @@ modification" answers a rival explanation that was never available.
 **What the case still shows, which is the arithmetic and not the route:** two similar relative effects
 (0.79, 0.84) produce absolute benefits differing four-fold, so a relative effect cannot be ranked
 against another without its baseline. That lesson is intact. **A genuine route-(a) illustration is
-still owed** -- it needs one intervention, one relative effect, and two baseline-risk strata.
+still owed** -- it needs one intervention, one relative effect, and two baseline-risk strata (supplied
+further down by CTT 2010; REDUCE-IT gave the pair of numbers only in blended form).
 [inferred from @who2023saturated]
 
-**Why this is the trap and not just an illustration:** the two rows sit in the same annex under the
-same question, and a reader comparing "50 fewer" against "12 fewer" to rank the two swaps would be
-comparing populations, not nutrients. The comparable quantity is the relative effect, and on that
+**Why this is the trap and not just an illustration:** the two rows sit in the same annex, and a reader
+comparing "50 fewer" against "12 fewer" to rank the two swaps would be comparing baseline risks as well as
+nutrients. The arithmetic above splits the gap into the two factors, but the two relative effects come
+from different trial sets in different populations. The comparable quantity is the relative effect, and on that
 scale the two replacements are much closer than the guideline's presentation suggests.
 
 ## Assumed risk for a CONTINUOUS outcome is a range, not a baseline (2026-07-26)
@@ -224,6 +226,41 @@ the weight-loss MD above, one level out: here it is not the comparator's traject
 *level* that must be matched before the between-intervention number means anything. Full magnitudes +
 the surrogate/indirectness caveats -> [[Blood Pressure Lowering and Cardiovascular Events]].
 [inferred from @naci2019exercise]
+
+**The same baseline scaling inside exercise-only trials — Edwards' meta-regression `[2026-11-04]`.**
+In Edwards' network meta-regression (the review pooled 270 exercise RCTs; the regression's own trial
+count is not stated), «a single unit increase in mean baseline control group SBP increased the mean
+intervention change by 0.10 mm Hg (95% CI 0.05 to 0.15)»
+[@edwards2023exercise]. A separate pairwise
+analysis by baseline BP category points the same way: aerobic training lowers SBP by 3.60 mmHg in
+normal-BP trials and 7.74 in hypertensive ones, combined training by 2.05 and 11.14
+[@edwards2023exercise].
+With the categories' cut points (<130/85 vs >140/90 mmHg), and if the hypertensive trials started
+roughly 25-40 mmHg higher (Edwards reports no category means), 0.10 (0.05-0.15) mmHg per mmHg could account for aerobic training's \~4 mmHg gap,
+but not plausibly for combined training's \~9; trial composition probably carries the rest of that one
+.
+
+**Which route this is.** The outcome is an absolute mmHg change, and the slope moderates that change
+itself. The page's route (a) needs a relative quantity that stays constant while the absolute benefit
+scales, and Edwards shows none. A constant proportional SBP fall would give a slope near the fall divided
+by baseline SBP: about 0.03-0.04 for aerobic training's pooled 4.49 mmHg from a baseline of 120-140, below
+the reported 0.05-0.15. The slope is pooled across modes, and isometric training's 8.24 mmHg would give
+about 0.06-0.07, inside the interval, so the check speaks against proportional scaling for aerobic
+training only. So this is a **between-trial moderator of the effect, held as a hypothesis**, the
+same footing as Sherrington's programme moderators below, not route-(a) arithmetic and not within-trial
+evidence of route (b). The practical direction is unchanged: a person starting with higher SBP should
+expect a larger mmHg drop from training. (Revised 2026-11-06: this paragraph first filed the slope under
+route (a).) It is not independent of Naci: Edwards cites Naci (ref 22) and reuses its imputation method
+(«a correlation coefficient of 0.8 as previously tested and validated in a similar dataset.22»), so type F
+[@edwards2023exercise].
+
+The consequence for mode comparisons is the one above, one level down, and Edwards states it for combined
+training: «this magnitude of SBP reduction following CT is predominantly moderated by the greater
+prevalence of hypertensive populations included within the analysis»
+[@edwards2023exercise]. Edwards reports no
+baseline SBP per mode node [searched: main text read in full; appendix `mmHg`, `Baseline SBP`, Table S2
+columns], so the same check cannot be run for the other modes -> [[Is the Exercise Modality Doing Any Work]].
+[inferred from @edwards2023exercise]
 
 ## Limits
 
@@ -284,7 +321,7 @@ changes meaning when the population changes.
 
 **Still owed, and SACN does not supply it:** a genuine route-(a) illustration — one intervention, one
 relative effect, two baseline-risk strata. SACN has no such case; it never stratifies its estimates by
-baseline risk at all.
+baseline risk at all. (Supplied later on this page, by CTT 2010; REDUCE-IT gave the pair of numbers only in blended form.)
 
 ## Self-critique `[run 2026-07-28, before commit]`
 
@@ -333,7 +370,7 @@ require at least four times the sample size as do tests for main effects (Smith 
 
 **This does NOT discharge the route-(a) illustration this page owes.** That debt needs *numbers* — one
 intervention, one relative effect, two stated baseline risks, two absolute effects. **Willett states
-the principle and gives no such worked case here**, so the owed line stands. Recording this explicitly
+the principle and gives no such worked case here**, so the owed line stands (supplied later on this page, by CTT 2010; REDUCE-IT gave the pair of numbers only in blended form). Recording this explicitly
 because the page has already logged one instance of prematurely treating the debt as satisfied.
 
 **Type: F, not E.** Willett refines a claim the page already held from GRADE — the refinement being the
@@ -365,7 +402,7 @@ effects*. **ESC supplies the first two and the principle, but names no two strat
 «a high- or very-high-risk patient» is a category, not a baseline risk. **So the debt stands, narrowed:
 what is still missing is a worked pair of numbers, and this page's own
 [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]] holds the baseline-risk grid that could
-supply them.** That conversion is now a small, well-defined job rather than an open search.
+supply them.** That conversion is now a small, well-defined job rather than an open search. (Supplied later on this page, by CTT 2010; REDUCE-IT gave the pair of numbers only in blended form.)
 
 **Type: F.** ESC refines a claim the page already held from GRADE by attaching the practical
 consequence; it does not independently establish the decomposition. No `[E-independent]`.
@@ -443,12 +480,13 @@ repletion) — effect-modification is real *sometimes*, and the discipline is th
 assumed, in either direction.
 [inferred from @coley2025]
 
-## The cleanest route-(a) case the corpus holds — CTT across every stratum `[2026-08-05, CTT]`
+## A clean route-(a) case — CTT 2010 across baseline-risk strata `[2026-08-05, CTT]`
 
 REDUCE-IT supplied the owed *pair* of numbers but blended route (a) with possible route (b) (the low-risk
 arm attenuated). CTT 2010 supplies the cleaner article: **one relative effect held constant across many
-baseline-risk strata whose control event rates differ substantially** — the textbook route-(a) picture with
-no attenuation to explain away. Per 1.0 mmol/L LDL-C reduction, first major vascular events fell by about a
+baseline-risk strata whose control event rates differ substantially** — the textbook route-(a) picture,
+with no attenuation in the 2010 pooled strata. CTT 2019's finer age split later leaves one cell
+undecided, primary prevention over 75 (subsection below). Per 1.0 mmol/L LDL-C reduction, first major vascular events fell by about a
 fifth «in each subgroup examined» even though «the annual event rates in control groups» differed
 substantially «according to participants' medical history»
 [@ctt2010]. Figure 3's strata —
@@ -460,8 +498,8 @@ aside, p=0.04, which the paper does not emphasise), and the effect is constant a
 **Why this is the clean illustration and REDUCE-IT was not:** here the relative effect is *demonstrated*
 constant (26-trial IPD, no heterogeneity), so the differing absolute benefit across strata is pure route-(a)
 arithmetic — the primary-prevention subgroup (no prior vascular disease, lower baseline risk) keeps the same
-25%-per-mmol relative effect, its *absolute* benefit simply smaller because its baseline is lower. This is
-exactly the split: constant relative effect, absolute benefit tracking baseline risk, no subgroup claim
+25%-per-mmol relative effect, its *absolute* benefit simply smaller because its baseline is lower (in the
+2010 pooling; at >75 without vascular disease, see *Age split* below). This is exactly the split: constant relative effect, absolute benefit tracking baseline risk, no subgroup claim
 needed. The consequence for the statin decision is worked on [[Statins for Primary Prevention and the Power of Zero CAC]]
 and [[LDL Lowering and Cardiovascular Events]].
 [inferred from @ctt2010]
@@ -615,6 +653,8 @@ modification is not established and not excluded, so plan on \~0.91 with wider u
 at <55 this may understate the benefit and at >=85 it may overstate it, and the >=85 band cannot tell
 whether it does. BP decision consequences: [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 
 The five-route table calls route (b) (effect modification) «the false-positive generator» and demands
@@ -663,6 +703,8 @@ examined. The lesson is still the discipline: a route-(b) selective-benefit stor
 established **per outcome**, exactly as a dose-response shape is (the outcome-specificity seen for the ESC
 fruit/veg plateau). [@goldberg2022]
 [inferred from @goldberg2022]
+
+</div>
 
 ## A route-(b) positive whose modifier is NOT a targetable stratum — smoking->RA by serotype `[2026-08-09, Di Giuseppe]`
 
@@ -724,7 +766,7 @@ lever, while the obese need weight loss (which upregulates CYP2R1) or an active 
 two cholecalciferol trials — a planned, mechanism-driven subset, not the pooled panel.
 
 **A data point running AGAINST the standing `[PRIOR — over-personalization is the likelier failure]`,
-lodged not scored.** Where Coley, Nong and Khan above all supplied route-(b) *absences* (personalization
+lodged not scored.** Where Coley (above) and Nong and Khan (below) all supplied route-(b) *absences* (personalization
 adding little), Pittas is a genuine route-(b) *positive* where personalizing on a cheap pre-exposure marker
 changes the lever choice. Reported precisely because the recent corpus points ran the other way —
 symmetric reporting, with the adjudication left to the prior's own operation.

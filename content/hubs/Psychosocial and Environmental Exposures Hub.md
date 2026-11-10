@@ -41,8 +41,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   mortality and CV events (RR 0.83) through the same cortisol channel; a marker not shown to be a lever,
   discriminant validity vs depression/connection incomplete
 
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Heat / sauna exposure
 
 - [[Sauna Bathing and Cardiovascular Mortality]] — nucleus of the `heat-exposure` cluster: regular hot
@@ -58,8 +56,6 @@ mood or life-satisfaction as ends in themselves — is what earns each page its 
   weak healthy-adherer checks are run (2015 men: survives fitness/SES adjustment; no 2018 model adjusts
   for fitness, in either sex; early-death exclusions in unheld supplements), so the gradient stays
   unadjudicated and residual confounding remains.
-
-</div>
 
 ## Cold / cold-water exposure
 

@@ -104,8 +104,6 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 
 
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Where it applies in the wiki
 
 *Worked-instance catalog — per-exposure applications of the diagnostic; content, not revision history.*
@@ -1137,8 +1135,6 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
-
-</div>
 
 ## Corrections and revision history (dated strata)
 

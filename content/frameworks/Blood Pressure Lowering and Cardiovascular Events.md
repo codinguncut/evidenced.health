@@ -2,8 +2,8 @@
 type: framework
 question: Does lowering blood pressure reduce hard cardiovascular events — and does the benefit depend on baseline BP, on age, or on already having heart disease?
 aliases: [Blood Pressure Lowering, Antihypertensive CV Benefit, BP Lowering Primary Prevention, BPLTTC, Hypertension Treatment Outcomes, Treat to Risk Not Threshold]
-authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org); Di Federico, Silvia; Filippini, Tommaso; Whelton, Paul Kieran; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Vinceti, Marco; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lai, Honghao; Nesrallah, Gihad E.; Guyatt, Gordon H; Vernooij, Robin W.M.; Liu, Jiayi; Zhao, Weilong; Hou, Liangying; Pan, Bei; Huang, Jiajie; Campbell, Norm R. C.; Tian, Jinhui; Yang, Kehu; Ge, Long; Johnston, Bradley C.; Brand, Amanda; Visser, Marianne E; Schoonees, Anel; Naude, Celeste E.; Aburto, Nancy J; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona]
-sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Rahimi - BP Lowering by Age BPLTTC 2021, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lai - Salt Substitute Network Meta-Analysis 2026, Brand - Low-Sodium Salt Substitutes Cochrane 2022, Aburto - Potassium Cardiovascular 2013, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015]
+authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Rahimi, Kazem; Bidel, Zeinab; Nazarzadeh, Milad; Copland, Emma; Canoy, Dexter; Neal, Bruce; Livingston, Gill; Moll van Charante, Eric P; Richard, Edo; Roerecke, Michael; Kaczorowski, Janusz; Tobe, Sheldon W; Gmel, Gerrit; Hasan, Omer S M; Rehm, Jürgen; Naci, Huseyin; Salcher-Konrad, Maximilian; Dias, Sofia; Ioannidis, John P A; Landry, Matthew J; Peters, Ruth; Chalmers, John; Woodward, Mark; Anderson, Craig S; Staessen, Jan A; Ried, Karin; Frank, Oliver R; Stocks, Nigel P; Fakler, Peter; Sullivan, Thomas; Ma, Xiao; Zhang, Hongying; Jia, Jinhai; Siervo, Mario; Reynolds, Andrew; Mann, Jim; Akerman, Ashley P; Scientific Advisory Committee on Nutrition (org); World Health Organization (org); Di Federico, Silvia; Filippini, Tommaso; Whelton, Paul Kieran; Cecchini, Marta; Iamandii, Inga; Boriani, Giuseppe; Vinceti, Marco; Wang, Dominic; Wright, James M; Adams, Stephen P; Cundiff, David Keith; Gueyffier, François; Grenet, Guillaume; Ambasta, Anshula; Lai, Honghao; Nesrallah, Gihad E.; Guyatt, Gordon H; Vernooij, Robin W.M.; Liu, Jiayi; Zhao, Weilong; Hou, Liangying; Pan, Bei; Huang, Jiajie; Campbell, Norm R. C.; Tian, Jinhui; Yang, Kehu; Ge, Long; Johnston, Bradley C.; Brand, Amanda; Visser, Marianne E; Schoonees, Anel; Naude, Celeste E.; Aburto, Nancy J; Lonn, Eva M; Bosch, Jackie; Lopez-Jaramillo, Patricio; Zhu, Jun; Liu, Lisheng; Pais, Prem; Sundström, Johan; Arima, Hisatomi; Jackson, Rod; Turnbull, Fiona; Edwards, Jamie J.; Cooper, Nicola J.; O'Driscoll, Jamie M.; Pagonas, Nikolaos; Westhoff, Timm H.; Goessler, Karla Fabiana; Cornelissen, Veronique Ann; Carlson, D J; Inder, J; Palanisamy, S K; McFarlane, J R; Dieberg, G; Smart, N A]
+sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, Rahimi - BP Lowering by Age BPLTTC 2021, Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, SPRINT - Intensive vs Standard Blood Pressure 2015, Neal - SSaSS Salt Substitution Cardiovascular 2021, Livingston - Dementia Prevention 2024, Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Roerecke - Alcohol Reduction Blood Pressure 2017, Naci - Exercise vs Antihypertensive Drugs 2019, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Peters - Blood Pressure Lowering Dementia 2022, Geiger - Yoga Arterial Hypertension 2025, Ried - Garlic Blood Pressure Meta-Analysis 2008, Ma - Garlic Blood Pressure Meta-Analysis 2025, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Reynolds - Carbohydrate Quality and Human Health 2019, Reynolds - Fibre Whole Grains Diabetes 2020, SACN - Carbohydrates and Health 2015, WHO - Non-Sugar Sweeteners 2023, Di Federico - Alcohol Blood Pressure Dose-Response Cohorts 2023, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lai - Salt Substitute Network Meta-Analysis 2026, Brand - Low-Sodium Salt Substitutes Cochrane 2022, Aburto - Potassium Cardiovascular 2013, Lonn - HOPE-3 BP Lowering 2016, Sundstrom - BP Reduction Mild Hypertension 2015, Edwards - Exercise Training Resting Blood Pressure NMA 2023, Edwards - Exercise Training Resting Blood Pressure NMA 2023 Appendix, Pagonas - Aerobic vs Isometric Handgrip Hypertension RCT 2017, Goessler - Isometric Handgrip vs Endurance Training RCT 2018, Carlson - Isometric Handgrip Training RCT 2016]
 cluster: cvd-risk-estimation
 confidence: high
 relationships:
@@ -34,8 +34,8 @@ relationships:
     - Non-Sugar Sweeteners
     - The Nocebo Component of Drug Side-Effects
 created: 2026-07-29
-updated: 2026-11-04
-self_critiqued: 2026-10-27
+updated: 2026-11-10
+self_critiqued: 2026-11-06
 ---
 
 Of the cardiometabolic interventions the wiki holds, **BP-lowering is the one whose hard-outcome benefit
@@ -136,6 +136,12 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
   population — exactly where BPLTTC says the *absolute* benefit of a given relative effect is largest —
   and the \~15 mmHg achieved gap, at BPLTTC's \~0.91 per 5 mmHg, predicts a composite HR near 0.75, which
   is what SPRINT observed.
+  SPRINT and the pools, narrowed 2026-11-06: the collaboration's age analysis (51 of the BPLTTC's 52
+  trials [@rahimi2021bpage]) lists SPRINT (2258 participants aged 75-84, 394 aged 85+)
+  [@rahimi2021bpageappx], so SPRINT is inside
+  the by-age estimates. BPLTTC 2021 analysed «48 randomised trials» from «51 studies published between
+  1972 and 2013» [@bplttc2021],
+  a different trial set, and the held text does not list them.
 - **The harm side BPLTTC did not quantify:** intensive treatment raised serious «hypotension, syncope,
   electrolyte abnormalities, and acute kidney injury or failure, but not ... injurious falls».
   [@sprint2015] So a lower target buys real
@@ -151,8 +157,9 @@ stratum — so the observational J-curve is not a treatment effect. [@bplttc2021
 [[The U-Shaped Association Artifact]]: the protective-looking lower arm of an observational curve does
 not survive the randomised (here, interventional) check.
 
-**A randomised counter-signal in one corner `[2026-10-27, Lonn]`.** HOPE-3, which is not in the BPLTTC
-pools (published after their 1972-2013 data window), found a nominally significant trend across thirds of baseline SBP, with a lowest-third HR of 1.16
+**A randomised counter-signal in one corner `[2026-10-27, Lonn]`.** HOPE-3, which is not in the BPLTTC by-age pool and probably not in BPLTTC 2021's (the age analysis's trial list carries HOPE, the 2000 ramipril trial, but not HOPE-3
+[@rahimi2021bpageappx]; for BPLTTC 2021's
+own 48 trials, its stated 1972-2013 window), found a nominally significant trend across thirds of baseline SBP, with a lowest-third HR of 1.16
 (0.82-1.63) at a mean SBP of 122, and its authors read this as support for «a J-curve phenomenon» for
 major CV events other than stroke [@lonn2016hope3].
 This is a different object from the observational J-curve above: a within-trial gradient in the
@@ -260,6 +267,8 @@ urinary potassium excretion «can be at risk of hyperkalaemia» [@aburto2013].
 The trial evidence there is insufficient, not shown safe and not measured as harm.
 [inferred from @brand2022lsss]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Another lifestyle BP route — alcohol reduction, and the modelled-events gap made explicit `[2026-08-20, Roerecke]`
 
 Roerecke's 2017 SR+MA of **36 alcohol-reduction RCTs (2865 participants)**, GRADE-high, is a second
@@ -292,6 +301,8 @@ alcohol-reduction lever is exactly the case this page flags — a lifestyle BP d
 predicts a \~10% CV-event reduction *if* the pharmacological transmission transfers. Full dose-response
 -> [[Alcohol and Mortality and Vascular Disease]].
 [inferred from @roerecke2017alcohol]
+
+</div>
 
 ## A third lifestyle BP route — structured exercise, and the drug head-to-head that does not exist `[2026-08-20, Naci]`
 
@@ -360,22 +371,129 @@ consistently reported [@naci2019exercise], so the
 edge may partly be more total training. The type groups
 differ in baseline SBP (125 mmHg resistance, 135 combination; Table 1), so part of the all-populations
 edge may be baseline; the edge persisting at >=140 mmHg is the better test. The decision reading and its
-caveats are on [[Is the Exercise Modality Doing Any Work]].
+caveats are on [[Is the Exercise Modality Doing Any Work]]. *Superseded 2026-11-04 for
+the single types and the all-populations combined edge:* *about equally* and *beats dynamic resistance*
+are Naci's results; Edwards' network (next paragraph) separates isometric training on pooled SBP and does
+not reproduce the combined-over-resistance edge. The >=140 mmHg result stands in direction; Edwards'
+hypertension stratum (next paragraph) leaves the size of its combined-over-isometric gap uncertain.
+
+*Updated 2026-11-04 — a second exercise-mode network.* Edwards' 2023 exercise-only NMA (270 RCTs, no
+drug nodes) puts isometric training ahead of the other single types on SBP pooled across populations:
+isometric vs aerobic 3.86 (1.19, 6.54), vs dynamic resistance 3.68 (0.71, 6.66), vs HIIT 3.95 (0.93,
+7.03), but not vs combined training, 2.31 (−0.77, 5.42); against non-exercising controls isometric lowers
+SBP by 8.24 (5.72 to 10.74) in trials of at least 2 weeks; combined vs dynamic resistance is 1.37 (−1,
+3.72) [@edwards2023exercise].
+The isometric node has no direct comparisons (two direct trials outside it are below) and no certainty grading, and Edwards has no hypertensive
+network, so the >=140 mmHg combined-training edge above remains Naci's alone; on DBP no mode separates.
+Edwards' pairwise hypertension stratum also puts combined training on top of the SBP point estimates
+against control, combined 11.14 (4.3 to 18.0) above isometric 9.22 (4.9 to 13.5; 4 effect sizes), on
+overlapping intervals, though it ranks isometric first among the single types where Naci's point
+estimates rank it last [@edwards2023exercise].
+Its isometric reduction is larger than Naci's network arm, a reduction of 4.92 whose interval crosses 0
+(−4.92, −10.28 to 0.38)
+[@naci2019exercise]; the two are different
+quantities (a pairwise stratum vs a network arm). With Edwards' isometric estimate larger and its combined
+estimate smaller than Naci's −13.51, the combined-over-isometric gap holds in direction and may be smaller
+than the −8.58 Naci prints for it (Table 2 upper diagonal; decision reading on [[Is the Exercise Modality Doing Any Work]]).
+*Updated 2026-11-05 — the direct trials.* Two small RCTs that Edwards says did not meet its inclusion
+criteria (which criterion is not stated) randomise handgrip
+against aerobic training inside one trial, and neither confirms the isometric edge (*superseded
+2026-11-05:* this read *neither shows*). In 75 hypertensive people over 12 weeks, handgrip did not beat
+a 5% sham on 24-h ambulatory SBP. Per-protocol changes were
++1.58 (handgrip), −1.09 (sham) and −4.88 mmHg (unsupervised aerobic), three-group ANOVA P = 0.048, with
+no pairwise test or CI printed
+[@pagonas2017aerobic].
+Labels that travel with that result (added 2026-11-05): 76% of participants were on antihypertensive
+drugs, which the authors offer as one reason handgrip may have shown nothing, before partly answering it
+themselves: «On the other hand, dynamic aerobic exercise shares these mechanisms of action and proved
+to be effective nevertheless.» Mean office SBP at baseline was 135.1 (handgrip), 138.9 (sham) and
+143.9 (aerobic), and 24-h SBP 125.5 to 128.2
+[@pagonas2017aerobic].
+So the handgrip and sham arms sit in Edwards' prehypertension band on office SBP; whether the result
+transports to unmedicated stage-1 hypertension is open: the authors' rebuttal leans on aerobic
+exercise's own result, which against the sham is unresolved, so the medication explanation is neither
+shown nor ruled out. By the modality page's arithmetic aerobic exercise did not separate from the
+sham either (sham minus aerobic +3.79, about −1.1 to 8.7), an unresolved interval rather than
+handgrip's bounded near-null. Neither trial tested
+combined training, which [[Is the Exercise Modality Doing Any Work]] names first for hypertensive
+people on Naci's >=140 mmHg network (*Which type*, above).
+In 60 healthy adults over 8 weeks (mean office BP 126.9/84.7), the modes did not differ on any BP
+measure (p > 0.05, no CI), though on the primary office SBP handgrip's within-arm point estimate was
+ahead of aerobic training's (−5.5 vs −3.9). On office SBP both exercise arms gave p = 0.06 against
+control (handgrip −5.5, −9.2 to −1.7, within-arm). On daytime ambulatory SBP against control, aerobic training gave −6.9
+(−13 to −0.81) and handgrip −4.4 (−10.2 to +1.3)
+[@goessler2018randomized];
+so handgrip's ambulatory effect is insufficient evidence there, not a shown null, and the two modes
+are not separated. Both handgrip-vs-aerobic trials are small (14-24 analysed per exercise arm; the healthy-adult aerobic
+ambulatory result rests on 14), and the hypertensive one's aerobic arm was unsupervised and lost 6 of
+25. So they weaken the isometric-first reading (for mostly medicated hypertensive people, a lean toward
+aerobic training over handgrip that crosses 0 once corrected for three contrasts) without settling the
+order. Goessler's authors keep aerobic training as their first recommendation on fitness grounds and
+see handgrip as a tool where aerobic training is less feasible (modality page, check (iii)). The scoped
+defaults, with intervals and design checks, are on [[Is the Exercise Modality Doing Any Work]].
+*Updated 2026-11-06 — a second trial against a 5% comparator (same intensity as Pagonas' sham, but
+supervised and three days a week rather than Pagonas' five), outside the two handgrip-vs-aerobic trials
+above.* In 40 people with mild or
+prehypertension (the abstract says hypertensive), 65% on antihypertensive drugs held unchanged, 20 per
+arm for 8 weeks, supervised handgrip at 30% vs 5% of maximal contraction showed no statistically
+significant between-arm difference in resting SBP measured by Finometer (finger beat-to-beat, not office or 24-h ambulatory):
+baseline-adjusted post SBP 127 vs 128 mmHg (SEM 3 each), 95% CI 8.19 to 10.02 as extracted (signs lost;
+the PDF prints −8.19), P = 0.84; unadjusted P = 0.51. Within-arm, SBP fell 7 mmHg in the 30% arm (136
+to 129, P = 0.04, paired test, no CI) and 2 in the 5% arm (P = 0.43). No power calculation is reported
+[searched: power/sample size across chunk 01; zero]
+[@carlson2016handgrip].
+Labels that travel with it: the 30% arm started 8 mmHg higher than the 5% arm (136 vs 128), so its
+larger within-arm fall may partly reflect that gap (the authors raise regression to the mean only for
+the covariate-adjusted reductions in both arms, not for this contrast); the 7 unmedicated participants per arm were not analysed separately; the trial has no aerobic
+arm and no no-exercise arm [@carlson2016handgrip].
+As 30% minus 5% the adjusted
+difference is about −1 mmHg (about −10.0 to 8.2, orientation inferred from the interval's midpoint),
+too wide to bound a handgrip effect, unlike the interval derived from Pagonas' arm data (handgrip minus
+sham on 24-h SBP +2.67, about −2.0 to 7.3; Pagonas prints no pairwise CI, so this is the modality page's
+arithmetic; a raw per-protocol bound that the sham arm's higher start tilts toward the sham); neither trial tests the 5% arm against no
+exercise, so if that protocol lowers BP both understate handgrip, while if unblinded trials against
+no-exercise controls overstate the isometric effect the networks' estimates are too large; neither is
+sized. The two small trials agree only that no significant difference was detected (both trials'
+estimates change sign, Carlson's with the analysis, from 3 mmHg favouring the 5% arm to 5 favouring
+handgrip, both extremes distorted by its 8 mmHg baseline gap, and Pagonas' between 24-h and office SBP), which is not a well-powered null. Detail and the parameter table:
+[[Is the Exercise Modality Doing Any Work]] (*Carlson 2016*).
+If an exercise-induced SBP drop transmitted at the pharmacological rate (the assumption flagged below)
+and lasted for years (durability, next paragraph), the 3.86 mmHg isometric-vs-aerobic difference would
+correspond, on the BP channel only and not as a reason to swap one mode for the other (substitution, next
+paragraph), to a major-CV-event HR near 0.93 (about 0.98 to 0.88 across the contrast's 1.19 to 6.54 interval) for
+people without prior cardiovascular disease; the contrast itself pools all populations, including trials
+in people with disease, and the range ignores the uncertainty in BPLTTC's own figure.
+[inferred from @bplttc2021]
+
+The two further assumptions under that number. *Durability:* BPLTTC's per-5-mmHg relation comes from
+trials followed for years, while the isometric trials ran a median of 8 weeks and 18 of 19 ran 12 weeks
+or less, so the HR assumes a drop that no held isometric trial has followed for years
+[@edwards2023exerciseappx].
+*Substitution:* a difference between two modes, turned into an event HR, reads as a reason to swap aerobic
+training for isometric training; it is not one. The HR counts only the BP channel, aerobic training also
+builds fitness and lowers mortality through other channels ([[Is the Exercise Modality Doing Any Work]],
+the across-goal boundary), and what isometric training adds on top of aerobic training is not estimated
+by either network. The 3.86 mmHg difference itself is indirect, and the two direct handgrip-vs-aerobic
+trials above do not confirm it: the hypertensive one points the other way, while the healthy-adult
+one's office interval (about 6.9 favouring handgrip to 3.7 favouring aerobic) still holds it, so they
+fail to confirm it rather than refute it (added 2026-11-05).
+Parameter table and cautions: [[Is the Exercise Modality Doing Any Work]].
 
 **Decision relevance.** For a **hypertensive** person, structured exercise (endurance or dynamic
-resistance) is a credible-magnitude SBP lever — indirectly comparable to a first-line drug in the
+resistance; combined endurance plus resistance first on direction, *Which type* above, added
+2026-11-05) is a credible-magnitude SBP lever — indirectly comparable to a first-line drug in the
 matched stratum — so it is a defensible *adjunct*, and a candidate *alternative* where a drug is
-declined or not yet indicated. Two guards: (1) the equivalence holds only at hypertensive baselines; at
-a **normotensive** baseline the exercise SBP effect is smaller (−4.84) and the drug comparison was never
-the point; (2) SBP here is a **surrogate** — Naci measured no CV events. The event payoff runs through
+declined or not yet indicated. Two guards: (1) the equivalence holds only at hypertensive baselines;
+pooled across all exercise trials (mean baseline 132 mmHg, distribution not reported) the exercise SBP effect
+is smaller (−4.84), and the drug comparison was never the point there (*superseded 2026-11-05:* this
+read *at a normotensive baseline ... (−4.84)*; Naci reports no normotensive-only estimate [searched:
+normotensive/normal blood pressure across Naci chunks 01-03; zero]); (2) SBP here is a **surrogate** — Naci measured no CV events. The event payoff runs through
 this page's BPLTTC channel (\~10% per 5 mmHg), which is evidenced for *pharmacological* lowering; whether
 an exercise-induced SBP drop transmits at the same rate is the same assumption flagged for the sodium,
 alcohol and salt-substitute levers above. Exercise also carries large off-target benefits (fitness,
 glycaemia, weight) that a BP-only comparison ignores -> [[Physical Activity Dose and Mortality]],
 [[Cardiorespiratory Fitness and Mortality]]. The head-to-head RCT that would settle the comparison
 directly does not exist — a standing gap. [inferred from @naci2019exercise]
-
-<div class="recent-update" data-last-updated="2026-11-04">
 
 ## Second outcome — antihypertensive treatment also lowers dementia risk
 
@@ -433,8 +551,6 @@ HR 0.54 (0.32-0.92) [@mollvancharante2016],
 a route-(b) effect-modification *hypothesis* (post-hoc, adherence-selected), consistent with this page's
 treat-on-absolute-risk logic: the lever pays where the deficit is real, not in an already-well-managed
 population. Full multidomain-trial context -> [[Multidomain Lifestyle Intervention and Cognitive Decline]].
-
-</div>
 
 ## A fourth lifestyle BP route — vegan dietary pattern (observational, very-low COE) `[2026-08-29, Landry]`
 
@@ -587,8 +703,6 @@ significant role in many of the studies.» [@who2023nonsugar]. So the
 short-term SBP question has a moderate-certainty null, and the long-term hypertension question stays
 open.
 [inferred from @reynolds2019; @bplttc2021; @who2023nonsugar]
-
-<div class="recent-update" data-last-updated="2026-11-04">
 
 ## The low-risk tail — direct trials of starting a drug in untreated mild hypertension `[2026-10-26, Wang]`
 
@@ -770,8 +884,6 @@ PREVEND IT (212), about 13% of participants [@wang2025mildhtn], but tolerability
   next section runs the parameter table on matched trials.
 - HOPE-3, the modern-drug primary-prevention trial Wang cites, is now held through its BP-arm report:
   *The intermediate-risk modern-drug trial* below.
-
-</div>
 
 ## The BPLTTC grade-1 pool Wang names as conflicting — Sundström `[2026-10-27, Sundström]`
 
@@ -1254,8 +1366,6 @@ SBP (140.9) and 130-140 cannot be placed in a third. So the case rests on route 
 the person gives an unconfirmed SBP gradient
 [inferred from @lonn2016hope3; @bplttc2021].
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## By age — 0.82 under 55, 0.91 from 55 to 84, 0.99 at 85+, one borderline interaction `[2026-10-27, Rahimi]`
 
 Rahimi and colleagues re-cut the BPLTTC dataset by age at entry: 51 trials, 358,707 people aged 21-105
@@ -1553,10 +1663,6 @@ transported
 [inferred from @rahimi2021bpage; @bplttc2021].
 Peters' dementia meta-analysis (above) is a different outcome and is not compared on this scale.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Decision relevance
 
 
@@ -1656,10 +1762,6 @@ SBP-subgroup reading cannot place such a person reliably (the thirds were cut on
 and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-drug trial* above)
 [inferred from @lonn2016hope3; @bplttc2021].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Limits
 
 - Trials 1972-2013 — older drug regimens and co-treatment; relative (not absolute) effects are the
@@ -1697,7 +1799,5 @@ and the upper third's usual SBP averaged 140.9) (*The intermediate-risk modern-d
   rosuvastatin), so they may understate harm in an unselected population. BPLTTC's per-stratum HRs below 130 mmHg in people without CVD are
   image-only and not held, so the two cannot be compared stratum by stratum.
 - Applies to *pharmacological* lowering; do not silently transfer the magnitude to a lifestyle route.
-
-</div>
 
 ## References

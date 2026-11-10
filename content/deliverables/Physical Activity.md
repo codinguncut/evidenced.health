@@ -5,7 +5,7 @@ question: What is the effect of physical activity and structured exercise (by mo
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
 confidence: medium
 created: 2026-08-17
-updated: 2026-11-03
+updated: 2026-11-06
 self_critiqued: 2026-11-03
 concrete_subject_audited: 2026-11-03
 sources:
@@ -65,9 +65,9 @@ sources:
   - Recchia - Exercise Caloric Restriction Visceral Adiposity 2023
   - Buendia-Romero - Residual Training Cessation
   - Pillay - Falls Prevention Community Older Adults Network Meta-Analysis 2024
+  - Liddle - Injury Prevention Adult Recreational Athletes 2023
+  - Wu - Injury Prevention Endurance Runners 2024
 ---
-<div class="recent-page" data-last-updated="2026-11-03"></div>
-
 
 ## Move first, then stop counting: what activity does, for whom, and how sure we are
 
@@ -914,32 +914,75 @@ years of habit. They cannot be netted as numbers. **Read the list below as a rul
 
 [@franklin2020acute]
 
-### Injuries: structured warm-ups help young players; stretching alone is not shown to
+### Injuries: structured warm-ups help young players; adult programmes and stretching are not shown to
 
 **Musculoskeletal injury is the most common exercise complication**; the 2011 ACSM stand grades the
 raised injury risk B (trials, limited data).
 [@garber2011acsm]
-**Stretching is not shown to prevent injury**: three trials, two of them in army recruits, pooled to RR
-0.963 (0.846-1.095).
-[@lauersen2013injury]
 
-A structured strength-balance-jumping warm-up cut injury rates in sport players aged 7-18 (IRR 0.64,
-0.54-0.75; 15 cluster trials; 0.70, 0.59-0.82, after a publication-bias adjustment), with a prediction
-interval reaching 1.19. That result covers under-19s only.
-[@ding2022warmup] Five of
-the 15 programmes included stretching
-[@ding2022warmup]. The
-comparison arm did a usual warm-up of running and stretching, so the result does not isolate stretching
-either way [@ding2022warmup]. Stretch for
-range of motion (ACSM grade A), not for protection.
--> [[Exercise Interventions and Sports Injury Prevention]], [[Flexibility Training and Stretching]]
+**In young players, a structured programme is shown to work.** A structured
+strength-balance-jumping warm-up cut injury rates in sport players aged 7-18 (IRR 0.64, 0.54-0.75; 15
+cluster trials; 0.70, 0.59-0.82, after a publication-bias adjustment), with a prediction interval
+reaching 1.19. That result covers under-19s only.
+[@ding2022warmup]
+
+**In adult recreational athletes the same kind of programme is neither shown to work nor shown to
+fail.** Liddle pooled 16 RCTs in adults over 16 playing below national level, more than half of them
+in soccer, with all exercise-based programmes taken together. Trials reporting risk ratios gave RR 0.94
+(0.80-1.09; 12 trials), those reporting hazard ratios HR 0.65 (0.39-1.08; 4 trials), both at very low
+certainty [@liddle2023effects]. **That is
+insufficient evidence, not a null.** The risk-ratio interval stops short of a youth-sized cut, though
+the two reviews use different ratios. No programme type was split out, so there is no adult estimate
+for strength work alone [[Exercise Interventions and Sports Injury Prevention]].
+
+A structured routine stays cheap to try, as a labelled default whose effect the trials measured too
+imprecisely to size: the risk ratios run from a 20% cut to a 9% rise, and the HR prediction
+interval reaches 2.70. Liddle reports no harms outcome. Two trials, Gabbe and Baltich, had more injuries
+in the programme arms, which Liddle ties to poor adherence, and in Gabbe players said soreness from
+Nordic curls made them less willing to keep going
+[@liddle2023effects]. So low harm is an
+expectation, not a finding: start gently (practice default, not trial-tested).
+
+**In endurance runners, pooled trials show no clear reduction either.** Wu pooled 9 RCTs in 1904
+runners for whom running was over half of training. Seven of the nine were at high risk of bias, and
+only four were strength-based, at low volume and intensity. Wu grades the evidence moderate for injury
+risk and high for injury rate, and reads it as showing that the programmes do not appear to reduce
+either [@wu2024exercise]. Exponentiated from Wu's log
+estimates, the risk pool gives RR 0.81 (0.63-1.05; 7 trials) and the rate pool IRR 0.86 (0.64-1.16; 6
+trials). This guide reads that as insufficient evidence rather than no effect, because the risk interval
+still admits about a third fewer injuries. Wu reports no harms outcome.
+
+Three small supervised trials, pooled post hoc, did better (RR 0.46, 0.31-0.69, exponentiated), but
+their runners also complied more, so that is a hypothesis, not advice. **A programme is optional for a
+runner**: cheap to try, of unknown benefit, and a runner who skips one is not shown to be worse off.
+Most trials ran 10-30-minute sessions and pooled to no clear reduction, so no dose is shown to work
+[[Exercise Interventions and Sports Injury Prevention]].
 
 **The 10% weekly-increase rule has no evidence behind it.** In a review of four running studies, one
 randomised trial found no difference in injury between a 10% and a 24% average weekly increase (HR 0.8,
 0.6-1.3). In another study, increases above 30% against under 10% gave HR 1.59 (0.96-2.66) for
 distance-related injuries such as patellofemoral pain. The review calls the evidence very limited
-[@damsted2018]. Progress gradually anyway, since the
-cost is low -> [[Training Load Progression and Running Injury]].
+[@damsted2018]. A gradual ramp still gets a firmer
+default than a programme: three of the four studies lean weakly toward it, slow tendon adaptation gives
+a reason, and it costs little. **Progress gradually** -> [[Training Load Progression and Running Injury]].
+
+**Stretching is not shown to prevent injury**: three trials, two of them in army recruits, pooled to RR
+0.963 (0.846-1.095)
+[@lauersen2013injury].
+That interval still admits a 15% cut, and about two thirds of its injuries come from one general-adult
+trial, which the two reviews read differently. Lauersen's own counts for it give a crude ratio of about
+0.94; Liddle shows HR 0.75 (0.59-0.96), on an outcome it lists as injuries and soreness
+[@liddle2023effects].
+Neither reading can be preferred, so for general adults, as for recruits, no benefit is shown but no
+tight null either
+[[Flexibility Training and Stretching]].
+
+The youth result does not isolate stretching either way: five of the 15 programmes included it, and the
+comparison arm did a usual warm-up of running and stretching
+[@ding2022warmup]
+[@ding2022warmup]. Stretch for
+range of motion (ACSM grade A), not for protection.
+-> [[Exercise Interventions and Sports Injury Prevention]]
 
 ### Osteoporosis: reassurance with a narrow base
 
@@ -1064,7 +1107,8 @@ For particular ages and goals:
 - Device-measured minutes: no data under 40, too thin to read under 60; the under-60 step curve comes
   from cohorts weighted toward older adults.
 - Exercise harms: no per-hour rate for minor adverse events, no serious-harm estimate for strength work,
-  no analysis by intensity; half of trials did not report harms.
+  no analysis by intensity; half of trials did not report harms. Injury-prevention programmes for adult
+  recreational athletes and runners: imprecise pooled effects, no strength-only pool, no harms outcome.
 - HIIT versus moderate training: no held long-term or patient-important-outcome trial; in type 2 diabetes the
   held trials were not consistently volume-matched.
 - Breaks in sitting: insufficient evidence on hard outcomes.
@@ -1083,9 +1127,9 @@ For particular ages and goals:
 > | | |
 > |---|---|
 > | **Question** | What is the effect of physical activity and structured exercise (by modality, dose, intensity) on each patient-important outcome, what is the dose-response shape for each, and how do the levers rank against each other for a given stratum? |
-> | **Evidence included** | 56 sources — 39 gold, 14 high, 3 moderate |
+> | **Evidence included** | 58 sources — 41 gold, 14 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Marin-Jimenez (method, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-11-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
 
 ## References

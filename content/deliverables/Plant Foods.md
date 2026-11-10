@@ -4,13 +4,14 @@ title: Plant Foods
 question: 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?'
 aliases: [Fruits Vegetables Pulses and Grains, Which Plant Foods Are Best, Antinutrients, Fruit Sugar, Best Vegetables]
 authors: [Aune, Dagfinn; Willett, Walter; Scientific Advisory Committee on Nutrition (org); European Society of Cardiology (org); Food and Agriculture Organization of the United Nations (org); Petroski, Weston; World Health Organization (org); Jenkins, David J A; Afshin, Ashkan; Nordic Council of Ministers (org); Schwingshackl, Lukas; Bechthold, Angela; Thorisdottir, Birna; Peng, Yinshun; Zhou, Yuhan; Mazidi, Mohsen; Sesso, Howard D; Chung, Mei; Norouzzadeh, Mostafa; Siervo, Mario; European Food Safety Authority (org)]
-sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
+sources: [Afshin - Health Effects of Dietary Risks GBD 2019, Aune - Fruit Vegetable Mortality 2017, Aune - Fruit Vegetable Mortality 2017 Appendix, Aune - Nut Consumption Mortality 2016, Aune - Whole Grain Mortality 2016, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Chung - Tea Consumption Cardiovascular Dose-Response 2020, ESC - CVD Prevention Guidelines 2021, FAO - Dietary Protein Quality Evaluation 2013, Jenkins - Glycaemic Index Load Outcomes Series 2024, Mazidi - Flavonoid Intake and Mortality 2020, NNR - Nordic Nutrition Recommendations 2023, Norouzzadeh - Nitrate Blood Pressure Vascular Biomarkers Meta-Analysis 2025, Peng - Dietary Flavonoids Cognitive Function 2025, Petroski - Antinutrients Narrative Review 2020, SACN - Carbohydrates and Health 2015, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Hypertension Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Sesso - Cocoa Flavanol Cardiovascular COSMOS 2022, Siervo - Nitrate Beetroot Blood Pressure Meta-Analysis 2013, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, WHO - Sugars Intake 2015, Willett - Nutritional Epidemiology 3e, Zhou - Fruit Vegetable Cognitive Disorders Older Adults 2022, EFSA - Dietary Sugars Upper Intake Level 2022, Chung - Fructose Nonalcoholic Fatty Liver Meta-Analysis 2014]
 confidence: low
 created: 2026-07-30
-updated: 2026-10-03
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 **Plant foods help, and the reason is plainer than any single superfood.** Across fruit, vegetables,
 pulses and grains, people who eat more of these foods live modestly longer and suffer less heart
@@ -31,7 +32,11 @@ juice and sugary drinks, not the fruit bowl.
 
 **For someone already eating varied whole plant foods, the choice of plant food is a refinement, not a
 big lever.** The levers with room to move are getting fibre up toward the target and cutting free
-sugars — both reachable many ways.
+sugars — both reachable many ways. Past about 500 g/day, eating more fruit and vegetables in total
+still tracks lower heart-disease risk on the combined curve, though the separate fruit and vegetable
+curves flatten.
+
+</div>
 
 ## Most of the evidence is about a pattern, not a single food
 
@@ -82,6 +87,8 @@ real feature. Such an arm has to survive an artifact check before it earns a pla
 With that caveat fixed, here is what each plant group's evidence actually supports, outcome by outcome —
 and where it simply cannot single out any one food.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What each plant group does, outcome by outcome
 
 No plant group reduces to a single number. Each moves several outcomes by different amounts, with
@@ -108,20 +115,76 @@ fruit and vegetables combined.
 So the cardiovascular and mortality endpoints fall about 8-10% per 200 g/day; cancer is the weak arm,
 roughly 3% per 200 g/day. CHD carries the lowest heterogeneity of the four outcomes (I2 0%).
 
-The curve is steepest at low intake — the first servings carry most of the effect, and the marginal
-value of the ninth or tenth serving is small and uncertain. Lowest observed risk sits at 800 g/day
-(10 servings) for the cardiovascular and mortality endpoints, and cancer flattens near 600 g/day.
-[@aune2017fv] Read 800 g/day as the sampling
-edge, not a demonstrated optimum: it is where the studied range thins out, so it marks a
-floor-for-most-benefit region rather than a point target ([[The Underivable Optimum]]).
+**How much the later servings add depends on the outcome.** Aune's curves for stroke, all-cause
+mortality and cancer are steepest at low intake, while the coronary heart disease curve showed no
+evidence of nonlinearity (P 0.30)
+[@aune2017fv]. On his figures,
+most of the reduction seen at 800 g/day for the first three is already there by about 500 g/day, but
+about a third of the CHD reduction comes after 500 g/day. The appendix spline tables give the
+intervals, each against the lowest-intake group (0-40 g/day):
+[@aune2017fvappx]
 
-A guidance body sets its target the same way. NNR 2023 writes the recommendation as a *range* —
-«It is recommended to consume 500–800 grams, or more, per day of vegetables, fruits and berries in
-total.» [@nnr2023] — whose ceiling lands at
-800 g/day, exactly where the cohort data thin, and whose "or more" declines to cap it as harm. A body
-reading the same observational splines arrives at a range topping out at the studied edge, not a point
-optimum: that sharpens the caveat above rather than settling it into a proven curve feature
+| Outcome | RR at 500 g/day (95% CI) | RR at 800 g/day (95% CI) | What the two intervals show |
+|---|---|---|---|
+| Coronary heart disease | 0.84 (0.81-0.86) | 0.76 (0.73-0.78) | no overlap: a continuing gradient |
+| Cardiovascular disease | 0.78 (0.73-0.82) | 0.72 (0.68-0.76) | 800 g/day interval excludes the 500 g/day point: a weaker gradient |
+| Stroke | 0.72 (0.66-0.77) | 0.67 (0.60-0.75) | fits a plateau or a shallow gradient |
+| All-cause mortality | 0.73 (0.70-0.77) | 0.69 (0.66-0.73) | fits a plateau or a shallow gradient; the upper bound ties the 500 g/day point |
+| Total cancer | 0.87 (0.84-0.90) | 0.86 (0.84-0.88) | fits either; point estimates flat from 550 g/day |
+
+The right-hand column describes two points on one fitted curve. It is not a test of the 500-to-800
+step, and it covers sampling error only, not the error in self-reported intake
 -> [[Fruit and Vegetable Intake and Health]].
+
+**Past \~500 g/day the all-cause step looks smaller only in relative terms**: 0.73 to 0.69, against
+0.84 to 0.76 for CHD. More people die of any cause than develop heart disease, so in absolute terms the
+all-cause step may be as large, and the all-cause interval fits a shallow continuing gradient as well
+as a plateau -> [[Fruit and Vegetable Intake and Health]].
+
+**The heart-disease gradient rests on the combined curve.** Aune's combined CHD curve keeps falling to
+800 g/day, but his separate fruit and vegetable CHD curves flatten on point estimates: fruit 0.81
+(0.76-0.87) at 500 g/day and 0.79 (0.70-0.90) at 800; vegetables 0.72 (0.68-0.76) at 400 and 0.70
+(0.65-0.74) at 600, the top row. Among the separate curves, only his fruit column restricted to CHD
+deaths keeps falling, to 0.69
+(0.62-0.77) at 800 g/day
+[@aune2017fvappx].
+
+The DIfE/Boeing series, which pools overlapping cohorts, agrees on fruit: it found «no further risk
+reduction beyond intake of 250 g fruits per day», and suggests Aune's reductions up to 800 g/day could
+reflect his inclusion of studies on cause-specific mortality and overall CVD
+[@bechthold2019]. For
+vegetables its authors see further CHD benefit above \~400 g/day in their figures
+[@bechthold2019], though
+their table stops at 480 g/day
+[@bechthold2019].
+
+Each flattening curve still leaves room for a shallow gradient, and the separate curves come from
+different study sets than the combined one, so they do not cancel its gradient. For heart
+disease the evidence supports more fruit and vegetables in total, without singling out either. That
+case rests on the combined curve and one fruit-mortality column
+-> [[Fruit and Vegetable Intake and Health]].
+
+Aune reports the lowest risk for CHD, stroke, CVD and all-cause mortality at 800 g/day (10 servings),
+«which was at the high end of the range of intake across studies»
+[@aune2017fv]. His tables print rows a
+little further, to 900 g/day (830 g/day for all-cause), and for CHD, stroke and CVD the 900 g/day row
+is slightly lower still (CHD 0.73 against 0.76 at 800)
+[@aune2017fvappx].
+Those rows lie past the high end the 2017 paper names and probably rest on few studies. Read
+\~800 g/day as the edge of the studied range, not a demonstrated optimum and not a target
+([[The Underivable Optimum]]).
+
+NNR 2023 also treats \~800 g/day as an edge rather than an optimum. It writes the recommendation as a
+*range* — «It is recommended to consume 500–800 grams, or more, per day of vegetables, fruits and
+berries in total.» [@nnr2023] The upper figure
+matches the high end of Aune's studied intakes, and "or more" declines to treat it as a cap.
+
+NNR also reports all-cause mortality «levelling off at 5-6 servings» a day
+[@nnr2023]. That names where the curve starts
+to flatten, not where it bottoms out, so it fits Aune: his all-cause curve begins to flatten between
+about 200 and 400 g/day and still reaches its minimum at 800 g/day
+-> [[Fruit and Vegetable Intake and Health]]. NNR draws on the same observational literature, so it
+confirms the shape without adding an independent check.
 
 The subtype cells are too thin to rank one fruit or vegetable against another (n=2-6, wide CIs). Where
 they do resolve, the tight, steep signals sit with leafy greens and citrus — not the berries and grapes
@@ -148,9 +211,8 @@ but includes fruit juice, so a fruit recommendation and a sugar recommendation a
 Beyond the cardiovascular and cancer endpoints, a separate observational line links fruit and vegetables
 to lower cognitive-disorder risk in older adults. Zhou's 2022 meta-analysis of 16 observational studies
 found that «a high intake of fruits and vegetables was associated with a declined in the prevalence of
-cognitive disorders (OR: 0.82, 95% CI: 0.75–0.90)»
-[@zhou2022fruit], with modest
-heterogeneity (I2 35.3%). A flavonoid meta-analysis reads the same signal at the component altitude:
+cognitive disorders (OR: 0.82, 95% CI: 0.75–0.90)», with heterogeneity
+of I2 35.3% [@zhou2022fruit]. A flavonoid meta-analysis reads the same signal at the component altitude:
 higher dietary flavonoid intake tracks «lower risk of adverse cognitive events (pooled OR = 0.90,
 95% CI: 0.83–0.98, P = 0.01)» [@peng2025flavonoid]
 -> [[Flavonoid Intake and Cognitive Function]].
@@ -168,7 +230,7 @@ candidate lever, not a demonstrated cognitive benefit -> [[Dementia Prevention a
 
 ### Whole versus refined grain
 
-Aune's 2016 whole-grain meta-analysis (45 cohorts, up to \~705,000 participants) supplies the
+Aune's 2016 whole-grain meta-analysis (45 cohorts, up to 705 253 participants per analysis) supplies the
 dose-response the bare guideline numbers lack. The table is per 90 g/day (3 servings).
 [@aune2016wg]
 
@@ -180,17 +242,30 @@ dose-response the bare guideline numbers lack. The table is per 90 g/day (3 serv
 | Total cancer mortality | 0.85 (0.80-0.91) | 37% | 6 |
 | Stroke | 0.88 (0.75-1.03) NS | 56% | 6 |
 
-Benefit keeps climbing past 90 g/day. Risk reductions are observed up to 210-225 g/day (7 to 7.5
-servings), with all-cause risk lowest at 225 g/day and no plateau or upper harm arm within the data.
+**For most outcomes the benefit keeps climbing past 90 g/day.** Aune observed risk reductions up to
+210-225 g/day for most outcomes. The curves are steeper at low intake, all-cause
+risk is lowest at 225 g/day, and the headline curves show no upper harm arm. Some cause-specific
+curves flatten sooner: stroke
+shows no further reduction above 120-150 g/day, and diabetes and infectious-disease mortality reach
+most of their reduction by about 60-90 g/day.
 [@aune2016wg] So 90 g/day is a population median and a
-study-density marker, not an optimum — present it with this effect, interval and shape, never bare.
+study-density marker, not an optimum — present it with this effect, interval and shape, never bare
+-> [[Whole Grains Refined Grains and Pulses]].
 
 The Aune table omits type 2 diabetes. The DIfE/Boeing series fills the gap with the
 best-graded whole-grain arm in the corpus: RR 0.87 (0.82-0.93) per 30 g/day, NutriGrade **high** — one
 of only two high-graded protective cells in that 12-food-group matrix, both belonging to whole grains
 [@schwingshackl2017t2d]. Most of that
-benefit is captured by \~50 g/day, and it is not independent of the fibre story below (same overlapping
-cohort pool).
+benefit is captured by \~50 g/day, with small further benefits above it
+[@schwingshackl2017t2d], and it is not
+independent of the fibre story below (same overlapping cohort pool).
+
+Aune and the DIfE/Boeing series disagree on heart disease. In the DIfE/Boeing CHD analysis (5
+studies), no further benefit appears above about 100 g/day of whole grain
+[@bechthold2019], while
+Aune's CHD curve keeps falling to 210 g/day [@aune2016wg].
+The two curves have not been reconciled, so the CHD benefit above \~100 g/day is uncertain
+-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 
 The NNR 2023 carve-out that allows some refined cereals at high energy requirements (athletes, heavy
 manual work, high-growth adolescence) is a legitimate stratum permission, not a general finding. Note
@@ -253,7 +328,7 @@ benefit, on low-to-moderate self-reported cohort data with the usual measurement
 .
 
 A purpose-built legume review now answers the question the food-group series could only glance at.
-Thorisdottir's 2023 SR+MA for NNR2023 pooled 47 studies — 31 cohorts of about 2.1 million adults plus
+Thorisdottir's 2023 SR+MA for NNR2023 pooled 47 studies — 31 cohorts (2,081,432 participants) plus
 16 trials — against both hard endpoints and blood lipids. The cohort arm is near-null: high-versus-low
 coronary heart disease RR 1.00 (0.95-1.05), stroke 0.98 (0.91-1.05), type 2 diabetes 0.90 (0.77-1.06),
 and «No clear dose-response association was found for any of the outcomes»
@@ -335,6 +410,8 @@ BP alone this is a small marginal rock behind a mature drug.
 That is the benefit side. The rest of the plant-food question is two worries — antinutrients and fruit
 sugar — and both shrink under the same isolate lens.
 
+</div>
+
 ## The antinutrient scare is mostly mis-scaled — with named exceptions
 
 The alarming antinutrient studies share a design. They dose an **isolated compound** — a purified
@@ -401,6 +478,8 @@ soaking-and-cooking step that lowers the toxicity worry also raises protein qual
 
 The other worry is sugar — specifically, whether the sugar in fruit is a problem.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Whole fruit is not a sugar problem
 
 The worry about sugar in fruit dissolves at the definition. **WHO's free-sugars limit excludes the
@@ -458,6 +537,10 @@ whole fruit from processed forms, not one fruit from the next.
 
 So how much does any of this matter, set against the big levers?
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Where plant-food choice sits on your list of levers
 
 If you already eat a varied plate of whole plant foods, **the big plant-food
@@ -466,8 +549,10 @@ serving or two, changes little and is uncertain either way. That is not a
 failure to find something more — **it is the finding.** The ceiling here
 licenses you to stop optimising, and stopping is itself a decision
 -> [[Layer 1 - Ranking Interventions for a Stratum]].
+How much fruit and vegetables to eat is the exception: past \~500 g/day the case for more is not closed
+(see *Fruit and vegetables* above).
 
-Two levers still have room to move.
+Two other levers still have room to move.
 
 **Fibre is the real one.** Most adults eat well short of the target: UK mean
 intakes sit 10-11 g/day below the 30 g/day AOAC reference value for men, and
@@ -499,7 +584,9 @@ and environmental load both shift when you move toward whole plant foods. But
 the wiki holds no price or carbon data and never nets them against the health
 finding. The trade-off exists; weighing it is yours.
 
-<div class="recent-update" data-last-updated="2026-11-02">
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## What to do
 
@@ -508,6 +595,14 @@ food or a supplement — and cut sugary drinks. Where a food comes in whole and
 processed forms, prefer the whole one: tinned fruit tracks higher
 cardiovascular risk, and fruit juice reads inside the free-sugar exposure on
 the metabolic side -> [[Free Sugars Intake]].
+
+**Add a third if you can: more fruit and vegetables in total, past 500 g/day.** Against 0-40 g/day,
+Aune's combined curves put CHD risk 16% lower at 500 g/day and 24% lower at 800 g/day (RR 0.84 against
+0.76), and all-cause risk 27% and 31% lower (0.73 against 0.69)
+[@aune2017fvappx].
+The CHD gradient rests on the combined curve, since the separate fruit and vegetable curves flatten,
+and 800 g/day is the edge of the studied range, not a demonstrated optimum. The evidence is
+observational; the move is cheap and reversible -> [[Fruit and Vegetable Intake and Health]].
 
 **Drop two worries.** Antinutrients in properly cooked food carry no meaningful
 net harm for a well-nourished person. Neither does the sugar in whole fruit —
@@ -527,11 +622,11 @@ event benefit.
 > | | |
 > |---|---|
 > | **Question** | 'Among fruits, vegetables, pulses and grains, what does the evidence show about each food-group''s effect on each patient-important outcome — direction, magnitude, for whom, how certain — is any sub-group or specific food better- or worse-evidenced, or does the outcome evidence not resolve at the individual-food level? And: what do the plant "antinutrients" do to a patient-important outcome at realistic intakes (and how does preparation change it), and does a fruit''s sugar-to-fibre profile change its outcome?' |
-> | **Evidence included** | 26 sources — 21 gold, 3 high, 1 moderate, 1 method |
+> | **Evidence included** | 27 sources — 22 gold, 3 high, 1 moderate, 1 method |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Petroski (narrative review, moderate). Their roles and limitations are described in the text. |
 > | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Plant%20Foods.md) |
 
 </div>
 

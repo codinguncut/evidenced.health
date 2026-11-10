@@ -4,17 +4,19 @@ title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
 created: 2026-09-09
-updated: 2026-11-03
-self_critiqued: 2026-11-03
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-11-03
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else changes (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
 sources:
   - Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024
   - Careau - Energy Compensation Adiposity 2021
   - de Santana - Low Muscle Mass Mortality 2021
+  - Eisa - Lean Mass Incretin Therapy Lifestyle 2026
   - Franz - Weight-Loss Outcomes 1-Year SR-MA 2007
   - Ge - Named Diets Weight Cardiovascular Network MA 2020
   - Goldenberg - Low Carbohydrate Diets T2D Remission 2021
+  - Jensen - AHA ACC TOS Obesity Guideline 2014
   - Hall - Obesity Energetics Diet Composition 2017
   - Kim - Protein Body Composition After Weight Loss 2016
   - Laverde - GLP-1 Muscle Health Meta-Analysis 2026
@@ -23,6 +25,8 @@ sources:
   - Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023
   - Liu - Calorie Restriction Time-Restricted Eating 2022
   - Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013
+  - Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021
+  - Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix
   - Ma - Weight Loss Interventions Mortality 2017
   - Madigan - Self-Weighing Weight Loss Meta-Analysis 2015
   - Moore - Protein Requirement Older vs Younger 2014
@@ -32,6 +36,7 @@ sources:
   - ODonoghue - Exercise Prescription Body Composition
   - Polo-Ferrero - Resistance Training Sarcopenic Obesity
   - Purcell - Rate of Weight Loss RCT 2014
+  - Purcell - Rate of Weight Loss RCT 2014 Appendix
   - Recchia - Exercise Caloric Restriction Visceral Adiposity 2023
   - Riou - Energy Compensation Exercise 2015
   - Sardeli - Resistance Training Caloric Restriction
@@ -45,7 +50,7 @@ sources:
   - Zheng - Self-Weighing Weight Management Systematic Review 2014
   - Zou - Weight Fluctuation Cardiovascular Disease 2019
 ---
-<div class="recent-page" data-last-updated="2026-11-03"></div>
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Lose fat with a deficit you can keep, then plan to keep it off
 
@@ -90,13 +95,19 @@ In people without diabetes, the one confirmatory hard-outcome trial result is SE
 diabetes, the class cut both events and deaths
 [@badve2024glp1].
 
-Four decisions move the outcome: **choose a deficit you can keep, plan maintenance as a separate phase,
-defend lean mass with RT and enough protein, and in some groups add a drug.** Diet composition moves
+Five decisions move the outcome: **choose a deficit you can keep, run it inside a structured
+programme with frequent contact, plan maintenance as a separate phase, defend lean mass with RT and
+enough protein, and in some groups add a drug.** In on-site programmes, more contact went with more
+weight lost. Diet composition moves
 the loss by about 1.5 kg at six months, and by about 1 kg or less after a year on the firmer evidence.
 That ceiling is a useful result: past it, you can stop optimizing. A time window added no detectable
 loss, though a modest benefit is not ruled out. Pace changed who reached the target; a difference in
 regain has not been shown. The ranking behind this order is in
 [[Layer 1 - Ranking Interventions for a Stratum]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Pick the diet you will stick to: the deficit sets the loss, not the macronutrient split
 
@@ -127,6 +138,11 @@ NICE's 2025 review found a very-low-carbohydrate diet (under 50 g a day) **may t
 1 year (0.55 to 4.22), but the evidence is very uncertain and the gap was not sustained at 2 years**.
 NICE made no recommendation for or against any macronutrient-defined diet
 [@nice] -> [[Diets for Weight Loss - What NICE Recommends]].
+
+The 2013 US obesity guideline (AHA/ACC/TOS) also recommends choosing the diet by preference and
+health status (Grade A, its strongest)
+[@jensen2014obesity]. It draws on the same kind of
+trials, so this is not independent confirmation -> [[Named Diet Programs Compared]].
 
 Controlled-feeding studies show why the split matters so little: at equal calories, swapping
 carbohydrate for fat does not speed fat loss
@@ -186,6 +202,47 @@ difference of -1.8 kg (-4.0 to 0.4) that was not significant**
 4 kg of extra loss, so a modest benefit is not ruled out. Use a window if it makes the deficit easier to
 keep, not as a lever of its own. -> [[Time-Restricted Eating]]
 
+### A programme that starts weekly takes off more than occasional check-ups
+
+The 2013 US obesity guideline graded how a lifestyle programme of diet, activity and behaviour therapy
+is run, and **more contact went with more loss**. Programmes with less than monthly sessions did not
+consistently beat usual care (Moderate). One or two sessions a month gave mean losses of 2-4 kg over
+6-12 months (High). On-site programmes run by a trained interventionist that started weekly gave up to
+8 kg at 6 months (High)
+[@jensen2014obesity]
+[@jensen2014obesity].
+
+These are averages within the programme arms. Set against usual care, the high-intensity programmes
+typically lost more than the low- or moderate-intensity ones (Moderate)
+[@jensen2014obesity]. The bands were compared across
+trials and differ in more than contact, so this is not a tested dose of sessions.
+
+The guideline's strong recommendation (Grade A) is on-site sessions, individual or group, at least 14
+in the first 6 months [@jensen2014obesity]. The 14 marks
+the top band the trials compared, not a point past which extra sessions stop paying.
+
+**A low- or moderate-intensity programme run by a primary-care practice alone has not been shown
+to work** (High) [@jensen2014obesity]. The guideline
+was written for US primary care, and whether the null holds in another health system is untested;
+occasional advice at routine visits sits closer to usual care than to any of these
+programmes.
+
+Web programmes with personalised feedback from a trained interventionist, built in academic settings,
+gave up to 5 kg at 6-12 months (Moderate)
+[@jensen2014obesity]. The graded recommendation says web
+or telephone delivery *may* give smaller losses than face-to-face (Grade B)
+[@jensen2014obesity]. Prefer on site where you can
+keep it up.
+
+Every figure here is weight, a surrogate. The trials were searched to 2009, plus large later RCTs
+[@jensen2014obesity], so the remote-delivery findings are
+the likeliest to have moved since. They are the guideline's summary of trials this guide does not hold
+ -> [[Lifestyle Weight-Loss Programme Intensity and Delivery]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Expect much of the loss to return, and treat maintenance as its own phase
 
 **On every lifestyle method, people regain much of the peak loss within two to four years: food-based programmes kept about 3-4 kg, very-low-energy diets 5.6 kg at 36 months** [@franz2007]. The body pushes back against the
@@ -213,6 +270,24 @@ do, a typical starter keeps less. Franz also notes that once the loss plateaus, 
 keep the result, long after it stops producing new loss.
 [inferred from @franz2007]
 
+The 2013 US guideline graded the same pattern. With bimonthly or more frequent contact continued past
+the first year, people still regained 1-2 kg a year on average, though they stayed lighter than with
+usual care (High) [@jensen2014obesity].
+
+**Its strong recommendation (Grade A) is a maintenance programme of at least a year, with contact
+monthly or more often**, in person or by phone, plus 200-300 minutes a week of activity and weekly
+weighing [@jensen2014obesity]. The grade covers the
+package, and the activity's own share is not separated. In the trials behind the
+guideline, moderate exercise (brisk walking 135-250 minutes a week, for example, a range that overlaps
+the graded dose) added after a very-low-calorie diet did not cut regain (Low)
+[@jensen2014obesity].
+
+Nobody knows the best length of maintenance: the trials ran up to 2.5 years, and the guideline says
+the optimal duration has not been determined
+[@jensen2014obesity]. The guideline and Franz pool trials
+of the same era and kind, so their agreement is not independent confirmation
+-> [[Lifestyle Weight-Loss Programme Intensity and Delivery]].
+
 ### The body defends the lower weight, probably mostly through appetite
 
 Sumithran put 50 adults with overweight or obesity on an eight-week very-low-energy diet and analysed
@@ -236,10 +311,11 @@ it as a personal failure.
 ### Losing more still leaves more off
 
 Turicchi pooled 43 studies (mostly diet-induced loss) and asked whether a bigger loss
-brings more regain. **Each extra kilogram lost went with about 0.5 kg regained (0.25 to 0.74), so
-roughly 0.26 to 0.75 kg of each extra kilogram stayed off.** The mean loss was 10.1 kg, followed up for a
-median of 44 weeks [@turicchi2019regain]. This guide worked out the net-kept figure from that slope.
-[inferred from @turicchi2019regain]
+brings more regain. **Each extra kilogram lost went with about 0.5 kg regained (0.25 to 0.74).** The
+mean loss was 10.1 kg, followed up for a median of 44 weeks
+[@turicchi2019regain]. **So roughly 0.26 to
+0.75 kg of each extra kilogram stayed off**
+[inferred from @turicchi2019regain].
 
 The slope compares studies, not people randomised to lose different amounts. Turicchi admitted only
 studies with at least 5% loss and at least 2% regain, a selection that probably flatters the net-kept
@@ -266,6 +342,107 @@ The three options this guide holds target the defended weight, each in a differe
 **No study in this guide shows that holding the new weight for longer resets the defended weight.**
 Sumithran found the hormone shift still present at one year -> [[Mitigations of the Defended Setpoint]].
 
+### A drug, vigorous exercise or both held off regain in one trial
+
+S-LiTE put 215 adults aged 18-65 with a BMI of 32-43 and no diabetes on an 8-week 800 kcal diet. The
+195 who lost at least 5% (13.1 kg on average) were randomised to placebo, exercise plus placebo,
+liraglutide 3.0 mg a day, or both, for a year, with dietetic visits in every arm
+[@lundgren2021healthy].
+**On placebo, people regained 6.1 kg, 45% of what they had lost, within the year**
+[@lundgren2021healthy].
+
+Against placebo, weight changed by **-4.1 kg (-7.8 to -0.4) with exercise, -6.8 kg (-10.4 to -3.1)
+with liraglutide and -9.5 kg (-13.1 to -5.9) with both**
+[@lundgren2021healthy].
+From randomisation, the exercise arm regained 2.0 kg, while the liraglutide arm (-0.7 kg) and the
+combination (-3.4 kg) ended the year at or below their post-diet weight
+[@lundgren2021healthyappx].
+The trial prespecified the exercise-vs-placebo comparison as a non-inferiority test, so its -4.1 kg is
+not a confirmed superiority result, though the numbers would meet one
+[@lundgren2021healthyappx].
+
+The exercise was mostly vigorous: about 118 minutes a week at about 78% of maximum heart rate
+[@lundgren2021healthy].
+It ran on about 2.5 days a week, partly in group sessions with a short circuit that included strength
+stations. Participants were encouraged to add load on those stations, but no arm followed a dedicated,
+prescribed progressive resistance-training programme. About seven in ten completers reached at least
+75% of the WHO activity volume, and about one in ten fell below a quarter of it
+[@lundgren2021healthyappx].
+
+The authors credit the vigorous intensity and the high adherence
+[@lundgren2021healthy]. This
+asks a different question from exercise as the way to lose weight, where exercise alone took off about
+a kilogram (exercise section below). **Whether a moderate programme would hold off as much is not
+shown**. In the older trials behind the 2013 US guideline, moderate exercise added after a
+very-low-calorie diet did not reduce regain (Low certainty; maintenance section above)
+[@jensen2014obesity]. Those trials differ from S-LiTE
+in intensity and in the diet before, so the pair cannot show that intensity matters
+-> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
+**Adding exercise to the drug cut body fat further but did not separate on weight.** Both together
+against liraglutide alone came to -2.7 kg (-6.3 to 0.8), a comparison prespecified only for
+non-inferiority, so a sizeable extra effect is neither shown nor ruled out. Body-fat percentage fell
+1.9 points more than on liraglutide alone (-3.3 to -0.5), a confirmatory result on a surrogate
+[@lundgren2021healthy]
+[@lundgren2021healthyappx].
+
+Lean mass was measured without a hypothesis. Against placebo it was 2.9 kg lower on liraglutide (-4.4
+to -1.4), 2.4 kg lower on both (-4.0 to -0.9) and 0.8 kg lower on exercise (-2.4 to 0.8)
+[@lundgren2021healthyappx].
+
+Within each arm, lean rose 2.9 kg on placebo (1.8 to 4) and 2.1 kg on exercise (0.9 to 3.2), and stayed
+about flat on liraglutide, 0.0 kg (-1.0 to 1.1)
+[@lundgren2021healthyappx];
+the authors write that exercise «was associated with increased lean mass»
+[@lundgren2021healthy].
+So the drug arms' deficit against placebo is lean they did not regain, not lean they lost, and whether
+that unregained lean matters is not shown either way.
+
+The trial reports no lean contrast between active arms. On this guide's arithmetic, exercise alone
+ended about 2.1 kg above liraglutide (about +0.5 to +3.7), part of which may be regained weight;
+adding exercise to the drug showed no lean difference from the drug alone (about +0.5 kg, -1.0 to
++2.0). DXA lean is not the same as muscle -> [[GLP-1 and Lean Mass]].
+
+Against placebo, fitness rose 3.9 mL/min/kg on exercise (1.8 to 6.0) and 1.6 on liraglutide (-0.5 to
+3.6), while the waist shrank 4.0 cm on exercise (-7.2 to -0.8) and 5.5 cm on liraglutide (-8.6 to
+-2.4); the trial tested neither end point against a hypothesis
+[@lundgren2021healthyappx].
+So during maintenance, on these point estimates, the drug fell short of exercise on fitness but not on
+the waist.
+
+The trial counted harms but did not test them between arms, for the drug or for the programme.
+**The drug's harms were the more frequent and the more serious.** Gastrointestinal events affected 86%
+on liraglutide, 71% on both, 65% on exercise plus placebo and 45% on placebo, and the authors place
+the excess in the two liraglutide arms
+[@lundgren2021healthy].
+Serious gallstone disease affected three people on liraglutide alone, one with pancreatitis caused by
+gallstones, against one on both and none on exercise or placebo
+[@lundgren2021healthy]
+[@lundgren2021healthyappx].
+
+Resting heart rate rose 5.3 beats a minute against placebo on liraglutide alone (1.2 to 9.4), an end
+point without a hypothesis, against 1.6 (-2.4 to 5.6) on both
+[@lundgren2021healthyappx];
+the authors note that a raised heart rate is generally considered an adverse effect
+[@lundgren2021healthy].
+
+On the programme's side, exercise-related injuries affected 2 of 48 on exercise and 5 of 49 on both,
+against 1 of 49 on placebo and none on liraglutide
+[@lundgren2021healthyappx].
+All accidents and injuries together affected 13 of 49 on both, against 3 of 49 on placebo
+[@lundgren2021healthyappx].
+
+Pooled, 7 of 97 people in the two exercise arms had an exercise-related injury against 1 of 98
+without exercise; a post-hoc test the trial did not run puts that at about p = 0.035, a firmer count
+than the drug's serious gallstone disease (4 of 98 against 0 of 97, about p = 0.12). **So
+the programme shows an injury signal, mostly minor**: the only injury listed among the serious
+events was a road accident on both treatments, which broke a shoulder
+[@lundgren2021healthyappx].
+
+Every figure here covers maintenance after a diet, not the loss itself, in non-diabetic adults up to 65, on a daily older drug
+rather than weekly semaglutide or tirzepatide; the trial stopped at a year on treatment, with no data
+after stopping -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
 ### Weight cycling is not a reason to avoid trying
 
 Zou pooled 23 cohort studies. Weight that went up and down was associated with higher
@@ -280,6 +457,10 @@ control by cycling hazards [@zou2019fluctuation].
 **Put the effort into maintenance rather than into avoiding weight loss**.
 -> [[Weight Cycling and Cardiometabolic Risk]], [[Diets for Weight Loss - What NICE Recommends]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Choose the pace you can finish; in the one randomised pace trial the fast VLCD package got more people to target
 
 The one randomised pace trial this guide draws on gives a firm answer on **who reaches the target, not
@@ -293,16 +474,25 @@ formula shakes a day, and saw the dietitian 18 times [@purcell2014rate].
 
 **The randomised result favours the fast package.** Of everyone who started, 78% of the fast arm
 reached at least 12.5% loss against 51% of the gradual arm, and 3% vs 18% dropped out during the loss
-[@purcell2014rate].
+[@purcell2014rate]. Among everyone who started (97 fast, 103 gradual), **weight at
+the end of the loss phase had fallen by 13.0 kg in the fast arm and 8.9 kg in the gradual arm**:
+-13.0 kg (-13.8 to -12.1) vs -8.9 kg (-10.1 to -7.6), p<0.0001
+[@purcell2014rateappx].
+
+The table compares
+week 12 with week 36, not one point in time. The paper's intention-to-treat analysis counted dropouts
+at their baseline weight [@purcell2014rate]; the appendix
+labels this table intention-to-treat but does not restate its missing-data rule. If it did, the gradual arm's higher dropout (18% vs 3%)
+accounts for part of the gap -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
 **The regain result comes from those who reached the target (a non-randomised comparison).** Only
 they entered maintenance, and the gradual reachers were the more selected group. At week 144 of
 maintenance, the fast and gradual completers had regained 70.5% and 71.2% of the weight they
 lost, a difference of 0.09 kg (95% CI -2.8 to 2.6) [@purcell2014rate].
 **Among those who reached the target, the interval rules out a regain difference larger than about
-2.6-2.8 kg either way, not a smaller one.** The trial reports no three-year weight
-for everyone randomised, so it cannot say which package leaves a starter lighter at three years
-.
+2.6-2.8 kg either way, not a smaller one.** Neither the paper nor its appendix reports a three-year
+weight for everyone randomised, so the trial cannot say which package leaves a starter lighter at three
+years.
 
 **One gallbladder case was the only serious harm judged diet-related.** One person in the fast arm
 had acute cholecystitis, which the authors rated probably related to the diet
@@ -325,15 +515,34 @@ Those comparisons give a direction, not a settled answer, and Purcell's body-com
 not trustworthy -> [[GLP-1 and Lean Mass]].
 
 **Pick the pace you can complete.** For non-diabetic adults aged 18-70 with a BMI of 30-45, otherwise
-healthy, non-smokers and not on weight-altering drugs, a supervised 12-week VLCD is a legitimate route
-for those who want it. In Purcell it got more starters to the target and lost fewer on the way. The
+healthy, non-smokers and not on weight-altering drugs, a supervised 12-week VLCD worked in Purcell as a
+route for those who chose it.
+
+NICE and the 2013 US guideline draw the line tighter. NICE considers a diet under 800 kcal a day only
+for people with a clinically assessed need to lose weight fast (before joint replacement or fertility
+services, for example), within a specialist service and for at most 12 weeks
+[@nice]. The US guideline allows one only in limited
+circumstances, in a medical setting with monitoring
+[@jensen2014obesity]. NICE adds that its own included
+studies did not limit participants to that group [@nice].
+So a VLCD is a specialist option to discuss, not a diet to start on your own; widening it to anyone who
+wants one rests on Purcell alone.
+
+Purcell's full criteria also required three months of stable weight and excluded recent quitters,
+people obese since early childhood, and users of weight-gaining antidepressants or antiepileptics
+[@purcell2014rateappx].
+In Purcell the VLCD got more starters to the target and lost fewer on the way. The
 evidence in this guide supports neither *slow and steady keeps it off* nor *fast is better for
-maintenance*. The trial ran in a hospital unit whose authors note that its retention and
+maintenance*.
+
+The trial ran in a hospital unit whose authors note that its retention and
 weight outcomes may exceed other settings [@purcell2014rate].
 Nestlé supplied the VLCD formula, and the senior author had chaired its Optifast advisory committee
 (2005-10) [@purcell2014rate].
 Hormone follow-up and the full regain analysis sit on
 [[Weight-Loss Maintenance and Metabolic Adaptation]] and [[Mitigations of the Defended Setpoint]].
+
+</div>
 
 ## Exercise for the waistline and fitness, not for the scale
 
@@ -373,7 +582,9 @@ change in body energy against the estimated exercise expenditure, so missed sess
 61 study groups the mean was 18% ± 93% (the spread is between study groups). In a between-study model, compensation grew with
 programme length, to near 84% at about 80 weeks; because the model compares studies, treat that figure as
 indicative [@riou2015].
-**Do not budget weight loss on exercise.**
+**Do not budget weight loss on exercise.** Keeping a loss off is a different question: in
+one trial after a diet, a vigorous, well-kept programme held off about 4 kg of regain, tested only
+for non-inferiority (maintenance section, with its population).
 
 ### Per unit of deficit, exercise may take more visceral fat (low confidence)
 
@@ -414,8 +625,30 @@ least 5% loss and 2% regain.
 GLP-1-class figures run from similar to higher: 14-22% of the loss for
 liraglutide, about 26% for tirzepatide, and up to 45% at the top of semaglutide's thinly sampled range
 [@laverde2026]. The two sets differ in loss
-size, duration and measurement, so **whether a drug takes more lean mass per kilogram than a diet has
-not been shown either way** -> [[GLP-1 and Lean Mass]].
+size, duration and measurement.
+
+One review of 20 RCTs pooled both sides. In its class comparison, lean mass made up 29.8% (26.4-33.2)
+of the weight lost on an incretin drug and 26.2% (24.1-28.3) on a lifestyle programme, reported as no
+significant difference (p = 0.42) [@eisa2026lean].
+
+The comparison sets drug trials against separate lifestyle trials. The one pooled trial that
+randomised a drug against exercise, S-LiTE (maintenance section), enters only as a drug-plus-exercise
+arm, under a semaglutide label its own paper contradicts
+[@eisa2026lean]. The review
+names no adjustment for the larger losses on the drugs, and its own meta-regression found that a
+larger percentage loss goes with a larger lean share (beta 0.8, 0.3 to 1.3)
+[@eisa2026lean]. From the two intervals
+the gap is about 3.6 points, roughly -0.4 to +7.6. Part of any gap would follow from the drugs'
+larger losses alone, so an adjustment would probably shrink it; a drug excess of several points is
+not ruled out, and neither is none.
+
+For semaglutide alone the paper's
+figures disagree: its text gives a 6.2 kg lean loss, its Table 2 a 3.4 kg loss
+[@eisa2026lean].
+
+**So whether a drug takes more lean
+mass per kilogram than a diet has not been shown either way**, and nothing here shows that a drug's
+lean loss matches a diet's -> [[GLP-1 and Lean Mass]].
 
 Fat goes faster than lean on both routes, so lean mass as a share of body weight usually rises even as
 its absolute amount falls. **Which of those two numbers matters depends on who is losing the
@@ -493,6 +726,8 @@ measured by scans or impedance, and lean mass is not the same as skeletal muscle
 > -> [[Resistance Training for Sarcopenic Obesity]]. **Whether RT and protein during weight loss protect
 > function or lifespan has not been shown either way.**
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## A GLP-1-class drug takes off far more weight, but only while you take it
 
 **A GLP-1-class drug takes off about 10-15 percentage points more body weight than lifestyle alone at a
@@ -544,8 +779,8 @@ here, the benefit lasts as long as the prescription.** The longest on-drug data 
 
 SELECT randomised adults aged 45 or over with established cardiovascular disease, a BMI of 27 or more
 and no diabetes, on top of standard care. Over a mean 39.8 months, **major cardiovascular events
-(cardiovascular death, heart attack or stroke) fell from 80 to 65 per 1,000 on semaglutide versus
-placebo: HR 0.80 (0.72-0.90), 15 fewer per 1,000**
+(cardiovascular death, heart attack or stroke) occurred in 8.0% on placebo and 6.5% on semaglutide:
+HR 0.80 (0.72-0.90)**
 [@lincoff2023].
 
 The result counts everyone randomised
@@ -620,11 +855,19 @@ while taken. Most of that returns within a year of stopping
 exercise's effect on fitness and waist, or resistance training's defence of lean mass. Lifestyle keeps
 its own value for diabetes remission (see the TDR section), fatty liver
 ([[Fatty Liver MASLD and Weight Loss]]) and function
--> [[Does Weight Loss Reduce Cardiovascular Events]].
+-> [[Does Weight Loss Reduce Cardiovascular Events]]. The one trial here that randomised a GLP-1 drug
+against exercise and both, S-LiTE, ran during maintenance after a diet. There the drug fell short of
+exercise on fitness, but its waist reduction was at least as large on point estimates, so the waist
+half of the sentence above is not supported for maintenance; its weight, body-fat, lean-mass and harm
+results are in the maintenance section -> [[GLP-1 and Lean Mass]].
 
 This guide does not weigh price, availability or the burden of indefinite use against the health
 findings. Nong calls high cost a major barrier
 [@nong2026obesity].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Weigh yourself as a cheap add-on, then act on the summary
 
@@ -680,23 +923,40 @@ They also draw on [[GLP-1 and Lean Mass]], [[Self-Weighing for Weight Loss]], [[
 
 Each line condenses a section above; the sources sit with the figures there.
 
-**The deficit, maintenance and pace:**
+**The deficit and pace:**
 
 - **Diet:** start about 500 kcal a day below estimated needs, a trial convention, not a tested optimum.
   For weight, choose any diet you can keep; diets differ by about 1 kg or less after 12 months.
 - **Type 2 diabetes under 6 years, aged 20-65, not on insulin, BMI 27-45:** consider a supervised
   formula TDR with a relapse plan. In DiRECT 46% were in remission at 1 yr
   and 36% at 2 yr. Review glucose- and BP-lowering drugs with your prescriber first.
-- **Maintenance:** plan it as its own phase; expect about 3-4 kg held at 2-4 yr from lifestyle alone
-  (completers; a typical starter keeps less). DiRECT's rule, part of its T2D protocol and not tested on
-  its own: monthly visits; over 2 kg regained, 2-4 weeks of partial meal replacement; over 4 kg, back to
-  full formula [@lean2019].
 - **Pace:** pick what you can finish; a 12-week VLCD package got more starters to target (78% vs 51%).
+  A diet under 800 kcal a day is a specialist option: both guidelines limit it to supervised settings
+  and to limited cases, such as a clinical need to lose weight fast.
+
+**The programme and maintenance:**
+
+- **Programme:** pick one with at least monthly contact, weekly at the start if you can (the graded
+  target is 14 or more sessions in 6 months). In the US guideline's review, lighter programmes run
+  by primary-care practices alone were not shown to work.
+- **Maintenance:** plan it as its own phase; expect about 3-4 kg held at 2-4 yr from lifestyle alone
+  (completers; a typical starter keeps less) [@franz2007]. The graded package: monthly or more frequent
+  contact for at least a year, 200-300 minutes a week of activity and weekly weighing
+  [@jensen2014obesity]; even with continued contact expect
+  1-2 kg a year back [@jensen2014obesity]. DiRECT's rule, part of its
+  T2D protocol and not tested on its own: monthly visits; over 2 kg regained, 2-4 weeks of partial
+  meal replacement; over 4 kg, back to full formula
+  [@lean2019].
+- **Exercise or a drug after a diet:** in S-LiTE (ages 18-65, BMI 32-43, no diabetes, after losing at
+  least 5% on a diet), placebo regained 6.1 kg in a year; about two hours a week of mostly vigorous
+  exercise held off part of it (4.1 kg less, tested only for non-inferiority), and liraglutide or both
+  held off all of it (6.8 and 9.5 kg less). No data cover the time after stopping.
 
 **Body composition, monitoring and the drug:**
 
-- **Exercise:** do it for waist and fitness, not for the scale (about 0-1 kg alone); the trials mostly
-  ran three 45-minute sessions a week for about 20 weeks.
+- **Exercise:** while losing, do it for waist and fitness, not the scale (about 0-1 kg alone; for
+  keeping it off, see Maintenance). The trials mostly ran three 45-minute sessions a week for about
+  20 weeks.
 - **RT during the deficit:** three sessions a week, the tested dose; keeps about 0.8 kg lean
   (0.36-1.27), tested in overweight or obese older adults (mean age above 57).
 - **Protein:** about 1.0-1.5 g/kg/day during the deficit (lean +0.4 to +0.8 kg in trials). Whether more
@@ -717,9 +977,11 @@ Each line condenses a section above; the sources sit with the figures there.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else changes (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?' |
-> | **Evidence included** | 35 sources — 16 gold, 18 high, 1 moderate |
+> | **Evidence included** | 40 sources — 17 gold, 22 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+
+</div>
 
 ## References

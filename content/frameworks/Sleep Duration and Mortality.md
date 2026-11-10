@@ -8,7 +8,7 @@ cluster: sleep
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-22
+updated: 2026-11-10
 self_critiqued: 2026-10-22
 relationships:
   related_to:
@@ -241,14 +241,21 @@ triangulating the same question.
 
 [inferred from @wang2022sleep]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Duration is not the only axis — two facets now sit under this nucleus
 
 - **Regularity may be the stronger lever.** Objective accelerometry shows day-to-day *consistency* of
   sleep timing (Sleep Regularity Index) out-predicts *duration* for mortality in the same cohort — a
   distinct exposure the duration-centric guidelines miss -> [[Sleep Regularity and Mortality]].
 - **Treatment is its own decision.** Once insomnia is present, the choice among CBT-I, hypnotics and
-  melatonin turns on harm + durability, not sleep-number effect size -> [[Sleep Aids and Insomnia Treatment]].
+  melatonin turns on harm + durability, not sleep-number effect size -> [[Sleep Aids and Insomnia Treatment]].] — the
+  melatonin-vs-hypnotic choice is now a stated trade-off (hypnotics likely more effective on an indirect cross-review
+  comparison; harm profiles differ), not harm + durability alone; reconcile at the next Weave/Lint touch;
+  flagged by compile-all 2026-11-10 (Sleep)]
 [inferred from @windred2023]
+
+</div>
 
 ## Decision relevance
 

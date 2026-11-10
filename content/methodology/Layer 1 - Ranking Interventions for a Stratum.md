@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-10-28
+updated: 2026-11-10
 self_critiqued: 2026-10-06
 ---
 
@@ -658,6 +658,8 @@ this section states it once instead of leaving it distributed.
 
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
 The public bands (big rock / medium stone / small pebble) are this page's *effect x certainty* ranking made
@@ -701,7 +703,7 @@ tiers by the person's baseline risk and so is **stratum-conditional** (blood pre
 RR as a tier is the same unit-of-analysis error as reading a population-attributable rank as an individual
 benefit (the prevalence-wedge section above) — one level down, at the individual lever.
 
-
+</div>
 
 ## The cross-domain superset arrives — and diet is no longer the #1 population risk `[2026-08-26, GBD-87]`
 

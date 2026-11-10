@@ -21,7 +21,7 @@ relationships:
     - Fluoride and Bone Health
     - Measuring and Raising Cardiorespiratory Fitness
 created: 2026-08-01
-updated: 2026-10-04
+updated: 2026-11-10
 self_critiqued: 2026-10-04
 ---
 
@@ -99,6 +99,8 @@ the FMP clock). Open question, not settled corroboration: does the transition tr
 total-fat gain, then plateau? A candidate tension to file (type-D).
 
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Limb 2 — measure the redistribution, not the scale
 
 [@ambikairajah2019]
@@ -111,6 +113,7 @@ quantifies: BIA underestimates body fat vs DEXA (-2.64%); self-reported BMI unde
 exposure side). So a normal BMI does not clear a menopausal woman of central-adiposity risk — measure the
 waist.
 
+</div>
 
 ## Limb 3 — the levers that respond (and the one that does not)
 

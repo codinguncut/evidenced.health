@@ -8,7 +8,7 @@ cluster: fluoride
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-09-19
+updated: 2026-11-10
 self_critiqued: 2026-08-14
 relationships:
   related_to:

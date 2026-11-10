@@ -13,7 +13,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-07-26
-updated: 2026-08-13
+updated: 2026-11-10
 self_critiqued: 2026-08-13
 ---
 
@@ -111,6 +111,8 @@ than a 10-year baseline.
 a lifetime. The 0.78 is real trial evidence; the lifetime projection is a model. The dose-linearity
 claim (*"almost twice as large"* for 2 mmol/L) is likewise a property of the model.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The three grids ESC provides
 
 | Figure | Intervention | Location |
@@ -137,6 +139,9 @@ extraction of all three grids is owed.
 
 
 [@esc2021]
+
+</div>
+
 ## Decision relevance
 
 - **Under 50, ask for the lifetime number before accepting a low 10-year one.** ESC's own rule makes

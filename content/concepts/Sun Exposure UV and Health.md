@@ -8,7 +8,7 @@ cluster: sun-uv-exposure
 nucleus: true
 confidence: low
 created: 2026-08-06
-updated: 2026-10-04
+updated: 2026-11-10
 self_critiqued: 2026-08-06
 relationships:
   related_to:
@@ -104,6 +104,8 @@ Lindqvist: a real trade-off on one exposure, not two exposures that conveniently
   [@green2011] — but Lindqvist
   cautions against reading sunblock as a licence to overexpose.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Stratum-dependence — the net shifts (mostly via baseline melanoma risk)
 
 - **Fair skin (Fitzpatrick I-II) + high ambient UV (e.g. N. Australia, UV index >=6 year-round):**
@@ -115,6 +117,8 @@ Lindqvist: a real trade-off on one exposure, not two exposures that conveniently
   shift, not a vitamin-D-repletion argument — the D route was discounted above.)
 - Route (a) baseline-risk stratification does most of the work: the same relative melanoma effect is a
   much larger *absolute* harm in fair, high-UV populations.
+
+</div>
 
 ## Bottom line (do not collapse to a slogan)
 

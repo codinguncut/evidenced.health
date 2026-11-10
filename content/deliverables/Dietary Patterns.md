@@ -3,15 +3,15 @@ type: deliverable
 title: Dietary Patterns
 question: 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?'
 aliases: [Dietary Patterns Compared, Best Diet Pattern, Mediterranean vs Low-Carb vs Vegan, Is One Diet Clearly Better, Which Diet Is Best]
-authors: [Barnes, Lisa L; Bougma, Karim; Boushey, Carol J.; Chiavaroli, Laura; Churuangsuk, Chaitong; Dehghan, Mahshid; Dinu, Monica; Diabetes and Nutrition Study Group of the EASD (org); European Society of Cardiology (org); Estruch, Ramon; Ference, Brian A; Filippou, Christina D; Schünemann, Holger; Gardner, Christopher D; Ge, Long; Hall, Kevin D; Harding, Kimberly B; Hooper, Lee; Huang, Liyan; Jha, Prabhat; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; National Institute for Health and Care Excellence (org); Naude, Celeste E; Neufingerl, Nicole; Orlich, Michael J; Pawlak, Roman; Qin, Pei; Rees, Karen; Scientific Advisory Committee on Nutrition (org); Sacks, Frank M.; Seidelmann, Sara B; Siervo, Mario; Simpson, Scot H; Howard, Barbara V; World Health Organization (org); Whalen, Kristine A; Willett, Walter]
+authors: [Barnes, Lisa L; Bougma, Karim; Boushey, Carol J.; Chiavaroli, Laura; Churuangsuk, Chaitong; Dehghan, Mahshid; Dinu, Monica; Diabetes and Nutrition Study Group of the EASD (org); European Society of Cardiology (org); Estruch, Ramon; Ference, Brian A; Filippou, Christina D; Schünemann, Holger; Gardner, Christopher D; Ge, Long; Hall, Kevin D; Harding, Kimberly B; Hooper, Lee; Huang, Liyan; Jensen, Michael D; Jha, Prabhat; Landry, Matthew J; Lean, Michael EJ; Look AHEAD Research Group (org); Ma, Chenhan; Mente, Andrew; National Institute for Health and Care Excellence (org); Naude, Celeste E; Neufingerl, Nicole; Orlich, Michael J; Pawlak, Roman; Qin, Pei; Rees, Karen; Ryan, Donna H; Scientific Advisory Committee on Nutrition (org); Sacks, Frank M.; Seidelmann, Sara B; Siervo, Mario; Simpson, Scot H; Howard, Barbara V; World Health Organization (org); Whalen, Kristine A; Willett, Walter]
 sources: [Barnes - MIND Diet Trial Cognitive Decline, Bougma - Iodine Child Mental Development Meta-Analysis 2013, Boushey - Dietary Patterns All-Cause Mortality 2020, Chiavaroli - DASH Cardiometabolic Umbrella Review, Chiavaroli - Portfolio Dietary Pattern CVD 2018, Churuangsuk - Diabetes Diets Umbrella Review 2022, Dehghan - PURE Fats Carbohydrate Mortality 2017, Dinu - Mediterranean Diet Umbrella Review 2018, EASD - DNSG Dietary Management of Diabetes 2023, ESC - CVD Prevention Guidelines 2021, Estruch - PREDIMED Mediterranean Diet 2018, Ference - LDL Cause ASCVD EAS Consensus 2017, Filippou - DASH Blood Pressure Hypertension Meta-Analysis 2020, GRADE - Handbook,
-  Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Harding - Iodine Supplementation Pregnancy 2017, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Huang - MIND Diet Cognitive Function Decline, Jha - Smoking Hazards Cessation Benefits 2013, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT Durability 2 Years 2019, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, NICE - NG246 Evidence Review F, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022,
+  Gardner - DIETFITS Low-Fat vs Low-Carb 2018, Ge - Named Diets Weight Cardiovascular Network MA 2020, Hall - Obesity Energetics Diet Composition 2017, Hall - Ultra-Processed Diets Inpatient RCT 2019, Harding - Iodine Supplementation Pregnancy 2017, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Huang - MIND Diet Cognitive Function Decline, Jensen - AHA ACC TOS Obesity Guideline 2014, Jha - Smoking Hazards Cessation Benefits 2013, Landry - Vegetarian Dietary Patterns Cardiovascular Umbrella 2024, Lean - DiRECT Durability 2 Years 2019, Lean - DiRECT T2D Remission 2018, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Ma - Weight Loss Interventions Mortality 2017, Mente - PURE Healthy Diet Score 2023, NICE - NG246 Evidence Review F, Naude - Low-Carbohydrate vs Balanced-Carbohydrate 2022,
   Neufingerl - Plant-Based Nutrient Status 2021, Orlich - Vegetarian Patterns Mortality AHS-2 2013, Pawlak - Vitamin B12 Deficiency Vegetarians 2013, Qin - Low-Carbohydrate Diet Cardiovascular Mortality 2023, Rees - Mediterranean Diet CVD Prevention Cochrane 2019, SACN - Carbohydrates and Health 2015, Sacks - DASH Diet Sodium Blood Pressure 2001, Seidelmann - Carbohydrate Intake Mortality 2018, Siervo - DASH Diet Cardiovascular Meta-Analysis 2015, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Total Fat Intake 2023, Whalen - Paleolithic Mediterranean Mortality 2017,
   Willett - Nutritional Epidemiology 3e]
 confidence: medium
 created: 2026-07-30
-updated: 2026-10-07
-self_critiqued: 2026-10-07
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-07
 ---
 
@@ -191,6 +191,8 @@ An all-butter or all-fast-food diet shows how the floor works. It fails because 
 vitamins, minerals and fibre and makes a chronic energy surplus easy — no argument about saturated fat
 or red meat is needed, and none is used.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Above the floor, named diets differ by about a kilogram and under 2 mmHg; LDL is the exception
 
 Most diets people actually choose between clear this floor. The next question is whether the name on
@@ -303,7 +305,35 @@ them. The only diet it recommends is a low-energy diet (total or partial meal re
 kcal/day, for at most 12 weeks), defined by energy. NICE adds that the energy deficit can be reached
 by lowering specific macronutrient content
 [@nice] -> [[Diets for Weight Loss - What NICE Recommends]].
-Here current guidance and the evidence agree. That agreement deserves reporting as plainly as a
+
+The 2013 US obesity guideline (AHA/ACC/TOS) lands in the same place. For overweight and obese adults
+it lists about 15 named approaches, from low-carbohydrate and Mediterranean to low-fat vegan, as
+producing weight loss when the person achieves an energy deficit, a high-strength statement
+[@jensen2014obesity]. Its Grade A recommendations are
+a calorie-restricted diet, as part of a comprehensive lifestyle intervention, chosen by the
+patient's preferences and health status and reached by 1200-1500 kcal a day for women and 1500-1800
+for men (usually adjusted for body weight), by a 500 or 750 kcal daily deficit, or by an
+evidence-based diet that restricts certain foods
+[@jensen2014obesity].
+
+Most of the guideline's head-to-head comparisons found no difference in weight: 25% against 15%
+protein (high strength), lower-fat against higher-fat at 6 to 12 months (moderate), a
+carbohydrate-restricted diet against a calorie-restricted low-fat one at 6 months (low), high
+against low glycemic-load diets over 6 months (low), and calorie-restricted Mediterranean,
+vegetarian or vegan and high-dairy patterns against a lower-fat one (low). The exception is format:
+in overweight and obese women, liquid and bar meal replacements beat a conventional-food deficit
+diet at up to 6 months (low), with no longer-term evidence of an advantage
+[@jensen2014obesity] ->
+[[Named Diet Programs Compared]].
+
+On blood lipids, the guideline found the evidence on low-carb diets as it defines them (under 30 g a
+day) and cardiovascular risk factors insufficient. With moderate weight loss, lower-fat, higher-carb
+diets cut LDL more than higher-fat, lower-carb ones, but cut triglycerides less and raised HDL less
+(moderate) [@jensen2014obesity]. The guideline, NICE
+and Ge appraise largely the same class of diet trials, so their agreement is not independent
+confirmation.
+
+Here both guideline families and the evidence agree. That agreement deserves reporting as plainly as a
 disagreement would.
 
 ### Where labels do separate, the gap follows particular foods
@@ -318,6 +348,8 @@ against US, Canadian and EAT-Lancet advice to eat plant-based diets: «To the ex
 [@ge2020]. That is a statement
 about weight, blood pressure and lipids over a year, not about the long-term cohort outcomes of
 vegetarian diets.
+
+</div>
 
 ## Nearly all pattern-and-death evidence comes from cohorts, and placebo adherence in drug trials is about as large as the crude diet signal
 
@@ -568,6 +600,8 @@ It has not been shown to beat DASH or a vegetarian diet on events; neither has b
 Other patterns have been randomized too, but on blood pressure, cholesterol or cognition — or, when
 events were counted, with a null result.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## DASH and Portfolio lower blood pressure and LDL; low-fat and MIND trials found no significant effect on their main outcome
 
 Four more named patterns have been randomized. Two of them, DASH and Portfolio, move a risk factor
@@ -647,13 +681,15 @@ In the tightly controlled feeding trials LDL fell 21%; the free-living trials pu
 down, so the fall a person gets depends on how fully they keep all four components.
 [@chiavaroli2018portfolio]
 
-**Events.** None counted. The 1.34-point drop in estimated (Framingham) 10-year coronary risk, about
-13 per 1000 lower (5 to 22), moderate certainty, in hyperlipidaemic adults, is calculated from the
-lipid and blood-pressure changes, not observed. [@chiavaroli2018portfolio]
+**Events.** None counted. The 1.34-point drop in estimated (Framingham) 10-year coronary risk (95% CI
+0.49 to 2.19), moderate certainty, in hyperlipidaemic adults, is calculated from the lipid and
+blood-pressure changes, not observed. [@chiavaroli2018portfolio]
 [@chiavaroli2018portfolio]
 The authors say so:
 
 > «In this regard, there remains a need for large randomized trials of the effect of the portfolio dietary pattern on hard CV outcomes or surrogate end- points of atherosclerosis.»
+
+In absolute terms the estimated drop is about 13 per 1000 (5 to 22).
 
 [@chiavaroli2018portfolio]
 
@@ -755,6 +791,8 @@ above.
 
 The remaining patterns have no randomized evidence on hard outcomes at all, only cohorts, and the
 cohorts are uneven.
+
+</div>
 
 ## Vegetarian, paleo and low-carb patterns rest on cohorts; carnivore rests on almost nothing
 
@@ -904,6 +942,8 @@ pattern above the other.
 
 If the label does this little, the differences that do show up probably travel with something else.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Shared foods, total energy and staying on the diet carry the difference, and they overlap
 
 When a pattern beats a typical diet, three things travel with the gain: the foods most studied patterns
@@ -1033,11 +1073,11 @@ PREDIMED moved events with no weight-loss component: it used no calorie restrict
 promotion (see *One trial cut strokes in high-risk adults; it did not detectably change the number of deaths*
 above). The largest weight-loss trial went the other way. Look AHEAD randomized 5,145 overweight or obese adults with type 2 diabetes to
 intensive lifestyle intervention or diabetes education. Weight loss was 8.6% vs 0.7% at one year and 6.0%
-vs 3.5% at the end, yet cardiovascular events ran at about 18.3 vs 19.2 per 1000 person-years, HR 0.95
+vs 3.5% at the end, yet cardiovascular events ran at 1.83 vs 1.92 per 100 person-years, HR 0.95
 (0.83 to 1.09); the trial stopped for futility at a median 9.6 years
 [@look2013] -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
-The weight gap between arms shrank to about 2.5 percentage points, LDL was the one risk factor the
+The weight gap between arms shrank from 8.6% vs 0.7% at one year to 6.0% vs 3.5% at the end, LDL was the one risk factor the
 intervention did not improve, and the trial was powered (>80%) to detect an 18% difference
 [@look2013]. With both arms also
 receiving good diabetes care, that null is narrower than it sounds.
@@ -1056,6 +1096,26 @@ So the pool cannot show where the death benefit comes from, and the cardiovascul
 too wide to rule out a cardiac share. Because the trials were mostly low-fat diets, they also cannot
 separate weight loss from the change in diet -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
+
+The 2013 US obesity guideline graded weight loss mostly on risk factors and diabetes. In overweight
+or obese adults at risk of type 2 diabetes, average losses of 2.5 to 5.5 kg at two years or more,
+through lifestyle intervention with or without orlistat, cut new diabetes by 30% to 60% (high
+strength) [@jensen2014obesity]. In overweight or obese
+adults with raised cardiovascular risk, a 5% loss came with blood pressure about 3/2 mmHg lower
+(high strength) [@jensen2014obesity].
+
+The guideline's one graded death outcome for non-surgical weight loss comes from cohorts: overweight
+or obese adults with type 2 diabetes who intentionally lost 9 to 13 kg had a 25% lower death rate
+than weight-stable controls (low)
+[@jensen2014obesity]. That points the same way as Ma's
+pool, from weaker evidence.
+
+The guideline grades heart attacks, strokes and cardiovascular deaths only against BMI, as risks of
+being heavier [@jensen2014obesity]. No statement
+grades whether losing weight cuts them. Its statements rest on literature available as of October
+2011 [@jensen2014obesity], before Look AHEAD's 2013
+cardiovascular result, so that gap reflects timing and evidence type, not a judgement against Look
+AHEAD's null result -> [[Does Weight Loss Reduce Cardiovascular Events]].
 
 Set side by side, PREDIMED and Look AHEAD suggest that in PREDIMED, events moved with what people
 ate rather than with how much they weighed. The populations, countries and comparators differ, so this is a contrast between
@@ -1089,6 +1149,8 @@ lowered blood pressure less than the two effects added up (numbers under
 above). So no figure in this guide sums component, energy and adherence effects into a total, and
 none should be built from them. The levers share parts: a diet that drops ultra-processed food changes its foods and its
 calories at once, and only adherence turns either into an effect.
+
+</div>
 
 ## Switching labels moves less than leaving a typical diet; at low risk both gains are small
 
@@ -1342,6 +1404,8 @@ weaken the environmental case, which is a separate question.
 
 Put together, the decision comes down to a few steps.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What to do with this
 
 The steps run in order: clear the floor, then pick a diet you will keep, then spend effort only where
@@ -1354,8 +1418,23 @@ chronically too much. -> [[Nutrient Adequacy of Plant-Based Diets]],
 [[Vitamin B12 Status in Vegetarian and Vegan Diets]]
 
 **2. Above the floor, choose the pattern you will stick with.** The label is a weak lever: named
-diets differ by about a kilogram and under 2 mmHg (LDL is the exception), and early gains fade within
-a year. -> [[Named Diet Programs Compared]]
+diets differ by about a kilogram and under 2 mmHg (LDL is the exception), and early gains fade
+within a year. -> [[Named Diet Programs Compared]] If you are overweight and want to
+lose weight, an energy deficit is what the loss requires
+[@jensen2014obesity]. The US guideline prescribes
+1200-1500 kcal a day for women and 1500-1800 for men, usually adjusted for body weight, or a 500-750
+kcal daily deficit, as part of a comprehensive lifestyle programme and on a diet chosen by
+preference and health status [@jensen2014obesity].
+
+A structured format can add a little. Liquid and bar meal replacements beat a conventional-food
+deficit diet at up to 6 months in overweight and obese women (low strength; no longer-term advantage
+shown) [@jensen2014obesity]. In type 2 diabetes,
+formula meal replacement lost 2.4 kg more over 12-52 weeks (95% CI 1.4 to 3.3; moderate certainty)
+[@churuangsuk2022].
+
+For overweight or obese adults at risk of type 2 diabetes, lifestyle programmes, some with orlistat,
+that reached average losses of 2.5 to 5.5 kg at two years or more cut new diabetes by 30% to 60%
+(high strength) [@jensen2014obesity].
 
 **3. Make the shared moves.** More vegetables, fruit, pulses, nuts, whole grains, unsaturated oils
 and fish; less processed meat, refined starch and ultra-processed food. These are what the
@@ -1377,7 +1456,9 @@ optimizing. -> [[Baseline Risk and the Relative-Absolute Split]]
 
 Several questions the evidence cannot yet answer are worth naming.
 
-<div class="recent-update" data-last-updated="2026-11-02">
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## What the evidence cannot answer yet
 
@@ -1415,11 +1496,11 @@ better off. The loop between the advice and what happened is open.
 > | | |
 > |---|---|
 > | **Question** | 'Do the major named dietary patterns differ in their effect on patient-important outcomes, and if so which axis carries the difference — the pattern label itself, the shared components common to most evidence-based patterns, total energy/adiposity, or adherence — how large is the difference, how certain, and where is the evidence RCT-grade rather than confounded cohort? Or does the evidence not distinguish the patterns at all?' |
-> | **Evidence included** | 45 sources — 24 gold, 18 high, 1 moderate, 2 method |
+> | **Evidence included** | 46 sources — 24 gold, 19 high, 1 moderate, 2 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Dehghan (cohort, moderate). Their roles and limitations are described in the text. |
 > | **Method sources** | GRADE; Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Patterns.md) |
 
 </div>
 

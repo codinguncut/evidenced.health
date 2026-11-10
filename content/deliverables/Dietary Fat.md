@@ -3,12 +3,12 @@ type: deliverable
 title: Dietary Fat
 confidence: medium
 created: 2026-08-17
-updated: 2026-10-07
-self_critiqued: 2026-10-03
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-03
 aliases: [Dietary Fats, Fat Type and Replacement, Saturated Fat and Cardiovascular Risk]
 question: 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?'
-sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Zhang - Butter Plant Oils Mortality 2025]
+sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, Hooper - Saturated Fat Reduction Cardiovascular Cochrane 2020, Astrup - Saturated Fats Reassessment 2020, Bergeron - Red White Nonmeat Protein Atherogenic Lipoproteins 2019, CTT - Statin Intensive LDL Lowering Meta-Analysis 2010, Ramsden - Minnesota Coronary Reanalysis 2016, Richardson - ApoB Coronary Mendelian Randomization 2020, Estruch - PREDIMED Mediterranean Diet 2018, Marklund - Omega-6 Biomarkers Cardiovascular 2019, Hooper - Omega-6 Fats Cardiovascular Cochrane 2018, Li - Linoleic Acid Mortality Meta-Analysis 2020, Johnson - Linoleic Acid Inflammation Review 2012, Ramsden - Sydney Diet Heart 2013, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Ference - LDL Cause ASCVD EAS Consensus 2017, Liu - Triglyceride-Glucose Index Cardiovascular Mortality Meta-Analysis 2022, Willett - Nutritional Epidemiology 3e, BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021, WHI - Low-Fat Dietary Pattern Cardiovascular 2006, Hooper - Reduced or Modified Dietary Fat Cardiovascular 2012, Ma - Dietary Macronutrient Intake Cardiovascular 2024, Zhang - Butter Plant Oils Mortality 2025, Wang - Pharmacotherapy Mild Hypertension Cochrane 2025, Lonn - HOPE-3 BP Lowering 2016]
 ---
 
 ## Open on the substitution, not the fat
@@ -330,7 +330,7 @@ the one large RCT tested a single fat->carbohydrate reduction, not a curve. Plan
 genuine named gap. And whether the cardiovascular signal is saturated-fat **harm** or polyunsaturated
 **benefit** stays an open attribution -> [[Is the Food Category Doing Any Work]]. Given all this, what does a low-risk eater actually do?
 
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Act on the substitution a low-risk eater can sustain
 
@@ -345,10 +345,35 @@ count adherence as part of the effect — a modest sustained shift beats a stric
 
 Then keep the size honest. For a **genuinely low-risk person the proven hard-outcome benefit is small in
 absolute terms**, because absolute benefit is the relative effect times a low baseline risk -> [[Baseline Risk and the Relative-Absolute Split]]. No cardiometabolic lever the evidence holds delivers a large
-absolute reduction in cardiovascular events at low risk. Even blood-pressure lowering, whose relative
-effect **is** proven in primary prevention (HR **0.91**, 0.89-0.94, without prior cardiovascular
-disease) [@bplttc2021], buys
-little on a small baseline -> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
+absolute reduction in cardiovascular events at low risk.
+
+Even blood-pressure lowering buys little on a small baseline, and **its proof comes from people at
+higher risk**. In trial participants without prior cardiovascular disease, each 5 mmHg drop in systolic
+pressure cut major events by about a tenth (HR **0.91**, 0.89-0.94). That pool averaged 65 years old,
+and its comparator arm had 31.9 major events per 1000 person-years
+[@bplttc2021]. The
+direct trials in untreated, low-risk stage-1 hypertension (weighted mean age 50) are low certainty and
+inconclusive on cardiovascular events: RR 0.93, 0.69-1.24, an interval that runs from a 31% cut to a
+24% rise [@wang2025mildhtn]. HOPE-3,
+in people at intermediate risk without cardiovascular disease, was also inconclusive (HR 0.93,
+0.79-1.10) [@lonn2016hope3].
+
+On the cardiovascular composite, then, **the low-risk benefit is carried over from the higher-risk pool
+rather than observed directly**. Two signals point toward benefit, and both have limits.
+The low-risk trials found fewer strokes, 3 versus 7 per 1000 over 2-5 years (RR 0.41, 0.20-0.84), at
+low certainty and on only 35 events, most of them in one trial of people with microalbuminuria
+[@wang2025mildhtn]. In HOPE-3, people in the
+top third of baseline systolic pressure (a tertile cut at 143.5 mmHg, not a treatment threshold; mean
+154 mmHg) had events at 4.8% on treatment versus 6.5% on placebo over a median 5.6 years (HR 0.73,
+0.56-0.94). That is a prespecified subgroup result at intermediate rather than low risk
+[@lonn2016hope3].
+
+The drug has a cost as well. **More people stopped treatment for side effects**: 110 versus 23 per 1000
+over 5 years (RR 4.80, 4.14-5.57, low certainty). That figure comes from the whole of one dated trial of
+17,354 people, on drugs no longer first-line, because the reviewers lacked individual patient data for
+this outcome [@wang2025mildhtn]
+-> [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
+
 So the fat swap is a **low-cost hedge, not a promised heart-attack reduction**. Reporting that
 ceiling is itself the finding, one that licenses a low-risk eater to stop chasing a large effect the
 evidence does not offer.
@@ -358,11 +383,11 @@ evidence does not offer.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult choosing what fats to eat: what is the effect of the amount and type of dietary fat (saturated, monounsaturated, n-6 and n-3 polyunsaturated, industrial trans) on each patient-important outcome (cardiovascular events, all-cause mortality), what is the dose-response shape, and on what does any effect depend — what the fat replaces, the food matrix carrying it, or the eater''s metabolic state?' |
-> | **Evidence included** | 23 sources — 10 gold, 11 high, 1 weak, 1 method |
+> | **Evidence included** | 25 sources — 11 gold, 12 high, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Astrup (narrative review, weak). Their roles and limitations are described in the text. |
 > | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Dietary%20Fat.md) |
 
 </div>
 

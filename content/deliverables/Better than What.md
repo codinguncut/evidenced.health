@@ -3,19 +3,24 @@ type: deliverable
 title: Better than What?
 icon: material-symbols-light:balance
 question: 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?'
-sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022, EASD - DNSG Dietary Management of Diabetes 2023]
+sources: [SACN - Carbohydrates and Health 2015, WHO - Saturated and Trans Fatty Acid Intake 2023, EFSA - Dietary Sugars Upper Intake Level 2022, EASD - DNSG Dietary Management of Diabetes 2023, Poole - Coffee Consumption and Health 2017, Ding - Coffee and Type 2 Diabetes 2014, Bauer - PROT-AGE Protein Older Adults 2013]
 confidence: medium
 created: 2026-08-05
-updated: 2026-10-02
-self_critiqued: 2026-10-02
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 ---
+<div class="recent-update" data-last-updated="2026-11-10">
 
 No food is healthy or unhealthy on its own; it is only healthier or less healthy than whatever
 would have taken its place. So the useful question is rarely *is butter bad for you?* but *bad
 compared with what?* Butter is better than the trans-fat margarine it replaced a generation
-ago and worse than the olive oil that could replace it now — and both comparisons are true at
-once. Name a different alternative and the answer changes with it.
+ago, and probably worse than the olive oil that could replace it now. The second comparison is
+the shakier one. It rests on cholesterol and cohort data, and trials have barely tested olive oil
+in place of saturated fat on heart outcomes
+[@who2023saturated]
+-> [[Is the Food Category Doing Any Work]]. Both comparisons can hold at once. Name a different
+alternative and the answer changes with it.
 
 Naming that alternative takes two steps most advice skips. First, be clear what the food
 actually is: "dairy" and "carbs" are baskets of items so unalike that their average describes
@@ -30,11 +35,15 @@ money or effort — this page sets them side by side rather than collapsing them
 
 So the honest answer is a direction and a range, not a single figure — and which end of the
 range to act on depends on what you would rather be wrong about. Where a real harm is in play,
-lean cautious; where the prize is a likely benefit, there is little to gain from overshooting.
-In short: choose carefully *where* to act, and settle for roughly right on *how much*. One
+lean cautious. Where the prize is a likely benefit, the default is not to bank on its best case.
+That default flips when overshooting is cheap and low-harm and falling short forfeits the goal,
+as with protein for someone with healthy kidneys; then aiming high costs little. In short: choose
+carefully *where* to act, and settle for roughly right on *how much*. One
 limit outlasts the rest — this page can judge only whether a well-informed advisor *would*
 frame a swap this way, never whether anyone who followed it was better off. That loop stays
 open.
+
+</div>
 
 ## Compared to what? Why an effect has no sign until the alternative is named
 
@@ -79,6 +88,8 @@ big-rock stays a big rock -> [[Big Rocks (Median)]].
 Naming the counterfactual to X, though, presupposes that X is a single, specified thing — which is
 often the first place the analysis breaks.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What is "X", exactly? Specifying the exposure before its comparator
 
 You cannot say "instead of what" until you pin down "what". A food or nutrient label is only a usable
@@ -111,8 +122,13 @@ their leads:
 - **"Omega-3"** spans a benefit and a null under one word once you descend to compound x dose x stratum
   — the label is not the exposure -> [[Vitamin and Mineral Supplements for Disease Prevention]].
 
-- **"Coffee != caffeine"** — the presumed active component is not the driver, so a study crediting
-  caffeine is measuring the matrix under a caffeine label
+- **Coffee's health associations do not need caffeine — for mortality and type 2 diabetes.**
+  Decaffeinated coffee shows associations of similar size on those outcomes, so a study crediting
+  caffeine for them may be crediting the coffee. The split stops at the liver, where the decaf data are
+  null but underpowered and the proposed mechanism includes caffeine. Decaf drinkers may also differ from other coffee
+  drinkers [@poole2017]. For diabetes, a per-cup
+  comparison put caffeinated coffee slightly ahead of decaf, but the gap was not significant
+  [@ding2014]
   -> [[Coffee Consumption and Health]].
 
 ### A named diet is a bundle: what it removes vs what it distinctively adds
@@ -150,6 +166,8 @@ comparator that is not itself junk-heavy, or does only the exclusion?
 
 Once X and its comparator are both fixed, a second gap opens: the effect the mechanism predicts for
 that contrast is not the effect a person realizes.
+
+</div>
 
 ## Intended vs realized: what compensates, and does it survive leaving the RCT arm?
 
@@ -320,17 +338,21 @@ to Weave/ingest as residual, not a settled fabric claim.
 Once you name a region, one question remains that the region alone cannot answer: *which end* of it
 to act on.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Which end of the interval? Asymmetric loss and the conservative default
 
 Even a **perfectly symmetric** statistical interval has an **asymmetric** decision-relevant summary, and
 the two do not conflict — they are about different objects. The interval describes where the parameter
 plausibly sits; the decision minimizes expected **loss**, which is rarely symmetric about the estimate.
+
 So the action's summary is not the mean or the midpoint but a **quantile — a tail** — its position set
 by the ratio of the cost of *under*-shooting to that of *over*-shooting. Where over-estimating a harm is
-cheap and under-estimating it expensive, the decision reads off the upper (bad) tail; where over-shooting
-a benefit's dose is cheap and forgoing it is the loss, off the lower (conservative) tail. The
-precautionary posture is thus **derived** from the cost structure, not asserted — the decision-side twin
-of the *statistical* asymmetry, which lives on -> [[Limits of Evidence]] and is not re-derived here
+cheap and under-estimating it expensive, the decision reads off the upper (bad) tail of the harm. Where
+overselling a benefit is the costlier mistake, it reads off the lower (conservative) tail of the
+benefit's size. And where overshooting a dose is cheap and falling short forfeits the benefit, it reads
+off the upper end of the dose range. The precautionary posture is thus **derived** from the cost
+structure, not asserted — the decision-side twin of the *statistical* asymmetry, which lives on -> [[Limits of Evidence]] and is not re-derived here
  -> [[The Estimate-to-Action Gap]].
 
 Three consequences follow.
@@ -354,11 +376,28 @@ Three consequences follow.
 The loss function is **direction-agnostic** — proof it biases *away from the costly tail*
 rather than running a disguised always-conservative rule. The same rule biases protein *up* toward the upper end
 of its range (overshoot is low-harm for healthy kidneys, under-dosing forfeits the objective)
--> [[Protein and Resistance Training for Muscle and Strength]] — and biases *further* up for older
-adults, where the cost of under-dosing is higher -> [[Protein Intake for Older Adults]] — while it
-biases training intensity *down* toward the margin (overshoot loads an often-irreversible injury tail).
-Opposite directions from one rule is the signature of loss-appropriate bias, not of smuggled precaution
- -> [[The Estimate-to-Action Gap]].
+-> [[Protein and Resistance Training for Muscle and Strength]] — while it biases training intensity
+*down* toward the margin (overshoot loads an often-irreversible injury tail). Opposite directions from
+one rule is the signature of loss-appropriate bias, not of smuggled precaution
+-> [[The Estimate-to-Action Gap]].
+
+For an older adult, the same rule starts from PROT-AGE's daily protein figure. PROT-AGE words that
+figure for healthy older adults as a minimum, so it is a floor to clear, not a range to sit inside
+[@bauer2013]. PROT-AGE also gives higher figures
+for older adults who are ill or physically active
+[@bauer2013]. Weight loss and an energy
+deficit raise the cost of undershoot too, so the rule points an older adult toward those higher figures
+then -> [[Protein Intake for Older Adults]].
+
+The rule does not lift older trainees above the protein range in the example above, which comes from
+resistance-training trials in mostly younger adults. That range is untested in older adults in the
+sources this page draws on, and those sources do not settle whether older trainees need more or less
+than it. Kidney trials at intakes near the upper end of that range detect no harm on a kidney-function
+surrogate, but mostly in middle-aged adults -> [[Protein Intake for Older Adults]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Caveats and boundaries
 
@@ -384,9 +423,11 @@ Opposite directions from one rule is the signature of loss-appropriate bias, not
 > | | |
 > |---|---|
 > | **Question** | 'How does the choice of comparator (replace X with what?) change the estimated effect of a dietary or lifestyle exposure, and how should a recommendation frame substitutions when objectives compete, evidence is partial, and the choice is made in a real environment rather than an RCT arm?' |
-> | **Evidence included** | 4 sources — 4 gold |
+> | **Evidence included** | 7 sources — 6 gold, 1 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-02 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Better%20than%20What.md) |
+
+</div>
 
 ## References

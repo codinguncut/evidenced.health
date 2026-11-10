@@ -2,8 +2,8 @@
 type: framework
 question: Does regularly weighing yourself help an adult with overweight or obesity lose weight, keep it off or avoid gaining — on its own or added to a weight-loss programme — does weighing daily beat weighing weekly, and does it cause psychological harm?
 aliases: [Self-Weighing, Self Weighing, Self-Weighing for Weight Management, Regular Self-Weighing, Daily Self-Weighing, Daily Weighing, Weekly Weighing, Weighing Yourself, Weigh Yourself Regularly, Bathroom Scale, Self-Monitoring of Weight, Self-Monitoring of Body Weight, Weight Self-Monitoring]
-authors: [Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.]
-sources: [Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014]
+authors: [Madigan, Claire Deborah; Daley, Amanda; Lewis, Amanda L.; Aveyard, Paul N; Jolly, Kate B; Zheng, Yaguang; Klem, Mary Lou; Sereika, Susan M.; Danford, Cynthia A.; Ewing, Linda J.; Burke, Lora E.; Jensen, Michael D; Ryan, Donna H]
+sources: [Madigan - Self-Weighing Weight Loss Meta-Analysis 2015, Zheng - Self-Weighing Weight Management Systematic Review 2014, Jensen - AHA ACC TOS Obesity Guideline 2014]
 confidence: low
 cluster: weight-management
 relationships:
@@ -14,9 +14,9 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Acting on a Direction Without a Magnitude
     - Surrogate Outcomes
-self_critiqued: 2026-10-29
+self_critiqued: 2026-11-06
 created: 2026-10-29
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 
 **The decision this page changes.** Whether someone trying to lose weight should step on a scale
@@ -24,8 +24,6 @@ regularly, how often, and whether a scale on its own, without a programme, does 
 cheap and easy to stop, so the questions are direction, size and which claim the evidence actually
 supports. The phrase *self-weighing works* runs together three different comparisons with three
 different answers, and the decision depends on which one applies. [inferred from @madigan2015weigh]
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## The evidence base
 
@@ -75,10 +73,6 @@ Madigan's group ran one Zheng-included maintenance trial, and Madigan cites Zhen
 reference list. Where the reviews agree on those five, the agreement is the same data read twice, so it
 cannot count as type E.
 [inferred from @zheng2014weigh; @madigan2015weigh]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Three comparisons, three answers
 
@@ -162,10 +156,6 @@ self-weighing) applies to it too. Read -1.7 kg as the held magnitude for adding 
 co-delivered parts, to a programme like these, not as the effect of the scale by itself; and in one of
 the four trials how often the comparison arm weighed is unclear (above).
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## What the second review adds — associations inside trials, not effects
 
 Zheng's inclusion rule asks for RCTs, but most of its weight findings are not randomised contrasts.
@@ -206,10 +196,6 @@ maintenance data (section below); Zheng states no causality caveat
 `[searched: causal / reverse — zero across the 1-chunk denominator]`. So the associations show the
 behaviour and the outcome travel together; they do not size what the scale adds. On the weight-loss
 question the randomised estimates on this page stay Madigan's.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## How often to weigh — daily vs weekly is a between-trial contrast
 
@@ -267,10 +253,6 @@ course is described only by point readings inside supported trials, and the guid
 in Keep It Off suggests support helps keep the habit. That favours picking the frequency you will keep
 up, but it is not a shown dose difference.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Accountability — between-trial, and mostly about weight lost
 
 Trials where participants «knew that they were accountable to a therap- ist/researcher» (14 trials,
@@ -290,10 +272,6 @@ these predictors useful screening tools to exclude people from self-weighing.»
 [@madigan2015weigh]
 [inferred from @madigan2015weigh] A single trial's subgroup, reported secondhand, not known to be prespecified: a
 candidate modifier, not a reason to advise anyone differently.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Maintenance and durability — what is and is not held
 
@@ -350,10 +328,6 @@ did not appraise it. That is a small, imprecise estimate from a quasi-randomised
 estimate are not held. — the same open
 token as on [[Weight-Loss Maintenance and Metabolic Adaptation]].
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
-
 ## Preventing weight gain — two small isolated tests and a null programme trial
 
 Zheng's five gain-prevention studies are a different stratum from the rest of this page: the aim is
@@ -374,8 +348,6 @@ shares of participants, and the one household-randomised
 trial was null on BMI. That is insufficient evidence, not no effect, and it does not carry to the
 weight-loss comparisons above.
 
-</div>
-
 ## The scale monitors the outcome, not a behaviour
 
 Madigan separates self-weighing from the self-monitoring that behaviour-change reviews found effective
@@ -385,8 +357,6 @@ mechanism is that people must reflect on the reading and then change eating and 
 scale alone may not prompt. [@madigan2015weigh]
 [inferred from @madigan2015weigh] This is why a scale is not the
 same tool as an activity tracker, which monitors the behaviour itself -> [[Wearable Activity Trackers and Physical Activity]].
-
-<div class="recent-update" data-last-updated="2026-11-02">
 
 ## Open question — psychological harm
 
@@ -479,9 +449,7 @@ college women and VanWormer 2012's worksites are in the review, but with no psyc
 concern. Harm in those groups is insufficient evidence, not absence of harm.
 — closes when a review that includes those samples is held.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-02">
+<div class="recent-update" data-last-updated="2026-11-09">
 
 ## Labelled default — what to do
 
@@ -544,18 +512,78 @@ two are not ranked against each other.
 
 **Guidance context.** At the time, «Currently, widely used behavioural programmes in the UK advise
 their participants against weighing themselves.» That advice ran against the direction of this
-review's add-on finding; no current guidance position on self-weighing is held.
+review's add-on finding; no current guidance position on self-weighing is held. (An earlier edit,
+2026-11-06, struck that clause as superseded by the 2013 AHA/ACC/TOS guideline. Revised 2026-11-09:
+the guideline, now held directly below, is a dated US position with its trial search ending in 2009,
+not a current one, so the clause stands.)
 [@madigan2015weigh]
 Zheng reports, secondhand, that the US position went the other way: «Self-weighing has also been
 recommended as part of the AHA/ACC/TOS Guidelines for Managing Overweight and Obesity in Adults from
-the National Heart, Lung, and Blood Institute (24).» The guideline itself (Jensen 2014) is not held, so
-its wording and grading are unread. [@zheng2014weigh]
+the National Heart, Lung, and Blood Institute (24).» ~~The guideline itself (Jensen 2014) is not held, so
+its wording and grading are unread.~~ (superseded 2026-11-06, below) [@zheng2014weigh]
 [inferred from @madigan2015weigh] the comparison of the advice with
 the review's own direction is the page's.
 
-</div>
+**What the 2013 AHA/ACC/TOS guideline actually says (read directly, 2026-11-06).** Zheng's relay
+(*recommended as part of* the guideline) is accurate. In the guideline, weighing is never its own
+evidence statement or its own graded recommendation; it appears in six places, each as one part of
+something larger. (*Corrected 2026-11-09:* the list first counted five and missed Box 8, below.)
 
-<div class="recent-update" data-last-updated="2026-11-02">
+- **As a programme component (evidence statement, graded High).** CQ4 ES1 describes what effective
+  high-intensity programmes contain: «Behavior therapy: Comprehensive lifestyle interventions usually
+  provide a structured behavior change program that includes regular self-monitoring of food intake,
+  physical activity, and weight. These same behaviors are recommended to maintain lost weight, with the
+  addition of frequent (ie, weekly or more often) monitoring of body weight.» The High grade attaches to
+  the description of the whole package, not to weighing's own contribution.
+  [@jensen2014obesity]
+- **As a component of remote programmes (evidence statement, Moderate).** CQ4 ES3 describes effective
+  electronically delivered programmes as ones «which include frequent self-monitoring of weight, food
+  intake, and physical activity» with personalised feedback; again the grade is for the package.
+  [@jensen2014obesity]
+- **Inside the maintenance recommendation (Grade A, Strong).** Rec 4g: «For weight loss maintenance,
+  prescribe face-to-face or telephone-delivered weight loss maintenance programs that provide regular
+  contact (monthly or more frequently) with a trained interventionist† who helps participants engage in
+  high levels of physical activity (ie, 200–300 min/wk), monitor body weight regularly (ie, weekly or more
+  frequently), and consume a reduced-calorie diet (needed to maintain lower body weight).»
+  [@jensen2014obesity]
+- **In the treatment algorithm, for people not trying to lose weight.** For overweight adults without
+  raised cardiovascular risk, and for people formerly overweight, the algorithm text (Box 7, avoid weight
+  gain) says to «advise patients to frequently measure their own weight and to avoid weight gain by
+  adjusting their food intake if they start to gain more than a few pounds.» No evidence question on
+  preventing gain sits behind it. [@jensen2014obesity]
+- **In the readiness assessment (Box 8), named as a programme component.** «The clinician can ask,
+  'How prepared are you to make changes in your diet, to be more physically active, and to use
+  behavior change strategies such as recording your weight and food intake?' These are the components
+  of a comprehensive lifestyle intervention.» It is a question to ask before starting, not a graded
+  statement. [@jensen2014obesity]
+- **In the maintenance algorithm text (Box 15), framed as an association.** «Strategies such as frequent
+  self-weighing (at least weekly), consumption of a reduced-calorie diet, and high levels of physical
+  activity (>200 min/wk) are associated with better weight maintenance over time.» This is the only
+  place the guideline uses the term *self-weighing*, and it is expert algorithm text, not a graded
+  statement. Its wording is associational, which fits the caveat Madigan raises about observational
+  weighing data (motivation as a confounder, success prompting the weighing). [@jensen2014obesity]
+
+What follows for this page's questions. [inferred from @jensen2014obesity; @madigan2015weigh; @zheng2014weigh]
+
+- **For maintenance the guideline sets a floor, weekly or more, and does not choose between daily and
+  weekly.** During active loss it says «regular self-monitoring» (ES1) or «frequent self-monitoring of
+  weight» (ES3), with no frequency; for gain prevention Box 7 says «frequently». So it neither supports nor contradicts this page's daily-vs-weekly comparison; it
+  never asked that question.
+- **Its grade cannot be read as an effect size for weighing.** Weighing is bundled with a monthly-contact
+  programme, 200-300 min/wk of activity and a reduced-calorie diet, the same co-delivery problem that
+  limits the reviews above. The closest held numbers are phase-specific: -1.7 kg (-2.6 to -0.8) for
+  adding self-weighing (with other self-regulation parts) to a programme during loss, and about 0.7 kg
+  less regain over a year (0.68, 0.12 to 1.24) for the maintenance phase the Grade A recommendation
+  covers. That second figure is small and imprecise: one quasi-randomised trial with unequal arms, held
+  secondhand through a review that did not appraise it (above).
+- **A US guideline vs UK programme practice, at the time.** The US guideline wrote weekly-or-more
+  weighing into a Grade A maintenance recommendation while, per Madigan, UK behavioural programmes
+  advised against it. This page does not judge which was right.
+
+The guideline's maintenance evidence and programme-intensity statements are on
+[[Lifestyle Weight-Loss Programme Intensity and Delivery]].
+
+</div>
 
 ## Limits
 
@@ -575,7 +603,5 @@ the review's own direction is the page's.
 - **One stratum.** Mostly women in both reviews (Madigan: above); Zheng's samples were also
   predominantly White and middle-aged, which its authors call the main limitation.
   [@zheng2014weigh]
-
-</div>
 
 ## References

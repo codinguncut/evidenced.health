@@ -8,7 +8,7 @@ cluster: heat-exposure
 nucleus: true
 confidence: low
 created: 2026-09-09
-updated: 2026-11-02
+updated: 2026-11-10
 self_critiqued: 2026-11-02
 relationships:
   related_to:
@@ -20,8 +20,6 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Risk Modifiers - When Extra Information Changes a Risk Estimate
 ---
-<div class="recent-page" data-last-updated="2026-11-02"></div>
-
 
 **Peripheral-scope lifestyle lever (heat exposure), LOW-CERTAINTY — not a big rock.**
 Sauna is admitted on the same evidence bar as food or activity, not by a category exemption; the

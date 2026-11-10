@@ -8,7 +8,7 @@ cluster: fluoride
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-11-10
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -93,6 +93,8 @@ don't have easy access to fluoride toothpaste»
 **baseline-risk-dependent** (route (a)): larger where caries burden is high and other fluoride sources
 are scarce.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The paired harm at the SAME dose: dental fluorosis (established, but mild)
 
 At the fluoridation dose itself, one harm *is* established (unlike the IQ and skeletal arms, which
@@ -104,6 +106,8 @@ aesthetic concern was esti- mated to be 12% (95% CI 8% to 17%)» (40 studies, 59
 Dental fluorosis is a **cosmetic / enamel** outcome — a real unwanted effect at the fluoridation dose,
 but not on the patient-important tier of the child-IQ or fracture arms. It is the one harm that sits
 squarely *at* 0.7 mg/L rather than above 1.5.
+
+</div>
 
 ## Certainty, and why it stays `low`
 

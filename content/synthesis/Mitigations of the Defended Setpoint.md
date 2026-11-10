@@ -31,8 +31,6 @@ The held evidence supports override and (for one intervention) a durable loss th
 standing prop; it gives **no** support for *reset by attrition* — the defended level weakening merely
 because reduced weight is maintained over time.
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Does holding weight low weaken the setpoint over time? [EXTRACTED]
 
 **No held human evidence that maintenance duration weakens the defense — and the nearest measurement
@@ -176,10 +174,6 @@ baseline in both arms at week 144; the 15 low regainers' leptin is below baselin
 split on the outcome and unadjusted for fat mass), and the mechanism by which time-at-reduced-weight would reset it
 is not established in anything the fabric holds.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## The mitigation taxonomy — sorted by what each does to the setpoint
 
 ### Override it — GLP-1/GIP drugs (best-evidenced; not a reset) [EXTRACTED]
@@ -290,8 +284,6 @@ head-to-head of drug vs sustained lifestyle vs surgery on hard outcomes is held.
   mechanism-based directional expectation (a route-(b)-flavoured claim with no interaction evidence
   held that the same lever works better earlier), not an evidenced subgroup effect
   -> [[The Disease Model of Obesity]].
-
-</div>
 
 ## Synthesis
 

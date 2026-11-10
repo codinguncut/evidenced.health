@@ -223,8 +223,6 @@ Churuangsuk adds the glucose-lowering side: «Blood pressure falls with weight l
 Both are review-with-the-clinician flags, not dosing; the drug changes themselves are the prescriber's.
 [inferred from @lean2018; @churuangsuk2022]
 
-<div class="recent-update" data-last-updated="2026-11-04">
-
 ## Durability at 24 months — remission tracks the weight kept off
 
 The 24-month report of the same trial (same 298 ITT participants, same definitions, same team — so
@@ -379,8 +377,6 @@ different rates. It has no diabetes participants and no remission outcome, and i
 kcal/day for 12 weeks) is deeper than DiRECT's (825-853 kcal/day) and about as long as DiRECT's 3-month
 minimum (DiRECT ran 3-5 months), so it does not move the plain action above; transport to type 2
 diabetes is an assumption, not a finding.
-
-</div>
 
 ## Synthesis — is remission driven by WEIGHT LOSS or by CARBOHYDRATE RESTRICTION?
 

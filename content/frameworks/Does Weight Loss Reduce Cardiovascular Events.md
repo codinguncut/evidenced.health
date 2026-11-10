@@ -2,8 +2,8 @@
 type: framework
 question: Does intentional weight loss via lifestyle reduce hard cardiovascular events?
 aliases: [Look AHEAD, Weight Loss Cardiovascular Outcomes, Intensive Lifestyle Intervention, Weight Loss Hard Outcomes, Does Losing Weight Prevent Heart Attacks]
-authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy; Sjöström, Lars; Malhotra, Atul; Badve, Sunil V]
-sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024]
+authors: [Look AHEAD Research Group (org); Belalcazar, L Maria; Ballantyne, Christie M; Lean, Michael EJ; Leslie, Wilma S; Barnes, Alison C; Brosnahan, Naomi; Thom, George; Taylor, Roy; Sjöström, Lars; Malhotra, Atul; Badve, Sunil V; Jensen, Michael D; Ryan, Donna H]
+sources: [Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Belalcazar - Lifestyle Statins CRP Look AHEAD 2013, Ma - Weight Loss Interventions Mortality 2017, Estruch - PREDIMED Mediterranean Diet 2018, Lean - DiRECT T2D Remission 2018, Lean - DiRECT Durability 2 Years 2019, Sjostrom - SOS Bariatric Surgery Mortality 2007, Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Jensen - AHA ACC TOS Obesity Guideline 2014]
 cluster: weight-management
 nucleus: true
 confidence: medium
@@ -21,8 +21,8 @@ relationships:
     - Sleep Apnea Treatment and Cardiovascular Risk
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-10-28
-self_critiqued: 2026-10-06
+updated: 2026-11-10
+self_critiqued: 2026-11-06
 ---
 
 That losing weight prevents heart attacks is intuitive, widely recommended, and — for the **lifestyle
@@ -255,6 +255,8 @@ event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for
 molecule, different stratum).
 [@malhotra2024surmount]
 
+<div class="recent-update" data-last-updated="2026-11-09">
+
 ## The drug route generalizes to a class — and it is weight-INDEPENDENT, which reinforces this page
 
 SELECT is one agent in one non-diabetic population. The class-level meta-analysis (Badve 2024; 11 CVOTs,
@@ -308,6 +310,69 @@ comparators differ (Look AHEAD = established T2D targeting weight; PREDIMED = hi
 prevention targeting composition), so this is a reasoned cross-trial contrast, not a head-to-head — and
 PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's win is on (mostly stroke)
 *events*, not death. [inferred from @estruch2018; @look2013]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
+## What the 2013 AHA/ACC/TOS guideline graded on this question — risk factors, not events
+
+*Appended 2026-11-06.* The US obesity guideline asked this page's question. Its CQ1 includes «1c What
+is the effect of sustained weight loss for ≥2 years in individuals who are overweight or obese, on
+cardiovascular risk factors, CVD events, and health and psychological outcomes?»
+[@jensen2014obesity]
+None of its evidence statements answers the events part [searched: "cardiovascular events" 0 hits;
+"CVD events" only in the preamble, the CQ1 question text and a Table 4 heading; "myocardial" only in two table footnotes;
+"stroke" only in the introduction and the BMI-risk statements of CQ2, across chunks 01-06]. What CQ1
+grades instead [@jensen2014obesity] (ES1-ES3);
+[@jensen2014obesity] (ES4-ES7, lipids, BP):
+
+| Outcome | Weight-loss dose | Effect | Grade |
+|---|---|---|---|
+| Incident T2D (at-risk adults) | 2.5-5.5 kg at ≥2 years | risk down 30-60% | High |
+| HbA1c (adults with T2D) | 5-10% at 1 year | down 0.6% to 1.0%, fewer diabetes drugs | High |
+| Triglycerides | 3 kg | down ≥15 mg/dL | High |
+| LDL-C / HDL-C | 5-8 kg | LDL-C down \~5 mg/dL; HDL-C up 2-3 mg/dL | High |
+| Blood pressure (adults with elevated CV risk, incl. T2D and hypertension) | 5% | SBP/DBP down \~3/2 mmHg, dose-response up to 3 years | High |
+| All-cause mortality (adults with T2D) | 9-13 kg intentional loss, observational | «had a 25% decrease in mortality rate compared with weight- stable controls» | Low |
+
+The headline recommendation built on these is Grade A: counsel overweight and obese adults with
+cardiovascular risk factors (high BP, hyperlipidemia, hyperglycemia) that a sustained 3-5% loss gives clinically meaningful benefits, «and greater weight losses produce
+greater benefits» (rec 2) [@jensen2014obesity]. The
+benefits it lists are triglycerides, glucose, HbA1c, T2D risk, BP, lipids and medication use. No event
+endpoint is named.
+
+**Why the events answer is missing: partly the evidence window, partly the evidence type.** CQ1 drew
+on reviews, with Look AHEAD papers added as a supplement (below): «CQ1 was restricted to systematic reviews and meta-analyses published only between
+January 2000 and» October 2011 [@jensen2014obesity], and reviews
+of that period may themselves have lacked event data. The generic preamble still says
+clinicians «can employ the recommendations confidently to reduce the risks of atherosclerotic CVD
+events» [@jensen2014obesity], so the event framing runs
+ahead of the graded statements. The panel added
+Look AHEAD papers as «a critical supplement» but «The ESs were developed from the published literature
+available as of October 2011 and could not take into account published or unpublished reports of
+outcomes subsequent to the approval of the statements.»
+[@jensen2014obesity]
+The Look AHEAD cardiovascular result on this page was published in 2013. So the guideline's silence on
+events is an evidence-window and evidence-type fact, not a judgement against the null; any comparison with this page's
+null has lag (guidance-null reason 4) and a different evidence base (reason 2) as live readings. The
+guideline and this page do not disagree on any quantity both report: both find the risk factors move.
+[inferred from @jensen2014obesity; @look2013]
+
+**The surgical mortality statement most likely rests on SOS, not new evidence.** CQ5 grades Low: «Total mortality is
+decreased compared with nonsurgical management at mean follow-up of 11 years after undergoing a variety
+of bariatric surgical procedures (predominantly vertical banded gastroplasty) in patients with mean BMI
+&gt;40 who achieve a mean long-term weight loss of 16%.» [@jensen2014obesity]
+The guideline's reference list includes the 2007 SOS mortality paper held above (ref 169)
+[@jensen2014obesity], and the statement's
+profile matches it. The held text gives no per-statement citation (CQ5's efficacy base is 5 studies,
+17 articles [@jensen2014obesity]), so the identity is
+inferred from reference-list presence and profile, not shown. Read that way, it is the same evidence
+read by a panel, so it adds no independent backing to the
+SOS section (not type-E); the Low grade is the panel's reading of a non-randomized design.
+[inferred from @jensen2014obesity; @sjostrom2007]
+
+</div>
 
 ## Decision relevance
 

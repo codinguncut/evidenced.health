@@ -3,11 +3,11 @@ type: deliverable
 title: Limits of Evidence
 icon: material-symbols-light:balance
 question: 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?'
-sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024, EASD - DNSG Dietary Management of Diabetes 2023]
+sources: [SACN - Carbohydrates and Health 2015, Willett - Nutritional Epidemiology 3e, Afshin - Health Effects of Dietary Risks GBD 2019, Dehghan - PURE Fats Carbohydrate Mortality 2017, Cochrane - Handbook for Systematic Reviews 6.5, Stockwell - Moderate Drinkers Mortality Risk 2016, Poole - Coffee Consumption and Health 2017, USPSTF - Procedure Manual 2022, Ramsden - Minnesota Coronary Reanalysis 2016, GRADE - Handbook, NASEM - Reproducibility and Replicability in Science 2019, Ioannidis - Why Most Published Research Findings Are False, Heuer - Psychology of Intelligence Analysis, Anderson - Analysis of Evidence, Fallis - Toward an Epistemology of Wikipedia, Wikipedia - Verifiability, Cooper - Research Synthesis and Meta-Analysis, Cartwright & Hardie - Evidence-Based Policy Practical Guide, Schön - The Reflective Practitioner, Simpson - Adherence Drug Therapy Mortality Meta-Analysis 2006, Villoz - Dairy Cognitive Decline Dementia 2024, EASD - DNSG Dietary Management of Diabetes 2023, Aune - Fruit Vegetable Mortality 2017, Lopez-Bueno - Handgrip Strength Thresholds, Wang - Sleep Duration Cardiovascular Meta-Review 2022, Lang - Cardiorespiratory Fitness Health Outcomes Umbrella 2024]
 confidence: medium
 created: 2026-08-05
-updated: 2026-10-07
-self_critiqued: 2026-10-02
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-02
 ---
 
@@ -34,6 +34,8 @@ evidence of absence. And one caveat outlives every section below — this page g
 coheres and how faithfully it is reported, never whether it is true. It can be sound on both
 counts and still be wrong about the world.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The exposure is mismeasured
 
 Diet is measured indirectly, by asking people, and the resulting error is large. A doubly-labelled-water
@@ -43,6 +45,15 @@ average, 34% lower than total energy expenditure (TEE) measured by doubly labell
 [@sacn2015] Error of this size biases a measured
 association toward the null in the simple case, so a **flat measured dose-response is weak evidence of no
 gradient, not proof of one** -- the gradient may be real and flattened.
+
+In principle, error can also bend a curve the other way. If misreporting grows as intake rises, it
+can flatten the top of a self-reported range and create part of a plateau. Aune's
+fruit-and-vegetable meta-analysis cannot entirely exclude that its weaker curve at higher intakes is
+partly due to measurement error [@aune2017fv]. That is a
+possibility, not a finding, and it needs a specific kind of error. **A located plateau on a protective
+food, read with its studied range, is still a reasonable place to stop adding.** On self-reported
+intake, hold *more buys nothing* a little more loosely.
+-> [[Measurement Error in Dietary Assessment]], [[Fruit and Vegetable Intake and Health]]
 
 The error is also not clean random noise: it is **differential** -- «In general, those who consumed considerably less than the
 average were more likely to overreport intake, while those who ate more than the average tended to
@@ -82,9 +93,13 @@ controlled. But the limit itself has **no consolidated claim-page home** in the 
 structural gap, not a sourced finding here.
 
 **So what.** These three ceilings all cut confidence the same way: a flat or null measured curve cannot
-rule out a real gradient, a bare coefficient cannot say what was traded, and a category-level number can
-describe nothing on the plate. Each argues for *more honest uncertainty*, not a firmer conclusion in
-either direction.
+rule out a real gradient, a plateau in self-reported intake may be partly an artifact of error, a bare
+coefficient cannot say what was traded, and a category-level number can describe nothing on the plate.
+Each argues for *more honest uncertainty*, not a firmer conclusion in either direction.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The design rarely isolates the cause
 
@@ -128,16 +143,46 @@ reproduce a lifetime exposure to a long-latency outcome, so its null may be a po
 discordance is a signal to check exposure-commensurability, never an automatic verdict for the trial.
  -> [[The Observational-Trial Discordance]]
 
-**A U/J-shaped protective lower arm may be an artifact** -- reverse causation, sick-quitter bias (the
-referent enriched for people who quit the exposure once ill, so it «will bias drinking risk estimates
-downward, thereby magnifying the appearance of health benefits from low-level drinking»
-[@stockwell2016]), frailty
+**Each arm of a U/J-shaped curve has to be checked on its own.** The protective lower arm is usually
+the fragile one, but an artifact can sit on either arm. The usual causes are reverse causation,
+sick-quitter bias (the referent enriched for people who quit the exposure once ill), frailty
 confounding, unequal between-group precision, or a nadir stitched across cohorts whose intake ranges do
-not overlap.
+not overlap. -> [[The U-Shaped Association Artifact]]
 
-The last of those is subtle. Villoz's dairy-and-dementia curve dips to a knee near 150 g/day.
-That knee sits on the seam between low-intake Asian cohorts (29-165 g/day, where dairy reads protective)
-and high-intake European ones (170-711 g/day, null)
+Alcohol is the worked case for the lower arm, and sick-quitters are one driver of its apparent
+benefit, not the only one. Pooling 87 studies, Stockwell adjusted for former- and occasional-drinker
+bias plus four other study features, and low-volume drinkers still showed a small protection, RR 0.89
+(0.84-0.94). It was no longer significant, RR 0.97 (0.88-1.07), only once follow-up length, the
+inclusion of ill subjects, and controls for race and smoking were added
+[@stockwell2016]. A non-significant
+result is not a shown zero: its lower bound still allows a modest benefit. Genetic evidence shows no
+protective arm for stroke or blood pressure, but it does not test all-cause mortality, and for heart
+attack it neither shows nor rules out a small benefit.
+-> [[Alcohol and Mortality and Vascular Disease]]
+
+The upper arm can be the suspect instead. A grip-strength meta-analysis saw cancer and cardiovascular
+mortality tick up at the strongest grips. Its authors say the uptick likely reflects sparse data at the
+high end rather than a genuine lack of benefit
+[@lopezbueno2022]. That is their explanation, not a
+tested check, so the uptick is untested rather than shown to be an artifact.
+-> [[Grip Strength and Mortality]]
+
+Sleep shows why the check runs arm by arm. Mendelian-randomization studies support short sleep as a
+cause of coronary disease (OR 1.24, 1.15-1.34) but give long sleep no causal support on stroke or
+coronary disease. Wang notes that observational meta-analyses do link long sleep to cardiovascular
+disease, but calls the causal link unclear, and one genetic analysis could not be run for lack of
+variants
+[@wang2022sleep]. So the long arm is
+unsupported, not disproved. -> [[Sleep Duration and Mortality]]
+
+The low-intake arm of the sodium curve is still open. One camp argues it is an artifact, the other that
+it is real, and neither has run a referent correction or a genetic test.
+-> [[The U-Shaped Association Artifact]]
+
+A nadir stitched across cohorts, the last cause on the list above, is the subtlest. Villoz's
+dairy-and-dementia curve dips to a knee near 150 g/day. That knee sits on the seam between
+low-intake Asian cohorts (29-165 g/day, where dairy reads protective) and high-intake European ones
+(170-711 g/day, null)
 [@villoz2024dairy]. Villoz reads the split as genuine
 regional effect modification; the artifact reading is the wiki's own — the apparent *optimum* is then a
 between-population contrast, each arm carrying its own confounding structure, not a within-person dose
@@ -206,6 +251,10 @@ upgrade routes is available, residual confounding stays live, and the honest gra
 accordingly, and treat an unadjudicated protective arm as not established rather than as a target.
  -> [[Risk of Bias Assessment Tools]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The outcome is often a surrogate, and effects leak
 
 Much of the evidence a recommendation rests on does not measure the outcome a person cares about. It
@@ -251,11 +300,28 @@ from the realized one, because the organism compensates -- the *net* effect acro
 usually smaller than the mechanism implies and occasionally the opposite sign.
 -> [[Net Effect vs Intended Effect]]
 
+A certainty grade also speaks only to the question it was graded on. An umbrella review of
+cardiorespiratory fitness started its cohort evidence at *high* certainty, citing GRADE's method for
+prognosis and judging trials not feasible
+[@lang2024crf]. That grade
+answers *does fitness predict the outcome?*, not *does raising it change the outcome?* The review then
+steps toward cause with a hedge, saying its results «may signal a causal relationship», and suggests a
+1-MET step in fitness «could be considered as a target for interventions»
+[@lang2024crf]. Nothing in its
+own evidence tests that step.
+
+A *moderate* reached by rating down from that high start and a *moderate* on an intervention
+question, where cohort evidence starts lower, are different objects under one label. Before borrowing
+a review's target language, check which question its grade answered.
+ -> [[Rating Certainty of Evidence]], [[Surrogate Outcomes]]
+
 The confidence lesson: a high **stated** certainty is often certainty about the marker, not the outcome
 -- the best-graded quantity is the surrogate, the patient-important outcome sits one to three levels
 lower. So discount confident surrogate-based advice toward the *outcome's* certainty, and treat a marker
 as a target only where its transmission is shown.
 -> [[The Certainty-Importance Inversion]], [[Indirectness of Evidence]], [[Surrogate Outcomes]]
+
+</div>
 
 ## The literature is filtered and noisy
 
@@ -344,6 +410,8 @@ doesn't work* -- the first leaves the question open under the expectancy test; t
 Collapsing them silently sorts every unstudied question into no-effect.
 -> [[The Insufficient-Evidence Statement]], [[Unproven vs Disproved (the Expectancy Test)]], [[What the Weight of Evidence Means (Four Rival Formalizations)]]
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The open loop, and what confidence it leaves
 
 The deepest ceiling is not any one of the limits above. It is that none of them can be checked
@@ -399,13 +467,20 @@ cannot fix a point optimum, but it can pin the frame around one:
 
 #### When to act ahead of proof, and when to wait
 
-Certainty and action are two dials, not one. How sure the effect is real and about this big, and how hard
-to act on it, do not track each other. GRADE was built to keep them apart, so strong evidence can pair
-with a weak recommendation and weak evidence can justify strong action when the benefit far outweighs the
-harm -> [[Certainty of Evidence vs Strength of Recommendation]]. Three things move the threshold to act,
-and the certainty grade is not one of them: how reversible the choice is, what it costs, and how big the
-lever is. A cheap, reversible change aimed at a large lever is worth making on a thinner direction than an
-expensive, irreversible one aimed at a marginal lever.
+Certainty and action are two dials, not one: how sure you are that the effect is real and about this
+big, and how hard to act on it. GRADE keeps them apart, as noted above. **Low certainty does
+not mean doing nothing.** GRADE asks panels to make recommendations even when confidence is low, and
+expects those recommendations to be weak [@grade]. A strong
+recommendation on low-certainty evidence is the rare exception. GRADE generally discourages it and
+names five situations where it may be warranted, cases where a panel would have little regret if later
+evidence proved it wrong [@grade].
+-> [[Certainty of Evidence vs Strength of Recommendation]]
+
+So certainty does shape how firmly to act, but it is what you hold up against the threshold, not what
+sets it. Three things move the threshold itself, and the certainty grade is not one of them: how
+reversible the choice is, what it costs, and how big the lever is. A cheap, reversible change aimed at
+a large lever is worth making on a thinner direction than an expensive, irreversible one aimed at a
+marginal lever.
 -> [[Acting on a Direction Without a Magnitude]], [[The Estimate-to-Action Gap]]
 
 Real bodies confirm the two dials are separable by issuing each one alone. EASD's 2023 diabetes guidance
@@ -442,7 +517,9 @@ class that may not transport, a curve with no locatable peak. Every number carri
 studied range or it does not carry a decision. And the disclaimer that outlasts all of it: this grades
 coherence and source-fidelity, never validity. A clean board is verifiability, not truth.
 
-<div class="recent-update" data-last-updated="2026-11-02">
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Caveats and boundaries
 
@@ -470,11 +547,11 @@ coherence and source-fidelity, never validity. A clean board is verifiability, n
 > | | |
 > |---|---|
 > | **Question** | 'What can and cannot be established about diet-health effects given the evidence base''s structural constraints (measurement error, unblindable whole-diet, observational dominance, surrogate outcomes, long latency, the open loop), and what does that imply for how confidently to recommend?' |
-> | **Evidence included** | 22 sources — 6 gold, 3 high, 1 moderate, 12 method |
+> | **Evidence included** | 26 sources — 10 gold, 3 high, 1 moderate, 12 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Dehghan (cohort, moderate). Their roles and limitations are described in the text. |
 > | **Method sources** | Willett; Cochrane; USPSTF; GRADE; Ioannidis; Heuer; Anderson; Fallis; Wikipedia; Cooper; Cartwright & Hardie; Schön. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-07 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Limits%20of%20Evidence.md) |
 
 </div>
 

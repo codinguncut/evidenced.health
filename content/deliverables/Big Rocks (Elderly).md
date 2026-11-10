@@ -27,10 +27,15 @@ sources:
   - Kim - Protein Body Composition After Weight Loss 2016
   - Turicchi - Weight Loss Rate Regain Meta-Regression 2019
   - Purcell - Rate of Weight Loss RCT 2014
+  - Purcell - Rate of Weight Loss RCT 2014 Appendix
   - Franz - Weight-Loss Outcomes 1-Year SR-MA 2007
   - Nong - Obesity Drugs Comparative Network Meta-Analysis 2026
+  - Eisa - Lean Mass Incretin Therapy Lifestyle 2026
+  - Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021
+  - Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix
   - EASL - MASLD Clinical Practice Guidelines 2024
   - Rahimi - BP Lowering by Age BPLTTC 2021
+  - Rahimi - BP Lowering by Age BPLTTC 2021 Appendix
   - Neal - SSaSS Salt Substitution Cardiovascular 2021
   - Lai - Salt Substitute Network Meta-Analysis 2026
   - Knowler - Diabetes Prevention Program DPP 2002
@@ -67,12 +72,10 @@ sources:
   - Feller - Thyroid Hormone Therapy Quality of Life 2018
 confidence: low
 created: 2026-08-05
-updated: 2026-11-03
+updated: 2026-11-06
 self_critiqued: 2026-11-03
 concrete_subject_audited: 2026-11-03
 ---
-<div class="recent-page" data-last-updated="2026-11-03"></div>
-
 > **Who this guide is for.** This guide is for an obese adult around 70 who still lives independently:
 > often with high blood pressure, prediabetes or diabetes, fatty liver, lower bone density and some loss
 > of muscle, and often on several medicines. It is not written for frail people or care-home residents;
@@ -405,6 +408,25 @@ conservative method for a substantial loss. That reading comes from between-stud
 pace. In the model without rate, each extra kg lost went with about 0.5 kg regained (0.25-0.74)
 [@turicchi2019regain].
 
+One randomised trial set a fast programme against a slow one, in adults with a BMI of 30-45 and no
+diabetes. A 12-week very-low-calorie diet got more starters to a 12.5% loss than a 36-week diet with one
+or two meal-replacement shakes a day (76 of 97 vs 53 of 103 by intention to treat, 78% vs 51%), and
+fewer dropped out (3% vs 18%). The arms also differed in diet form and in dietitian visits (6 vs 18),
+so the trial compared two programmes, not pace alone. On the fast diet one participant developed acute
+cholecystitis and had her gallbladder removed, an event rated probably related to the programme, and
+the authors say people losing weight rapidly need properly formulated supplements
+[@purcell2014rate]. One case cannot size the gallstone risk
+.
+
+Among people who reached the target and finished, **both arms had regained most of the weight by week
+144**: 70.5% vs 71.2% of it, 10.3 vs 10.4 kg, a difference of 0.09 kg (-2.8 to 2.6)
+[@purcell2014rate]. **That comparison covers only people who
+reached the target**: in them it rules out a large pace effect, not a small one, and no three-year
+weight is reported for everyone who started. The trial took ages 18-70 and reports no count
+over 65 [@purcell2014rateappx]; its arms averaged about
+50 years [@purcell2014rate]. **Whether the result
+holds around 70 is an assumption** -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+
 In Franz's review, a reduced-energy diet and/or weight-loss drugs took off a mean 5-8.5 kg by six
 months, then levelled off. **Trials running to 48 months kept 3-6 kg off**, in younger adults
 [@franz2007] ->
@@ -428,6 +450,42 @@ the drugs cost more muscle than diet nor that they cost less**. Dieters regain t
 above). Neither mortality figure transfers unchanged to a lower-risk 70-year-old: diet's 0.82 comes
 from mostly middle-aged trials, and semaglutide's 0.81 from people at high cardiovascular risk
  -> [[Comparing Obesity Drugs]], [[GLP-1 and Lean Mass]].
+
+**None of the held drug trials can be identified as measuring lean mass in older people.** The one
+pooled drug-versus-lifestyle comparison, Eisa's 20 trials, sets separate groups of trials against each
+other without adjusting for amount lost. In it, 29.8% of the weight lost was lean on incretin drugs and
+26.2% on lifestyle programmes (p = 0.42) [@eisa2026lean].
+
+The authors read the share as comparable, a consequence of weight loss rather than of the drug
+[@eisa2026lean]. Their two intervals imply a
+difference of about 3.6 points (about -0.4 to +7.6, p about 0.08, not 0.42), and the semaglutide-only
+readings conflict, so this guide reads the comparison as insufficient evidence, not as equal muscle
+cost. Its 65-and-over subgroup (4 trials, 28.5% against 26.2% under 65, p 0.28) has no drug
+trial identifiable as older adults
+[@eisa2026lean] ->
+[[GLP-1 and Lean Mass]].
+
+S-LiTE randomised liraglutide, exercise and both within one trial, but only to keep weight off after
+a diet, in adults aged 18-65. In that group, adding exercise to the drug cut body fat by a further 1.9
+percentage points (-3.3 to -0.5), a pre-specified secondary result on a surrogate
+[@lundgren2021healthy]
+[@lundgren2021healthyappx].
+
+Against placebo, fitness rose 5.2 mL/min/kg on the pairing (3.2 to 7.2) and 1.6 on the drug alone
+(-0.5 to 3.6); the trial printed no pairing-against-drug fitness test
+[@lundgren2021healthyappx].
+Fitness per kilogram also rises with weight lost, and lean mass gave no reason against the pairing
+ -> [[GLP-1 and Lean Mass]].
+
+The pairing had its own untested harm: exercise-related
+injuries affected 5 of 49 on it against none of 49 on the drug alone, and all accidents and injuries
+13 against 3
+[@lundgren2021healthyappx].
+The exercise was mostly aerobic, with no progressive resistance-training arm,
+and the authors say their results may not generalise to people over 65
+[@lundgren2021healthy]. **At 70 the
+pairing to use stays the resistance training and protein floor above; S-LiTE's direction is
+transported, not tested**.
 
 For fatty liver, EASL ties **7-10% sustained loss to less liver inflammation and 10% or more to less
 fibrosis**, largely on one histology trial with no age-specific data
@@ -453,10 +511,35 @@ largest in the oldest groups. At 85 and over the estimate is 0.99 (0.87-1.12), f
 over a median 2.8 years [@rahimi2021bpage]. **On its own,
 that band gives insufficient evidence, not evidence of no benefit**.
 
+For someone aged 85 or over, this guide carries the same 0.91 forward as a working default, held with
+wider uncertainty: the effect per 5 mmHg is 0.91 in every band from 55 to 84, and the 85+ band's
+own estimate fits it without confirming it -> [[Blood Pressure Lowering and Cardiovascular Events]].
+Split by trial type, the 85+ estimates for major cardiovascular events point both ways: 1.07
+(0.89-1.29) in placebo-controlled trials, 0.76 (0.45-1.28) in trials of more against less intensive
+lowering, and 0.93 (0.78-1.11) where two drug classes were compared. Unlike the 0.91, these are not
+scaled to a 5 mmHg fall [@rahimi2021bpageappx].
+Every interval spans 1, so none of the three shows benefit or its absence; the placebo figure stays
+an unresolved counter-signal.
+
+HYVET, the one large trial of people aged 80 and over, supplies about a fifth of the band's 4788
+people. Its 80-84-year-olds sit in the 75-84 band, so its own result is not an 85+ result
+[@rahimi2021bpage]
+[@rahimi2021bpageappx] ->
+[[Blood Pressure Lowering and Cardiovascular Events]].
+
+The pooled analysis does not report falls or fainting by age [searched: falls / syncope
+across the paper's chunks 01-02 and the appendix; syncope appears only in exclusion criteria]. The
+authors know of no randomised comparison suggesting that a fixed blood-pressure reduction does older
+people more harm than good, and in a SPRINT subgroup analysis the total serious adverse event rates
+were similar in the two groups. **For someone already on a well-tolerated drug, they advise
+continuing while preventing cardiovascular events still matters** [@rahimi2021bpage].
+
 The trials under-represented people who are frail, multimorbid, on many medicines or living in
 institutions, and the authors call the reach to them uncertain
-[@rahimi2021bpage]. **A frail person and a clinician weigh
-starting treatment as an individual trade-off** [[Frailty]]. Absolute-risk bands are on
+[@rahimi2021bpage]. No trial's listed entry criteria name
+frailty; several exclude dementia or limited survival
+[@rahimi2021bpageappx]. **A frail person
+and a clinician weigh starting treatment as an individual trade-off** [[Frailty]]. Absolute-risk bands are on
 [[SCORE2 Baseline Risk and the ESC Treatment Thresholds]]; SPRINT's harms are on
 [[Blood Pressure Lowering and Cardiovascular Events]].
 
@@ -675,19 +758,11 @@ curve gives no reason to start or keep drinking for health** ->
 - Weight loss at \~70 with muscle defended: outside knee osteoarthritis, the trials in this guide's
   evidence measure lean mass, not function, and none measures falls or fractures
   -> [[Resistance Training During Caloric Restriction]].
-- Pace of weight loss at this age: one randomised trial enrolled adults aged 18-70 with a BMI of 30-45,
-  excluding people with diabetes. A 12-week very-low-calorie diet got more people to the loss target
-  than a 36-week diet that included one or two meal-replacement shakes a day (76 of 97 vs 53 of 103 who
-  started the diet, by intention to treat). The arms also differed in dietitian visits (6 vs 18), so the
-  trial compared two programmes, not pace alone. Among those who reached the target and finished, «At the end of phase 2, both
-  gradual weight loss and rapid weight loss participants who completed the study (n=43 in gradual weight
-  loss and n=61 in rapid weight loss) had regained most of their lost weight (gradual weight loss 71·2%
-  regain, 95% CI 58·1–84·3 vs rapid weight loss 70·5%, 57·8–83·2).»
-  [@purcell2014rate]. That comparison covers only people who
-  reached the target, and whether it holds around 70 is an assumption
-  -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
-- Older-age cardiovascular trials (HYVET, PROSPER, SCORE2-OP) and ATEMPT in frail people are not among
-  this guide's sources -> [[Blood Pressure Lowering and Cardiovascular Events]].
+- Pace of weight loss around 70: the one pace trial, described above, reports no count over 65
+ -> [[Weight-Loss Maintenance and Metabolic Adaptation]].
+- HYVET is not held as its own paper, but its data sit inside the pooled blood-pressure age estimates
+  above, so it is not a separate check. PROSPER, SCORE2-OP and ATEMPT in frail people are
+  not among this guide's sources -> [[Blood Pressure Lowering and Cardiovascular Events]].
 - Deprescribing and polypharmacy: not covered by this guide's evidence, and outside its scope.
 - Falls exercise above about 3 hours a week -> [[Exercise for Preventing Falls in Older Adults]]; the
   RT dose for frail people -> [[Frailty]].
@@ -710,7 +785,8 @@ with *If* applies only to that group.
    [[Exercise for Preventing Falls in Older Adults]]
 2. **If blood pressure is raised, lower it; discuss treatment.** 5 mmHg lower systolic cut major
    cardiovascular events, 0.91 (0.88-0.95) at 65-74 and 0.91 (0.87-0.96) at 75-84; 85+ is insufficient
-   evidence. Dementia OR 0.87 (0.75-0.99) after a fall of about 10/4 mmHg. With frailty, a clinician
+   evidence, with the same effect as the working default and the authors advising continuing a
+   well-tolerated drug. Dementia OR 0.87 (0.75-0.99) after a fall of about 10/4 mmHg. With frailty, a clinician
    trade-off.
    [[Blood Pressure Lowering and Cardiovascular Events]]
 3. **Do resistance training twice a week, start at low volume, progress, add power work.** Timed
@@ -770,9 +846,9 @@ The last two lines cover drug choices and what not to expect.
 > | | |
 > |---|---|
 > | **Question** | 'For an obese older adult (\~70, sarcopenic obesity, hypertension/dysglycemia/MASLD common, reduced BMD, polypharmacy), which modifiable exposures carry the largest expected effect on the patient-important outcomes that matter at this age ranked by effect x certainty, where does the remaining marginal return flatten, and where (if anywhere) does a lever that helps a younger adult change sign for this stratum?' |
-> | **Evidence included** | 61 sources — 35 gold, 25 high, 1 moderate |
+> | **Evidence included** | 67 sources — 37 gold, 29 high, 1 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
+> | **Last updated** | 2026-11-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Big%20Rocks%20(Elderly).md) |
 
 ## References

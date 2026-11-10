@@ -74,8 +74,6 @@ high-risk/institutionalized (older, often vitamin-D-deficient, low dietary calci
 little-to-nothing in the community-dwelling replete (the enhancement arm)
 -> [[Deficiency Repletion vs Enhancement]].
 
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## Yao vs Kahwati is a DISTINCTION, not a tension — the population differs, not the finding
 
 Yao (D+Ca reduces hip fracture) sits beside the held Kahwati 2018 (USPSTF SR: D+Ca does **not** reduce
@@ -107,8 +105,6 @@ dominates both Yao's and Kahwati's D+Ca pools (Porthouse 2005 is also shared), s
 no `[E-independent]` is claimed [inferred from @yao2019; @kahwati2018]. The two arms
 are now both anchored — enhancement-null (Kahwati/VITAL, direct) and high-risk benefit (Yao, direct)
 -> [[Deficiency Repletion vs Enhancement]].
-
-</div>
 
 ## The net-effect ledger — the fracture benefit must be netted against CV + stone harm
 

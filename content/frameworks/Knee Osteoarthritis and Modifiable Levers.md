@@ -122,8 +122,6 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   moves the fitness/strength mediators broadly; Messier shows the pain/function payoff in knee OA when
   paired with weight loss.
 
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## Cross-links and mechanism
 
 - **The inflammation channel.** IDEA's IL-6 reduction with weight loss is the same lever the wiki holds
@@ -135,8 +133,6 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
 - **Protect muscle while losing weight.** IDEA's weight loss cost lean mass (\~4.2-4.7 kg), which in
   older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
   with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
-
-</div>
 
 ## Limits — the open loop
 

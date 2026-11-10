@@ -36,7 +36,12 @@ sources: [BPLTTC - Blood Pressure Lowering Primary and Secondary Prevention 2021
   Vermeiren - Frailty Prediction Negative Health Outcomes Meta-Analysis 2016, SCORE2-Diabetes 2023,
   Schwingshackl - Food Groups Hypertension Meta-Analysis 2017,
   SPRINT - Intensive vs Standard Blood Pressure 2015, Peters - Blood Pressure Lowering Dementia 2022,
-  Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Livingston - Dementia Prevention 2024]
+  Moll van Charante - preDIVA Multidomain Dementia Prevention 2016, Livingston - Dementia Prevention 2024,
+  Rahimi - BP Lowering by Age BPLTTC 2021 Appendix, Edwards - Exercise Training Resting Blood Pressure NMA 2023,
+  Edwards - Exercise Training Resting Blood Pressure NMA 2023 Appendix,
+  Pagonas - Aerobic vs Isometric Handgrip Hypertension RCT 2017,
+  Goessler - Isometric Handgrip vs Endurance Training RCT 2018, Carlson - Isometric Handgrip Training RCT 2016,
+  Jensen - AHA ACC TOS Obesity Guideline 2014]
 authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Lonn, Eva M;
   GBD 2019 Risk Factors Collaborators (org); Neal, Bruce; Lai, Honghao; Roerecke, Michael; Naci, Huseyin;
   Landry, Matthew J; Geiger, C; Look AHEAD Research Group (org); Siervo, Mario; Aburto, Nancy J;
@@ -48,11 +53,12 @@ authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Lonn,
   Chen, Qiongshan; Sutton, Elizabeth F; Liu, Deying; Yu, Jie; Poole, Robin; Reynolds, Andrew N; Wang, Dominic;
   Sundström, Johan; Schünemann, Holger; Rahimi, Kazem; European Society of Cardiology (org); Vermeiren, Sofie;
   SCORE2-Diabetes Working Group and ESC Cardiovascular Risk Collaboration (org); Schwingshackl, Lukas;
-  SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Livingston, Gill]
+  SPRINT Research Group (org); Peters, Ruth; Moll van Charante, Eric P; Livingston, Gill; Edwards, Jamie J.;
+  Pagonas, Nikolaos; Goessler, Karla Fabiana; Carlson, D J; Jensen, Michael D]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-28
-self_critiqued: 2026-10-28
+updated: 2026-11-10
+self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-28
 ---
 
@@ -130,6 +136,8 @@ This guide is for an adult whose blood pressure is raised or drifting upward. It
 diagnosis, choosing a drug or setting a dose. The person, not this guide, decides how to weigh a longer life, a lower dementia risk and a drug's side
 effects against each other. Everything that follows rests
 on one measured slope from the drug trials, so start there.
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## A drug-induced fall of 5 mmHg cuts major CV events by about a tenth, at every starting pressure studied (below 120 to 170+ mmHg)
 
@@ -214,7 +222,7 @@ not credited.
 | BP drugs | -8.80 vs control, trials starting above 150 (drug comparison) | not graded in the pools this guide uses | measured | 48 RCTs, primary and secondary prevention; low-risk grade 1 only by extrapolation |
 | Salt substitute (potassium chloride) | -3.34 (SSaSS); -4.64 (Lai, 25-40% KCl) (diet and salt) | moderate (Lai) | measured, joint Na+K | Chinese trials, mainly the Salt Substitute and Stroke Study (SSaSS: high risk, most with prior stroke); no non-Chinese mortality data |
 | Alcohol reduction, heavier drinkers | -5.50 at 6+ drinks a day; -0.18, not significant, at 2 or fewer (exercise, weight and alcohol) | high (dose-response) | modelled | risk-model projection for the UK; no event trial |
-| Weight loss, lifestyle | about -5 at 6 months, mostly gone by 12; DiRECT -3.43 at 2 years (exercise, weight and alcohol) | moderate to low (Ge) | measured | Look AHEAD (type 2 diabetes) and Ma's 24-trial CV-event pool, about 82% Look AHEAD: no significant reduction; fewer deaths from any cause in Ma; not shown to come through CV events |
+| Weight loss, lifestyle | about -5 vs usual diet at 6 months, mostly gone by 12 as weight returns (Ge); about -3 at a 5% loss, more with larger losses, no stated comparator (US obesity guideline); DiRECT -3.43 at 2 years (exercise, weight and alcohol) | moderate to low (Ge); the guideline's own scale rates its figure high, no interval | measured | Look AHEAD (type 2 diabetes) and Ma's 24-trial CV-event pool, about 82% Look AHEAD: no significant reduction; fewer deaths from any cause in Ma; not shown to come through CV events |
 | Weight loss, semaglutide | -5.10 (STEP-1, no diabetes); -3.31 (SELECT, established CVD) (exercise, weight and alcohol) | placebo-controlled trials, not graded here | measured, established CVD only | SELECT HR 0.80; early benefit, mechanism speculative; BP fall explains only a small part at the drug slope; gains revert on stopping |
 | Sodium reduction | -3.39; -5.39 in hypertension (diet and salt) | high (WHO) | assumed | direct hard outcomes mostly very low certainty (cohorts); one 2-RCT CVD estimate moderate |
 | Potassium | -3.49; -5.32 in hypertension, -0.09 (not significant) without (diet and salt) | high | assumed | cohorts only; stroke the one significant endpoint |
@@ -237,6 +245,8 @@ Table sources: the sections on each option in [[Blood Pressure Lowering and Card
 Weight loss from
 [[Does Weight Loss Reduce Cardiovascular Events]]
 [@look2013]
+[@jensen2014obesity]
+[@jensen2014obesity]
 [@ma2017]
 [@lincoff2023]
 [@wilding2021]
@@ -250,6 +260,10 @@ For sodium, WHO
 rates the BP effect high certainty and most direct hard outcomes very low, so WHO is surest about the
 marker, not the outcome ([[The Certainty-Importance Inversion]])
 [@who2012].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Exercise, weight loss and cutting heavy drinking each lower SBP a few mmHg, but no trial shows that fall cutting CV events
 
@@ -272,17 +286,81 @@ These trials are weaker than the drug trials they are usually set beside. Of 20 
 was [@naci2019exercise]. **Participants cannot be blinded to exercise, so performance bias is built into this evidence**; blinded
 outcome assessment could reduce detection bias.
 
-**The type of exercise matters little, except that combining endurance and resistance training does
-best.** Endurance, dynamic resistance and isometric training lowered SBP by similar amounts; the
-combination beat dynamic resistance alone by -2.98 mmHg (-5.04 to -0.93)
-[@naci2019exercise]. In the trials starting at
-140 or above it beat every single type and reached -13.51 mmHg (-16.55 to -10.45) against control
+#### Combined training leads for hypertension; the single-type order is unsettled
+
+**For people with hypertension, combined endurance and resistance training comes first, though its lead
+over isometric training is uncertain in size.** In Naci's trials starting at 140 or above, the
+combination beat every single type and reached -13.51 mmHg (-16.55 to -10.45) against control
+[@naci2019exercise].
+Edwards' later exercise-only network (270 RCTs) built no separate network for hypertensive trials. Its
+hypertension stratum, separate estimates against control rather than head-to-head contrasts, also puts
+the combination on top: 11.14 mmHg (4.3 to 18.0) against 9.22 (4.9 to 13.5) for isometric training
+[@edwards2023exercise].
+The intervals overlap, so the combination leads in direction only.
+
+**Pooled across all populations, Edwards puts isometric training ahead of the other single types, on
+indirect evidence alone.** Isometric work (handgrip, wall squat, leg extension) lowered SBP 3.86 mmHg
+more than aerobic training (1.19 to 6.54), 3.68 more than dynamic resistance (0.71 to 6.66) and 3.95
+more than HIIT (0.93 to 7.03). It did not separate from combined training (2.31, -0.77 to 5.42), and
+Naci's edge for combined over dynamic resistance (-2.98, -5.04 to -0.93) does not reappear (1.37, -1 to
+3.72) [@edwards2023exercise]
 [@naci2019exercise].
 
-Few trials tested the combination, and they did not consistently report how often or how long people
-trained [@naci2019exercise], so the edge may reflect
-more total training rather than the mix itself. For a person with hypertension who can do both, the trials favour combined training. Among single types, pick the one the
-person will keep doing. -> [[Is the Exercise Modality Doing Any Work]]
+No trial in Edwards' network set isometric training against another mode, Edwards did not grade
+certainty, and no mode separates on DBP [@edwards2023exercise]. The
+isometric trials ran a median of 8 weeks, and only one ran past 12. A duration moderator came out null,
+but on trials that short it cannot show whether the effect lasts past about three months
+[@edwards2023exerciseappx]
+. In hypertensive trials the single-type order is unsettled: **on point estimates Naci ranks
+isometric training last among the single types, and Edwards' hypertension stratum ranks it first**,
+from different quantities (a network contrast against separate estimates, with overlapping intervals)
+.
+
+**The two small trials that set handgrip directly against aerobic training fail to confirm the
+isometric lead, without refuting it.** In Pagonas' 75 people with hypertension, 76% on BP drugs, 12
+weeks of handgrip did no better than a 5%-effort sham grip on 24-hour SBP (handgrip minus sham about
++2.7 mmHg, -2.0 to 7.3). That is an unadjusted per-protocol contrast, tilted toward the sham by its
+higher start, so the -2.0 bound may understate how much handgrip could lower SBP. Unsupervised aerobic training did not separate from the sham
+either (aerobic minus sham about -3.8, -8.7 to 1.1), and the gap by which handgrip trailed aerobic
+training crosses zero once corrected for three comparisons
+[@pagonas2017aerobic]
+.
+
+In Goessler's 60 adults with normal or high-normal BP, 8 weeks of the two modes did not differ. Handgrip's
+office SBP estimate was ahead (-5.5 vs -3.9 mmHg within arm), but only aerobic training lowered daytime
+ambulatory SBP against control
+[@goessler2018randomized].
+A third trial, Carlson's 40 people (65% on BP drugs) assigned handgrip at 30% or 5% of maximal effort,
+found no significant difference on an interval too wide to bound one
+[@carlson2016handgrip]. Neither Pagonas nor Carlson
+tested the 5% grip against no exercise, so neither sizes handgrip against the no-exercise controls behind
+Edwards' estimates.
+
+**These labelled defaults split by starting pressure and by whether you take BP drugs, but the split
+comes from between-trial strata, not a tested difference in response**
+ -> [[Is the Exercise Modality Doing Any Work]]:
+
+- **Office SBP 140 or above:** combined training first; then aerobic or dynamic resistance training;
+  isometric training as a fallback for the time-poor.
+- **On BP drugs, treated office SBP below 140:** aerobic or dynamic resistance training. Isometric
+  training meets the Pagonas null in a mostly medicated group near this range, and Carlson's
+  population (65% medicated) sits closest to it, with an unbounded result. Below 130 the same default
+  applies with smaller expected drops; no held trial speaks to it directly.
+- **No BP drugs, normal BP or prehypertension:** isometric training first for resting office SBP only,
+  with the Pagonas null beside it; aerobic training where ambulatory BP or fitness is the aim.
+  Goessler's authors keep aerobic training first, with handgrip as a tool for people such as older
+  or comorbid adults, for whom aerobic training is less feasible
+  [@goessler2018randomized].
+
+A usual isometric protocol is four 2-minute contractions with 1-4 minutes' rest, three times a week,
+handgrip at 30% of maximal effort
+[@edwards2023exercise]. **Isometric
+training is a BP lever only: it does not replace aerobic or resistance training**, which also build
+fitness and strength and lower mortality through other channels. Few trials tested the
+combination, and they did not consistently report how often or how long people trained
+[@naci2019exercise], so its edge may reflect more total
+training rather than the mix itself. Within any route, pick the type the person will keep
+doing -> [[Is the Exercise Modality Doing Any Work]].
 
 No trial has tested exercise head to head against a BP drug; the drug comparison below takes up how the
 two compare. [inferred from @naci2019exercise] ->
@@ -337,20 +415,36 @@ drug on day one. At 12 months the weight difference against controls was -8.8 kg
 and 68% were still off antihypertensives with no rise in mean BP
 [@lean2018]. At 24 months
 their SBP was 3.43 mmHg lower than controls', with fewer on antihypertensives (47.3% vs 60.1%)
-[@lean2019]. **None of the weight-loss trials here reports
-how much BP falls per kilogram lost**, so there is no dose figure to plan with; the gaps section returns to this.
- -> [[Total Diet Replacement and Type 2 Diabetes Remission]]
+[@lean2019]. None of the weight-loss trials here reports how much BP
+falls per kilogram lost -> [[Total Diet Replacement and Type 2 Diabetes Remission]].
+
+**For weight loss, the 2013 US obesity guideline (AHA/ACC/TOS) gives the one graded dose figure this
+guide holds: a 5% weight loss comes with SBP about 3 mmHg lower and DBP about 2 lower.** It covers
+overweight or obese adults at raised cardiovascular risk, including people with type 2 diabetes or
+hypertension, on lifestyle programmes with or without orlistat. The more weight people had lost, at
+follow-ups of up to 3 years, the more BP fell; below 5% the falls were smaller and less consistent. The
+panel graded this high on its own three-level scale (high, moderate, low)
+[@jensen2014obesity]
+[@jensen2014obesity].
+
+The figure is a weighted mean with no interval and no stated comparator. It relates the amount of
+weight lost to the BP fall, so it is not a randomised difference between groups. It was built from
+reviews published up to October 2011, with Look AHEAD papers added as a supplement
+[@jensen2014obesity]. It is a BP figure only: none of the
+guideline's graded statements says whether losing weight cuts heart attacks or strokes. It fits Ge's
+result, where BP rose again as the weight came back ->
+[[Does Weight Loss Reduce Cardiovascular Events]].
 
 **The largest lifestyle weight-loss trial found no fall in cardiovascular events.** Look AHEAD
 randomised 5,145 overweight or obese adults with type 2 diabetes to an intensive lifestyle programme or
 diabetes education. The programme improved fitness and every cardiovascular risk factor except LDL, at least initially.
-Yet over a median 9.6 years the primary event rate was 18.3 vs 19.2 per 1000 person-years (HR 0.95, 0.83 to 1.09),
+Yet over a median 9.6 years the primary event rate was 1.83 vs 1.92 per 100 person-years (HR 0.95, 0.83 to 1.09),
 and the trial stopped early for futility.
 [@look2013]
 
 That interval still allows a reduction of up to about a sixth. The trial also tested a small dose: the
-weight gap between arms shrank from 7.9 percentage points at one year to 2.5 at the end (6.0% vs 3.5% of
-body weight) [@look2013], against a
+weight loss in the two arms went from 8.6% vs 0.7% of body weight at one year to 6.0% vs 3.5% at the
+end [@look2013], against a
 diabetes support-and-education control. Ma's review of 54 RCTs in adults with obesity pooled CV events
 from 24 of them (15,176 people): RR 0.93 (0.83 to 1.04). But Look AHEAD carries about 82% of that pool's weight, so the pool largely restates the same trial rather than confirming it
 [@ma2017]. So the BP fall from weight loss is real, but no trial has shown that lifestyle weight loss cuts CV
@@ -408,6 +502,8 @@ For a light drinker, the stronger reasons to cut lie outside BP, in alcohol's ca
 -> [[Alcohol and Mortality and Vascular Disease]]
 
 What people eat moves BP too, by similar amounts.
+
+</div>
 
 ## Diet pattern and salt each lower BP a few mmHg; together they lower it by less than the sum
 
@@ -711,6 +807,8 @@ confirmation [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
 The next question is how these lifestyle effects rank against a drug, and the answer changes with
 risk.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Against a BP drug, lifestyle changes rank by a person's risk, and at low-to-intermediate risk neither prevents many events through BP
 
 For most people the realistic alternative to a lifestyle change is a BP drug. This section compares the
@@ -890,11 +988,12 @@ the placebo arm had CV death, MI or stroke at 0.8% a year
 
 The drug did not significantly cut that composite: HR 0.93 (0.79-1.10). Stroke was 0.80 (0.59-1.08),
 death from any cause 0.98 (0.84-1.14) and new diabetes 1.07 (0.89-1.29)
-[@lonn2016hope3]. **The trial's result is insufficient evidence, not proof of no effect.** BPLTTC's 0.91 per 5 mmHg, scaled to 6.0 mmHg, predicts about 0.89, inside the interval; at the
-4.4% placebo risk that is about 5 fewer events per 1000 over 5.6 years. Wang's review describes HOPE-3 as
+[@lonn2016hope3]. **The trial's result is insufficient evidence, not proof of no effect.** BPLTTC's 0.91 per 5 mmHg
+[@rahimi2021bpage], scaled to 6.0 mmHg, predicts about 0.89, inside the interval; at the
+4.4% placebo risk that is about 5 fewer events per 1000 over 5.6 years
+[inferred from @lonn2016hope3]. Wang's review describes HOPE-3 as
 having demonstrated no benefit, which states it more firmly than the trial report does
-[@wang2025mildhtn]
-[inferred from @lonn2016hope3].
+[@wang2025mildhtn].
 
 Total permanent discontinuation did not differ between arms (24.4% vs 25.2%). More people stopped the drug
 for symptomatic hypotension, dizziness or light-headedness, 3.4% vs 2.0%; for renal or potassium problems the trial detected no excess (0.5% vs 0.3%)
@@ -959,6 +1058,8 @@ lifetime-benefit view in the risk section is a separate question and can point t
 [[Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People]].
 
 A person's absolute risk sets this ranking; the next section covers what raises or lowers that risk.
+
+</div>
 
 ## A millimetre of mercury is worth more at higher baseline risk, and age drives most of that risk
 
@@ -1063,18 +1164,59 @@ default may understate the benefit, which is why the drug comparison above gives
 people. That band is not primary prevention either: 30.8% had ischaemic heart disease at entry
 [@rahimi2021bpage].
 
-**At 85 and over, the trials cannot settle whether the benefit holds.** The band accrued about 1000 major CV events over a
-median 2.8 years [@rahimi2021bpage]. The interval around its 0.99 runs from 0.87, a larger benefit than in the middle bands, to 1.12, a possible harm: compatible with the same
-benefit, a smaller one or none. That is insufficient evidence, not evidence of no benefit. This guide keeps about 0.91 as its working default, with wider uncertainty, so starting a drug is
-reasonable to consider, though less firmly than at 55-84 [[Blood Pressure Lowering and Cardiovascular Events]].
+**At 85 and over, the trials cannot settle whether the benefit holds.** The band's 4,788 people come
+from 27 trials, and the appendix gives no trial-level estimate within it
+[@rahimi2021bpageappx]
+[inferred from @rahimi2021bpageappx].
+The band accrued about 1000 major CV events over a median 2.8 years
+[@rahimi2021bpage]. The interval around its
+0.99 runs from 0.87, a larger benefit than in the middle bands, to 1.12, a possible harm: compatible
+with the same benefit, a smaller one or none. That is insufficient evidence: it shows neither that the benefit is
+absent nor that treatment is safe at that age.
+
+**Split by trial design, the placebo-controlled trials point the other way.** Counted per trial
+contrast rather than per 5 mmHg, the 85+ estimates for major CV events are 1.07 (0.89-1.29) in
+placebo-controlled trials, 0.76 (0.45-1.28) in trials of a more intensive target and 0.93 (0.78-1.11)
+in drug-versus-drug trials. The adjusted test for an age interaction in the placebo-controlled trials
+gives p 0.15
+[@rahimi2021bpageappx].
+
+HYVET, the one large trial that recruited only people aged 80 and over
+[@rahimi2021bpage], supplies about half of
+the placebo-controlled participants aged 85 or more; the appendix does not say what share of the events
+it contributes. Nearly three-quarters of HYVET's participants were aged 80-84 and sit in the 75-84
+band, so HYVET's headline result is not an 85+ result
+[@rahimi2021bpageappx].
+SPRINT supplies nearly all of the intensity trials' 85+ participants (394 of 404 in Table S2). The
+drug-versus-drug trials compared two drugs at nearly the same pressure, so their cell says little about
+lowering BP itself
+[inferred from @rahimi2021bpageappx].
+
+**For a trial-eligible person at 85 or over, this guide keeps about 0.91 as its working default, with
+wider uncertainty, and holds the placebo-controlled 1.07 beside it as an unresolved counter-signal.**
+Neither the band's own estimate nor the design cells confirm or overturn the default. So starting a
+drug is reasonable to consider, though less firmly than at 55-84
+[[Blood Pressure Lowering and Cardiovascular Events]]. For someone already on a drug, the
+authors advise continuing it if it is well tolerated and preventing cardiovascular events still
+matters (quoted in the frailty section below)
+[@rahimi2021bpage].
 
 **In the oldest band, deaths from any cause and harms also stay unresolved.** For all-cause death the
 authors found no obvious effect above 75, and they note that more competing non-cardiovascular deaths
-dilute a proportional effect. They read the lack of excess deaths as suggesting that fatal harm from treatment is unlikely at any age. Falls, syncope
-and tolerability are not pooled by age
-[@rahimi2021bpage]. The authors add that, to their
-knowledge, no randomised comparison suggests a fixed BP reduction does more harm than good in older people
+dilute a proportional effect. They read the lack of excess deaths as suggesting that fatal harm from
+treatment is unlikely at any age. Falls, syncope and tolerability are not pooled by age; the authors
+add that, to their knowledge, no randomised comparison suggests a fixed BP reduction does more harm
+than good in older people
 [@rahimi2021bpage].
+
+Split by design and counted per trial contrast, as for major CV events, all-cause death at 85 and
+over is 1.09 (0.93-1.29) in placebo-controlled trials, 0.72 (0.44-1.17) in intensity trials and 0.97
+(0.84-1.12) in drug-versus-drug trials. CV death is 1.15 (0.90-1.46), 0.76 (0.33-1.76) and 1.00
+(0.80-1.26) in the same three designs
+[@rahimi2021bpageappx]. The placebo-controlled
+cells lean above 1 and the intensity cells below, every interval spanning 1, so at 85 and over these
+cells neither confirm the authors' all-ages reading nor show a fatal harm: insufficient evidence either
+way.
 
 ### Frail people were largely left out of the trials
 
@@ -1084,7 +1226,13 @@ the odds of falls of robust ones (OR 1.70, 1.18-2.44)
 [@vermeiren2016frailty]. The BPLTTC
 authors state that people with heavy multimorbidity and polypharmacy, frail people and care-home residents
 were under-represented, and that generalising to them remains uncertain
-[@rahimi2021bpage]. The pool reports no adverse-event
+[@rahimi2021bpage].
+
+**No trial's listed entry
+criteria name frailty**; several exclude conditions that overlap it, such as dementia or a limited
+expected survival
+[@rahimi2021bpageappx].
+The table records no frailty measure, so it cannot show how many frail people took part. The pool reports no adverse-event
 outcome, so whether drug harms are larger in frail people is as untested as whether the benefit carries over
 [[Frailty]].
 
@@ -1267,6 +1415,8 @@ monitoring (ABPM).
 
 Together, these estimates give a short action list for each group.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## What to do: make the large non-drug changes first, then decide on a drug by absolute risk
 
 **Almost everyone with raised or rising blood pressure should make the same non-drug changes. Whether
@@ -1283,17 +1433,21 @@ data allow [[Blood Pressure Lowering and Cardiovascular Events]].
 | Untreated grade 1, low risk | 3-6 month trial first | a reasonable choice either way | labelled default, not trial-tested |
 | Intermediate risk, no CVD, SBP \~130-145 | yes | decide on absolute risk | baseline-risk scaling; SBP gradient unconfirmed |
 | Grade 1 with diabetes | yes | closer to measured benefit | measured in a mostly diabetic pool |
-| 85 and over, trial-eligible | yes | reasonable to consider, less firmly | band's own estimate insufficient |
+| 85 and over, trial-eligible | yes | reasonable to consider, less firmly | band's own estimate insufficient; placebo-controlled cells lean against |
 | Frail, multimorbid, in care | as tolerated | starting: individual; continuing: if well tolerated | authors' default, extrapolated |
 | Normal BP, drifting up | yes | no | small BP gains; non-BP value |
 
 ### Cheap, low-harm swaps come first
 
 **Start with exercise, drinking less if you have more than two drinks a day, a DASH-style diet and less salt where intake is high; all four are cheap and low-harm.** Turn some inactive time into movement, and some of it
-into structured exercise: endurance, resistance or both, with the combination ahead in the BP trials (the exercise, weight and
-alcohol section has the sizes). Pick the type you will keep doing and are least likely to get hurt
-doing, because the BP differences between types are small and an abandoned plan buys nothing
-[[Is the Exercise Modality Doing Any Work]]. The BP trials in this guide give no dose to plan around.
+into structured exercise: endurance, resistance or both, with the combination ahead in the hypertensive trials, and isometric handgrip,
+beside aerobic training, for office pressure in people on no BP drugs with normal BP or prehypertension (the exercise, weight and
+alcohol section has the sizes and the route by starting pressure).
+
+Pick the type you will keep doing and are least likely to get hurt
+doing, because the held trials leave the order of the single types unsettled and an abandoned plan buys
+nothing [[Is the Exercise Modality Doing Any Work]]. Apart from the usual isometric protocol given in
+that section, the BP trials in this guide give no dose to plan around.
 
 For a starting dose, cohorts of adults aged 40 and over with activity measured by accelerometer found the
 largest mortality gain in the first step up from the least active, at every intensity. In separate analyses by
@@ -1325,7 +1479,10 @@ checking everyone in the household.** Do not use it if anyone who eats the food 
 potassium-sparing diuretic or a potassium supplement. If anyone in the household has diabetes or takes an
 ACE inhibitor or ARB, ask a clinician before switching.
 
-**Lose weight if you are overweight, for more than your BP.** Weight loss lowers BP, but the largest
+**Lose weight if you are overweight, for more than your BP.** In the US guideline's estimate a 5% loss
+comes with SBP about 3 mmHg lower, and larger losses with larger falls
+[@jensen2014obesity]. The fall fades if the weight comes
+back [@ge2020]. But the largest
 lifestyle weight-loss trial did not cut cardiovascular events. Pursue it for the outcomes it does move:
 fewer deaths from any cause in the pooled trials, glucose control, diabetes prevention and remission,
 fatty liver, function
@@ -1376,7 +1533,8 @@ measured, though its authors call the point estimates unreliable (figures in the
 already-treated person with diabetes, the question is adding a drug, not starting one
 [inferred from @sundstrom2015mildhtn; @wang2025mildhtn].
 
-**Aged 85 and over, trial-eligible: starting a drug is reasonable to consider, though less firmly than at 55-84.** The band's own estimate can neither confirm nor exclude the benefit. **Frail, multimorbid or
+**Aged 85 and over, trial-eligible: starting a drug is reasonable to consider, though less firmly than at 55-84.** The band's own estimate can neither confirm nor exclude the benefit, and the placebo-controlled
+trials lean the other way on events and deaths, on wide intervals. **Frail, multimorbid or
 living in care: starting is an individual trade-off.** The trials under-represented these people, and the
 age analysis pooled no harm outcomes. For someone already on a drug that suits them, the authors' default
 is to continue it while preventing cardiovascular events still matters
@@ -1405,7 +1563,9 @@ stroke avoided against a dementia risk, a side effect, a daily pill or a change 
 judgement** ([[Rating Outcome Importance]]). No figure here supplies it. Several of these answers stop where the evidence stops; the last
 section names where.
 
-<div class="recent-update" data-last-updated="2026-11-02">
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The trials leave questions open, and that limits how firm this guide can be
 
@@ -1421,10 +1581,14 @@ drinking each lower BP in trials, but no trial of them in this guide counts even
 An event-powered trial of any of these changes, or a salt-substitute trial reporting mortality outside
 China, would close it.
 
-**Weight loss per kilogram.** **This guide has no meta-analysis of how far SBP falls per kilogram lost**, only indirect figures from diet programmes, an obesity drug and a diabetes-remission diet
-([[Does Weight Loss Reduce Cardiovascular Events]], [[Named Diet Programs Compared]]). A dose-response
-meta-analysis of SBP change on weight change would let weight loss be sized like the other options
-.
+**Weight loss per kilogram.** **This guide holds one graded dose point, not a dose curve**: the US
+guideline's \~3/2 mmHg at a 5% loss, a weighted mean with no interval
+[@jensen2014obesity], from reviews up to 2011
+[@jensen2014obesity]. The rest are indirect figures from
+diet programmes, an obesity drug and a diabetes-remission diet
+([[Does Weight Loss Reduce Cardiovascular Events]], [[Named Diet Programs Compared]]). A current
+dose-response meta-analysis of SBP change on weight change, with intervals, would let weight loss be
+sized like the other options.
 
 **Exercise against a drug, head to head.** Naci's network meta-analysis placed exercise and BP drugs in
 one network, but **no trial randomised people between them**; every comparison is indirect
@@ -1497,11 +1661,11 @@ cognitive trajectories beside events would close it.
 > | | |
 > |---|---|
 > | **Question** | 'For an adult with elevated blood pressure or drifting toward it: what is the effect of each modifiable exposure (diet, weight, activity, alcohol, specific nutrients, stress, and drug therapy as the realistic alternative) on blood pressure and on downstream patient-important cardiovascular outcomes, how large and how certain is each, does a given blood-pressure change transmit to those outcomes, and how do the levers rank for a stratum?' |
-> | **Evidence included** | 58 sources — 36 gold, 20 high, 1 weak, 1 method |
+> | **Evidence included** | 65 sources — 39 gold, 21 high, 3 moderate, 1 weak, 1 method |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
-> | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Sutton (RCT, weak). Their roles and limitations are described in the text. |
+> | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Sutton (RCT, weak); Pagonas (RCT, moderate); Goessler (RCT, moderate); Carlson (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Method sources** | GRADE. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
 
 </div>
 

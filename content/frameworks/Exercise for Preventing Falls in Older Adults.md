@@ -224,8 +224,6 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
 
-<div class="recent-update" data-last-updated="2026-11-03">
-
 ## Who, and how much — the stratification
 
 - **Route (a), stated by the source:** the *relative* effect does not vary by baseline fall-risk, age
@@ -303,8 +301,6 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
     Cochrane search ended in November 2015, so the 2019 Sherrington review is not in its pool, but trials from earlier editions of that Cochrane
     series probably are; the two are therefore not independent confirmation.
     [inferred from @niemeijer2020]
-
-</div>
 
 ## Dose and programme design — the between-trial meta-regression (Sherrington 2017)
 

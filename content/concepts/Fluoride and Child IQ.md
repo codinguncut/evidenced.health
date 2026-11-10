@@ -7,7 +7,7 @@ sources: [NTP - Fluoride Neurodevelopment Monograph 2024, Taylor - Fluoride Chil
 cluster: fluoride
 confidence: low
 created: 2026-08-14
-updated: 2026-09-03
+updated: 2026-11-10
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -79,6 +79,8 @@ safe threshold — and the within-study non-linearity is inconsistent (see Yu 20
     published table SHARPENS the «direction consistent <1.5» summary above, which turns out to be
     **exposure-matrix-dependent** at low dose.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## Taylor 2025: the published dose-response, and the low-dose exposure-matrix split
 
 The peer-reviewed MA bounds and operationalizes what NTP stated qualitatively (type-F refinement). Two
@@ -141,6 +143,8 @@ fluoride) ... a 5-point decrease in a population's IQ would nearly double the nu
 as intellectually disabled» [@taylor2025fluoride] — the
 [[Baseline Risk and the Relative-Absolute Split|absolute-vs-population]] point: a small individual shift
 is population-relevant at the distribution tails.
+
+</div>
 
 ## Appraisal honesty (symmetric standards)
 
@@ -255,6 +259,8 @@ Veneri does not cleanly corroborate *either* pole: its spline sharpens the
 low-dose concern the same direction as Taylor's urinary <1.5 signal, and its quality-stratification
 undercuts the whole association. Read as a whole, it deepens the uncertainty rather than settling it.
 
+<div class="recent-update" data-last-updated="2026-11-10">
+
 ## The transportability problem — where the evidence was collected
 
 Most low-RoB studies come from **high-fluoride endemic regions** (China, India, Mexico) at exposures far
@@ -286,6 +292,8 @@ in IQ scores of the subjects at 38 years of age»
 [@ntp2024fluoride] — a prospective null at a
 fluoridation-relevant exposure, part of why the below-1.5 stratum stays *unclear* rather than *harmful*.
 
+</div>
+
 ## Measurement: better than dietary recall, but not clean
 
 Fluoride escapes the worst of [[Measurement Error in Dietary Assessment]] because urinary fluoride is a
@@ -295,6 +303,8 @@ measure that misclassifies individual intake; and (ii) total fluoride exposure i
 (dental products, black tea), so even a well-measured water concentration under-captures dose. Both push
 a true low-dose gradient toward the null, which is one reason the below-1.5 arm reads as «unclear»
 rather than «no effect».
+
+<div class="recent-update" data-last-updated="2026-11-10">
 
 ## What this changes
 
@@ -306,5 +316,7 @@ not an established effect, and the caries-benefit pole (unaddressed by NTP — s
 weighs on the other side. The magnitude that would matter — a 1-2 point IQ shift per mg/L urinary F — is
 small at the individual level but population-relevant, and its transmission to 0.7 mg/L tap water is
 exactly what remains unestablished.
+
+</div>
 
 ## References

@@ -56,8 +56,11 @@ enhancement** split on the bone side ([[Deficiency Repletion vs Enhancement]]).
   safety in older adults insufficient-evidence
 - [[Exercise Interventions and Sports Injury Prevention]] — which exercise prevents sport injury:
   strength training cuts injuries to <1/3 (RR 0.315, the standout), proprioception helps, STRETCHING
-  does not (tight null); RT's one causal-grade patient-important outcome, in young athletes; structured
-  warm-up programmes (FIFA 11+-type) cut youth-sport injuries by about a third (IRR 0.64), compliance-dependent
+  is not shown to (no benefit shown; insufficient evidence by stratum, re-judged 2026-11-04); RT's one causal-grade patient-important outcome, in young athletes; structured
+  warm-up programmes (FIFA 11+-type) cut youth-sport injuries by about a third (IRR 0.64), compliance-dependent;
+  in adult recreational athletes the pooled programme effect is imprecise (Liddle: RR 0.94, 0.80-1.09; HR 0.65,
+  0.39-1.08; GRADE very low, insufficient evidence), and likewise in endurance runners (Wu: RR 0.81,
+  0.63-1.05; IRR 0.86, 0.64-1.16; insufficient evidence; supervised split post hoc)
 - [[Flexibility Training and Stretching]] — what regular stretching does: joint range of motion (ACSM 2011
   grade A), gained in 3-4 wk and lost within 4-8 wk of stopping; a graded dose (≥2-3 d/wk, 60 s per stretch,
   10-30 s holds, after exercise); an RCT-MA null for injury; a Cochrane near-zero effect on next-day

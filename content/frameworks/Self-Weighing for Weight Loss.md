@@ -449,8 +449,6 @@ college women and VanWormer 2012's worksites are in the review, but with no psyc
 concern. Harm in those groups is insufficient evidence, not absence of harm.
 — closes when a review that includes those samples is held.
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Labelled default — what to do
 
 [inferred from @madigan2015weigh; @zheng2014weigh] The action is cheap, reversible
@@ -582,8 +580,6 @@ What follows for this page's questions. [inferred from @jensen2014obesity; @madi
 
 The guideline's maintenance evidence and programme-intensity statements are on
 [[Lifestyle Weight-Loss Programme Intensity and Delivery]].
-
-</div>
 
 ## Limits
 

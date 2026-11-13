@@ -8,7 +8,7 @@ cluster: fitness
 nucleus: true
 confidence: medium
 created: 2026-07-28
-updated: 2026-10-29
+updated: 2026-11-12
 self_critiqued: 2026-10-28
 relationships:
   related_to:
@@ -19,6 +19,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Measuring and Raising Cardiorespiratory Fitness
 ---
+<div class="recent-update" data-last-updated="2026-11-12">
 
 Opens the `fitness` cluster. Cardiorespiratory fitness (CRF, peak VO2, measured in METs — 1 MET =
 3.5 mL/kg/min) is a strong mortality predictor. The AHA statement says evidence shows «not only that
@@ -29,6 +30,8 @@ traditional risk factors significantly improves the reclassification of risk for
 evidence is observational, and Lang's umbrella grades the all-cause association LOW (per MET) and
 VERY LOW (high vs low), with the mortality grades set «mainly due to serious indirectness» (most
 studies included only men) [@lang2024crf].
+The sex imbalance is large: «For example, there were 1 858 274 male participants compared with 180 202 female participants for all-­cause mortality.»
+[@lang2024crf]
 Every all-cause CI excludes 1 (upper bounds 0.88-0.93 per MET, 0.56-0.66 high vs low), so the low
 grade limits confidence in the magnitude and in its transport to women, not the direction of the
 association; the certainty itself stays LOW to VERY LOW.
@@ -42,6 +45,7 @@ mortality evidence is itself observational, with a dose gradient
 ([[Physical Activity Dose and Mortality]]). A VO2max reading is a stratification metric and a trackable
 measure (milestone) of the activity lever; no held trial shows that raising CRF itself lowers mortality.
 
+</div>
 
 ## The dose-response: steepest at the low end; a smaller residual step at the top in one referral cohort
 

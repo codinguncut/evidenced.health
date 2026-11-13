@@ -8,7 +8,7 @@ cluster: fluoride
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -93,16 +93,19 @@ don't have easy access to fluoride toothpaste»
 **baseline-risk-dependent** (route (a)): larger where caries burden is high and other fluoride sources
 are scarce.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
-## The paired harm at the SAME dose: dental fluorosis (established, but mild)
+## The paired harm at the SAME dose: dental fluorosis (low certainty, but mild)
 
-At the fluoridation dose itself, one harm *is* established (unlike the IQ and skeletal arms, which
-need >1.5 mg/L). The fluorosis estimates are carried unchanged from the 2015 review (current to Feb
+At the fluoridation dose itself, one harm has a dose-response association (unlike the IQ and skeletal
+arms, which need >1.5 mg/L) — rated low certainty, though its authors call it widely accepted (see
+[[Fluoride and Health]]). The fluorosis estimates are carried unchanged from the 2015 review (current to Feb
 2015, not re-searched): at 0.7 ppm, «the percentage of partici- pants with dental fluorosis of
 aesthetic concern was esti- mated to be 12% (95% CI 8% to 17%)» (40 studies, 59,630), and any level
 \~40% (95% CI 35% to 44%; 90 studies)
 [@iheozor2024fluoridation], **low certainty**.
+These are modelled *prevalences* at 0.7 ppm (the summary-of-findings comparison reads n/a), not an
+excess over non-fluoridated water [@iheozor2024fluoridation].
 Dental fluorosis is a **cosmetic / enamel** outcome — a real unwanted effect at the fluoridation dose,
 but not on the patient-important tier of the child-IQ or fracture arms. It is the one harm that sits
 squarely *at* 0.7 mg/L rather than above 1.5.
@@ -133,6 +136,8 @@ study** reported disparities data («no evidence that deprivation influences the
 [@iheozor2024fluoridation]. Cost, environment
 and equity are separate axes: the wiki records that they exist and stops.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Why this is a decision-change, not a restatement
 
 The public framing is *fluoridation prevents cavities, so it is good*. The fabric's move is the
@@ -141,7 +146,9 @@ caries benefit of CWF is about a quarter of a tooth, low-certainty, with a CI th
 benefit — while a familiar large number describes a 1950s-60s population that no longer exists. The
 benefit is genuine and baseline-risk-dependent (larger where caries is high and other fluoride is
 scarce), and it sits at the same 0.7 mg/L dose where the serious harm arms are insufficient-evidence
-and only mild dental fluorosis is established. The dose- and era-stratified balance is synthesised on
+and only mild dental fluorosis carries a dose-response association (low certainty). The dose- and era-stratified balance is synthesised on
 [[Fluoride and Health]].
+
+</div>
 
 ## References

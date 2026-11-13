@@ -20,7 +20,7 @@ relationships:
     - Surrogate Outcomes
     - Flexibility Training and Stretching
 created: 2026-08-25
-updated: 2026-11-05
+updated: 2026-11-12
 ---
 
 **Peripheral scope** (exercise-programming), but the outcome is **patient-important, not a surrogate**:

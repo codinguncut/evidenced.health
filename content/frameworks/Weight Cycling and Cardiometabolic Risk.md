@@ -7,7 +7,7 @@ sources: [Montani - Dieting Weight Cycling Cardiometabolic Risk 2015, Zou - Weig
 cluster: ectopic-fat
 confidence: moderate
 created: 2026-08-08
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -136,7 +136,7 @@ are not joined (they cannot be the same quantity). They do converge weakly in th
 strongest harm signal in the frankly obese, which is the population the decision is about.
 [inferred from @zou2019fluctuation; @montani2015cycling]
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The T2D-incidence arm — a second gold SR/MA (same group, different outcome)
 
@@ -193,7 +193,8 @@ authors, and not significant in the obese** — so it does not transport to the 
 
 The intentional-weight-loss subgroup runs the **opposite way** across the two Zou outcomes, and the
 different outcome means this is a distinction, not a contradiction to reconcile. For **CVD/mortality**
-(Zou 2019) no association was detected for intentional fluctuation (3 reports; all-cause P=0.49, CVD P=0.12). For **T2D** (Zou 2020) the
+(Zou 2019) no association was detected for intentional fluctuation (3 reports; all-cause P=0.49, CVD P=0.12)
+[@zou2019fluctuation]. For **T2D** (Zou 2020) the
 intentional subgroup is *positive* — «individuals with intentional weight cycling had a higher risk of
 diabetes (P < 0.001) ... however, the small number of studies limits the conclusion».
 [@zou2020cycling] Two guards keep this from over-reading:

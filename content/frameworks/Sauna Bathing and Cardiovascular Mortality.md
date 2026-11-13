@@ -8,7 +8,7 @@ cluster: heat-exposure
 nucleus: true
 confidence: low
 created: 2026-09-09
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-02
 relationships:
   related_to:
@@ -415,7 +415,9 @@ By stratum:
 - **People prone to orthostatic hypotension:** both papers give the same caution. 2015: «individu- als
   who are prone to orthostatic hypotension should be cautious when sauna bathing because of a possible
   decrease in blood pressure» [@laukkanen2015sauna];
-  2018, for older individuals: «sauna baths should be taken cautiously»
+  2018, for the subset of older people so prone: «How- ever, in a specific group of older individuals who
+  are prone to orthostatic hypotension, sauna baths should be taken cautiously due to possible sudden drop
+  in blood pressures which may occur just after a hot and dry bath [22, 30, 56].»
   [@laukkanen2018sauna]. An asserted caution,
   not a measured harm rate.
 

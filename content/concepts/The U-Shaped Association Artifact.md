@@ -18,8 +18,8 @@ sources: [Stockwell - Moderate Drinkers Mortality Risk 2016, Millwood - Alcohol 
 cluster: measured-vs-true-effect
 confidence: medium
 created: 2026-07-28
-updated: 2026-11-04
-self_critiqued: 2026-10-27
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -103,6 +103,8 @@ and early-follow-up exclusion, treat the protective arm as **unadjudicated, not 
 equally consistent with the causal and the artifact explanation has no diagnostic value.
 
 
+
+<div class="recent-update" data-last-updated="2026-11-13">
 
 ## Where it applies in the wiki
 
@@ -531,7 +533,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
     The persistence-after-adjustment that reads as robustness cuts both ways. AWAITS a Mendelian-
     randomization source on NSS — the only instrument that would adjudicate the arm.
 - **Sodium — named, argued-but-not-adjudicated.** WHO cited a J-shaped hypothesis (harm below \~2 g/day)
-  as the reason for its review, then «never returned to» it, and excluded a priori the strata where a
+  as the reason for its review, then never cited the two cohort studies behind it again
+  [searched: J-shaped / refs (37, 38) across chunks 01-02], and excluded a priori the strata where a
   lower-arm harm is most plausible -> [[Sodium Intake and Blood Pressure]]. **He 2013 rebuts the same
   J-curve papers** invoking «measurement error … confounding … and reverse causality» — this concept's
   recipe, named — **but only as a critique, from CASH/WASH advocates, with no referent-correction or
@@ -553,10 +556,16 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   because the candidate artifact mechanisms are all live and Mente ran only the **weak** checks against
   them: (i) **reverse causation / sick-quitter** — sick people eat less salt;
   Mente excluded events in the first 2 years and excluded known CVD/hypertension/diabetes in turn (the
-  pattern held), but neither is a referent-correction; (ii) **spot-urine measurement error at the
-  extremes** — a single fasting-morning-urine + Kawasaki estimate is least accurate at very low intake,
-  and unequal error across the range can bend a flat curve into a U with no confounder and no reverse
-  causation (gate-6), passing exactly those exclusion checks -> [[Measurement Error in Dietary Assessment]];
+  pattern held), but neither is a referent-correction; (ii) **spot-urine measurement error** — PURE
+  estimated intake from one fasting morning urine via the Kawasaki formula, and whether that error is
+  larger at the extremes is **untested** in the held sources. Mente argues that correcting toward 24-h
+  values would steepen the associations at both the low and the high end
+  [@mente2016pure];
+  Graudal, citing He 2018, argues a single estimate gave an outcome almost identical to multiple 24-h
+  measurements [@graudal2020sodium]. Neither
+  tests error by intake level. *If* the error were unequal across the range, it could bend a flat
+  curve into a U with no confounder and no reverse causation (gate-6), passing exactly those exclusion
+  checks -> [[Measurement Error in Dietary Assessment]];
   (iii) **confounding by frailty** — residual, not removed by multivariable adjustment. Mente ran **no
   referent-correction and no Mendelian-randomization** on the low arm, which is the *strong* check this
   concept requires, and himself concedes observational analysis cannot prove causality. So PURE moves the
@@ -946,8 +955,10 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   is a statement about the pooled range, not a guarantee within every stratum -> [[Fish and Seafood Consumption]].
 - **Physical activity / steps -> mortality — a NULL-for-U instance where objective measurement REMOVES a
   self-report distortion `[2026-08-06, Ekelund + Paluch]` `type-F`.** The device-measured PA dose-response
-  (Ekelund 2019, accelerometry) and the daily-steps curve (Paluch 2022) are **monotone-decreasing to a
-  plateau — no U, no harmful upper arm** at achievable doses, so the artifact machinery has no protective
+  (Ekelund 2019, accelerometry) and the daily-steps curve (Paluch 2022) are **monotone-decreasing, then
+  flatter on the point estimates — no U, no harmful upper arm** at achievable doses (the high-dose
+  intervals fit a plateau and a shallow gradient alike; superseded 2026-11-13: previously *monotone-
+  decreasing to a plateau*), so the artifact machinery has no protective
   *lower* arm to defend. What the case adds to the concept is the **opposite** of the sick-quitter trap: a
   place where objective measurement *un-does* a self-report artifact rather than creating one. Self-report
   underestimates the effect \~2-fold (Ekelund: «about twice as large» vs self-report
@@ -980,8 +991,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
   named -> [[The Physical Activity Paradox]]. Not independent-E (a new exposure/mechanism sharing the one
   diagnostic) -> **type-F**.
 - **Nuts -> stroke — a spurious HARM upper arm that dissolves under an OUTCOME-composition stratification
-  `[2026-08-13, Aune]` `type-F`.** Aune 2016's nut dose-response is inverse-and-plateauing for CHD/CVD/
-  all-cause, but the *stroke* curve shows «a slight J-shaped curve with reductions in risk observed up to
+  `[2026-08-13, Aune]` `type-F`.** Aune 2016's nut dose-response is inverse and flatter at higher intake
+  (point estimates) for CHD/CVD/all-cause, but the *stroke* curve shows «a slight J-shaped curve with reductions in risk observed up to
   approximately 10-15 grams per day, but a slight positive association at intakes of 30 grams per day,
   however, this was not observed when studies were stratified by whether the outcome was stroke incidence
   or stroke mortality». [@aune2016nut] So the upper (harm)
@@ -1135,6 +1146,8 @@ equally consistent with the causal and the artifact explanation has no diagnosti
 - **The open telos prior.** This concept is the fabric form of `[PRIOR]` #2 (U/J-shapes as artifacts):
   it supplies the mechanism list and the adjudication routes so the prior can be *scored* against
   concrete cases, rather than asserted.
+
+</div>
 
 ## Corrections and revision history (dated strata)
 

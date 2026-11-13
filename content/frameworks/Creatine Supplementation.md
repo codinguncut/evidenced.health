@@ -18,7 +18,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Big Rocks (Elderly)
 created: 2026-08-04
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-09-24
 ---
 
@@ -150,7 +150,7 @@ are **insufficient / not-yet / null**, and must not be laundered into the ergoge
   (high-dose creatine improves outcomes), distinct from supplementing a replete person
   [@kreider2017].
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Older adults — the one clinical stratum where the surrogate benefit is decision-relevant
 
@@ -167,8 +167,12 @@ mass (n = 4, MD 2.61, 95% CI 0.51 to 4.72)» — every other nutrient subgroup w
 [@choi2021]. Its
 distinctive contribution is the **within-MA head-to-head** — creatine against protein/multinutrient in one
 pool — which the earlier MAs do not provide; not scored as an independent-E leg (Choi's 4 creatine trials
-may overlap those MAs' constituents, unverified, and the between-subgroup test was not significant), so it
-corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
+may overlap those MAs' constituents, unverified; and its significant lean-mass subgroup-difference test,
+«The subgroup analyses for lean body mass showed sig- nificant differences between the types of
+nutritional in- terventions (Chi2 = 7.28, p = .03).»
+[@choi2021], is a
+three-subgroup heterogeneity test across creatine, multi-nutrients and protein, not a pairwise contrast), so
+it corroborates the DIRECTION on a small pool, not a precise magnitude. This is an
 **F-refinement** of [[Sarcopenia Definition and Diagnosis]] and [[Protein and Resistance Training for Muscle and Strength]]: for the stratum whose big rock is preserving strength and independence
 ([[Big Rocks (Elderly)]]), creatine is a small, evidenced adjunct **on top of** the resistance training
 that remains the driver — never a substitute for it

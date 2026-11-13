@@ -16,8 +16,8 @@ relationships:
     - Measurement Error in Dietary Assessment
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-05
-updated: 2026-09-15
-self_critiqued: 2026-09-15
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 **The fabric's fermented-foods nucleus, and it opens near-empty.** Two sources anchor it and neither
@@ -191,6 +191,8 @@ contrasts the two arms directly and they behaved differently — see the refinem
 
 
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Yogurt -> T2D: the one fermented-dairy leg with a located dose-response `[2026-09-05]`
 
 Gijsbers 2016 (dairy -> T2D dose-response MA, 22 cohorts, 43,118 cases; gold) gives fermented dairy its
@@ -200,9 +202,11 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
 0.83, 0.90; P < 0.001)»`, and `«The risk did not further decrease at higher intake amounts of yogurt
 &gt;80 g/d»` [@gijsbers2016].
 
-- **Curve features named.** Nonlinear inverse with a **located knee/plateau at \~80 g/d** (about one
-  small pot) — the benefit is acquired early and more buys nothing. Studied range 0-\~250 g/d; the
-  plateau is *observational-spline* located, so treat it as a soft knee, not an intervention target
+- **Curve features named.** Nonlinear inverse with a **knee at \~80 g/d on the point estimates** (about
+  one small pot) — most of the associated benefit is reached early; no numeric interval past 80 g/d is given in the
+  text (Figure 4's band is not read here), so more is not shown to lower risk further, not shown to buy nothing (superseded 2026-11-13:
+  previously *located knee/plateau ... more buys nothing*). Studied range 0-\~250 g/d; the
+  plateau is an *observational-spline* reading, so treat it as a soft knee, not an intervention target
   -> [[The Underivable Optimum]].
 - **It contrasts with milk and cheese, which are null** (milk RR 0.97 per 200 g/d, CI 0.93-1.02;
   cheese RR 1.00 per 10 g/d) [@gijsbers2016].
@@ -225,6 +229,7 @@ related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compa
   [[Dairy and Cardiometabolic Health]] — this section is the fermented-food-side cross-link, not a
   second appraisal.
 
+</div>
 
 ## The protective subtype is outcome-specific — and no subtype is robust across both endpoints
 
@@ -246,6 +251,8 @@ head-to-head subtype contrast within one: it says where each fragile signal sits
 yogurt or the reverse. The live-vs-pasteurized mechanism question is open on **both** legs, so the
 outcome-specific reading still cannot name what in the subtype does the work.
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Confidence and gaps
 
 - **`confidence: low`** — one small surrogate-outcome RCT with no control arm (Wastyk, high tier but
@@ -265,12 +272,12 @@ outcome-specific reading still cannot name what in the subtype does the work.
     effects for the trendy ferments.
   - **Yogurt -> T2D dose-response CASHED** (Gijsbers 2016 now held) -> see *Yogurt -> T2D* section
     above. It adds the second hard-ish observational endpoint for fermented dairy: a nonlinear inverse
-    plateauing at \~80 g/d. Remaining gap is the same as the CVD leg — no RCT, and the live-culture
+    flattening at \~80 g/d on the point estimates. Remaining gap is the same as the CVD leg — no RCT, and the live-culture
     question is untested for T2D too.
   - **`G (needs aggregation)`:** a pooled fermented-food effect on mortality or hard CV events across
     designs — a magnitude the fabric cannot compute from these two non-commensurable sources.
 
-
+</div>
 
 ## Self-critique `[run 2026-08-05, before commit]`
 

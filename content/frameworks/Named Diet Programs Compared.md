@@ -201,8 +201,6 @@ across 61 trials from the Cochrane review's fidelity field
 two sets of *advice at achievable adherence*, and the one they will actually sustain wins on the term
 that dominates.
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Ge and Naude corroborate — but they are NOT independent
 
 Ge broadens the pairwise low-carb-vs-balanced result to the whole named-diet network; the two reviews
@@ -240,10 +238,6 @@ conveys: see the next section; it is
 titled the 2013 guideline and printed in Circulation in 2014) and with NICE leaving every
 macronutrient-defined diet without a recommendation
 ([[Diets for Weight Loss - What NICE Recommends]]) — all appraising largely the same RCT base.
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-09">
 
 ## The 2013 AHA/ACC/TOS guideline read directly — which evidence state it actually assigns
 
@@ -336,8 +330,6 @@ against Jensen's Low for the head-to-head contrast, and no grade gap is read fro
 lipid differential is the guideline-layer face of *Low-carb costs LDL what it buys elsewhere* below,
 reached from a shared trial class, so it adds no independent confidence.
 [inferred from @jensen2014obesity; @ge2020]
-
-</div>
 
 ## The same null holds in the type-2-diabetes stratum (F-broadening, shared evidence)
 

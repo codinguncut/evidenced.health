@@ -7,7 +7,7 @@ sources: [NTP - Fluoride Neurodevelopment Monograph 2024, Taylor - Fluoride Chil
 cluster: fluoride
 confidence: low
 created: 2026-08-14
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -79,7 +79,7 @@ safe threshold — and the within-study non-linearity is inconsistent (see Yu 20
     published table SHARPENS the «direction consistent <1.5» summary above, which turns out to be
     **exposure-matrix-dependent** at low dose.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Taylor 2025: the published dose-response, and the low-dose exposure-matrix split
 
@@ -111,7 +111,8 @@ restricted toward fluoridation levels. It splits by exposure matrix (all-studies
 
 The load-bearing reading — **the matrix decides the low-dose verdict**:
 
-- **Water-fluoride dose-response goes null below \~2 mg/L** — «associations remained inverse when
+- **Water-fluoride dose-response goes null below 1.5 mg/L** (at <2 mg/L the point estimate stays
+  inverse, CI crossing null — Table 2 above) — «associations remained inverse when
   exposed groups were restricted to less than 4 mg/L and less than 2 mg/L; however, the association was
   null at less than 1.5 mg/L» [@taylor2025fluoride]. The <1.5 water
   point estimate is even slightly *positive* (0.05), and stays non-significant even among low-RoB
@@ -259,7 +260,7 @@ Veneri does not cleanly corroborate *either* pole: its spline sharpens the
 low-dose concern the same direction as Taylor's urinary <1.5 signal, and its quality-stratification
 undercuts the whole association. Read as a whole, it deepens the uncertainty rather than settling it.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The transportability problem — where the evidence was collected
 
@@ -279,9 +280,12 @@ Two things this table does that the bare conclusion does not:
 
 - The **fluoridation-level signal exists but is fragile and conditional** — the near-0.7 cohorts
   (Bashash, Green, Till) find effects, but they are **prenatal / infant** exposures via maternal urine,
-  frequently **sex-specific** (Green: boys only), and inconsistent across the IQ subscale and feeding
-  mode (Till: formula-fed but not breastfed). This is not the same claim as «0.7 mg/L in tap water lowers
-  IQ».
+  at times **sex-specific** (Green: boys only for maternal urinary F, but maternal-intake and
+  water-F associations in boys and girls combined, no sex interaction; NTP reads the inverse
+  association as generally reported for both sexes
+  [@ntp2024fluoride]), and inconsistent across the
+  IQ subscale and feeding mode (Till: formula-fed but not breastfed). This is not the same claim as
+  «0.7 mg/L in tap water lowers IQ».
 - Yu 2018 is the clearest **within-study non-linearity**: an effect concentrated at 3.4-3.9 mg/L with no
   significant association below 3.4 — cutting *against* a smooth monotone gradient down to fluoridation
   levels, and consistent with the >1.5 mg/L bound.
@@ -304,7 +308,7 @@ measure that misclassifies individual intake; and (ii) total fluoride exposure i
 a true low-dose gradient toward the null, which is one reason the below-1.5 arm reads as «unclear»
 rather than «no effect».
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## What this changes
 
@@ -315,7 +319,11 @@ or an alternative source — is on the table). A pregnant woman on optimally flu
 not an established effect, and the caries-benefit pole (unaddressed by NTP — see [[Fluoride and Health]])
 weighs on the other side. The magnitude that would matter — a 1-2 point IQ shift per mg/L urinary F — is
 small at the individual level but population-relevant, and its transmission to 0.7 mg/L tap water is
-exactly what remains unestablished.
+exactly what remains unestablished. The insufficient-evidence placement holds for low *total* intake;
+NTP qualifies it for high other intake: «The moderate confidence conclusions may also be relevant to
+people living in optimally fluoridated areas of the United States depending on the extent of their
+additional exposures to fluoride from sources other than drinking water.»
+[@ntp2024fluoride]
 
 </div>
 

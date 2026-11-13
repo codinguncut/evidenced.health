@@ -8,7 +8,7 @@ cluster: sun-uv-exposure
 nucleus: true
 confidence: low
 created: 2026-08-06
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-06
 relationships:
   related_to:
@@ -104,19 +104,22 @@ Lindqvist: a real trade-off on one exposure, not two exposures that conveniently
   [@green2011] — but Lindqvist
   cautions against reading sunblock as a licence to overexpose.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Stratum-dependence — the net shifts (mostly via baseline melanoma risk)
 
 - **Fair skin (Fitzpatrick I-II) + high ambient UV (e.g. N. Australia, UV index >=6 year-round):**
   melanoma harm dominates; protection is the clear call.
 - **Darker skin and/or high latitude, low UV (e.g. Sweden, UV index <3 for 8-9 months):** melanoma
-  baseline risk is far lower, so the same relative harm is a much smaller *absolute* harm and the
+  baseline risk is far lower, so even a similar relative harm is a much smaller *absolute* harm and the
   (weak, confounded) mortality-benefit arm carries relatively more weight; Lindqvist argues
   restrictive year-round sun-avoidance advice may not be beneficial there. (This is a baseline-risk
   shift, not a vitamin-D-repletion argument — the D route was discounted above.)
-- Route (a) baseline-risk stratification does most of the work: the same relative melanoma effect is a
-  much larger *absolute* harm in fair, high-UV populations.
+- Route (a) baseline-risk stratification does most of the work: a given relative melanoma effect is a
+  much larger *absolute* harm in fair, high-UV populations. The relative effect itself is not shown
+  constant across latitude: Gandini finds a greater sunburn risk and a greater inverse chronic-exposure
+  association in higher-latitude studies, a between-study contrast
+  [@gandini2005sun].
 
 </div>
 

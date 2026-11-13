@@ -21,8 +21,6 @@ relationships:
     - The Insufficient-Evidence Statement
     - Deficiency Repletion vs Enhancement
 ---
-<div class="recent-page" data-last-updated="2026-11-10"></div>
-
 
 Nucleus of the `fluoride` cluster. Fluoride is unusual among the wiki's exposures: it is
 **deliberately added** to drinking water and toothpaste for a real benefit (caries prevention) *and*

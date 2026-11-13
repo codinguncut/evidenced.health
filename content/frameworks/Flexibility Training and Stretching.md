@@ -7,7 +7,7 @@ sources: [Garber - ACSM Quantity and Quality of Exercise Position Stand 2011, La
   Ding - Warm-Up Programs Sports Injury Prevention Meta-Analysis 2022,
   Herbert - Stretching Muscle Soreness Cochrane 2011,
   Dupuy - Post-Exercise Recovery Techniques Meta-Analysis 2018, Liddle - Injury Prevention Adult Recreational Athletes 2023]
-confidence: medium
+confidence: low
 relationships:
   related_to:
     - Exercise Interventions and Sports Injury Prevention
@@ -17,9 +17,10 @@ relationships:
     - Knee Osteoarthritis and Modifiable Levers
     - Training Load Progression and Running Injury
 created: 2026-10-22
-updated: 2026-11-05
+updated: 2026-11-12
 self_critiqued: 2026-11-05
 ---
+<div class="recent-update" data-last-updated="2026-11-12">
 
 **Peripheral scope** (exercise programming). The outcome the evidence actually measures here is **joint
 range of motion (ROM)**, an intermediate outcome, not a patient-important one in its own right. It matters
@@ -31,19 +32,23 @@ commonly believed benefits are mostly unsupported.
  (ROM-as-intermediate is the wiki's classification, per [[Surrogate Outcomes]]; the source
 does not grade ROM's transmission to function.)
 
-**Evidence-tier note (`confidence: medium`, split by claim: soreness drop-lever medium; injury drop-lever, dose/timing/ROM low).**
+**Evidence-tier note (`confidence: low`; the soreness drop-lever is the best-supported claim, still low; injury drop-lever, dose/timing/ROM low).**
 The two drop-lever claims (injury, soreness) rest on RCT meta-analyses, the soreness one on a Cochrane
 review whose pooled before-or-after estimates are near zero with quite precise CIs (GRADE low; moderate
 only for the single 12-week field trial; the smaller pre-exercise-only pools are wide); see their sections below.
 (Restated 2026-11-04.) The injury drop-lever is graded low here, as on
 [[Exercise Interventions and Sports Injury Prevention]]: its MA state is *insufficient evidence*, and the advice not to rely on stretching
-stands because it costs nothing, not because a null is shown. The page's `medium` rests on the soreness
-claim. The dose and ROM claims are weaker: they
+stands because it costs nothing, not because a null is shown. The soreness claim does not lift the page
+above `low` (re-judged 2026-11-12): it rests on one review line whose pools are GRADE low, Dupuy is not
+independent of Herbert, and the 12-week field estimate is a single trial (see *Synthesis*).
+The dose and ROM claims are weaker: they
 rest on one source, the 2011 ACSM position stand, a `high`-tier guideline that grades each recommendation with the NHLBI A-D categories (A = RCTs, rich data; B = RCTs,
 limited data; C = nonrandomized or observational; D = panel consensus). It gives grades but no pooled
 effect sizes, no confidence intervals and no studied ranges for its dose numbers.
 [@garber2011acsm]
 The prescription below is therefore a graded guideline position, not a meta-analytic estimate.
+
+</div>
 
 ## What stretching does: range of motion, and little else that has been shown
 

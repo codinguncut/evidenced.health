@@ -7,7 +7,7 @@ sources: [WHO - Saturated and Trans Fatty Acid Intake 2023, WHO - Sodium Intake 
 cluster: evidence-appraisal
 confidence: medium
 self_critiqued: 2026-07-28
-updated: 2026-10-28
+updated: 2026-11-12
 relationships:
   related_to:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
@@ -47,33 +47,43 @@ quoted above is floor-to-ceiling; the *effective* gap after that transfer is nar
 
 
 [@who2012] [@who2023saturated]
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The counter-instance, and what it reveals about the cause
 
 **The inversion is NOT a law, and physical activity breaks it:** it is rated **HIGH certainty on
 all-cause mortality itself** — a patient-important outcome, no surrogate needed (total activity HR 0.34,
 0.27-0.43, HIGH; on [[Physical Activity Dose and Mortality]]). There is no gap to invert.
 
-**Attempting this contradiction relocates the cause — and the first candidate cause fails.** The obvious
-story is *self-reported diet flattens the outcome signal*. **Sodium refutes it:** sodium exposure is
-**objectively measured** — urinary sodium is a recovery biomarker, absolute not self-reported
-([[Measurement Error in Dietary Assessment]]) — yet sodium carries the *widest* outcome-certainty gap of
-any exposure here. If self-report were the driver, the best-measured exposure would not be the
-worst-graded on outcomes.
+**Attempting this contradiction relocates the cause — and the first candidate cause is weakened, not
+refuted.** The obvious story is *self-reported diet flattens the outcome signal*. **Sodium cuts against
+it:** sodium *can* be measured objectively — urinary sodium is a recovery biomarker, absolute not
+self-reported ([[Measurement Error in Dietary Assessment]]) — yet sodium carries the *widest*
+outcome-certainty gap of any exposure here. But the hard-outcome cohorts did not all measure it that
+way. In WHO's 15-cohort review, «Sodium intake was measured through urinary sodium excretion or dietary
+records.» [@who2012], with no split of the
+grades by instrument, and PURE used one spot urine through the Kawasaki equation
+[inferred from @mente2016pure].
+So for sodium, measurement error is an **aggravator not excluded**.
 
-**So the driver is the availability of credible hard-outcome evidence, not how the exposure is
-measured:**
+**So the main driver is the availability of credible hard-outcome evidence, with how the exposure is
+measured an aggravator:**
 
 - **sodium's** hard-outcome evidence is **cohort** (very low), because almost no trials randomised
   people to a sodium intake and followed them to events; its blood-pressure evidence is 36 RCTs (high);
 - **physical activity's** HIGH grade rests on **eight harmonized cohorts, all device-measured, with a
   mortality endpoint** — the outcome itself has been studied at scale;
 - **self-report is a real aggravator on the diet side but a secondary one** — it is why SFA's
-  *observational* mortality estimate is graded Very low, but it is not why sodium's is.
+  *observational* mortality estimate is graded Very low, and for sodium it is not excluded (part of
+  WHO's cohort base used dietary records), but it does not explain why a biomarker-measurable exposure
+  still has no hard-outcome trials.
 
 The inversion is therefore a symptom of **thin hard-outcome trial evidence meeting a well-studied
 marker** — wherever the outcome has been tried (or measured in large objective cohorts), certainty can
 attach to the outcome directly.
 [inferred from @who2012; @who2023saturated; @who2020]
+
+</div>
 
 ## Why carbohydrate restriction is NOT a third instance
 

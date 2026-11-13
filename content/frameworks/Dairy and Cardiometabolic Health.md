@@ -22,8 +22,8 @@ relationships:
     - Relative vs Absolute Risk
     - Layer 1 - Ranking Interventions for a Stratum
 created: 2026-08-06
-updated: 2026-11-10
-self_critiqued: 2026-10-07
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 **Nucleus of the `dairy` cluster** — the canonical owner of *what dairy does to cardiometabolic
@@ -291,7 +291,7 @@ channel, not a demonstrated one.
 
 
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Confidence, decision-relevance, and gaps
 
@@ -319,8 +319,9 @@ channel, not a demonstrated one.
     0.94, 0.82-1.07), the one dose-response "nadir" (\~150 g/d) is an Asia/Europe intake-range pooling
     artifact, and milk-alone/cheese-alone are null. Same type-B decomposition + FFQ-confounding as this
     page. Dairy is not a cognition lever.
-  - **Dairy -> cancer, opposing directions** (probable-protective colorectal, probable-increased prostate)
-    — direction held on [[Red and Processed Meat and Cancer]]/WCRF; magnitudes unheld here. Name both,
+  - **Dairy -> cancer, opposing directions** (probable-protective colorectal; *limited – suggestive*
+    increased prostate, below WCRF's threshold for a recommendation)
+    — direction and grades held on [[Red and Processed Meat and Cancer]]/WCRF; magnitudes unheld here. Name both,
     never net.
   - **Sex as effect-modifier (Mishali)** — a single-MA subgroup claim, no mechanism; needs replication
     before it drives a sex-specific recommendation (route-b bar).
@@ -374,6 +375,8 @@ T2D/HTN benefit not carrying through to mortality is the divergence to hold onto
 
 
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Gijsbers 2016 — the dairy -> T2D DOSE-RESPONSE by subtype: the inverse signal is yogurt/low-fat, milk and cheese are null `[2026-09-05]`
 
 Gijsbers is the dedicated dairy -> T2D **dose-response** MA (22 prospective cohorts, 579,832 individuals,
@@ -397,11 +400,14 @@ subtypes while the others are flat.
   [@gijsbers2016].
 - **Cheese: null** (RR 1.00 per 10 g/d; I2 = 62%) — the only cheese signal is a 2-study men-only +5%
   per 10 g/d, not stratum-stable [@gijsbers2016].
-- **Yogurt: a NONLINEAR inverse with a located plateau.** `«Yogurt ... was non-linearly inversely
+- **Yogurt: a NONLINEAR inverse that flattens on the point estimates** (superseded 2026-11-13:
+  previously *with a located plateau*). `«Yogurt ... was non-linearly inversely
   related to T2D, showing a 14% lower risk for an intake of 80 g/d (RR: 0.86 compared with 0 g/d;
   95% CI: 0.83, 0.90; P < 0.001)»`, and `«The risk did not further decrease at higher intake amounts
   of yogurt >80 g/d»` [@gijsbers2016] — the
-  benefit is acquired by \~80 g/d (about one small pot) and plateaus; more buys nothing.
+  associated benefit is reached by \~80 g/d (about one small pot). No numeric interval past 80 g/d is given in the
+  text (Figure 4 plots a pooled 95% band, not read here), so more is not shown to lower risk further, which is not the same as shown to buy nothing; stopping at a
+  pot is a cost call (superseded 2026-11-13: previously *and plateaus; more buys nothing*).
 
 **This is the type-B decomposition with T2D-specific numbers:** the whole-dairy 0.97/200 g/d hides a
 yogurt-and-low-fat inverse against a milk/cheese/high-fat null. A whole-milk or cheese eater gets no
@@ -476,6 +482,7 @@ the yogurt/low-fat arm; still no hard-outcome RCT.
 - **Open loop.** All magnitudes are observational FFQ, never graded against a realized T2D outcome; the
   live-culture and measurement-error gaps are named, not closed.
 
+</div>
 
 ## Vissers 2019 — the genetic-instrument (MR) leg: milk -> T2D is causally null, but only for MILK `[2026-09-15]`
 

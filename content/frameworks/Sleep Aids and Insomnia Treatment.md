@@ -17,8 +17,6 @@ relationships:
     - Shared Modifiable Levers Across Age-Related Diseases
     - Dementia Prevention and Modifiable Risk Factors
 ---
-<div class="recent-page" data-last-updated="2026-11-10"></div>
-
 
 Opens the treatment question for the `sleep` cluster: once someone *has* chronic insomnia, what should
 they do? Three interventions, three evidence bases, no head-to-head trial. The beyond-summary move is

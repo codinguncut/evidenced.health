@@ -16,7 +16,7 @@ relationships:
     - LDL Lowering and Cardiovascular Events
     - Statin Muscle Symptoms and the Nocebo Effect
 created: 2026-07-28
-updated: 2026-10-06
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 ---
 
@@ -103,6 +103,8 @@ not per-mmol). They are complementary, not the same quantity — CTT gives the d
 the per-regimen effect a given statin delivers.
 [inferred from @ctt2010]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Over 75 without known vascular disease — the one cell the constancy premise does not reach `[2026-10-06]`
 
 CTT 2010's *age >75* line above pooled primary and secondary prevention. The CTT 2019 age analysis (28
@@ -112,7 +114,7 @@ page, because this page is about people *without* known vascular disease.
 - **With vascular disease, the relative effect holds at every age:** >75 RR 0.85 (99% CI 0.73-0.98) per
   1.0 mmol/L, age trend p=0.2. [@ctt2019]
 - **Without known vascular disease, >75: RR 0.92 (99% CI 0.73-1.16)** on 295 vs 308 events (2.7% vs
-  2.8%/yr), and the 71-75 group was 0.84 (0.70-1.01). [@ctt2019]
+  2.8%/yr), and the 71-75 group was 0.84 (99% CI 0.70-1.01). [@ctt2019]
   The age trend in this arm did not depend on the heart-failure/dialysis trials: «However, among participants with no history of vascular disease, we observed a significant trend towards smaller proportional risk reductions with increasing age (ptrend=0·05; figure 4), which persisted after exclusion of the heart failure and dialysis trials (ptrend=0·03; appendix).» [@ctt2019]
   In the Research-in-context panel the authors call it «a weak trend towards smaller relative risk reductions with increasing age in the
   primary prevention setting (although there were too few such older participants for reliable
@@ -177,6 +179,8 @@ page's CAC lever into the >75 cell, as an untested strategy. Ongoing trials in t
 for primary prevention up to about 70 and for secondary prevention at any age. It does **not** extend
 past 70 in primary prevention: CTT found no independently significant reduction in either over-70 group
 (71-75: 0.84, 0.70-1.01; >75: 0.92, 0.73-1.16), and the >75 cell sits in the insufficient-evidence state.
+
+</div>
 
 ## The honesty on both sides — this is not a settled rule
 
@@ -255,6 +259,8 @@ evidence disagreement. The direction of the change is still notable: ACC-AHA 202
 pharmacotherapy at lower estimated risk than USPSTF, and to name a numeric goal once it does.
 [inferred from @accaha2026; @uspstf2022]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The common statin fears — muscle and memory `[2026-08-22]`
 
 The two most-cited reasons people avoid or stop a statin — muscle damage and memory loss — are BOTH
@@ -306,8 +312,8 @@ burden is reproduced by an inert pill (SAMSON). One small n-of-1 trial in a sele
 transferable finding is the *mechanism*, not a population effect size.
 
 **The randomised magnitude sizes the fear — and it is front-loaded `[2026-09-07]`.** The CTT
-Collaboration's IPD meta-analysis of \~155,000 people in double-blind statin RCTs puts a number on the
-real causal excess: any muscle pain or weakness ran «rate ratio [RR] 1·03; 95% CI 1·01–1·06», with
+Collaboration's IPD meta-analysis of double-blind statin RCTs puts a number on the real causal excess:
+in its 19 placebo-controlled trials (n=123,940) any muscle pain or weakness ran «rate ratio [RR] 1·03; 95% CI 1·01–1·06», with
 the excess «during year 1 ... an absolute excess rate of 11 (6–16) events per 1000 person-years,
 which indicates that only one in 15 ([1·07–1·00]/1·07) of these muscle-related reports ... were
 actually due to the statin. After year 1, there was no significant excess». [@reith2022muscle]
@@ -319,7 +325,7 @@ year-1-vs-later split, the dose-de-escalation lever) lives on
 
 [inferred from @uspstf2022; @wood2020samson; @reith2022muscle]
 
-
+</div>
 
 ## Decision relevance
 

@@ -58,8 +58,6 @@ plus behaviour therapy, all three included
 The grade describes what effective programmes *contained*. It does not separate how much each component
 contributes. [inferred from @jensen2014obesity]
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## The intensity gradient — contact frequency is the dose
 
 | Intensity (on-site, comprehensive) | Mean loss in the programme arm (vs usual care as each ES states it) | Grade | ES |
@@ -110,8 +108,6 @@ no data here. [inferred from @jensen2014obesity]
 few cases a trained lay person in a programme validated in published trials.
 [@jensen2014obesity]
 
-</div>
-
 ## Primary care on its own: not shown to work
 
 «ES5: In studies to date, low- to moderate-intensity lifestyle interventions for weight loss provided to
@@ -128,8 +124,6 @@ Read together, the clinician's job is to get the person into a structured progra
 by referral, rather than to counsel at routine visits. The ES says "not shown to be effective" for the
 trials reviewed; it is not a claim that no primary-care format could work.
 [inferred from @jensen2014obesity]
-
-<div class="recent-update" data-last-updated="2026-11-09">
 
 ## Delivery mode — on site generally ahead of internet/email; telephone similar in one Low statement, and the guideline is split on remote delivery
 
@@ -174,8 +168,6 @@ graded recommendation and a plain statement only in the algorithm, and *telephon
 Low statement whose arms also had prepackaged meals or a web programme.
 [inferred from @jensen2014obesity]
 
-</div>
-
 ## The trajectory: loss peaks at 6 months, then drifts back
 
 The guideline is explicit that a programme's peak is temporary. With continued contact after year one,
@@ -216,8 +208,6 @@ programs has not been determined.» [@jensen2014obesity]
 So "≥1 year" is a floor inside a studied range of up to 2.5 years. It does not mean a year is enough;
 the trials did not test stopping points. [inferred from @jensen2014obesity]
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Very-low-calorie diets inside a programme
 
 | Statement | Result | Grade |
@@ -256,10 +246,6 @@ ES7c is about moderate exercise after a VLCD. A later trial of *vigorous* superv
 8-week low-calorie diet is held on [[Weight-Loss Maintenance and Metabolic Adaptation]]; the two differ
 in intensity, comparator and timing, so they are not compared here.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Where drugs and surgery enter (comparator thresholds only)
 
 The panel did not run an evidence question on drugs, because when the questions were set orlistat was
@@ -282,8 +268,6 @@ The drug landscape has changed since: the class comparison that now sizes the dr
 [[Comparing Obesity Drugs]]. This guideline's drug position predates it and should not be read as a
 current comparator.
 
-</div>
-
 ## The held NICE review asks a different question
 
 The one NICE document held, NG246 Evidence Review F, has a single review question: «What is the
@@ -298,8 +282,6 @@ one guidance family, and the parameter table that would compare two has no NICE 
 -> [[Diets for Weight Loss - What NICE Recommends]] (where the diet-level comparison is).
 **Gap (type-G):** a current evidence review, with trials past 2010, on programme intensity and remote
 delivery. [inferred from @jensen2014obesity; @nice]
-
-<div class="recent-update" data-last-updated="2026-11-09">
 
 ## Limits
 
@@ -329,10 +311,6 @@ systematic review to check the ES figures against. The `confidence: medium` grad
 guideline's graded statements as reported, not an independent re-reading of the trials.
 [inferred from @jensen2014obesity]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Decision relevance
 
 - **Pick a format with at least monthly contact; the graded target is weekly at the start, ≥14
@@ -352,7 +330,5 @@ guideline's graded statements as reported, not an independent re-reading of the 
 
 [inferred from @jensen2014obesity] — decision synthesis over the graded
 statements above.
-
-</div>
 
 ## References

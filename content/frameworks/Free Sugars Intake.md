@@ -18,7 +18,7 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Acute Carbohydrate Effects on Mood
 created: 2026-07-26
-updated: 2026-11-10
+updated: 2026-11-12
 nosplit: 2026-10-06@single-exposure nucleus (how much free sugar, which outcome); the fruit-FORM decision (whole/blended/juiced) split out to [[Whole Fruit Smoothies and Fruit Juice]]; remaining length is four guidance families on one decision
 self_critiqued: 2026-10-06
 ---
@@ -596,7 +596,7 @@ NUGAG Subgroup and reviewer pool), so its agreement is **not** type-E independen
 counting rule as *Why WHO and its own reviews are one source, not three* above. It extends this page's
 substitution frame; it does not add an independent backing.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The beverage limb — SSB dose-response to cardiometabolic outcomes `[2026-08-06, Qin 2020]`
 
@@ -614,8 +614,11 @@ meta-analysis of 39 articles in total; each outcome rests on a subset — the SS
 | Hypertension | 1.10 (1.06-1.14) | linear (Pnon-lin 0.510) |
 | All-cause mortality | 1.04 (1.01-1.07) | linear (Pnon-lin 0.259) |
 
-**Every SSB curve is monotone-linear over the studied range — no knee, no plateau**, a fresh instance of
-the falsified knees-and-plateaus prior -> [[The U-Shaped Association Artifact]]."; the link targets a different prior — surfaced by the Big Rocks (Median) keyframe compile 2026-11-10, deliverable-layer op cannot repair] Two things this does and
+**No SSB curve shows a knee or plateau**: every restricted-cubic-spline non-linearity test is
+non-significant (Pnon-linearity 0.259-0.706) [@qin2020],
+so *linear* means non-linearity not detected, over a studied intake range the held text does not state.
+That fits the harm-side arm of the contested knees-and-plateaus conditional (harm curves stay monotone
+over studied ranges) -> [[The Underivable Optimum]]. Two things this does and
 does NOT license:
 
 - **It is the ADDITIVE (ad-libitum) arm, not the isocaloric one.** Qin measures SSB *as consumed*, which

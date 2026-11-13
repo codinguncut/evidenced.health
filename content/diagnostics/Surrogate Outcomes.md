@@ -29,7 +29,7 @@ relationships:
     - Exercise and Bone Mineral Density
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-25
-updated: 2026-10-28
+updated: 2026-11-12
 nosplit: 725@single-concept diagnostic (one when-may-a-marker-substitute question); length is worked instances accreted across sources, not multiple decisions
 self_critiqued: 2026-09-19
 ---
@@ -73,6 +73,8 @@ patient-important outcome.
 So a marker's standing is not binary. *How far down the chain* it sits is the question, and it is
 answered biologically rather than statistically.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The second criterion — does the chain actually transmit?
 
 Proximity is not the only test the handbook supplies. Immediately after the proximity passage it adds
@@ -97,9 +99,14 @@ surrogates are available, confidence in estimates of effects on patient-importan
 likely to be low"*, and a dedicated list of *"Key questions when using test accuracy as a surrogate"*.
 
 Blood pressure shows the second criterion applied per route. The transmission to events is measured
-for drug-induced lowering, but for the lifestyle and supplement routes it is assumed. The levers with
+for drug-induced lowering, but for the lifestyle and supplement routes it is assumed, with one held
+exception: the potassium-enriched salt substitute in SSaSS, which lowers sodium and raises potassium
+together, counted stroke, major CV events and deaths. That measures the joint lever only; sodium
+reduction alone stays assumed [inferred from @neal2021]. The levers with
 the biggest office-SBP drops tend to be the ones never tested on events
 -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+</div>
 
 ## Tests / indicators
 

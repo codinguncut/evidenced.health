@@ -34,7 +34,7 @@ relationships:
     - Non-Sugar Sweeteners
     - The Nocebo Component of Drug Side-Effects
 created: 2026-07-29
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-06
 ---
 
@@ -121,9 +121,11 @@ absolute risk reductions». [@bplttc2021]
 
 [@bplttc2021]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## SPRINT — the intensive-target trial that operationalises *treat on absolute risk*
 
-BPLTTC is the meta-analysis and carries the per-mmHg claim; **SPRINT is one landmark RCT**, read *inside*
+BPLTTC is the meta-analysis and carries the per-mmHg claim; **SPRINT is one landmark RCT**, read *against*
 that framing as the worked target-trial. It randomised 9,361 **high-CV-risk, non-diabetic** hypertensives
 to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm Hg (standard)» (achieved
 \~121 vs \~136), and stopped early (median 3.26 y):
@@ -141,12 +143,19 @@ to a systolic target «less than 120 mm Hg (intensive)» vs «less than 140 mm H
   [@rahimi2021bpageappx], so SPRINT is inside
   the by-age estimates. BPLTTC 2021 analysed «48 randomised trials» from «51 studies published between
   1972 and 2013» [@bplttc2021],
-  a different trial set, and the held text does not list them.
+  a different trial set, and the held text does not list them. SPRINT was published in November 2015
+  [@sprint2015], outside that
+  window, so on the held text it is **probably not** among BPLTTC 2021's 48 trials; the paper's
+  Collaborating Trialists roster names a SPRINT investigator (W C Cushman) [@bplttc2021],
+  which shows collaboration membership, not the analysed set. BPLTTC 2021's supplementary
+  trial list, which would settle it, is not held.
 - **The harm side BPLTTC did not quantify:** intensive treatment raised serious «hypotension, syncope,
   electrolyte abnormalities, and acute kidney injury or failure, but not ... injurious falls».
   [@sprint2015] So a lower target buys real
   events in the high-risk but at a real adverse-event cost — the target decision is a net-effect
   judgement, not *lower is always better*.
+
+</div>
 
 ## A refutation of the observational J-curve
 
@@ -178,6 +187,8 @@ of HOPE-3's lower two SBP thirds (143.5 mmHg or less at baseline, a tertile cut 
 threshold) is contested, not cleanly refuted. Detail and the parameter table: *The
 intermediate-risk modern-drug trial* below.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## A dietary BP-lowering route that reached hard outcomes — SSaSS `[2026-08-04, Neal]`
 
 The page's caution below is that a **lifestyle-induced** BP drop transmitting to events is *an assumption,
@@ -187,9 +198,12 @@ major CV events (0.87) and death (0.88) in 20,995 high-risk adults, with an achi
 **−3.34 mmHg**. [@neal2021] So a
 diet-route BP reduction *can* reduce hard events — but two caveats keep it from being a clean confirmation
 of the sodium→events chain: (1) the salt substitute moves **sodium and potassium together** (a joint
-lever, not sodium alone — [[Sodium Intake and Blood Pressure]]); (2) the **event benefit outruns the
-BP-channel prediction** — this page's \~13% stroke reduction per 5 mmHg predicts RR \~0.91 from −3.34 mmHg,
-while SSaSS observed 0.86, consistent with a BP-independent electrolyte effect *or* the measured BP fall
+lever, not sodium alone — [[Sodium Intake and Blood Pressure]]); (2) the **event benefit is not
+distinguishable from the BP-channel prediction** — this page's \~13% stroke reduction per 5 mmHg predicts
+RR \~0.91 from −3.34 mmHg, while SSaSS observed 0.86, but \~0.91 lies inside SSaSS's own interval
+(0.77-0.96), so no excess over the BP prediction is shown, and Neal reads the stroke effect as «in
+accordance with a mechanism of action mediated through blood-pressure reduction» [@neal2021].
+A real gap, if one exists, would fit a BP-independent electrolyte effect *or* the measured BP fall
 understating the sustained one (adherence dilution). The BPLTTC transmission model is corroborated in
 *direction*; SSaSS does not let the diet-route magnitude be read straight off the BP fall.
 [inferred from @neal2021]
@@ -267,12 +281,15 @@ urinary potassium excretion «can be at risk of hyperkalaemia» [@aburto2013].
 The trial evidence there is insufficient, not shown safe and not measured as harm.
 [inferred from @brand2022lsss]
 
-<div class="recent-update" data-last-updated="2026-11-10">
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Another lifestyle BP route — alcohol reduction, and the modelled-events gap made explicit `[2026-08-20, Roerecke]`
 
-Roerecke's 2017 SR+MA of **36 alcohol-reduction RCTs (2865 participants)**, GRADE-high, is a second
-behavioural BP lever — and it makes this page's *lifestyle-BP-drop-to-events-is-an-assumption* caveat
+Roerecke's 2017 SR+MA of **36 alcohol-reduction RCTs (2865 participants)** — its *dose-response
+association* rated GRADE-high [@roerecke2017alcohol]
+— is a second behavioural BP lever — and it makes this page's *lifestyle-BP-drop-to-events-is-an-assumption* caveat
 concrete. The BP effect is real and dose-dependent but **shown only in heavier drinkers**: no significant
 BP change at 2 drinks/day or fewer, then dose-dependent above (SBP -1.18 at 3 drinks/day rising to
 -5.50 [-6.70 to -4.30] at >=6 drinks/day; overall -3.13 [-3.93 to -2.32]).

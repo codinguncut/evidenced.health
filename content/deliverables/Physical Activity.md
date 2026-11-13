@@ -5,7 +5,7 @@ question: What is the effect of physical activity and structured exercise (by mo
 aliases: [Exercise Budget Allocation, How Much Exercise, Cardio vs Resistance vs Walking, Exercise and Mortality]
 confidence: medium
 created: 2026-08-17
-updated: 2026-11-06
+updated: 2026-11-12
 self_critiqued: 2026-11-03
 concrete_subject_audited: 2026-11-03
 sources:
@@ -138,6 +138,8 @@ people with heart disease**; how much and how hard they exercise is a clinical d
 .
 The reassurance about very high volumes below does not apply to people with heart disease: in one cohort of 1038 coronary patients, 7 vigorous sessions a week went with HR 1.77 (0.90-3.47), observational, and other cohorts conflict [@franklin2020acute] -> [[Exercise-Related Acute Cardiac Events]].
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Take the first step off the floor: the largest associated gain sits there
 
 The biggest single number in that ledger sits at the bottom of the curve, so start there. **If you do
@@ -231,13 +233,16 @@ while a steps curve does exist, from cohorts weighted toward older adults.
 
 ### A tracker closes only part of one quartile gap
 
-Trials of apps and trackers add roughly 600-750 steps/day over control after a few months: 627 (417-862)
+Trials of apps and trackers add roughly 600-750 steps/day over control after a few months
+`[INFERRED: the two pooled gains below, 627 and 753, rounded]`: 627 (417-862)
 in one meta-analysis, 753 (440-971) in another that shares nine of its trials
 [@brickwood2019wearable]
 [@laranjo2020]. Both reviews grade the
 evidence low or low-to-moderate, and no trial shows the gain lasting. **That is a fifth to a third of the 2000-3000-step gap between Paluch's
 quartiles.** But those quartiles compare people who habitually differ, so a tracker's gain cannot be read
 off them as a mortality effect -> [[Wearable Activity Trackers and Physical Activity]].
+
+</div>
 
 ## Expect the mortality curve to flatten near 20-40 minutes a day
 
@@ -416,6 +421,8 @@ glucose only, and only just (SMD -0.26, -0.50 to -0.02).
 judged the evidence on breaks and hard outcomes insufficient.** Insufficient is not null. Breaks suit
 someone who will not do structured exercise, as an adjunct rather than a proven substitute. [[Sedentary Behaviour and Chronic Disease Risk]]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Add strength training at a modest weekly volume, on top of aerobic activity
 
 Aerobic minutes and sitting both describe how much a person moves. Strength work is a different
@@ -426,8 +433,8 @@ observational and self-reported, and it is very uncertain whether RT itself lowe
 ### Lower death rates appear at about 30 to 120 minutes a week
 
 Zhang followed 147,374 US nurses and health professionals for up to 30 years, re-asking their weekly
-RT time every 2-4 years. After adjustment for aerobic activity, the hazard ratios against no RT were 0.95 (0.92-0.97) at 1-29 min/week, 0.91
-(0.87-0.95) at 30-59, 0.91 (0.86-0.96) at 60-89 and 0.87 (0.81-0.95) at 90-119. The open-ended top
+RT time every 2-4 years. After adjustment for aerobic activity, the hazard ratios against no RT were 0.95 (0.92-0.97) at 1 to <30 min/week, 0.91
+(0.87-0.95) at 30 to <60, 0.91 (0.86-0.96) at 60 to <90 and 0.87 (0.81-0.95) at 90 to <120. The open-ended top
 category (>=120, mean 204 min/week) came out at 0.92 (0.86-0.98) on 1093 deaths. The RT question was
 validated against a diary in the men's cohort only (r=0.79). The nurses' cohorts had no parallel
 validation study; the authors «anticipate comparable validity» because the question was asked the
@@ -463,8 +470,9 @@ hours a week, more is not shown to buy more survival.** This default comes from 
 sources; no trial tested it. -> [[Muscle-Strengthening Activity and Mortality]]
 
 Above \~140 min/week the sources disagree. **Momma's pooled curve for the broader MSA measure stays below 1.0 only to about 140
-min/week**; its lower confidence band clears 1.0 from \~165, and it reaches \~1.18 near \~195, the end of
-its plotted range (figure-read). The curve is a restricted cubic spline with knots at the 10th, 50th and
+min/week** [@momma2022]; its lower
+confidence band clears 1.0 from \~165, and it reaches \~1.18 near \~195, the end of its plotted range
+[@momma2022]. The curve is a restricted cubic spline with knots at the 10th, 50th and
 90th percentiles of exposure
 [@momma2022], so beyond the last
 knot it is a straight line by construction.
@@ -541,6 +549,10 @@ outcomes.» [@laverde2026] -> [[GLP-1 and Lean Mass]]
 the frail. -> [[Exercise for Preventing Falls in Older Adults]], [[Frailty]]. Protein needs for
 training have their own page -> [[Protein and Resistance Training for Muscle and Strength]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Read fitness and grip as gauges, not targets
 
 You can measure both strength and fitness. **Both predict death strongly, and neither has been shown to
@@ -567,7 +579,7 @@ single baseline measure, mostly in men, graded LOW or VERY LOW [@lang2024crf].
 ### The gradient is steepest at the bottom
 
 **Risk drops by the largest step at the low-fitness end** [@kodama2009].
-At the top, one cohort of about 122,000 adults referred for treadmill testing still found a smaller
+At the top, one cohort of about 122,000 adults `[INFERRED: 122,007 patients, rounded]` referred for treadmill testing still found a smaller
 step: elite versus high fitness, HR 0.77 (0.63-0.95). It was significant overall, at age 70 or older and
 in hypertensives, but not within either sex or in younger age groups [@mandsager2018].
 The held evidence shows neither a plateau nor its absence.
@@ -618,6 +630,8 @@ Low muscle mass also predicts death in older adults: people who died carried sli
 appendicular muscle (SMD -0.18, -0.23 to -0.12; 9 cohorts, community-dwelling, aged 65 and over). Grip
 differences did not explain this in a study-level meta-regression [@santana2021].
 That null has a wide interval, so the data are consistent with muscle mass carrying signal beyond strength but do not show it -> [[Low Muscle Mass and Mortality]].
+
+</div>
 
 ## If you are older, put balance work at the core
 
@@ -861,6 +875,8 @@ tested [@silva2018implint].
 and has no plausible harm -> [[Implementation Intentions and Action Planning for Physical Activity]].
 
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Start gradually: exercise harms are real, mostly minor, and largest in unaccustomed hard effort
 
 Starting has costs too. The evidence covers two kinds of harm: minor complaints, which are common, and a bout-triggered cardiac event, which is rare but severe. **Both should change how you start, not whether you start.** -> [[Exercise-Related Acute Cardiac Events]]
@@ -877,7 +893,8 @@ exercised. Serious events (death, hospitalisation, serious deterioration) came o
 The harm data are thin. Only 49% of trials reported adverse events at all, and the review grades no
 certainty. The 58 low-risk-of-bias trials gave a higher ratio, 1.49 (1.16-1.91). The authors tie this trend to
 their meta-regression, in which risk of bias explained all the observed heterogeneity, and say the
-overall figure «may underestimate the risk of non-serious adverse events». Condition subgroups
+overall figure «may underestimate the risk of non-serious adverse events»
+[@niemeijer2020]. Condition subgroups
 (older adults 1.16, healthy participants 1.57, osteoporotic 2.14 on 6 trials) were not tested
 against each other; treat them as hypotheses.
 [@niemeijer2020] ->
@@ -993,7 +1010,10 @@ with osteoporosis, for the very elderly and for people with multiple co-morbidit
 Most participants were postmenopausal women, and care-home residents and people after a vertebral
 fracture are barely covered, so the reassurance does not reach them.
 
-In this guide's reading, one cheap default is worth applying beyond the studied groups. The authors suggest that people with osteoporosis «avoid specific and repetitive spinal forward flexion exercises, and instead focus on spinal extension», on two papers plus mechanism, and add that «there is no evidence that single forward flexion movements in daily activities or ‘roll down’ Pilates movements cause vertebral fractures» [@kunutsor2018adverse]. So swap repeated loaded forward bending (sit-ups, some yoga moves) for extension work, and do not police
+In this guide's reading, one cheap default is worth applying beyond the studied groups. The authors suggest that people with osteoporosis «avoid specific and repetitive spinal forward flexion exercises, and instead focus on spinal extension», on two papers plus mechanism, and add that «there is no evidence that single forward flexion movements in daily activities or ‘roll down’ Pilates movements cause vertebral fractures» [@kunutsor2018adverse].
+
+They also caution: «However, it needs to be emphasized that evidence that forward flexion exercise interventions cause vertebral fractures are limited and caution should be used in giving advice to patients about appropriate movements based on their low BMD measurements alone.» [@kunutsor2018adverse]
+Even so, swap repeated loaded forward bending (sit-ups, some yoga moves) for extension work, and do not police
 everyday bending (labelled default, postmenopausal-skewed evidence). Fuller programming is for a
 clinician or physiotherapist -> [[Exercise Safety in Osteoporosis]].
 
@@ -1004,6 +1024,10 @@ frequent under HIIT
 [@franklin2020acute]. How hard and how
 much a cardiac patient should train is a clinical decision for the rehabilitation team, outside this
 guide -> [[Exercise-Related Acute Cardiac Events]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Rank the levers by where you start
 
@@ -1130,6 +1154,8 @@ For particular ages and goals:
 > | **Evidence included** | 58 sources — 41 gold, 14 high, 3 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Kodama (meta-analysis, moderate); Ross (narrative review, moderate); Marin-Jimenez (method, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-06 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Physical%20Activity.md) |
+
+</div>
 
 ## References

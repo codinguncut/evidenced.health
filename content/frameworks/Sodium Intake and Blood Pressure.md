@@ -18,7 +18,7 @@ relationships:
     - Should Sodium Reduction Be Population-Wide or Targeted
     - Net Effect vs Intended Effect
 created: 2026-07-26
-updated: 2026-10-28
+updated: 2026-11-12
 self_critiqued: 2026-10-26
 ---
 
@@ -83,6 +83,8 @@ itself:
 > disease, stroke and coronary heart disease was of lower quality. Therefore, these recommendations
 > should be reviewed when more evidence... becomes available."
 [@who2012]
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The published RCT meta-analysis behind the effect `[2026-07-31, He 2013]`
 
@@ -149,7 +151,9 @@ are **not contradictory** — WHO's is baseline-intake-as-modifier, He's is dose
 
 **Width caveat (author's own):** the meta-regression dose-response «should be viewed as exploratory and
 could be prone to confounding» — a between-study (ecological) estimate; He flags that individual-
-participant-data meta-analysis would be needed to pin it. So *larger reduction -> larger fall* is
+participant-data meta-analysis would be needed to pin it, and adds: «Nevertheless, the dose-response
+relation found in our study is consistent with that observed from rigorously controlled trials with
+multiple levels of salt intake, which provided the most persuasive evidence.» So *larger reduction -> larger fall* is
 supported as **direction/shape**, not as a precise per-gram coefficient. This is the domain's
 every-reduction-pays default (telos dose-response section) instantiated on a recovery-biomarker
 exposure. The 3 g/day target is a policy extrapolation beyond the trial range and carries the advocacy
@@ -262,6 +266,10 @@ rising at a larger contrast, including in its >=7-day subgroup — and the two l
 be numerically compatible.
 [inferred from @graudal2020sodium; @he2013]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The opposing Cochrane review — same hypertensive BP effect, a compensation arm the other lineage reads as transient `[2026-10-22, Graudal 2020]`
 
 Graudal, Hubeck-Graudal & Jürgens 2020 (Cochrane CD004022, 4th update) is the review whose 2011/2017
@@ -372,8 +380,8 @@ The hidden term: **across trials, duration and contrast size travel together**, 
 themselves. He: the compensatory responses are «bigger with sudden and large decreases in salt intake and
 much smaller or minimal with a longer term modest salt reduction» [@he2013].
 Huang: «large, short term reductions in sodium could elicit a different type of blood pressure response»
-[@huang2020]. Graudal: the >4-week trials stop «above 87 mmol/day» (quoted
-above), and the renin/aldosterone funnel asymmetry arises because «large sodium reductions to low levels
+[@huang2020]. Graudal: the very few >4-week trials that investigated side effects stop
+«above 87 mmol/day» (quoted above), and the renin/aldosterone funnel asymmetry arises because «large sodium reductions to low levels
 of sodium intake mainly was performed in small studies» [@graudal2020sodium]. Long
 trials' low arms sit at \~80-90 mmol/day (He's \~78-87, from medians 153-162 minus 75)
 .
@@ -496,6 +504,8 @@ carrying only refs 40-41 (renin's prognostic importance); by context it presumab
 &gt;=4-week subgroup (ref 33, not held), so the persistence claim cannot be checked here [@who2012].
 [inferred from @who2012; @graudal2020sodium]
 
+</div>
+
 ## How the gap is bridged — a disclosed surrogate transfer
 
 The bridge is explicit, and it is the guideline's most consequential methodological act:
@@ -560,6 +570,8 @@ is "independent of baseline sodium intake." **A monotone gradient declared absen
 interaction test is a claim about power as much as about biology.**
 [inferred from @who2012]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The J-curve — named as the reason for the review, then never adjudicated
 
 WHO names the J-shaped hypothesis twice in framing sections, citing two 2011 cohort studies proposing
@@ -609,9 +621,9 @@ NHANES data showing sick and healthy people eat the same sodium. Against measure
 misclassification is «not systematic, but random... which contributes to an underestimation of the
 outcome, but do not cause a change of the direction of the outcome»
 [@graudal2020sodium]. That defence covers only
-classical random error. The mechanism this page flags for PURE — error that is **unequal across the
-range**, largest at the extremes — can bend a flat curve into a U, and a random-error argument does not
-reach it -> [[The U-Shaped Association Artifact]]. So one camp names the artifact recipe without testing it and
+classical random error. The possibility this page flags for PURE — error that is **unequal across the
+range**, untested in the held sources (see the PURE paragraph below) — could bend a flat curve into a U,
+and a random-error argument does not reach it -> [[The U-Shaped Association Artifact]]. So one camp names the artifact recipe without testing it and
 the other runs weak checks (adjusted cohorts, healthiest subgroups, NHANES); neither runs a
 referent-correction or MR.
 [inferred from @graudal2020sodium]
@@ -637,6 +649,10 @@ Graudal poles (sections above), **and none
 runs the confounder-immune adjudication.** GBD corroborates *unprobed, not disproved*; it does not close
 the gap -> [[The U-Shaped Association Artifact]].
 [inferred from @afshin2019]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The hard-outcome RCT arrives — but on a confounded (Na-down + K-up) exposure `[2026-08-04, Neal SSaSS]`
 
@@ -691,16 +707,21 @@ contraindicated** on mechanism and clinical precedent (Aburto [inferred from @ab
 the trials excluded these people, so the in-stratum evidence is insufficient, not shown safe and not
 measured as harm. [@neal2021]
 
-**The events slightly exceed what the measured BP fall predicts — a recurring pattern.** Via
+**The events are not distinguishable from what the measured BP fall predicts.** Via
 [[Blood Pressure Lowering and Cardiovascular Events]] (BPLTTC: \~13% stroke reduction per 5 mmHg SBP), a
-−3.34 mmHg fall predicts a stroke RR near **0.91**; SSaSS observed **0.86**. The observed benefit
-outruns the BP-channel prediction — the same excess [[Potassium Intake and Blood Pressure]] found for
-potassium's cohort stroke effect. Three non-exclusive reasons: (i) a **BP-independent** electrolyte
-effect (potassium); (ii) the measured −3.34 mmHg **understates** the sustained effect (adherence
-dilution + a single-day recovery-biomarker + Huang's short-trial underestimate — the page's *lower-bound*
-reading); (iii) noise in a single subgroup measurement. Direction is corroborated; the exact split
-between sodium, potassium and dilution is **not identified** by this trial.
+−3.34 mmHg fall predicts a stroke RR near **0.91**; SSaSS observed **0.86**, but 0.91 lies inside
+SSaSS's own interval (0.77-0.96), so the trial shows **no excess** over the BP-channel prediction. Neal
+reads the stroke effect as «in accordance with a mechanism of action mediated through blood-pressure
+reduction» [@neal2021]. The
+point estimate sits on the same side as the excess [[Potassium Intake and Blood Pressure]] reports for
+potassium's cohort stroke effect, and three non-exclusive readings would fit a real gap if one exists:
+(i) a **BP-independent** electrolyte effect (potassium); (ii) the measured −3.34 mmHg **understates**
+the sustained effect (adherence dilution + a single-day recovery-biomarker + Huang's short-trial
+underestimate — the page's *lower-bound* reading); (iii) noise in a single subgroup measurement. This
+trial demonstrates none of them; the split between sodium, potassium and dilution is **not identified**.
 [inferred from @neal2021; @bplttc2021]
+
+</div>
 
 ## Salt substitutes pooled — the hard-outcome benefit is mostly one trial's, with no mortality evidence from outside China `[2026-10-26, Lai]`
 
@@ -976,6 +997,8 @@ subgroup supports the BP part of it, on 693 people.
   point to the same 126 hypertensive participants entering the BP pool twice; whether Lai de-duplicated
   them is in the unheld supplement), not a finding against it.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## PURE lands the J directly on hard outcomes — a pole, not the adjudicator `[2026-08-27, Mente 2016]`
 
 The gap this page kept flagging — *nobody measures the low arm directly on hard outcomes* — is now
@@ -1013,9 +1036,14 @@ coherent. But it does **not** explain the low-arm harm, which is where the artif
 **Why PURE is a pole and not the adjudication this page's AWAITS seeks.** The exposure is a **single
 fasting morning midstream urine** run through the **Kawasaki formula** to estimate 24h sodium
 (validated ICC \~0.70 vs a 24h collection; regression-dilution corrected from 30-90-day repeats in 448
-people). That is a one-day recovery biomarker, and its error is **largest at the extremes** — exactly
-where the J-arms sit — so a flat true relationship can be **bent into a U** by unequal measurement error
-alone, with no confounder and no reverse causation, and it would pass the checks Mente ran
+people). That is a one-day recovery biomarker. Whether its error is **largest at the extremes** —
+where the J-arms sit — is **untested** in the held sources: Mente argues that correcting toward 24-h
+values would steepen the associations at both the low and the high end [@mente2016pure],
+and Graudal, citing He 2018, argues a single estimate gave an outcome almost identical to multiple 24-h
+measurements [@graudal2020sodium]; neither
+tests error by intake level. *If* the error were unequal across the range, a flat true relationship
+could be **bent into a U** by measurement error alone, with no confounder and no reverse causation, and
+it would pass the checks Mente ran
 -> [[Measurement Error in Dietary Assessment]], [[The U-Shaped Association Artifact]]. Mente ran only the
 **weak** artifact checks (exclude events in the first 2 years; exclude in turn those with known
 CVD/hypertension/diabetes; exclude anti-hypertensive users) — the pattern held — but ran **no
@@ -1035,6 +1063,8 @@ contaminated**, and the study cannot separate those. This is why the WHO/He surr
 (sodium -> BP -> CVD, assumed monotone) and PURE's direct observation give **opposite signs below 3
 g/day**. The full joined-issue analysis is [[Should Sodium Reduction Be Population-Wide or Targeted]].
 [inferred from @mente2016pure]
+
+</div>
 
 ## What is absent (from WHO 2012)
 

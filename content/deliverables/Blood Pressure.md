@@ -57,7 +57,7 @@ authors: [Blood Pressure Lowering Treatment Trialists Collaboration (org); Lonn,
   Pagonas, Nikolaos; Goessler, Karla Fabiana; Carlson, D J; Jensen, Michael D]
 confidence: medium
 created: 2026-08-10
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-10-28
 ---
@@ -505,11 +505,15 @@ What people eat moves BP too, by similar amounts.
 
 </div>
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Diet pattern and salt each lower BP a few mmHg; together they lower it by less than the sum
 
 **A DASH-style diet and a sodium cut each lower SBP by roughly 3 to 5
 mmHg; done together they lower it by less than the two numbers added.** Most figures in this section are
-BP changes measured over weeks. Only the salt substitute has trials that counted strokes and deaths.
+BP changes measured over weeks. Only the salt substitute has event trials that found fewer strokes and deaths.
+Sodium reduction has two trials that counted cardiovascular events; pooled, they were inconclusive, with
+too few events to detect an effect [@who2012].
 
 
 ### DASH lowers SBP by about 3 to 5 mmHg against a typical diet
@@ -598,7 +602,7 @@ sodium, potassium and weight-loss numbers in this guide overlap and cannot be ad
 controlled feeding shows what the diet can do, not what people achieve on their own.
 [inferred from @sacks2001dashsodium]
 
-### A salt substitute is the one diet change with event trials, and they come from China
+### A salt substitute is the one diet change whose event trials show fewer strokes and deaths, and they come from China
 
 The Salt Substitute and Stroke Study (SSaSS, China) switched 20,995 high-risk adults, 72.6% with a prior
 stroke, from regular salt to a 75% sodium chloride / 25% potassium chloride substitute. SBP fell 3.34 mmHg;
@@ -667,6 +671,8 @@ Detail in [[Sodium]].
 
 Beyond these, a long list of foods, supplements and practices are claimed to lower BP; most of the
 effects are small, unconfirmed, or large only in weak trials.
+
+</div>
 
 ## Supplements, mind-body methods and most single foods either barely move BP or move it only in weak trials
 
@@ -1272,12 +1278,14 @@ hypertension is the closest proxy, covered in [[Sodium]] and
 
 Risk sets how much a fall in BP buys; the last question is how low BP can go and still pay off.
 
-## In high-risk trials a lower target prevented more events, and the pooled randomised data do not reproduce the observational J-curve
+<div class="recent-update" data-last-updated="2026-11-12">
+
+## In high-risk trials a lower target prevented more events, and the largest randomised pool does not reproduce the observational J-curve
 
 **In
 high-risk people, a systolic target below 120 mmHg prevented more events and deaths than a target below
-140, and caused more serious side effects.** The worry that pushing BP too low raises risk comes mainly from observational curves, and **the pooled
-randomised data do not reproduce it**. One group stays open: people without CVD in the lower two thirds of one trial's baseline systolic pressure (143.5 mmHg or less), where that
+140, and caused more serious side effects.** The worry that pushing BP too low raises risk comes mainly from observational curves, and **the largest randomised
+pool does not reproduce it**. One group stays open: people without CVD in the lower two thirds of one trial's baseline systolic pressure (143.5 mmHg or less), where that
 trial points the other way [[Blood Pressure Lowering and Cardiovascular Events]].
 
 ### SPRINT: a lower target bought fewer events in high-risk people, at a cost
@@ -1312,7 +1320,7 @@ fewer events per 1,000 is worth those risks is the person's call**, and the trad
 SPRINT's level of risk, not to everyone with a raised reading
 ([[Blood Pressure Lowering and Cardiovascular Events]]).
 
-### The pooled randomised data do not reproduce the registry J-curve
+### The largest randomised pool does not reproduce the registry J-curve
 
 A registry of people with ischaemic heart disease showed a J-shaped association between BP and events,
 with risk lowest around 130/75 mmHg, which suggested that lowering BP below that level could raise risk
@@ -1326,8 +1334,9 @@ This guide does not have that meta-analysis.
 lowering similar across categories of baseline systolic pressure «down to less than 120 mm Hg»
 [@bplttc2021].
 
-**So the J-curve's low arm is not a treatment effect.**
-But the per-stratum HRs below 130 appear only in a figure image this guide has not transcribed, so the
+**So the largest pool of randomised trials gives no sign that the J-curve's low arm is a treatment
+effect.** The randomised trial and tabular meta-analysis BPLTTC cites above, and HOPE-3's within-trial
+gradient below, keep the question open for people without CVD. And the per-stratum HRs below 130 appear only in a figure image this guide has not transcribed, so the
 guide cannot give the lowest stratum's confidence interval
  ([[Blood Pressure Lowering and Cardiovascular Events]]).
 
@@ -1414,6 +1423,8 @@ roughly 6-15 mmHg, as large as or larger than the whole effect of cutting salt
 monitoring (ABPM).
 
 Together, these estimates give a short action list for each group.
+
+</div>
 
 <div class="recent-update" data-last-updated="2026-11-10">
 
@@ -1565,7 +1576,7 @@ section names where.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The trials leave questions open, and that limits how firm this guide can be
 
@@ -1665,7 +1676,7 @@ cognitive trajectories beside events would close it.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 4 source(s) below the gold/high evidence bar feed this page: Sutton (RCT, weak); Pagonas (RCT, moderate); Goessler (RCT, moderate); Carlson (RCT, moderate). Their roles and limitations are described in the text. |
 > | **Method sources** | GRADE. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Blood%20Pressure.md) |
 
 </div>
 

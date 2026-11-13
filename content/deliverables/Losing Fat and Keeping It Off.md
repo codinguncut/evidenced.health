@@ -4,7 +4,7 @@ title: Losing Fat and Keeping It Off
 aliases: [Losing Fat and Keeping It Off, Weight Loss, How to Lose Weight, Weight-Loss Methods, Keeping Weight Off, Fat Loss, How Fast Is Too Fast, Rate of Weight Loss, Crash Diet, Fast vs Slow Weight Loss]
 confidence: medium
 created: 2026-09-09
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-10
 concrete_subject_audited: 2026-11-03
 question: 'For an adult who has decided to reduce body fat: how do the available methods — diet composition, calorie restriction, exercise, total diet replacement, and pharmacotherapy (the GLP-1 class) — compare on how much weight comes off, what else changes (lean mass, function), whether the loss reaches a hard outcome or only a surrogate, and how durably it lasts; and does the rate of loss or the source of the deficit (diet-created vs exercise-widened) change body composition over and above the amount lost?'
@@ -107,7 +107,7 @@ regain has not been shown. The ranking behind this order is in
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Pick the diet you will stick to: the deficit sets the loss, not the macronutrient split
 
@@ -168,7 +168,7 @@ weeks, then attended monthly maintenance visits.
   [@lean2018]; **35.6 vs 3.4 per 100 at 24 months**
   [@lean2019].
 
-**Keeping the loss took repeated rescue.** About half the intervention arm needed
+**About half needed at least one rescue phase to keep the loss.** About half the intervention arm needed
 at least one relapse phase in two years — a brief return to formula, with orlistat offered
 [@lean2019]. DiRECT did not test a 12-week course with no relapse plan, and no remission data run past 2 years.
 -> [[Total Diet Replacement and Type 2 Diabetes Remission]]; remission as a disease outcome ->
@@ -241,7 +241,7 @@ the likeliest to have moved since. They are the guideline's summary of trials th
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Expect much of the loss to return, and treat maintenance as its own phase
 
@@ -266,7 +266,7 @@ each other.
 Across food-based programmes, Franz puts the loss kept at 24, 36 and 48 months at about 3-4 kg (3-4.3%
 of body weight). **Treat that figure as a ceiling, not an average.** Most figures come from people who
 finished the trials, while about three in ten dropped out. If dropouts regained more, as they usually
-do, a typical starter keeps less. Franz also notes that once the loss plateaus, people who continue the programme do not start losing again, and stopping it entirely brings regain [@franz2007]. You have to hold the deficit to
+do, a typical starter keeps less. Franz also notes that once the loss plateaus, continuing the programme appears not to restart the loss, and stopping it entirely makes regain likely [@franz2007]. You have to hold the deficit to
 keep the result, long after it stops producing new loss.
 [inferred from @franz2007]
 
@@ -726,15 +726,15 @@ measured by scans or impedance, and lean mass is not the same as skeletal muscle
 > -> [[Resistance Training for Sarcopenic Obesity]]. **Whether RT and protein during weight loss protect
 > function or lifespan has not been shown either way.**
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## A GLP-1-class drug takes off far more weight, but only while you take it
 
 **A GLP-1-class drug takes off about 10-15 percentage points more body weight than lifestyle alone at a
-year. About two-thirds of the loss returns within a year of stopping.** Examples are
-semaglutide and tirzepatide, which also acts on a second gut-hormone receptor. In people without
+year. When STEP-1 stopped semaglutide, about two-thirds of the loss returned within a year.** Examples are semaglutide and tirzepatide, which also acts on a second gut-hormone receptor. In people without
 diabetes, the one confirmatory hard-outcome trial result is SELECT's, for semaglutide, in people who already have heart disease. In
-type 2 diabetes, the class cut events and deaths.
+type 2 diabetes, the GLP-1 receptor agonists cut events and deaths; that pooled result left out dual GLP-1/GIP
+agonists such as tirzepatide by design [@badve2024glp1].
 
 ### The weight comes off while the drug is taken
 
@@ -867,7 +867,7 @@ findings. Nong calls high cost a major barrier
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Weigh yourself as a cheap add-on, then act on the summary
 
@@ -960,9 +960,7 @@ Each line condenses a section above; the sources sit with the figures there.
 - **RT during the deficit:** three sessions a week, the tested dose; keeps about 0.8 kg lean
   (0.36-1.27), tested in overweight or obese older adults (mean age above 57).
 - **Protein:** about 1.0-1.5 g/kg/day during the deficit (lean +0.4 to +0.8 kg in trials). Whether more
-  buys more is untested in dieters with obesity; in non-obese resistance-trained dieters, fat-free mass
-  tracked intake linearly from 0.8 up to 3.2 g/kg between studies (exploratory)
-  -> [[Protein Intake During Energy Restriction]]. Past 60, spread it across meals (an acute synthesis
+  buys more is untested in dieters with obesity -> [[Protein Intake During Energy Restriction]]. Past 60, spread it across meals (an acute synthesis
   study puts the per-meal plateau at roughly 15-41 g for 70 kg).
 - **Scale:** daily or weekly inside a programme, at least weekly afterwards; stop if it distresses you.
 - **GLP-1-class drug:** about 10-15 percentage points of body weight more than lifestyle at 1 yr, held
@@ -980,7 +978,7 @@ Each line condenses a section above; the sources sit with the figures there.
 > | **Evidence included** | 40 sources — 17 gold, 22 high, 1 moderate |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 1 source(s) below the gold/high evidence bar feed this page: Moore (RCT, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-10 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Losing%20Fat%20and%20Keeping%20It%20Off.md) |
 
 </div>
 

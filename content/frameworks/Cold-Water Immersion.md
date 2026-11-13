@@ -8,7 +8,7 @@ cluster: cold-exposure
 nucleus: true
 confidence: low
 created: 2026-09-16
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-10-22
 relationships:
   related_to:
@@ -20,6 +20,7 @@ relationships:
     - Flexibility Training and Stretching
     - Massage Therapy for Pain and Function
 ---
+<div class="recent-update" data-last-updated="2026-11-12">
 
 **Peripheral-scope lifestyle lever (cold exposure), and a SMALL, MOSTLY-SURROGATE, HEAVILY
 TIME-DEPENDENT one — not a big rock.** CWI is admitted on the same evidence bar as food or activity,
@@ -36,6 +37,12 @@ The exposure is specifically **cold shower, ice bath, or plunge at water tempera
 &gt;=30s** in healthy adults [@cain2025cwi] — not
 cold-water swimming (which confounds CWI with exercise). The athletic-recovery use the term is usually
 attached to is a different exposure context, kept in its own section below.
+
+Whether cold water right after resistance training blunts muscle or strength gains is held on this page
+as a gap, not a finding: no held source tests it, and Cain mentions blunting only as background, citing
+three unheld meta-analyses (see *After exercise* below).
+
+</div>
 
 ## The fad gap — popularity vastly exceeds the evidence
 
@@ -70,7 +77,7 @@ estimate). Load-bearing limitations, all stated by the source:
 - **Sleep, mood, inflammation-narrative and sickness-absence rest on single moderate-quality studies**
   — interpret more cautiously than the pooled outcomes.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Effect estimates — magnitude, CI, timepoint, certainty grade
 
@@ -78,7 +85,7 @@ Report every estimate with its timepoint: the source's central finding is that t
 significance of CWI's effect **change with time since immersion**, so a timepoint-free statement is
 meaningless here.
 
-**Inflammation — CWI ACUTELY RAISES it (Grade B) [@cain2025cwi].** This is the best-graded pooled finding, and at 0-1 h it runs
+**Inflammation — CWI ACUTELY RAISES it (Grade B) [@cain2025cwi].** It shares the best grade with the single 12 h stress reading (both Grade B), and at 0-1 h it runs
 against the popular *reduces-inflammation* claim (the authors' own caveat on what it measures follows the
 table):
 
@@ -163,7 +170,8 @@ short-term increases in inflammation.» Applying the telos bars:
 - **No patient-important outcome is moved on gold evidence.** Every positive is a surrogate (pooled
   SMD) or a soft self-report (sickness absence, Likert sleep/QoL) at a single timepoint, mostly in
   men, mostly single-session. There are no hard endpoints, no long-term data, and no dose-response.
-- **The best-graded pooled finding is a mild negative for the popular claim at 0-1 h** — inflammation
+- **One of the two best-graded pooled findings is a mild negative for the popular claim at 0-1 h** (the
+  other is the single 12 h stress reading, also Grade B) — inflammation
   markers rise right after immersion rather than fall. This is *symmetric standards* working: the fad's
   central mechanistic selling point gets no support in the first hour, and the authors suggest the rise
   may be metabolic rather than systemic. The post-exercise recovery review is mixed (null pooled IL-6
@@ -191,6 +199,8 @@ is NOT a tension — they answer different questions on different exposures. Sau
 observational mortality gradient (a hard endpoint, one Finnish cohort, the frequency gradient detected in men, women insufficient evidence, no RCT); CWI has RCT-level
 surrogate SMDs (better design, softer endpoints, no mortality data). Neither transports to the other,
 and neither is a big rock. The cross-link is structural parallelism, not a shared claim.
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## After exercise: immersion as a recovery technique (a different exposure context)
 
@@ -248,7 +258,7 @@ loosely in the results, and in reference titles, never as a training-adaptation 
 only as background: «there is a growing body of evidence suggesting that the regular use of CWI after
 training sessions can blunt increases in muscle size [7] and the development of muscular power and
 muscular strength [2,8].» [@cain2025cwi]
-The two meta-analyses it cites are not held: — hypertrophy after resistance training; — strength gains.
+The three meta-analyses it cites are not held: — hypertrophy after resistance training; — strength and endurance; — strength gains.
 
 - **Labelled default for soreness after a session**: a cold soak (≤15°C) is cheap and
   low-harm, with a small-to-moderate single-session effect on soreness (unblinded, unstated comparator,
@@ -257,6 +267,8 @@ The two meta-analyses it cites are not held: — hypertrophy after resistance tr
   If gaining muscle or strength is the goal, a background claim of blunting (above, unheld) is reason to
   keep cold soaks for occasions when next-day soreness matters more than adaptation. Standard caution, not
   a tested trade-off.
+
+</div>
 
 ## Gaps (acquisition targets, not silences)
 

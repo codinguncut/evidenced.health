@@ -7,8 +7,8 @@ sources: [Yao - Vitamin D Calcium Fracture 2019, Bolland - Calcium Vitamin D Car
 cluster: supplements
 confidence: medium
 created: 2026-08-06
-updated: 2026-09-23
-self_critiqued: 2026-09-23
+updated: 2026-11-12
+self_critiqued: 2026-11-12
 relationships:
   related_to:
     - Vitamin and Mineral Supplements for Disease Prevention
@@ -19,14 +19,17 @@ relationships:
     - Is the Food Category Doing Any Work
     - The Observational-Trial Discordance
 ---
+<div class="recent-update" data-last-updated="2026-11-12">
 
 **Facet of the `supplements` cluster** (nucleus [[Vitamin and Mineral Supplements for Disease Prevention]]).
 This is the **fracture** decision specifically, and it splits three ways that the general supplement-null
 does not resolve: **vitamin D alone** (null), **vitamin D + calcium** (a real but small hip-fracture benefit
-that lives in the high-risk/institutionalized stratum), and the **net-effect** question — whether even that
+larger in the high-risk/institutionalized stratum for any fracture, only marginally so for hip), and the **net-effect** question — whether even that
 benefit survives the cardiovascular and kidney-stone harms of the calcium supplement. The decision is
 **stratum-dependent**, and for the community-dwelling replete person the whole-strategy ledger runs
 **against** the supplement [inferred from @yao2019; @bolland2011; @kahwati2018].
+
+</div>
 
 ## The efficacy structure — three distinct answers, one gold SR-MA (Yao 2019)
 
@@ -55,9 +58,13 @@ Yao 2019 (gold SR+MA, JAMA Netw Open) runs the three arms in parallel and they d
   from one source, so a clean within-source comparison) isolates **calcium** as the active co-ingredient at
   these vitamin-D doses.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Where the D+Ca benefit lives — the institutionalized/high-risk arm (the resolvent)
 
-The 16% hip-fracture reduction is **not uniform** — it concentrates in the older institutionalized. «the
+The D+Ca reduction is **not uniform** — it is larger in the older institutionalized for *any* fracture,
+and only marginally so for hip fracture (P for heterogeneity = .07, quoted under the parameter table
+below). «the
 combined supplementation of calcium and vitamin D was associated with more extreme changes in risk of any
 fracture in the RCTs of older participants (ie, aged 80 years) living in an institution than those younger
 than 80 years living in the community (P for heterogeneity = .02)»
@@ -74,6 +81,10 @@ high-risk/institutionalized (older, often vitamin-D-deficient, low dietary calci
 little-to-nothing in the community-dwelling replete (the enhancement arm)
 -> [[Deficiency Repletion vs Enhancement]].
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Yao vs Kahwati is a DISTINCTION, not a tension — the population differs, not the finding
 
 Yao (D+Ca reduces hip fracture) sits beside the held Kahwati 2018 (USPSTF SR: D+Ca does **not** reduce
@@ -84,15 +95,20 @@ not?* **It does not survive the parameter table.**
 |---|---|---|---|
 | Outcome | hip fracture | hip fracture | **YES** |
 | Intervention | D 400-800 IU + Ca 1000-1200 mg/day daily [@yao2019] | D 400-800 IU + Ca 1000-1600 mg/day daily [@kahwati2018] | **YES** (standard-dose daily D+Ca) |
-| Pooled effect | RR **0.84 (0.72-0.97)**, 6 RCTs, n=49,282 [@yao2019] | HR **0.88 (0.72-1.08)**, 2 RCTs, n\~39k (WHI+Porthouse) [@kahwati2018] | **direction + point estimate agree; CIs overlap** |
+| Pooled effect | RR **0.84 (0.72-0.97)**, 6 RCTs, n=49,282 [@yao2019] | HR **0.88 (0.72-1.08)**, **WHI CaD alone** (n=36,282 postmenopausal women 50-79); the only other eligible trial had 1 hip fracture, so not a two-trial pool [@kahwati2018] | **direction + point estimate agree; CIs overlap** |
 | Population | **INCLUDES** institutionalized elderly (Chapuy Decalyos, age \~85) + community [@yao2019] | community-dwelling **ONLY**; institutionalized / deficient / osteoporotic / prior-fracture **EXCLUDED** [@kahwati2018] | **NO** |
 
 **Not-joined check (ii) fires — different scope/population, consistent once matched.** The point estimates
 (0.84 vs 0.88) barely differ and the intervals overlap heavily; the *only* material difference is
-statistical significance, and that is driven by **which trials each pool contains**. Yao includes the
-institutionalized trials (Chapuy) where the effect lives; Kahwati excludes exactly those populations by
-design, leaving a community-dwelling residual that is null. Yao itself reports the effect concentrates in
-the institutionalized (P-het .02) — so strip those and Yao's residual approaches Kahwati's null. **No tension
+statistical significance, plausibly driven by **which trials each estimate contains**. Yao includes the
+institutionalized trials (Chapuy) where the effect appears larger; Kahwati excludes exactly those populations
+by design, and its hip estimate is a single community-dwelling trial in postmenopausal women (WHI CaD), which
+is null. Yao reports the D+Ca risk reductions «somewhat greater» in institutionalized older participants —
+P-het .02 for *any* fracture, but for hip only «Marginally significant lower risks of hip fracture were also
+observed in RCTs among older participants living in institutions (P for heterogeneity = .07) and in those
+achieving greater treatment differences in 25(OH)D concentration (P for heterogeneity = .08).»
+[@yao2019] — so stripping those trials would plausibly move
+Yao's hip residual toward Kahwati's null, though the hip subgroup test does not establish it. **No tension
 is filed; this is a distinction resolved by population** [inferred from @yao2019; @kahwati2018].
 
 **What Yao adds to the fabric (type-F, NOT independent E).** The high-risk/institutionalized fracture-benefit
@@ -101,10 +117,14 @@ benefits overall appear to be largely attributable to benefits among the high-ri
 [@kahwati2018]). Yao now supplies
 **direct, within-review** evidence for that leg: a pooled significant 0.84 with an in-review
 residential-status interaction. This is a **refinement, not an independent witness** — WHI/Jackson 2006
-dominates both Yao's and Kahwati's D+Ca pools (Porthouse 2005 is also shared), so they are not independent;
+dominates both Yao's and Kahwati's D+Ca pools, so they are not independent;
 no `[E-independent]` is claimed [inferred from @yao2019; @kahwati2018]. The two arms
 are now both anchored — enhancement-null (Kahwati/VITAL, direct) and high-risk benefit (Yao, direct)
 -> [[Deficiency Repletion vs Enhancement]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The net-effect ledger — the fracture benefit must be netted against CV + stone harm
 
@@ -115,7 +135,7 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
 
 | Outcome | Effect (Ca±D supplement) | Source | Certainty |
 |---|---|---|---|
-| Hip fracture (**benefit**) | RR 0.84 (0.72-0.97); concentrated in institutionalized | Yao 2019 | low SoE, high RoB trials |
+| Hip fracture (**benefit**) | RR 0.84 (0.72-0.97); somewhat greater in institutionalized (hip P-het .07, marginal) | Yao 2019 | low SoE, high RoB trials |
 | Kidney stones (**harm**, D+**Ca** only) | pooled ARD +0.33% (0.06-0.60), RR 1.18 (1.04-1.35) | Kahwati 2018 | **moderate** SoE |
 | Cardiovascular — MI (**harm**) | RR **1.24 (1.07-1.45)** Ca±D (Bolland); RR **1.25 (1.07-1.45)** (Myung) | Bolland 2011; Myung 2021 | direction corroborated; not independent |
 | CV — CHD (**harm**) | RR **1.16 (1.05-1.28)**, I2=0%, n=9 | Myung 2021 | pre-specified primary; low-RoB-driven |
@@ -196,10 +216,14 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   his largely **community-dwelling, healthy postmenopausal** cohort — the *enhancement* arm, where Yao and
   Kahwati also find little fracture benefit. So the ledger is cleanest exactly where the benefit is weakest.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Decision — by stratum
 
 - **Community-dwelling, replete, no osteoporosis/prior fracture (the enhancement arm).** The whole-strategy
-  ledger runs against the supplement: **no fracture benefit** (Kahwati direct null; Yao's community residual)
+  ledger runs against the supplement: **no fracture benefit** (Kahwati's WHI-based null; Yao reports no community-only hip estimate)
   **+ CV-harm signal** (Bolland + Myung; direction now corroborated by a second pooled MA, magnitude still
   discounted for WHI-dependence) **+ kidney-stone harm** (Kahwati, moderate SoE). The CV harm bites
   *hardest exactly here*: Myung's cohort was 92.8% women, mean age 66, «healthy postmenopausal women»
@@ -210,7 +234,7 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   **exercise**, not the pill -> [[Exercise for Preventing Falls in Older Adults]]
   [inferred from @yao2019; @kahwati2018; @bolland2011].
 - **Institutionalized / older / vitamin-D-deficient / low dietary calcium (the repletion arm).** Daily D+Ca
-  (800 IU / 1000-1200 mg) has a **real, if small, hip-fracture benefit** (Yao 0.84, concentrated here). The
+  (800 IU / 1000-1200 mg) has a **real, if small, hip-fracture benefit** (Yao 0.84; somewhat greater here, hip subgroup test marginal). The
   harm transport is uncertain — Bolland's CV signal was measured in community-dwelling replete women, not
   this stratum — so the net-effect is more favourable than in the enhancement arm, but the kidney-stone harm
   still applies and the benefit rests on low-SoE, high-RoB trials. A defensible lever for this specific
@@ -220,6 +244,8 @@ cardiovascular disease and higher risks of kidney stones associated with calcium
   [@yao2019].
 - **Establishing deficiency is a prescriber act** (this person's labs), out of the wiki's scope — the move
   stays *test, then replete the confirmed shortfall*, not *supplement broadly to prevent fracture*.
+
+</div>
 
 ## Confidence + gaps
 

@@ -7,7 +7,7 @@ authors: [Baranski, Marcin; Srednicka-Tober, Dominika; Leifert, Carlo; Smith-Spa
 sources: [Baranski - Organic vs Conventional Crops Nutrient Meta-Analysis 2014, Srednicka-Tober - Organic Milk Composition Meta-Analysis 2016, Srednicka-Tober - Organic Meat Composition Meta-Analysis 2016, Smith-Spangler - Organic Foods Safer or Healthier Systematic Review 2012, Baudry - Organic Food Consumption Cancer NutriNet 2018]
 confidence: low
 created: 2026-07-30
-updated: 2026-10-03
+updated: 2026-11-12
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
@@ -97,6 +97,8 @@ organic loses on two micronutrients.
 A uniformly favourable picture would be a halo tell. The honest reading is a mixed, small-magnitude one
 against total-diet intake.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Sub-question 3 — the cattle case: the label tracks the FEED, not the certificate
 
 Here the label and the causal exposure come apart. Organic milk and meat carry a more desirable
@@ -110,7 +112,7 @@ estimated 7 (95 % CI −1, 15) %» for total PUFA and 56% (CI 38, 74) for n-3 PU
 14, 68).
 [@srednickatober2016milk]
 
-For meat (Srednicka-Tober, 67 studies): SFA "similar", MUFA "slightly lower" in organic; total PUFA and
+For meat (Srednicka-Tober, sixty-seven studies): SFA "similar", MUFA "slightly lower" in organic; total PUFA and
 "n-3 PUFA, which were an estimated 23 (95 % CI 11, 35) % and 47 (95 % CI 10, 84) % higher in organic
 meat, respectively." Heterogeneity was high and "could be explained by differences between animal
 species/meat types" — the organic boundary is doing little work across species.
@@ -140,6 +142,7 @@ genuine pasture. So even the labels that sound like pasture do not reliably deli
 the fatty-acid difference. The welfare axis this raises is named, not priced: the wiki adjudicates the
 health axis only.
 
+</div>
 
 ## Sub-question 4 — hard outcomes: one confounded cohort, and no trial
 
@@ -217,6 +220,8 @@ rather than purely about their own health -> [[Should Adults Reduce Red and Proc
 question and the values question are separate axes, and this appraisal answers only the first. What you do with
 the second is yours, weighed against your budget and priorities.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Caveats
 
 - **Open loop.** This grades internal coherence and fidelity to its sources, never validity against the
@@ -242,6 +247,8 @@ the second is yours, weighed against your budget and priorities.
 > | **Evidence included** | 5 sources — 4 moderate, 1 weak |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 5 source(s) below the gold/high evidence bar feed this page: Baranski (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Srednicka-Tober (meta-analysis, moderate); Smith-Spangler (systematic review, moderate); Baudry (cohort, weak). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Organic%20Food.md) |
+
+</div>
 
 ## References

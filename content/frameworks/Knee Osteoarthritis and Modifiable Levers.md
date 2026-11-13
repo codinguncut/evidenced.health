@@ -20,7 +20,7 @@ relationships:
     - Sarcopenia Definition and Diagnosis
     - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-08-08
-updated: 2026-10-06
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 ---
 
@@ -122,6 +122,8 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
   moves the fitness/strength mediators broadly; Messier shows the pain/function payoff in knee OA when
   paired with weight loss.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Cross-links and mechanism
 
 - **The inflammation channel.** IDEA's IL-6 reduction with weight loss is the same lever the wiki holds
@@ -130,9 +132,21 @@ respectively, but no effect of combined strength/aerobic/flexibility exercises o
 - **The adiposity spine.** Weight loss for knee OA sits on the same energy-balance / depot machinery as
   the cardiometabolic levers -> [[Does Weight Loss Reduce Cardiovascular Events]], [[Ectopic Fat and Depot-Specific Risk]], [[Diets for Weight Loss - What NICE Recommends]]. For the overweight knee-OA
   patient the same intervention buys joint AND cardiometabolic benefit — a structural-leverage point.
-- **Protect muscle while losing weight.** IDEA's weight loss cost lean mass (\~4.2-4.7 kg), which in
-  older adults risks weakness/falls; exercise attenuates it and %lean actually rose. So pair weight loss
-  with resistance training -> [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
+- **Protect muscle while losing weight.** IDEA's weight loss cost lean mass: over 18 months lean mass
+  fell 4.2 kg (95% CI -7.4 to -1.1) on diet and 4.7 kg (-7.7 to -1.8) on diet + exercise, vs 2.6 kg
+  on exercise alone, while fat mass fell 4.8 and 6.5 kg; only the lean *share* of body weight rose (+2
+  and +3 points; -1 on exercise alone) [@messier2013idea].
+  Adding IDEA's exercise programme did not shrink the lean-mass loss — the diet + exercise arm lost
+  slightly more — so IDEA does not show exercise attenuating it; the authors cite other work for that
+  («although exercise can attenuate it») and note that lean-mass loss is associated in older adults
+  with weakness and falls [@messier2013idea].
+  The Discussion's «fat mass (D + E, −10.6 kg [−18%]; D, −8.9 kg [−13%])» matches each diet arm's
+  total body-weight loss in the Results (10.6 and 8.9 kg), not Table 2's fat-mass change; this page
+  uses Table 2. Pairing weight loss with resistance training stays a cheap, low-harm
+  default for the lean-mass cost, but IDEA does not test it ->
+  [[Protein and Resistance Training for Muscle and Strength]], [[Sarcopenia Definition and Diagnosis]].
+
+</div>
 
 ## Limits — the open loop
 

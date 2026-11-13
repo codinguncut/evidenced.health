@@ -16,8 +16,8 @@ relationships:
     - Grip Strength and Mortality
     - Low Muscle Mass and Mortality
 created: 2026-07-29
-updated: 2026-10-28
-self_critiqued: 2026-10-28
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 Strength training earns its place in a lever list on two claims: it is associated with lower mortality
@@ -250,6 +250,8 @@ So the triple 0.60 combined convergence, however striking, does **not** raise co
 finding re-pooled. No `[E-independent]` stamp — the cluster stays `low`.
 [inferred from @momma2022]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Zhang 2026 — a repeated-measures cohort: the duration categories, the top arm, and the aerobic overlap `[2026-10-28]`
 
 **How RT was measured.** «In each cycle, participants were asked to report average weekly time spent in
@@ -392,7 +394,10 @@ from *whether they are in the 6-study spline is not shown*; fix-audit). (iii) fi
 counter-passage is its Conclusion, «however, the influence of a higher volume of muscle-strengthening
 activities on all-cause mortality, CVD and total cancer is unclear when considering the observed
 J-shaped associations» [@momma2022] — and Zhang frames its result as aligning with Momma and Shailendra.
-So the sources disagree in their estimates (on a figure-read) and in neither conclusion. Saeidifard's
+So the sources disagree in their estimates (on a figure-read) and in neither conclusion.
+Because check (iii) fires, this is filed as a distinction, not a tension page: no held source tests
+whether a repeated-measures exposure removes the pooled MA upturn (Zhang's main-text sensitivity
+analyses vary lag time and sex, not the exposure measure [@zhang2026rtmort]). Saeidifard's
 &gt;=5 sessions subgroup pools to 1.07 (0.90-1.26); its HPFS row (Grøntved 2012) alone is 1.11 (0.90-1.37),
 the same men on a single-baseline frequency exposure, against Zhang's repeated-measures 0.92 (pooled
 with women; the men-only estimate is in an unheld supplement). A frequency count is not minutes, so it
@@ -401,12 +406,17 @@ subgroup estimate; fix-audit). [inferred from @zhang2026rtmort]
 
 **Type F.** Zhang adds three things no MA here could: a repeated-measures exposure; an upper category
 with 1093 deaths whose below-null estimate conflicts with the pooled MA splines at similar minutes
-(Momma's, and Shailendra's on a subset of its studies; unresolved, see the [REVIEW] above); and an aerobic-adjusted CVD curve with no non-linearity detected. It does not add independent backing to the existence of the effect (shared HPFS
+(Momma's, and Shailendra's on a subset of its studies; unresolved, a distinction filed above); and an aerobic-adjusted CVD curve with no non-linearity detected. It does not add independent backing to the existence of the effect (shared HPFS
 data, same instrument class, same healthy-user confounding), and it cites Momma and Shailendra (its refs
 7-8) as the work it aligns with, so a later study refining cited predecessors is F by construction. [inferred from @zhang2026rtmort]
 
 
 [@momma2022]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The dose — modest, and a J-shape whose above-null arm should not be believed yet
 
 The dose-response is the interesting part, and it is a worked case for
@@ -523,7 +533,9 @@ estimates start rising after their \~40 and \~60 min/week nadirs, Saeidifard's a
 significant above 2 sessions/week, and Zhang's categories show no further benefit past \~1-2 h/week
 (90-119, then >=120 min/week) — on partly shared data, with Shailendra's dose curve a re-pooling of a
 subset of Momma's studies, so not independent support (wording corrected 2026-10-28 from *past \~1-2
-h/week recurs in all four*; fix-audit). It is usable as a labelled ceiling-is-a-finding stop. What does
+h/week recurs in all four*; fix-audit). It is usable as a labelled stop that is a cost call, not a located plateau: past the nadirs the
+overlapping intervals up to \~140 min/week fit a plateau, a shallow further gain or a rise alike (superseded 2026-11-13:
+previously *usable as a labelled ceiling-is-a-finding stop*). What does
 not survive: a reason to chase high MSA volume for mortality, or a demonstrated harm — above \~140
 min/week the held point estimates conflict, and the spline intervals separate narrowly near \~195
 (Momma's and Shailendra's pooled splines — overlapping studies, not independent — above the null,
@@ -560,6 +572,10 @@ beyond each model's last knot a restricted cubic spline is constrained to be lin
 slope. So neither side is a harm or a safety finding; no rise above the null in Zhang's top category (1093 deaths) is not a safety finding for
 volumes beyond it. [inferred from @zhang2026rtmort]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Decision relevance
 
 - **Add strength training — the lower mortality appears at a modest weekly volume**: \~30 to \~120
@@ -572,9 +588,10 @@ volumes beyond it. [inferred from @zhang2026rtmort]
   the best-evidenced activity state). **Stop signal (labelled decision default — cheap, low-harm):** no
   held source shows further mortality benefit beyond \~120 min/week, and above \~140 the held estimates
   conflict (Momma's and Shailendra's pooled splines — overlapping studies, not independent — above
-  1.0, Zhang's top category and spline below it; parked, see the
-  [REVIEW] above), so more than \~2 h/week is not shown to buy more mortality benefit and is shown
-  neither harmful nor safe — a ceiling on current evidence, not a located knee. The effective *volume*
+  1.0, Zhang's top category and spline below it; a distinction, not a tension, see *Zhang 2026*
+  above), so more than \~2 h/week is not shown to buy more mortality benefit and is shown
+  neither harmful nor safe — a ceiling on current evidence, not a located knee, so stopping near \~2
+  h/week is the person's cost call, not a shown zero beyond it. The effective *volume*
   is modest; the optimal *frequency / spacing* (e.g. every \~48 h) is a strength-**adaptation** question
   this mortality evidence does not address.
 - **But weight the warrant honestly.** This is observational, self-reported, very-low-GRADE evidence —
@@ -624,6 +641,9 @@ volumes beyond it. [inferred from @zhang2026rtmort]
 
 
 [inferred from @momma2022]
+
+</div>
+
 ## The healthspan case is stronger than the mortality case — it runs through function and falls (Challenge #17)
 
 The very-low certainty above is for **one endpoint** — muscle-strengthening -> *all-cause mortality*

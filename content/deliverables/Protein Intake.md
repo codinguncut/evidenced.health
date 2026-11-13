@@ -38,7 +38,7 @@ sources:
   - Moore - Protein Requirement Older vs Younger 2014
 confidence: low
 created: 2026-08-10
-updated: 2026-11-03
+updated: 2026-11-12
 self_critiqued: 2026-11-03
 concrete_subject_audited: 2026-11-03
 ---
@@ -82,6 +82,8 @@ advice.** Below eGFR 30 (not on dialysis), PROT-AGE limits older adults to at mo
 > survival or kidney failure. This guide checks that its
 > reasoning is coherent and faithful to its sources, not whether following it leaves anyone better off.
 >
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## If you train, treat about 1.6 g/kg of body weight as a soft floor, not a target
 
@@ -140,6 +142,8 @@ energy deficit, and Morton's main text reports no BMI or body-fat data for the p
 obesity, a g/kg target is undefined until you say which kilogram counts**: total and lean mass diverge, and
 no held study locates the target on either basis. Nor does the knee carry over to older adults or an energy deficit (stratum section). Programming ->
 [[Resistance Training Prescription - Load Sets and Frequency]]; creatine -> [[Creatine Supplementation]].
+
+</div>
 
 ## Do not expect extra protein above your floor to buy function or years: the trials are thin
 
@@ -427,6 +431,8 @@ no ideal-weight adjustment stated. For a heavy person the two would differ -> [[
   [@wang2017bcaa]. So a high reading is
   no reason by itself to cut dietary protein -> [[Branched-Chain Amino Acids and Insulin Resistance]].
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## What to do
 
 **By who you are:**
@@ -484,6 +490,8 @@ dialysis: 0.8 g/kg ideal body weight) -> [[Protein Intake and Kidney Function]].
 > | **Evidence included** | 32 sources — 20 gold, 9 high, 3 moderate |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | 3 source(s) below the gold/high evidence bar feed this page: Song (meta-analysis, moderate); Lowe (RCT, moderate); Moore (RCT, moderate). Their roles and limitations are described in the text. |
-> | **Last updated** | 2026-11-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Protein%20Intake.md) |
+
+</div>
 
 ## References

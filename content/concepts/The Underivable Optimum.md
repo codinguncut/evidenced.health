@@ -7,8 +7,8 @@ sources: []
 cluster: estimate-to-action
 confidence: medium
 created: 2026-08-06
-updated: 2026-11-10
-self_critiqued: 2026-09-05
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - The Estimate-to-Action Gap
@@ -34,7 +34,7 @@ one honest output: **name a data-supported range or direction bounded by a floor
 disclaim the point-optimum.** No single method rule or concept page states this; it is induced across
 them.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-13">
 
 ## Three routes to *no peak* — each holds for a different reason
 
@@ -91,8 +91,9 @@ the *deficiency threshold* to the *upper bound*: same error, the study boundary 
 
 ### Route 1 (the weakest, held conditionally) — on a genuinely flat region the optimum is vacuous
 
-Where a curve reaches a genuine plateau — muscle-protein synthesis flattens above a breakpoint estimated
-at 1.62 g/kg/day — no point *on the plateau* is a peak: past the knee, more buys nothing, so every
+Where a curve reaches a genuine plateau — the candidate here is the resistance-training fat-free-mass gain
+flattening above a breakpoint estimated at 1.62 g/kg/day, a non-significant fit (p=0.079) not shown to be such a plateau
+(2026-11-13 note) — no point *on the plateau* is a peak: past the knee, more buys nothing, so every
 adequate intake is equivalent and *optimum* is near-vacuous rather than merely unmeasured. The flat
 region is therefore itself the *optimum*, which **generalizes** the telos's *a minimum effective dose is
 a region, not a number* and *flat regions tolerate imprecision cheaply* from the minimum-effective-dose
@@ -177,10 +178,15 @@ harm-ceiling or a logistical cap, not by an optimum.
   held non-U curves locate a knee or plateau, almost all on protective exposures, including
   device-measured activity -> mortality (formal non-linearity test), so *objective activity shows no
   plateau* above is also withdrawn. And *measurement error erases a knee but never manufactures one* is
-  withdrawn: error that grows with intake can flatten the top of a self-reported range (Aune concedes
-  it for fruit/veg -> [[Fruit and Vegetable Intake and Health]]), so error can hide a knee **or**
-  manufacture a plateau. What survives of this guard: route 1 still fires only where a flat region is
-  observed, and a *measured* plateau is still weak evidence of a *true* one — now for both reasons.] \~L209-211 ("does not exclude"); (2) "a measured plateau is still weak evidence of a true one" sits against CLAUDE.md's protective-side rule that a located plateau with its studied range is a stop signal — reconcile — surfaced by the Limits of Evidence P-frame compile 2026-11-10, deliverable-layer op cannot repair]
+  withdrawn: error that grows with intake can flatten the top of a self-reported range (Aune does not
+  exclude it for fruit/veg, a hedge rather than a finding -> [[Fruit and Vegetable Intake and Health]]),
+  so error can hide a knee **or** manufacture a plateau. What survives of this guard: route 1 still
+  fires only where a flat region is observed, and a *measured* plateau is still weak evidence of the
+  *true* curve's shape — now for both reasons. That is a claim about shape, not about the decision: on
+  the protective side a located plateau, stated with its studied range, still reads as a stop-adding
+  signal — *located* meaning an increment interval past the stop or a breakpoint CI on a significant fit;
+  no held protective curve on a patient-important outcome meets that, so the held protective stops read
+  as diminishing returns and a cost call (2026-11-13 knees re-score, `meta/telos-review.md`).
 
   - **A worked FOOD instance of both halves of the guard — nuts -> mortality `[2026-08-13]`.** Aune 2016's
     nut dose-response is genuinely *observed* to flatten at \~15-20 g/day for CHD/CVD/all-cause (a real
@@ -192,7 +198,9 @@ harm-ceiling or a logistical cap, not by an optimum.
     measured plateau is weak evidence of a true one. And it carries the **boundary-as-target launder in the
     wild** — Aune names 20 g/day «the optimal intake» *because* returns flatten there, i.e. a knee-region
     relabelled a point-optimum. Read it as a floor-for-most-of-the-benefit with its studied range, never a
-    target.
+    target. (superseded 2026-11-13: on the location evidence the nut flattening is a
+    non-linearity test with no interval past \~20 g/day, so it is a flattening on the point estimates, not
+    an interval-located Route-1 plateau; the floor-for-most-of-the-benefit reading stands.)
   - **A SECOND worked food instance — yogurt -> T2D, the same Route-3-downstream plateau `[2026-09-05]`.**
     Gijsbers 2016's dairy-T2D dose-response MA *observes* a nonlinear inverse for yogurt that flattens at
     \~80 g/day (RR 0.86 vs 0 g/day, then no further decrease above 80 g/d) -> [[Dairy and Cardiometabolic Health]],
@@ -201,7 +209,9 @@ harm-ceiling or a logistical cap, not by an optimum.
     what a reverse-causation ceiling or flat-slope compression would also produce). One instructive
     *contrast* with the nuts case: Gijsbers reports the 80 g/d knee **without** relabelling it an *optimal
     intake* — the boundary-as-target launder is absent here, so the honest object (a knee-region with its
-    studied range, read as a floor for most of the benefit) survives on the page as written.
+    studied range, read as a floor for most of the benefit) survives on the page as written. (2026-11-13:
+    the 80 g/d knee is point-located: the text gives no numeric interval past it, and Figure 4's pooled
+    95% band is not read here, so *plateau* here means flatter on the point estimates, not shown flat.)
     [inferred from @gijsbers2016]
 
 </div>

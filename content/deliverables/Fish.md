@@ -6,7 +6,7 @@ aliases: [Fish, Seafood, Oily Fish, Fatty Fish, Fish Oil, Eating Fish]
 sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, Gencer - Omega-3 Atrial Fibrillation Meta-Analysis 2021, Jayedi - Fish Consumption Chronic Disease Umbrella 2020, Manson - VITAL Marine Omega-3 2019, Bhatt - REDUCE-IT Icosapent Ethyl 2019, Wei - Omega-3 Dementia Cognitive Decline Cohort Review 2023, EFSA - Mercury and Methylmercury in Food 2012]
 confidence: medium
 created: 2026-08-05
-updated: 2026-10-03
+updated: 2026-11-12
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
@@ -114,11 +114,14 @@ downward for all-cause and total CVD mortality -> [[The U-Shaped Association Art
 default — keep the \~1-2 servings/week target — is unchanged: more buys little on CHD mortality but may
 still help all-cause.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Fetal neurodevelopment — a repletion lever
 
-Maternal fish consumption tracks with a smarter child. Two large cohorts — ALSPAC (\~12,000) and the
-Danish National Birth Cohort (\~26,000) — link mothers who ate fish to higher child IQ and developmental
-scores. Modelled by FDA and FAO-WHO: *«an average of 4.0 IQ points could be gained from an intake of
+Maternal fish consumption tracks with a smarter child. Two large cohorts — ALSPAC (11,875 pregnant
+women gave fish-intake data) and the Danish National Birth Cohort (28,958 and 25,446 mother-child pairs
+assessed at 6 and 18 months) — link mothers who ate fish to higher child IQ and developmental scores.
+[@efsaseafood2014] Modelled by FDA and FAO-WHO: *«an average of 4.0 IQ points could be gained from an intake of
 100 mg DHA per day, with a maximum attainable IQ gain of 5.8 points»*.
 [@efsaseafood2014]
 
@@ -135,6 +138,8 @@ maternal requirements are met.»* [@efsaseafood2014]
 The IQ lever therefore works for a mother whose DHA and iodine are low, and does nothing once her status
 is adequate -> [[Deficiency Repletion vs Enhancement]]. The observational food signal survives while the
 isolate RCT is null — a design story, not proof the food beats the nutrient.
+
+</div>
 
 ## Cognitive decline and dementia — where the dietary and supplement evidence part ways
 
@@ -406,6 +411,8 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 
 [inferred from @efsaseafood2014; @jayedi2020fish]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## What the evidence here cannot yet answer
 
 - **The methylmercury toxicity arm is now held.** The mercury dose-response and tolerable-intake
@@ -450,6 +457,8 @@ handled — and then, choose oily and low-mercury, and don't fry it.
 > | **Evidence included** | 7 sources — 5 gold, 2 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Fish.md) |
+
+</div>
 
 ## References

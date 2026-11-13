@@ -21,9 +21,9 @@ relationships:
     - The Observational-Trial Discordance
     - Low-Fat Dietary Pattern and Cardiovascular Disease
     - Food Groups and Health Outcomes - A Dose-Response Matrix
-self_critiqued: 2026-08-29
+self_critiqued: 2026-11-13
 created: 2026-08-25
-updated: 2026-10-07
+updated: 2026-11-13
 ---
 
 **Nucleus of the `diet-quality-scores` cluster** — the canonical owner of *what a whole-diet quality
@@ -87,6 +87,8 @@ orders *populations* on risk; it does not tell an *individual* their fate. A per
 shift on a modest baseline is a small absolute effect for most people
 ([[Baseline Risk and the Relative-Absolute Split]]).
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The dose-response knee — the lever is raising LOW consumers to moderate
 
 The decision-relevant shape: the association is **not linear**, and it is **steeper below the median**.
@@ -97,7 +99,11 @@ level at which most major gains in health are observed and beyond which there is
 health gain» [@mente2023pure]. Studied range: 0-6; the knee
 sits mid-range (\~3-4), not at the sampling edge.
 
-**This is a LOCATED knee in a diet-pattern -> mortality/CVD curve** — a data point bearing on the
+**This is a knee in a diet-pattern -> mortality/CVD curve, but not a plateau** — per quintile increment
+the composite HR is 0.89 (0.87-0.92) below the median vs 0.96 (0.93-0.99) above it
+[@mente2023pure], so the bend is interval-supported, and the
+above-median interval excludes 1: the flatter side still shows a small gain (superseded 2026-11-13:
+previously *a LOCATED knee*) — a data point bearing on the
 telos's `[PRIOR — CONTESTED]` knees-and-plateaus question (lodged here, **not adjudicated** — that is a
 separate operation). Two caveats keep it honest, and they are not small:
 
@@ -112,9 +118,13 @@ separate operation). Two caveats keep it honest, and they are not small:
   have estimated» [@mente2023pure].
 
 **Decision consequence (holds regardless of the epistemic caveat):** for someone already at a moderate
-score, pushing the diet score higher buys little; the large remediable gap is in the low-score stratum.
-This is *the ceiling-is-a-finding* rule instantiated — and it is why the source's own emphasis lands on
+score, pushing the diet score higher buys less per point (the source's «modest additional health
+gain»); the large remediable gap is in the low-score stratum. Stopping at a moderate score is a
+reasonable cost call on diminishing returns, not a shown zero above it (superseded
+2026-11-13: previously *buys little ... the ceiling-is-a-finding rule instantiated*) — and it is why the source's own emphasis lands on
 low consumers, not on optimizing an already-adequate diet. -> [[The Underivable Optimum]]
+
+</div>
 
 ## The regional "effect modification" is largely position on the curve — and the under-nutrition reframe
 
@@ -228,6 +238,8 @@ The estimates carry the standard observational-nutrition liability, and PURE sho
   warranted** interpretations are exactly where a directional sponsor would push, so they are discounted,
   not adopted. The *score predicts CVD/mortality* finding is robust to this; the *policy reframe* is not.
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Decision relevance, confidence, and gaps
 
 - **`confidence: medium`** — a large, geographically diverse, internally-replicated observational signal
@@ -240,8 +252,9 @@ The estimates carry the standard observational-nutrition liability, and PURE sho
 - **Decision-change (per stratum):** for a **low consumer of protective foods** (the study's own
   steep-curve stratum), moving toward a moderate score (\~4/6) is the high-value action and the one the
   evidence most supports; for someone **already at a moderate/good score**, the marginal gain from
-  pushing higher is small by construction (the knee) — a licence to stop optimizing, not a failure to
-  find a lever. Which specific foods get there is close to interchangeable, so **adherence and access
+  pushing higher is smaller (the knee: HR 0.96 vs 0.89 per quintile above vs below the median) but
+  not zero — a reasonable place to stop as a cost call, not a shown zero (superseded 2026-11-13: previously *small by construction ... a licence to stop
+  optimizing*). Which specific foods get there is close to interchangeable, so **adherence and access
   decide it**, not the brand of score.
 - **Gaps (G):**
   - **No RCT of adopting a diet-pattern score on hard events** — the structural gap the source names;
@@ -252,6 +265,7 @@ The estimates carry the standard observational-nutrition liability, and PURE sho
     biological plateau or an artifact of median-cut composite scoring + FFQ error is unresolved and
     would need a natural-unit intake analysis to settle.
 
+</div>
 
 ## Why WHI does not fill the hard-outcome RCT gap — a distinction, not a tension
 
@@ -274,13 +288,15 @@ cur- rently recommended for prevention of CVD» (the plant-based, protective-foo
 [@whi2006]. **The "no hard-outcome RCT"
 gap therefore stands** — WHI does not close it.
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Self-critique `[run 2026-08-25, before commit]`
 
 - **No diet-score halo.** The score-predicts finding is stated with its weak discrimination (AUC \~0.52-
   0.61), its \~50% attenuation under adjustment, and the authors' own residual-confounding concession up
   front — not buried. The contrarian dairy/SFA policy reframe is quarantined from the core finding and
   tagged with the dairy-industry funding tell.
-- **Knee lodged, not adjudicated.** The located knee is recorded as a data point for the `[PRIOR —
+- **Knee lodged, not adjudicated.** The knee (bend interval-supported, no plateau shown; 2026-11-13 wording) is recorded as a data point for the `[PRIOR —
   CONTESTED]`, explicitly **not** scored against the telos here (that is a separate operation), and
   double-caveated (ordinal composite + FFQ flattening) so it is not oversold as a clean natural-unit
   knee.
@@ -300,5 +316,7 @@ gap therefore stands** — WHI does not close it.
   *different exposure* (fat-quantity->carb) than the protective-food score, so it is filed as a
   distinction (not-joined check (ii)) that *preserves* the RCT gap, not a tension resolving it; the WHI
   quote is `bin/cite.py`-verified and not truncated past its qualifier.
+
+</div>
 
 ## References

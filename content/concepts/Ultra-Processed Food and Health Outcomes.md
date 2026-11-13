@@ -19,9 +19,9 @@ relationships:
     - Hyper-Palatable Foods
     - Dementia Prevention and Modifiable Risk Factors
 created: 2026-07-31
-updated: 2026-11-10
+updated: 2026-11-12
 ---
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 *"Ultra-processed food"* (UPF) is the Nova-classification group of *«industrial formulations primarily
 composed of chemically modified substances extracted from foods, along with additives»* — packaged
@@ -33,11 +33,12 @@ sugar/salt/saturated-fat/energy-density and low fibre it correlates with — the
 
 **The one-line answer the corpus supports:** on **hard/patient-important outcomes** the associations are
 broad and consistent but the evidence is **observational throughout and low-certainty**. On the **energy-
-intake surrogate**, that is no longer the whole story: the Hall inpatient RCT — held primary since
-2026-08-04 — matched UPF and unprocessed diets on presented calories, energy density, macros, sugar,
-sodium and fibre, fed them ad libitum, and found UPF **still drove +508 kcal/day and 0.9 kg of weight
-gain**. So **processing does independent work on energy intake at matched composition** (moderate certainty,
-surrogate endpoint); whether that transmits to the hard outcomes Lane catalogues remains the observational,
+intake surrogate**, that is no longer the whole story: the Hall inpatient RCT matched UPF and
+unprocessed diets on presented calories, energy density (beverages included; the UPF non-beverage foods
+were 85% more energy-dense), macros, sugar, sodium and fibre, fed them ad libitum, and found UPF
+**still drove +508 kcal/day and 0.9 kg of weight gain**. So **processing moves energy intake at matched
+headline nutrients** — not at matched composition: food energy density, eating rate and protein still
+differed (moderate certainty, surrogate endpoint); whether that transmits to the hard outcomes Lane catalogues remains the observational,
 low-certainty layer. See *The causal foothold* below.
 [inferred from @hall2019; @lane2024upf]
 

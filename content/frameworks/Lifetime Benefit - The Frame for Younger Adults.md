@@ -13,7 +13,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - Shared Modifiable Levers Across Age-Related Diseases
 created: 2026-07-26
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-13
 ---
 
@@ -111,7 +111,7 @@ than a 10-year baseline.
 a lifetime. The 0.78 is real trial evidence; the lifetime projection is a model. The dose-linearity
 claim (*"almost twice as large"* for 2 mmol/L) is likewise a property of the model.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The three grids ESC provides
 
@@ -130,7 +130,7 @@ the same LDL reduction (45-49 non-smoking: \~0.9-2.0 years vs \~0.6-1.6), and **
 
 **Magnitudes, stated as a range rather than transcribed cell-by-cell.** For a middle-aged man in the
 45-49 band, 1 mmol/L of LDL-C lowering buys **roughly 0.6 to 1.6 CVD-free years**, rising with SBP and
-non-HDL and falling steeply with age — by 90+ the same intervention buys \~0.0-0.3 years.
+non-HDL and falling steeply with age — by 90+ the same intervention buys a man \~0.0-0.3 years.
 
 **Deliberately not transcribed cell-by-cell:** the published figure misprints the 45-49 systolic labels
 (they read `100-119 / 120-139 / 160-179 / 100-119`), so row alignment cannot be established from the

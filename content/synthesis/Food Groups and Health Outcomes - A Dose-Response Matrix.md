@@ -7,9 +7,9 @@ sources: [Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Sc
 cluster: food-group-dose-response
 nucleus: true
 confidence: moderate
-self_critiqued: 2026-10-06
+self_critiqued: 2026-11-13
 created: 2026-08-28
-updated: 2026-10-22
+updated: 2026-11-13
 relationships:
   related_to: [Layer 1 - Ranking Interventions for a Stratum, Whole Grains Refined Grains and Pulses, Fruit and Vegetable Intake and Health, Red and Processed Meat and Cancer, Fish and Seafood Consumption, Dairy and Cardiometabolic Health, Eggs Dietary Cholesterol and Cardiovascular Risk, Nut Consumption and Mortality, Free Sugars Intake, The U-Shaped Association Artifact, Measurement Error in Dietary Assessment, Diet Quality Scores and Cardiovascular Risk, Is the Food Category Doing Any Work, The Observational-Trial Discordance]
 ---
@@ -330,16 +330,22 @@ already holds. The **divergences** are where the matrix earns its place:
 - **SSB** — strong cardiometabolic harm but **null for all-cause mortality** (the mortality CI
   is wide, 0.91-1.18 — an unmeasured, not a demonstrated-absent, effect).
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Shape honesty — where the curve has a knee or plateau
 
 Most linear cells are **monotone over the studied range only** — do not read more-is-always-better
 past the data edge. Reported non-linear features:
 
-- **Nuts** plateau early: most of the mortality/CHD benefit is captured by **\~10-20 g/d**
-  (a small handful); little added benefit above.
+- **Nuts** flatten early on the point estimates: most of the associated mortality/CHD benefit is
+  reached by **\~10-20 g/d** (a small handful). No increment interval above it is given (the one
+  tabulated level past it, 28 g/d, is CHD 0.84 (0.73-0.97) vs none [@bechthold2019]), so more is
+  diminishing returns, not shown to buy nothing (superseded 2026-11-13: previously *plateau
+  early ... little added benefit above*).
   [@bechthold2019]
-- **Vegetables and fruit** plateau at **\~200-400 g/d** for mortality/CVD — the rising arm is at
-  low intake.
+- **Vegetables and fruit** flatten at **\~200-400 g/d** for mortality/CVD on the point estimates — the
+  steep arm is at low intake; a flattening, not an interval-located plateau (superseded
+  2026-11-13: previously *plateau at*).
   [@schwingshackl2017mort]
 - **Whole grains** most benefit by \~50 g/d (T2D) to \~100 g/d (CHD). T2D: risk fell 25% with intake up
   to \~50 g/d, then «Small beneﬁts for increasing intake above this value were observed» (non-linear,
@@ -364,9 +370,13 @@ past the data edge. Reported non-linear features:
   investigated» is unquantified)
 - **Refined grains->adiposity** is J-shaped, harm emerging above \~90 g/d.
 
-The plateaus mean over-shooting a protective food merely fails to add benefit (rarely harms) —
+Where these protective curves flatten, more is diminishing returns on the point estimates, not shown
+to buy nothing, and over-shooting rarely harms, so stopping is a cost call (superseded 2026-11-13:
+previously *The plateaus mean over-shooting a protective food merely fails to add benefit*) —
 the *every-reduction-pays* default holds for the harmful foods, whose curves show no protective
 lower arm. -> [[The U-Shaped Association Artifact]]
+
+</div>
 
 ## Cross-source check — the legume row against a dedicated legume SR+MA `[2026-08-28, Thorisdottir]`
 
@@ -385,6 +395,8 @@ at \~120-150 g/day, robust to excluding soynut trials — i.e. legumes move a su
 the hard-endpoint cohort cells stay null. Full treatment ->
 [[Whole Grains Refined Grains and Pulses]].
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The pattern level sits one step up — the composite-score complement
 
 
@@ -395,7 +407,9 @@ score** ([[Diet Quality Scores and Cardiovascular Risk]], Mente's PURE Healthy D
 The two are **different quantities** (a per-50 g linear slope for one food vs an ordinal composite of six), so
 they cannot contradict — but laid together they pose the level-of-analysis question this fabric already owns.
 
-- **The composite carries a *located knee* the component rows do not.** The pattern-score curve is steeper
+- **The composite carries a knee the component rows do not** — a slope significantly shallower above
+  the median whose interval still excludes 1 (superseded 2026-11-13: previously *a located knee*; no interval
+  locates a plateau). The pattern-score curve is steeper
   below the median and reaches diminishing returns near score \~4/6; the food-group rows here are mostly weak,
   heterogeneous, and monotone-over-range, with many null cells (the legume events-null the sharpest case). A
   clean knee at the pattern level over mostly-flat component rows is the empirical shape that makes the
@@ -407,6 +421,8 @@ they cannot contradict — but laid together they pose the level-of-analysis que
   composite (the DQS page flags this and the ordinal-composite caveat itself). This matrix contributes the
   **component-side evidence** to that adjudication — that no single row reproduces the composite's knee — and
   routes the verdict there rather than asserting one.
+
+</div>
 
 ## Gaps (type-G)
 

@@ -21,7 +21,7 @@ relationships:
     - Fluoride and Bone Health
     - Measuring and Raising Cardiorespiratory Fitness
 created: 2026-08-01
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-10-04
 ---
 
@@ -99,7 +99,7 @@ the FMP clock). Open question, not settled corroboration: does the transition tr
 total-fat gain, then plateau? A candidate tension to file (type-D).
 
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Limb 2 — measure the redistribution, not the scale
 
@@ -107,7 +107,12 @@ total-fat gain, then plateau? A candidate tension to file (type-D).
 A diagnostic consequence: because the menopause signal is *distribution*, the instruments that track total
 mass are the wrong ones. BMI and body weight are confounded post-menopause by **bone loss, sarcopenia and
 height shrinkage** — all of which move BMI without tracking adiposity. **Waist circumference, waist-to-hip
-ratio and trunk-fat % are the more reliable and more sensitive measures** here. Measurement caveats the MA
+ratio and trunk-fat % are the more reliable and more sensitive measures** here — *more reliable* on
+CI precision only: «However, when comparing the precision of confidence intervals, WTHR, WC and TF %
+produced comparatively more reliable estimates.» «These results should be interpreted with caution
+given that variability across measures, including different samples, sample sizes and measurement
+error, could not be accounted for.»
+[@ambikairajah2019] Measurement caveats the MA
 quantifies: BIA underestimates body fat vs DEXA (-2.64%); self-reported BMI underestimates measured
 (-0.72 kg/m2). -> [[Measurement Error in Dietary Assessment]] (the same instrument-choice discipline on the
 exposure side). So a normal BMI does not clear a menopausal woman of central-adiposity risk — measure the

@@ -8,7 +8,7 @@ cluster: fluoride
 nucleus: false
 confidence: low
 created: 2026-08-14
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-14
 relationships:
   related_to:
@@ -51,16 +51,18 @@ above a \~1.5 mg/L threshold [@mazzoli2025fluoride]:
 **Every overall-fracture point estimate has a CI crossing 1.0.** This is a *positive trend*, not a
 per-dose demonstrated harm; the certainty is `low` (below).
 
-## The one CI that excludes 1.0: postmenopausal (females >50) at \~1.0 mg/L
+## The one harm CI that excludes 1.0: postmenopausal (females >50) at \~1.0 mg/L
 
-The decision-relevant sharpening is a **stratum**, not the pooled curve. In the pre-specified
-females-over-50 analysis the association starts earlier and reaches significance at a
+The decision-relevant sharpening is a **stratum**, not the pooled curve. In the females-over-50 analysis (declared in the methods as an
+additional analysis, not labelled pre-specified) the association starts earlier and reaches significance at a
 fluoridation-adjacent dose [@mazzoli2025fluoride]:
 
 - «the RR was 0.98 (95% CI 0.83–1.14) at 0.25 mg/L, 1.00 (95% 0.80–1.24) at 0.45 mg/L, and 1.26 (95%
   CI 1.10–1.46) at 1.0 mg/L» [@mazzoli2025fluoride] — the
-  **only reported pooled DR estimate whose CI excludes 1.0** (every overall-fracture, both-sex
-  fragility, male, and both-sex-female fragility point the paper tabulates has a CI crossing 1.0). The
+  **only reported pooled DR harm estimate whose CI excludes 1.0** (every overall-fracture, both-sex
+  fragility and both-sex-female fragility point the paper tabulates has a CI crossing 1.0; the male
+  fragility curve's RR 0.83 (95% CI 0.72–0.97) at 0.57 mg/L excludes 1.0 on the protective side
+  [@mazzoli2025fluoride]). The
   curve above 1.0 mg/L continues its «steep upward trend» but is not tabulated past that point.
 - **Mechanism candidate (directional,-grade in the source's own discussion):** estrogen
   is bone-protective; menopause accelerates resorption and may increase «release of fluoride from bone

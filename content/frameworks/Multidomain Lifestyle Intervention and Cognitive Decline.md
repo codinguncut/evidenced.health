@@ -7,7 +7,7 @@ sources: [Ngandu - FINGER Multidomain Cognitive Decline 2015, Moll van Charante 
 cluster: dementia
 confidence: low
 created: 2026-08-05
-updated: 2026-10-22
+updated: 2026-11-12
 self_critiqued: 2026-09-05
 relationships:
   related_to:
@@ -508,6 +508,8 @@ effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a findin
 - **BP-lowering in the elderly is cognitively safe.** preDIVA is a large, long RCT showing intensive
   vascular care caused no cognitive or disability harm -> [[Blood Pressure Lowering and Cardiovascular Events]].
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Open (G-gaps)
 - **RCT effect on dementia/AD *incidence* of the FINGER 4-component bundle** — preDIVA answers the
   *vascular-care-only* version (null); FINGER's own 7-yr extended follow-up (the 4-component bundle on
@@ -522,9 +524,13 @@ effect-modification-by-age *hypothesis* (post-hoc, top cell NS) — not a findin
   midlife / biomarker-selected* design, not the responder axis in these data.
 - **Per-component contribution** — which lever(s) drive FINGER's bundle effect (author-flagged); MAPT's null
   and preDIVA's vascular-only null cannot isolate it either. **Partially addressed** by Mendes 2025 across
-  the wider RCT literature (physical exercise and cognitive training are the two robust single levers; their
-  combination E+C tops the ranking; diet-alone and social-activity-alone are NS) — but on the SURROGATE, so
-  it decomposes the cognitive-composite signal, not FINGER's own bundle nor any incidence effect.
+  the wider RCT literature (cognitive training is the one single lever significant vs both health education
+  and an active control; physical exercise alone is significant vs health education or no intervention but
+  not vs an active control in the Results text; their combination E+C tops the ranking; diet-alone and
+  social-activity-alone are NS) [@mendes2025multidomain]
+  — but on the SURROGATE, so it decomposes the cognitive-composite signal, not FINGER's own bundle nor any
+  incidence effect. (corrected 2026-11-12: was *physical exercise and cognitive training are the two robust
+  single levers*.)
 
 [inferred from @ngandu2015; @andrieu2017; @mollvancharante2016; @coley2025] The loop stays open (R1) even with three RCTs and their pooled IPD in hand: the
 *surrogate* moved in one selected-risk population (FINGER) and not in a broader, older one (MAPT); the
@@ -534,6 +540,8 @@ of them close each other, and the surrogate-to-incidence link is itself unproven
 The one thing the pool *does* settle is the responder question for these trials (route-b null). A validated
 multidomain dementia-prevention claim now awaits an incidence result for the full FINGER 4-component bundle
 () and, beyond it, a higher-intensity or earlier-window trial.
+
+</div>
 
 ## Self-critique `[run 2026-09-05, before commit — Mendes NMA weave]`
 

@@ -8,7 +8,7 @@ cluster: social-connection
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-10
 relationships:
   related_to:
@@ -22,7 +22,6 @@ relationships:
     - Certainty of Evidence vs Strength of Recommendation
     - Purpose in Life and Mortality
 ---
-<div class="recent-update" data-last-updated="2026-11-10">
 
 **Nucleus of the `social-connection` cluster** — the psychosocial exposure with **hard** endpoints:
 impoverished social relationships predict both **mortality** (all-cause, cardiovascular, cancer — Wang)
@@ -44,10 +43,6 @@ with no standard instrument,
 and the causal/modifiable claim unproven; adding the incidence endpoint **broadens the outcome web but
 does not resolve the confounding/reverse-causation gap that caps confidence**.
 [inferred from @wang2023isolation; @valtorta2016; @zhao2022livingalone]
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The exposure ladder — three operationalizations of one construct `[type-B, up front]`
 
@@ -75,10 +70,6 @@ does not resolve the confounding/reverse-causation gap that caps confidence**.
   Collapsing the two into *social connection* as one exposure would blur the prognostic picture: the
   objective deficit is where the association concentrates. Whether either is a *lever* — whether
   changing it changes mortality — is untested (see *Where it sits*).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The effect estimates — general population
 
@@ -125,10 +116,6 @@ noting that Wang's own forest plot gives a significant 1.30; every downstream us
   significantly with increased degree of SI» [@wang2023isolation].
   A trend test licenses a gradient, not strict monotonicity; not a threshold, no knee located, and the
   exposure grading is coarse (non-detection, not evidence of no knee).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
 
 ## The incidence arm — incident CHD and stroke `[Valtorta 2016; the composite's second endpoint]`
 
@@ -221,9 +208,7 @@ contested for CVD mortality, untested with power for incidence*. Read Valtorta's
 `G`-gap at the incidence endpoint, not as overturning the two-exposures asymmetry.
 [inferred from @wang2023isolation; @valtorta2016]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The living-alone facet — a structural proxy `[Zhao 2022; the ladder's crudest rung]`
 
@@ -336,8 +321,11 @@ figures [@wang2023isolation].
 The two sex results may differ **because the exposure differs** — so this is a *distinction*, not a
 tension (not-joined check (ii): different exposure construct). They are also not the same kind of
 evidence: Zhao's is a within-study interaction test, Wang's a contrast between two separately pooled
-sex strata with no interaction test. Zhao offers two candidate explanations for the male
-excess, one non-causal and one causal, and does not choose between them. Non-causal: younger people
+sex strata with no interaction test. Zhao offers a non-causal and a causal reading of the
+male excess and does not choose between them; the causal reading carries three sex-relevant mechanisms
+(a co-resident's push toward a healthy lifestyle, loneliness and depression with fewer networks, and a
+cohort finding raised IL-6 and CRP in middle-aged men but not women living alone)
+[@zhao2022livingalone]. Non-causal: younger people
 living alone carry more vascular risk behaviour, older people living alone «may be physically
 healthier», and «Moreover, it may be more true in males than females, explaining the stronger
 association in males. It it also possible that living alone has a causal rela- tion with mortality.»
@@ -413,8 +401,6 @@ observational, so it adds a pathway marker without adding independent backing.
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## Stratum and patient-population estimates
 
 All figures in this section [@wang2023isolation].
@@ -439,10 +425,6 @@ All figures in this section [@wang2023isolation].
   attributes the weaker colorectal signal to colorectal risk being driven more by diet/activity than by
   psychosocial stress, i.e. the mechanism's support factors may differ by cancer site (a
   transportability hypothesis, not a universal law).
-
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
 
 ## Mechanism — the HPA/allostatic bridge, and three others
 
@@ -485,9 +467,7 @@ mortality *net of* social connection is an open `G`-gap in both directions. Conv
 exposures in direction is therefore corroboration within one method (observational psychosocial
 epidemiology), **not** type-E independent backing.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Reverse causation and confounding — partially guarded; Wang's arm leans weakly toward overestimation
 
@@ -542,7 +522,12 @@ demonstrated bias.
 
 **Net direction for Wang's arm: leans weakly toward overestimation on the assessed legs.**
 The inconsistent 1-year lag exclusion points up, and frailty points up on one attenuated study; the
-under-adjustment argument is a weak counterweight. One leg is unassessed. Wang pools the most fully
+under-adjustment argument is a weak counterweight. One leg is checked only weakly, between studies:
+Wang's SI subgroup analyses by education, depression, smoking, drinking and BMI (all-cause death; only
+country differed, P = 0.039) and by adjustment for confounding (CVD death; only education differed,
+P = 0.024) show no other heterogeneity
+[@wang2023isolation], a between-study
+contrast that cannot show what within-study mediator adjustment did. Wang pools the most fully
 adjusted estimates: «If the included studies reported both crude and multivariable-adjusted effect
 estimates, we extracted the most fully adjusted outcomes.»
 [@wang2023isolation] It does not
@@ -553,7 +538,7 @@ Valtorta states for its own arm. [[Allostatic Load and Mortality]] reports an ag
 different exposure (Parker: I2 95% -> 44%, HR 1.26 vs 1.19 across age, as carried on that page), but
 Wang shows no such gradient, so there is no shared toward-null structure
 -> [[The U-Shaped Association Artifact]].
-Every assessed leg is weak and one leg is unassessed, so the pooled 1.32 is somewhat more likely an
+Every assessed leg is weak and one is checked only between studies, so the pooled 1.32 is somewhat more likely an
 over- than an under-estimate only provisionally (a lean, not a signed bias). It carries less weight
 than its 95% CI suggests.
 
@@ -600,8 +585,6 @@ over-adjustment leg unassessed.
   substantially change the estimate; loneliness showed little. Gold *design* (SR+MA of 90 cohorts), but
   the certainty is bounded by observational confounding and the non-standard exposure.
 
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## Where it sits — gaps and next sources
 
 - **Three-source, observational, `confidence: low`.** The incidence arm (SI/loneliness -> incident CHD
@@ -634,7 +617,5 @@ over-adjustment leg unassessed.
 - **The loop is open (R1):** every hazard here is observational and coherence-graded, not
   outcome-validated — the exposure->mortality association is well-replicated, the *causal* and
   *modifiable* claims are not.
-
-</div>
 
 ## References

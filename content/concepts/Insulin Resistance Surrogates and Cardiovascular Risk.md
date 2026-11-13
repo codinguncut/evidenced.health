@@ -8,7 +8,7 @@ cluster: ir-surrogates
 nucleus: true
 confidence: low
 created: 2026-08-09
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-09
 relationships:
   related_to:
@@ -310,7 +310,7 @@ decisions in this section (use-to-place-not-treat, prompt-to-check-apoB, weight-
 wiki's application of Liu's effect estimates and FRS/causation findings, and of Zhang's direct-measure
 mortality estimates, quoted above — not additional source claims.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Limits
 
@@ -330,16 +330,14 @@ mortality estimates, quoted above — not additional source claims.
 - **Coherence, not validity (R1):** this node is internally coherent and source-faithful; no operation
   here grades it against a realized outcome. The loop is open.
 
-CASHED 2026-08-09: Ding 2021 ingested (see the *Ding 2021 — a second gold TyG MA* section above). The
-included-studies overlap check resolved the way the hold anticipated — shared constituent cohorts are
-likely (both general-population PubMed/Embase TyG pools over overlapping windows; Liu later and larger),
-so Ding corroborates the incidence-positive arm as **type-F (shared evidence), not E-independent**, and
+Ding 2021 (see the *Ding 2021 — a second gold TyG MA* section above): on the included-studies overlap
+check, shared constituent cohorts are likely (both general-population PubMed/Embase TyG pools over
+overlapping windows; Liu later and larger), so Ding corroborates the incidence-positive arm as **type-F (shared evidence), not E-independent**, and
 adds the stroke outcome Liu lacked.
 
-CASHED 2026-08-09 (partial): Zhang 2017 ingested (see the *Zhang 2017 — the direct-insulin arm* section
-above) — the direct measures fasting insulin / HOMA-IR against mortality. It **partially** answers the
-TyG-specific-vs-general split from the direct-measure side: the mortality-null is not uniform across
-readouts, since the HOMA-IR composite retains a modest mortality signal (RR 1.34) where fasting insulin
+Zhang 2017 (see the *Zhang 2017 — the direct-insulin arm* section above) covers the direct measures
+fasting insulin / HOMA-IR against mortality. It **partially** answers the TyG-specific-vs-general
+split from the direct-measure side: the mortality-null is not uniform across readouts, since the HOMA-IR composite retains a modest mortality signal (RR 1.34) where fasting insulin
 alone and TyG are null-to-borderline — HOMA-IR-composite-specific and fragile, not flat across IR
 readouts (measure-vs-population attribution unidentified). a TG/HDL-ratio outcome source — to lift the cluster from two IR readouts (TyG, direct
 insulin/HOMA-IR) to the neutral question across surrogates, and to test the incidence/mortality split

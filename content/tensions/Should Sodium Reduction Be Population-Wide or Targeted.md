@@ -16,7 +16,7 @@ relationships:
     - Surrogate Outcomes
     - Net Effect vs Intended Effect
 created: 2026-08-27
-updated: 2026-10-26
+updated: 2026-11-12
 self_critiqued: 2026-10-26
 ---
 
@@ -233,6 +233,8 @@ still present, which is a separate claim from *does lowering BP help below 140*.
 (points 1-3 above) stands; only one supporting argument for Pole B is undercut.
 [inferred from @mente2016pure; @bplttc2021]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Where this leaves the decision
 
 For a **hypertensive with high intake**, both poles agree: reduce sodium (large BP effect in this
@@ -285,7 +287,7 @@ countries, except those with very high mean intake «(eg some in Central Asia or
 [@mente2016pure]. The substitute
 also moves sodium and potassium together, and only modestly on sodium (K-salt urinary sodium -19.33
 mmol/24 h, -36.05 to -2.62, 10 trials) [@lai2026salt]
-(about 0.45 g sodium),
+(about 0.44 g sodium),
 too small a shift to carry a high-intake population into PURE's <3 g/day low arm, so it is not a test of the normotensive low arm [inferred from @lai2026salt; @mente2016pure]. On *how wide* to deploy
 it, Lai urges caution about increased potassium fortification of the food supply and asks clinicians to
 screen first; it does not
@@ -387,5 +389,7 @@ Nor does it revive Mente's *benefit only above 140* premise. Wang attributes its
 Sundström's BPLTTC analysis to «lower baseline risk for cardiovascular disease»
 [@wang2025mildhtn],
 which is a risk argument, not a BP-level one -> [[Blood Pressure Lowering and Cardiovascular Events]].
+
+</div>
 
 ## References

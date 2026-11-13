@@ -20,7 +20,7 @@ relationships:
     - Reading a Confidence Interval
 created: 2026-07-25
 self_critiqued: 2026-11-06
-updated: 2026-11-10
+updated: 2026-11-12
 ---
 
 ## The decomposition
@@ -653,7 +653,7 @@ modification is not established and not excluded, so plan on \~0.91 with wider u
 at <55 this may understate the benefit and at >=85 it may overstate it, and the >=85 band cannot tell
 whether it does. BP decision consequences: [[Blood Pressure Lowering and Cardiovascular Events]] (*By age*).
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## A worked route-(b) POSITIVE, beside a broadly-constant arm, in ONE trial — DPP `[2026-08-07, Knowler]`
 
@@ -675,7 +675,10 @@ prespecified heterogeneity tests:
 **Why this is a genuine route-(b) positive and not the arithmetic mirage the *Failure modes* list warns
 about.** The mirage is reading a *differing absolute benefit* (constant RR x differing baseline) as
 effect modification. DPP is not that: the **relative** reduction from metformin itself changes across strata
-(3% vs 53%), with a significant prespecified heterogeneity test — «The effect of metformin was less with a
+(3% vs 53%), with a significant across-strata heterogeneity test (Knowler: «The study had inadequate
+power to assess the significance of effects within the subgroups, nor were such tests planned.»
+«Significant heterogeneity indicates that treatment ef- fects differed according to the values of the
+covariates.» [@knowler2002]) — «The effect of metformin was less with a
 lower body-mass index or a lower fasting glucose concentration than with higher values for those
 variables. Neither interaction was explained by the other variable or by age.» That is a modified *ratio*,
 which is the thing route (b) requires and route (a) cannot produce. The decision consequence is real and

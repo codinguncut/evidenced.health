@@ -25,7 +25,7 @@ relationships:
     - Exercise Safety in Osteoporosis
     - Power Training and Physical Function in Older Adults
 created: 2026-08-06
-updated: 2026-10-29
+updated: 2026-11-12
 self_critiqued: 2026-10-29
 ---
 
@@ -545,6 +545,8 @@ close it; until one lands, hold any bodyweight-vs-loaded claim at `confidence: l
 
 
 [@acsm2026rt]
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The secondary dials — rest, time of day, exercise order, range of motion, effort (ACSM 2026)
 
 Currier's network coded only load, sets and frequency; rest intervals, tempo and time-under-tension
@@ -565,8 +567,18 @@ RT variables.»
 | Full range of motion | ✔ improves (2; 1,262; 50%) | ? (1 up, n=90; 3 unclear, n=276) |
 | Sets to failure | ✖ no effect (3; 1,371; 83%; 1 review, n=199, for) | ✖ no effect (4; 800; 69%; 1 review, n=189, for) |
 | Periodization | ? (1 for, n=616; 2 no effect, n=1,075) | ✖ no effect (4; 1,414; 63%) |
+| Time-under-tension (repetition speed) | ✖ no effect (1; 509; 75%; 1 review, n=140, could not tell) | ✖ no effect (3; 806; 58%; 1 review, n=107, could not tell) |
 
 [@acsm2026rt] (read from the rendered table, pp 857-858)
+
+**Tempo is the time-under-tension dial, not a second one.** The stand's strength and hypertrophy results
+each list time under tension among the dials with no effect, and the summary sentence after each list
+gives fast (under 2 s) vs moderate-slow (over 2 s) contractions for strength, and fast (0.5 s) vs slow
+(8 s) repetitions for size, as no-effect dials.
+[@acsm2026rt]
+The summaries repeat each list in the same order, and rep speed sits in the time-under-tension slot, so
+tempo and time-under-tension are one verdict per outcome here.
+[inferred from @acsm2026rt]
 
 **How to read a ✖ here.** A ✖ means the reviews found no difference. No pooled effect sizes are reported
 [searched: "effect size" / "SMD" = 0 hits across both chunks]; per-review results sit in supplements
@@ -622,6 +634,11 @@ the equipment section above. [@acsm2026rt]
 
 
 [@acsm2026rt]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Starting out — novices, the first weeks, and progression
 
 **The stand puts participation ahead of the recipe.** «Deviating from previous guidelines, we propose
@@ -651,7 +668,10 @@ and “lower” for “push” and “pull” exercises (i.e., four body regions
 muscle groups.» Compared with no exercise, elastic-band RT raised strength, size and some function
 measures, and home-based RT raised strength, endurance and balance; the stand offers both as easier
 ways in: «Nontraditional forms of RT may provide alternative, perhaps more accessible or approachable,
-strategies for completing RT with appreciable physical benefits.» The stand also separates two goals:
+strategies for completing RT with appreciable physical benefits.» In the one head-to-head the stand reports,
+standard RT beat bands on multicomponent function: «Comparing between RTx, multicomponent function was enhanced by RT performed with power training techniques, and standard RT enhanced multi- component function compared with elastic band RT.»
+That verdict rests on one review (the stand's ref 61); its n and quality score are in a supplement the
+wiki does not hold. The stand also separates two goals:
 «Significant and optimal improvements are two different goals; however, participants and facilitators
 of RT must dis- tinguish between them.»
 [@acsm2026rt]
@@ -698,6 +718,9 @@ adapts more slowly than muscle), not a stand finding.
 
 
 [@acsm2026rt]
+
+</div>
+
 ## Safety — what the stand asserts, and what it rests on
 
 «Resistance training is safe for healthy adults of all ages (5), but many adults, particularly older
@@ -990,6 +1013,8 @@ head-to-head grade. (corrected 2026-10-22: was
   older adult vs \~1.0 sedentary) are **complementary, not substitutes** — RT raises protein needs, and
   protein is what the restored response acts on.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Decision relevance
 
 - **The big rock is doing any resistance training at all.** Prescription choice is a second-order refinement
@@ -1064,7 +1089,8 @@ carried over, not studied.
   detected strength difference, on two reviews, one an umbrella that (per the stand's hypertrophy
   example) re-synthesizes the other. For size the stand could not tell.
 - **Lift at a controlled, comfortable tempo.** Fast (<2 s) vs moderate-slow (>2 s) contractions made no
-  detected strength difference, and time-under-tension scored no effect for strength or size.
+  detected strength difference, and fast (0.5 s) vs slow (8 s) repetitions none for size; that is the
+  stand's time-under-tension dial, one verdict per outcome (see *The secondary dials* above).
 - **Put the lift you most want stronger first in the session**, and use full range of motion — the
   two order/ROM dials that scored ✔ for strength (4 reviews, n=941; 2 reviews, n=1,262, QoE 50%).
   Neither scored for size.
@@ -1100,6 +1126,8 @@ low certainty; different unit, see the older-adult section), so there the
 low-volume default is a reasonable stopping point for size — a cheap-lever default, not a settled answer
 to the per-muscle-group question above.
 [inferred from @radaelli2024rtvol]
+
+</div>
 
 ## Limits
 

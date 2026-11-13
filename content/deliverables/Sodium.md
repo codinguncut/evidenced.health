@@ -26,7 +26,7 @@ authors: [World Health Organization (org); Neal, Bruce; Mente, Andrew; Aburto, N
   GBD 2019 Risk Factors Collaborators (org)]
 confidence: medium
 created: 2026-08-10
-updated: 2026-10-28
+updated: 2026-11-12
 self_critiqued: 2026-10-28
 concrete_subject_audited: 2026-10-28
 ---
@@ -92,6 +92,8 @@ clear the extra potassium, and the trials left them out. [@neal2021]
 | Switch to a potassium salt substitute | lowers it (moderate certainty) | fewer in high-risk rural Chinese adults; insufficient elsewhere | fewer in that group; insufficient elsewhere |
 
 Sources for the table: [@who2012] [@aburto2013] [@lai2026salt] [[Sodium Intake and Blood Pressure]] [[Potassium Intake and Blood Pressure]]
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Blood pressure: a sodium cut lowers systolic pressure 1 to 6 mmHg, with no plateau down to 1.5 g a day
 
@@ -282,8 +284,8 @@ with repeated measurements showed no gradient either, so the doubling is a possi
 [inferred from @huang2020]
 
 **A blood-pressure number depends on how it was measured.** WHO's ambulatory fall (5.51 mmHg) is larger
-than its resting fall (3.39). But it comes from 6 of the trials rather than all 36, so the gap may
-reflect the trials as much as the method. ESC reports white-coat hypertension, pressure raised in the
+than its resting fall (3.39). But it comes from 6 of the trials rather than all 36
+[@who2012], so the gap may reflect the trials as much as the method. ESC reports white-coat hypertension, pressure raised in the
 office but normal on ambulatory or home readings, in up to 30-40% of patients.
 [@esc2021]
 [inferred from @esc2021; @who2012]
@@ -291,6 +293,8 @@ office but normal on ambulatory or home readings, in up to 30-40% of patients.
 Compare a personal reading with a threshold only when both use the same method. WHO calls its pooled
 figure resting pressure, but the WHO documents this guide draws on do not describe the protocol behind
 it (office, home or device). [[Sodium Intake and Blood Pressure]]
+
+</div>
 
 ## Events: for sodium alone, fewer events are inferred from the pressure fall; no graded trial shows them
 
@@ -469,6 +473,8 @@ sodium (even a thiazide addresses calciuria, not the lower urinary citrate that 
 EAU lists both effects of sodium), and for a stone former with high pressure the same cut serves both [[Sodium Intake and Blood Pressure]]
 [inferred from @eau2026uro; @lin2020].
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Low intake: cohorts see more events below 3 g a day, and no source this guide draws on has tested whether that is real
 
 The event estimates above, borrowed from drug trials, assume that less sodium is better all the way down.
@@ -488,9 +494,10 @@ intake is unsettled. This guide carries both readings below and leads with neith
 
 Mente's PURE analysis pooled **133,118 people** from 49 countries in three cohorts (PURE,
 ONTARGET/TRANSCEND, EPIDREAM), with more than 10,000 events over a median 4.2 years. The outcome was
-death or a major cardiovascular event. **People eating 4-5 g of sodium a day (10-12.5 g of salt) had the
-lowest risk**, so that band is the reference for the hazard ratios below.
-[@mente2016pure]
+death or a major cardiovascular event. **People eating 4-5 g of sodium a day had the lowest risk**,
+so that band is the reference for the hazard ratios below.
+[@mente2016pure] In salt
+terms that band is 10-12.5 g a day `[INFERRED: g sodium x 2.5]`.
 
 | Stratum | Below 3 g/day | Above 7 g/day |
 |---|---|---|
@@ -695,6 +702,8 @@ surrogate story to believe, not the outcome. On the net effect of the marker shi
 insufficient.
  -> [[Net Effect vs Intended Effect]]
 
+</div>
+
 ## Potassium: more of it lowers high blood pressure, not normal pressure, and the fall flattens from about 90 mmol excreted
 
 Sodium and potassium push blood pressure in opposite directions: less sodium lowers it, and more
@@ -864,6 +873,8 @@ cutting sodium and adding potassium partly substitute for each other on pressure
 should not be tailored to a person's salt intake on this basis.
  [[Potassium Intake and Blood Pressure]]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Salt substitutes: one large Chinese trial cut strokes and deaths, and the pooled reviews mostly count that trial again
 
 A salt substitute replaces part of the sodium chloride in household salt with potassium chloride, so it
@@ -928,9 +939,10 @@ the same quantity, and SSaSS's place on PURE's curve is undetermined.
 [@neal2021] [@mente2016pure] -> [[Should Sodium Reduction Be Population-Wide or Targeted]]
 
 Lai pooled the 10 trials that measured urinary sodium: a potassium salt lowered it by only 19.33 mmol a
-day (2.62 to 36.05), about 0.45 g. **That shift is too small to move a high-intake population below 3 g a
-day, so the substitute trials do not test the low arm disputed in the Low intake section above.**
-[@lai2026salt]
+day (2.62 to 36.05) [@lai2026salt],
+about 0.44 g of sodium `[INFERRED: 19.33 mmol x 23 mg/mmol]`. **That shift is too small to move a
+high-intake population below 3 g a day, so the substitute trials do not test the low arm disputed in the
+Low intake section above.**
 
 ### Lai's network meta-analysis: the mortality benefit rests on SSaSS again, and the result says little beyond Chinese-style diets
 
@@ -961,9 +973,11 @@ risk (moderate certainty) and 16 fewer at high risk, graded moderate to high acr
 relative effect implied by Lai's figures, about 0.89, is SSaSS's own 0.88 again.
 With SSaSS removed, the all-cause benefit lost significance (4 and 10 fewer per 1,000 at intermediate
 and high risk), and so did non-fatal events. Cardiovascular death stayed significant and grew, to 9 and
-29 fewer per 1,000. That residual rests on one or two small Chinese trials, about 1,600 people, so it
-**more likely reflects fragility or small-study inflation than a robust effect**.
-[@lai2026salt]
+29 fewer per 1,000 [@lai2026salt].
+That residual rests on one or two small Chinese trials, about 1,600 people
+`[INFERRED: 22,607 in the two-trial moderate-potassium CV-mortality pool minus SSaSS's 20,995 = 1,612]`,
+so it **more likely reflects fragility or small-study inflation than a robust effect**.
+
 
 **No salt-substitute trial outside China has measured mortality.** Outside China, Lai's one significant
 hard-outcome signal is a Peru trial of non-fatal cardiovascular events (44 and 148 fewer per 1,000 at
@@ -1120,6 +1134,8 @@ kidney problems and hyperkalaemia risk before recommending salt substitutes.»
 > - **Hyperkalaemia overall:** the evidence is insufficient, for the reasons above.
 >
 > [@neal2021] [@brand2022lsss] [@aburto2013] [@brand2022lsss] [@brand2022lsss] -> [[Potassium Intake and Blood Pressure]], [[Sodium Intake and Blood Pressure]]
+
+</div>
 
 ## Guidelines: WHO's 2 g and the Nordic 2.3 g are policy lines on one curve, not measured optima
 
@@ -1378,6 +1394,8 @@ and salt iodization are compatible.» [@who2012]
 For a low-risk stage-1 hypertensive, a drug and these levers both buy little in absolute terms;
 [[Blood Pressure Lowering and Cardiovascular Events]] makes the comparison.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Gaps: what the evidence cannot yet tell you
 
 The evidence this guide draws on leaves a few holes under the actions above. Two of them shape the whole
@@ -1445,6 +1463,8 @@ switching.
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All topic sources are gold or high tier. |
 > | **Method sources** | Willett. These set how evidence is appraised; they are not evidence about the topic itself. |
-> | **Last updated** | 2026-10-28 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Sodium.md) |
+
+</div>
 
 ## References

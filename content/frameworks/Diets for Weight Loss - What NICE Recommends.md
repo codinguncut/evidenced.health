@@ -56,8 +56,6 @@ maintain an energy deficit and this can be achieved by lowering specific macronu
 having no warrant, without anything having shown it wrong — a distinct move from a refuted claim, and
 one the telos's four evidence-states should record as such.
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## A second guidance family: the 2013 AHA/ACC/TOS guideline, matched parameter by parameter
 
 *Appended 2026-11-06.* The US 2013 AHA/ACC/TOS obesity guideline (Jensen and colleagues) is now held,
@@ -96,8 +94,6 @@ not-joined check (ii) fires on the low-carb row, and the deficit row is a differ
 overlapping trial practice. The programme-structure questions the US guideline
 answers are on [[Lifestyle Weight-Loss Programme Intensity and Delivery]].
 [inferred from @nice; @jensen2014obesity]
-
-</div>
 
 ## Low carbohydrate: assessed, and left without a recommendation
 

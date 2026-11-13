@@ -15,7 +15,7 @@ relationships:
     - Which Objective Moved This Recommendation
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-26
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-08-27
 ---
 
@@ -218,7 +218,7 @@ treat-to-target number once a stratum is fixed -> [[LDL Lowering and Cardiovascu
 guidance-null reading of that convergence is on [[Which Objective Moved This Recommendation]].
 [inferred from @accaha2026; @esceas2025]
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## PREVENT vs the Pooled Cohort Equations — the derivation source quantifies a PCE overprediction the fabric held only from guidance `[2026-08-27]`
 
@@ -285,7 +285,8 @@ same-direction data point toward the standing `[PRIOR — over-personalization i
 [inferred from @khan2024]
 
 **The 30-year horizon is the real addition for younger, low-10-year-risk strata.** For a 50-year-old
-woman with a suboptimal-but-untreated profile, «the estimated 10-year CVD, ASCVD, and HF risk ... was
+woman with a suboptimal profile (treated SBP 160 mmHg, no statin, TC 240 mg/dL, BMI 35, non-smoking),
+«the estimated 10-year CVD, ASCVD, and HF risk ... was
 5.4%, 3.6%, and 2.5%» while «the estimated 30-year CVD, ASCVD, and HF risk for the same individual was
 more than 3-fold higher at 31%, 20%, and 19%» [@khan2024]. A
 10-year number that reads *reassuringly low* can sit above a 30-year number that reads *alarming* — the

@@ -16,8 +16,8 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - The U-Shaped Association Artifact
 created: 2026-07-31
-updated: 2026-10-28
-self_critiqued: 2026-10-26
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 The WHO-commissioned SR+MA (Aburto 2013, BMJ) behind WHO's first potassium guideline -- the **potassium
@@ -90,7 +90,9 @@ concrete evidence the two WHO reviews share one methodological template (bears o
 question in the Synthesis).
 [inferred from @aburto2013]
 
-## Dose -- a plateau near 90-120 mmol/day, no monotone gradient
+<div class="recent-update" data-last-updated="2026-11-13">
+
+## Dose -- a flattening near 90-120 mmol/day, no monotone gradient
 
 > «...Moderate» [page break] «and high quality evidence showed that a higher potassium intake of 90-120 mmol/day reduced blood pressure
 > and was associated with a lower risk of incident stroke. Intake above 120 mmol/day did not seem to
@@ -130,7 +132,10 @@ dose (e.g. Grimm 96 -> 74, Gu 60 -> 23 mmol/d). [inferred from @filippini2020pot
   (-3.4 to -0.5) at 60, then +1.1 (-2.9 to 4.7) at 90 and +4.2 (-2.3 to 10.6) at 120.
   [@filippini2020potassium] Studied range of the difference: 17-131 mmol/d.
   [@filippini2020potassium]
-- **Achieved excretion: a plateau at 90-150 mmol/d, with a steep low arm.** Against 90 mmol/d, SBP is
+- **Achieved excretion: a near-plateau at 90-150 mmol/d, with a steep low arm** (the intervals past 120
+  include 0, a further \~2 mmHg fall and a rise alike — the source reads a weak increase above 150 — so
+  they fit a plateau, a shallow gradient or a slight turn; superseded
+  2026-11-13: previously *a plateau at*). Against 90 mmol/d, SBP is
   +9.1 (4.6 to 13.5) at 30 and +3.9 (2.1 to 5.8) at 60, -0.9 (-1.6 to -0.2) at 120, -0.2 (-2.2 to 1.8)
   at 150 and +0.7 (-2.9 to 4.2) at 180: «The SBP and DBP change remained constant in the range of 90 to 150 mmol/d of achieved potassium excretion.»
   Studied range: supplemented arms 57-225, control arms 34-94 mmol/d.
@@ -259,6 +264,8 @@ contraindication. What would settle it: a within-trial randomized comparison of 
 supplement doses above 60 mmol/d, in treated hypertensives.
 [inferred from @filippini2020potassium]
 
+</div>
+
 ## Safety -- null on lipids/catecholamines/renal (HIGH), with one contraindication
 
 Aburto's novel contribution: the first systematic search for potassium's **adverse** effects. All null,
@@ -301,10 +308,12 @@ exposure, stroke RR held at 0.79). Full taxonomy and why this matters:
 [[Measurement Error in Dietary Assessment]].
 [inferred from @aburto2013]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Synthesis -- the electrolyte pair is one lever, not two independent witnesses
 
 **Nucleus link.** This page orbits [[Sodium Intake and Blood Pressure]] (nucleus of the
-`cardiometabolic-exposures` cluster): sodium and potassium are the two arms of one BP/stroke story, and
+`sodium-bp` cluster): sodium and potassium are the two arms of one BP/stroke story, and
 the Na:K ratio is the joint target neither guideline scores alone.
 [inferred from @aburto2013]
 
@@ -673,6 +682,8 @@ but the exposures are unmatched -- a modest RCT supplement dose vs a highest-vs-
 not magnitude. It is strongest **where potassium moves BP** (hypertensives); it does not license a
 hard-outcome benefit in normotensives, where the BP effect is null.
 [inferred from @aburto2013]
+
+</div>
 
 ## What is absent -- the gaps that drive the next source
 

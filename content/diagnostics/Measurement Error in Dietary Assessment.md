@@ -19,7 +19,7 @@ relationships:
     - Linoleic Acid and Cardiovascular Disease
     - Vitamin B12 Status in Vegetarian and Vegan Diets
 created: 2026-07-25
-updated: 2026-11-10
+updated: 2026-11-12
 nosplit: 737@single-decision diagnostic (one binding-constraint question); length is dated evidence strata accreted append-don't-rewrite, not multiple decisions
 ---
 
@@ -370,7 +370,7 @@ Willett gives the formula (Beaton) `n = (Z_alpha x CV_w / D)^2` [@willett]; work
 at CV_w = 62% — it comes to **about 37 days of records**. **That is the scale of the problem** — and it is why a single 24-hour
 recall cannot support an individual-level exposure claim, however large the study.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Differential error, quantified — the underreporting gradient runs with adiposity `[2026-07-28, Willett ch.4]`
 
@@ -434,6 +434,10 @@ intakes toward the middle, it removes the very observations that would locate on
 manufacture a knee, only erase one**, so it bears asymmetrically: it is a reason to distrust a
 *measured absence* of curvature, not a reason to distrust a measured curve. Handle for whoever scores
 it: the dose-response `[PRIOR]` in CLAUDE.md.
+(superseded in part 2026-11-12: *cannot manufacture a knee* holds for symmetric compression alone. The
+general rule that measurement error cannot manufacture a knee was withdrawn at Gate 55 — error that grows
+with intake can flatten the top of a range and manufacture a plateau, see the schema note above — so a
+*measured* plateau from self-report also warrants distrust, and the bearing is not one-sided.)
 
 ### Records change what people eat — reactivity, and it biases TRIALS specifically
 

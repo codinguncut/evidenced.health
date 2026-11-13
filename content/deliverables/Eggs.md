@@ -4,7 +4,7 @@ question: 'What does the evidence show about eating eggs — and the dietary cho
 sources: [Godos - Egg Consumption Cardiovascular Meta-Analysis 2020, Ma - Egg Consumption CVD Mortality, Zhong - Dietary Cholesterol Egg Consumption Cardiovascular Mortality 2019, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017]
 confidence: low
 created: 2026-08-28
-updated: 2026-10-03
+updated: 2026-11-12
 self_critiqued: 2026-10-03
 concrete_subject_audited: 2026-10-03
 ---
@@ -49,6 +49,8 @@ recommendation. The honest read is the flat one — **not harmful, and not a hea
 But *cardiovascular disease* is not one outcome, and reading it as a single endpoint hides the one place
 eggs behave differently.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Read one outcome at a time, and heart failure stands apart
 
 Split the endpoints and a divergence appears that the pooled figure buries. **Stroke** is flat across the
@@ -73,7 +75,9 @@ that alternative mechanisms could be responsible»
 cholesterol pathway at all.
 
 A second gold meta-analysis, restricted to **mortality**, adds one more low-certainty signal. Ma 2022
-pooled 24 studies (23 cohort, one case-cohort; about 11.9 million people) and found the categorical
+pooled 24 studies (23 cohort, one case-cohort)
+[@ma2022egg] of about 11.9 million people
+`[INFERRED: 11,890,695 participants, rounded]` and found the categorical
 high-versus-low contrast
 for all-cause mortality null (RR 1.04, 0.99-1.09), but a significant continuous slope:
 «each 1-egg/d increment was associated with a 5.6% higher risk of all-cause mortality»
@@ -92,6 +96,8 @@ general-population cardiovascular *events* the two meta-analyses agree: near-nul
 mortality slopes are best held as **watch-items at high habitual intake** (one or more eggs a day), not as
 levers worth restructuring a breakfast around. None of them, in any case, is the thing the public actually
 fears. That is the cholesterol.
+
+</div>
 
 ## The scare mistakes what is in the egg for what is in your blood
 
@@ -222,6 +228,8 @@ flags the «uncontrolled risk factors associated with egg consumption (i.e., bac
 [@godos2020] as a live confounder in
 the male heart-failure signal). Judge the meal as a substitution, not the egg on its own.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The bottom line, as a decision
 
 If you are broadly healthy, **eat eggs freely** — the cardiovascular case for restricting them does not
@@ -241,6 +249,8 @@ and a trial of the breakfast swap. Read the reassurance as **well-founded but lo
 > | **Evidence included** | 5 sources — 4 gold, 1 high |
 > | **Overall certainty** | **Low** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-10-03 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/Eggs.md) |
+
+</div>
 
 ## References

@@ -8,7 +8,7 @@ cluster: dementia
 nucleus: true
 confidence: medium
 created: 2026-08-05
-updated: 2026-11-04
+updated: 2026-11-12
 self_critiqued: 2026-09-10
 relationships:
   related_to:
@@ -409,6 +409,8 @@ cell cannot carry.
   (-> [[Cardiorespiratory Fitness and Mortality]]), best-evidenced in men, not as a second estimate of
   the activity lever. [inferred from @lang2024crf]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The hypertension number, de-secondhanded — the INTERVENTIONAL effect (F-refinement, 2026-09-04)
 
 The *hypertension* cell above carries the Commission's **observational risk-factor** figure — untreated
@@ -426,8 +428,13 @@ de-secondhanding on the page: the others replace a borrowed *observational* cell
   dementia with a mean BP lowering of 10/4 mmHg.» [@peters2022bp] A \~13% relative reduction in dementia odds from a sustained \~10/4 mmHg BP fall in older
   hypertensives (mean age 69.1).
 - **In ABSOLUTE terms — a small per-person gain.** «Incident dementia occurred in 403 (2.9%) and 458
-  (3.3%) of those in active and placebo groups» among those with >=2 years' follow-up
-  [@peters2022bp] — an absolute risk difference of
+  (3.3%) of those in active and placebo groups»
+  [@peters2022bp]. The percentages are of the full
+  randomised arms, not of the 9171 active and 8744 placebo participants with >=2 years' follow-up that the
+  preceding sentence names: those are 65.4% and 62.7% of the arms, which back-calculates to \~14,000 per
+  arm, and 403/\~14,000 = 2.9%, while 403 + 458 = 861 is the whole-trial case count
+  [inferred from @peters2022bp]. On those
+  arms the result is an absolute risk difference of
   **\~0.4 percentage points over median 4.3 years**, i.e. **NNT \~250 over \~4.3 years**. [inferred from @peters2022bp] The absolute effect is small and CONSERVATIVE: the trials
   «stopped early upon achieving the es-timated primary cardiovascular endpoint»
   [@peters2022bp], and dementia accrues slower than
@@ -491,6 +498,8 @@ design-upgrade de-secondhanding, not an identity-plus-enrichment.
   trial list of the sibling age-stratified BPLTTC analysis (Rahimi's 51 trials), so the overlap is
   confirmed for that pool
   [@rahimi2021bpageappx]. [inferred from @peters2022bp; @bplttc2021]
+
+</div>
 
 ## What the framework changes about what to do
 

@@ -6,7 +6,7 @@ authors: [Livingston, Gill; Chen, Yancong; World Cancer Research Fund Internatio
 sources: [Livingston - Dementia Prevention 2024, Chen - Non-Genetic Risk Factors Parkinson Overview 2021, WCRF - Diet Nutrition Activity Cancer 2018, Aune - Physical Activity Cataract Macular Degeneration Meta-Analysis 2026, Marques-Couto - Mediterranean Diet Macular Degeneration Meta-Analysis 2025, Babaker - Risk Factors Age-Related Macular Degeneration 2025]
 confidence: medium
 created: 2026-08-05
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-09-10
 relationships:
   related_to:
@@ -181,7 +181,7 @@ as *the cause* (an effect arrives only when its whole condition set is present)
   for its multi-outcome coverage; whether doing so lowered any individual's combined risk is a validity
   fact the wiki cannot see.
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Extension — the same two workhorse levers preserve FUNCTION, not just prevent disease incidence
 
@@ -192,8 +192,8 @@ direction. **Physical activity is the genuinely cross-cutting one:** it improves
 mobility and ADLs and is the safe function lever across arthritis and chronic pain — it recurs on all
 three function pages *and* all four incidence rows. **Adiposity / weight loss is narrower on the
 function axis:** it is an evidenced lever for **knee OA specifically** (reduces joint load, inflammation,
-pain), not a general function lever — and it is NOT a frailty lever (weight loss is itself a Fried
-frailty criterion and can harm the frail), so its breadth here is knee-OA-via-overweight, whereas on the
+pain), not a general function lever — and it is NOT a frailty lever (*unintentional* weight loss is
+itself a Fried frailty criterion, and weight loss can harm the frail), so its breadth here is knee-OA-via-overweight, whereas on the
 *incidence* axis it is broad (dementia/cancer/CVD). **Knee OA now sits on BOTH axes**, and the two carry
 different evidence weight — the distinction is the decision-relevant part: obesity is the dominant knee-OA
 *incidence* lever too (it carries the large majority — \~77% — of the radiographic-KOA attributable fraction

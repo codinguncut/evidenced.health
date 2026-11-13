@@ -7,8 +7,8 @@ sources: [Aune - Nut Consumption Mortality 2016, Aune - Fruit Vegetable Mortalit
 cluster: plant-foods
 confidence: low
 created: 2026-08-13
-updated: 2026-08-28
-self_critiqued: 2026-08-13
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - Mediterranean Diet and Cardiovascular Events
@@ -50,27 +50,37 @@ carry the largest point estimates but rest on 2-4 studies — treat as insuffici
 banked.
 
 [@aune2016nut]
-## Dose-response SHAPE — a plateau at 15-20 g/day, not a monotone-more-is-better curve
+<div class="recent-update" data-last-updated="2026-11-13">
+
+## Dose-response SHAPE — flatter above 15-20 g/day, not a monotone-more-is-better curve
 
 Restricted-cubic-spline analyses found nonlinear associations for CHD, stroke, and all-cause mortality
 (Pnonlinearity < 0.0001) and for CVD (Pnonlinearity = 0.001), «with most of the reduction in risk
 observed up to an intake of
 approximately 15-20 grams per day or 5-6 servings per week for most of the outcomes.»
 [@aune2016nut] Above \~15-20 g/day the curve
-flattens. **Total cancer is the exception** — no nonlinearity detected (Pnonlinearity = 0.11), i.e.
-roughly linear over the studied range. This is a rare *observed* plateau in this corpus (most decision
-curves the wiki examined were monotone-or-not-estimable) -> [[The Underivable Optimum]].
+flattens on the point estimates; the non-linearity tests show the bend, and no interval past \~20 g/day is
+held, so the flat top fits a plateau and a shallow gradient alike. **Total cancer is the exception** — no nonlinearity detected (Pnonlinearity = 0.11), i.e.
+roughly linear over the studied range. This is a rare *observed* bend in this corpus (most decision
+curves the wiki examined were monotone-or-not-estimable; superseded 2026-11-13: previously *a rare observed
+plateau*) -> [[The Underivable Optimum]].
 
 - **The *20 g/day optimal* is a study-edge, not a derived optimum.** Aune sets 20 g/day as the PAF
   reference «because there was little evidence of further reductions in risk above this level of intake»
   [@aune2016nut] — i.e. the number marks where the
   spline flattens *within the sampled range*, not a demonstrated point-optimum. Read it as a knee-region
   (a floor for most of the benefit), not a target -> [[The Underivable Optimum]].
-- **Measurement caveat on the plateau.** Nut intake is FFQ self-report; dietary measurement error
-  compresses slopes and can *erase* a knee but never *manufacture* one, so a measured plateau is weak
-  evidence of a true one -> [[Measurement Error in Dietary Assessment]].
+- **Measurement caveat on the plateau.** Nut intake is FFQ self-report. Classical error compresses
+  slopes and can hide a knee; error that grows with intake can flatten the top of a self-reported range
+  and manufacture a plateau, so a measured plateau is weak evidence of a true one ->
+  [[Measurement Error in Dietary Assessment]]. (superseded 2026-11-13: this bullet previously read
+  *can erase a knee but never manufacture one*, a rule the fabric withdrew; the conclusion did not
+  follow from it.)
 
 [@aune2016nut]
+
+</div>
+
 ## Nut subtype — the pooled benefit is not uniform across types
 
 Tree nuts and peanuts both associate with lower CHD, CVD, and all-cause mortality (per 10 g/day, peanuts
@@ -114,11 +124,16 @@ studies), but three things cap the causal reading:
   combination of the two.» [@aune2016nut]
   -> [[Mediterranean Diet and Cardiovascular Events]].
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Decision relevance
 
 - **Nuts are a plausible moderate lever, best framed as an addition/substitution**, with most of the
-  associated benefit reached by \~15-20 g/day (a small handful, 5-6 servings/week) — chasing higher intake
-  buys little in the data. The lever is observational-grade; rank it below the big rocks and below
+  associated benefit reached by \~15-20 g/day (a small handful, 5-6 servings/week) on the spline's point
+  estimates. The non-linearity tests show the curve bends; no interval past \~20 g/day is on this page, so
+  more nuts there is diminishing returns, not shown to buy nothing. Stopping at a handful is a reasonable
+  cost call. (superseded 2026-11-13: this bullet previously read *chasing higher intake buys
+  little in the data*.) The lever is observational-grade; rank it below the big rocks and below
   interventions with RCT/MR backing.
 - **A regional contraindication (route c):** in areas where nuts are a major aflatoxin source,
   «increasing nut intake should only be recommended as long as aflatoxin contamination is avoided.»
@@ -131,6 +146,10 @@ also authored the parallel whole-grain dose-response MA (ref 47) using the *same
 cohort infrastructure — so any future *consistency across Aune's plant-food MAs* is same-lab type-F, NOT
 independent type-E backing.
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Sibling plant-food MA — F&V (Aune 2017) confirms the *pattern*, not independently `[2026-08-13]`
 
 The parallel F&V dose-response MA from the same team recurs on every structural feature this page
@@ -141,20 +160,29 @@ as ref 193) [@aune2017fv]:
   F&V benefit does **not** distribute evenly onto favourite fruits — grapes and berries are NS (berries
   point >1), while leafy greens/citrus carry the tight signals. The whole-category pooling hides the
   seams in both foods -> [[Fruit and Vegetable Intake and Health]].
-- **The plateau/edge reads the same way.** Nut benefit flattened by \~15-20 g/day; F&V's lowest risk sits
+- **The plateau/edge reads the same way.** Nut benefit flattened by \~15-20 g/day (point estimates); F&V's lowest risk sits
   at the 800 g/day sampling edge — in both, the guideline-relevant number marks study density, not a
   demonstrated optimum -> [[The Underivable Optimum]].
 - Both are observational, both cap at the confounding ceiling, both argue measurement error attenuates
   toward the null. Convergence across the two is **shared-lineage**, so it does not raise `confidence:`.
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
 
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 Across the five-outcome DIfE/Boeing dose-response series, nuts carry the **largest single protective
 point estimates** in the whole matrix (all-cause mortality RR 0.76, 95% CI 0.69-0.84 per 28 g/d,
 MODERATE; CHD 0.67, 0.43-1.05), but the CIs are wide and the grade is low outside mortality — a
-big-but-uncertain lever whose benefit **plateaus by \~10-20 g/d** (a small handful captures most of it).
+big-but-uncertain lever whose benefit **plateaus by \~10-20 g/d** (a small handful captures most of it;
+point estimates — the one tabulated level past it, 28 g/d, is all-cause 0.85 (0.82-0.89) and, on the
+non-linear table, CHD 0.84 (0.73-0.97) vs none [@bechthold2019], a level rather than an increment interval, so no interval locates the plateau
+).
 [@schwingshackl2017mort]
 [@bechthold2019] Full
 cross-outcome placement -> [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
+
+</div>
 
 ## References

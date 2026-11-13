@@ -7,7 +7,7 @@ sources: [WCRF - Meat Fish and Dairy Products and Cancer 2018, NutriRECS - Red a
 cluster: red-meat
 nucleus: true
 confidence: medium
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 relationships:
   related_to:
@@ -25,6 +25,8 @@ issue.
 
 
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Both positions in their own terms
 
 - **WCRF (limit).** Processed meat is a "convincing" and red meat a "probable" cause of colorectal
@@ -32,12 +34,15 @@ issue.
   body: «we want to live in a world where no one develops a preventable cancer.» It does not compute an
   absolute effect and does not weigh consumers' preferences.
   [@wcrf2018]
-- **NutriRECS (continue).** The same evidence is low-to-very-low certainty under strict GRADE; the
+- **NutriRECS (continue).** Its own syntheses of largely overlapping evidence rate it low-to-very-low
+  certainty under strict GRADE; the
   absolute effect of a realistic 3-servings/week cut is "very small and often trivial" (about 7 fewer
   cancer deaths per 1000 over a lifetime); and "given peoples' attachment to their meat-based diet...
   the associated risk reduction is not likely to provide sufficient motivation." It takes "the
   perspective of individual decision making rather than a public health perspective."
   [@nutrirecs2019]
+
+</div>
 
 ## Parameter table — where the two actually meet, and where they only appear to
 
@@ -79,7 +84,7 @@ The parameter table's "shared base / low grade" rows were previously abstract; t
   null-but-indirect + cohort very-small, both low-certainty) — it is about whether that warrants a public
   reduce-recommendation. -> [[Certainty of Evidence vs Strength of Recommendation]].
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## It decomposes — one legitimate difference, one genuine tension
 
@@ -94,8 +99,9 @@ overstates it.
 association warrant a reduce-recommendation at all?* Here they genuinely clash on shared ground —
 
 - **the standard of proof.** WCRF's "probable" grade is precautionary: strong-enough-to-act. NutriRECS
-  applies strict GRADE and calls the identical evidence low-certainty, declining to rate up for
-  dose-response because of residual confounding. Same evidence, opposite bar -> [[Certainty of Evidence vs Strength of Recommendation]].
+  applies strict GRADE and calls largely overlapping evidence low-certainty, declining to rate up for
+  dose-response because of residual confounding. Two separate syntheses of largely overlapping
+  evidence (the overlap is this page's judgment), opposite bar -> [[Certainty of Evidence vs Strength of Recommendation]].
   NutriRECS states the disagreement in its own terms: "other guidelines have not used the GRADE
   approach for rating certainty of evidence... As a result, we are less convinced of meat consumption
   as a cause of cancer."

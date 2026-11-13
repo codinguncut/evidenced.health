@@ -989,8 +989,6 @@ support for Franz's *advice alone: minimal at any timepoint*:
 [inferred from @madigan2015weigh] No cell matches, so the two
 neither corroborate nor contradict each other; each stands on its own.
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Maintenance programmes — what the 2013 AHA/ACC/TOS guideline graded
 
 *Added 2026-11-06.* The US obesity guideline graded the regain pattern and the value of continued
@@ -1053,8 +1051,6 @@ size, not as matched estimates. The
 guideline does not cite Franz [searched: "Franz" across Jensen chunks 01-06, 0 hits], but both pool RCTs
 of the same era and kind, so the agreement is not independent backing (not type-E).
 [inferred from @jensen2014obesity; @franz2007]
-
-</div>
 
 ## What it licenses, and the limits that bound it
 

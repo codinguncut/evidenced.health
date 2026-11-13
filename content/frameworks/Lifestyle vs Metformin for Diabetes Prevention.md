@@ -16,7 +16,7 @@ relationships:
     - Layer 1 - Ranking Interventions for a Stratum
     - Statins and New-Onset Diabetes
 created: 2026-08-07
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-06
 ---
 
@@ -77,7 +77,7 @@ BMS stock, yet the finding runs *against* the drug the funder sells (the study m
 supplied by Lipha Pharmaceuticals). So the conflict does not undercut the headline.
 [inferred from @knowler2002]
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The subgroup split — lifestyle works broadly, metformin works selectively
 
@@ -121,8 +121,10 @@ This is the decision-relevant subgroup structure, and the two arms behave differ
   those with a lower body-mass index than in younger persons and those with a higher body-mass index.»
   [@knowler2002]
 
-The decision-change: **metformin is a stratum-specific drug for prevention** (worth most in the younger,
-more obese, more hyperglycemic; near-null point estimates, with wide intervals, in the lean/near-normal-fasting), while **lifestyle is a
+The decision-change: **metformin is a stratum-specific drug for prevention** (worth most in the more
+obese and more hyperglycemic; near-null point estimates, with wide intervals, in the lean/near-normal-fasting;
+its point estimates also fall with age, 44% / 31% / 11% at 25-44 / 45-59 / >=60, but that column carries
+no heterogeneity marker in Table 2 [@knowler2002]), while **lifestyle is a
 broad-spectrum lever** that works across strata. The route-(b) machinery this instantiates is worked on
 [[Baseline Risk and the Relative-Absolute Split]] (one trial showing an arm with modified relative effect
 beside an arm with a roughly constant one). [inferred from @knowler2002]
@@ -290,8 +292,6 @@ lifestyle-prevention claim from *single-landmark* to *replicated*; the lineage t
 with the caveat rather than as three sealed-off routes.
 [inferred from @tuomilehto2001; @pan1997]
 
-<div class="recent-update" data-last-updated="2026-11-09">
-
 ## Why lifestyle beat metformin — mechanism, and what DPP could NOT attribute
 
 Metformin and lifestyle reduced fasting glucose similarly, but lifestyle did more on post-load glucose and
@@ -403,8 +403,6 @@ diabetes» [@jensen2014obesity].
 The guideline's ES is about weight loss achieved by lifestyle; like DPP, it does not separate the weight
 from the diet and activity that produced it.
 [inferred from @jensen2014obesity; @knowler2002]
-
-</div>
 
 ## Adherence and adverse events
 

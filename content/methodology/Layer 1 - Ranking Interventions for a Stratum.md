@@ -12,7 +12,7 @@ relationships:
     - Cardiometabolic Interventions and Hard CV Outcomes in Low-Risk People
     - Menopause and the Shifting Levers
 created: 2026-07-26
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 ---
 
@@ -73,6 +73,8 @@ exposures, one* -> of nine rows, three; audit 2026-10-06: *\~10 years ... by 40*
 
 
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## What is held
 
 | Exposure | Effect | Outcome type | Certainty | Source page |
@@ -84,7 +86,7 @@ exposures, one* -> of nine rows, three; audit 2026-10-06: *\~10 years ... by 40*
 | Low-carb, glycaemic control | HbA1c -0.47% at 6 mo | surrogate | **High** | [[Carbohydrate Restriction and Type 2 Diabetes Remission]] |
 | Very-low-carb (NICE stratum) | weight -2.38 kg at 1 yr; HbA1c -0.38 | intermediate + surrogate | Very low / Low | [[Diets for Weight Loss - What NICE Recommends]] |
 | Low-carb vs balanced-carb, weight | \~1 kg — **judged not clinically important** | intermediate | Moderate | [[Low-Carbohydrate vs Balanced-Carbohydrate Diets]] |
-| Reduce sodium | **-3.39 mmHg** systolic; hard outcomes all **very low** | surrogate | High (BP only) | [[Sodium Intake and Blood Pressure]] |
+| Reduce sodium | **-3.39 mmHg** systolic; hard cohort outcomes mostly **very low** (fatal stroke low; 2-RCT CVD pool inconclusive, moderate); Na-down + K-up salt substitute: mortality moderate to high (Lai) | surrogate | High (BP only) | [[Sodium Intake and Blood Pressure]] |
 | Reduce free sugars | isoenergetic swap for other carbohydrate: **null (0.04 kg)** | intermediate | Moderate | [[Free Sugars Intake]] |
 
 **Read the outcome-type column before the effect column.** Only the first three rows are hard outcomes
@@ -100,6 +102,7 @@ consistent harmful levers), while SSB, dairy, fish and eggs are outcome-specific
 input to this stratum ranking; its effects are per-serving RRs on mostly-hard outcomes, all
 observational-grade and from **one shared evidence base** (not independent).
 
+</div>
 
 ## What is held as a RECOMMENDATION but with no magnitude
 
@@ -539,6 +542,8 @@ effect to rank, which is itself the placement.
 
 
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Few high-certainty, high-impact dietary levers — a challenge the assembled fabric confirms, and sharpens `[2026-08-17, Challenge]`
 
 A maintainer doubt, registered as a Challenge: *the evidence for fibre is not convincing or big; the
@@ -576,9 +581,13 @@ position once "fat loss" is recognized as the one large dietary lever wearing a 
   SFA-harm premise itself contested -> [[Saturated Fat Intake and Replacement]].
 - **Free sugar** — isoenergetic swap **null** (0.04 kg); the WHO 10% limit is a *dental* recommendation,
   not a cardiometabolic one -> [[Free Sugars Intake]].
-- **Sodium** — HIGH certainty on the surrogate (SBP -3.39 mmHg), **VERY LOW** on direct hard outcomes;
+- **Sodium** — HIGH certainty on the surrogate (SBP -3.39 mmHg), mostly **VERY LOW** on direct hard
+  cohort outcomes (fatal stroke LOW; a 2-RCT CVD pool, RR 0.84 (0.57-1.23), inconclusive at MODERATE);
+  the joint sodium-down/potassium-up salt substitute reaches hard outcomes at moderate to high certainty
+  (Lai: all-cause mortality, high only at high baseline risk; Brand: CV mortality, moderate), which is not sodium alone;
   a route-(a) conditional lever that pays with baseline BP risk, not a universal one
   -> [[Sodium Intake and Blood Pressure]].
+  [inferred from @who2012; @lai2026salt; @brand2022lsss]
 
 **The two honest exceptions the claim must survive (symmetric standards — test the counter-evidence, not
 just the confirming):**
@@ -655,10 +664,9 @@ the bias the rule exists to catch. The value added is configurative (the composi
 per-lever certainty-type asterisk), not a new magnitude — the doubt was right, the fabric held it, and
 this section states it once instead of leaving it distributed.
 
+</div>
 
-
-
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Tiering a lever: the association is not the tier `[2026-08-17, Challenge]`
 
@@ -672,10 +680,8 @@ questioned show the two ways that distinction bites, and they resolve in **oppos
   -> [[Fruit and Vegetable Intake and Health]]; fibre CHD RR 0.76 -> [[Dietary Fibre and Health]]) whose
   **causal core is small** — the trialled fibre mechanism is transmission-bounded to a <4% CHD reduction
   (challenge #R40). The evidence is observational *everywhere* (no whole-food RCT to a hard outcome), so
-  there is no baseline stratum at which it becomes large-and-certain. Every owning page already tiers it
-  there — *"a real but modest supporting lever, not a big rock"* -> [[Fibre]]; *"for most people
-  this is a small lever"* -> [[Plant Foods]] — and [[Big Rocks (Median)]] omits it from its big-rock
-  buckets entirely.
+  there is no baseline stratum at which it becomes large-and-certain. The owning fibre page tiers it
+  there — *Fibre is a real supporting lever, not a big rock* -> [[Dietary Fibre and Health]].
 - **Blood pressure is a BIG rock CONDITIONALLY — Big for an elevated-BP/high-risk person, Medium-to-Pebble
   for a normotensive.** Unlike plant foods it carries a **proven** hard-outcome transmission that reaches
   primary prevention: 5 mmHg systolic -> \~10% fewer major CV events (BPLTTC, HIGH), so route-(a) baseline

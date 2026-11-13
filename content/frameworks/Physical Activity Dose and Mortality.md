@@ -23,8 +23,8 @@ relationships:
     - Wearable Activity Trackers and Physical Activity
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-27
-updated: 2026-10-28
-self_critiqued: 2026-10-28
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 **Now anchored on the primary harmonised meta-analyses, not the WHO summary `[2026-08-06]`.** The
@@ -84,11 +84,14 @@ genuine `[E-independent]` corroboration*). An RCT-grade mortality outcome is sti
 
 
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The decision this page changes
 
 **Most of the mortality association is reached at a dose far below what people assume they need — and the
-curve then flattens.** That is a decision-change in the telos's specific sense: it licenses someone
-to *stop optimizing*, which is a result, not a failure to find one. Above \~24 min/day of device MVPA
+curve then flattens.** That is a decision-change in the telos's specific sense: it makes stopping at
+a modest dose a reasonable cost call, which is a result, not a failure to find one (superseded
+2026-11-13: previously *it licenses someone to stop optimizing*). Above \~24 min/day of device MVPA
 (studied to \~50 min/day), each further 5 min is associated, if causal, with a small reduction not clearly different from none
 (see *The plateau region* below): a small, uncertain lever, so stopping there is defensible, and more
 is not shown to be worthless. [INFERRED; figure-read]
@@ -109,6 +112,7 @@ pattern) or spread across the week appears not to change the mortality benefit
 -> [[Weekend Warrior Activity Pattern and Mortality]] (with a session-duration floor: sub-30-min
 sessions do not bank it, at low observational certainty).
 
+</div>
 
 ## Scope — this page is LEISURE / TOTAL PA; occupational PA can run the OTHER way `[2026-08-14, Coenen]`
 
@@ -299,6 +303,8 @@ exception.» [@franklin2020acute]
   citations through one statement, not primaries held here, so they bound the shape claim without
   raising this page's `confidence:`.
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The primary numbers (Ekelund 2019) — the full dose-response, and where the benefit is banked
 
 The two maxima above trace to **Ekelund 2019**, a harmonised MA of 8 accelerometry cohorts (n=36 383,
@@ -372,13 +378,15 @@ This is the *marginal-minute-worth-most-at-the-bottom* shape, quantified: the ne
 the largest lever on the activity curve, and it is a small one to pull, if the bottom-of-curve
 association is causal; this is also the region most exposed to reverse causation (see below).
 
-**The plateau region, stated primarily — located, not a *no knee*, but not precisely bounded.** Above
-the maxima the curve flattens:
+**The plateau region, stated primarily — a flattening on the point estimates, not precisely bounded.**
+Above the maxima the curve flattens:
 > «No further risk reductions occurred with higher levels of activity except for low light intensity
 > physical activity where the risk appeared to decrease further.»
 > [@ekelundacc2019]
-So this is a located flattening: monotone-decreasing, then no further reduction detected above the
-maxima (no U/J, no harmful upper arm detected for all-cause mortality over the studied range). The MVPA
+So this is a flattening on the point estimates, not an interval-located plateau: monotone-decreasing,
+then no further reduction detected above the maxima, with intervals there that fit a plateau and a
+shallow gradient alike (superseded 2026-11-13: this read *located, not a no knee* and *a
+located flattening*) (no U/J, no harmful upper arm detected for all-cause mortality over the studied range). The MVPA
 maximum itself is HR 0.39 (0.26-0.59) at \~24 min/day
 [@ekelundacc2019], an interval that leaves
 the curve's level at its maximum imprecise. It largely survives the *measurement* caveat the wiki attaches to plateaus: measurement error can hide a
@@ -466,6 +474,8 @@ points to 11.5% (5.4-16.7).
 frailty, in the cohorts that recorded it, is consistent with *some* reverse causation in the adjusted
 main curve; its only shown figures are PIFs (no HR for these analyses in the main text), so its size is
 not a measure of how much the HR gradient moved. The check is still the weak kind.
+
+</div>
 
 ## Deaths potentially averted by small changes — a model output, not a trial effect `[2026-10-28, Ekelund 2026]`
 
@@ -595,6 +605,8 @@ and selection.
   under-powered to read in the consortium, and UK Biobank's age-stratified results are reported
   «materially unchanged» without figures in the main text (above).
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Steps per day — the practical, wearable-native dose (Paluch 2022)
 
 **Steps are the metric people actually have.** Paluch 2022 (harmonised MA, 15 cohorts, n=47 471, 3013
@@ -608,23 +620,28 @@ fitness tracker reports:
 > [@paluch2022]
 
 Quartiles 2-4 vs lowest = 40-53% lower mortality (highest vs lowest HR 0.47, about 53%); overall nadir \~7000-9000 steps/day; monotone-
-decreasing to a plateau (p-nonlinearity <0.0001), same as the MVPA curve.
+decreasing, then flatter (p-nonlinearity <0.0001 shows the bend; the quartile CIs above Q2 overlap, so
+no interval locates a plateau), same as the MVPA curve (superseded 2026-11-13: previously
+*monotone-decreasing to a plateau*).
 
 **The age plateau is genuine effect modification (route-b), not just baseline-risk (route-a).** The
 age x steps interaction is significant (p=0.012): **older adults (>=60) reach the plateau LOWER
 (\~6000-8000 steps) than younger adults (\~8000-10 000)** — the sex interaction is not (p=0.11). Because
 this is *positive interaction evidence*, stratifying the step target by age clears the higher route-(b)
 bar (per transportability and effect modification / the five-routes table), not only the route-(a)
-absolute-benefit scaling. Decision-change: an older adult can bank the mortality plateau at a lower step
+absolute-benefit scaling. Decision-change: an older adult reaches the flattening of the curve at a lower step
 count than the number a younger adult should aim for.
 
 **10 000 steps is a marketing number.**
 > «Although the goal of 10 000 steps per day is widely promoted as being optimal for general health, it is
 > not based on evidence, but instead originates from a marketing campaign in Japan.»
 > [@paluch2022]
-The benefit plateaus below 10 000 for most adults and well below it for older adults — so 10 000 is not a
-threshold to clear, and treating it as one may discourage the person for whom 6000-8000 already banks
-most of the benefit.
+
+On the spline's point estimates the benefit flattens below 10 000 for most adults and well below it for
+older adults — so 10 000 is not a threshold to clear, and treating it as one may discourage the person for
+whom 6000-8000 already reaches most of the associated benefit. More steps above that is diminishing
+returns, not shown to buy nothing; where to stop is the person's cost call (superseded
+2026-11-13: previously *the benefit plateaus below 10 000*).
 
 **Cadence adds little beyond volume.**
 > «We found inconsistent evidence that step intensity had an association with mortality beyond total
@@ -645,6 +662,10 @@ above notes a sick-quitter tell), \~600-750 steps is roughly a fifth to a third 
 gap, held for a few months.
 [inferred from @paluch2022; @brickwood2019wearable; @laranjo2020] -> [[Wearable Activity Trackers and Physical Activity]]
 
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## These three metrics are NOT interchangeable numbers — a same-quantity check
 
 Steps/day, MVPA-min/day and sitting-hours/day are **complementary framings of one construct (total
@@ -656,7 +677,7 @@ source's number as another's:
 | Exposure unit | MVPA min/d; total-PA cpm | steps/day | sitting h/day; MET-h/week | **NO** — different units |
 | Measurement | hip accelerometer (device) | step-counting device | self-report questionnaire | NO — device vs self-report |
 | Referent | least-active quartile | lowest-steps quartile | least-sitting + most-active | NO — different referents |
-| Where benefit banks | \~24 min/d MVPA (located flattening; ActiGraph >=1952 / Actical >1535 cpm, mostly hip) | \~7-9k steps (age-varying) | 60-75 min/d MVPA offsets sitting | measure a DIFFERENT feature |
+| Where benefit banks | \~24 min/d MVPA (flattening on point estimates; ActiGraph >=1952 / Actical >1535 cpm, mostly hip) | \~7-9k steps (age-varying) | 60-75 min/d MVPA offsets sitting | measure a DIFFERENT feature |
 | Top-vs-bottom effect | HR 0.27 (total PA) | HR 0.47 (steps) | HR 1.04 vs 1.27 (joint) | NO — non-comparable contrasts |
 
 **The decision-relevant convergence is qualitative, not numeric:** all three show the same *shape* — a
@@ -666,6 +687,10 @@ different exposures, referents and measurement instruments). Use steps for a wea
 minutes for a guideline-aligned target, and the sitting interaction for the offset question — do not
 convert between their hazard ratios.
 [inferred from @ekelundacc2019; @paluch2022; @ekelundsitting2016]
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-13">
 
 ## Strength training — an association after adjustment for aerobic activity, never ranked above aerobic
 
@@ -723,6 +748,8 @@ moves from 0.66 age-adjusted to 0.76 with covariates and 0.87 with aerobic activ
 confounding plausibly accounts for part of what remains; how much is not shown.
 [@zhang2026rtmort]
 The default stops at \~120, not \~140,
+as a cost call rather than a shown zero above it (the category intervals overlap — 0.87 at 90-119,
+0.92 (0.86-0.98) at >=120 — so they fit a plateau, a shallow gain or a slight loss alike), and
 because no held source shows further all-cause benefit beyond \~120 (Zhang's plateau reading at >=120,
 quoted above; cause-specific shapes differ: Zhang's CVD spline keeps falling, P for
 non-linearity 0.98). Above \~140 the held estimates conflict — Momma's and Shailendra's pooled splines
@@ -771,6 +798,8 @@ recommendations)»* — which looks opposed to Stamatakis. It is not: **Siahpush
 smokers**, Stamatakis pools 11 general-population cohorts. Different population, consistent once
 matched. Recorded here so the apparent clash is not re-filed later as a *tension*.
 [@who2020]
+
+</div>
 
 ## Sedentary time is a separate exposure with its own thresholds
 

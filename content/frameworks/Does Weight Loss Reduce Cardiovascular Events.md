@@ -21,7 +21,7 @@ relationships:
     - Sleep Apnea Treatment and Cardiovascular Risk
     - Blood Pressure Lowering and Cardiovascular Events
 created: 2026-07-28
-updated: 2026-11-10
+updated: 2026-11-12
 self_critiqued: 2026-11-06
 ---
 
@@ -148,7 +148,11 @@ cardiovascular events*.
 
 **Two honesty notes, and the second strengthens the point.** (1) On CV events the overlap is near-total —
 Look AHEAD *is* one of Ma's 54 trials, so *the MA generalizes Look AHEAD* is partly self-containing on
-the CV strand (Ma does not report Look AHEAD's weight in the CV-event pool). Its «54.6% of the
+the CV strand: in Ma's CV-event pool (Fig 5, participants with a cardiovascular event, 403/2570 vs
+418/2575) Look AHEAD carries 82.08% of the weight, and 81.66% in the CV-mortality pool (Fig 3)
+[@ma2017]. (corrected
+2026-11-12: *Ma does not report Look AHEAD's weight in the CV-event pool* -> it does, in the forest
+plot.) Its «54.6% of the
 weighting in the meta-analysis» is stated for the **all-cause mortality** pool, which is why the
 leave-out check below matters. (corrected 2026-10-06: the 54.6% weighting was attached to the CV
 strand -> it is the all-cause mortality analysis, Ma chunk 01.) (2) But the all-cause benefit is
@@ -255,7 +259,7 @@ event/mortality evidence AWAITS SURMOUNT-MMO; do not borrow SELECT's benefit for
 molecule, different stratum).
 [@malhotra2024surmount]
 
-<div class="recent-update" data-last-updated="2026-11-09">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## The drug route generalizes to a class — and it is weight-INDEPENDENT, which reinforces this page
 
@@ -270,8 +274,11 @@ CV-event reduction is not a SELECT one-off; it is a robust class effect -> [[GLP
 
 **This does NOT overturn the page's thesis — it sharpens it.** These are glucose-lowering CVOTs with
 *modest* weight loss. Badve does not report when the curves separate; in the single trial SELECT the
-benefit separated early, before much weight was lost
-([[Semaglutide for Cardiovascular Risk in Obesity]]) — read as a drug pleiotropic effect, not purely a weight-loss effect. (corrected 2026-10-06:
+between-group difference emerged early, and the trialists speculate that treatment-induced changes
+beyond the amount of weight lost *may* have mediated at least part of the benefit — SELECT reports no
+weight figure at the time of separation, so this is their hedged reading, not a measured
+weight-independent effect (extracted on [[Semaglutide for Cardiovascular Risk in Obesity]]). (corrected
+2026-11-12: *separated early, before much weight was lost* -> the trialists' hedged speculation.) (corrected 2026-10-06:
 early separation was asserted for the whole class on Badve -> it is SELECT's single-trial finding; Badve
 chunk 01 reports no timing.) So the class result is *not* evidence that shedding weight
 prevents CV events; it is another instance of **the route matters**: the drug route works via
@@ -313,7 +320,7 @@ PREDIMED's own all-cause mortality was **null** over 4.8 yr, so the pattern's wi
 
 </div>
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## What the 2013 AHA/ACC/TOS guideline graded on this question — risk factors, not events
 
@@ -333,7 +340,7 @@ grades instead [@jensen2014obesity] (ES1-ES3);
 | HbA1c (adults with T2D) | 5-10% at 1 year | down 0.6% to 1.0%, fewer diabetes drugs | High |
 | Triglycerides | 3 kg | down ≥15 mg/dL | High |
 | LDL-C / HDL-C | 5-8 kg | LDL-C down \~5 mg/dL; HDL-C up 2-3 mg/dL | High |
-| Blood pressure (adults with elevated CV risk, incl. T2D and hypertension) | 5% | SBP/DBP down \~3/2 mmHg, dose-response up to 3 years | High |
+| Blood pressure (adults with elevated CV risk, incl. T2D and hypertension) | 5% | SBP/DBP down \~3/2 mmHg; dose-response with weight loss achieved at up to 3 years | High |
 | All-cause mortality (adults with T2D) | 9-13 kg intentional loss, observational | «had a 25% decrease in mortality rate compared with weight- stable controls» | Low |
 
 The headline recommendation built on these is Grade A: counsel overweight and obese adults with

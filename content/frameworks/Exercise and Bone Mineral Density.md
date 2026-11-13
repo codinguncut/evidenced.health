@@ -21,7 +21,7 @@ relationships:
     - Creatine Supplementation
     - Stress Fracture Risk Factors in Runners
 created: 2026-08-27
-updated: 2026-10-28
+updated: 2026-11-12
 ---
 
 **The efficacy question for exercise on the bone surrogate in postmenopausal women — and the
@@ -151,7 +151,18 @@ It measures the patient-important fracture outcome directly, but for **mixed** e
 being from the **same group**, it refines rather than independently corroborates.
 [inferred from @hoffmann2022]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## The fracture endpoint is now held: exercise reduces major osteoporotic fractures (type-F)
+
+**Scope and metric of this result.** Hoffmann's population is wider than this page's: its eligibility
+criterion admits «female and male cohorts older than 50 years on average», and «Seven studies focused
+exclusively on women.» (of 11) [@hoffmann2022].
+Its «Primary study outcome was incidence ratio (IR) for major osteoporotic fractures.»
+[@hoffmann2022]; the *RR* quoted below
+is the abstract's own label for that pooled incidence ratio over participant-years. The page question
+stays scoped to postmenopausal women: this section applies a mostly-female, over-50 mixed-sex pool to
+them, an indirectness the reader should carry, and it is not a separate finding for men.
 
 Hoffmann 2022 measures the patient-important outcome directly, the one the BMD above is a surrogate
 for. It is a gold SR-MA (11 controlled exercise studies; 9715 exercise vs 9592 control
@@ -211,6 +222,7 @@ through the BMD-independent falls channel.
   to separate*. On the fracture leg these are **protocol questions that remain unresolved**
   (between-study; power moderate at best by the authors' account), not a route-(b) stratum null.
 
+</div>
 
 ## The supervision discordance — null on the surrogate, a second-hand fracture signal
 

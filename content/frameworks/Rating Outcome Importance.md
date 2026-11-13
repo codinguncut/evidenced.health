@@ -12,7 +12,7 @@ relationships:
     - Framing a Decision Question
     - Exercise for Preventing Falls in Older Adults
 created: 2026-07-25
-updated: 2026-08-28
+updated: 2026-11-12
 self_critiqued: 2026-08-28
 ---
 
@@ -154,6 +154,8 @@ Discussion's "about 4 to 6 kg" is a translation of a criterion already on the re
 and HbA1c** thresholds appear only in the Discussion. Disclosed either way, and still not the same
 instrument as pre-specification.
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## When the values evidence actually exists — a worked instance (2026-08-28)
 
 GRADE's fallback when values-and-preferences evidence is missing is panel experience (§3.3), which the
@@ -168,6 +170,12 @@ studies, mostly EQ-5D, mostly from people who experienced the event) put disutil
   (MODERATE certainty), with long-term-care admission the most important state of all — «80% of
   participants said they would rather be dead»
   [@pillay2024falls].
+- **Two soft rungs in that ranking.** The long-term-care top rung is thin: «However, this health state
+  utility was measured using time trade-off in a single study (n = 194) in a sam- ple of adults ≥ 75
+  years old (mean age 83 years), and the evidence was rated as low certainty.» The fall bottom rung is
+  imprecise: the 0.09 fall disutility (6 studies, n = 4653, EQ-5D, low certainty) has a 95% CI of
+  -0.04 to 0.22, which includes zero
+  [@pillay2024falls].
 - **Why it matters for this page:** it is the rare instance where *which outcome is critical* is settled by
   measured patient values instead of panel assertion — and the ranking is non-obvious (the *fall*, the
   measured endpoint of most trials, is the **least** important state; the *fracture* and *lost
@@ -177,6 +185,8 @@ studies, mostly EQ-5D, mostly from people who experienced the event) put disutil
   the person cares about. The full worked chain lives on
   [[Exercise for Preventing Falls in Older Adults]].
   [inferred from @pillay2024falls]
+
+</div>
 
 ## Limits
 

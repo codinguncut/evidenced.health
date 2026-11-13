@@ -6,7 +6,7 @@ authors: [Scientific Advisory Committee on Nutrition (org); Nordic Council of Mi
 sources: [SACN - Carbohydrates and Health 2015, NNR - Nordic Nutrition Recommendations 2023, ESC - CVD Prevention Guidelines 2021, Reynolds - Carbohydrate Quality and Human Health 2019, FAO - Dietary Protein Quality Evaluation 2013, Afshin - Health Effects of Dietary Risks GBD 2019, WCRF - Diet Nutrition Activity Cancer 2018, Jenkins - Glycaemic Index Load Outcomes Series 2024, Aune - Whole Grain Mortality 2016, Aune - Fruit Vegetable Mortality 2017, Schwingshackl - Food Groups All-Cause Mortality Meta-Analysis 2017, Schwingshackl - Food Groups Type 2 Diabetes Meta-Analysis 2017, Bechthold - Food Groups CHD Stroke Heart Failure Meta-Analysis 2019, Schlesinger - Food Groups Overweight Obesity Weight Gain Meta-Analysis 2019, Thorisdottir - Legume Cardiovascular Diabetes Meta-Analysis 2023, Zargarzadeh - Legume Consumption Mortality, Reynolds - Fibre Whole Grains Diabetes 2020]
 cluster: nutrition
 confidence: low
-self_critiqued: 2026-10-06
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -16,7 +16,7 @@ relationships:
     - Protein Quality and the DIAAS Score
     - Glycaemic Index and Glycaemic Load and Chronic Disease
 created: 2026-07-27
-updated: 2026-10-22
+updated: 2026-11-13
 ---
 
 **Two-source page, `confidence: low`.** The body below is SACN 2015; [@nnr2023] was added 2026-07-28 and is the second guidance family this page `AWAITS`-ed.
@@ -482,6 +482,8 @@ near-identical associations do not establish any one as an independent lever. Fu
 the proxy-vs-lever analysis: [[Glycaemic Index and Glycaemic Load and Chronic Disease]].
 [inferred from @jenkins2024gi]
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The bare whole-grain RRs get a dose-response, CIs and a studied range — Aune 2016 `[2026-08-13]`
 
 The whole-grain figures above (SACN's cohort RR 0.95 CVD / 0.96 stroke / 0.97 colo-rectal, **no CI, no
@@ -527,12 +529,22 @@ All of these use a 3-knot restricted cubic spline that is forced linear beyond i
 RR not significant) and, for diabetes and infectious-disease mortality, «most of the reduc- tion in risk
 observed with intakes up to about 60-90 g/ day», with further reductions at higher intakes for
 respiratory disease [@aune2016wg]. The stroke curve, a
-primary outcome, is a located plateau, and the diabetes and infectious-disease curves are knees on
+primary outcome, flattens on the point estimates (non-linearity P<0.001, no further reduction above 120-150
+g/day; the text gives no interval past 120-150, and the non-significant per-90 g RR, 0.88 (0.75-1.03), is
+the linear fit over the whole range, so the flat top fits a plateau and a shallow gradient alike;
+superseded 2026-11-13: previously *is a located plateau*), and the diabetes and infectious-disease curves are knees on
 cause-specific mortality. Both fit the conditional, while CHD, respiratory and all-cause bend but reach no
-plateau, and total cancer is linear (no evidence of non-linearity, P=0.15). Bechthold's CHD spline (5 studies) plateaus at \~100 g/d
+plateau, and total cancer is linear (no evidence of non-linearity, P=0.15). Bechthold's CHD spline (5 studies) flattens at \~100 g/d
 (-> [[Food Groups and Health Outcomes - A Dose-Response Matrix]]) while Aune's CHD curve keeps falling
 to 210 g/d (7 studies in the per-90 g analysis; the spline's study count is not stated in the text).
-That is an unreconciled shape clash on the same outcome. **No U-artifact:** the lone point estimate above 1
+Both shapes are read off point estimates, so this is not a joined clash: Bechthold's non-linear levels
+stay at 0.83 from 3 to 6 servings (0.83, 0.78-0.90 at 90 g/d; 0.83, 0.77-0.91 at 180 g/d)
+[@bechthold2019],
+intervals that fit a plateau and a further gain alike, and Aune's text gives no interval past three
+servings (its curve values are in table S13, appendix 1, not held). Above \~100 g/d more whole grain is
+diminishing returns on CHD, not shown to buy nothing and not shown to keep paying
+(superseded 2026-11-13: previously *Bechthold's CHD spline plateaus at \~100 g/d ... an unreconciled
+shape clash on the same outcome*). **No U-artifact:** the lone point estimate above 1
 is nervous-system mortality (1.15, 0.66-2.02, n=2, NS) at low intake only — a weak single outcome, not a
 U on the headline curves -> [[The U-Shaped Association Artifact]].
 
@@ -579,6 +591,8 @@ Full extraction, all outcome cells and the observational caveats: Aune 2016 sour
   nervous-system) marked; refined-grain read as *no measured harm*, not *proven inert*.
 - **Residual:** F-not-E means this adds precision/shape, not an independent witness — `confidence: low`
   is unchanged, which is the honest outcome of the shared-cohort finding.
+
+</div>
 
 ## The third Aune plant-food MA lands — same lineage, NOT a third independent witness `[2026-08-13]`
 

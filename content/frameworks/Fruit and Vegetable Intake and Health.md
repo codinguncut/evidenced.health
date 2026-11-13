@@ -8,8 +8,8 @@ cluster: plant-foods
 nucleus: true
 confidence: low
 created: 2026-08-13
-updated: 2026-11-10
-self_critiqued: 2026-11-10
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - Nut Consumption and Mortality
@@ -68,8 +68,6 @@ layered in; and *potatoes/legumes handled as subtypes*, but legumes do not appea
   -> [[Dietary Fibre and Health]], [[Potassium Intake and Blood Pressure]].
 
 [@aune2017fv]
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## Dose-response SHAPE — outcome-specific, and the "lowest risk" is the study-edge
 
 Display: nonlinear dose-response from restricted cubic splines (three knots), on a studied range whose
@@ -400,10 +398,6 @@ RR (95% CI) from Aune's restricted-cubic-spline tables for F&V combined, inciden
   (bullet above). A tight interval at 800-900 g/day says nothing about either bias, and none of these
   associations is shown to be causal.
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## Specific types — the pooled benefit is NOT uniform, and the "superfoods" are the thin cells
 [@aune2017fv]
 
@@ -472,9 +466,6 @@ all-cause high-vs-low cells.)
   concern lives -> [[Free Sugars Intake]]; the fruit-form decision as a whole -> [[Whole Fruit Smoothies and Fruit Juice]].
 
 [@aune2017fv]
-
-</div>
-
 ## Measurement error and regression dilution — attenuation in the two studies that corrected for it
 
 Only two studies (EPIC, via two publications, and China Kadoorie) corrected for measurement error /
@@ -552,8 +543,6 @@ one-study-out and to region stratification), but the causal reading is capped:
   design cannot remove.
 
 [@aune2017fv]
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## The population-absolute expression — attributable deaths (causal assumption flagged)
 
 The relative effects become an absolute quantity only via baseline risk. Aune's population layer,
@@ -618,9 +607,7 @@ That describes the cause-specific columns, since the all-cause studies are morta
 throughout. (corrected 2026-11-10: this paragraph previously said
 both all-cause counts used the CHD, stroke and CVD mortality columns.)
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-13">
 
 ## Decision relevance
 
@@ -697,8 +684,11 @@ both all-cause counts used the CHD, stroke and CVD mortality columns.)
   subtype cells are too thin to individuate (route-b effect-modification evidence is absent).
 - **The ceiling is outcome-specific.** For someone already at >=\~500 g/day of varied whole F&V, the
   remaining *all-cause* lever is small (\~4 points of relative risk to 800 g) and rests on the thin
-  high-intake edge — for that outcome, a licence to stop optimizing (the high-intake flattening may
-  itself be partly a measurement artifact; see the measurement-error bullet under Dose-response SHAPE).
+  high-intake edge — for that outcome, diminishing returns: stopping there is a reasonable cost call
+  for the person, not a located plateau (the intervals below fit a shallow gradient too; the
+  high-intake flattening may itself be partly a measurement artifact; see the measurement-error bullet
+  under Dose-response SHAPE). (superseded 2026-11-13: this clause previously read *a licence to stop
+  optimizing*, a stop read off point estimates.)
   For CHD/CVD the data do not show a
   plateau within the studied range (to \~800 g/day), so *stop* is not licensed for a CHD-focused
   stratum; there the cheap move is toward \~800 g/day of fruit and vegetables in total, not vegetables
@@ -759,8 +749,6 @@ lineage**, NOT independent type-E backing -> [[Nut Consumption and Mortality]],
 [[Whole Grains Refined Grains and Pulses]].
 
 </div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
 
 ## A guidance family sets a recommended range and reports the same shape — NNR2023 `[2026-08-27, NNR revisit]`
 
@@ -837,10 +825,6 @@ concrete: NNR's F&V background paper is Rosell & Fadnes 2023, and Lars T Fadnes 
 second body, not by an independent route — no `[E-independent]`; `confidence: low` is unchanged.
 [inferred from @nnr2023]
 
-</div>
-
-<div class="recent-update" data-last-updated="2026-11-10">
-
 ## Refinement — the DIfE/Boeing 12-food-group series (2026-08-28)
 
 The series separates fruit from vegetables and shows their effects **diverge**. **Fruit** is
@@ -893,8 +877,6 @@ corroboration. (corrected 2026-10-22: previously *Both plateau at \~200-400 g/d*
 dropped the CHD qualifier for vegetables; and *T2D 0.98* and *null for adiposity* sat untraced to a
 cited source — now tagged to the T2D and overweight/obesity MAs.) Full cross-outcome grid ->
 [[Food Groups and Health Outcomes - A Dose-Response Matrix]].
-
-</div>
 
 ## Cognition / dementia outcome arm — a second observational lever, weaker than the CVD arm (2026-09-04)
 

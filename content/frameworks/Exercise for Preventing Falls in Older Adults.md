@@ -21,7 +21,7 @@ relationships:
     - Rating Outcome Importance
     - Aquatic Exercise vs Land-Based Exercise for Balance in Older Adults
 created: 2026-08-05
-updated: 2026-10-29
+updated: 2026-11-12
 self_critiqued: 2026-10-28
 ---
 
@@ -224,6 +224,8 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
 (a prescriber act needing this person's status).
 [inferred from @kahwati2018; @sherrington2019]
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Who, and how much — the stratification
 
 - **Route (a), stated by the source:** the *relative* effect does not vary by baseline fall-risk, age
@@ -284,9 +286,18 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
     supervised sessions a week for ≥12 weeks for intermediate-risk older adults
     [@pillay2024falls];
     the 2011 floor is the weaker, older figure and should not anchor the dose.
-- **Harms:** where reported, predominantly non-serious musculoskeletal; 2 serious events across all 108
-  trials (a pelvic stress fracture and a hernia). Adverse-event monitoring was poor (very low certainty),
-  but nothing signals net harm — the intervention is low-risk relative to a large benefit.
+- **Harms:** where reported, predominantly non-serious musculoskeletal. Only 41 of the 108 trials
+  reported adverse events to any degree; the 2 serious events (a pelvic stress fracture and an inguinal
+  hernia surgery) came from one trial in that subset, and only two trials recorded adverse events in both
+  exercise and control arms over the whole trial period
+  [@sherrington2019]. For the main
+  exercise-vs-control comparison: «Adverse events were reported to some degree in 27 trials (6019
+  participants) but were monitored closely in both exercise and control groups in only one trial.
+  Fourteen trials reported no adverse events.» — graded very low certainty
+  [@sherrington2019].
+  Nothing signals net harm, but that is the absence of a signal in incomplete, mostly one-arm reporting,
+  not a between-arm comparison; the intervention still reads as low-risk relative to a large benefit
+.
   - **The all-population harm pooling agrees on direction.** Niemeijer's meta-analysis of
     exercise-therapy RCTs (vs a non-exercising control, trials from Cochrane reviews to 2015) gives its
     *Older adults* group (its Table 1 includes frail, healthy, cognitively impaired,
@@ -301,6 +312,8 @@ Supplementation earns its place only in the confirmed-deficient / institutionali
     Cochrane search ended in November 2015, so the 2019 Sherrington review is not in its pool, but trials from earlier editions of that Cochrane
     series probably are; the two are therefore not independent confirmation.
     [inferred from @niemeijer2020]
+
+</div>
 
 ## Dose and programme design — the between-trial meta-regression (Sherrington 2017)
 

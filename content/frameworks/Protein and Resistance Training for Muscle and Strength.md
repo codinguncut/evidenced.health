@@ -23,8 +23,8 @@ relationships:
     - Protein Intake and Kidney Function
     - The Underivable Optimum
 created: 2026-07-29
-updated: 2026-11-10
-self_critiqued: 2026-09-08
+updated: 2026-11-13
+self_critiqued: 2026-11-13
 ---
 
 This is the **adaptation** side of the resistance-training lever, and it is the evidence Challenge #10
@@ -58,6 +58,8 @@ voluntary contraction at all.)
 
 
 [@morton2018]
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## How much protein — a plateau near 1.6 g/kg/day, with real uncertainty
 
 The decision-relevant number is a dose-response knee: «Protein supplementation beyond total protein
@@ -71,8 +73,10 @@ acute-MPS saturation is a real mechanism; it is the *chronic-FFM break-point* op
 **But hold the number loosely** (the lesson from Challenge #10): the break point is «1.62 (1.03, 2.20)»
 g/kg/day — the confidence interval runs from \~1.0 to \~2.2, so "\~1.6" is a central estimate with wide
 uncertainty, not a precise threshold. And the baseline matters: control groups were already eating «pre:
-1.4±0.3» g/kg/day, so the useful move is *reaching* roughly 1.6, not exceeding it — going higher buys no
-further lean mass.
+1.4±0.3» g/kg/day, so the useful move is *reaching* roughly 1.6, not exceeding it — going higher is not shown
+to add lean mass in this fit, which is not the same as shown to add none (the break-point fit is
+non-significant, p=0.079) (superseded 2026-11-13: previously *going higher buys no further
+lean mass*).
 
 *Two different objects, not a contradiction:* *reach \~1.6, don't exceed* describes the **plateau of the
 mean FFM effect within the observed range**; the *bias up to 1.8-2.2 for hypertrophy* move (Decision
@@ -165,6 +169,7 @@ aimed squarely at it is the acquisition that would move this — reported to giv
 muscle during weight loss in overweight/obesity; held as a candidate, not a finding, until ingested.
 `confidence: low`
 
+</div>
 
 ## The independent second opinion — Tagawa's 1.3 g/kg knee (a different quantity, not a contradiction)
 
@@ -354,7 +359,7 @@ adequate, *when* it is eaten is not a lever worth optimizing.
   1.40), p=0.03)» — the supplement's edge grows once someone is past the untrained-beginner phase.
 
 
-<div class="recent-update" data-last-updated="2026-11-10">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## In HEALTHY older adults, nutrition adds nothing over training alone — except creatine
 
@@ -371,8 +376,13 @@ muscle strength, or physical functional performance.»
   0.51 to 4.72).» Every other subgroup was null — hand grip «(χ2 = 0.12, p = .73)», appendicular skeletal
   muscle mass «(χ2 = 0.62, p = .43)», knee-extension «(χ2 = 4.89, p = .09)», chair-stand, timed-up-and-go.
   [@choi2021] Read the
-  magnitude with its pool: n=4 trials, and the *between*-subgroup test was NOT significant, so creatine is
-  a within-arm signal on a small set, not a demonstrated superiority over protein. It aligns with the
+  magnitude with its pool: n=4 trials. The lean-body-mass subgroup-difference test was significant —
+  «The subgroup analyses for lean body mass showed sig- nificant differences between the types of
+  nutritional in- terventions (Chi2 = 7.28, p = .03).»
+  [@choi2021] — but it is
+  a three-subgroup heterogeneity test (creatine, multi-nutrients, protein; Table 2), not a pairwise
+  creatine-vs-protein contrast, so creatine is a signal on a small set, not a demonstrated superiority over
+  protein. It aligns with the
   separate creatine evidence base -> [[Creatine Supplementation]], but does not by itself settle it.
 - **This EXTENDS Morton, it does not contradict it.** Morton's protein effect (+0.30 kg FFM) was measured
   in a mostly-young sample and was smaller in older trials, which supplemented less; Choi, in older adults
@@ -488,11 +498,14 @@ option for confirmed hypogonadism, not a substitute for the training. (No head-t
 held — this is an evidence-weighting judgment, not a trial result.)
 
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## Decision relevance
 
 - **If you do resistance training, aim for roughly 1.6 g/kg/day of total protein** — around there the
   lean-mass benefit appears to flatten (a mechanism-supported but statistically non-significant plateau,
-  so read it as a region — see below), and more is unlikely to add lean mass. Most people who already
+  so read it as a region — see below), and more is not shown to add lean mass (superseded 2026-11-13:
+  previously *unlikely to add*). Most people who already
   eat \~1.4 g/kg are close, so the move is topping up, not loading.
   - **Treat 1.6 as a REGION, not a point, and for a hypertrophy objective bias UP (\~1.8-2.2 g/kg/day).**
     The break-point is 1.62 g/kg/day with a *wide* 95% CI of 1.03-2.20, so *"1.6"* is a central estimate,
@@ -588,6 +601,8 @@ held — this is an evidence-weighting judgment, not a trial result.)
     window cutting protein intake (protein is eaten mostly at meals), a «caution for patient populations at risk for sarcopenia»
     -> [[Time-Restricted Eating]]. The mitigation is this page's number: keep meals/protein up inside
     the window. [@lowe2020]
+
+</div>
 
 ## Limits
 

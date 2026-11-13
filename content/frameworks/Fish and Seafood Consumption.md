@@ -7,7 +7,7 @@ sources: [EFSA - Seafood Benefits vs Methylmercury Risks 2014, EFSA - Mercury an
 cluster: fish-seafood
 nucleus: true
 confidence: medium
-self_critiqued: 2026-09-16
+self_critiqued: 2026-11-13
 relationships:
   related_to:
     - Is the Food Category Doing Any Work
@@ -21,7 +21,7 @@ relationships:
     - Dementia Prevention and Modifiable Risk Factors
     - Multidomain Lifestyle Intervention and Cognitive Decline
 created: 2026-08-05
-updated: 2026-09-17
+updated: 2026-11-13
 ---
 
 The `fish-seafood` nucleus. Fish is the rare exposure a guidance body **priced on both sides with
@@ -31,13 +31,20 @@ EFSA 2014 is the benefit arm of a two-part benefit-risk analysis (the methylmerc
 the separate CONTAM 2012 opinion, cited here for the tolerable intake).
 [inferred from @efsaseafood2014]
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The bottom line — where the benefit sits
 
 - **About 1-2 servings/week, and up to 3-4/week in pregnancy**, is associated with better outcomes vs
   no seafood; **the benefit is already present at \~1 serving/week**, and **no additional benefit is
   expected above \~4-5 servings/week** — on *both* neurodevelopment and CHD mortality.
   [@efsaseafood2014]
-- **This is a plateau, not a monotone curve** — a located knee for a food exposure (contrast the
+- **EFSA reads a plateau, not a monotone curve** — a flattening for a food exposure on EFSA's reading,
+  not an interval-located knee: the one held category interval past it (Zheng, fatal CHD: >=5 servings/week RR 0.83,
+  0.68-1.01, vs 0.79, 0.67-0.92 at 2-4/week, both vs very low intake)
+  [@efsaseafood2014] shows no further gain on the point
+  estimate and fits a plateau, a lost benefit or a small further gain alike, so more is not shown to buy more (superseded 2026-11-13: previously *This is a plateau ...
+  a located knee*) (contrast the
   monotone fibre and sodium curves -> [[Dietary Fibre and Health]], [[Sodium Intake and Blood Pressure]]). It is outcome-robust: the same *«no benefit might be expected at higher intakes»* holds for the
   child-IQ and the adult-CHD arms.
 - **A serving is \~100-150 g** in the European guidelines surveyed; most national FBDGs recommend
@@ -45,6 +52,8 @@ the separate CONTAM 2012 opinion, cited here for the tolerable intake).
   [@efsaseafood2014]
 
 [inferred from @efsaseafood2014]
+
+</div>
 
 ## The benefit side — three outcomes, all observational
 
@@ -370,6 +379,8 @@ labels because their use has been *«inconsistent and their meaning ill defined�
 [@efsaseafood2014] Replace the category with
 the species properties in any decision -> [[Is the Food Category Doing Any Work]] (Test 3).
 
+<div class="recent-update" data-last-updated="2026-11-13">
+
 ## The pooled magnitudes EFSA could not supply — Jayedi 2020 umbrella (type-F refinement)
 
 EFSA's benefit arm was **not quantified with certainty** — its CHD/IQ numbers were FDA/FAO-WHO models
@@ -438,14 +449,16 @@ re-pools the same cohort literature EFSA's four CHD MAs drew on and rests on the
 mechanism story, so its agreement raises detail and certainty, not independence.
 [inferred from @jayedi2020fish; @efsaseafood2014]
 
-**The dose-response shape reconciliation (decision-relevant):** EFSA reported a **plateau** (benefit
-gone above \~4-5 servings/week); Jayedi reports **linear-inverse** for all-cause and CVD mortality with
+**The dose-response shape reconciliation (decision-relevant):** EFSA reported a **plateau** (no additional
+benefit expected above \~4-5 servings/week; superseded 2026-11-13: previously *benefit gone above*); Jayedi reports **linear-inverse** for all-cause and CVD mortality with
 **no U/J shape**. These are not in conflict — EFSA's plateau evidence was CHD-mortality-specific (where
 Jayedi *also* finds nonlinearity), while for the broader mortality outcomes Jayedi finds every
 increment still pays. The shape is **outcome-specific**, matching the corpus's gate-6 finding that a
 curve can be monotone on one outcome and flat on another -> [[The U-Shaped Association Artifact]]. The
 conservative decision default (keep the \~1-2 servings/week target; more buys little on CHD mortality
 but may still help all-cause) is unchanged.
+
+</div>
 
 ## An independent US-cohort pool finds fish NULL — the measurement-fragile edge of the signal (Zhong 2020) `[2026-09-08]`
 

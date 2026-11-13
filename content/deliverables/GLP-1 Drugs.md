@@ -7,12 +7,11 @@ authors: [Rinella, Mary E; Badve, Sunil V; Bauer, Jürgen; Bi, Zheng; Bushi, Gan
 sources: [AASLD - MASLD Practice Guidance 2023, Badve - GLP-1 Receptor Agonists Kidney Cardiovascular Outcomes 2024, Bauer - PROT-AGE Protein Older Adults 2013, Bi - GLP-1 Depression Risk 2026, Bushi - GLP-1 Suicidal Ideation 2025, Cruz-Jentoft - Sarcopenia European Consensus EWGSOP2 2019, Eisa - Lean Mass Incretin Therapy Lifestyle 2026, Franz - Weight-Loss Outcomes 1-Year SR-MA 2007, Goldberg - DPPOS Cardiovascular Events 2022, Jastreboff - Tirzepatide Weekly Obesity SURMOUNT-1 2022, Kim - Protein Body Composition After Weight Loss 2016, Knowler - Diabetes Prevention Program DPP 2002, Laverde - GLP-1 Muscle Health Meta-Analysis 2026, Lincoff - Semaglutide and Cardiovascular Outcomes SELECT 2023, Look AHEAD - Cardiovascular Effects Lifestyle T2D 2013, Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021, Lundgren - Exercise Liraglutide Weight Loss Maintenance 2021 Appendix, Malhotra - SURMOUNT-OSA Tirzepatide 2024, Nong - Obesity Drugs Comparative Network Meta-Analysis 2026, Sardeli - Resistance Training Caloric Restriction, Sjostrom - SOS Bariatric Surgery Mortality 2007, Volker - GLP-1 Substance Use Disorders 2026, Wilding - Semaglutide STEP-1 Weight Management 2021, Wilding - Semaglutide STEP-1 Withdrawal 2022, Wycherley - Energy-Restricted High-Protein Weight Loss 2012, Yang - GLP-1 Noncardiometabolic Outcomes Umbrella 2026, Yu - CPAP Cardiovascular Events Meta-Analysis 2017, de Santana - Low Muscle Mass Mortality 2021]
 confidence: medium
 created: 2026-08-17
-updated: 2026-11-09
+updated: 2026-11-12
 self_critiqued: 2026-11-09
 concrete_subject_audited: 2026-11-09
 ---
-<div class="recent-page" data-last-updated="2026-11-09"></div>
-
+<div class="recent-update" data-last-updated="2026-11-12">
 
 GLP-1 drugs are the receptor agonists semaglutide and liraglutide and the dual GIP/GLP-1 agonist
 tirzepatide. **On average, semaglutide and tirzepatide make adults with obesity lose far more weight than
@@ -37,8 +36,10 @@ neither condition the effect on events is untested, which is not the same as abs
 begin with, so the same relative effect would prevent far fewer events. At a 5% ten-year risk it would
 prevent about one per 300 people treated over 3.3 years, against one per 67 in SELECT
 [inferred from @lincoff2023] ([[Baseline Risk and the Relative-Absolute Split]]).
-Tirzepatide ranks among the two most effective weight drugs in a network meta-analysis [@nong2026obesity], yet it has no cardiovascular outcome trial at all
-([[Semaglutide for Cardiovascular Risk in Obesity]]).
+Tirzepatide ranks among the two most effective weight drugs in a network meta-analysis, yet the
+hard-outcome signal for it there is fewer heart-failure events, with no shown fall in deaths or heart attacks
+[@nong2026obesity]. No trial of its effect
+on major cardiovascular events is held ([[Semaglutide for Cardiovascular Risk in Obesity]]).
 
 Blood sugar, blood pressure, liver fat and sleep apnoea all improve on the drugs, but trials have not yet
 measured most of the hard outcomes behind those markers ([[Surrogate Outcomes]]).
@@ -68,6 +69,8 @@ study *held*, it means a study in the body of evidence this appraisal was built 
 > including cosmetic use at near-normal weight, the evidence of benefit does not carry over, but the side
 > effects do.**
 
+</div>
+
 ## On average semaglutide and tirzepatide take off 12-18 points more weight than placebo, and individual responses vary widely
 
 How much weight comes off depends mostly on the drug; how long it stays off depends on whether you keep taking it. **In their pivotal trials, semaglutide and tirzepatide took off about 12-18 percentage points more body weight than placebo** over 68-72 weeks in adults without diabetes and with a BMI of 30 or more, or 27 or more with a weight-related condition. Both placebo groups also had diet-and-activity counselling, so **these figures are the drug's effect on top of a lifestyle programme**, not instead of one [@wilding2021] [@jastreboff2022].
@@ -79,6 +82,8 @@ How much weight comes off depends mostly on the drug; how long it stays off depe
 **The average hides a wide spread, so it is not a forecast for any one person.** In STEP-1, 69.1% of people on semaglutide lost at least 10% of their weight (12.0% on placebo), 50.5% lost at least 15% (4.9%) and 32.0% lost at least 20% (1.7%). About a third of those on the drug lost less than 10% [@wilding2021].
 
 The two drugs were never compared head to head, and the SURMOUNT-1 authors say their result cannot be compared directly with semaglutide's [@jastreboff2022] -> [[Comparing Obesity Drugs]].
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Fewer heart attacks and deaths are shown only if you already have heart disease or diabetes
 
@@ -116,7 +121,13 @@ The other interventions this appraisal draws on show the same gap for a low-risk
 
 The case for lifestyle weight loss rests on what it demonstrably moves, such as blood sugar and remission of diabetes, not on fewer heart attacks. In type 2 diabetes the drug class already lowers events and death, so lifestyle change earns its place there through the outcomes the drug does not replace [inferred from @look2013; @badve2024glp1] -> [[Layer 1 - Ranking Interventions for a Stratum]].
 
-**Tirzepatide takes off more weight than semaglutide in the indirect network comparison [@nong2026obesity], but has no cardiovascular outcome trial.** Its pivotal obesity trial measured weight [@jastreboff2022], and the class meta-analysis left out dual GLP-1/GIP agonists by design [@badve2024glp1]. Neither SELECT's result nor the class result extends to it; its outcome trial is not yet held. Better markers do not prove fewer events either. In Look AHEAD the lifestyle arm lowered HbA1c more than the control arm and, at least initially, improved fitness and every cardiovascular risk factor except LDL cholesterol more; events still did not fall [@look2013].
+**Tirzepatide takes off more weight than semaglutide in the indirect network comparison [@nong2026obesity], but no trial of its effect on major cardiovascular events is held.** The same network found fewer heart-failure events on tirzepatide (RR 0.49, 0.27 to 0.88; three trials, 2,240 people; moderate-to-high certainty), but no shown reduction in deaths or heart attacks [@nong2026obesity].
+
+Its pivotal obesity trial measured weight [@jastreboff2022], and the class meta-analysis left out dual GLP-1/GIP agonists by design [@badve2024glp1]. Neither SELECT's result nor the class result extends to it; its outcome trial is not yet held. Better markers do not prove fewer events either. In Look AHEAD the lifestyle arm lowered HbA1c more than the control arm and, at least initially, improved fitness and every cardiovascular risk factor except LDL cholesterol more; events still did not fall [@look2013].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Blood sugar, liver fat, blood pressure and sleep apnoea improve; the hard endpoints are mostly unmeasured
 
@@ -142,11 +153,15 @@ In STEP-1, systolic pressure fell 5.10 mmHg more than on placebo at week 68 (-6.
 
 Two 52-week SURMOUNT-OSA trials enrolled 469 adults with moderate-to-severe obstructive sleep apnoea and obesity. Tirzepatide cut the apnoea-hypopnoea index by 20.0 events per hour (95% CI -25.8 to -14.2) and 23.8 (-29.6 to -17.9) more than placebo. At week 48, systolic pressure fell 7.6 mmHg (-10.5 to -4.8) and 3.7 (-6.8 to -0.7) more than on placebo [@malhotra2024surmount].
 
-**Neither tirzepatide nor CPAP has shown fewer cardiovascular events.** The tirzepatide trials were too short to assess them, the authors state [@malhotra2024surmount], and pooled CPAP trials found no significant change in major cardiovascular events (RR 0.77, 0.53-1.13) [@yu2017cpap] -> [[Sleep Apnea Treatment and Cardiovascular Risk]].
+**Neither tirzepatide nor CPAP has shown fewer major cardiovascular events.** The tirzepatide trials were too short to assess them, the authors state [@malhotra2024surmount], and pooled CPAP trials found no significant change in major cardiovascular events (RR 0.77, 0.53-1.13) [@yu2017cpap] -> [[Sleep Apnea Treatment and Cardiovascular Risk]].
 
 ### Kidney
 
 In type 2 diabetes trials, the GLP-1 class lowered a hard kidney composite (kidney failure, a sustained fall in eGFR of 50% or more, or kidney death), HR 0.82 (0.73-0.93), high certainty. Most trials enrolled people at low kidney risk, so the absolute gain was modest: 164 people treated for 25.1 months to prevent one event [@badve2024glp1]. Treating established kidney disease is outside this appraisal; the trial in chronic kidney disease is on [[Semaglutide and Kidney Outcomes in Chronic Kidney Disease]].
+
+</div>
+
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Gut side effects are common and drive stopping; the other harms are possible signals or unresolved
 
@@ -190,7 +205,9 @@ None of these four trials lists psychiatric illness among its key exclusion crit
 
 **Whether the drugs cause pancreatitis is unsettled.** The umbrella found pancreatitis more likely on the drug and still calls causation unsettled [@yang2026]. In the class outcome trials, acute pancreatitis, pancreatic cancer and medullary thyroid cancer were similar on drug and placebo [@badve2024glp1].
 
-**The studies show no consistent population signal for suicidality, and the uncertainty is large.** Bushi's systematic review of 11 observational and pharmacovigilance studies concludes that the pharmacovigilance studies showed no disproportionate increase in suicidality overall. It pooled four studies comparing GLP-1 drugs with other glucose-lowering drugs to RR 0.57 (0.08-4.21; I² 98%). One WHO-database analysis it reviews did find suicidal ideation on semaglutide reported more often than expected (reporting odds ratio 1.45, 1.18-1.77), and more often still in people also prescribed antidepressants (4.45, 2.52-7.86) or benzodiazepines (4.07, 1.69-9.82) [@glp1suicidality2025]. Those co-prescriptions mark existing psychiatric illness, so that signal may be confounded by indication. The pooled interval (0.08-4.21) runs from strong protection to a fourfold harm, and no pool of trial-adjudicated events exists [inferred from @glp1suicidality2025].
+**The studies show no consistent population signal for suicidality, and the uncertainty is large.** Bushi's systematic review of 11 observational and pharmacovigilance studies concludes that the pharmacovigilance studies showed no disproportionate increase in suicidality overall. It pooled four studies comparing GLP-1 drugs with other glucose-lowering drugs to RR 0.57 (0.08-4.21; I² 98%). One WHO-database analysis it reviews did find suicidal ideation on semaglutide reported more often than expected (reporting odds ratio 1.45, 1.18-1.77), and more often still in people also prescribed antidepressants (4.45, 2.52-7.86) or benzodiazepines (4.07, 1.69-9.82) [@glp1suicidality2025].
+
+Bushi reads those higher figures as a sign that people with existing mental health conditions may be more vulnerable to the drugs' neuropsychiatric effects, possibly through an interaction with psychiatric medication [@glp1suicidality2025]. The co-prescriptions also mark existing psychiatric illness, so the same signal may instead be confounded by indication. The pooled interval (0.08-4.21) runs from strong protection to a fourfold harm, and no pool of trial-adjudicated events exists [inferred from @glp1suicidality2025].
 
 **Loss of pleasure (anhedonia) has never been measured in people on these drugs.** In animal studies the drugs cut alcohol and drug seeking. Whether food and sweet rewards were spared varied between experiments, and higher doses suppressed sucrose intake as well [@volker2026glp1sud]. None of this tests pleasure in humans. Craving for alcohol and nicotine, a separate outcome, leans toward benefit -> [[GLP-1 and Reward Beyond Food]].
 
@@ -201,6 +218,8 @@ None of these four trials lists psychiatric illness among its key exclusion crit
 ### Which harms belong to the drug, and which to fast weight loss, is open
 
 **The gut excess belongs to the drug**: the placebo-controlled trials isolate it [inferred from @yang2026]. For gallbladder disease, lean mass and visible change in facial and skin fat, no held study compares drug, diet and surgery at a matched amount of weight lost. It is not yet known whether those changes come from the drug itself or from losing a lot of weight quickly by any route. The held trials on how fast to lose weight are not GLP-1 trials, and for facial and skin fat no held study gives a number at all -> [[GLP-1 and Lean Mass]].
+
+</div>
 
 ## Lean mass falls with the fat; lift weights and eat enough protein, especially if you are older
 
@@ -459,13 +478,15 @@ Four outcomes remain **untested, not cleared**, because the trials ran too short
 
 **A long safety record covers the molecule and dose that built it, not the next one.** Semaglutide has the longest record, while prescribers are moving to tirzepatide (which adds a GIP target) and to glucagon co-agonists such as retatrutide ([[GLP-1 Non-Cardiometabolic Effects and Safety]]). The umbrella's tirzepatide analyses included few studies and are exploratory [@yang2026]. A person who switches agents does not escape the class's shared effects either: effects of the shared GLP-1 receptor action, such as the gut side effects and the gallbladder signal, carry across the class and do not start over [inferred from @yang2026].
 
+<div class="recent-update" data-last-updated="2026-11-12">
+
 ## Action summary: match the decision to your group
 
 **If you have established cardiovascular disease or type 2 diabetes, you have the strongest case for a GLP-1 drug, because this is where the drugs have shown fewer major cardiovascular events.** In established
 cardiovascular disease, semaglutide prevented about one major event per 67 people treated for 3.3 years.
 In type 2 diabetes, the class prevented about one per 74 over two years. In both, the drug came on top of
-standard care such as statins, not in place of it. Caveat: the result does not extend to tirzepatide, which has no
-outcome trial ([[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]],
+standard care such as statins, not in place of it. Caveat: the result does not extend to tirzepatide, which has a
+heart-failure signal but no held trial of major cardiovascular events ([[GLP-1 Receptor Agonists and Cardiovascular and Kidney Outcomes]],
 [[Semaglutide for Cardiovascular Risk in Obesity]]).
 
 **If you have obesity but neither condition, choose a GLP-1 drug for the weight loss and its effects on
@@ -492,7 +513,7 @@ function (eGFR below 30, not on dialysis) the protein target is lower, at 0.8 g/
 prescriber how your mood will be checked before you start.** Pooled trials and cohorts, mostly in type 2
 diabetes, link the drugs to more depression-related events, with confounding the main alternative explanation.
 
-The drug-safety (pharmacovigilance) studies in one systematic review show no disproportionate increase in suicidality overall. One analysis of the WHO reporting database that it reviews did find suicidal ideation reported more often than expected on semaglutide, and more often still in people also taking psychiatric drugs; that prescription itself marks existing illness. In the randomised trials held here, psychiatric events (serious ones, in SELECT) showed no clear excess
+The drug-safety (pharmacovigilance) studies in one systematic review show no disproportionate increase in suicidality overall. One analysis of the WHO reporting database that it reviews did find suicidal ideation reported more often than expected on semaglutide, and more often still in people also taking psychiatric drugs. The review reads this as possible greater vulnerability in people with existing mental illness, possibly an interaction with their medication [@glp1suicidality2025]; because the prescription also marks existing illness, the excess may instead be confounding [inferred from @glp1suicidality2025]. In the randomised trials held here, psychiatric events (serious ones, in SELECT) showed no clear excess
 on the drug (harms section above, [[GLP-1 and Reward Beyond Food]]). Caveat: the four large trial reports do
 not show how many people with psychiatric illness they enrolled, so the risk in this group is poorly measured.
 
@@ -503,7 +524,7 @@ the lean-mass loss and the regain on stopping are expected to apply [inferred fr
 balance here is unknown, not known to be negative.
 
 Four questions stay open for every group. Do the drugs prevent cardiovascular events in people without
-heart disease or diabetes? Does tirzepatide prevent them at all? What does the lost lean mass do to strength
+heart disease or diabetes? Does tirzepatide prevent major cardiovascular events, beyond its heart-failure signal? What does the lost lean mass do to strength
 and function? And what do decades of use bring? ([[Semaglutide for Cardiovascular Risk in Obesity]],
 [[GLP-1 and Lean Mass]].) This appraisal checks that its conclusions follow from the studies it cites. It
 cannot check them against what happens to the people who act on them.
@@ -516,6 +537,8 @@ cannot check them against what happens to the people who act on them.
 > | **Evidence included** | 28 sources — 13 gold, 15 high |
 > | **Overall certainty** | **Medium** (see [[Rating Certainty of Evidence]]) |
 > | **Source-selection note** | All sources are gold or high tier. |
-> | **Last updated** | 2026-11-09 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+> | **Last updated** | 2026-11-12 · Independently reviewed: No · [Full edit history](https://github.com/codinguncut/evidenced.health/commits/main/content/deliverables/GLP-1%20Drugs.md) |
+
+</div>
 
 ## References

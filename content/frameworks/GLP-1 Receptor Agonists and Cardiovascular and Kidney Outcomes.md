@@ -17,7 +17,7 @@ relationships:
     - Baseline Risk and the Relative-Absolute Split
     - GLP-1 Non-Cardiometabolic Effects and Safety
 created: 2026-09-05
-updated: 2026-10-06
+updated: 2026-11-12
 self_critiqued: 2026-10-06
 ---
 
@@ -141,7 +141,7 @@ net of the alternative's own harms).
   decay untested.)
 
 
-<div class="recent-update" data-last-updated="2026-11-09">
+<div class="recent-update" data-last-updated="2026-11-12">
 
 ## Synthesis — Layer-1 sizing: what this shrinks, and what it does NOT
 
@@ -170,9 +170,12 @@ must be relied on to deliver at the margin.
   for mortality the two are substitutes to be compared, not separate channels. (corrected 2026-10-06:
   all-cause mortality removed from the non-substitutable list.)
 - **The CV benefit here is largely weight-INDEPENDENT.** These are glucose-lowering CVOTs with modest
-  weight loss; Badve does not report when the curves separate, but in the single trial SELECT benefit
-  separated early, before much weight was lost (extracted on [[Semaglutide for Cardiovascular Risk in Obesity]])
-  — read as a drug pleiotropic effect, not purely a weight-loss effect.
+  weight loss; Badve does not report when the curves separate, but in the single trial SELECT the
+  between-group difference emerged early, and the trialists speculate that treatment-induced changes
+  beyond the amount of weight lost *may* have mediated at least part of the benefit — SELECT reports no
+  weight figure at the time of separation, so this is their hedged reading, not a measured
+  weight-independent effect (extracted on [[Semaglutide for Cardiovascular Risk in Obesity]]).
+  (corrected 2026-11-12: *separated early, before much weight was lost* -> the trialists' hedged speculation.)
   (corrected 2026-10-06: early separation was asserted for the class on Badve -> it is SELECT's single-trial finding.) So this evidence does *not* show that losing weight cuts
   CV events; it *reinforces* the [[Does Weight Loss Reduce Cardiovascular Events]] thesis that the route
   matters. [inferred from @badve2024glp1]
